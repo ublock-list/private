@@ -1,0 +1,194 @@
+! SHIT PSA RELATED TORRENT SITES
+shaikhzubair.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+shaikhzubair.*##+js(abort-on-property-read.js, open)
+||shaikhzubair.*/sw.js$script,1p
+shaikhzubair.*##+js(abort-on-property-write.js, Fingerprint2)
+shaikhzubair.*##+js(bab-defuser.js)
+shaikhzubair.*##+js(noeval.js)
+shaikhzubair.*##+js(set-constant.js, blockAdBlock, true)
+
+viralusablog.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+viralusablog.*##+js(abort-on-property-read.js, open)
+||viralusablog.*/sw.js$script,1p
+viralusablog.*##+js(abort-on-property-write.js, Fingerprint2)
+viralusablog.*##+js(bab-defuser.js)
+viralusablog.*##+js(noeval.js)
+viralusablog.*##+js(set-constant.js, blockAdBlock, true)
+
+mysiterank.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+mysiterank.*##+js(abort-on-property-read.js, open)
+||mysiterank.*/sw.js$script,1p
+mysiterank.*##+js(abort-on-property-write.js, Fingerprint2)
+mysiterank.*##+js(bab-defuser.js)
+mysiterank.*##+js(noeval.js)
+mysiterank.*##+js(set-constant.js, blockAdBlock, true)
+
+uchu.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+uchu.*##+js(abort-on-property-read.js, open)
+||uchu.*/sw.js$script,1p
+uchu.*##+js(abort-on-property-write.js, Fingerprint2)
+uchu.*##+js(bab-defuser.js)
+uchu.*##+js(noeval.js)
+uchu.*##+js(set-constant.js, blockAdBlock, true)
+
+uusedy.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+uusedy.*##+js(abort-on-property-read.js, open)
+||uusedy.*/sw.js$script,1p
+uusedy.*##+js(abort-on-property-write.js, Fingerprint2)
+uusedy.*##+js(bab-defuser.js)
+uusedy.*##+js(noeval.js)
+uusedy.*##+js(set-constant.js, blockAdBlock, true)
+
+bollyleague.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+bollyleague.*##+js(abort-on-property-read.js, open)
+||bollyleague.*/sw.js$script,1p
+bollyleague.*##+js(abort-on-property-write.js, Fingerprint2)
+bollyleague.*##+js(bab-defuser.js)
+bollyleague.*##+js(noeval.js)
+bollyleague.*##+js(set-constant.js, blockAdBlock, true)
+
+veblink.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+veblink.*##+js(abort-on-property-read.js, open)
+||veblink.*/sw.js$script,1p
+veblink.*##+js(abort-on-property-write.js, Fingerprint2)
+veblink.*##+js(bab-defuser.js)
+veblink.*##+js(noeval.js)
+veblink.*##+js(set-constant.js, blockAdBlock, true)
+
+guldasta.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+guldasta.*##+js(abort-on-property-read.js, open)
+||guldasta.*/sw.js$script,1p
+guldasta.*##+js(abort-on-property-write.js, Fingerprint2)
+guldasta.*##+js(bab-defuser.js)
+guldasta.*##+js(noeval.js)
+guldasta.*##+js(set-constant.js, blockAdBlock, true)
+
+stbetk.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+stbetk.*##+js(abort-on-property-read.js, open)
+||stbetk.*/sw.js$script,1p
+stbetk.*##+js(abort-on-property-write.js, Fingerprint2)
+stbetk.*##+js(bab-defuser.js)
+stbetk.*##+js(noeval.js)
+stbetk.*##+js(set-constant.js, blockAdBlock, true)
+
+viralsun.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+viralsun.*##+js(abort-on-property-read.js, open)
+||viralsun.*/sw.js$script,1p
+viralsun.*##+js(abort-on-property-write.js, Fingerprint2)
+viralsun.*##+js(bab-defuser.js)
+viralsun.*##+js(noeval.js)
+viralsun.*##+js(set-constant.js, blockAdBlock, true)
+
+pro4book.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+pro4book.*##+js(abort-on-property-read.js, open)
+||pro4book.*/sw.js$script,1p
+pro4book.*##+js(abort-on-property-write.js, Fingerprint2)
+pro4book.*##+js(bab-defuser.js)
+pro4book.*##+js(noeval.js)
+pro4book.*##+js(set-constant.js, blockAdBlock, true)
+
+clk.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+clk.*##+js(abort-on-property-read.js, open)
+||clk.*/sw.js$script,1p
+clk.*##+js(abort-on-property-write.js, Fingerprint2)
+clk.*##+js(bab-defuser.js)
+clk.*##+js(noeval.js)
+clk.*##+js(set-constant.js, blockAdBlock, true)
+
+voxc.*##+js(abort-on-property-read.js, links)
+voxc.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+voxc.*##+js(abort-on-property-read.js, open)
+voxc.*##+js(addEventListener-defuser.js, load, nextFunction)
+@@||voxc.*^$generichide
+voxc.*##.adsbygoogle
+voxc.*##.SC_TBlock
+||voxc.*/a-ads.php
+||voxc.*/sw.js
+
+matb5aliom.*##+js(abort-on-property-read.js, links)
+matb5aliom.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+matb5aliom.*##+js(abort-on-property-read.js, open)
+matb5aliom.*##+js(addEventListener-defuser.js, load, nextFunction)
+@@||matb5aliom.*^$generichide
+matb5aliom.*##.adsbygoogle
+matb5aliom.*##.SC_TBlock
+||matb5aliom.*/a-ads.php
+||matb5aliom.*/sw.js
+
+dz4win.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+dz4win.*##+js(abort-on-property-read.js, open)
+||dz4win.*/sw.js$script,1p
+dz4win.*##+js(abort-on-property-write.js, Fingerprint2)
+dz4win.*##+js(bab-defuser.js)
+dz4win.*##+js(noeval.js)
+dz4win.*##+js(set-constant.js, blockAdBlock, true)
+
+savelink.*##+js(abort-on-property-read.js, links)
+savelink.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+savelink.*##+js(abort-on-property-read.js, open)
+savelink.*##+js(addEventListener-defuser.js, load, nextFunction)
+@@||savelink.*^$generichide
+savelink.*##.adsbygoogle
+savelink.*##.SC_TBlock
+||savelink.*/a-ads.php
+||savelink.*/sw.js
+
+! PORNHUB
+pornhub.com##:xpath(//deicc)
+pornhub.com##:xpath(//cddei)
+pornhub.com###js-abContainterMain
+www.pornhub.com###p2vVideosVPage
+www.pornhub.com###customSkinCTA
+www.pornhub.com###headerUpgradePremiumBtn
+www.pornhub.com##.backgroundImg
+www.pornhub.com###js-networkBar
+www.pornhub.com##.phimage[data-entrycode="VidPg-premVid-videoPage"]
+www.pornhub.com##.phimage[data-entrycode="VidPg-premVid-videoPage"] + div
+www.pornhub.com##.phimage[data-entrycode="VidPg-premVid-videoPage"] + div + div
+www.pornhub.com##.userActions
+www.pornhub.com##.video-wrapper.hd-videos_wrapper.hd-smallerWidth.sectionWrapper
+www.pornhub.com##.livesex.item-4.menu.asyncLoad
+www.pornhub.com##.pornstar.item-5.menu
+www.pornhub.com##.community.item-7.menu
+www.pornhub.com##.omega.photos.item-8.menu
+www.pornhub.com##.headerBtnsWrapper
+www.pornhub.com###topRightProfileMenu
+www.pornhub.com##.footerContentWrapper
+www.pornhub.com###welcome
+www.pornhub.com##.tooltipTrig.spriteProfileIcons.light.greyButton.buttonClass
+www.pornhub.com##.profile-sidebar
+www.pornhub.com###profileStream
+www.pornhub.com##.fanButtonWrapper
+www.pornhub.com##.userButtonsMenu
+www.pornhub.com##.active.fanclub-info-pop
+www.pornhub.com##.frontListingWrapper > div:first-child
+www.pornhub.com##.frontListingWrapper > div:nth-child(2)
+www.pornhub.com##.frontListingWrapper > div:nth-child(3)
+www.pornhub.com###cmtWrapper
+www.pornhub.com##.favorites-message
+www.pornhub.com###hd-rightColVideoPage
+www.pornhub.com###vpContentContainer:style(display: block !important;)
+www.pornhub.com##.relatedSearchTermsBottom 
+www.pornhub.com##.tagsForWomen
+www.pornhub.com##.tagsForMen
+www.pornhub.com###videoSearchResult ~ div.sectionWrapper > #bottomVideos
+www.pornhub.com###videoSearchResult ~ div.sectionWrapper h2
+www.pornhub.com##.cookieBanner
+
+! OKCUPID
+okcupid.com##.discovery-ad
+okcupid.com##.messenger-main-window:style(width: 95vw !important;)
+okcupid.com###leaderboard_container
+
+! PARSHIP
+uk.parship.com##.is-open
+
+! TELEGRAPH DATING
+dating.telegraph.co.uk##.cc-bottom.cc-theme-block.cc-type-info.cc-floating.cc-window
+
+! FUE CLINICS
+www.fueclinics.com##.ct-ultimate-gdpr-cookie-popup-squared.ct-ultimate-gdpr-cookie-popup-classic.ct-ultimate-gdpr-cookie-bottomPanel.ct-ultimate-gdpr-cookie-popup-standard-settings
+www.fueclinics.com###announcement-bar
+www.fueclinics.com###announcement-bar-footer
+www.fueclinics.com###ht-ctc-chat\ > div
+||widget.reviews.co.uk$subdocument
