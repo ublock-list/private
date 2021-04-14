@@ -2568,7 +2568,8 @@ www.theguardian.com###most-viewed-footer
 www.theguardian.com###sub-nav-root
 www.theguardian.com###reader-revenue-links-footer
 www.theguardian.com###slot-body-end ~ *
-theguardian.com##*[data-component="rich-link"]
+www.theguardian.com##*[data-component="rich-link"]
+www.theguardian.com##*[data-print-layout="hide"]
 
 ! THE INDEPENDENT
 www.independent.co.uk##.show-in-storybook.access-container
