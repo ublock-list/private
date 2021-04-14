@@ -41,8 +41,9 @@
 ||commento.io
 ||connexone.co.uk
 ||consensu.org
-!||consent.youtube.com
+||consent.cmp.oath.com
 ||consent.yahoo.com
+!||consent.youtube.com
 ||content-tab.com
 ||cookie-script.com
 ||cookiebot.com
@@ -576,6 +577,10 @@ www.autocar.co.uk##.twitter-follow-button
 www.autocar.co.uk##.block-car-reviews-spotlight
 www.autocar.co.uk###wrapper-pagination-sub-nav
 www.autocar.co.uk##.back-to-top-wrapper
+www.autocar.co.uk##.block-topic-tags
+www.autocar.co.uk##*[class*="block-mobile-sitewide-sidebar-type-"]
+www.autocar.co.uk##:xpath(//p[child::strong[contains(text(), 'READ MORE')]])
+www.autocar.co.uk##:xpath(//p[child::strong[contains(text(), 'READ MORE')]]) ~ *
 ||www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/save_you_money_*.jpg$image
 ||www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/what-car-new-buying-*.jpg$image
 
@@ -656,56 +661,56 @@ www.diy.com##footer svg
 www.diy.com##:xpath(//div[child::h2[contains(text(), 'Customers who bought this also browsed')]])
 
 ! BBC NEWS
-www.bbc.co.uk###cookiePrompt
-www.bbc.co.uk##.exhqgzu6.ssrcss-u3tmht-ConsentBanner
-www.bbc.co.uk##div[class*="-StyledTagContainer"]
-www.bbc.co.uk##div[class*="-TagShareWrapper"]
-www.bbc.co.uk##nav[class*="-GlobalNavigation"]
-www.bbc.co.uk##*[data-component="unordered-list-block"]
-www.bbc.co.uk##*[data-component="tag-list"]
-www.bbc.co.uk##*[data-component="see-alsos"]
-www.bbc.co.uk##*[data-component="topStories"]
-www.bbc.co.uk##*[data-component="features"]
-www.bbc.co.uk##*[data-component="elsewhere"]
-www.bbc.co.uk##*[data-component="mostRead"]
-www.bbc.co.uk##*[data-component="related-internet-links"]
-www.bbc.co.uk##*[data-component="regionalIndexExternalLinks"]
-www.bbc.co.uk##*[data-testid="related-video-group--related"]
-www.bbc.co.uk##*[data-testid="related-video-group--recommended"]
-www.bbc.co.uk##.js-local-news
-www.bbc.co.uk##.nw-c-sport
-www.bbc.co.uk##.ws-c-social-slice
-www.bbc.co.uk###navp-orb-footer-promo
-www.bbc.co.uk###orb-banner
-www.bbc.co.uk##.lx-stream-post__footer-share
-www.bbc.co.uk##.instagram-media
-www.bbc.co.uk##.gs-o-faux-block-link.gs-u-mb\@m.gs-u-pr0\@m.gs-u-pr\@s.gs-u-mb0\@s.gs-u-mb.gel-1\/1\@m.gel-1\/2\@s.gel-layout__item > .gs-c-promo
-www.bbc.co.uk##div.gs-o-faux-block-link.gel-1\/1\@m.gel-1\/2\@s.gel-layout__item:nth-of-type(2)
-www.bbc.co.uk##.gel-1\/1.b-pw-1280.gs-u-box-size.no-touch.nw-c-breaking-news-banner.js-breaking-news-banner
-www.bbc.co.uk##.nw-c-Newsbeat
-www.bbc.co.uk###footer-content > div:first-child
-www.bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'Around the BBC - Sounds')]])
-www.bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, "Banner image reading 'more about coronavirus'")]])
-www.bbc.co.uk##.LongArticle-header.LongArticle-bookend
-www.bbc.co.uk##.LongArticle-footer
-www.bbc.co.uk##.RelatedBucket.u-lg-hidden
-www.bbc.co.uk##.relatedContent
-www.bbc.co.uk##.footer
-www.bbc.co.uk##.news-app-promo
-www.bbc.co.uk##div[class*="-ContainerWithSidebarWrapper"]:style(display: block !important;)
-www.bbc.co.uk##div[class*="-MainColumn"]:style(max-width: 100% !important;)
-www.bbc.co.uk##div[class*="-MainColumn"] + div
-www.bbc.co.uk##*[data-component="text-block"]:style(max-width: 100% !important;)
-www.bbc.co.uk##*[data-component="image-block"]:style(max-width: 100% !important;)
-www.bbc.co.uk##*[data-component="media-block"]:style(max-width: 100% !important;)
-bbc.co.uk##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[starts-with(text(), 'More from')]])
-bbc.co.uk##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[starts-with(text(), 'More from')]]) ~ *
-bbc.co.uk##:xpath(//div[contains(@data-component, 'text-block') and descendant::i[contains(text(), 'Follow us on')]])
-bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Around the BBC')]])
-bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Around the BBC')]]) ~ *
-bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner')]])
-bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner Image')]]) ~ *
-bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner saying')]]) ~ *
+www.bbc.*###cookiePrompt
+www.bbc.*##.exhqgzu6.ssrcss-u3tmht-ConsentBanner
+www.bbc.*##div[class*="-StyledTagContainer"]
+www.bbc.*##div[class*="-TagShareWrapper"]
+www.bbc.*##nav[class*="-GlobalNavigation"]
+www.bbc.*##*[data-component="unordered-list-block"]
+www.bbc.*##*[data-component="tag-list"]
+www.bbc.*##*[data-component="see-alsos"]
+www.bbc.*##*[data-component="topStories"]
+www.bbc.*##*[data-component="features"]
+www.bbc.*##*[data-component="elsewhere"]
+www.bbc.*##*[data-component="mostRead"]
+www.bbc.*##*[data-component="related-internet-links"]
+www.bbc.*##*[data-component="regionalIndexExternalLinks"]
+www.bbc.*##*[data-testid="related-video-group--related"]
+www.bbc.*##*[data-testid="related-video-group--recommended"]
+www.bbc.*##.js-local-news
+www.bbc.*##.nw-c-sport
+www.bbc.*##.ws-c-social-slice
+www.bbc.*###navp-orb-footer-promo
+www.bbc.*###orb-banner
+www.bbc.*k##.lx-stream-post__footer-share
+www.bbc.*##.instagram-media
+www.bbc.*##.gs-o-faux-block-link.gs-u-mb\@m.gs-u-pr0\@m.gs-u-pr\@s.gs-u-mb0\@s.gs-u-mb.gel-1\/1\@m.gel-1\/2\@s.gel-layout__item > .gs-c-promo
+www.bbc.*##div.gs-o-faux-block-link.gel-1\/1\@m.gel-1\/2\@s.gel-layout__item:nth-of-type(2)
+www.bbc.*##.gel-1\/1.b-pw-1280.gs-u-box-size.no-touch.nw-c-breaking-news-banner.js-breaking-news-banner
+www.bbc.*##.nw-c-Newsbeat
+www.bbc.*###footer-content > div:first-child
+www.bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'Around the BBC - Sounds')]])
+www.bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, "Banner image reading 'more about coronavirus'")]])
+www.bbc.*k##.LongArticle-header.LongArticle-bookend
+www.bbc.*##.LongArticle-footer
+www.bbc.*##.RelatedBucket.u-lg-hidden
+www.bbc.*##.relatedContent
+www.bbc.*##.footer
+www.bbc.*##.news-app-promo
+www.bbc.*##div[class*="-ContainerWithSidebarWrapper"]:style(display: block !important;)
+www.bbc.*##div[class*="-MainColumn"]:style(max-width: 100% !important;)
+www.bbc.*##div[class*="-MainColumn"] + div
+www.bbc.*##*[data-component="text-block"]:style(max-width: 100% !important;)
+www.bbc.*##*[data-component="image-block"]:style(max-width: 100% !important;)
+www.bbc.*##*[data-component="media-block"]:style(max-width: 100% !important;)
+www.bbc.co.uk##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[starts-with(text(), 'More from')]])
+www.bbc.co.uk##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[starts-with(text(), 'More from')]]) ~ *
+www.bbc.co.uk##:xpath(//div[contains(@data-component, 'text-block') and descendant::i[contains(text(), 'Follow us on')]])
+www.bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Around the BBC')]])
+www.bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Around the BBC')]]) ~ *
+www.bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner')]])
+www.bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner Image')]]) ~ *
+www.bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner saying')]]) ~ *
 
 ! BBC GOOD FOOD
 www.bbcgoodfood.com##.template-article__social-share
@@ -871,6 +876,8 @@ www.cnet.com##.c-head_disclosure
 www.cnet.com##.c-assetAuthor_authors
 www.cnet.com##.c-assetAuthor_profile
 www.cnet.com##.c-head_bottomWrapper
+www.cnet.com##:xpath(//p[child::strong[contains(text(), 'Read more')]])
+www.cnet.com###contentBody > .row > .pageWrapper:not(:first-child)
 
 ! COMPUTER WORLD
 www.computerworld.com##.right-rail
@@ -3343,6 +3350,8 @@ www.zdnet.com##.multi-topic-module
 www.zdnet.com##.featuredStories
 www.zdnet.com##.mostPopular
 www.zdnet.com###content-recommendation
+zdnet.com###onetrust-consent-sdk
+zdnet.com###onetrust-consent-sdk:style(display: none !important)
 
 ! ZOOPLUS
 www.zooplus.co.uk##.contentful-loaded
