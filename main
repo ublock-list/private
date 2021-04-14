@@ -703,14 +703,14 @@ www.bbc.*##div[class*="-MainColumn"] + div
 www.bbc.*##*[data-component="text-block"]:style(max-width: 100% !important;)
 www.bbc.*##*[data-component="image-block"]:style(max-width: 100% !important;)
 www.bbc.*##*[data-component="media-block"]:style(max-width: 100% !important;)
-www.bbc.co.uk##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[starts-with(text(), 'More from')]])
-www.bbc.co.uk##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[starts-with(text(), 'More from')]]) ~ *
-www.bbc.co.uk##:xpath(//div[contains(@data-component, 'text-block') and descendant::i[contains(text(), 'Follow us on')]])
-www.bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Around the BBC')]])
-www.bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Around the BBC')]]) ~ *
-www.bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner')]])
-www.bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner Image')]]) ~ *
-www.bbc.co.uk##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner saying')]]) ~ *
+www.bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[starts-with(text(), 'More from')]])
+www.bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[starts-with(text(), 'More from')]]) ~ *
+www.bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::i[contains(text(), 'Follow us on')]])
+www.bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Around the BBC')]])
+www.bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Around the BBC')]]) ~ *
+www.bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner')]])
+www.bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner Image')]]) ~ *
+www.bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner saying')]]) ~ *
 
 ! BBC GOOD FOOD
 www.bbcgoodfood.com##.template-article__social-share
