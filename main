@@ -2594,6 +2594,10 @@ www.dailymail.co.uk###fiveDealsWidget
 www.dailymail.co.uk##.sponsored
 www.dailymail.co.uk##.adHolder:style(display: none !important)
 www.dailymail.co.uk###most-watched-videos-lazy-container
+www.dailymail.co.uk###mobile-content:style(margin-top: 0 !important; height: 100vh !important)
+www.dailymail.co.uk###mobile-content > header:style(height: auto !important)
+www.dailymail.co.uk###mobile-content > .scrollable-content:style(padding-top: 46px !important)
+www.dailymail.co.uk##article > ul:first-of-type:style(margin-top: 12px !important)
 
 ! THE DAILY STAR
 www.dailystar.co.uk##.factbox
