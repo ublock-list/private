@@ -697,6 +697,7 @@ www.bbc.*##.RelatedBucket.u-lg-hidden
 www.bbc.*##.relatedContent
 www.bbc.*##.footer
 www.bbc.*##.news-app-promo
+www.bbc.*##.lx-stream-post__footer-share
 www.bbc.*##div[class*="-ContainerWithSidebarWrapper"]:style(display: block !important;)
 www.bbc.*##div[class*="-MainColumn"]:style(max-width: 100% !important;)
 www.bbc.*##div[class*="-MainColumn"] + div
@@ -906,6 +907,7 @@ www.crunchyroll.com##.showmedia-related
 www.crunchyroll.com##.comments
 www.crunchyroll.com##.footer-categories-container
 www.crunchyroll.com##.availability-notes-low
+www.crunchyroll.com###welcome_right
 
 ! CSS TRICKS
 css-tricks.com##.fem-ad
@@ -1087,6 +1089,24 @@ www.expertreviews.co.uk###menu-menu-our-websites
 www.expertreviews.co.uk###block-boxes-lazyad-wrapper
 www.expertreviews.co.uk##.sidebar-second.sidebar.region-sidebar-second.region
 www.expertreviews.co.uk##.buy-now
+www.expertreviews.co.uk##.field-name-field-see-related
+www.expertreviews.co.uk##.group-buy-now
+www.expertreviews.co.uk##.dennis-kicker
+www.expertreviews.co.uk##.field-name-field-author
+www.expertreviews.co.uk##.deals-widget
+www.expertreviews.co.uk##.group-tags
+www.expertreviews.co.uk##.pullquote-container
+www.expertreviews.co.uk##:xpath(//p[child::strong[contains(text(), 'Price:')]]) a:first-of-type
+www.expertreviews.co.uk##:xpath(//p[child::strong[contains(text(), 'READ NEXT:')]])
+www.expertreviews.co.uk##:xpath(//table[descendant::h3[child::strong[contains(text(), 'Alternative picks:')]]])
+www.expertreviews.co.uk##:xpath(//hr/following-sibling::h3[starts-with(text(), 'Best ')])
+www.expertreviews.co.uk##:xpath(//hr/following-sibling::h3[starts-with(text(), 'Best ')]) ~ ul
+www.expertreviews.co.uk##:xpath(//hr/following-sibling::h3[starts-with(text(), 'Best ')]) ~ ul ~ hr
+www.expertreviews.co.uk##:xpath(//hr/following-sibling::h3[child::strong[starts-with(text(), 'Best ')]])
+www.expertreviews.co.uk##:xpath(//hr/following-sibling::h3[child::strong[starts-with(text(), 'Best ')]]) ~ ul
+www.expertreviews.co.uk##:xpath(//hr/following-sibling::h3[child::strong[starts-with(text(), 'Best ')]]) ~ ul ~ hr
+www.expertreviews.co.uk##.view-deal-btn-right
+www.expertreviews.co.uk##.view-deal-btn-left
 
 ! EXPRESS JS
 expressjs.com###blm-banner
@@ -1205,6 +1225,17 @@ www.futuregamereleases.com##.facebook-widget
 www.futuregamereleases.com##.subscribe-widget
 www.futuregamereleases.com##.social-icons
 www.futuregamereleases.com##.post-cat-wrap
+
+! GADGET HACKS
+android.gadgethacks.com##.consentContainer
+android.gadgethacks.com##aside > blockquote
+android.gadgethacks.com##footer > center
+android.gadgethacks.com##.cta-newsletter
+android.gadgethacks.com##.related-scroller
+android.gadgethacks.com##.content-nav
+android.gadgethacks.com##.comments-box
+android.gadgethacks.com##.cta-article-end
+android.gadgethacks.com##.image-credits
 
 ! GAME
 www.game.co.uk###COOKIEPOLICY_OVERLAY
@@ -1591,12 +1622,16 @@ imgur.com##.EmeraldBanner
 imgur.com##.Footer-whitelist
 imgur.com##.EmeraldBannerV1.EmeraldBanner
 imgur.com##.popOverAccount
-imgur.com##.AccoladesTooltip-engagementTooltip.GalleryVote-accoladesTooltip.AccoladesTooltip
+imgur.com##.AccoladesTooltip
 imgur.com##.EmeraldButton
 imgur.com##.Gallery-Sidebar
 imgur.com##.Footer-app
 imgur.com##.BottomRecirc
 imgur.com##.GiveEmeraldButton
+imgur.com##.Gallery-Content--tags
+imgur.com##.Comment-create
+imgur.com##.Gallery-EngagementBar
+imgur.com##:xpath(//div[child::a[contains(@class, 'Post-item') and descendant::div[contains(@class, 'Post-item-external-ad')]]])
 
 # IMGUR (MOBILE)
 m.imgur.com##.FloatingOIA-container
@@ -1696,6 +1731,27 @@ www.lbc.co.uk##.contact_bar
 www.lbc.co.uk##.level1_wrapper
 www.lbc.co.uk##.footer
 
+! LIFE HACKER
+lifehacker.com###sidebar_wrapper
+lifehacker.com##.js_header-shop
+lifehacker.com##.js_header-newsletter
+lifehacker.com##.js_topbar
+lifehacker.com##.js_starterpost > div:first-child
+lifehacker.com##.js_related-stories-inset
+lifehacker.com##.js_newsletter-form-inline
+lifehacker.com##.share-tools-static
+lifehacker.com##.js_postbottom-waypoint-hook
+lifehacker.com##.js_comments-iframe
+lifehacker.com##.ad-container
+lifehacker.com##.js_subscribe
+lifehacker.com##.js_footer > div > div:first-child
+lifehacker.com##.js_footer > div > div:nth-child(2)
+lifehacker.com##.js_footer > div > div:nth-child(6)
+lifehacker.com##.js_global-nav nav
+lifehacker.com##.js_recommend
+lifehacker.com##.js_post-content ~ *
+lifehacker.com##figure figcaption
+
 ! LINKEDIN
 linkedin.com###advocate-modal
 linkedin.com###artdeco-global-alert-container
@@ -1735,6 +1791,7 @@ metro.co.uk###widget-area-article-below-bottom-share
 metro.co.uk###taboola-feed-container
 metro.co.uk##.met-breadcrumb
 metro.co.uk##.comments-top-cta
+metro.co.uk##.follow-promo
 
 ! MIRAFIT
 mirafit.co.uk##.amgdprcookie-bar-template
@@ -2531,11 +2588,12 @@ www.dailymail.co.uk###mini-carousel-wrapper
 www.dailymail.co.uk##.bdrcc.rotator
 www.dailymail.co.uk###reader-comments
 www.dailymail.co.uk###fullWidthCommentAdvert
-www.dailymail.co.uk###infinite-list
 www.dailymail.co.uk##.beta
 www.dailymail.co.uk##.gamma
 www.dailymail.co.uk###fiveDealsWidget
 www.dailymail.co.uk##.sponsored
+www.dailymail.co.uk##.adHolder:style(display: none !important)
+www.dailymail.co.uk###most-watched-videos-lazy-container
 
 ! THE DAILY STAR
 www.dailystar.co.uk##.factbox
