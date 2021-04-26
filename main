@@ -729,6 +729,10 @@ bbc.*##:xpath(//div[child::div[child::div[child::div[child::h2[contains(text(), 
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'BBC News Daily')]])
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'BBC News Daily')]]) + div[data-component="text-block"]
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'BBC News Daily')]]) + div[data-component="text-block"] + div[data-component="image-block"]
+bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[contains(text(), 'You may also be interested in...')]])
+bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[contains(text(), 'You may also be interested in...')]]) ~ *
+bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'YQA')]])
+bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'YQA')]]) ~ *
 
 ! BBC GOOD FOOD
 www.bbcgoodfood.com##.template-article__social-share
@@ -925,6 +929,9 @@ www.crunchyroll.com##.comments
 www.crunchyroll.com##.footer-categories-container
 www.crunchyroll.com##.availability-notes-low
 www.crunchyroll.com###welcome_right
+www.crunchyroll.com##.showmedia-submenu
+www.crunchyroll.com###showmedia_about_new > h3
+www.crunchyroll.com##.try-free-header-menu-item
 
 ! CSS TRICKS
 css-tricks.com##.fem-ad
@@ -1244,15 +1251,16 @@ www.futuregamereleases.com##.social-icons
 www.futuregamereleases.com##.post-cat-wrap
 
 ! GADGET HACKS
-android.gadgethacks.com##.consentContainer
-android.gadgethacks.com##aside > blockquote
-android.gadgethacks.com##footer > center
-android.gadgethacks.com##.cta-newsletter
-android.gadgethacks.com##.related-scroller
-android.gadgethacks.com##.content-nav
-android.gadgethacks.com##.comments-box
-android.gadgethacks.com##.cta-article-end
-android.gadgethacks.com##.image-credits
+gadgethacks.com##.consentContainer
+gadgethacks.com##aside > blockquote
+gadgethacks.com##footer > center
+gadgethacks.com##.cta-newsletter
+gadgethacks.com##.related-scroller
+gadgethacks.com##.content-nav
+gadgethacks.com##.comments-box
+gadgethacks.com##.cta-article-end
+gadgethacks.com##.image-credits
+gadgethacks.com##.social-cta
 
 ! GAME
 www.game.co.uk###COOKIEPOLICY_OVERLAY
@@ -1437,6 +1445,13 @@ www.homebase.co.uk##.singlebanner-wrapper
 www.homebase.co.uk##*[datav3-module-name="CategoryDIYRelatedArticles"]
 www.homebase.co.uk###more-diy-advice-tabs
 www.homebase.co.uk##:xpath(//div[child::h2[contains(text(), 'Related Products')]])
+www.homebase.co.uk##.cookie_modal_button_v5
+www.homebase.co.uk##.stripBanner
+www.homebase.co.uk##.trackwidget
+www.homebase.co.uk##.productAlternativesWrapper
+www.homebase.co.uk##.eastendFooter_signupAndSocialIcons
+www.homebase.co.uk##.eastendFooter_sectionFourContainer
+www.homebase.co.uk##.multiCategoryCardSet_container
 
 ! HOTUKDEALS
 hotukdeals.com##.js-keyword-alerts
@@ -1648,6 +1663,7 @@ imgur.com##.GiveEmeraldButton
 imgur.com##.Gallery-Content--tags
 imgur.com##.Comment-create
 imgur.com##.Gallery-EngagementBar
+imgur.com##.Navbar-signup
 imgur.com##:xpath(//div[child::a[contains(@class, 'Post-item') and descendant::div[contains(@class, 'Post-item-external-ad')]]])
 
 # IMGUR (MOBILE)
@@ -1778,6 +1794,16 @@ linkedin.com##.activities.pp-section
 linkedin.com##.groups.pp-section
 linkedin.com##.bottom-cta-banner
 
+! MARKS AND SPENCER
+www.marksandspencer.com##.navigation-sitestripe
+www.marksandspencer.com##.navigation-cookiebbanner
+www.marksandspencer.com##.navfooter-newslettermsgContainer
+www.marksandspencer.com##.navfooter-newsletterform
+www.marksandspencer.com###navigation-commonfooter
+www.marksandspencer.com##.proposition-banner
+www.marksandspencer.com###mobileRelatedCategories
+www.marksandspencer.com##.promotions
+
 ! MEDICINE NET
 medicinenet.com##.eugdpr-banner
 medicinenet.com##.eugdpr-overlay
@@ -1791,6 +1817,20 @@ medicinenet.com##html > iframe
 ! MEDIUM
 medium.com##.butterBar--privacy
 medium.com###lo-highlight-meter-1-highlight-box
+medium.com###root ~ div
+medium.com###root article ~ *
+medium.com##*[id*="open-in-app-button"]
+medium.com##*[id*="sign-in-button"]
+medium.com##*[id*="sign-up-button"]
+medium.com##:xpath(//button[contains(text(), 'Follow')])
+medium.com##:xpath(//a[contains(@href, '/followers')])
+medium.com##:xpath(//div[child::div[child::div[child::div[child::div[child::span[child::a[contains(@href, 'bookmark')]]]]]]])
+medium.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[contains(@role, 'tooltip') and child::a[child::h4]]]]]]])
+!medium.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::span[child::a[child::div[child::*[name()='svg' and contains(@aria-label, 'clap')]]]]]]]]]])
+medium.com##:xpath(//div[child::div[child::a[child::div[child::button[child::div[child::*[name()='svg' and contains(@aria-label, 'responses')]]]]]]])
+medium.com##:xpath(//svg[@aria-label="responses"])
+medium.com##:xpath(//div[child::ul[descendant::a[contains(@href, '/tag')]]])
+medium.com##:xpath(//button[child::span[contains(text(), 'Popular')]])
 
 ! MEETUP
 meetup.com##.seeded-event-section.gtm-seeded-events
@@ -1813,6 +1853,17 @@ metro.co.uk##.follow-promo
 ! MIRAFIT
 mirafit.co.uk##.amgdprcookie-bar-template
 || mirafit.co.uk/pub/media/wysiwyg/covid-19-.jpg$image
+
+! MONEY SAVING EXPERT
+forums.moneysavingexpert.com##.cookie-notification
+forums.moneysavingexpert.com##.mse-header__top-nav__list-item
+forums.moneysavingexpert.com###MainHeader
+forums.moneysavingexpert.com##.QuickAccess
+forums.moneysavingexpert.com##.InfoMessage
+forums.moneysavingexpert.com##.WeeklyTipsSubscriptionModule
+forums.moneysavingexpert.com##.LatestNewsModule
+forums.moneysavingexpert.com##.SecondaryPanel
+forums.moneysavingexpert.com##.FooterDisclaimer
 
 ! MORNINGSTAR
 morningstar.co.uk##div.BottomADXX
@@ -1850,6 +1901,21 @@ www.newscientist.com##.section-article-list
 
 ! NHS
 www.nhs.uk###nhsuk-cookie-banner
+www.nhs.uk###app-global-alert
+www.england.nhs.uk##.alert-banner-container
+
+! NINTENDO
+www.nintendo.co.uk##.plo-overlay
+
+! NINTENDO LIFE
+www.nintendolife.com##.share-this
+www.nintendolife.com##li.lazyload.for-mobile.item-insert
+www.nintendolife.com##li.for-mobile.item-insert
+www.nintendolife.com##.social-links.block
+www.nintendolife.com##.inset > .social
+www.nintendolife.com###ui-join-newsletter
+www.nintendolife.com##.dgp-consent
+www.nintendolife.com##.article-header > .for-mobile.centered.insert-label
 
 ! NODE JS
 nodejs.org##.home-blacklivesmatterblock
@@ -1879,18 +1945,8 @@ pagesix.com###footer-mobile > .footer-social
 pagesix.com##.zephr-component
 pagesix.com##html.no-scroll:style(overflow: auto !important;)
 
-! NINTENDO
-www.nintendo.co.uk##.plo-overlay
-
-! NINTENDO LIFE
-www.nintendolife.com##.share-this
-www.nintendolife.com##li.lazyload.for-mobile.item-insert
-www.nintendolife.com##li.for-mobile.item-insert
-www.nintendolife.com##.social-links.block
-www.nintendolife.com##.inset > .social
-www.nintendolife.com###ui-join-newsletter
-www.nintendolife.com##.dgp-consent
-www.nintendolife.com##.article-header > .for-mobile.centered.insert-label
+! OFFICE FOR NATIONAL STATISTICS
+www.ons.gov.uk##.cookies-banner
 
 ! ORBI
 192.168.1.1##.card-orbi-app
@@ -1941,6 +1997,7 @@ www.overclockers.co.uk###awards
 www.overclockers.co.uk##.viewlast
 www.overclockers.co.uk##.article-small
 www.overclockers.co.uk##:xpath(//div[contains(@class, 'greybox') and descendant::ul[contains(@class, 'supplier-links')]])
+www.overclockers.co.uk##.Notices.PanelScroller
 
 ! OVERCLOCKERS (USA)
 www.overclockers.com##.mh-social-top
@@ -1977,12 +2034,17 @@ patient.info##.social-sharing
 patient.info##.ad-media-net-wrapper
 patient.info##.footer__social
 patient.info##.terms
+patient.info##.promo_container
+patient.info##.newsletter
+patient.info##.articleFooter
+patient.info##:xpath(//div[child::div[child::div[child::span[contains(text(), 'Sponsor')]]]])
 
 ! PAYPAL
 paypal.com###gdprCookieBanner
 paypal.com##div[class^="GiveAtCheckout_gacContainer_"]
 paypal.com###pay-later
 paypal.com##.PPCOffers
+paypal.com##ccpaCookieBanner
 
 ! PC GAMER
 pcgamer.com##.trending-bar-container
@@ -2276,6 +2338,12 @@ sainsburys.co.uk##.sponsored
 sainsburys.co.uk##.espot
 sainsburys.co.uk##.mEspotCol
 sainsburys.co.uk##.feedback
+sainsburys.co.uk##*[class*="Appsstyles__AppsWrapper-"]
+sainsburys.co.uk##*[class*="ServiceTilesstyles__ServiceTilesWrapper-"]
+sainsburys.co.uk##*[class*="styles__GetMoreWrapper-"]
+sainsburys.co.uk##*[class*="InfoPanelstyles__InfoPanelWrapper-"]
+sainsburys.co.uk##.ln-c-card.pt-espot
+sainsburys.co.uk##:xpath(//h3[contains(text(), 'Popular right now')])
 sainsburys.co.uk##:xpath(//li[contains(@class, 'pt-grid-item') and descendant::div[contains(text(), 'Sponsored')]])
 sainsburys.co.uk##:xpath(//li[contains(@class, 'productESpot') and descendant::div[contains(text(), 'Sponsored')]])
 sainsburys.co.uk##:xpath(//li[contains(@class, 'productESpot') and descendant::h3[contains(text(), 'Have you tried?')]])
@@ -2534,6 +2602,45 @@ www.techradar.com###content:style(width: auto !important;)
 www.techradar.com##.see-more
 www.techradar.com###article-body > ul > li
 
+! TECH REPUBLIC
+techrepublic.com##.btn-premium
+techrepublic.com##.relatedContent
+techrepublic.com##.sharethrough-article
+techrepublic.com##.editors-picks-listing
+techrepublic.com##.author-bio
+techrepublic.com##.related-topics
+techrepublic.com##.show-comments-container
+techrepublic.com##.col-featured-articles
+techrepublic.com##.promo-unit
+techrepublic.com##.trp-item
+techrepublic.com##.video-related
+techrepublic.com##.video-listing
+techrepublic.com##.video-details-wrapper
+techrepublic.com##.video-heading-player-container ~ div
+techrepublic.com##*[data-component="newsletterSubscription"]
+techrepublic.com##:xpath(//section[child::div[child::h2[child::span[contains(text(), 'Free Newsletters, In your Inbox')]]]])
+techrepublic.com##:xpath(//div[contains(@class, 'content')]/p[child::strong[contains(text(), 'SEE:')]])
+techrepublic.com##:xpath(//div[contains(@class, 'content')]/h2[contains(text(), 'Also see')])
+techrepublic.com##:xpath(//div[contains(@class, 'content')]/h2[contains(text(), 'Also see')]) ~ *
+
+! TESCO
+tesco.com###sticky-bar-wrapper
+tesco.com##.beans-cookies-notification__container
+tesco.com##.hero-banner
+tesco.com##.ddl-carousel-wrapper
+tesco.com##.slim-trade-banner
+tesco.com##.ui-ddl-carousel
+tesco.com##.footer__lower
+tesco.com##.recommender-wrapper
+tesco.com##.grocery-product__terms
+tesco.com##.dfp-banner-wrapper
+tesco.com##*[class*="styled__NotificationBannerWrapper"]
+tesco.com##.ddl-section-divider
+tesco.com##.stamp-group
+tesco.com##:xpath(//div[contains(@class, 'ui-panel') and descendant::h2[child::span[contains(text(), 'Reasons to shop with us')]]])
+tesco.com##:xpath(//div[contains(@class, 'ui-panel') and descendant::h2[child::span[contains(text(), 'Offers this week from Tesco')]]])
+tesco.com##:xpath(//div[contains(@class, 'ui-panel') and descendant::h2[child::span[contains(text(), 'Offers this week from Tesco')]]]) ~ *
+
 ! THE DAILY BEAST
 www.thedailybeast.com##.NavSub--visible.NavSub
 www.thedailybeast.com##.ButtonMembership
@@ -2615,6 +2722,19 @@ www.dailymail.co.uk###mobile-content:style(margin-top: 0 !important; height: 100
 www.dailymail.co.uk###mobile-content > header:style(height: auto !important)
 www.dailymail.co.uk###mobile-content > .scrollable-content:style(padding-top: 46px !important)
 www.dailymail.co.uk##article > ul:first-of-type:style(margin-top: 12px !important)
+www.dailymail.co.uk##.banner-adverts
+www.dailymail.co.uk##.floating-buttons
+www.dailymail.co.uk##*[class*="mostRecent-"]
+www.dailymail.co.uk##.masthead:style(background: none !important;)
+www.dailymail.co.uk##.h1-page-last-updated
+www.dailymail.co.uk##.page-header .supplements
+www.dailymail.co.uk###weather-wrapper
+www.dailymail.co.uk###video h6
+www.dailymail.co.uk###video .video-lead-social
+www.dailymail.co.uk###video #content > div:nth-child(3)
+www.dailymail.co.uk###video .video.nav-secondary-container
+www.dailymail.co.uk###articleIconLinksContainer
+www.dailymail.co.uk##.mol-fe-vouchercodes-redesign
 
 ! THE DAILY STAR
 www.dailystar.co.uk##.factbox
@@ -2665,6 +2785,11 @@ www.independent.co.uk##.above-article-prompt-donations
 www.independent.co.uk##.tw-link
 www.independent.co.uk##.fb-link
 www.independent.co.uk##.show-comments
+www.independent.co.uk##.access-container
+www.independent.co.uk##.newsletter-component
+www.independent.co.uk##.topics
+www.independent.co.uk##.i-amphtml-carousel-content
+www.independent.co.uk##.i-amphtml-layout-fixed-height
 
 ! THE METRO
 metro.co.uk###we-need-monies
@@ -3041,9 +3166,39 @@ typingclub.com###adslot_1
 typingclub.com###adslot_2
 
 ! UDEMY
-www.udemy.com##*[class*="smart-bar--"]
-www.udemy.com##*[class*="slider-menu--"]
-www.udemy.com##*[class*="--recommendations"]
+udemy.com##*[class*="smart-bar--"]
+udemy.com##*[class*="slider-menu--"]
+udemy.com##*[class*="--recommendations"]
+udemy.com##*[class*="alert-banner--alert-banner"]
+udemy.com##*[class*="sidebar-container--buy-for-team"]
+udemy.com##*[class*="bundle-unit--bundle-border"]
+udemy.com##*[class*="styles--more-from-instructor"]
+udemy.com##*[class*="search--unit-injection"]
+udemy.com##*[class*="curated-for-ufb-notice--curated-for-ufb-notice"]
+udemy.com##*[class*="header--gap-button"]
+udemy.com##*[class*="invite-alert--invite-alert"]
+udemy.com##*[class*="ufb-training-people"]
+udemy.com##*[class*="advertising-banner"]
+udemy.com##*[class*="skills-hub-unit--with-banner-wrapper"]
+udemy.com##.ud-component--footer--bai-banner
+udemy.com##.ud-component--footer--ufb-notice
+udemy.com##.ud-component--course-landing-page-udlite--top-companies-trust-udemy
+udemy.com##.ud-component--course-landing-page-udlite--featured-review
+udemy.com##.ud-component--home--ufb-banner
+udemy.com##.ud-component--home--logout
+udemy.com##.partners-container
+udemy.com##.ufb-non-student-cta-wrapper
+udemy.com##.ud-component--logged-out-home--user_stories
+udemy.com##.teach-on-udemy-non-student-cta-wrapper
+udemy.com##:xpath(//div[contains(@class, 'udlite-heading-lg') and contains(text(), 'Related topics')])
+udemy.com##:xpath(//div[contains(@class, 'udlite-heading-lg') and contains(text(), 'Related topics')]) ~ *
+udemy.com##:xpath(//div[child::h2[contains(text(), 'Why learn on Udemy?')]])
+udemy.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Students are viewing')]]]])
+udemy.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Because you searched for')]]]])
+
+! UK TIMBER
+www.uk-timber.co.uk###cookieNotice
+www.uk-timber.co.uk##.notice
 
 ! ULTIMATE HANDYMAN
 www.ultimatehandyman.co.uk###cookieChoiceInfo
@@ -3337,6 +3492,10 @@ www.woodshopdirect.co.uk##.payment_logos
 www.woodshopdirect.co.uk###related_products
 www.woodshopdirect.co.uk##.type-product-question
 www.woodshopdirect.co.uk###product_customer_images_case
+
+! XDA DEVELOPERS
+www.xda-developers.com##.xda_suggested_apps
+www.xda-developers.com##.w-social
 
 ! YAHOO! (yeah, not using this EVER)
 consent.yahoo.com##.consent-overlay
