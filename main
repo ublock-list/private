@@ -60,6 +60,7 @@
 ||discord.com
 ||discordapp.com
 ||disqus.com
+||dmgmediaprivacy.co.uk
 ||domslc.com
 ||doubleclick.net
 ||downfile.site
@@ -234,6 +235,7 @@
 ||webflow.com
 ||webpinp.com
 ||weitaba.com
+||whourgie.com
 ||wknd.ai
 ||worldssl.com
 ||wsimg.com
@@ -453,6 +455,7 @@ www.amazon.co.uk###swf-share-icon-container-mweb
 www.amazon.co.uk###bia-hcb-widget
 www.amazon.co.uk###nav-al-wishlist
 www.amazon.co.uk###nav-al-your-account a:not(:first-child):not(:nth-child(2)):not(:nth-child(3)):not(:last-child)
+www.amazon.co.uk###recsWidget
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -900,6 +903,8 @@ www.cnet.com##.c-assetAuthor_profile
 www.cnet.com##.c-head_bottomWrapper
 www.cnet.com##:xpath(//p[child::strong[contains(text(), 'Read more')]])
 www.cnet.com###contentBody > .row > .pageWrapper:not(:first-child)
+www.cnet.com##.videoPlayer
+www.cnet.com##.loggedOut
 
 ! COMPUTER WORLD
 www.computerworld.com##.right-rail
@@ -1408,6 +1413,7 @@ google.*###extrares
 || consent.google.com/$subdocument
 google.*##jsl > .noprint
 google.*##*[aria-modal="true"]
+google.*###rhs
 
 ! GOV UK
 www.gov.uk##.govuk-clearfix.gem-c-cookie-banner
@@ -1702,6 +1708,11 @@ www.its.co.uk##.trustpilot-widget
 
 ! ITV
 www.itv.com##.cp_cookie-dialog
+www.itv.com##.cp_nav__ad-free
+www.itv.com##*[data-testid="sidebar"]
+www.itv.com##*[data-testid="article-footer"]
+www.itv.com##*[data-testid="related-content"]
+www.itv.com##*[data-testid="tag-list"]
 
 ! JAVASCRIPT INFO
 javascript.info##.share-icons
@@ -1784,6 +1795,16 @@ lifehacker.com##.js_global-nav nav
 lifehacker.com##.js_recommend
 lifehacker.com##.js_post-content ~ *
 lifehacker.com##figure figcaption
+
+! LIFEWIRE
+lifewire.com##*[id*="prefooter_"]
+lifewire.com##*[id*="article-feedback_"]
+lifewire.com##*[id*="feedback-display_"]
+lifewire.com##*[id*="mntl-newsletter-submit__button_"]
+lifewire.com##*[id*="disqus_"]
+lifewire.com##*[id*="commerce-link_"]
+lifewire.com##.footer-bottom
+lifewire.com###main:style(margin-top: 0 !important)
 
 ! LINKEDIN
 linkedin.com###advocate-modal
@@ -2113,6 +2134,8 @@ pcmag.com##.leading-tight.text-xs
 pcmag.com##.items-end
 pcmag.com##.flow-root
 pcmag.com##.roundup-offers
+pcmag.com##:xpath(//div[child::div[child::h3[starts-with(text(), 'Recommended')]]])
+pcmag.com##.iframe-wrapper
 ||mashable.com/videos/blueprint*$subdocument
 
 ! PC WORLD
@@ -2240,28 +2263,29 @@ www.radiotimes.com##.copyright-container
 www.radiotimes.com##.standard-card-new__sponsored-by
 
 ! REDDIT
-www.reddit.com##.m-active.XPromoPopup
-www.reddit.com##.EUCookieNotice
-www.reddit.com##.TopNav__promoButton
-www.reddit.com##body.scroll-disabled:style(height: auto;overflow: auto !important;position: static !important;width: auto !important;)
-www.reddit.com##:xpath(//article[contains(@class, 'Post') and descendant::span[contains(text(), 'Promoted')]])
-www.reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::a[child::h3[contains(text(), 'Top livestreams')]]]]]]]])
-www.reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::a[child::h3[contains(text(), 'Top livestream')]]]]]]]])
-www.reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::a[child::h3[contains(text(), 'Top broadcasts')]]]]]]]])
-www.reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::a[child::h3[contains(text(), 'Top broadcast')]]]]]]]])
-www.reddit.com##.xPromoChoiceBanner
-www.reddit.com##.XPromoInFeed
-www.reddit.com##.xPromoAppStoreFooter
-www.reddit.com##.listingsignupbar.infobar
-www.reddit.com##.CommentsPage > article
-www.reddit.com###POPUP_CONTAINER + div
-www.reddit.com###TrendingPostsContainer
-www.reddit.com###redesign-beta-optin-btn
-www.reddit.com##.sr-list
-www.reddit.com##.ListingLayout-outerContainer > div:nth-child(2) > div:nth-child(3) > div:nth-child(2)
-www.reddit.com##:xpath(//div[contains(@id, 'SearchDropdownContent') and child::div[contains(text(), 'Trending today')]])
-www.reddit.com##:xpath(//div[contains(@id, 'SearchDropdownContent') and child::div[contains(text(), 'Trending today')]]) ~ *
-www.reddit.com##.PreviewDrawer
+reddit.com##.m-active.XPromoPopup
+reddit.com##.EUCookieNotice
+reddit.com##.TopNav__promoButton
+reddit.com##body.scroll-disabled:style(height: auto;overflow: auto !important;position: static !important;width: auto !important;)
+reddit.com##:xpath(//article[contains(@class, 'Post') and descendant::span[contains(text(), 'Promoted')]])
+reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::a[child::h3[contains(text(), 'Top livestreams')]]]]]]]])
+reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::a[child::h3[contains(text(), 'Top livestream')]]]]]]]])
+reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::a[child::h3[contains(text(), 'Top broadcasts')]]]]]]]])
+reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::a[child::h3[contains(text(), 'Top broadcast')]]]]]]]])
+reddit.com##.xPromoChoiceBanner
+reddit.com##.XPromoInFeed
+reddit.com##.xPromoAppStoreFooter
+reddit.com##.listingsignupbar.infobar
+reddit.com##.CommentsPage > article
+reddit.com###POPUP_CONTAINER + div
+reddit.com###TrendingPostsContainer
+reddit.com###redesign-beta-optin-btn
+reddit.com##.sr-list
+reddit.com##.ListingLayout-outerContainer > div:nth-child(2) > div:nth-child(3) > div:nth-child(2)
+reddit.com##:xpath(//div[contains(@id, 'SearchDropdownContent') and child::div[contains(text(), 'Trending today')]])
+reddit.com##:xpath(//div[contains(@id, 'SearchDropdownContent') and child::div[contains(text(), 'Trending today')]]) ~ *
+reddit.com##.PreviewDrawer
+reddit.com##:xpath(//div[child::div[child::div[child::div[starts-with(text(), 'Similar communities')]]]])
 
 ! RIGHTMOVE
 rightmove.co.uk###branchProfilePropertyDetailsHeader
@@ -2353,6 +2377,11 @@ sainsburys.co.uk##:xpath(//li[contains(@class, 'pt-grid-item') and descendant::d
 ! SANTANDER
 santander.co.uk###splash-97123-overlay
 santander.co.uk###splash-97123-splash
+retail.santander.co.uk##.announcement
+retail.santander.co.uk###auxcontentBar
+retail.santander.co.uk###alertsToolbox
+retail.santander.co.uk##:xpath(//h2[contains(text(), 'Credit cards')])
+retail.santander.co.uk##:xpath(//h2[contains(text(), 'Credit cards')]) ~ *
 
 ! SCAN
 www.scan.co.uk###cookiePolicyPopup
@@ -2552,10 +2581,11 @@ m.tapas.io##.viewer-section--comment.viewer-section
 m.tapas.io##.detail-row--last.detail-row
 
 ! TECH ADVISOR
-www.techadvisor.co.uk##*[id*="affiliate-table-container"]
-www.techadvisor.co.uk##aside
-www.techadvisor.co.uk##.article-author-box
-www.techadvisor.co.uk##.footerNav--social
+techadvisor.co.uk##*[id*="affiliate-table-container"]
+techadvisor.co.uk##aside
+techadvisor.co.uk##.article-author-box
+techadvisor.co.uk##.footerNav--social
+techadvisor.co.uk###subHeader
 
 ! TECH POWERUP
 www.techpowerup.com##.related
@@ -2804,6 +2834,10 @@ metro.co.uk##.video-list
 metro.co.uk##.trending-sidebar
 metro.co.uk###taboola-feed-container
 metro.co.uk##.met-breadcrumb
+metro.co.uk##:xpath(//a[starts-with(@data-track, 'in-content-link')])
+metro.co.uk##aside
+metro.co.uk##:xpath(//article[contains(@class, 'nf-item') and descendant::span[contains(@class, 'metro-signpost-ad-feature')]])
+metro.co.uk##.rush-hour-crush__widget
 
 ! THE MIRROR
 www.mirror.co.uk##.takeover-container
@@ -2964,6 +2998,8 @@ www.theverge.com##.c-entry-box--compact--package_landing
 www.theverge.com##.c-entry-box--compact--pq
 www.theverge.com##.c-newsletter_signup_box
 www.theverge.com##.l-col__sidebar
+www.theverge.com##.c-entry-hero__meta
+www.theverge.com###privacy-consent
 
 ! THESAURUS.COM
 www.thesaurus.com##.trending-words-word-block
@@ -3420,18 +3456,19 @@ blogs.windows.com##.social-share
 blogs.windows.com###footerUniversalFooter
 
 ! WINDOWS CENTRAL
-www.windowscentral.com##.adunit-wrap
-www.windowscentral.com##.cta
-www.windowscentral.com##.adunit
-www.windowscentral.com##.article-token
-www.windowscentral.com##.block-newsletter
-www.windowscentral.com##.article-meta
-www.windowscentral.com##.article-footer
-www.windowscentral.com##.article-header__disclosure-wrap
-www.windowscentral.com##.auto-disclosure-wrap
-www.windowscentral.com##.article-header__authors
-www.windowscentral.com##.article-header__comments
-www.windowscentral.com##.article-bio__bio
+windowscentral.com##.adunit-wrap
+windowscentral.com##.cta
+windowscentral.com##.adunit
+windowscentral.com##.article-token
+windowscentral.com##.block-newsletter
+windowscentral.com##.article-meta
+windowscentral.com##.article-footer
+windowscentral.com##.article-header__disclosure-wrap
+windowscentral.com##.auto-disclosure-wrap
+windowscentral.com##.article-header__authors
+windowscentral.com##.article-header__comments
+windowscentral.com##.article-bio__bio
+windowscentral.com##.article-shop-bar
 
 ! WINDOWS LATEST
 www.windowslatest.com##.footer-social-wrap
@@ -3560,6 +3597,10 @@ youtube.com##.opened
 youtube.com###consent-bump
 youtube.com###consent-bump > .ytd-consent-bump-lightbox.style-scope
 youtube.com##ytd-metadata-row-container-renderer
+youtube.com##ytd-secondary-search-container-renderer
+youtube.com##:xpath(//ytd-shelf-renderer[child::div[child::div[child::div[child::h2[child::span[starts-with(text(), 'People also watched')]]]]]])
+youtube.com##:xpath(//ytd-horizontal-card-list-renderer[child::div[child::h2[descendant::yt-formatted-string[starts-with(text(), 'People also search for')]]]])
+youtube.com##:xpath(//ytd-horizontal-card-list-renderer[child::div[child::h2[descendant::yt-formatted-string[child::span[contains(text(), 'Searches related')]]]]])
 
 ! YOUTUBE (MOBILE)
 m.youtube.com##.upsell-dialog-lightbox
