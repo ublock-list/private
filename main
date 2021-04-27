@@ -1047,8 +1047,17 @@ duckduckgo.com##.user-loc-cta
 duckduckgo.com##.has-feedback-prompt.js-module--maps_places.module--places.module
 
 ! EBAY
-ebay.co.uk##li[r="1"]
-ebay.co.uk##*[id*="ad_html_"]
+ebay.*##li[r="1"]
+ebay.*##*[id*="ad_html_"]
+ebay.*##.vi-incentives-spacing
+ebay.*##.vi-rewards-section
+ebay.*##.vi-legal-text
+ebay.*##.merch-placeholder
+ebay.*##.m-merch
+ebay.*###gh-topl #gh-doodleS
+ebay.*##*[data-pagetitle="Nectar"]
+ebay.*##:xpath(//li[child::a[contains(@href, 'https://reward.ebay.co.uk/')]])
+ebay.*##:xpath(//li[contains(@class, 's-item') and child::a[contains(@href, '_trkparms=')]])
 
 ! EHOW
 www.ehow.*##.social-share-icons
