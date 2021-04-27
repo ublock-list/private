@@ -1056,6 +1056,8 @@ ebay.*##.merch-placeholder
 ebay.*##.m-merch
 ebay.*###gh-topl #gh-doodleS
 ebay.*##*[data-pagetitle="Nectar"]
+ebay.*##.srp-related-searches
+ebay.*##.srp-river-footer
 ebay.*##:xpath(//li[child::a[contains(@href, 'https://reward.ebay.co.uk/')]])
 ebay.*##:xpath(//li[contains(@class, 's-item') and child::a[contains(@href, '_trkparms=')]])
 
