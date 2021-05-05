@@ -99,6 +99,7 @@
 ||gpmojo.com
 ||grient.com
 ||helpscout.net
+||honeybulb.com
 ||i4rsrcj6.top
 ||ibb.co
 ||icons8.com
@@ -210,6 +211,8 @@
 ||termly.io
 ||textforex2.info
 ||thescv.team
+||tiktok.com
+||tiktokcdn.com
 ||tm-awx.com
 ||top4top.io
 ||top4top.net
@@ -457,46 +460,24 @@ amazon.co.uk###nav-al-wishlist
 amazon.co.uk###nav-al-your-account a:not(:first-child):not(:nth-child(2)):not(:nth-child(3)):not(:last-child)
 amazon.co.uk###recsWidget
 amazon.co.uk##.mom-nudge-card-item
-amazon.co.uk###desktop-grid-1
-amazon.co.uk###desktop-grid-2
-amazon.co.uk###desktop-grid-3
-amazon.co.uk###desktop-grid-4
-amazon.co.uk###desktop-grid-5
-amazon.co.uk###desktop-grid-6
-amazon.co.uk###desktop-grid-7
-amazon.co.uk###desktop-grid-8
-amazon.co.uk###desktop-grid-9
-amazon.co.uk###desktop-grid-10
-amazon.co.uk###desktop-grid-11
-amazon.co.uk###desktop-grid-12
-amazon.co.uk###desktop-grid-13
-amazon.co.uk###desktop-grid-14
-amazon.co.uk###desktop-grid-15
-amazon.co.uk###desktop-grid-16
-amazon.co.uk###desktop-grid-17
-amazon.co.uk###desktop-grid-18
-amazon.co.uk###desktop-grid-19
-amazon.co.uk###desktop-grid-20
-amazon.co.uk###desktop-btf-grid-1
-amazon.co.uk###desktop-btf-grid-2
-amazon.co.uk###desktop-btf-grid-3
-amazon.co.uk###desktop-btf-grid-4
-amazon.co.uk###desktop-btf-grid-5
-amazon.co.uk###desktop-btf-grid-6
-amazon.co.uk###desktop-btf-grid-7
-amazon.co.uk###desktop-btf-grid-8
-amazon.co.uk###desktop-btf-grid-9
-amazon.co.uk###desktop-btf-grid-10
-amazon.co.uk###desktop-btf-grid-11
-amazon.co.uk###desktop-btf-grid-12
-amazon.co.uk###desktop-btf-grid-13
-amazon.co.uk###desktop-btf-grid-14
-amazon.co.uk###desktop-btf-grid-15
-amazon.co.uk###desktop-btf-grid-16
-amazon.co.uk###desktop-btf-grid-17
-amazon.co.uk###desktop-btf-grid-18
-amazon.co.uk###desktop-btf-grid-19
-amazon.co.uk###desktop-btf-grid-20
+amazon.co.uk##*[id*="desktop-grid-1"]
+amazon.co.uk##*[id*="desktop-grid-2"]
+amazon.co.uk##*[id*="desktop-grid-3"]
+amazon.co.uk##*[id*="desktop-grid-4"]
+amazon.co.uk##*[id*="desktop-grid-5"]
+amazon.co.uk##*[id*="desktop-grid-6"]
+amazon.co.uk##*[id*="desktop-grid-7"]
+amazon.co.uk##*[id*="desktop-grid-8"]
+amazon.co.uk##*[id*="desktop-grid-9"]
+amazon.co.uk##*[id*="desktop-btf-grid-1"]
+amazon.co.uk##*[id*="desktop-btf-grid-2"]
+amazon.co.uk##*[id*="desktop-btf-grid-3"]
+amazon.co.uk##*[id*="desktop-btf-grid-4"]
+amazon.co.uk##*[id*="desktop-btf-grid-5"]
+amazon.co.uk##*[id*="desktop-btf-grid-6"]
+amazon.co.uk##*[id*="desktop-btf-grid-7"]
+amazon.co.uk##*[id*="desktop-btf-grid-8"]
+amazon.co.uk##*[id*="desktop-btf-grid-9"]
 amazon.co.uk###desktop-1
 amazon.co.uk###desktop-2
 amazon.co.uk###desktop-3
@@ -727,57 +708,57 @@ www.diy.com##footer svg
 www.diy.com##:xpath(//div[child::h2[contains(text(), 'Customers who bought this also browsed')]])
 
 ! BBC NEWS
-www.bbc.*###cookiePrompt
-www.bbc.*##.exhqgzu6.ssrcss-u3tmht-ConsentBanner
-www.bbc.*##div[class*="-StyledTagContainer"]
-www.bbc.*##div[class*="-TagShareWrapper"]
-www.bbc.*##nav[class*="-GlobalNavigation"]
-www.bbc.*##*[data-component="unordered-list-block"]
-www.bbc.*##*[data-component="tag-list"]
-www.bbc.*##*[data-component="see-alsos"]
-www.bbc.*##*[data-component="topStories"]
-www.bbc.*##*[data-component="features"]
-www.bbc.*##*[data-component="elsewhere"]
-www.bbc.*##*[data-component="mostRead"]
-www.bbc.*##*[data-component="related-internet-links"]
-www.bbc.*##*[data-component="regionalIndexExternalLinks"]
-www.bbc.*##*[data-testid="related-video-group--related"]
-www.bbc.*##*[data-testid="related-video-group--recommended"]
-www.bbc.*##.js-local-news
-www.bbc.*##.nw-c-sport
-www.bbc.*##.ws-c-social-slice
-www.bbc.*###navp-orb-footer-promo
-www.bbc.*###orb-banner
-www.bbc.*k##.lx-stream-post__footer-share
-www.bbc.*##.instagram-media
-www.bbc.*##.gs-o-faux-block-link.gs-u-mb\@m.gs-u-pr0\@m.gs-u-pr\@s.gs-u-mb0\@s.gs-u-mb.gel-1\/1\@m.gel-1\/2\@s.gel-layout__item > .gs-c-promo
-www.bbc.*##div.gs-o-faux-block-link.gel-1\/1\@m.gel-1\/2\@s.gel-layout__item:nth-of-type(2)
-www.bbc.*##.gel-1\/1.b-pw-1280.gs-u-box-size.no-touch.nw-c-breaking-news-banner.js-breaking-news-banner
-www.bbc.*##.nw-c-Newsbeat
-www.bbc.*###footer-content > div:first-child
-www.bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'Around the BBC - Sounds')]])
-www.bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, "Banner image reading 'more about coronavirus'")]])
-www.bbc.*k##.LongArticle-header.LongArticle-bookend
-www.bbc.*##.LongArticle-footer
-www.bbc.*##.RelatedBucket.u-lg-hidden
-www.bbc.*##.relatedContent
-www.bbc.*##.footer
-www.bbc.*##.news-app-promo
-www.bbc.*##.lx-stream-post__footer-share
-www.bbc.*##div[class*="-ContainerWithSidebarWrapper"]:style(display: block !important;)
-www.bbc.*##div[class*="-MainColumn"]:style(max-width: 100% !important;)
-www.bbc.*##div[class*="-MainColumn"] + div
-www.bbc.*##*[data-component="text-block"]:style(max-width: 100% !important;)
-www.bbc.*##*[data-component="image-block"]:style(max-width: 100% !important;)
-www.bbc.*##*[data-component="media-block"]:style(max-width: 100% !important;)
-www.bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[starts-with(text(), 'More from')]])
-www.bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[starts-with(text(), 'More from')]]) ~ *
-www.bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::i[contains(text(), 'Follow us on')]])
-www.bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Around the BBC')]])
-www.bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Around the BBC')]]) ~ *
-www.bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner')]])
-www.bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner Image')]]) ~ *
-www.bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner saying')]]) ~ *
+bbc.*###cookiePrompt
+bbc.*##.exhqgzu6.ssrcss-u3tmht-ConsentBanner
+bbc.*##div[class*="-StyledTagContainer"]
+bbc.*##div[class*="-TagShareWrapper"]
+bbc.*##nav[class*="-GlobalNavigation"]
+bbc.*##*[data-component="unordered-list-block"]
+bbc.*##*[data-component="tag-list"]
+bbc.*##*[data-component="see-alsos"]
+bbc.*##*[data-component="topStories"]
+bbc.*##*[data-component="features"]
+bbc.*##*[data-component="elsewhere"]
+bbc.*##*[data-component="mostRead"]
+bbc.*##*[data-component="related-internet-links"]
+bbc.*##*[data-component="regionalIndexExternalLinks"]
+bbc.*##*[data-testid="related-video-group--related"]
+bbc.*##*[data-testid="related-video-group--recommended"]
+bbc.*##.js-local-news
+bbc.*##.nw-c-sport
+bbc.*##.ws-c-social-slice
+bbc.*###navp-orb-footer-promo
+bbc.*###orb-banner
+bbc.*##.lx-stream-post__footer-share
+bbc.*##.instagram-media
+bbc.*##.gs-o-faux-block-link.gs-u-mb\@m.gs-u-pr0\@m.gs-u-pr\@s.gs-u-mb0\@s.gs-u-mb.gel-1\/1\@m.gel-1\/2\@s.gel-layout__item > .gs-c-promo
+bbc.*##div.gs-o-faux-block-link.gel-1\/1\@m.gel-1\/2\@s.gel-layout__item:nth-of-type(2)
+bbc.*##.gel-1\/1.b-pw-1280.gs-u-box-size.no-touch.nw-c-breaking-news-banner.js-breaking-news-banner
+bbc.*##.nw-c-Newsbeat
+bbc.*###footer-content > div:first-child
+bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'Around the BBC - Sounds')]])
+bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, "Banner image reading 'more about coronavirus'")]])
+bbc.*##.LongArticle-header.LongArticle-bookend
+bbc.*##.LongArticle-footer
+bbc.*##.RelatedBucket.u-lg-hidden
+bbc.*##.relatedContent
+bbc.*##.footer
+bbc.*##.news-app-promo
+bbc.*##.lx-stream-post__footer-share
+bbc.*##div[class*="-ContainerWithSidebarWrapper"]:style(display: block !important;)
+bbc.*##div[class*="-MainColumn"]:style(max-width: 100% !important;)
+bbc.*##div[class*="-MainColumn"] + div
+bbc.*##*[data-component="text-block"]:style(max-width: 100% !important;)
+bbc.*##*[data-component="image-block"]:style(max-width: 100% !important;)
+bbc.*##*[data-component="media-block"]:style(max-width: 100% !important;)
+bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[starts-with(text(), 'More from')]])
+bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[starts-with(text(), 'More from')]]) ~ *
+bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::i[contains(text(), 'Follow us on')]])
+bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Around the BBC')]])
+bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Around the BBC')]]) ~ *
+bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner')]])
+bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner Image')]]) ~ *
+bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'Banner saying')]]) ~ *
 bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::p[starts-with(text(), 'Read more:')]])
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'Newsbeat')]])
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'Newsbeat')]]) ~ *
@@ -799,6 +780,13 @@ bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[c
 bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[contains(text(), 'You may also be interested in...')]]) ~ *
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'YQA')]])
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'YQA')]]) ~ *
+bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::p[child::i[contains(text(), 'Follow')] and child::a[contains(@href, 'https://twitter.com')]]])
+bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::p[child::i[contains(text(), 'follow') and contains(text(), 'Twitter')]]])
+bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::p[child::i[contains(text(), 'Follow') and contains(text(), 'Twitter')]]])
+bbc.*##:xpath(//p[child::i[contains(text(), 'Follow')] and child::a[contains(@href, 'https://twitter.com')]])
+bbc.*##*[class*="StyledMetadata"]
+bbc.*##*[href*="/bbc-news-daily-email"]
+bbc.*##.wr-c-weather-watchers
 
 ! BBC GOOD FOOD
 www.bbcgoodfood.com##.template-article__social-share
@@ -856,18 +844,25 @@ boardgameprices.co.uk##.expandee.newsletter
 boardgameprices.co.uk###newsletterteaser
 
 ! BORED PANDA
-www.boredpanda.com##.sidebar
-www.boredpanda.com###subscribe-before-leaving
-www.boredpanda.com##.in.modal-backdrop
-www.boredpanda.com##body.modal-open:style(overflow:auto !important;)
-www.boredpanda.com##.open-list-block-footer
-www.boredpanda.com##.post-footer-gnews-promotion
-www.boredpanda.com##.popular-post-recommendations
-www.boredpanda.com##.open-list-recommendations
-www.boredpanda.com##.post-bottom-recommendation-block
-www.boredpanda.com##.post-tags
-www.boredpanda.com##.add-post-top-button
-www.boredpanda.com##.comment-feature
+boredpanda.com##.sidebar
+boredpanda.com###subscribe-before-leaving
+boredpanda.com##.in.modal-backdrop
+boredpanda.com##body.modal-open:style(overflow:auto !important;)
+boredpanda.com##.open-list-block-footer
+boredpanda.com##.post-footer-gnews-promotion
+boredpanda.com##.popular-post-recommendations
+boredpanda.com##.open-list-recommendations
+boredpanda.com##.post-bottom-recommendation-block
+boredpanda.com##.post-tags
+boredpanda.com##.add-post-top-button
+boredpanda.com##.comment-feature
+boredpanda.com##.post-widget
+boredpanda.com##.post-shares-footer
+boredpanda.com##.post-footer-android-promotion
+boredpanda.com##.desktop-author
+boredpanda.com##.newsletter-variation
+boredpanda.com###post-comments
+boredpanda.com##.tiktok-embed
 
 ! BRITISH HARDWOODS
 www.britishhardwoods.co.uk##.header-top-message
@@ -1290,6 +1285,15 @@ fanfiction.net##.timeline-Widget
 ! FIRST TUTORS
 www.firsttutors.com##.modal--cookies.modal
 
+! FINANCIAL TIMES (SUBSCRIPTION ONLY)
+www.ft.com##.o-subs-card__container
+www.ft.com##.n-feedback__container
+www.ft.com##.o-footer__brand
+www.ft.com##.barrier__util-padding--single
+www.ft.com##.o-header__anon
+www.ft.com##.barrier-banner__content
+www.ft.com##.barrier__util-text--center
+
 ! FIVERR
 www.fiverr.com###react-app-banner
 www.fiverr.com##.social
@@ -1422,6 +1426,16 @@ gfycat.com##[href="https://gfycat.com/signup"]
 gfycat.com##.upload-button
 gfycat.com##.follow-button
 gfycat.com##.pro-cta
+
+! GIZMODO
+gizmodo.com##.instream-native-video
+gizmodo.com##.js_related-stories-inset
+gizmodo.com##.js_share-tools
+gizmodo.com##.js_newsletter-form-inline
+gizmodo.com##.js_ymal-below-post
+gizmodo.com##.js_comments-iframe
+gizmodo.com##.js_subscribe
+gizmodo.com##.share-tools-static
 
 ! GOOD READS
 www.goodreads.com##.shown.android
@@ -2240,17 +2254,24 @@ www.pinterest.co.uk##div[role=main] style + div
 www.pinterest.co.uk##nav
 
 ! POCKET LINT
-www.pocket-lint.com###top-skin-ad
-www.pocket-lint.com###top-skin-ad-bg
-www.pocket-lint.com##.topics
-www.pocket-lint.com##.social
-www.pocket-lint.com##.block-top-mobile
-www.pocket-lint.com##.ttp_byline
-www.pocket-lint.com##.nativebox-link
-www.pocket-lint.com##.article
-www.pocket-lint.com##.tags
-www.pocket-lint.com###extras_div
-www.pocket-lint.com###footer > form
+pocket-lint.com###top-skin-ad
+pocket-lint.com###top-skin-ad-bg
+pocket-lint.com##.topics
+pocket-lint.com##.social
+pocket-lint.com##.block-top-mobile
+pocket-lint.com##.ttp_byline
+pocket-lint.com##.nativebox-link
+pocket-lint.com##.article
+pocket-lint.com##.tags
+pocket-lint.com###extras_div
+pocket-lint.com###footer > form
+pocket-lint.com###article > footer
+pocket-lint.com##.squirrel_intelligent_widget
+pocket-lint.com##.writting-authors
+pocket-lint.com##.content > .text-content > ul
+pocket-lint.com###attribution-gallery
+pocket-lint.com##:xpath(//div[contains(@class, 'blocks') and child::div[contains(@class, 'block-ad')]])
+pocket-lint.com###homepage .latest-news:style(padding-bottom: 0 !important)
 
 ! POLYGON
 www.polygon.com##.m-privacy-consent
@@ -2360,6 +2381,24 @@ reddit.com##:xpath(//div[contains(@id, 'SearchDropdownContent') and child::div[c
 reddit.com##:xpath(//div[contains(@id, 'SearchDropdownContent') and child::div[contains(text(), 'Trending today')]]) ~ *
 reddit.com##.PreviewDrawer
 reddit.com##:xpath(//div[child::div[child::div[child::div[starts-with(text(), 'Similar communities')]]]])
+
+! RHS
+www.rhs.org.uk##.toolbar__search .form-btn--tone-alert
+www.rhs.org.uk###rmg-quick-bookmark_0
+www.rhs.org.uk###rmg-quick-bookmark_1
+www.rhs.org.uk###get-involved
+www.rhs.org.uk###join-the-rhs
+www.rhs.org.uk##.footer__newsletter
+www.rhs.org.uk##.header-teaser
+www.rhs.org.uk##.rhsplants-banner
+
+! RHS SHOP
+www.rhsplants.co.uk##.top-footer
+www.rhsplants.co.uk##.plancard-section2
+www.rhsplants.co.uk##.product-socials
+www.rhsplants.co.uk##.cookies-notice
+www.rhsplants.co.uk###info-panel-general
+www.rhsplants.co.uk##.offers.menu-item
 
 ! RIGHTMOVE
 rightmove.co.uk###branchProfilePropertyDetailsHeader
@@ -2645,6 +2684,8 @@ www.t3.com##.listing--related
 www.t3.com##.listing--suggested
 www.t3.com##.bordeaux-slot-root
 www.t3.com##*[class*="slot-single-height-"]
+www.t3.com##.hawk-placeholder
+www.t3.com##.star-deal
 
 ! TAPAS.IO (mobile)
 m.tapas.io###gdpr-cookie-message
@@ -2790,6 +2831,7 @@ www.express.co.uk##:xpath(//p[child::b[starts-with(text(), "DON'T MISS")]])
 www.express.co.uk##:xpath(//ul[contains(@class, 'sub-nav') and child::li[starts-with(text(), 'TRENDING')]])
 www.express.co.uk##.related_entities
 www.express.co.uk##.eu-referendum-interloper
+www.express.co.uk##[href="https://www.express-casino.com/"]
 
 ! THE DAILY MAIL
 www.dailymail.co.uk##.related-with-thumbs.more
@@ -3309,6 +3351,11 @@ udemy.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Becaus
 ! UK TIMBER
 www.uk-timber.co.uk###cookieNotice
 www.uk-timber.co.uk##.notice
+www.uk-timber.co.uk###mailchimp_signup
+railwaysleeper.co.uk##.header-banner
+railwaysleeper.co.uk##footer .col-left
+railwaysleeper.co.uk##.fa-newspaper-o
+railwaysleeper.co.uk##.fa-newspaper-o ~ *
 
 ! ULTIMATE HANDYMAN
 www.ultimatehandyman.co.uk###cookieChoiceInfo
@@ -3477,6 +3524,25 @@ www.whatcar.com##*[class*="FragmentGroupedLink"]
 www.whatcar.com##:xpath(//div[child::a[contains(@data-bi, 'latest-top-10-tag-link')]])
 www.whatcar.com##:xpath(//div[child::a[contains(@data-bi, 'latest-long-term-tests-tag-link')]])
 www.whatcar.com##:xpath(//div[child::a[contains(@data-bi, 'latest-new-car-group-tests-tag-link')]])
+
+! WHICH
+www.which.co.uk##.wm-share-block
+www.which.co.uk##.wm-follow-block
+www.which.co.uk##.wm-money-article > div > div > div > div > div > .wm-related-content
+www.which.co.uk###which-signup
+conversation.which.co.uk##.social-article
+conversation.which.co.uk##.grecaptcha-badge
+conversation.which.co.uk##.wp-polls
+conversation.which.co.uk##.useful-links
+conversation.which.co.uk##.tags
+conversation.which.co.uk##.share
+conversation.which.co.uk##.sidebar
+conversation.which.co.uk###comments
+conversation.which.co.uk##.related-posts
+conversation.which.co.uk##.social
+conversation.which.co.uk##.comments-meta
+conversation.which.co.uk##.article-info
+conversation.which.co.uk##.comments-number-large
 
 ! WICKES
 www.wickes.co.uk##.sticky-wrapper
@@ -3668,6 +3734,7 @@ youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.co
 youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
 youtube.com##+js(json-prune, topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
 youtube.com##.opened
+youtube.com###interstitial
 youtube.com###consent-bump
 youtube.com###consent-bump > .ytd-consent-bump-lightbox.style-scope
 youtube.com##ytd-metadata-row-container-renderer
