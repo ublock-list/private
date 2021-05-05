@@ -148,11 +148,13 @@
 ||nanorep.co
 ||nanorep.com
 ||netdna-cdn.com
+||nkyouvery.fun
 ||nocookie.net
 ||ntvsw.com
 ||ofhypnoer.com
 ||oipcqenejq.com
 ||onetrust.com
+||onsideratio.fun
 ||otrl.io
 ||otrldev.uk
 ||padsatz.com
@@ -211,6 +213,7 @@
 ||termly.io
 ||textforex2.info
 ||thescv.team
+||thgingenuity.com
 ||tiktok.com
 ||tiktokcdn.com
 ||tm-awx.com
@@ -415,6 +418,10 @@ amazon.co.uk###olpLinkWidget_feature_div
 amazon.co.uk###moreBuyingChoices_feature_div
 amazon.co.uk###ask-dp-search_feature_div
 amazon.co.uk###quickPromoBucketContent
+amazon.co.uk##.gw-media-card
+amazon.co.uk##.ad-left-over-card
+amazon.co.uk##.deal-of-the-day
+amazon.co.uk##.badges-genome-widget
 amazon.co.uk##*[cel_widget_id="mobile-dp-sims_DealsSessionSimsR"]
 amazon.co.uk##*[cel_widget_id="dpx-anywhere-sell-yours-here_csm_instrumentation_wrapper"]
 amazon.co.uk##*[cel_widget_id="dpx-anywhere-tradeInButton_csm_instrumentation_wrapper"]
@@ -648,6 +655,8 @@ www.autoexpress.co.uk##.polaris__review--most-popular
 www.autoexpress.co.uk##.polaris__footer--logo
 www.autoexpress.co.uk##.polaris__content-bottom
 www.autoexpress.co.uk##.polaris__collapsible
+www.autoexpress.co.uk##.polaris__gallery--most-popular
+www.autoexpress.co.uk##.polaris__review--template > .polaris__content
 
 ! AUTOTRADER
 autotrader.co.uk##.search-result__actions
@@ -657,47 +666,60 @@ autotrader.co.uk##.search-result__featured-listing
 autotrader.co.uk##:xpath(//li[descendant::div[contains(@class, 'searchResult__featured')]])
 autotrader.co.uk##.js-standout-listing
 autotrader.co.uk##.top-spot
-www.autotrader.co.uk##.listings-standout
-www.autotrader.co.uk###chatAndTextOverlayCard
-www.autotrader.co.uk###js-search-result-adsense-slot
-www.autotrader.co.uk##.module--vehicle-check.module
+autotrader.co.uk##.listings-standout
+autotrader.co.uk###chatAndTextOverlayCard
+autotrader.co.uk###js-search-result-adsense-slot
+autotrader.co.uk##.module--vehicle-check.module
 autotrader.co.uk##:xpath(//div[contains(@class, 'product-card__wrapper') and descendant::div[contains(text(), 'Ad')]])
 autotrader.co.uk##:xpath(//div[contains(@class, 'product-card__wrapper') and descendant::div[contains(text(), 'You may also like')]])
-www.autotrader.co.uk##.search-result-top-spot-multi-ad-wrapper
-www.autotrader.co.uk##.alert-banner
-www.autotrader.co.uk##.home-page__hero
-www.autotrader.co.uk##.vehicle-strip
-www.autotrader.co.uk##.home-page__app-promo
-www.autotrader.co.uk##.insurance
-www.autotrader.co.uk##.deal-builder
-www.autotrader.co.uk##.seller-cta-flex
-www.autotrader.co.uk##.newcar-2020
-www.autotrader.co.uk##.other-vehicles-from-seller
-www.autotrader.co.uk##.buying-safely__wrapper
-www.autotrader.co.uk##.buying-safely__wrapper
-www.autotrader.co.uk##.has-font-obs > iframe
-www.autotrader.co.uk##.purchase-options__container
-www.autotrader.co.uk##.seller-logo
-www.autotrader.co.uk##.part-exchange-promo
-www.autotrader.co.uk##.review-component
-www.autotrader.co.uk##.fpa-details__spec-container
-www.autotrader.co.uk##.disclaimer
-www.autotrader.co.uk##.site-footer__links-list
-www.autotrader.co.uk##.site-footer__native
-www.autotrader.co.uk##.dealer-finance-link
-www.autotrader.co.uk##.search-form-pattern:style(position: static !important; margin-top: 30px !important; transform: none !important; max-width: auto !important;)
-www.autotrader.co.uk##.atds-container
-www.autotrader.co.uk##.cars-sell-landing
-www.autotrader.co.uk##.home-page__services
-www.autotrader.co.uk##footer nav nav:nth-child(4)
-www.autotrader.co.uk##.footer__nav-social
-www.autotrader.co.uk##.footer__nav-native
-www.autotrader.co.uk##.footer__platform-switch
-www.autotrader.co.uk##.footer__nav-disclaimer
-www.autotrader.co.uk##.vehicle-top-links__buyable-extras
-www.autotrader.co.uk##.fpa-header-badges-wrap
-www.autotrader.co.uk##.content__feature
-www.autotrader.co.uk##.fpa-header-badges-wrap
+autotrader.co.uk##.search-result-top-spot-multi-ad-wrapper
+autotrader.co.uk##.alert-banner
+autotrader.co.uk##.home-page__hero
+autotrader.co.uk##.vehicle-strip
+autotrader.co.uk##.home-page__app-promo
+autotrader.co.uk##.insurance
+autotrader.co.uk##.deal-builder
+autotrader.co.uk##.seller-cta-flex
+autotrader.co.uk##.newcar-2020
+autotrader.co.uk##.other-vehicles-from-seller
+autotrader.co.uk##.buying-safely__wrapper
+autotrader.co.uk##.buying-safely__wrapper
+autotrader.co.uk##.has-font-obs > iframe
+autotrader.co.uk##.purchase-options__container
+autotrader.co.uk##.seller-logo
+autotrader.co.uk##.part-exchange-promo
+autotrader.co.uk##.review-component
+autotrader.co.uk##.fpa-details__spec-container
+autotrader.co.uk##.disclaimer
+autotrader.co.uk##.site-footer__links-list
+autotrader.co.uk##.site-footer__native
+autotrader.co.uk##.dealer-finance-link
+autotrader.co.uk##.search-form-pattern:style(position: static !important; margin-top: 30px !important; transform: none !important; max-width: auto !important;)
+autotrader.co.uk##.atds-container
+autotrader.co.uk##.cars-sell-landing
+autotrader.co.uk##.home-page__services
+autotrader.co.uk##footer nav nav:nth-child(4)
+autotrader.co.uk##.footer__nav-social
+autotrader.co.uk##.footer__nav-native
+autotrader.co.uk##.footer__platform-switch
+autotrader.co.uk##.footer__nav-disclaimer
+autotrader.co.uk##.vehicle-top-links__buyable-extras
+autotrader.co.uk##.fpa-header-badges-wrap
+autotrader.co.uk##.content__feature
+autotrader.co.uk##.fpa-header-badges-wrap
+autotrader.co.uk##.part-exchange-promo-form
+autotrader.co.uk##.interested-in-ctt
+autotrader.co.uk##.share-advert
+autotrader.co.uk##.save-compare-advert
+autotrader.co.uk##.print-advert-cta
+autotrader.co.uk##.product-card-seller-info__logo
+autotrader.co.uk##.dealer-profile-link
+autotrader.co.uk##:xpath(//div[contains(@class, 'module') and descendant::a[contains(@href, 'https://partnerships-motor-gateway.comparethemarket.com')]])
+
+! AV FORUMS
+www.avforums.com##.p-body-sidebar
+www.avforums.com##*[data-widget-key="xfes_thread_view_below_quick_reply_similar_threads"]
+www.avforums.com###footerHub
 
 ! B&Q
 www.diy.com###app-header + div
@@ -838,6 +860,10 @@ boardgamegeek.com##.ng-scope.support-plea-container
 boardgamegeek.com##.advertisement
 boardgamegeek.com##.advertisement-text
 boardgamegeek.com##.footer__container .footer__col:nth-child(4)
+boardgamegeek.com##.well.panel
+boardgamegeek.com##recs-module-overview
+boardgamegeek.com##.game-description-ad
+boardgamegeek.com##:xpath(//li[contains(@class, 'card-scroll__item') and descendant::span[contains(@class, 'post-meta__item') and child::span[contains(text(), 'Sponsored')]]])
 
 ! BOARD GAME PRICES
 boardgameprices.co.uk##.expandee.newsletter
@@ -1155,6 +1181,7 @@ www.etsy.com##:xpath(//li[contains(@class, 'wt-list-unstyled') and descendant::s
 www.etsy.com##:xpath(//li[contains(@class, 'wt-list-unstyled') and descendant::div[contains(@class, 'v2-listing-card__info') and descendant::p[contains(@class, 'wt-text-caption') and descendant::span]]])
 www.etsy.com##:xpath(//li[contains(@class, 'wt-list-unstyled') and descendant::div[contains(@class, 'v2-listing-card__shop') and descendant::p[contains(@class, 'text-gray-lighter') and descendant::span]]])
 www.etsy.com##:xpath(//div[child::div[child::a[starts-with(@href, 'https://etsy.app.link/')]]])
+etsy.com##*[data-your-purchases-async-loaded-modules=""]
 
 ! EUROGAMER
 www.eurogamer.net##.secondary
@@ -1421,6 +1448,14 @@ www.gamespot.com##aside.secondary-content
 www.gamespot.com##.review-authors
 www.gamespot.com###below-content
 
+! GARDENS 4 YOU
+www.gardens4you.co.uk##.promo_top_bar
+www.gardens4you.co.uk##.review_top_bar
+www.gardens4you.co.uk##.solutions-container
+www.gardens4you.co.uk##.footertop
+www.gardens4you.co.uk##.paymenticons
+www.gardens4you.co.uk##.socialbarretje
+
 ! GFY CAT
 gfycat.com##[href="https://gfycat.com/signup"]
 gfycat.com##.upload-button
@@ -1546,6 +1581,8 @@ www.homebase.co.uk##.productAlternativesWrapper
 www.homebase.co.uk##.eastendFooter_signupAndSocialIcons
 www.homebase.co.uk##.eastendFooter_sectionFourContainer
 www.homebase.co.uk##.multiCategoryCardSet_container
+www.homebase.co.uk##.emailReengagement
+www.homebase.co.uk##.emailReengagement_noscroll:style(overflow: auto !important; position: static !important;)
 
 ! HOTUKDEALS
 hotukdeals.com##.js-keyword-alerts
@@ -1855,6 +1892,12 @@ knowyourmeme.com##.related_memes
 knowyourmeme.com###global-message
 knowyourmeme.com###section_header_wrap > .c
 knowyourmeme.com###content > .right
+
+! LANGUAGE DROPS
+languagedrops.com##.play-popup-shown
+languagedrops.com##.conversion-banner
+languagedrops.com##.topic-page-footer-container
+languagedrops.com##.topic-page-title-box
 
 ! LBC NEWS
 www.lbc.co.uk##.header__user-status
@@ -2253,6 +2296,13 @@ www.pinterest.co.uk##body:style(overflow: auto !important; touch-action: auto !i
 www.pinterest.co.uk##div[role=main] style + div
 www.pinterest.co.uk##nav
 
+! PLEX
+forums.plex.tv##.topic-map-expanded
+forums.plex.tv##.toggle-summary.information
+forums.plex.tv##.suggested-topics-wrapper
+forums.plex.tv##.onscreen-post.small-action
+forums.plex.tv##.alert-info.alert.signup-cta
+
 ! POCKET LINT
 pocket-lint.com###top-skin-ad
 pocket-lint.com###top-skin-ad-bg
@@ -2649,6 +2699,14 @@ stackoverflow.com##.js-dismissable-hero
 stackoverflow.com##.s-sidebarwidget
 stackoverflow.com##.tex2jax_ignore.module
 stackoverflow.com##.js-freemium-cta
+stackoverflow.com##.facebook-login
+stackoverflow.com##.google-login
+stackoverflow.com###feed-link
+stackoverflow.com##.site-footer--copyright
+stackoverflow.com##.bottom-notice
+stackoverflow.com##.privacy-policy-agreement
+stackoverflow.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')])
+stackoverflow.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')]) ~ *
 
 ! STEAM COMMUNITY
 steamcommunity.com##.cookiepreferences_popup_content
@@ -2664,6 +2722,16 @@ www.stonepavingdirect.co.uk##.cc-color-override-438490.cc-left.cc-bottom.cc-them
 
 ! SUPERUSER
 superuser.com##.js-consent-banner
+superuser.com##.site-footer--copyright
+superuser.com###hot-network-questions
+superuser.com##.facebook-login
+superuser.com##.google-login
+superuser.com###feed-link
+superuser.com##.s-sidebarwidget
+superuser.com##.bottom-notice
+superuser.com##.privacy-policy-agreement
+superuser.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')])
+superuser.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')]) ~ *
 
 ! T3
 www.t3.com##.masthead-item.user-locale
@@ -2746,6 +2814,8 @@ www.techradar.com##.news-article:style(max-width: none !important;)
 www.techradar.com###content:style(width: auto !important;)
 www.techradar.com##.see-more
 www.techradar.com###article-body > ul > li
+techradar.com##*[data-action="Deal Block"]
+techradar.com##.fwd-link
 
 ! TECH REPUBLIC
 techrepublic.com##.btn-premium
@@ -3417,6 +3487,9 @@ www.very.co.uk##.InsideTrack
 
 ! VIVASTREET
 www.vivastreet.co.uk##.vs-disclaimer-wrapper
+
+! VOLKSWAGEN
+www.volkswagen.co.uk###bannerOverlay
 
 ! WATERSTONES
 www.waterstones.com##.cookie-bar
