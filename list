@@ -137,48 +137,50 @@ savelink.*##.SC_TBlock
 pornhub.com##:xpath(//deicc)
 pornhub.com##:xpath(//cddei)
 pornhub.com###js-abContainterMain
-www.pornhub.com###p2vVideosVPage
-www.pornhub.com###customSkinCTA
-www.pornhub.com###headerUpgradePremiumBtn
-www.pornhub.com##.backgroundImg
-www.pornhub.com###js-networkBar
-www.pornhub.com##.phimage[data-entrycode="VidPg-premVid-videoPage"]
-www.pornhub.com##.phimage[data-entrycode="VidPg-premVid-videoPage"] + div
-www.pornhub.com##.phimage[data-entrycode="VidPg-premVid-videoPage"] + div + div
-www.pornhub.com##.userActions
-www.pornhub.com##.video-wrapper.hd-videos_wrapper.hd-smallerWidth.sectionWrapper
-www.pornhub.com##.livesex.item-4.menu.asyncLoad
-www.pornhub.com##.pornstar.item-5.menu
-www.pornhub.com##.community.item-7.menu
-www.pornhub.com##.omega.photos.item-8.menu
-www.pornhub.com##.headerBtnsWrapper
-www.pornhub.com###topRightProfileMenu
-www.pornhub.com##.footerContentWrapper
-www.pornhub.com###welcome
-www.pornhub.com##.tooltipTrig.spriteProfileIcons.light.greyButton.buttonClass
-www.pornhub.com##.profile-sidebar
-www.pornhub.com###profileStream
-www.pornhub.com##.fanButtonWrapper
-www.pornhub.com##.userButtonsMenu
-www.pornhub.com##.active.fanclub-info-pop
-www.pornhub.com##.frontListingWrapper > div:first-child
-www.pornhub.com##.frontListingWrapper > div:nth-child(2)
-www.pornhub.com##.frontListingWrapper > div:nth-child(3)
-www.pornhub.com###cmtWrapper
-www.pornhub.com##.favorites-message
-www.pornhub.com###hd-rightColVideoPage
-www.pornhub.com###vpContentContainer:style(display: block !important;)
-www.pornhub.com##.relatedSearchTermsBottom 
-www.pornhub.com##.tagsForWomen
-www.pornhub.com##.tagsForMen
-www.pornhub.com###videoSearchResult ~ div.sectionWrapper > #bottomVideos
-www.pornhub.com###videoSearchResult ~ div.sectionWrapper h2
-www.pornhub.com##.cookieBanner
+pornhub.com###p2vVideosVPage
+pornhub.com###customSkinCTA
+pornhub.com###headerUpgradePremiumBtn
+pornhub.com##.backgroundImg
+pornhub.com###js-networkBar
+pornhub.com##.phimage[data-entrycode="VidPg-premVid-videoPage"]
+pornhub.com##.phimage[data-entrycode="VidPg-premVid-videoPage"] + div
+pornhub.com##.phimage[data-entrycode="VidPg-premVid-videoPage"] + div + div
+pornhub.com##.userActions
+pornhub.com##.video-wrapper.hd-videos_wrapper.hd-smallerWidth.sectionWrapper
+pornhub.com##.livesex.item-4.menu.asyncLoad
+pornhub.com##.pornstar.item-5.menu
+pornhub.com##.community.item-7.menu
+pornhub.com##.omega.photos.item-8.menu
+pornhub.com##.headerBtnsWrapper
+pornhub.com###topRightProfileMenu
+pornhub.com##.footerContentWrapper
+pornhub.com###welcome
+pornhub.com##.tooltipTrig.spriteProfileIcons.light.greyButton.buttonClass
+pornhub.com##.profile-sidebar
+pornhub.com###profileStream
+pornhub.com##.fanButtonWrapper
+pornhub.com##.userButtonsMenu
+pornhub.com##.active.fanclub-info-pop
+pornhub.com##.frontListingWrapper > div:first-child
+pornhub.com##.frontListingWrapper > div:nth-child(2)
+pornhub.com##.frontListingWrapper > div:nth-child(3)
+pornhub.com###cmtWrapper
+pornhub.com##.favorites-message
+pornhub.com###hd-rightColVideoPage
+pornhub.com###vpContentContainer:style(display: block !important;)
+pornhub.com##.relatedSearchTermsBottom 
+pornhub.com##.tagsForWomen
+pornhub.com##.tagsForMen
+pornhub.com###videoSearchResult ~ div.sectionWrapper > #bottomVideos
+pornhub.com###videoSearchResult ~ div.sectionWrapper h2
+pornhub.com##.cookieBanner
 pornhub.com##.categoriesWrapper
 pornhub.com##.leftSide .sectionChannelsWrapper
 pornhub.com##.join
 pornhub.com##.subscribe
-www.pornhub.com##:xpath(//div[contains(@class, 'sectionWrapper') and descendant::h2[child::a[contains(text(), 'Recommended')]]])
+pornhub.com##:xpath(//div[contains(@class, 'sectionWrapper') and descendant::h2[child::a[contains(text(), 'Recommended')]]])
+pornhub.com##.relatedSearches
+pornhub.com###relatedPornstarSidebar
 
 ! OKCUPID
 okcupid.com##.discovery-ad
