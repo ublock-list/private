@@ -181,6 +181,7 @@ pornhub.com##.subscribe
 pornhub.com##:xpath(//div[contains(@class, 'sectionWrapper') and descendant::h2[child::a[contains(text(), 'Recommended')]]])
 pornhub.com##.relatedSearches
 pornhub.com###relatedPornstarSidebar
+pornhub.com##.underplayerAd
 
 ! OKCUPID
 okcupid.com##.discovery-ad
