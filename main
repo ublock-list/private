@@ -64,6 +64,7 @@
 ||domslc.com
 ||doubleclick.net
 ||downfile.site
+||drmtoday.com
 ||dz4win.com
 ||e-v-e-n.me
 ||earnload.com
@@ -1021,6 +1022,7 @@ www.crunchyroll.com###welcome_right
 www.crunchyroll.com##.showmedia-submenu
 www.crunchyroll.com###showmedia_about_new > h3
 www.crunchyroll.com##.try-free-header-menu-item
+www.crunchyroll.com###onetrust-consent-sdk
 
 ! CSS TRICKS
 css-tricks.com##.fem-ad
@@ -1540,6 +1542,9 @@ google.*###rhs
 
 ! GOV UK
 www.gov.uk##.govuk-clearfix.gem-c-cookie-banner
+
+! GREEN FLAG
+www.greenflag.com##.highways-banner
 
 ! GUMTREE
 www.gumtree.com##ul[data-q="featuredresults"]
@@ -2395,6 +2400,24 @@ www.quora.com##div[id*="_signup_wall_wrapper"]
 www.quora.com##body.signup_wall_prevent_scroll #root:style(filter: none !important;)
 quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Questions')]]]]]]]]]])
 
+! RAC
+www.rac.co.uk##.sidebar
+www.rac.co.uk##.cross-sell-block
+www.rac.co.uk##.wygwam > ul
+www.rac.co.uk##.section__poll
+www.rac.co.uk##.section__related
+www.rac.co.uk##.section__related-category-articles
+www.rac.co.uk##.section__category-tags
+www.rac.co.uk##.disclaimers-container
+www.rac.co.uk##.newsletter-signup
+www.rac.co.uk##.rac-header-banner
+www.rac.co.uk##.OfferBanner
+www.rac.co.uk##.CountdownBanner
+www.rac.co.uk##.footerTerms
+www.rac.co.uk##main > div[style*="background-color"]
+www.rac.co.uk##:xpath(//section[descendant::h2[contains(text(), 'What our members say')]])
+www.rac.co.uk##:xpath(//div[child::div[child::div[child::div[child::h5[contains(text(), 'newsletter')]]]]])
+
 ! RADIO TIMES
 www.radiotimes.com##.template-article__social-share
 www.radiotimes.com##.template-article__author-name
@@ -2431,6 +2454,8 @@ reddit.com##:xpath(//div[contains(@id, 'SearchDropdownContent') and child::div[c
 reddit.com##:xpath(//div[contains(@id, 'SearchDropdownContent') and child::div[contains(text(), 'Trending today')]]) ~ *
 reddit.com##.PreviewDrawer
 reddit.com##:xpath(//div[child::div[child::div[child::div[starts-with(text(), 'Similar communities')]]]])
+reddit.com##.infobar-toaster-container
+reddit.com##.premium-banner-outer
 
 ! RHS
 www.rhs.org.uk##.toolbar__search .form-btn--tone-alert
@@ -2969,6 +2994,10 @@ www.standard.co.uk##:xpath(//div[child::div[child::div[contains(@data-tile-name,
 www.standard.co.uk##aside
 www.standard.co.uk##.social-share
 www.standard.co.uk##.article-newsletter-form
+
+! THE FAMILY SURGERY
+thefamilysurgeryorpington.nhs.uk###eConsultDefaultTarget
+thefamilysurgeryorpington.nhs.uk###cookiepolicy
 
 ! THE GUARDIAN
 www.theguardian.com##.site-message--android
