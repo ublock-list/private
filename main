@@ -808,6 +808,7 @@ bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::p[ch
 bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::p[child::i[contains(text(), 'Follow') and contains(text(), 'Twitter')]]])
 bbc.*##:xpath(//p[child::i[contains(text(), 'Follow')] and child::a[contains(@href, 'https://twitter.com')]])
 bbc.*##*[class*="StyledMetadata"]
+bbc.*##*[class*="ConsentBanner"]
 bbc.*##*[href*="/bbc-news-daily-email"]
 bbc.*##.wr-c-weather-watchers
 
@@ -829,6 +830,24 @@ www.bbcgoodfood.com##section > hr
 www.bbcgoodfood.com##section > hr ~ *
 www.bbcgoodfood.com##.nativo
 www.bbcgoodfood.com##.nativo ~ *
+
+! BMW
+www.bmw.co.uk##epaas-consent-drawer-shell
+www.bmw.co.uk##.smartbanner
+
+! BMW USED CARS
+usedcars.bmw.co.uk##.uvl-c-repex
+usedcars.bmw.co.uk##.uvl-c-vehicle-finance
+usedcars.bmw.co.uk##.uvl-c-footer__social
+usedcars.bmw.co.uk##.uvl-o-panel-cta
+usedcars.bmw.co.uk##.uvl-c-vehicle-quote__finances
+usedcars.bmw.co.uk##.uvl-c-plugin__series-carousel
+usedcars.bmw.co.uk##.right-content
+usedcars.bmw.co.uk##.js-uvl-swiper--home
+usedcars.bmw.co.uk##.uvl-c-plugin__announcement__content
+usedcars.bmw.co.uk##.uvl-c-plugin__tiles > .container
+usedcars.bmw.co.uk##.uvl-c-plugin__accordion--smalltext
+usedcars.bmw.co.uk##.uvl-c-quote-tile__item--secondary
 
 ! BOARD GAME ARENA
 boardgamearena.com##div[aria-label="cookieconsent"]
@@ -1007,22 +1026,23 @@ www.computerworld.com##.sidebar.how-to-listen
 www.computerworld.com##.author.vcard.blog-byline
 
 ! CRUNCHYROLL
-www.crunchyroll.com##.game-banner-wrapper
-www.crunchyroll.com###marketing_banner
-www.crunchyroll.com###message_box
-www.crunchyroll.com###showmedia_free_trial_signup
-www.crunchyroll.com##.get-funimation-section
-www.crunchyroll.com##.other-series
-www.crunchyroll.com###container > .right
-www.crunchyroll.com##.showmedia-related
-www.crunchyroll.com##.comments
-www.crunchyroll.com##.footer-categories-container
-www.crunchyroll.com##.availability-notes-low
-www.crunchyroll.com###welcome_right
-www.crunchyroll.com##.showmedia-submenu
-www.crunchyroll.com###showmedia_about_new > h3
-www.crunchyroll.com##.try-free-header-menu-item
-www.crunchyroll.com###onetrust-consent-sdk
+crunchyroll.com##.game-banner-wrapper
+crunchyroll.com###marketing_banner
+crunchyroll.com###message_box
+crunchyroll.com###showmedia_free_trial_signup
+crunchyroll.com##.get-funimation-section
+crunchyroll.com##.other-series
+crunchyroll.com###container > .right
+crunchyroll.com##.showmedia-related
+crunchyroll.com##.comments
+crunchyroll.com##.footer-categories-container
+crunchyroll.com##.availability-notes-low
+crunchyroll.com###welcome_right
+crunchyroll.com##.showmedia-submenu
+crunchyroll.com###showmedia_about_new > h3
+crunchyroll.com##.try-free-header-menu-item
+crunchyroll.com###onetrust-consent-sdk
+crunchyroll.com##.queue-button
 
 ! CSS TRICKS
 css-tricks.com##.fem-ad
@@ -1131,6 +1151,18 @@ duckduckgo.com##.footer--mobile
 duckduckgo.com##.js-open-in-app-link.open-in-app__deep-link
 duckduckgo.com##.user-loc-cta
 duckduckgo.com##.has-feedback-prompt.js-module--maps_places.module--places.module
+
+! DUSK
+dusk.com##.loading-mask
+dusk.com##.top_msg
+dusk.com##.media.product
+dusk.com##.product-title-offermsg
+dusk.com##div.trustpilot-widget
+dusk.com##.offcer-section.usp-bar
+dusk.com##.page-header-bottom
+dusk.com##.yotpo-gallery-widget-header
+dusk.com##.product-upsell
+dusk.com##.content.footer
 
 ! EBAY
 ebay.*##li[r="1"]
@@ -2042,6 +2074,14 @@ www.mumsnet.com##.cta-join
 www.mumsnet.com###talk-footer-search
 www.mumsnet.com##.navbar-fixed-bottom.navbar-default.navbar
 
+! NATIONAL RAIL
+m.nationalrail.co.uk##.modalContainer
+m.nationalrail.co.uk##.hBar
+m.nationalrail.co.uk##.disruptions-bar
+m.nationalrail.co.uk##.alert-sms
+m.nationalrail.co.uk###with_tc_link
+m.nationalrail.co.uk##.pOys
+
 ! NEW SCIENTIST
 www.newscientist.com##.header-subscribe
 www.newscientist.com##.header-promotion
@@ -2431,7 +2471,12 @@ www.radiotimes.com##.copyright-container
 www.radiotimes.com##.standard-card-new__sponsored-by
 
 ! REDDIT
-reddit.com##.m-active.XPromoPopup
+reddit.com##.XPromoPopup
+reddit.com##.XPromoPill
+reddit.com##.xPromoChoiceBanner
+reddit.com##.XPromoInFeed
+reddit.com##.xPromoAppStoreFooter
+reddit.com##*[class*="XPromo"]
 reddit.com##.EUCookieNotice
 reddit.com##.TopNav__promoButton
 reddit.com##body.scroll-disabled:style(height: auto;overflow: auto !important;position: static !important;width: auto !important;)
@@ -2440,9 +2485,6 @@ reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[
 reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::a[child::h3[contains(text(), 'Top livestream')]]]]]]]])
 reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::a[child::h3[contains(text(), 'Top broadcasts')]]]]]]]])
 reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::a[child::h3[contains(text(), 'Top broadcast')]]]]]]]])
-reddit.com##.xPromoChoiceBanner
-reddit.com##.XPromoInFeed
-reddit.com##.xPromoAppStoreFooter
 reddit.com##.listingsignupbar.infobar
 reddit.com##.CommentsPage > article
 reddit.com###POPUP_CONTAINER + div
@@ -2453,9 +2495,11 @@ reddit.com##.ListingLayout-outerContainer > div:nth-child(2) > div:nth-child(3) 
 reddit.com##:xpath(//div[contains(@id, 'SearchDropdownContent') and child::div[contains(text(), 'Trending today')]])
 reddit.com##:xpath(//div[contains(@id, 'SearchDropdownContent') and child::div[contains(text(), 'Trending today')]]) ~ *
 reddit.com##.PreviewDrawer
+reddit.com##.SignupDrawer
 reddit.com##:xpath(//div[child::div[child::div[child::div[starts-with(text(), 'Similar communities')]]]])
 reddit.com##.infobar-toaster-container
 reddit.com##.premium-banner-outer
+reddit.com##.giftgold
 
 ! RHS
 www.rhs.org.uk##.toolbar__search .form-btn--tone-alert
@@ -2683,6 +2727,20 @@ www.screwfix.com##.ls__banner--container
 www.screwfix.com##.product_recall
 www.screwfix.com##.ft-some
 
+! SERVERFAULT
+serverfault.com##.js-teams-promo
+serverfault.com##.js-consent-banner
+serverfault.com##.js-dismissable-hero
+serverfault.com##.s-sidebarwidget
+serverfault.com##.tex2jax_ignore.module
+serverfault.com##.js-freemium-cta
+serverfault.com##.facebook-login
+serverfault.com##.google-login
+serverfault.com###feed-link
+serverfault.com##.site-footer--copyright
+serverfault.com##.bottom-notice
+serverfault.com##.privacy-policy-agreement
+
 ! SKY NEWS
 news.sky.com##.site-share-wrapper
 news.sky.com##.sdc-article-body--lead.sdc-article-body--story.sdc-article-body > .sdc-site-layout-sticky-region
@@ -2715,15 +2773,21 @@ stackexchange.com##.js-dismissable-hero
 stackexchange.com##.s-sidebarwidget
 stackexchange.com##.tex2jax_ignore.module
 stackexchange.com##.js-freemium-cta
+stackexchange.com##.facebook-login
+stackexchange.com##.google-login
+stackexchange.com###feed-link
+stackexchange.com##.site-footer--copyright
+stackexchange.com##.bottom-notice
+stackexchange.com##.privacy-policy-agreement
 
 ! STACK OVERFLOW
 stackoverflow.com##.js-teams-promo
 stackoverflow.com##.js-consent-banner
-stackoverflow.com##.everyonelovesstackoverflow
 stackoverflow.com##.js-dismissable-hero
 stackoverflow.com##.s-sidebarwidget
 stackoverflow.com##.tex2jax_ignore.module
 stackoverflow.com##.js-freemium-cta
+stackoverflow.com##.everyonelovesstackoverflow
 stackoverflow.com##.facebook-login
 stackoverflow.com##.google-login
 stackoverflow.com###feed-link
