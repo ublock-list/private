@@ -3714,10 +3714,27 @@ www.whatcar.com##:xpath(//div[child::a[contains(@data-bi, 'latest-long-term-test
 www.whatcar.com##:xpath(//div[child::a[contains(@data-bi, 'latest-new-car-group-tests-tag-link')]])
 
 ! WHICH
-www.which.co.uk##.wm-share-block
-www.which.co.uk##.wm-follow-block
-www.which.co.uk##.wm-money-article > div > div > div > div > div > .wm-related-content
-www.which.co.uk###which-signup
+which.co.uk##.wm-share-block
+which.co.uk##.wm-follow-block
+which.co.uk##.wm-money-article > div > div > div > div > div > .wm-related-content
+which.co.uk###which-signup
+which.co.uk##:xpath(//p[child::strong[child::a]])
+which.co.uk##aside
+which.co.uk##.share
+which.co.uk##article footer
+which.co.uk##article > div.row > div:style(max-width: 100% !important; flex: none !important;)
+which.co.uk##footer.content-info > div
+which.co.uk##footer[data-which-id="footer"]
+which.co.uk##ul[data-test-element="product-list"] li:not([itemprop])
+which.co.uk##.banner__nav
+which.co.uk##.glide-home-featured-items
+which.co.uk##:xpath(//p[child::a[contains(@href, '/login')]])
+which.co.uk##:xpath(//div[child::div[child::a[contains(@href, 'https://join.which.co.uk')]]])
+which.co.uk##:xpath(//div[child::h2[contains(text(), 'Make smarter choices')]])
+which.co.uk##section[data-test="recommendedAlternatives"]
+which.co.uk##section[data-test-element="related-articles"]
+which.co.uk##div[class*="banner-container"]
+which.co.uk##.retailersTable
 conversation.which.co.uk##.social-article
 conversation.which.co.uk##.grecaptcha-badge
 conversation.which.co.uk##.wp-polls
