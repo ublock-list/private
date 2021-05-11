@@ -2075,12 +2075,34 @@ www.mumsnet.com###talk-footer-search
 www.mumsnet.com##.navbar-fixed-bottom.navbar-default.navbar
 
 ! NATIONAL RAIL
+nationalrail.co.uk###disruptions-bar
+nationalrail.co.uk##.compensation
+nationalrail.co.uk###facebook
+nationalrail.co.uk###sh
 m.nationalrail.co.uk##.modalContainer
 m.nationalrail.co.uk##.hBar
 m.nationalrail.co.uk##.disruptions-bar
 m.nationalrail.co.uk##.alert-sms
 m.nationalrail.co.uk###with_tc_link
 m.nationalrail.co.uk##.pOys
+m.nationalrail.co.uk##body:style(overflow: auto !important;)
+m.nationalrail.co.uk##.title.clr:style(margin-top: 0 !important;)
+ojp.nationalrail.co.uk##.ctf-card
+ojp.nationalrail.co.uk##.ctf-oyster-contactless
+ojp.nationalrail.co.uk##.ctf-alerts
+ojp.nationalrail.co.uk###ctf-costs
+ojp.nationalrail.co.uk###ctf-adv
+ojp.nationalrail.co.uk###other-cheap-fares
+ojp.nationalrail.co.uk##.jp-promotions-rcards
+ojp.nationalrail.co.uk##.jp-get-oyster-contactless
+ojp.nationalrail.co.uk##.additional
+ojp.nationalrail.co.uk##.content:style(width: 100% !important;)
+ojp.nationalrail.co.uk##.content .main:style(width: 100% !important; float: none !important;)
+ojp.nationalrail.co.uk###oft:style(width: 100% !important;)
+www.nationalrail.co.uk##.content-item
+www.nationalrail.co.uk##.jp-right
+www.nationalrail.co.uk##.c1
+www.nationalrail.co.uk##.c2
 
 ! NEW SCIENTIST
 www.newscientist.com##.header-subscribe
