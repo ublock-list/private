@@ -93,6 +93,7 @@
 ||gigamic.com
 ||go-ahead.com
 ||googleusercontent.com
+||gonczpsaceew.com
 ||goraps.com
 ||gossiphole.com
 ||gotchosen.com
@@ -129,6 +130,7 @@
 ||link1s.com
 ||linksbuddy.com
 ||livechatinc.com
+||liveperson.net
 ||loginradius.com
 ||logystowtencon.info
 ||m.finanzas-vida.com
@@ -235,6 +237,7 @@
 ||viafoura.co
 ||viafoura.net
 ||vlitag.com
+||vnkevmoytft.com
 ||voltskegscurate.com
 ||vupyjyyu.xyz
 ||walkme.com
@@ -508,6 +511,25 @@ amazon.co.uk###desktop-19
 amazon.co.uk###desktop-20
 amazon.co.uk###navFooter
 amazon.co.uk##*[aria-label="Shop collections"]
+amazon.co.uk##*[class*="related-searches"]
+amazon.co.uk##.prime-ad-banner-content
+amazon.co.uk###gw-desktop-herotator
+amazon.co.uk###gwm-dashboard-container
+amazon.co.uk##.gwm-DealsStack
+amazon.co.uk##*[data-csm-widget-type="multi-asin-card"]
+amazon.co.uk##*[data-cel-widget*="card-"]
+amazon.co.uk###dpx-mobile-image-gallery_feature_div
+amazon.co.uk###dpx-anywhere-about-this-item_feature_div
+amazon.co.uk###dpx-anywhere-hlcx-comparison_feature_div
+amazon.co.uk##*[data-cel-widget="sims-mobile-consolidated-1_csm_instrumentation_wrapper"]
+amazon.co.uk##*[data-cel-widget="sims-mobile-consolidated-2_csm_instrumentation_wrapper"]
+amazon.co.uk##*[data-cel-widget="sims-mobile-consolidated-3_csm_instrumentation_wrapper"]
+amazon.co.uk##*[data-cel-widget="sims-mobile-consolidated-4_csm_instrumentation_wrapper"]
+amazon.co.uk##*[data-cel-widget="dpx-mobile-image-gallery_csm_instrumentation_wrapper"]
+amazon.co.uk##*[data-cel-widget="dpx-anywhere-aplus-brand-story_csm_instrumentation_wrapper"]
+amazon.co.uk##*[data-cel-widget="dpx-anywhere-hlcx-comparison_csm_instrumentation_wrapper"]
+amazon.co.uk##*[data-cel-widget="dpx-anywhere-about-this-item_csm_instrumentation_wrapper"]
+amazon.co.uk##.cr-summarization-lighthut
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -888,6 +910,7 @@ boardgamegeek.com##:xpath(//li[contains(@class, 'card-scroll__item') and descend
 ! BOARD GAME PRICES
 boardgameprices.co.uk##.expandee.newsletter
 boardgameprices.co.uk###newsletterteaser
+boardgameprices.co.uk###brexitnotice
 
 ! BORED PANDA
 boredpanda.com##.sidebar
@@ -1342,6 +1365,10 @@ fandom.com##.toc
 fanfiction.net###cookie_notice
 fanfiction.net##.icon-twitter-3
 fanfiction.net##.timeline-Widget
+
+! FIDELITY
+www.fidelity.co.uk##.whatsnew
+www.fidelity.co.uk##.ReactModal__Overlay
 
 ! FIRST TUTORS
 www.firsttutors.com##.modal--cookies.modal
@@ -1832,6 +1859,7 @@ imgur.com##.Gallery-Content--tags
 imgur.com##.Comment-create
 imgur.com##.Gallery-EngagementBar
 imgur.com##.Navbar-signup
+imgur.com##.Accolade
 imgur.com##:xpath(//div[child::a[contains(@class, 'Post-item') and descendant::div[contains(@class, 'Post-item-external-ad')]]])
 
 # IMGUR (MOBILE)
@@ -2616,6 +2644,7 @@ sainsburys.co.uk##.sponsored
 sainsburys.co.uk##.espot
 sainsburys.co.uk##.mEspotCol
 sainsburys.co.uk##.feedback
+sainsburys.co.uk##.search-feedback
 sainsburys.co.uk##*[class*="Appsstyles__AppsWrapper-"]
 sainsburys.co.uk##*[class*="ServiceTilesstyles__ServiceTilesWrapper-"]
 sainsburys.co.uk##*[class*="styles__GetMoreWrapper-"]
@@ -3881,6 +3910,18 @@ www.xda-developers.com##.w-social
 
 ! YAHOO! (yeah, not using this EVER)
 consent.yahoo.com##.consent-overlay
+
+! YELL
+www.yell.com##.serpAdvertSlot
+www.yell.com##.mobileApps
+www.yell.com##.business--tenure
+www.yell.com##.results--addBusiness
+www.yell.com##.footer--phoneButton
+www.yell.com##.relatedSearches
+www.yell.com##.headerBar--marketing
+www.yell.com##.productBanner
+www.yell.com##.featuredContent
+www.yell.com##.home--popularList
 
 ! YOUTUBE
 ||youtube.com/live_chat_fragments_ajax?$xmlhttprequest
