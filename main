@@ -530,6 +530,8 @@ amazon.co.uk##*[data-cel-widget="dpx-anywhere-aplus-brand-story_csm_instrumentat
 amazon.co.uk##*[data-cel-widget="dpx-anywhere-hlcx-comparison_csm_instrumentation_wrapper"]
 amazon.co.uk##*[data-cel-widget="dpx-anywhere-about-this-item_csm_instrumentation_wrapper"]
 amazon.co.uk##.cr-summarization-lighthut
+amazon.co.uk###customer-survey_feature_div
+amazon.co.uk##.sl-sobe-dynamic-image
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -833,6 +835,8 @@ bbc.*##*[class*="StyledMetadata"]
 bbc.*##*[class*="ConsentBanner"]
 bbc.*##*[href*="/bbc-news-daily-email"]
 bbc.*##.wr-c-weather-watchers
+bbc.*###services-bar
+bbc.*##.orb-footer-promo-loaded
 
 ! BBC GOOD FOOD
 www.bbcgoodfood.com##.template-article__social-share
@@ -856,8 +860,16 @@ www.bbcgoodfood.com##.nativo ~ *
 ! BMW
 www.bmw.co.uk##epaas-consent-drawer-shell
 www.bmw.co.uk##.smartbanner
+stock.bmw.co.uk##epaas-consent-drawer-shell
+
+! BMW DEALERS
+www.stephenjamesbromleybmw.co.uk###bmw-eprivacy-banner
+www.stephenjamesruxleybmw.co.uk###bmw-eprivacy-banner
+www.bmwparklane.co.uk###bmw-eprivacy-banner
+www.bmwparklane.co.uk##.alertArea
 
 ! BMW USED CARS
+usedcars.bmw.co.uk##epaas-consent-drawer-shell
 usedcars.bmw.co.uk##.uvl-c-repex
 usedcars.bmw.co.uk##.uvl-c-vehicle-finance
 usedcars.bmw.co.uk##.uvl-c-footer__social
@@ -1533,6 +1545,21 @@ gizmodo.com##.js_comments-iframe
 gizmodo.com##.js_subscribe
 gizmodo.com##.share-tools-static
 
+! GOOD HOUSEKEEPING
+www.goodhousekeeping.com###onetrust-consent-sdk
+www.goodhousekeeping.com##.top-nav-subscribe
+www.goodhousekeeping.com##.affiliate-disclaimer
+www.goodhousekeeping.com##.byline-with-image
+www.goodhousekeeping.com##.breaker-ad
+www.goodhousekeeping.com##.noskim.product-slide-details
+www.goodhousekeeping.com##.product-buy-button-wrapper
+www.goodhousekeeping.com##.slide-media-inner > .slide-image-wrap
+www.goodhousekeeping.com##.end-of-content-playlist
+www.goodhousekeeping.com##.transporter
+www.goodhousekeeping.com##.social-button-group
+www.goodhousekeeping.com##.vertical-ad
+www.goodhousekeeping.com##.embed-editorial-links
+
 ! GOOD READS
 www.goodreads.com##.shown.android
 www.goodreads.com##.siteBanner
@@ -2087,6 +2114,10 @@ morningstar.co.uk##div.BottomADXX
 morningstar.co.uk##div.bottomAd + *
 morningstar.co.uk##div.bottomAd
 morningstar.co.uk##.bottomAd.layout_content_right + * > DIV
+
+! MOUNTAIN WAREHOUSE
+www.mountainwarehouse.com##.c-cookie-notification
+www.mountainwarehouse.com###sledgehammer
 
 ! MOZILLA FOUNDATION
 foundation.mozilla.org##.donate-banner
@@ -3042,6 +3073,7 @@ www.express.co.uk##:xpath(//ul[contains(@class, 'sub-nav') and child::li[starts-
 www.express.co.uk##.related_entities
 www.express.co.uk##.eu-referendum-interloper
 www.express.co.uk##[href="https://www.express-casino.com/"]
+www.express.co.uk##.download-app
 
 ! THE DAILY MAIL
 www.dailymail.co.uk##.related-with-thumbs.more
@@ -3385,6 +3417,13 @@ time.is###follow_app
 www.timeanddate.com###ad-wrap
 www.timeanddate.com###ad300
 www.timeanddate.com##.footer__social
+
+! TKMAXX
+www.tkmaxx.com###tjx-newsletter
+www.tkmaxx.com##.footer-social-container
+www.tkmaxx.com##.c-promo
+www.tkmaxx.com##.product-carousel
+www.tkmaxx.com##.product-read-description
 
 ! TOM'S GUIDE
 www.tomsguide.com##.buttons-social
@@ -3922,6 +3961,9 @@ www.yell.com##.headerBar--marketing
 www.yell.com##.productBanner
 www.yell.com##.featuredContent
 www.yell.com##.home--popularList
+www.yell.com###CookiePolicy
+www.yell.com###banners
+www.yell.com##.socialShare
 
 ! YOUTUBE
 ||youtube.com/live_chat_fragments_ajax?$xmlhttprequest
