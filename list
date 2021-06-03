@@ -182,6 +182,7 @@ pornhub.com##:xpath(//div[contains(@class, 'sectionWrapper') and descendant::h2[
 pornhub.com##.relatedSearches
 pornhub.com###relatedPornstarSidebar
 pornhub.com##.underplayerAd
+pornhub.com##.viewersChoiceContest
 
 ! OKCUPID
 okcupid.com##.discovery-ad
