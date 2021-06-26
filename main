@@ -34,6 +34,7 @@
 ||cbsi.com
 !||cbsi.map.fastly.net
 !||cbsistatic.com
+||ccgateway.net
 ||chatra.io
 ||civiccomputing.com
 ||climatestate.com
@@ -2086,6 +2087,21 @@ knowyourmeme.com##.related_memes
 knowyourmeme.com###global-message
 knowyourmeme.com###section_header_wrap > .c
 knowyourmeme.com###content > .right
+
+! LANCASHIRE EVENING POST
+lep.co.uk##amp-analytics
+lep.co.uk##amp-social-share
+lep.co.uk###article-newsletter-signup
+lep.co.uk###taboola-mid-article-thumbnails
+lep.co.uk###adSlotTead
+lep.co.uk###axate-wallet
+lep.co.uk###adSlotWallpaper
+lep.co.uk###adSlotSeedTag
+lep.co.uk###liteNativeBanner
+lep.co.uk###nativeBanner
+lep.co.uk##.article-read-more
+lep.co.uk##.footer-social
+lep.co.uk##:xpath(//div[child::p[child::strong[child::em[contains(text(), 'digital subscription')]]]])
 
 ! LANGUAGE DROPS
 languagedrops.com##.play-popup-shown
