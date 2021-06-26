@@ -889,6 +889,12 @@ www.bloomberg.com###newsletter-modal
 www.bloomberg.com###banner-container
 www.bloomberg.com##.navi-subscribe-link
 www.bloomberg.com##.lede-text-v2__byline
+www.bloomberg.com##body:style(overflow: auto !important;)
+www.bloomberg.com##*[class*="share-article-button"]
+www.bloomberg.com##*[class*="broker-box-ad"]
+www.bloomberg.com##.paywall-inline-tout
+www.bloomberg.com##.current.transporter-item
+www.bloomberg.com##.navi-markets-bar
 
 ! BMW
 www.bmw.co.uk##epaas-consent-drawer-shell
@@ -2501,6 +2507,14 @@ pcgamer.com##.popular-box
 pcgamer.com##.fancy-box
 pcgamer.com##.van_vid_carousel
 
+! PC GAMES NETWORK
+www.pcgamesn.com##.social_cta
+www.pcgamesn.com##.aff_widget
+www.pcgamesn.com##.post_footer
+www.pcgamesn.com##.ad
+www.pcgamesn.com##.next_page_placeholder
+www.pcgamesn.com##.js-ifs-nextpage
+
 ! PCLOUD
 blog.pcloud.com##.gdpr-privacy-bar
 blog.pcloud.com##.post-after
@@ -3178,6 +3192,7 @@ techradar.com##.product-cards-scroll-wrapper
 techradar.com##.van_vid_carousel__container
 techradar.com##.van_vid_carousel
 techradar.com##.instagram-embed
+techradar.com##.by-author
 
 ! TECH REPUBLIC
 techrepublic.com##.btn-premium
