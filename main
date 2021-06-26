@@ -879,6 +879,16 @@ www.bbcgoodfood.com##section > hr
 www.bbcgoodfood.com##section > hr ~ *
 www.bbcgoodfood.com##.nativo
 www.bbcgoodfood.com##.nativo ~ *
+www.bbcgoodfood.com##.site-header__eyebrow-nav
+www.bbcgoodfood.com##.social-share
+www.bbcgoodfood.com##.terms-icons-list
+www.bbcgoodfood.com##.pocket
+
+! BLOOMBERG
+www.bloomberg.com###newsletter-modal
+www.bloomberg.com###banner-container
+www.bloomberg.com##.navi-subscribe-link
+www.bloomberg.com##.lede-text-v2__byline
 
 ! BMW
 www.bmw.co.uk##epaas-consent-drawer-shell
@@ -1054,6 +1064,10 @@ www.chelsfieldmotorworks.com##.cc-cookies
 
 ! CITY AM
 www.cityam.com##.article-vuukle-comments
+
+! CLICK MECHANIC
+www.clickmechanic.com##.cookie-consent-notice-container
+www.clickmechanic.com###CovidBanner
 
 ! CNBC
 www.cnbc.com##.BreakingNews-container
@@ -1278,6 +1292,14 @@ www.ehow.*##.left-column > *
 www.ehow.*##.right-column > *
 www.ehow.*##.widget-container
 www.ehow.*##.component-article-jwplayer-wrapper
+
+! ESCAPIST MAGAZINE
+www.escapistmagazine.com##.PicoSignal.mobile-top-header
+www.escapistmagazine.com##.leaderboard-ad
+www.escapistmagazine.com##.theiaStickySidebar
+www.escapistmagazine.com##.posts-navigation
+www.escapistmagazine.com##.related-posts
+www.escapistmagazine.com##.author-box
 
 ! ETSY
 www.etsy.com##div.prolist-row
@@ -1697,11 +1719,27 @@ www.gumtree.com###smallPartnerships
 www.gumtree.com##.footer-banner-container
 www.gumtree.com##.letterbox:style(padding-bottom: 0 !important)
 www.gumtree.com##:xpath(//section[descendant::div[contains(@id, 'top-links-top-searches')]])
+www.gumtree.com##.ad-mpu-placeholder
+www.gumtree.com##.iconu-l
+www.gumtree.com###partnership-default-container
+www.gumtree.com##.sell-one-link
+www.gumtree.com##.stay-safe-carousel
+www.gumtree.com##.vip-mobile-position
+www.gumtree.com##.filmstrip-container
+www.gumtree.com##.header-nav-messages
+www.gumtree.com###partnerships
+www.gumtree.com##.sponsored-link-spot
+www.gumtree.com##.vip-save-ad
 
 ! HEALTHLINE
 healthline.com##.disclaimer
 healthline.com###read-next
 healthline.com##section[style="position:relative;margin-top:0"]
+healthline.com###newsletter-subscription-dialog
+
+! HEVER CASTLE
+www.hevercastle.co.uk##.modals
+www.hevercastle.co.uk##.cookie-message
 
 ! HOMEBASE
 www.homebase.co.uk##.header_top__buttons--ideas
@@ -2055,6 +2093,7 @@ www.lbc.co.uk##.js-header-main
 www.lbc.co.uk##.contact_bar
 www.lbc.co.uk##.level1_wrapper
 www.lbc.co.uk##.footer
+www.lbc.co.uk##.social-share
 
 ! LIFE HACKER
 lifehacker.com###sidebar_wrapper
@@ -2240,6 +2279,11 @@ www.nationalrail.co.uk##.jp-right
 www.nationalrail.co.uk##.c1
 www.nationalrail.co.uk##.c2
 
+! NATIONAL TRUST
+www.nationaltrust.org.uk##.v--modal-background-click
+www.nationaltrust.org.uk##.v--modal-overlay
+www.nationaltrust.org.uk##.nt-donate-btn
+
 ! NEW SCIENTIST
 www.newscientist.com##.header-subscribe
 www.newscientist.com##.header-promotion
@@ -2253,6 +2297,17 @@ www.newscientist.com##.article-topics
 www.newscientist.com##.tertiary-sidebar
 www.newscientist.com##footer.section--bottom-spacing
 www.newscientist.com##.section-article-list
+
+! NEWS SHOPPER
+www.newsshopper.co.uk##.article-sticky-social
+www.newsshopper.co.uk###nextUpMobileContainer
+www.newsshopper.co.uk##.top-socialbar
+www.newsshopper.co.uk##.bottom-socialbar
+www.newsshopper.co.uk##.cta-component-contributions
+www.newsshopper.co.uk##.top-nav
+www.newsshopper.co.uk##.author-details
+www.newsshopper.co.uk##.article-continuation
+www.newsshopper.co.uk##.most-popular-block
 
 ! NHS
 www.nhs.uk###nhsuk-cookie-banner
@@ -2444,6 +2499,7 @@ pcgamer.com##.widget-newsletter
 pcgamer.com##.most-popular-item
 pcgamer.com##.popular-box
 pcgamer.com##.fancy-box
+pcgamer.com##.van_vid_carousel
 
 ! PCLOUD
 blog.pcloud.com##.gdpr-privacy-bar
@@ -2523,6 +2579,7 @@ forums.plex.tv##.toggle-summary.information
 forums.plex.tv##.suggested-topics-wrapper
 forums.plex.tv##.onscreen-post.small-action
 forums.plex.tv##.alert-info.alert.signup-cta
+support.plex.tv##.cookie-consent
 
 ! POCKET LINT
 pocket-lint.com###top-skin-ad
@@ -3008,6 +3065,9 @@ store.steampowered.com##.home_index_banner
 store.steampowered.com##.home_page_gutter_giftcard
 store.steampowered.com##.cart_rightcol
 
+! STRIPE
+stripe.com##.CookieBanner
+
 ! STRULCH
 www.strulch.co.uk##.lgcookieslaw_banner
 www.strulch.co.uk##.header-banner
@@ -3115,6 +3175,9 @@ techradar.com##.fwd-link
 techradar.com##.topbutton
 techradar.com###affiliate-disclaimer
 techradar.com##.product-cards-scroll-wrapper
+techradar.com##.van_vid_carousel__container
+techradar.com##.van_vid_carousel
+techradar.com##.instagram-embed
 
 ! TECH REPUBLIC
 techrepublic.com##.btn-premium
@@ -3202,6 +3265,8 @@ www.express.co.uk##.related_entities
 www.express.co.uk##.eu-referendum-interloper
 www.express.co.uk##[href="https://www.express-casino.com/"]
 www.express.co.uk##.download-app
+www.express.co.uk###taboola-ad
+www.express.co.uk###taboola-below-article-thumbnails-express
 
 ! THE DAILY MAIL
 www.dailymail.co.uk##.related-with-thumbs.more
@@ -3267,6 +3332,19 @@ www.dailystar.co.uk##.brand-low.embedded-image-grid
 www.dailystar.co.uk##.publication-theme.pancake > *[class*="channel-"]
 www.dailystar.co.uk##.video-float-wrapper
 www.dailystar.co.uk##.html-embed
+www.dailystar.co.uk##.click-track
+www.dailystar.co.uk##.article-type
+www.dailystar.co.uk##.author-information-container
+www.dailystar.co.uk##.skinny-signup
+www.dailystar.co.uk##aside
+www.dailystar.co.uk##.tag-list
+www.dailystar.co.uk##.top-stories
+www.dailystar.co.uk##.jw-related
+www.dailystar.co.uk##.jw-overlays
+www.dailystar.co.uk##.jw-wrapper
+www.dailystar.co.uk##.breadcrumbs-news
+www.dailystar.co.uk##.partner-mast-header > .secondary
+www.dailystar.co.uk###breaking-news
 ||www.inyourarea.co.uk/*$subdocument
 ||widget.spreaker.com/player$subdocument
 ||data.reachplc.com/$subdocument
@@ -3278,6 +3356,12 @@ www.standard.co.uk##:xpath(//div[child::div[child::div[contains(@data-tile-name,
 www.standard.co.uk##aside
 www.standard.co.uk##.social-share
 www.standard.co.uk##.article-newsletter-form
+www.standard.co.uk###indy-top-container-wrapper
+www.standard.co.uk##amp-twitter
+www.standard.co.uk##a[href="/video"]
+www.standard.co.uk##:xpath(//li[child::a[child::span[contains(text(), 'BRANDPOST | PAID CONTENT')]]])
+www.standard.co.uk##:xpath(//div[contains(@class, 'hero-article') and descendant::a[contains(@class, 'brandpost-capsule')]])
+www.standard.co.uk##:xpath(//div[contains(@class, 'article') and descendant::a[contains(@class, 'brandpost-capsule')]])
 
 ! THE FAMILY SURGERY
 thefamilysurgeryorpington.nhs.uk###eConsultDefaultTarget
@@ -3305,6 +3389,15 @@ www.theguardian.com###reader-revenue-links-footer
 www.theguardian.com###slot-body-end ~ *
 www.theguardian.com##*[data-component="rich-link"]
 www.theguardian.com##*[data-print-layout="hide"]
+www.theguardian.com##.new-header__cta-bar
+www.theguardian.com##.contributions__adblock
+www.theguardian.com##.js-most-popular-footer
+www.theguardian.com##.tonal__head--tone-live
+www.theguardian.com##.subnav--live.subnav
+www.theguardian.com##.fc-container--thrasher
+www.theguardian.com##.dumathoin--paidfor
+www.theguardian.com##.treats__container
+www.theguardian.com###comments
 
 ! THE INDEPENDENT
 www.independent.co.uk##.show-in-storybook.access-container
@@ -3610,6 +3703,11 @@ www.tomshardware.com###taboola-below-article-thumbnails
 www.tomshardware.com##.xenforo-comment-widget
 www.tomshardware.com###taboola-mobile-below-article-thumbnails
 
+! TOOLSTATION
+www.toolstation.com##.ts-usp-bar
+www.toolstation.com##.alert-dismissable
+www.toolstation.com##.cookies-notice
+
 ! TOP GEAR
 www.topgear.com###motors_widget
 www.topgear.com##.partner-links
@@ -3806,6 +3904,13 @@ usatoday.com##.mobile-instream-ad-holder-single
 usatoday.com##util-sticky-module
 usatoday.com##.row.news.text.primary-content.story > div.no-gutter.ten-column.column.spacer-small
 usatoday.com##.feedback
+
+! USWITCH
+www.uswitch.com###cookie-banner-wrapper
+www.uswitch.com##.us-social
+www.uswitch.com##.article-author__image
+www.uswitch.com##.email-capture-wrapper
+www.uswitch.com##.us-footer__social
 
 ! VERY
 www.very.co.uk##.cvBanner
@@ -4214,6 +4319,7 @@ m.youtube.com##.slim-owner-subscribe-button
 m.youtube.com##.watch-metadata-app-promo-content
 m.youtube.com##.watch-metadata-app-promo-button
 m.youtube.com##.watch-metadata-app-promo-thumb
+m.youtube.com##.consent-bump-v2-lightbox
 
 ! ZDNET
 www.zdnet.com##.ad-active
