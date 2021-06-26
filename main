@@ -840,8 +840,8 @@ bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img
 bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::p[starts-with(text(), 'Read more:')]])
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'Newsbeat')]])
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'Newsbeat')]]) ~ *
-bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[contains(text(), 'You may also be interested in:')]])
-bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[contains(text(), 'You may also be interested in:')]]) ~ *
+bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[contains(text(), 'You may also be interested in')]])
+bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[contains(text(), 'You may also be interested in')]]) ~ *
 bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::p[child::i[contains(text(), 'follow')] and child::a[contains(@href, 'https://twitter.com')]]])
 bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::p[contains(text(), 'Follow') and child::a[contains(@href, 'https://twitter.com')]]])
 bbc.*###main-heading + p
