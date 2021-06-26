@@ -141,6 +141,7 @@
 ||madratesforall.com
 ||mailchimp.com
 ||mailerlite.com
+||makemoneywithurl.com
 ||mantis-prod-reach.cdn.appdomain.cloud
 ||mavq.net
 ||media-bucket.com
@@ -218,6 +219,7 @@
 ||swesomepop.com
 ||tawk.to
 ||techrfour.com
+||tei.ai
 ||terdaycominqui.info
 ||termly.io
 ||textforex2.info
@@ -544,6 +546,11 @@ amazon.co.uk##.couponFeature
 amazon.co.uk###dpx-btf-hlcx-comparison_feature_div
 amazon.co.uk##*[data-csa-c-slot-id="desktop-yo-rightrails-0"]
 amazon.co.uk###yourOrders > #rightRail
+amazon.co.uk##*[cel_widget_id*="shopbylook_csm"]
+amazon.co.uk##*[cel_widget_id*="comparison_csm"]
+amazon.co.uk##*[cel_widget_id="ask-swdp-desktop"]
+amazon.co.uk##.a-cardui
+amazon.co.uk##.fresh-shoveler
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -861,6 +868,7 @@ bbc.*##*[href*="/bbc-news-daily-email"]
 bbc.*##.wr-c-weather-watchers
 bbc.*###services-bar
 bbc.*##.orb-footer-promo-loaded
+bbc.*##.article__similar-articles
 
 ! BBC GOOD FOOD
 www.bbcgoodfood.com##.template-article__social-share
@@ -933,6 +941,7 @@ boardgamearena.com##.partner_event_section
 boardgamearena.com##.live_stream_next
 boardgamearena.com###popin_rating_step1
 boardgamearena.com###popin_rating_step1_underlay
+boardgamearena.com##.publishresult
 
 ! BOARD GAME GEEK
 boardgamegeek.com##gg-support-leaderboard-ad
@@ -1247,7 +1256,8 @@ duckduckgo.com##.footer--mobile
 duckduckgo.com##.js-open-in-app-link.open-in-app__deep-link
 duckduckgo.com##.user-loc-cta
 duckduckgo.com##.has-feedback-prompt.js-module--maps_places.module--places.module
-duckduckgo.com##.feedback-btn.btn
+duckduckgo.com##.feedback-btn
+duckduckgo.com##.header--text_promo
 
 ! DUSK
 dusk.com##.loading-mask
@@ -1340,6 +1350,12 @@ www.eurogamer.net##div.network
 www.eurogamer.net##.popular
 www.eurogamer.net##.deal.list-item
 www.eurogamer.net##.no-image.right
+
+! EVENTBRITE
+eventbrite.co.uk##.organizer-card__cta
+eventbrite.co.uk###listings-root__follow-organizer_hero
+eventbrite.co.uk###listings-root__follow-organizer_org-panel
+eventbrite.co.uk##*[data-spec="share-box-container"]
 
 ! EXPERT REVIEWS
 www.expertreviews.co.uk###__ic-notice
@@ -1809,6 +1825,11 @@ www.howtogeek.com###v2campaignpopup_backdrop
 www.howtogeek.com##.post-author
 www.howtogeek.com##.entry-meta > span > svg
 www.howtogeek.com##.entry-meta img
+www.howtogeek.com##.subscribe-button
+www.howtogeek.com##.relatedside
+www.howtogeek.com##:xpath(//div[child::span[contains(text(), 'Advertisement')]])
+www.howtogeek.com##:xpath(//p[child::strong[contains(text(), 'RELATED:')]])
+www.howtogeek.com##.social-media-buttons
 
 ! HSBC
 hsbc.co.uk###rap_wrapper+script
@@ -2186,6 +2207,11 @@ www.marksandspencer.com##.proposition-banner
 www.marksandspencer.com###mobileRelatedCategories
 www.marksandspencer.com##.promotions
 
+! MECH BOARDS
+mechboards.co.uk###footer--social
+mechboards.co.uk##.footer__payments
+mechboards.co.uk##.menu-footer-right-container
+
 ! MEDICINE NET
 medicinenet.com##.eugdpr-banner
 medicinenet.com##.eugdpr-overlay
@@ -2305,6 +2331,11 @@ www.nationalrail.co.uk##.c2
 www.nationaltrust.org.uk##.v--modal-background-click
 www.nationaltrust.org.uk##.v--modal-overlay
 www.nationaltrust.org.uk##.nt-donate-btn
+www.nationaltrust.org.uk##.nt-social-media-item
+www.nationaltrust.org.uk##:xpath(//div[child::h3[contains(text(), 'Download the app')]])
+www.nationaltrust.org.uk##.nt-share-social
+www.nationaltrust.org.uk##.nt-primary-cta
+www.nationaltrust.org.uk##.nt-social-links
 
 ! NEW SCIENTIST
 www.newscientist.com##.header-subscribe
@@ -2456,6 +2487,12 @@ www.overclockers.com##.mh-comments-wrap
 www.overclockers.com##.mh_magazine_custom_posts
 www.overclockers.com##.mh-sidebar
 
+! OXFORD ONLINE PHARMACY
+www.oxfordonlinepharmacy.co.uk##.similarproducts
+www.oxfordonlinepharmacy.co.uk##.similar-products
+www.oxfordonlinepharmacy.co.uk##.usps
+www.oxfordonlinepharmacy.co.uk##.logos
+
 ! PARKERS GUIDE
 www.parkers.co.uk##.social-nav
 www.parkers.co.uk##.manufacturer-logos
@@ -2530,6 +2567,11 @@ www.pcgamesn.com##.post_footer
 www.pcgamesn.com##.ad
 www.pcgamesn.com##.next_page_placeholder
 www.pcgamesn.com##.js-ifs-nextpage
+www.pcgamesn.com###nn_bfa_wrapper
+www.pcgamesn.com##.menu-header-overwolf
+www.pcgamesn.com##.entry-meta
+www.pcgamesn.com##.game_info_panel
+www.pcgamesn.com##.game_list
 
 ! PCLOUD
 blog.pcloud.com##.gdpr-privacy-bar
@@ -2865,6 +2907,7 @@ sainsburys.co.uk##.espot
 sainsburys.co.uk##.mEspotCol
 sainsburys.co.uk##.feedback
 sainsburys.co.uk##.search-feedback
+sainsburys.co.uk##.pd-merchandising-product
 sainsburys.co.uk##*[class*="Appsstyles__AppsWrapper-"]
 sainsburys.co.uk##*[class*="ServiceTilesstyles__ServiceTilesWrapper-"]
 sainsburys.co.uk##*[class*="styles__GetMoreWrapper-"]
@@ -3044,6 +3087,10 @@ www.skyscanner.net###cookie-banner-root
 ! SMALLNETBUILDER
 www.smallnetbuilder.com##.cadre_alert_cookies
 
+! SMASHING MAGAZINE
+www.smashingmagazine.com##.c-promo-box
+www.smashingmagazine.com##.feature-panel-container
+
 ! SOUTH EASTERN RAILWAY
 www.southeasternrailway.co.uk##.smartbanner-android.smartbanner
 
@@ -3140,6 +3187,15 @@ www.t3.com##.bordeaux-slot-root
 www.t3.com##*[class*="slot-single-height-"]
 www.t3.com##.hawk-placeholder
 www.t3.com##.star-deal
+
+! TABLETOPIA
+tabletopia.com##.js-get-premium
+tabletopia.com##.profile.banner__slider
+tabletopia.com##._box-fixed-height._opacity-alt.box
+tabletopia.com##._catalog.box
+tabletopia.com##._app.overall-footer__col
+tabletopia.com##._subscribe
+tabletopia.com##._social
 
 ! TAPAS.IO (mobile)
 m.tapas.io###gdpr-cookie-message
@@ -3300,53 +3356,53 @@ www.express.co.uk###taboola-ad
 www.express.co.uk###taboola-below-article-thumbnails-express
 
 ! THE DAILY MAIL
-www.dailymail.co.uk##.related-with-thumbs.more
-www.dailymail.co.uk##.bottom.social
-www.dailymail.co.uk##.nav-bts
-www.dailymail.co.uk###p-most-read-news-mobile
-www.dailymail.co.uk###most-watched-videos-wrapper
-www.dailymail.co.uk##.puff
-www.dailymail.co.uk###external-source-links
-www.dailymail.co.uk##.loaded
-www.dailymail.co.uk##.sharing-buttons
-www.dailymail.co.uk##.top.social
-www.dailymail.co.uk##.hp-shadow
-www.dailymail.co.uk###homePageCover
-www.dailymail.co.uk##.header-buttons
-www.dailymail.co.uk##.home-preview.social
-www.dailymail.co.uk##.article-preview-sponsored
-www.dailymail.co.uk##.sjs-share-container
-www.dailymail.co.uk##div[class*="promo_"]
-www.dailymail.co.uk##div[data-api-host="https://www.newzit.com/api"]
-www.dailymail.co.uk##div[class*="socialContainer"]
-www.dailymail.co.uk##.facebook-like-static
-www.dailymail.co.uk###mini-carousel-wrapper
-www.dailymail.co.uk##.bdrcc.rotator
-www.dailymail.co.uk###reader-comments
-www.dailymail.co.uk###fullWidthCommentAdvert
-www.dailymail.co.uk##.beta
-www.dailymail.co.uk##.gamma
-www.dailymail.co.uk###fiveDealsWidget
-www.dailymail.co.uk##.sponsored
-www.dailymail.co.uk##.adHolder:style(display: none !important)
-www.dailymail.co.uk###most-watched-videos-lazy-container
-www.dailymail.co.uk###mobile-content:style(margin-top: 0 !important; height: 100vh !important)
-www.dailymail.co.uk###mobile-content > header:style(height: auto !important)
-www.dailymail.co.uk###mobile-content > .scrollable-content:style(padding-top: 46px !important)
-www.dailymail.co.uk##article > ul:first-of-type:style(margin-top: 12px !important)
-www.dailymail.co.uk##.banner-adverts
-www.dailymail.co.uk##.floating-buttons
-www.dailymail.co.uk##*[class*="mostRecent-"]
-www.dailymail.co.uk##.masthead:style(background: none !important;)
-www.dailymail.co.uk##.h1-page-last-updated
-www.dailymail.co.uk##.page-header .supplements
-www.dailymail.co.uk###weather-wrapper
-www.dailymail.co.uk###video h6
-www.dailymail.co.uk###video .video-lead-social
-www.dailymail.co.uk###video #content > div:nth-child(3)
-www.dailymail.co.uk###video .video.nav-secondary-container
-www.dailymail.co.uk###articleIconLinksContainer
-www.dailymail.co.uk##.mol-fe-vouchercodes-redesign
+dailymail.co.uk##.related-with-thumbs.more
+dailymail.co.uk##.bottom.social
+dailymail.co.uk##.nav-bts
+dailymail.co.uk###p-most-read-news-mobile
+dailymail.co.uk###most-watched-videos-wrapper
+dailymail.co.uk##.puff
+dailymail.co.uk###external-source-links
+dailymail.co.uk##.loaded
+dailymail.co.uk##.sharing-buttons
+dailymail.co.uk##.top.social
+dailymail.co.uk##.hp-shadow
+dailymail.co.uk###homePageCover
+dailymail.co.uk##.header-buttons
+dailymail.co.uk##.home-preview.social
+dailymail.co.uk##.article-preview-sponsored
+dailymail.co.uk##.sjs-share-container
+dailymail.co.uk##div[class*="promo_"]
+dailymail.co.uk##div[data-api-host="https://www.newzit.com/api"]
+dailymail.co.uk##div[class*="socialContainer"]
+dailymail.co.uk##.facebook-like-static
+dailymail.co.uk###mini-carousel-wrapper
+dailymail.co.uk##.bdrcc.rotator
+dailymail.co.uk###reader-comments
+dailymail.co.uk###fullWidthCommentAdvert
+dailymail.co.uk##.beta
+dailymail.co.uk##.gamma
+dailymail.co.uk###fiveDealsWidget
+dailymail.co.uk##.sponsored
+dailymail.co.uk##.adHolder:style(display: none !important)
+dailymail.co.uk###most-watched-videos-lazy-container
+dailymail.co.uk###mobile-content:style(margin-top: 0 !important; height: 100vh !important)
+dailymail.co.uk###mobile-content > header:style(height: auto !important)
+dailymail.co.uk###mobile-content > .scrollable-content:style(padding-top: 46px !important)
+dailymail.co.uk##article > ul:first-of-type:style(margin-top: 12px !important)
+dailymail.co.uk##.banner-adverts
+dailymail.co.uk##.floating-buttons
+dailymail.co.uk##*[class*="mostRecent-"]
+dailymail.co.uk##.masthead:style(background: none !important;)
+dailymail.co.uk##.h1-page-last-updated
+dailymail.co.uk##.page-header .supplements
+dailymail.co.uk###weather-wrapper
+dailymail.co.uk###video h6
+dailymail.co.uk###video .video-lead-social
+dailymail.co.uk###video #content > div:nth-child(3)
+dailymail.co.uk###video .video.nav-secondary-container
+dailymail.co.uk###articleIconLinksContainer
+dailymail.co.uk##.mol-fe-vouchercodes-redesign
 dailymail.co.uk##.author-section
 dailymail.co.uk##.shareArticles
 dailymail.co.uk###promo-unit
@@ -3978,6 +4034,11 @@ www.vivastreet.co.uk##.vs-disclaimer-wrapper
 ! VOLKSWAGEN
 www.volkswagen.co.uk###bannerOverlay
 
+! W3SCHOOLS
+www.w3schools.com###right
+www.w3schools.com###cert_navbtn
+www.w3schools.com##.top10
+
 ! WATERSTONES
 www.waterstones.com##.cookie-bar
 www.waterstones.com##.campaign-ribbon
@@ -4341,6 +4402,10 @@ youtube.com##ytd-secondary-search-container-renderer
 youtube.com##:xpath(//ytd-shelf-renderer[child::div[child::div[child::div[child::h2[child::span[starts-with(text(), 'People also watched')]]]]]])
 youtube.com##:xpath(//ytd-horizontal-card-list-renderer[child::div[child::h2[descendant::yt-formatted-string[starts-with(text(), 'People also search for')]]]])
 youtube.com##:xpath(//ytd-horizontal-card-list-renderer[child::div[child::h2[descendant::yt-formatted-string[child::span[contains(text(), 'Searches related')]]]]])
+youtube.com###donation-shelf
+youtube.com###offer-module
+youtube.com##:xpath(//ytd-compact-movie-renderer[child::span[contains(text(), 'Buy or rent')]])
+youtube.com##:xpath(//ytd-compact-movie-renderer[child::span[contains(text(), 'Fundraiser')]])
 
 ! YOUTUBE (MOBILE)
 m.youtube.com##.upsell-dialog-lightbox
@@ -4372,6 +4437,11 @@ www.zdnet.com##.mostPopular
 www.zdnet.com###content-recommendation
 zdnet.com###onetrust-consent-sdk
 zdnet.com###onetrust-consent-sdk:style(display: none !important)
+
+! ZOOPLA
+www.zoopla.co.uk###ui-cookie-consent-overlay-wrap
+www.zoopla.co.uk##*[class*="StyledBookValuationCTA"]
+www.zoopla.co.uk##.ui-cookie-consent-no-scroll:style(overflow: auto !important;)
 
 ! ZOOPLUS
 www.zooplus.co.uk##.contentful-loaded
