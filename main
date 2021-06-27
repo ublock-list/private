@@ -549,7 +549,7 @@ amazon.co.uk###yourOrders > #rightRail
 amazon.co.uk##*[cel_widget_id*="shopbylook_csm"]
 amazon.co.uk##*[cel_widget_id*="comparison_csm"]
 amazon.co.uk##*[cel_widget_id="ask-swdp-desktop"]
-amazon.co.uk##.a-cardui
+!amazon.co.uk##.a-cardui
 amazon.co.uk##.fresh-shoveler
 
 ! ANANDTECH
