@@ -233,6 +233,7 @@
 ||top4top.io
 ||top4top.net
 ||topdisplaynetwork.com
+||toptechtalk.xyz
 ||totalav.com
 ||trackpush.com
 ||trafficjunky.com
@@ -551,6 +552,9 @@ amazon.co.uk##*[cel_widget_id*="comparison_csm"]
 amazon.co.uk##*[cel_widget_id="ask-swdp-desktop"]
 !amazon.co.uk##.a-cardui
 amazon.co.uk##.fresh-shoveler
+amazon.co.uk###sc-secondary-list
+amazon.co.uk###sc-new-upsell
+amazon.co.uk###device-dp-recommendations_feature_div
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -971,6 +975,7 @@ boardgamegeek.com##.well.panel
 boardgamegeek.com##recs-module-overview
 boardgamegeek.com##.game-description-ad
 boardgamegeek.com##:xpath(//li[contains(@class, 'card-scroll__item') and descendant::span[contains(@class, 'post-meta__item') and child::span[contains(text(), 'Sponsored')]]])
+boardgamegeek.com##.subscription-btn
 
 ! BOARD GAME PRICES
 boardgameprices.co.uk##.expandee.newsletter
