@@ -879,6 +879,10 @@ bbc.*##.orb-footer-promo-loaded
 bbc.*##.article__similar-articles
 bbc.*##:xpath(//p[child::b[contains(text(), 'See more at')]])
 bbc.*##:xpath(//p[contains(text(), 'BBC Click') and contains(text(), 'finds out more')])
+bbc.*##amp-analytics
+bbc.*##div > div > main + section
+bbc.*##section[aria-labelledby="top-stories-heading"]
+bbc.*##section[aria-labelledby="features-analysis-heading"]
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
@@ -1776,6 +1780,7 @@ google.*###extrares
 google.*##jsl > .noprint
 google.*##*[aria-modal="true"]
 google.*###rhs
+google.*##devsite-snackbar
 
 ! GOV UK
 www.gov.uk##.govuk-clearfix.gem-c-cookie-banner
