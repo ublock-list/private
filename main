@@ -42,12 +42,15 @@
 ||clk.sh
 ||clksite.com
 ||commento.io
+||condenast.io
 ||connexone.co.uk
 ||consensu.org
 ||consent.cmp.oath.com
 ||consent.yahoo.com
 !||consent.youtube.com
 ||content-tab.com
+||convertflow.co
+||convertflow.com
 ||cookie-script.com
 ||cookiebot.com
 !||cookielaw.org
@@ -651,6 +654,12 @@ www.argos.co.uk##.productCare
 www.argos.co.uk##*[data-test*="hero-"]
 www.argos.co.uk##*[class*="HomepageComponentsstyles__"]
 
+! ARS TECHNICA
+arstechnica.com##.featured-video
+arstechnica.com##.byline > a
+arstechnica.com##.story-sidebar
+arstechnica.com###social-footer
+
 ! ASOS
 www.asos.com##*[data-testid="cookie-disclaimer"]
 www.asos.com###globalBannerComponent
@@ -883,6 +892,7 @@ bbc.*##amp-analytics
 bbc.*##div > div > main + section
 bbc.*##section[aria-labelledby="top-stories-heading"]
 bbc.*##section[aria-labelledby="features-analysis-heading"]
+bbc.*##*[class*="SurveyWrapper"]
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
@@ -1151,6 +1161,15 @@ www.cnet.com##:xpath(//p[child::strong[contains(text(), 'Read more')]])
 www.cnet.com###contentBody > .row > .pageWrapper:not(:first-child)
 www.cnet.com##.videoPlayer
 www.cnet.com##.loggedOut
+www.cnet.com##.embeddedVideoContainer
+www.cnet.com##.c-foot
+www.cnet.com##.comments 
+www.cnet.com###rbContent > div:first-child ~ *
+www.cnet.com##.c-priceBox
+www.cnet.com##.c-reviewCard a
+www.cnet.com##.related-links
+www.cnet.com##iframe[src*="https://playlist.megaphone.fm"]
+www.cnet.com##.leadButton
 
 ! COMPUTER WORLD
 www.computerworld.com##.right-rail
@@ -1699,6 +1718,15 @@ gizmodo.com##.js_ymal-below-post
 gizmodo.com##.js_comments-iframe
 gizmodo.com##.js_subscribe
 gizmodo.com##.share-tools-static
+gizmodo.com##.js_topbar
+gizmodo.com##.js_header-newsletter
+gizmodo.com##.js_header-shop
+gizmodo.com##.js_homepage-popular-ymal
+gizmodo.com##aside
+gizmodo.com##.js_footer-logo + *
+gizmodo.com##.js_post-truncation-waypoint-hook ~ *
+gizmodo.com##:xpath(//div[child::p[contains(text(), 'More from our network')]])
+gizmodo.com##:xpath(//div[child::div[child::div[child::div[child::a[contains(@data-ga, 'Author Bio click')]]]]])
 
 ! GOOD HOUSEKEEPING
 www.goodhousekeeping.com###onetrust-consent-sdk
@@ -1996,6 +2024,8 @@ inews.co.uk##.inews__topic-list
 inews.co.uk##div.inews__footer__menus__column:nth-of-type(3)
 inews.co.uk##.inews__shortcode-readmore
 inews.co.uk##blockquote
+inews.co.uk##.inews__more-from
+inews.co.uk##.wp-block-embed-twitter
 
 ! ICY VEINS
 www.icy-veins.com###premium_information
@@ -2217,6 +2247,18 @@ www.lbc.co.uk##.level1_wrapper
 www.lbc.co.uk##.footer
 www.lbc.co.uk##.social-share
 
+! LIFEHACK
+www.lifehack.org##.cf-overlay
+www.lifehack.org##.background-overlay
+www.lifehack.org##.cf-cta-item-container
+www.lifehack.org##.category-related-links
+www.lifehack.org##.sidebar
+www.lifehack.org##.article-author
+www.lifehack.org##.cf-background-overlay
+www.lifehack.org##.convertflow-cta
+www.lifehack.org##.article-end-related-listing
+www.lifehack.org##.article-page ~ *
+
 ! LIFE HACKER
 lifehacker.com###sidebar_wrapper
 lifehacker.com##.js_header-shop
@@ -2351,6 +2393,11 @@ metro.co.uk##*[id*="widget-area"]
 metro.co.uk##:xpath(//p[child::strong[contains(text(), 'Get in touch with our news team')]])
 metro.co.uk##:xpath(//p[child::strong[contains(text(), 'For more stories like this')]])
 
+! MICROSOFT
+www.microsoft.com###uhfCookieAlert
+www.microsoft.com###newsletter
+www.microsoft.com###retailers
+
 ! MIRAFIT
 mirafit.co.uk##.amgdprcookie-bar-template
 || mirafit.co.uk/pub/media/wysiwyg/covid-19-.jpg$image
@@ -2430,6 +2477,29 @@ www.nationaltrust.org.uk##:xpath(//div[child::h3[contains(text(), 'Download the 
 www.nationaltrust.org.uk##.nt-share-social
 www.nationaltrust.org.uk##.nt-primary-cta
 www.nationaltrust.org.uk##.nt-social-links
+
+! NEOWIN
+www.neowin.net###promos
+www.neowin.net##.mobile-user-login-btn
+www.neowin.net##.header-banner-advertising
+www.neowin.net##span.hot
+www.neowin.net##.vcard.author
+www.neowin.net##.article-share
+www.neowin.net##.article-tags
+www.neowin.net##.post-nav-links
+www.neowin.net###related-news
+www.neowin.net##.show-comments-button
+www.neowin.net##.comments
+www.neowin.net##.deals
+www.neowin.net##.footer-banner-advertising
+www.neowin.net##.scrollto
+www.neowin.net##.category-bar
+www.neowin.net##.widget-community.widget
+www.neowin.net###sidebar
+www.neowin.net##.nav-user-register-button
+www.neowin.net##:xpath(//article[contains(@class, 'news-item') and descendant::span[contains(@class, 'sponsored')]])
+www.neowin.net##.news-col:style(width: auto !important;)
+www.neowin.net##.report-article-button
 
 ! NEW SCIENTIST
 www.newscientist.com##.header-subscribe
@@ -3697,6 +3767,23 @@ www.nytimes.com###in-story-masthead
 www.nytimes.com###story > div:first-child
 www.nytimes.com##*[aria-labelledby="storyline-menu-title"]
 
+! THE NEXT WEB
+thenextweb.com##.nxtHome
+thenextweb.com##.c-nav__message
+thenextweb.com##.c-showcaseTrending
+thenextweb.com##.c-showcaseChannels
+thenextweb.com###newslettersignup
+thenextweb.com##.c-showcasePartner
+thenextweb.com##.c-footer__logoContact
+thenextweb.com##.c-channel__banner
+thenextweb.com##.c-tags
+thenextweb.com###sidebar
+thenextweb.com##.c-article__side
+thenextweb.com##.corona-wrapper
+thenextweb.com##.alsoTaggedIn
+thenextweb.com###react-related
+thenextweb.com##:xpath(//p[child::em[child::a[contains(@href, 'https://hello.thenextweb.com')]]])
+
 ! THE OBSERVER
 observer.com##.share-buttons.large.social-icons
 observer.com##.next-container
@@ -3989,6 +4076,20 @@ www.tutorialspoint.com###google-top-ads
 www.tutorialspoint.com##.tp-search-widget
 ||www.tutorialspoint.com/*mages/*banner*$image
 
+! TUTS PLUS
+tutsplus.com##.post__article-top
+tutsplus.com##.leaderboard_ad_non_mobile
+tutsplus.com##.announcement-bar
+tutsplus.com##.layout__sidebar
+tutsplus.com###content_space_promotions
+tutsplus.com##.content-author
+tutsplus.com##.post__footer
+tutsplus.com##.market-highlight
+tutsplus.com##.ecosystem-highlight
+tutsplus.com##.quick-links
+tutsplus.com##.page-footer__envato-bar
+tutsplus.com##.elements-sign-up-modal
+
 ! TVDB
 www.thetvdb.com##.tvtime-cta
 
@@ -4018,6 +4119,13 @@ www.tweaktown.com##.content-latestitem
 www.tweaktown.com##.simcontent.cva
 www.tweaktown.com##.embed-container
 www.tweaktown.com###content-alertbar
+www.tweaktown.com###newsnextprev
+www.tweaktown.com##.info-bar-div
+www.tweaktown.com##.info-bar-div2
+www.tweaktown.com##.info-bar-div3
+www.tweaktown.com##.info-bar-div4
+www.tweaktown.com##:xpath(//ul[child::li[child::span[child::strong[contains(text(), 'Read more')]]]])
+www.tweaktown.com###content-crumbbar
 
 ! TWITTER (mobile)
 ! N.B. Breaks all modals - fine for me
