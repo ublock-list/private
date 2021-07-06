@@ -67,6 +67,7 @@
 ||discordapp.com
 ||disqus.com
 ||dmgmediaprivacy.co.uk
+||domakuhitaor.com
 ||domslc.com
 ||doubleclick.net
 ||downfile.site
@@ -86,6 +87,7 @@
 ||evolok.net
 ||exe.io
 ||expertvn.com
+||ezlinks.io
 ||facebook.net
 ||fc.lc
 ||fcc.lc
@@ -110,6 +112,7 @@
 ||grient.com
 ||helpscout.net
 ||honeybulb.com
+||i-afk.com
 ||i4rsrcj6.top
 ||ibb.co
 ||icons8.com
@@ -694,6 +697,11 @@ www.autocar.co.uk##.block-topic-tags
 www.autocar.co.uk##*[class*="block-mobile-sitewide-sidebar-type-"]
 www.autocar.co.uk##:xpath(//p[child::strong[contains(text(), 'READ MORE')]])
 www.autocar.co.uk##:xpath(//p[child::strong[contains(text(), 'READ MORE')]]) ~ *
+www.autocar.co.uk###block-views-first_drives-block_1
+www.autocar.co.uk###block-views-first_drives-block_2
+www.autocar.co.uk##.block-car-review-sidebar-1
+www.autocar.co.uk##.block-car-review-sidebar-2
+www.autocar.co.uk##.cta--button
 ||www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/save_you_money_*.jpg$image
 ||www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/what-car-new-buying-*.jpg$image
 
@@ -985,6 +993,7 @@ boardgamearena.com##.live_stream_next
 boardgamearena.com###popin_rating_step1
 boardgamearena.com###popin_rating_step1_underlay
 boardgamearena.com##.publishresult
+boardgamearena.com##.live_stream_expanded
 
 ! BOARD GAME GEEK
 boardgamegeek.com##gg-support-leaderboard-ad
@@ -1367,6 +1376,7 @@ ebay.*##.srp-related-searches
 ebay.*##.srp-river-footer
 ebay.*##:xpath(//li[child::a[contains(@href, 'https://reward.ebay.co.uk/')]])
 ebay.*##:xpath(//li[contains(@class, 's-item') and child::a[contains(@href, '_trkparms=')]])
+ebay.*##:xpath(//li[contains(@class, 's-item') and descendant::div[contains(@class, 's-item__title-tag') and contains(text(), 'SPONSORED')]])
 
 ! EHOW
 www.ehow.*##.social-share-icons
@@ -1923,6 +1933,7 @@ www.howtogeek.com##.relatedside
 www.howtogeek.com##:xpath(//div[child::span[contains(text(), 'Advertisement')]])
 www.howtogeek.com##:xpath(//p[child::strong[contains(text(), 'RELATED:')]])
 www.howtogeek.com##.social-media-buttons
+www.howtogeek.com##.comments
 
 ! HSBC
 hsbc.co.uk###rap_wrapper+script
@@ -2003,6 +2014,12 @@ m.huffingtonpost.co.uk##.ad_spot
 m.huffingtonpost.co.uk##.author-byline
 m.huffingtonpost.co.uk##.tag-cloud
 m.huffingtonpost.co.uk##.yr-conversations
+
+! HUNKER
+www.hunker.com##.component-article-jwplayer-wrapper
+www.hunker.com##.right-rail
+www.hunker.com##.component-contributor-bio
+www.hunker.com##.infinite-scroll-article-wrapper:not(:first-child)
 
 ! HUWSGRAY
 www.huwsgray.co.uk##.popup.branch-lookup
@@ -2086,6 +2103,8 @@ www.imdb.com###contribute-main-section
 www.imdb.com##.recently-viewed
 www.imdb.com###cast_title_pro_link
 www.imdb.com##.banner
+www.imdb.com##.imdb-footer__links > div:first-child
+www.imdb.com##.imdb-footer__logo
 
 ! IMGUR
 imgur.com##.EmeraldBanner
@@ -2171,6 +2190,8 @@ www.johnlewis.com##jl-recommendations-panel
 
 ! KEYBR
 keybr.com##.supporter
+keybr.com##.Body-header
+keybr.com##.Body-aside
 
 ! KICKSTARTER
 www.kickstarter.com##.grid-col-offset-1-md.grid-col-10-md.grid-col-12 > .pb2.py0 > div.mb3.flex
@@ -2726,17 +2747,19 @@ pcgamer.com##.van_vid_carousel
 pcgamer.com##.by-author
 
 ! PC GAMES NETWORK
-www.pcgamesn.com##.social_cta
-www.pcgamesn.com##.aff_widget
-www.pcgamesn.com##.post_footer
-www.pcgamesn.com##.ad
-www.pcgamesn.com##.next_page_placeholder
-www.pcgamesn.com##.js-ifs-nextpage
-www.pcgamesn.com###nn_bfa_wrapper
-www.pcgamesn.com##.menu-header-overwolf
-www.pcgamesn.com##.entry-meta
-www.pcgamesn.com##.game_info_panel
-www.pcgamesn.com##.game_list
+pcgamesn.com##.social_cta
+pcgamesn.com##.aff_widget
+pcgamesn.com##.post_footer
+pcgamesn.com##.ad
+pcgamesn.com##.next_page_placeholder
+pcgamesn.com##.js-ifs-nextpage
+pcgamesn.com###nn_bfa_wrapper
+pcgamesn.com##.menu-header-overwolf
+pcgamesn.com##.entry-meta
+pcgamesn.com##.game_info_panel
+pcgamesn.com##.game_list
+pcgamesn.com##body:style(padding-top: 0 !important;)
+pcgamesn.com##body > header:style(top: 0 !important;)
 
 ! PCLOUD
 blog.pcloud.com##.gdpr-privacy-bar
@@ -2995,6 +3018,15 @@ reddit.com##.infobar-toaster-container
 reddit.com##.premium-banner-outer
 reddit.com##.giftgold
 
+! REED
+www.reed.co.uk##.google-ad-leaderboard
+www.reed.co.uk##.recommended-courses-panel
+www.reed.co.uk##.feedback-container
+www.reed.co.uk##.download-app-link
+www.reed.co.uk##.footer--secondary
+www.reed.co.uk##.love-mondays-footer-logo
+www.reed.co.uk##.gtmEmailMeJobsTop
+
 ! RHS
 www.rhs.org.uk##.toolbar__search .form-btn--tone-alert
 www.rhs.org.uk###rmg-quick-bookmark_0
@@ -3178,19 +3210,19 @@ www.scan.co.uk##.newsLetter
 www.scan.co.uk##:xpath(//li[contains(@class, 'product') and descendant::span[contains(@class, 'bundle') and contains(text(), 'BUNDLE')]])
 
 ! SCIENCE DAILY
-www.sciencedaily.com##.footer-links.row
-www.sciencedaily.com##.sidebar
-www.sciencedaily.com##.unit1
-www.sciencedaily.com###message_box
-www.sciencedaily.com##.row.header > div:nth-child(2)
-www.sciencedaily.com##.row > .col-md-6
-www.sciencedaily.com##.impact-unit-wrapper
-www.sciencedaily.com##.left-skyscraper
-www.sciencedaily.com##.no-print
-www.sciencedaily.com##.breaking-news
-www.sciencedaily.com###adslot-top-rectangle
-www.sciencedaily.com###adslot-top-leaderboard
-www.sciencedaily.com###navwrapper:style(top:95px !important;)
+sciencedaily.com##.footer-links.row
+sciencedaily.com##.sidebar
+sciencedaily.com##.unit1
+sciencedaily.com###message_box
+sciencedaily.com##.row.header > div:nth-child(2)
+sciencedaily.com##.row > .col-md-6
+sciencedaily.com##.impact-unit-wrapper
+sciencedaily.com##.left-skyscraper
+sciencedaily.com##.no-print
+sciencedaily.com##.breaking-news
+sciencedaily.com###adslot-top-rectangle
+sciencedaily.com###adslot-top-leaderboard
+sciencedaily.com###navwrapper:style(top:95px !important;)
 sciencedaily.com##:xpath(//div[contains(@class, 'hidden-tiny') and descendant::span[contains(text(), 'advertisement')]])
 sciencedaily.com##:xpath(//div[contains(@class, 'col-md-6') and descendant::div[contains(@class, 'fullstory') and contains(text(), 'RELATED STORIES')]])
 
@@ -3340,6 +3372,16 @@ www.strulch.co.uk##.newsletter-inner
 
 ! STONE PAVING DIRECT
 www.stonepavingdirect.co.uk##.cc-color-override-438490.cc-left.cc-bottom.cc-theme-block.cc-type-info.cc-floating.cc-window
+
+! SUPERDRUG
+www.superdrug.com##.delivery-message
+www.superdrug.com##.pdp-container > .content-wrapper:style(margin-top: 140px !important;)
+www.superdrug.com##.pdp__BVRRContainer--reviews
+www.superdrug.com##.pdp__deliveryDetails
+www.superdrug.com##.pdp__blogUGC
+www.superdrug.com##.background-csr
+www.superdrug.com##.footer-payments
+www.superdrug.com##.footer--navigation__out-links
 
 ! SUPERUSER
 superuser.com##.js-consent-banner
@@ -4126,6 +4168,8 @@ www.tweaktown.com##.info-bar-div3
 www.tweaktown.com##.info-bar-div4
 www.tweaktown.com##:xpath(//ul[child::li[child::span[child::strong[contains(text(), 'Read more')]]]])
 www.tweaktown.com###content-crumbbar
+www.tweaktown.com##.news-sources
+www.tweaktown.com##.center-tag-search
 
 ! TWITTER (mobile)
 ! N.B. Breaks all modals - fine for me
@@ -4133,6 +4177,17 @@ twitter.com###layers
 twitter.com##div[data-testid="sidebarColumn"]
 twitter.com##:xpath(//div[child::div[child::div[child::h2[descendant::span[contains(text(), 'Topics to follow')]]]]])
 twitter.com##:xpath(//section[child::h1[contains(text(), 'Carousel')]])
+
+! TYPING ACADEMY
+www.typing.academy###dialog
+www.typing.academy###bubble
+www.typing.academy###help
+www.typing.academy##.adsense
+www.typing.academy##.note
+www.typing.academy##.special
+www.typing.academy###nav-user
+www.typing.academy###nav-user ~ *
+www.typing.academy##.flag-new
 
 ! TYPING CLUB
 typingclub.com###adslot_1
@@ -4648,6 +4703,8 @@ youtube.com###donation-shelf
 youtube.com###offer-module
 youtube.com##:xpath(//ytd-compact-movie-renderer[child::span[contains(text(), 'Buy or rent')]])
 youtube.com##:xpath(//ytd-compact-movie-renderer[child::span[contains(text(), 'Fundraiser')]])
+youtube.com###sponsor-button
+youtube.com##.super-title
 
 ! YOUTUBE (MOBILE)
 m.youtube.com##.upsell-dialog-lightbox
