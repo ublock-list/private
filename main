@@ -3240,6 +3240,14 @@ www.sciencenews.org##section[class*="more-on-topic__wrapper___"]
 www.sciencenews.org##section[class*="from-nature-index__wrapper___"]
 www.sciencenews.org##.wp-block-sciencenews-inline-related-post
 
+! SCOTT'S CHEAP FLIGHTS
+scottscheapflights.com##.signup-modal.modal-wrapper
+scottscheapflights.com##.author_container
+scottscheapflights.com##.more-guides-section
+scottscheapflights.com##.pricingfootersection_home_noimage
+scottscheapflights.com##.snackbar_navcontainer
+scottscheapflights.com##.deal-cards-container-box
+
 ! SCREEN RANT
 screenrant.com##.ad-zone-container
 screenrant.com##.related-single
@@ -3303,6 +3311,30 @@ news.sky.com##.sdc-counter-iframe-wrap
 
 ! SKY SCANNER
 www.skyscanner.net###cookie-banner-root
+www.skyscanner.net##*[class*="BpkModal_bpk-modal__container--full-screen-mobile__"]
+www.skyscanner.net##*[class*="PriceAlertsBanner_banner__"]
+www.skyscanner.net##*[class*="InlineHotelsBanner_inlineHotelsBannerContainer__"]
+www.skyscanner.net##*[class*="FlightsDayView_alertsButton__"]
+www.skyscanner.net##*[class*="InlineBrandBanner_link__"]
+www.skyscanner.net##*[class*="RestrictionsSummary_InfoCard__"]
+www.skyscanner.net##*[class*="Confidence_Confidence__"]
+www.skyscanner.net##*[class*="HomePage_HomePage__hotelUserValuesSection__"]
+www.skyscanner.net##*[class*="InspirationSection_InspirationSection__"]
+www.skyscanner.net##*[class*="DomesticTravel_DomesticTravel__"]
+www.skyscanner.net##*[class*="HotelRecommendationCardList_HotelRecommendationCardList__"]
+www.skyscanner.net##*[class*="HotelRecommendPoiFilters_HotelRecommendPoiFilters__"]
+www.skyscanner.net##*[class*="HotelRecommendQuickFilters_HotelRecommendQuickFilters__"]
+www.skyscanner.net##*[class*="App_upper-section-brand-refresh__"]
+www.skyscanner.net##*[class*="App_inspiration-panels-section__"]
+www.skyscanner.net##*[class*="App_lower-section__"]
+www.skyscanner.net###can-i-go-email-capture-inline-root
+www.skyscanner.net###confidence-messaging-container
+www.skyscanner.net###flight-deals-shelf
+www.skyscanner.net###blog-pannel-shelf
+www.skyscanner.net###index-block-container
+www.skyscanner.net###index-block-plan-peace-container
+www.skyscanner.net###newsletter-signup-wrapper
+www.skyscanner.net###internal-links
 
 ! SMALLNETBUILDER
 www.smallnetbuilder.com##.cadre_alert_cookies
