@@ -181,6 +181,7 @@
 ||popcash.net
 ||popmonetizer.net
 ||popnc.com
+||privacy-center.org
 ||privacy-mgmt.com
 ||privacymanager.io
 ||projectagoralibs.com
@@ -221,6 +222,7 @@
 ||smartsuppcdn.com
 ||smartsuppchat.com
 ||spot.im
+||stackcommerce.com
 ||static.adbull.me
 ||stfly.me
 ||stressfulpyjamas.com
@@ -902,7 +904,11 @@ bbc.*##div > div > main + section
 bbc.*##section[aria-labelledby="top-stories-heading"]
 bbc.*##section[aria-labelledby="features-analysis-heading"]
 bbc.*##*[class*="SurveyWrapper"]
-!bbc.*##.story-body > ul
+bbc.*##.story-body:xpath(//span[contains(@class, 'story-body__media') and child::span[child::img[contains(@alt, 'Around the BBC')]]])
+bbc.*##.story-body:xpath(//ul[child::li[child::a[contains(@class, 'story-body__internal-link')]]])
+bbc.*##:xpath(//div[child::figure[child::div[child::span[child::span[child::img[contains(@alt, 'New Tech Economy')]]]]]])
+bbc.*##:xpath(//div[child::figure[child::div[child::span[child::span[child::img[contains(@alt, 'New Tech Economy')]]]]]]) + div
+bbc.*##:xpath(//div[child::figure[child::div[child::span[child::span[child::img[contains(@alt, 'New Tech Economy')]]]]]]) + div + div
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
@@ -1202,6 +1208,23 @@ www.coolings.co.uk###cookie-law-info-bar
 www.coolings.co.uk##.unique-selling-points
 www.coolings.co.uk##.social-container
 www.coolings.co.uk##.footer-bottom
+
+! COSMOPOLITAN
+www.cosmopolitan.com##.affiliate-disclaimer
+www.cosmopolitan.com##.nav-menu-subscribe
+www.cosmopolitan.com##.embed-editorial-links
+www.cosmopolitan.com##.authors
+www.cosmopolitan.com##.end-of-content-playlist
+www.cosmopolitan.com##.transporter
+www.cosmopolitan.com##.seo-tag-list
+www.cosmopolitan.com##.footer-network-logo
+www.cosmopolitan.com##:xpath(//p[child::strong[child::a[contains(@href, 'https://www.instagram.com')]]])
+www.cosmopolitan.com##:xpath(//p[child::strong[child::a[contains(@href, 'https://twitter.com/')]]])
+www.cosmopolitan.com##:xpath(//p[child::em[child::a[contains(@href, 'https://hearst.emsecure.net/')]]])
+www.cosmopolitan.com##:xpath(//p[child::em[child::strong[child::a[contains(@href, 'https://www.hearstmagazines.co.uk/cosmopolitan-magazine-subscription-website')]]]])
+www.cosmopolitan.com##:xpath(//a[contains(@href, 'https://hearst.emsecure.net/')])
+www.cosmopolitan.com##.byline-with-image
+www.cosmopolitan.com##.byline
 
 ! CRUNCHYROLL
 crunchyroll.com##.game-banner-wrapper
@@ -1616,6 +1639,15 @@ www.futuregamereleases.com##.subscribe-widget
 www.futuregamereleases.com##.social-icons
 www.futuregamereleases.com##.post-cat-wrap
 
+! GHACKS
+www.ghacks.net##.box-banner
+www.ghacks.net###post-author
+www.ghacks.net##.the_related_part
+www.ghacks.net###comments
+www.ghacks.net##.ghacks-sidebar
+www.ghacks.net###snippet-box
+www.ghacks.net###snippet-box ~ *
+
 ! GADGET HACKS
 gadgethacks.com##.consentContainer
 gadgethacks.com##aside > blockquote
@@ -1866,6 +1898,7 @@ healthline.com##.disclaimer
 healthline.com###read-next
 healthline.com##section[style="position:relative;margin-top:0"]
 healthline.com###newsletter-subscription-dialog
+healthline.com##:xpath(//article/div/div[child::aside])
 
 ! HEVER CASTLE
 www.hevercastle.co.uk##.modals
@@ -2092,23 +2125,31 @@ www.ikea.com###hnf-page-message
 imageraider.com###myGContainer
 
 ! IMDB
-m.imdb.com###related-news
-m.imdb.com##.ab_widget
-www.imdb.com##.banner-container
-www.imdb.com###sidebar
-www.imdb.com##.navbar__imdb-pro--toggle
-www.imdb.com##.buybox__button
-www.imdb.com##.imdb-header__watchlist-button
-www.imdb.com##.watchlist-watchbox--titlemain
-www.imdb.com##.uc-add-wl-button
-www.imdb.com###titleRecs
-www.imdb.com###titleDidYouKnow
-www.imdb.com###contribute-main-section
-www.imdb.com##.recently-viewed
-www.imdb.com###cast_title_pro_link
-www.imdb.com##.banner
-www.imdb.com##.imdb-footer__links > div:first-child
-www.imdb.com##.imdb-footer__logo
+imdb.com###related-news
+imdb.com##.ab_widget
+imdb.com##.banner-container
+imdb.com###sidebar
+imdb.com##.navbar__imdb-pro--toggle
+imdb.com##.buybox__button
+imdb.com##.imdb-header__watchlist-button
+imdb.com##.watchlist-watchbox--titlemain
+imdb.com##.uc-add-wl-button
+imdb.com###titleRecs
+imdb.com###titleDidYouKnow
+imdb.com###contribute-main-section
+imdb.com##.recently-viewed
+imdb.com###cast_title_pro_link
+imdb.com##.banner
+imdb.com##*[class*="WatchBox__WatchParent"]
+imdb.com##*[class*="Hero__WatchContainer"]
+imdb.com##*[class*="SubNav__SubNavContainer"]
+imdb.com##*[class*="TitleMainBelowTheFoldGroup__SidebarContainer"]
+imdb.com##*[class*="RecentlyViewedItems__RecentlyViewedContainer"]
+imdb.com##.imdb-footer > div:first-child
+imdb.com##.imdb-footer__links > div:first-child
+imdb.com##.imdb-footer__logo
+imdb.com##:xpath(//section[child::div[child::div[child::hgroup[child::h3[contains(text(), 'More like this')]]]]])
+imdb.com##:xpath(//a[contains(@href, 'https://pro.imdb.com')])
 
 ! IMGUR
 imgur.com##.EmeraldBanner
