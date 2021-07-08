@@ -563,6 +563,8 @@ amazon.co.uk##.fresh-shoveler
 amazon.co.uk###sc-secondary-list
 amazon.co.uk###sc-new-upsell
 amazon.co.uk###device-dp-recommendations_feature_div
+amazon.co.uk###fdr_global_pvx_widget_firstbrowsetooltip_t1
+amazon.co.uk###fdr_global_pvx_widget_firstbrowsetooltip_t2
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -871,7 +873,6 @@ bbc.*###main-heading + p
 bbc.*##div[class*="ShareTools__Container-"]
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'Reality Check branding')]])
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'Reality Check branding')]]) ~ *
-bbc.*##.story-body > ul
 bbc.*##div[class*="layout__secondary"]
 bbc.*##:xpath(//div[child::div[child::div[child::div[child::h2[contains(text(), 'Find us here')]]]]])
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'BBC News Daily')]])
@@ -901,6 +902,7 @@ bbc.*##div > div > main + section
 bbc.*##section[aria-labelledby="top-stories-heading"]
 bbc.*##section[aria-labelledby="features-analysis-heading"]
 bbc.*##*[class*="SurveyWrapper"]
+!bbc.*##.story-body > ul
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
@@ -1219,6 +1221,8 @@ crunchyroll.com###showmedia_about_new > h3
 crunchyroll.com##.try-free-header-menu-item
 crunchyroll.com###onetrust-consent-sdk
 crunchyroll.com##.queue-button
+crunchyroll.com##.js-banner-slide
+crunchyroll.com##.welcome-featured-media
 
 ! CSS TRICKS
 css-tricks.com##.fem-ad
@@ -2424,16 +2428,47 @@ mirafit.co.uk##.amgdprcookie-bar-template
 || mirafit.co.uk/pub/media/wysiwyg/covid-19-.jpg$image
 
 ! MONEY SAVING EXPERT
-forums.moneysavingexpert.com##.cookie-notification
-forums.moneysavingexpert.com##.mse-header__top-nav__list-item
-forums.moneysavingexpert.com###MainHeader
-forums.moneysavingexpert.com##.QuickAccess
-forums.moneysavingexpert.com##.InfoMessage
-forums.moneysavingexpert.com##.WeeklyTipsSubscriptionModule
-forums.moneysavingexpert.com##.LatestNewsModule
-forums.moneysavingexpert.com##.SecondaryPanel
-forums.moneysavingexpert.com##.FooterDisclaimer
-forums.moneysavingexpert.com##.cookie-consent
+moneysavingexpert.com##.cookie-notification
+moneysavingexpert.com##.mse-header__top-nav__list-item
+moneysavingexpert.com###MainHeader
+moneysavingexpert.com##.QuickAccess
+moneysavingexpert.com##.InfoMessage
+moneysavingexpert.com##.WeeklyTipsSubscriptionModule
+moneysavingexpert.com##.LatestNewsModule
+moneysavingexpert.com##.SecondaryPanel
+moneysavingexpert.com##.FooterDisclaimer
+.moneysavingexpert.com##.cookie-consent
+moneysavingexpert.com##.analytics-tiplistbox
+moneysavingexpert.com##.forum-link__image-wrapper
+moneysavingexpert.com##.forum-guide
+moneysavingexpert.com##.analytics-articlelist
+moneysavingexpert.com##.analytics-snippetreference
+moneysavingexpert.com##.tag-list
+moneysavingexpert.com##.share-this-btn
+moneysavingexpert.com##.news-label
+moneysavingexpert.com##.by-line__authors
+moneysavingexpert.com##.by-line__thumbnail
+moneysavingexpert.com##.analytics-trending
+moneysavingexpert.com##.tools-list-subcategory-page
+moneysavingexpert.com##.analytics-box_mostpopular
+moneysavingexpert.com##.newtool
+moneysavingexpert.com##.partners-section
+moneysavingexpert.com##.more-tools
+moneysavingexpert.com##.most-popular
+moneysavingexpert.com##.box-suggest-story
+moneysavingexpert.com##.tipListBox
+moneysavingexpert.com##.guidePageNavigation ~ *
+moneysavingexpert.com##:xpath(//div[child::div[child::div[child::div[child::div[child::h5[contains(text(), 'Share this guide?')]]]]]])
+moneysavingexpert.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::h3[contains(text(), 'Have your say')]]]]]]]])
+moneysavingexpert.com##:xpath(//p[contains(text(), 'Founder, Martin Lewis · Editor-in-Chief, Marcus Herbert')])
+moneysavingexpert.com##.mse-header__logo__subline
+moneysavingexpert.com##.reference-poll-link
+moneysavingexpert.com##.latest-news-guides-section__cards-container
+moneysavingexpert.com##.FooterTools
+moneysavingexpert.com##.UserSignature
+moneysavingexpert.com##.Vanilla-logo
+moneysavingexpert.com##.twitter-ticker
+moneysavingexpert.com##.sidebar-section-container
 
 ! MORNINGSTAR
 morningstar.co.uk##div.BottomADXX
@@ -3528,6 +3563,9 @@ techradar.com##.van_vid_carousel
 techradar.com##.instagram-embed
 techradar.com##.by-author
 techradar.com##.author-block
+techradar.com##.star-deal
+techradar.com##:xpath(//p[child::strong[contains(text(), 'Follow')] and child::a[contains(@href, 'https://twitter.com/')]])
+techradar.com##.top-featured
 
 ! TECH REPUBLIC
 techrepublic.com##.btn-premium
@@ -4630,6 +4668,13 @@ www.wired.*##.link-banner
 www.wired.*##:xpath(//p[child::a[contains(@href, '/subscribe/')]])
 www.wired.*##:xpath(//blockquote[descendant::a[contains(@href, '/affiliate-link-policy/')]])
 www.wired.*##:xpath(//div[child::aside[contains(@class, 'paywall-modal')]])
+www.wired.*##.site-footer__brand-info
+www.wired.*##.standard-navigation__section--utility-links
+www.wired.*##*[data-testid="BylinesWrapper"]
+www.wired.*##:xpath(//div[child::div[child::div[child::strong[contains(text(), 'More great stories from WIRED')]]]])
+www.wired.*##:xpath(//div[child::div[child::strong[contains(text(), 'More great stories from WIRED')]]])
+www.wired.*##:xpath(//div[child::div[child::div[child::h3[contains(text(), 'More From WIRED')]]]])
+www.wired.*##.homepage__related-row
 
 ! WOODSHOP DIRECT
 www.woodshopdirect.co.uk##.targeted-message
@@ -4749,25 +4794,30 @@ m.youtube.com##.watch-metadata-app-promo-thumb
 m.youtube.com##.consent-bump-v2-lightbox
 
 ! ZDNET
-www.zdnet.com##.ad-active
-www.zdnet.com##.featured-carousel
-www.zdnet.com##*[id^="newsletter-widget-"]
-www.zdnet.com##.single-topic-module
-www.zdnet.com##.connect
-www.zdnet.com##.breaking-news-container
-www.zdnet.com##.share-bar-wrapper
-www.zdnet.com##.relatedContent
-www.zdnet.com##.related-topics
-www.zdnet.com##.trigger-expand
-www.zdnet.com##.related-stories
-www.zdnet.com##.shortcodeGalleryWrapper
-www.zdnet.com##.commerce-disclaimer
-www.zdnet.com##.multi-topic-module
-www.zdnet.com##.featuredStories
-www.zdnet.com##.mostPopular
-www.zdnet.com###content-recommendation
+zdnet.com##.ad-active
+zdnet.com##.featured-carousel
+zdnet.com##*[id^="newsletter-widget-"]
+zdnet.com##.single-topic-module
+zdnet.com##.connect
+zdnet.com##.breaking-news-container
+zdnet.com##.share-bar-wrapper
+zdnet.com##.relatedContent
+zdnet.com##.related-topics
+zdnet.com##.trigger-expand
+zdnet.com##.related-stories
+zdnet.com##.shortcodeGalleryWrapper
+zdnet.com##.commerce-disclaimer
+zdnet.com##.multi-topic-module
+zdnet.com##.featuredStories
+zdnet.com##.mostPopular
+zdnet.com###content-recommendation
 zdnet.com###onetrust-consent-sdk
 zdnet.com###onetrust-consent-sdk:style(display: none !important)
+zdnet.com##.hero-carousel
+zdnet.com##.hero-carousel-spacer
+zdnet.com##.front-door-river
+zdnet.com##.sticky-wrapper
+zdnet.com###secondary
 
 ! ZOOPLA
 www.zoopla.co.uk###ui-cookie-consent-overlay-wrap
