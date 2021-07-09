@@ -1225,6 +1225,7 @@ www.cosmopolitan.com##:xpath(//p[child::em[child::strong[child::a[contains(@href
 www.cosmopolitan.com##:xpath(//a[contains(@href, 'https://hearst.emsecure.net/')])
 www.cosmopolitan.com##.byline-with-image
 www.cosmopolitan.com##.byline
+www.cosmopolitan.com##.top-pathing
 
 ! CRUNCHYROLL
 crunchyroll.com##.game-banner-wrapper
@@ -1997,6 +1998,8 @@ huel.com##.HomeHero__trustpilot
 huel.com##.TrustPilotSlider
 huel.com##.DietitianApproved
 huel.com##.MediaBanner
+huel.com##.suggested-topics
+huel.com##.icons_payment
 
 ! HUFFINGTON POST
 www.huffpost.com##.social-buttons
@@ -2150,6 +2153,16 @@ imdb.com##.imdb-footer__links > div:first-child
 imdb.com##.imdb-footer__logo
 imdb.com##:xpath(//section[child::div[child::div[child::hgroup[child::h3[contains(text(), 'More like this')]]]]])
 imdb.com##:xpath(//a[contains(@href, 'https://pro.imdb.com')])
+imdb.com##.aux-content-widget-2
+imdb.com###prometer_container
+imdb.com##*[data-testid="contribution"]
+imdb.com##:xpath(//section[child::hgroup[child::h3[contains(text(), 'Featured today')]]])
+imdb.com##:xpath(//section[child::div[contains(@data-testid, 'title-news-header')]])
+imdb.com##*[class*="AutorotateVideoCarousel__WithPeekSideContainer"]
+imdb.com##.top-picks
+imdb.com##*[class*="WhatToWatch__WhatToWatchDiv"]
+imdb.com##.from-your-watchlist
+imdb.com##.more-to-watch
 
 ! IMGUR
 imgur.com##.EmeraldBanner
@@ -2657,6 +2670,20 @@ nypost.com##.comments
 nypost.com###footer-mobile > .footer-social
 nypost.com##.zephr-component
 nypost.com##html.no-scroll:style(overflow: auto !important;)
+nypost.com##.widget-more-stories
+nypost.com##.widget_nypost_trending_widget
+nypost.com##.widget_nypost_zone_widget
+nypost.com##.widget_nypost_pagesix_rss_widget
+nypost.com##.widget_nypost_custom_widget
+nypost.com##.widget_nypost_decider_rss_widget
+nypost.com##.nav-header--tips
+nypost.com##.dog-ear--right_link
+nypost.com##.dog-ear--left_link
+nypost.com##.flag-region
+nypost.com###author-byline
+nypost.com##.img__credit
+nypost.com##.credit
+nypost.com##.powered-by-wpcom
 pagesix.com##.breaking-news
 pagesix.com##.nyp-sharedaddy-wrapper
 pagesix.com##.floating-share
@@ -4432,6 +4459,15 @@ www.very.co.uk##.InsideTrack
 
 ! VIVASTREET
 www.vivastreet.co.uk##.vs-disclaimer-wrapper
+
+! VKOOL
+tv.vkool.net###sidebar
+tv.vkool.net##.movie-notice-box
+tv.vkool.net##.user-action
+tv.vkool.net##.related-box
+tv.vkool.net##.block-comments
+tv.vkool.net##.block-keywords
+tv.vkool.net##.catfish-ck
 
 ! VOLKSWAGEN
 www.volkswagen.co.uk###bannerOverlay
