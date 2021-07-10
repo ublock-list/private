@@ -567,6 +567,9 @@ amazon.co.uk###sc-new-upsell
 amazon.co.uk###device-dp-recommendations_feature_div
 amazon.co.uk###fdr_global_pvx_widget_firstbrowsetooltip_t1
 amazon.co.uk###fdr_global_pvx_widget_firstbrowsetooltip_t2
+amazon.co.uk##*[cel_widget_id*="OctopusLightningDeal"]
+amazon.co.uk##*[cel_widget_id*="OctopusDotd"]
+amazon.co.uk###bottom
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -4675,6 +4678,12 @@ www.wikihow.com###hp_container_outer
 www.wikihow.com###hp_trustworthy
 www.wikihow.com###hp_special_message
 www.wikihow.com###hp_languages
+www.wikihow.com###nav_pro_li
+www.wikihow.com###sidebar
+www.wikihow.com##.pdf_link.large_pdf_link
+www.wikihow.com##.coauthor_link
+www.wikihow.com###byline_info > b
+www.wikihow.com###method_toc
 
 ! WIKIPEDIA
 wikipedia.org##.cn-fundraising
