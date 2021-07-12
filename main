@@ -912,6 +912,8 @@ bbc.*##.story-body:xpath(//ul[child::li[child::a[contains(@class, 'story-body__i
 bbc.*##:xpath(//div[child::figure[child::div[child::span[child::span[child::img[contains(@alt, 'New Tech Economy')]]]]]])
 bbc.*##:xpath(//div[child::figure[child::div[child::span[child::span[child::img[contains(@alt, 'New Tech Economy')]]]]]]) + div
 bbc.*##:xpath(//div[child::figure[child::div[child::span[child::span[child::img[contains(@alt, 'New Tech Economy')]]]]]]) + div + div
+bbc.*##.gs-c-promo
+bbc.*##.wr-c-regional-forecast-slice
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
@@ -2470,6 +2472,16 @@ medium.com##:xpath(//button[child::span[contains(text(), 'Popular')]])
 ! MEETUP
 meetup.com##.seeded-event-section.gtm-seeded-events
 meetup.com##.border--top.border--bottom.motivation-section-calendar-view.motivation-section.gtm-motivation-cards
+
+! MET OFFICE
+www.metoffice.gov.uk##.breaking-news-block
+www.metoffice.gov.uk###flood-warnings-container
+www.metoffice.gov.uk##.nearby-links
+www.metoffice.gov.uk##.preview-block
+www.metoffice.gov.uk##.feedback-banner-component
+www.metoffice.gov.uk##.video-link
+www.metoffice.gov.uk##.forecast-text
+www.metoffice.gov.uk##.app-badges
 
 ! METRO NEWS
 metro.co.uk##.zone-post-strip
