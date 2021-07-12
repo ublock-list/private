@@ -912,7 +912,7 @@ bbc.*##.story-body:xpath(//ul[child::li[child::a[contains(@class, 'story-body__i
 bbc.*##:xpath(//div[child::figure[child::div[child::span[child::span[child::img[contains(@alt, 'New Tech Economy')]]]]]])
 bbc.*##:xpath(//div[child::figure[child::div[child::span[child::span[child::img[contains(@alt, 'New Tech Economy')]]]]]]) + div
 bbc.*##:xpath(//div[child::figure[child::div[child::span[child::span[child::img[contains(@alt, 'New Tech Economy')]]]]]]) + div + div
-bbc.*##.gs-c-promo
+!bbc.*##.gs-c-promo
 bbc.*##.wr-c-regional-forecast-slice
 
 ! BBC (BROADER)
