@@ -94,6 +94,7 @@
 ||fcdot.lc
 ||focusecoversionc.info
 ||forex-articles.com
+||forex-gold.net
 ||forextrading2.online
 ||fortifi.io
 ||gaut-hil.com
@@ -118,15 +119,18 @@
 ||icons8.com
 ||iconscout.com
 ||icutlink.com
+||illink.net
 ||imageshack.host
 ||imstks.com
 ||in-page-push.com
 ||infopicked.com
 ||ingcigarettbarro.info
 ||intense-brushlands-50749.herokuapp.com
+||jameeltips.us
 ||jistaumt.com
 ||kecmuhot.net
 ||kiemlua.com
+||kiw.li
 ||kniferasatte.info
 ||knightlab.com
 ||koacojus.net
@@ -789,6 +793,9 @@ autotrader.co.uk##.print-advert-cta
 autotrader.co.uk##.product-card-seller-info__logo
 autotrader.co.uk##.dealer-profile-link
 autotrader.co.uk##:xpath(//div[contains(@class, 'module') and descendant::a[contains(@href, 'https://partnerships-motor-gateway.comparethemarket.com')]])
+autotrader.co.uk##.atds-nav-wrapper > .narrow-hide
+autotrader.co.uk##.fpa__gallery-seller-type-label
+autotrader.co.uk##.fpa__page-bottom--buying-safely
 
 ! AV FORUMS
 www.avforums.com##.p-body-sidebar
@@ -1007,6 +1014,8 @@ boardgamearena.com###popin_rating_step1
 boardgamearena.com###popin_rating_step1_underlay
 boardgamearena.com##.publishresult
 boardgamearena.com##.live_stream_expanded
+boardgamearena.com###follow_us_portlet
+boardgamearena.com###footercol_follow
 
 ! BOARD GAME GEEK
 boardgamegeek.com##gg-support-leaderboard-ad
@@ -1324,6 +1333,15 @@ www.dictionary.com##nav[aria-label="Site Navigation"] ul > li:nth-child(3)
 www.dictionary.com##nav[aria-label="Site Navigation"] ul > li:nth-child(4)
 www.dictionary.com##.serp-nav-button
 www.dictionary.com###quizzes
+
+! DIGITAL OCEAN
+www.digitalocean.com##.featured-content-header
+www.digitalocean.com##.navbar > .utility > li[role="banner"]
+www.digitalocean.com##.helpfulness_and_share_box
+www.digitalocean.com##.tutorial-footer
+www.digitalocean.com##.creative-commons
+www.digitalocean.com##.product
+www.digitalocean.com##footer > section:not(.dark)
 
 ! DIGITAL SPY
 www.digitalspy.com##.feed-block-with-ad
