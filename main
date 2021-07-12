@@ -1897,6 +1897,25 @@ www.gumtree.com###partnerships
 www.gumtree.com##.sponsored-link-spot
 www.gumtree.com##.vip-save-ad
 
+! HACKERNOON
+hackernoon.com##.iubenda-cs-visible
+hackernoon.com##*[class*="TopNavAd__Layout-"]
+hackernoon.com##*[class*="AdByTag__Container-"]
+hackernoon.com##*[class*="AuthorBio__Layout-"]
+hackernoon.com##*[class*="CallToAction__Layout-"]
+hackernoon.com##.related-stories
+hackernoon.com##.adbytag
+hackernoon.com##.bottom-reactions
+hackernoon.com##.top-reactions
+hackernoon.com##:xpath(//section[child::h4[contains(text(), 'Tags')]])
+hackernoon.com##main > div:xpath(//h2[contains(text(), 'More in ')])
+hackernoon.com##main > div:xpath(//h2[contains(text(), 'More in ')]) ~ *
+hackernoon.com##.newsletter-form
+hackernoon.com##.reactions
+hackernoon.com##.stat
+hackernoon.com##.bookmark
+hackernoon.com##.profile
+
 ! HEALTHLINE
 healthline.com##.disclaimer
 healthline.com###read-next
@@ -3485,8 +3504,13 @@ stackoverflow.com###feed-link
 stackoverflow.com##.site-footer--copyright
 stackoverflow.com##.bottom-notice
 stackoverflow.com##.privacy-policy-agreement
+stackoverflow.com##.sidebar-related
+stackoverflow.com##.new-login-form
+stackoverflow.com##.js-answer-help
 stackoverflow.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')])
 stackoverflow.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')]) ~ *
+stackoverflow.com##:xpath(//ol[contains(@class, 'nav-links')]/li[child::div[contains(text(), 'Collectives')]])
+stackoverflow.com##:xpath(//ol[contains(@class, 'nav-links')]/li[child::div[contains(text(), 'Collectives')]]) ~ *
 
 ! STEAM COMMUNITY
 steamcommunity.com##.cookiepreferences_popup_content
