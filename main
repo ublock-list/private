@@ -589,6 +589,11 @@ www.anandtech.com##.print_article
 www.anandtech.com##.blog_top_left > .hide_resp2
 www.anandtech.com##.hide_resp2
 
+! ANDROID
+developer.android.com##devsite-snackbar
+developer.android.com##.devsite-footer-utility-button
+developer.android.com##.devsite-footer-promo-title
+
 ! APPLIANCES DIRECT
 www.appliancesdirect.co.uk##.cc-window
 www.appliancesdirect.co.uk###reassurance-mob
@@ -1671,6 +1676,7 @@ www.ghacks.net###comments
 www.ghacks.net##.ghacks-sidebar
 www.ghacks.net###snippet-box
 www.ghacks.net###snippet-box ~ *
+www.ghacks.net###didomi-host
 
 ! GADGET HACKS
 gadgethacks.com##.consentContainer
@@ -1935,6 +1941,9 @@ hackernoon.com##.reactions
 hackernoon.com##.stat
 hackernoon.com##.bookmark
 hackernoon.com##.profile
+
+! HEALTH DATA
+www.healthdata.org###block-ihmeuw-blocks-content-social-media
 
 ! HEALTHLINE
 healthline.com##.disclaimer
@@ -2245,6 +2254,41 @@ www.imore.com##.header-top-alert-bar.block-block.block
 
 ! INDEED
 indeed.co.uk##:xpath(//div[contains(@class, 'jobsearch-SerpJobCard') and descendant::span[contains(text(), 'Sponsored')]])
+
+! INSIDER / BUSINESS INSIDER
+www.insider.com##.subnav-ad-layout
+www.insider.com##.subscribe-and-login-links
+www.insider.com##.beats-container
+www.insider.com##.river-tab-featured">www.insider.com##.river-tab-featured
+www.insider.com##.river-tab
+www.insider.com##.popular-story-indicator
+www.insider.com##.commerce-coupons-module
+www.insider.com##.brands
+www.insider.com##.logo-pair-container
+www.insider.com##.brands-logo
+www.insider.com##.newsletters-drawer
+www.insider.com##.ins-edition-picker-wrapper
+www.insider.com##.app-download-cta-container
+www.insider.com##.promo-drawer
+www.insider.com##.social
+www.businessinsider.com##.share-wrapper
+www.businessinsider.com##.post-prime-tag
+www.businessinsider.com##.byline-link
+www.businessinsider.com##.notification-prompt-wrapper
+www.businessinsider.com##.brands
+www.businessinsider.com##.logo-pair-container
+www.businessinsider.com##.brands-logo
+www.businessinsider.com##.subnav-ad-layout
+www.businessinsider.com##.bi-prime-icon
+www.businessinsider.com##.commerce-coupons-module
+www.businessinsider.com##.newsletters-drawer
+www.businessinsider.com##.ins-edition-picker-select
+www.businessinsider.com##.ins-edition-picker-wrapper
+www.businessinsider.com##.app-download-cta-container
+www.businessinsider.com##.promo-drawer
+www.businessinsider.com##.social
+www.businessinsider.com##.featured-tout
+www.businessinsider.com##.commerce-popular-posts-wrapper
 
 ! INVESTOPEDIA
 www.investopedia.com###onetrust-consent-sdk
@@ -2645,6 +2689,20 @@ www.nationaltrust.org.uk##.nt-share-social
 www.nationaltrust.org.uk##.nt-primary-cta
 www.nationaltrust.org.uk##.nt-social-links
 
+! NBC NEWS
+www.nbcnews.com##.breaking-marquee
+www.nbcnews.com##.mini-tease-local
+www.nbcnews.com##.watch-now
+www.nbcnews.com##.share-list
+www.nbcnews.com##.related
+www.nbcnews.com##.endmark
+www.nbcnews.com##.newsletter-signup__container
+www.nbcnews.com##.articleBylineContainer
+www.nbcnews.com##.peacock
+www.nbcnews.com##.brands
+www.nbcnews.com##.recommended-intersection-ref
+www.nbcnews.com##.local-news
+
 ! NEOWIN
 www.neowin.net###promos
 www.neowin.net##.mobile-user-login-btn
@@ -2741,6 +2799,8 @@ nypost.com###author-byline
 nypost.com##.img__credit
 nypost.com##.credit
 nypost.com##.powered-by-wpcom
+nypost.com###author-byline
+nypost.com##.flag-region
 pagesix.com##.breaking-news
 pagesix.com##.nyp-sharedaddy-wrapper
 pagesix.com##.floating-share
@@ -3001,6 +3061,25 @@ forums.plex.tv##.onscreen-post.small-action
 forums.plex.tv##.alert-info.alert.signup-cta
 support.plex.tv##.cookie-consent
 
+! PLYMOUTH HERALD
+www.plymouthherald.co.uk##.pipeline-container
+www.plymouthherald.co.uk##.click-track
+www.plymouthherald.co.uk##.sharebar
+www.plymouthherald.co.uk##.author-information-container
+www.plymouthherald.co.uk##.skinny-signup
+www.plymouthherald.co.uk###taboolaMobileMidArticle
+www.plymouthherald.co.uk###taboolaMobileMidArticle-1
+www.plymouthherald.co.uk##aside
+www.plymouthherald.co.uk##.brand-low
+www.plymouthherald.co.uk###social-follow
+www.plymouthherald.co.uk###taboolaBelowArticle
+www.plymouthherald.co.uk##.tag-list
+www.plymouthherald.co.uk##.tab-triggers
+www.plymouthherald.co.uk##.top-stories
+www.plymouthherald.co.uk##.read-next
+www.plymouthherald.co.uk##.related-stories
+www.plymouthherald.co.uk##.social-links
+
 ! POCKET LINT
 pocket-lint.com###top-skin-ad
 pocket-lint.com###top-skin-ad-bg
@@ -3177,6 +3256,8 @@ reddit.com##:xpath(//div[child::div[child::div[child::div[starts-with(text(), 'S
 reddit.com##.infobar-toaster-container
 reddit.com##.premium-banner-outer
 reddit.com##.giftgold
+reddit.com##.AnnouncementsScroller
+reddit.com##.OuterBannerContainer
 
 ! REED
 www.reed.co.uk##.google-ad-leaderboard
@@ -3558,6 +3639,7 @@ store.steampowered.com##.takeunder
 store.steampowered.com##.home_index_banner
 store.steampowered.com##.home_page_gutter_giftcard
 store.steampowered.com##.cart_rightcol
+store.steampowered.com##.saleEventBannerMobile
 
 ! STRIPE
 stripe.com##.CookieBanner
@@ -4079,10 +4161,35 @@ www.thespruce.com##.stats-nav.comp
 www.thespruce.com##.back-to-top-button
 www.thespruce.com##.mntl-sc-block-featuredlink
 
+! THE SPRUCE PETS
+www.thesprucepets.com###onetrust-consent-sdk
+www.thesprucepets.com##*[class*="ad-group--sc__ad"]
+www.thesprucepets.com##.article__post-footer
+www.thesprucepets.com##.mntl-dotdash-universal-nav
+www.thesprucepets.com##.mntl-newsletter-signup
+www.thesprucepets.com##.social-nav
+www.thesprucepets.com##.tag-nav
+www.thesprucepets.com##.mntl-article-sources
+www.thesprucepets.com##.mntl-adhesive-ad
+
 ! THE STAR
 www.thestar.co.uk##.sidebar
 www.thestar.co.uk###article-newsletter-signup
 www.thestar.co.uk##.footer-social
+
+! THE STUDENT ROOM
+www.thestudentroom.co.uk###topFixedAd
+www.thestudentroom.co.uk###modal-container
+www.thestudentroom.co.uk###announcements
+www.thestudentroom.co.uk###watchButton
+www.thestudentroom.co.uk##.related-discussions
+www.thestudentroom.co.uk##.ad-holder
+www.thestudentroom.co.uk###inpost-announcements
+www.thestudentroom.co.uk##.ad-divider
+www.thestudentroom.co.uk###widgets
+www.thestudentroom.co.uk##.pre-footer
+www.thestudentroom.co.uk##.advert-mobile
+www.thestudentroom.co.uk###appInstallBadges
 
 ! THE SUN
 www.thesun.co.uk##.footer-follow
@@ -4134,6 +4241,8 @@ www.theverge.com##.c-read-more
 www.theverge.com##.c-package-subnav
 www.theverge.com###content:style(margin-top: 0 !important;)
 www.theverge.com##.c-call-to-action-button
+www.theverge.com##.m-privacy-consent,badfilter
+www.theverge.com###privacy-consent,badfilter
 
 ! THESAURUS.COM
 www.thesaurus.com##.trending-words-word-block
@@ -4206,6 +4315,20 @@ www.tkmaxx.com##.c-promo
 www.tkmaxx.com##.product-carousel
 www.tkmaxx.com##.product-read-description
 
+! TODAY
+www.today.com##.breaking-marquee
+www.today.com##.mini-tease-local
+www.today.com##.watch-now
+www.today.com##.share-list
+www.today.com##.related
+www.today.com##.endmark
+www.today.com##.newsletter-signup__container
+www.today.com##.articleBylineContainer
+www.today.com##.home
+www.today.com##.brands
+www.today.com##.recommended-intersection-ref
+www.today.com##.bacon__package
+
 ! TOM'S GUIDE
 www.tomsguide.com##.buttons-social
 www.tomsguide.com##.trending-wrapper
@@ -4225,6 +4348,9 @@ www.tomsguide.com##.socialite-widget
 www.tomsguide.com##.jwplayer__widthsetter
 www.tomsguide.com###taboola-mobile-below-article-thumbnails
 www.tomsguide.com##.nav-subscribe
+www.tomsguide.com##.affiliateDisclaimerBar
+www.tomsguide.com##.by-author
+www.tomsguide.com##.van_vid_carousel
 
 ! TOM'S HARDWARE
 www.tomshardware.com##.region_redirect_popup
@@ -4423,6 +4549,9 @@ udemy.com##:xpath(//div[contains(@class, 'udlite-heading-lg') and contains(text(
 udemy.com##:xpath(//div[child::h2[contains(text(), 'Why learn on Udemy?')]])
 udemy.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Students are viewing')]]]])
 udemy.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Because you searched for')]]]])
+
+! UK GOVERNMENT
+www.gov.uk##.gem-c-share-links
 
 ! UK TIMBER
 www.uk-timber.co.uk###cookieNotice
