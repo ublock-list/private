@@ -2237,6 +2237,7 @@ imgur.com##.Gallery-EngagementBar
 imgur.com##.Navbar-signup
 imgur.com##.Accolade
 imgur.com##:xpath(//div[child::a[contains(@class, 'Post-item') and descendant::div[contains(@class, 'Post-item-external-ad')]]])
+imgur.com##.TrendingTags
 
 # IMGUR (MOBILE)
 m.imgur.com##.FloatingOIA-container
@@ -2245,6 +2246,7 @@ m.imgur.com##.PopOverBannerSmall-buttonClickArea
 m.imgur.com##.get-the-app
 m.imgur.com##div.ShareButtons-shareMethod--wrapper
 m.imgur.com##.ShareButtons-getApp
+m.imgur.com#@#.share
 
 ! IMORE
 www.imore.com##.adunit-wrap
