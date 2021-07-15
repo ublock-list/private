@@ -2247,6 +2247,8 @@ m.imgur.com##.get-the-app
 m.imgur.com##div.ShareButtons-shareMethod--wrapper
 m.imgur.com##.ShareButtons-getApp
 m.imgur.com#@#.share
+@@||m.imgur.com/js/share.*.bundle.js
+m.imgur.com#@#.ShareButtons
 
 ! IMORE
 www.imore.com##.adunit-wrap
