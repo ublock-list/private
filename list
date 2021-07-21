@@ -1,4 +1,9 @@
 ! SHIT PSA RELATED TORRENT SITES
+itsguider.com###content > .captcha-check ~ form ~ *
+itsguider.com###content > div:nth-of-type(3) + * ~ *
+itsguider.com###adb_detected
+itsguider.com##center
+
 shaikhzubair.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
 shaikhzubair.*##+js(abort-on-property-read.js, open)
 ||shaikhzubair.*/sw.js$script,1p
