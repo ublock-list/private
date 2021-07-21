@@ -32,6 +32,8 @@
 ||blueparrot.media
 ||bp.blogspot.com
 ||cadsecz.com
+||cbox.im
+||cbox.ws
 ||cbsi.com
 !||cbsi.map.fastly.net
 !||cbsistatic.com
@@ -179,6 +181,7 @@
 ||otrl.io
 ||otrldev.uk
 ||padsatz.com
+||perficial.space
 ||petametrics.com
 ||pingit.im
 ||pnglib.com
@@ -197,6 +200,7 @@
 ||ravenjs.com
 ||recordervesttasting.com
 ||redeye.international
+||reedthatm.biz
 ||reevaipi.com
 ||repruggob.com
 ||responserver.com
@@ -1021,6 +1025,11 @@ boardgamearena.com##.publishresult
 boardgamearena.com##.live_stream_expanded
 boardgamearena.com###follow_us_portlet
 boardgamearena.com###footercol_follow
+boardgamearena.com###socialconnect
+boardgamearena.com###welcomebigprestige
+boardgamearena.com###overall-footer
+boardgamearena.com##:xpath(//div[contains(@class, 'row') and child::div[child::div[child::h3[contains(text(), 'Board Game Arena goodies!')]]]])
+boardgamearena.com##:xpath(//div[contains(@class, 'pagesection') and child::h3[contains(text(), 'My agenda')]])
 
 ! BOARD GAME GEEK
 boardgamegeek.com##gg-support-leaderboard-ad
@@ -1467,18 +1476,19 @@ www.escapistmagazine.com##.related-posts
 www.escapistmagazine.com##.author-box
 
 ! ETSY
-www.etsy.com##div.prolist-row
-!www.etsy.com##.appears-ready
-www.etsy.com##ul[data-behat-search-results-ads-lg=""]
-www.etsy.com##body.wt-body-no-scroll:style(overflow: auto !important; position: static !important;)
-www.etsy.com###gdpr-single-choice-overlay
-www.etsy.com###collage-footer ~ *
-www.etsy.com##:xpath(//li[contains(@class, 'block-grid-item') and descendant::span[contains(@class, 'position-absolute') and descendant::span[contains(text(), 'A')] and descendant::span[contains(text(), 'd')]]])
-www.etsy.com##:xpath(//li[contains(@class, 'wt-list-unstyled') and descendant::span[contains(@class, 'position-absolute') and descendant::span[contains(text(), 'A')] and descendant::span[contains(text(), 'd')]]])
-www.etsy.com##:xpath(//li[contains(@class, 'wt-list-unstyled') and descendant::div[contains(@class, 'v2-listing-card__info') and descendant::p[contains(@class, 'wt-text-caption') and descendant::span]]])
-www.etsy.com##:xpath(//li[contains(@class, 'wt-list-unstyled') and descendant::div[contains(@class, 'v2-listing-card__shop') and descendant::p[contains(@class, 'text-gray-lighter') and descendant::span]]])
-www.etsy.com##:xpath(//div[child::div[child::a[starts-with(@href, 'https://etsy.app.link/')]]])
+etsy.com##div.prolist-row
+!etsy.com##.appears-ready
+etsy.com##ul[data-behat-search-results-ads-lg=""]
+etsy.com##body.wt-body-no-scroll:style(overflow: auto !important; position: static !important;)
+etsy.com###gdpr-single-choice-overlay
+etsy.com###collage-footer ~ *
+etsy.com##:xpath(//li[contains(@class, 'block-grid-item') and descendant::span[contains(@class, 'position-absolute') and descendant::span[contains(text(), 'A')] and descendant::span[contains(text(), 'd')]]])
+etsy.com##:xpath(//li[contains(@class, 'wt-list-unstyled') and descendant::span[contains(@class, 'position-absolute') and descendant::span[contains(text(), 'A')] and descendant::span[contains(text(), 'd')]]])
+etsy.com##:xpath(//li[contains(@class, 'wt-list-unstyled') and descendant::div[contains(@class, 'v2-listing-card__info') and descendant::p[contains(@class, 'wt-text-caption') and descendant::span]]])
+etsy.com##:xpath(//li[contains(@class, 'wt-list-unstyled') and descendant::div[contains(@class, 'v2-listing-card__shop') and descendant::p[contains(@class, 'text-gray-lighter') and descendant::span]]])
+etsy.com##:xpath(//div[child::div[child::a[starts-with(@href, 'https://etsy.app.link/')]]])
 etsy.com##*[data-your-purchases-async-loaded-modules=""]
+etsy.com###recs_ribbon_container
 
 ! EUROGAMER
 www.eurogamer.net##.secondary
@@ -1504,6 +1514,16 @@ eventbrite.co.uk##.organizer-card__cta
 eventbrite.co.uk###listings-root__follow-organizer_hero
 eventbrite.co.uk###listings-root__follow-organizer_org-panel
 eventbrite.co.uk##*[data-spec="share-box-container"]
+
+! EVERYTHING EVERYWHERE
+community.ee.co.uk##.ui-widget-overlay
+community.ee.co.uk##.ui-dialog
+community.ee.co.uk##.search-module-wrapper
+community.ee.co.uk##.lia-quilt-row-engagement-content-2nd
+community.ee.co.uk##.lia-component-recommendations-widget-recommended-content-taplet
+community.ee.co.uk##.lia-quilt-row-engagement-content
+community.ee.co.uk##.useful-links-component
+community.ee.co.uk##.lia-quilt-column-feedback
 
 ! EXPERT REVIEWS
 www.expertreviews.co.uk###__ic-notice
@@ -2056,6 +2076,7 @@ huel.com##.media__container
 huel.com##.cart__payment-icons
 huel.com###mmMaskReferrerStage1
 huel.com###mmModalReferrerStage1
+huel.com###geolocation-app
 
 ! HUFFINGTON POST
 www.huffpost.com##.social-buttons
@@ -2653,6 +2674,11 @@ www.mumsnet.com##.cta-join
 www.mumsnet.com###talk-footer-search
 www.mumsnet.com##.navbar-fixed-bottom.navbar-default.navbar
 
+! MUSIC JOBS
+www.music-jobs.com##.leaderboard
+www.music-jobs.com##.top-clients
+www.music-jobs.com##.jobsboard-sidebar
+
 ! NATIONAL RAIL
 nationalrail.co.uk###disruptions-bar
 nationalrail.co.uk##.compensation
@@ -2820,6 +2846,15 @@ pagesix.com##html.no-scroll:style(overflow: auto !important;)
 ! OFFICE FOR NATIONAL STATISTICS
 www.ons.gov.uk##.cookies-banner
 
+! ONEPLUS
+www.oneplus.com##.download-button
+www.oneplus.com##.side-navigation-container
+www.oneplus.com##.media-list
+www.oneplus.com##.payments-container
+www.oneplus.com##.extra-services
+www.oneplus.com##.section-more-images
+www.oneplus.com###live-chat-common
+
 ! ORBI
 192.168.1.1##.card-orbi-app
 
@@ -2918,6 +2953,17 @@ www.parkers.co.uk##:xpath(//*[child::a[contains(@href, 'utm_campaign')]])
 www.parkers.co.uk##:xpath(//*[child::a[contains(@href, 'utm_source')]])
 www.parkers.co.uk##:xpath(//*[child::a[contains(@href, 'utm_medium')]])
 www.parkers.co.uk##:xpath(//section[child::h2[contains(text(), 'Recently Updated Reviews')]])
+
+! PATIENT ACCESS
+www.patientaccess.com##.ui-kit-notification
+www.patientaccess.com##.promo_container
+www.patientaccess.com##.related-content
+www.patientaccess.com##.home-register
+app.patientaccess.com###dashboardpromobanner-react
+app.patientaccess.com##.ui-messages--clampable
+app.patientaccess.com##.slick-slider
+app.patientaccess.com###newsletterBanner-dashboard
+app.patientaccess.com##.db-helpdesk
 
 ! PATIENT INFO
 patient.info##.advertSlot
@@ -3132,6 +3178,10 @@ www.powertoolworld.co.uk##.addthis_native_toolbox
 www.powertoolworld.co.uk##.paypal-credit-container
 www.powertoolworld.co.uk###recently-viewed-items
 www.powertoolworld.co.uk##.block-viewed
+
+! PRODUCTION HIVE
+www.production-hive.co.uk##.leaderboard
+www.production-hive.co.uk##.top-clients
 
 ! PROTONMAIL
 mail.protonmail.com##.blackFridayModal.pm_modal
@@ -4224,29 +4274,30 @@ www.telegraph.co.uk##.facebookLike
 www.telegraph.co.uk##.e-site-header-button--subscribe
 
 ! THE VERGE
-www.theverge.com##.m-privacy-consent
-www.theverge.com##.c-tab-bar
-www.theverge.com##.c-related-list
-www.theverge.com##.c-comments
-www.theverge.com##.main-social
-www.theverge.com##.c-group-description
-www.theverge.com##.l-hero
-www.theverge.com##.c-entry-box--group-4-up
-www.theverge.com##.c-entry-box--compact--featured
-www.theverge.com##.c-entry-box--compact--package_landing
-www.theverge.com##.c-entry-box--compact--pq
-www.theverge.com##.c-newsletter_signup_box
-www.theverge.com##.l-col__sidebar
-www.theverge.com##.c-entry-hero__meta
-www.theverge.com###privacy-consent
-www.theverge.com##.c-byline__author-name
-www.theverge.com##.c-group-disclosure-ecomm
-www.theverge.com##.c-read-more
-www.theverge.com##.c-package-subnav
-www.theverge.com###content:style(margin-top: 0 !important;)
-www.theverge.com##.c-call-to-action-button
-www.theverge.com##.m-privacy-consent,badfilter
-www.theverge.com###privacy-consent,badfilter
+theverge.com##.m-privacy-consent
+theverge.com##.c-tab-bar
+theverge.com##.c-related-list
+theverge.com##.c-comments
+theverge.com##.main-social
+theverge.com##.c-group-description
+theverge.com##.l-hero
+theverge.com##.c-entry-box--group-4-up
+theverge.com##.c-entry-box--compact--featured
+theverge.com##.c-entry-box--compact--package_landing
+theverge.com##.c-entry-box--compact--pq
+theverge.com##.c-newsletter_signup_box
+theverge.com##.l-col__sidebar
+theverge.com##.c-entry-hero__meta
+theverge.com###privacy-consent
+theverge.com##.c-byline__author-name
+theverge.com##.c-group-disclosure-ecomm
+theverge.com##.c-read-more
+theverge.com##.c-package-subnav
+theverge.com###content:style(margin-top: 0 !important;)
+theverge.com##.c-call-to-action-button
+theverge.com###privacy-consent,badfilter
+theverge.com##.m-privacy-consent,badfilter
+theverge.com##.c-byline__twitter-handle
 
 ! THESAURUS.COM
 www.thesaurus.com##.trending-words-word-block
@@ -4658,11 +4709,27 @@ www.vivastreet.co.uk##.vs-disclaimer-wrapper
 ! VKOOL
 tv.vkool.net###sidebar
 tv.vkool.net##.movie-notice-box
-tv.vkool.net##.user-action
 tv.vkool.net##.related-box
 tv.vkool.net##.block-comments
 tv.vkool.net##.block-keywords
 tv.vkool.net##.catfish-ck
+tv.vkool.net###ad_top_player
+tv.vkool.net###ad_bellow_player
+tv.vkool.net###btn-light
+tv.vkool.net##.user-action > iframe
+tv.vkool.net###btn-add-favorite
+tv.vkool.net###btn-remove-ad
+tv.vkool.net###btn-error
+tv.vkool.net###btn-resize-player
+tv.vkool.net###btn-download
+tv.vkool.net###DownloadDiv
+tv.vkool.net###btn-showtimes
+tv.vkool.net###showtimes
+tv.vkool.net##.box-rating
+tv.vkool.net##body > footer
+!tv.vkool.net##.widget_user_header
+tv.vkool.net###hide_floatx
+tv.vkool.net###hide_float
 
 ! VOLKSWAGEN
 www.volkswagen.co.uk###bannerOverlay
@@ -5060,6 +5127,7 @@ youtube.com##:xpath(//ytd-compact-movie-renderer[child::span[contains(text(), 'B
 youtube.com##:xpath(//ytd-compact-movie-renderer[child::span[contains(text(), 'Fundraiser')]])
 youtube.com###sponsor-button
 youtube.com##.super-title
+youtube.com###survey
 
 ! YOUTUBE (MOBILE)
 m.youtube.com##.upsell-dialog-lightbox
