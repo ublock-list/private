@@ -27,6 +27,7 @@
 ||awestc.com
 ||bazaarvoice.com
 ||beenmeekwarmth.casa
+||beop.io
 ||bibblio.org
 ||blockchain.info
 ||blueparrot.media
@@ -578,6 +579,7 @@ amazon.co.uk###fdr_global_pvx_widget_firstbrowsetooltip_t2
 amazon.co.uk##*[cel_widget_id*="OctopusLightningDeal"]
 amazon.co.uk##*[cel_widget_id*="OctopusDotd"]
 amazon.co.uk###bottom
+amazon.co.uk##.brand-follow-tooltip-root
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -647,6 +649,27 @@ ao.com##.cat-bottom-promotions
 ao.com##.mostpopular
 ao.com##.shopbybrand-bg
 ao.com###footer-proposition
+ao.com##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Trending Brands')]]]])
+ao.com##:xpath(//li[contains(@itemprop, 'itemListElement')]/div[contains(text(), 'We Recommend')])
+ao.com##li[itemprop="itemListElement"].rounded-lg.bg-darkgreen:style(border: 1px solid #e2e7e8 !important; padding: 0 !important;)
+ao.com##button[data-tag-name="finance-interest-free-button"]
+ao.com##button[data-tag-name="finance-buy-now-pay-later-button"]
+ao.com##button[data-tag-name="finance-flexible-credit-button"]
+ao.com##button[data-tag-finance-type="finance-instalments-button"]
+ao.com##:xpath(//div[child::a[child::img[contains(@alt, 'AddedValue')]]])
+ao.com##:xpath(//li[child::div[child::div[child::div[contains(text(), 'AO Finance')]]]])
+ao.com##.helpAdvice
+ao.com##.seo-links__container
+ao.com##.asterisks
+ao.com##.tradingRangeFlag 
+ao.com##div[data-tag-name="ao finance"]
+ao.com##div[data-tag-name="free returns label"]
+ao.com##.slide-content-inner
+ao.com##.reactive-promo-strip
+ao.com##.additional-promotions
+ao.com##.promoContainer
+ao.com##.finance-messaging
+ao.com##.text-deals:not([data-testid="price-now"])
 
 ! ARGOS
 www.argos.co.uk###__tealiumGDPRecModal
@@ -972,6 +995,9 @@ www.bbcgoodfood.com##:xpath(//h6[contains(text(), 'RECIPE TIPS')])
 www.bbcgoodfood.com##:xpath(//h6[contains(text(), 'RECIPE TIPS')]) ~ *
 www.bbcgoodfood.com##:xpath(//h3[contains(text(), 'Goes well with')])
 www.bbcgoodfood.com##:xpath(//h3[contains(text(), 'Goes well with')]) ~ *
+bbcgoodfood.com##:xpath(//div[contains(@class, 'elementor-element') and child::div[child::div[child::div[child::div[child::h2[child::a[contains(text(), 'BBC Good Food Podcast')]]]]]]])
+bbcgoodfood.com##:xpath(//div[contains(@class, 'elementor-element') and child::div[child::div[child::div[child::div[child::h2[contains(text(), 'Latest offers and promotions')]]]]]])
+bbcgoodfood.com##:xpath(//section[contains(@class, 'elementor-section') and child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'More from the brand')]]]]]]]]]]]])
 
 ! BLOOMBERG
 www.bloomberg.com###newsletter-modal
@@ -1380,6 +1406,7 @@ www.digitaltrends.com##.m-shop
 www.digitaltrends.com##.h-editors-recs-title
 www.digitaltrends.com##article ~ div
 www.digitaltrends.com##article ~ aside
+www.digitaltrends.com##.dtvideos-container
 
 ! DROPBOX
 www.dropbox.com##.black.top-notification-bar-container
@@ -1697,6 +1724,8 @@ www.ghacks.net##.ghacks-sidebar
 www.ghacks.net###snippet-box
 www.ghacks.net###snippet-box ~ *
 www.ghacks.net###didomi-host
+www.ghacks.net###widgets-sec
+www.ghacks.net##.home-popular-posts
 
 ! GADGET HACKS
 gadgethacks.com##.consentContainer
@@ -2195,11 +2224,20 @@ www.ign.com##.comments-section
 www.ign.com##.slotter-block
 
 ! IKEA
-www.ikea.com##.hnf-footer__featuredLinks
-www.ikea.com##.hnf-footer__socialMediaLinks
-www.ikea.com##.hnf-footer__icon-bar
-www.ikea.com##.hnf-messages
-www.ikea.com###hnf-page-message
+ikea.com##.hnf-footer__featuredLinks
+ikea.com##.hnf-footer__socialMediaLinks
+ikea.com##.hnf-footer__icon-bar
+ikea.com##.hnf-messages
+ikea.com###hnf-page-message
+ikea.com##.survey
+ikea.com###search-results > .serp-grid__item--content-fragment
+ikea.com##.plp-rec-panel-wrapper
+ikea.com##.plp-bottom-nav-wrapper
+ikea.com##.plp-body-copy-slot-wrapper
+ikea.com##.pub__teaser
+ikea.com##.search-list--related-searches
+ikea.com##:xpath(//div[contains(@class, 'result-collection') and child::h2[contains(text(), 'Similar products')]])
+ikea.com##:xpath(//div[contains(@class, 'result-collection') and child::h2[contains(text(), 'Recommended content')]])
 
 ! IMAGERAIDER
 imageraider.com###myGContainer
@@ -2240,6 +2278,7 @@ imdb.com##.top-picks
 imdb.com##*[class*="WhatToWatch__WhatToWatchDiv"]
 imdb.com##.from-your-watchlist
 imdb.com##.more-to-watch
+imdb.com##section[data-testid="main-column-editorial-single"]
 
 ! IMGUR
 imgur.com##.EmeraldBanner
@@ -2496,6 +2535,15 @@ linkedin.com##.cta-modal
 linkedin.com##.activities.pp-section
 linkedin.com##.groups.pp-section
 linkedin.com##.bottom-cta-banner
+
+! LINUS TECH TIPS
+linustechtips.com##.ipsLayout_sidebarright
+linustechtips.com##.ipsShareButton
+linustechtips.com##.ipsFollow
+linustechtips.com##*[data-role="memberSignature"]
+linustechtips.com##.lmgComment_footer
+linustechtips.com##.awards-block
+linustechtips.com##.cGuestTeaser
 
 ! MANCHESTER EVENING NEWS
 www.manchestereveningnews.co.uk##.partner-mast-header
@@ -3030,6 +3078,7 @@ pcgamesn.com##.game_info_panel
 pcgamesn.com##.game_list
 pcgamesn.com##body:style(padding-top: 0 !important;)
 pcgamesn.com##body > header:style(top: 0 !important;)
+pcgamesn.com##.legion_primiswrapper
 
 ! PCLOUD
 blog.pcloud.com##.gdpr-privacy-bar
@@ -3312,6 +3361,7 @@ reddit.com##.premium-banner-outer
 reddit.com##.giftgold
 reddit.com##.AnnouncementsScroller
 reddit.com##.OuterBannerContainer
+reddit.com##:xpath(//div[child::span[contains(text(), 'Log in or sign up to leave a comment')]])
 
 ! REED
 www.reed.co.uk##.google-ad-leaderboard
@@ -3407,6 +3457,24 @@ rottentomatoes.com###where-to-watch
 ! ROYAL MAIL
 www.royalmail.com##.sliding-popup-top
 www.royalmail.com##.coronavirus18
+
+! SAGA
+www.saga.co.uk##.sidebar-right
+www.saga.co.uk###miniLightbox
+www.saga.co.uk##.b-sidebar-related
+www.saga.co.uk###article-author-widget
+www.saga.co.uk##.footer-left
+www.saga.co.uk##.b-disclaimer
+www.saga.co.uk##.full-carousel
+www.saga.co.uk##:xpath(//div[child::div[child::a[contains(@href, 'https://www.saga.co.uk/magazine/saga-magazine/subscribe/subscription-page')]]])
+www.saga.co.uk##:xpath(//div[child::div[child::div[child::h3[contains(text(), 'Featured')]]]])
+www.saga.co.uk##:xpath(//div[child::h2[contains(text(), 'Articles and offers')]])
+www.saga.co.uk##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::h3[contains(text(), 'Download the Saga app today')]]]]]]]]])
+travel.saga.co.uk##.breadcrumb
+travel.saga.co.uk##.alertBanner
+travel.saga.co.uk##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'Award-winning holidays and cruises')]]]]]]]])
+travel.saga.co.uk##div.footer .leftColumn
+travel.saga.co.uk##.footerImages
 
 ! SAINSBURY'S
 sainsburys.co.uk##.cookie-warning
@@ -4384,6 +4452,10 @@ www.today.com##.brands
 www.today.com##.recommended-intersection-ref
 www.today.com##.bacon__package
 
+! TOILET MAP
+toiletmap.org.uk##header > div[color="white"]
+toiletmap.org.uk###root > div > div:nth-child(3)
+
 ! TOM'S GUIDE
 www.tomsguide.com##.buttons-social
 www.tomsguide.com##.trending-wrapper
@@ -4427,6 +4499,8 @@ www.tomshardware.com##.xenforo-comment-widget
 www.tomshardware.com###taboola-mobile-below-article-thumbnails
 www.tomshardware.com##.affiliateDisclaimerBar
 www.tomshardware.com##.by-author
+tomshardware.com##.author-block
+tomshardware.com##:xpath(//p[child::strong[contains(text(), 'MORE')]])
 
 ! TOOLSTATION
 www.toolstation.com##.ts-usp-bar
@@ -5128,6 +5202,8 @@ youtube.com##:xpath(//ytd-compact-movie-renderer[child::span[contains(text(), 'F
 youtube.com###sponsor-button
 youtube.com##.super-title
 youtube.com###survey
+youtube.com###chips
+youtube.com##ytd-guide-signin-promo-renderer
 
 ! YOUTUBE (MOBILE)
 m.youtube.com##.upsell-dialog-lightbox
