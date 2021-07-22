@@ -828,6 +828,7 @@ autotrader.co.uk##:xpath(//div[contains(@class, 'module') and descendant::a[cont
 autotrader.co.uk##.atds-nav-wrapper > .narrow-hide
 autotrader.co.uk##.fpa__gallery-seller-type-label
 autotrader.co.uk##.fpa__page-bottom--buying-safely
+autotrader.co.uk##.brand-link-pattern-ctt
 
 ! AV FORUMS
 www.avforums.com##.p-body-sidebar
@@ -1187,6 +1188,10 @@ uk.camelcamelcamel.com##.baller
 www.carkeys.co.uk##.cc-grower
 www.carkeys.co.uk###tla_zone_ChatBot01
 
+! CAR MAGAZINE
+www.carmagazine.co.uk###topAdContainerFullWidth
+www.carmagazine.co.uk##.advert
+
 ! CBR
 www.cbr.com##.next-single
 www.cbr.com##.sentinel-article-nextArticle
@@ -1441,6 +1446,7 @@ duckduckgo.com##.has-feedback-prompt.js-module--maps_places.module--places.modul
 duckduckgo.com##.feedback-btn
 duckduckgo.com##.header--text_promo
 duckduckgo.com##.logo-wrap--home
+duckduckgo.com##.result__sitelinks__scrolling-container
 
 ! DUSK
 dusk.com##.loading-mask
@@ -1660,6 +1666,22 @@ fanfiction.net###cookie_notice
 fanfiction.net##.icon-twitter-3
 fanfiction.net##.timeline-Widget
 
+! FEASTING AT HOME
+www.feastingathome.com##*[id*="AdThrive_Content"]
+www.feastingathome.com##.tasty-pinit-button
+www.feastingathome.com##.adthrive-ad
+www.feastingathome.com##.tasty-recipes-footer-content
+www.feastingathome.com##.cp-popup-container
+www.feastingathome.com##.swp_social_panel
+www.feastingathome.com##.entry-footer
+www.feastingathome.com###respond
+www.feastingathome.com##.entry-comments
+www.feastingathome.com##.simple-social-icons.widget
+www.feastingathome.com##.user-profile
+www.feastingathome.com##.sidebar
+www.feastingathome.com##*[class*="adthrive"]
+www.feastingathome.com##.share-pin
+
 ! FIDELITY
 www.fidelity.co.uk##.whatsnew
 www.fidelity.co.uk##.ReactModal__Overlay
@@ -1700,6 +1722,17 @@ www.freecodecamp.org###nav-donate
 www.freecodecamp.org##.social-row
 www.freecodecamp.org##.learn-cta-row
 www.freecodecamp.org##.site-footer
+
+! FULL FACT
+fullfact.org##.ga-navbar-donate
+fullfact.org##.alert-secondary
+fullfact.org##.social-media
+fullfact.org##.sidebar-card
+fullfact.org##.donate
+fullfact.org##.related-factchecks
+fullfact.org###feedback-widget-js
+fullfact.org##.signup
+fullfact.org##.social-links
 
 ! FUTURE GAME RELEASES
 www.futuregamereleases.com###cookie-notice
@@ -2106,6 +2139,8 @@ huel.com##.cart__payment-icons
 huel.com###mmMaskReferrerStage1
 huel.com###mmModalReferrerStage1
 huel.com###geolocation-app
+huel.com##.header-geolocation-bar
+huel.com###shopify-section-cookie-banner
 
 ! HUFFINGTON POST
 www.huffpost.com##.social-buttons
@@ -2544,6 +2579,12 @@ linustechtips.com##*[data-role="memberSignature"]
 linustechtips.com##.lmgComment_footer
 linustechtips.com##.awards-block
 linustechtips.com##.cGuestTeaser
+
+! MACHINE MART
+www.machinemart.co.uk###PromotionBanner
+www.machinemart.co.uk###Footer > .top
+www.machinemart.co.uk##.footerSocialIcons
+www.machinemart.co.uk##.cardsAccepted
 
 ! MANCHESTER EVENING NEWS
 www.manchestereveningnews.co.uk##.partner-mast-header
@@ -3262,6 +3303,19 @@ x265.club##:xpath(//li[contains(@class, 'menu-item') and descendant::a[contains(
 x265.club##.new-site-image
 x265.club##.sidebar-content
 x265.club###footer-widgets
+
+! PURE EARTH
+www.purearth.co.uk###site-banner-block
+www.purearth.co.uk##.klarna-placement-product-block
+www.purearth.co.uk##.single_product_delivery_section
+www.purearth.co.uk##.share-woo-container
+www.purearth.co.uk###ewd-ufaq-faq-list
+www.purearth.co.uk##.product_reviews_content_block
+www.purearth.co.uk##.from_our_kitchen_block
+www.purearth.co.uk##.products.upsells
+www.purearth.co.uk##.footer-images-container
+www.purearth.co.uk###footer-widget-2 .textwidget
+www.purearth.co.uk##.footer-social-block
 
 ! QUORA
 www.quora.com##.qu-bg--blue.qu-full.q-absolute
@@ -4122,18 +4176,20 @@ www.theguardian.com##.treats__container
 www.theguardian.com###comments
 
 ! THE INDEPENDENT
-www.independent.co.uk##.show-in-storybook.access-container
-www.independent.co.uk##.social-share
-www.independent.co.uk##.related
-www.independent.co.uk##.above-article-prompt-donations
-www.independent.co.uk##.tw-link
-www.independent.co.uk##.fb-link
-www.independent.co.uk##.show-comments
-www.independent.co.uk##.access-container
-www.independent.co.uk##.newsletter-component
-www.independent.co.uk##.topics
-www.independent.co.uk##.i-amphtml-carousel-content
-www.independent.co.uk##.i-amphtml-layout-fixed-height
+independent.co.uk##.show-in-storybook.access-container
+independent.co.uk##.social-share
+independent.co.uk##.related
+independent.co.uk##.above-article-prompt-donations
+independent.co.uk##.tw-link
+independent.co.uk##.fb-link
+independent.co.uk##.show-comments
+independent.co.uk##.access-container
+independent.co.uk##.newsletter-component
+independent.co.uk##.topics
+independent.co.uk##.i-amphtml-carousel-content
+independent.co.uk##.i-amphtml-layout-fixed-height
+independent.co.uk##.donation-button
+independent.co.uk###subscribeLink
 
 ! THE METRO
 metro.co.uk###we-need-monies
