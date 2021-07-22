@@ -4190,6 +4190,8 @@ independent.co.uk##.i-amphtml-carousel-content
 independent.co.uk##.i-amphtml-layout-fixed-height
 independent.co.uk##.donation-button
 independent.co.uk###subscribeLink
+independent.co.uk##.sidebar
+independent.co.uk##:xpath(//div[contains(text(), 'Support us')])
 
 ! THE METRO
 metro.co.uk###we-need-monies
