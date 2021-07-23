@@ -3416,6 +3416,13 @@ reddit.com##.giftgold
 reddit.com##.AnnouncementsScroller
 reddit.com##.OuterBannerContainer
 reddit.com##:xpath(//div[child::span[contains(text(), 'Log in or sign up to leave a comment')]])
+reddit.com##:xpath(//div[child::div[contains(text(), 'More posts from the ') and contains(text(), 'community')]])
+reddit.com##:xpath(//div[child::button[contains(text(), 'Back to Top')]])
+reddit.com##body.scroll-is-blocked:style(overflow: auto !important;)
+reddit.com##shreddit-experience-tree
+reddit.com##shreddit-cookie-banner
+reddit.com##listing-below-header
+reddit.com##listing-below-header ~ *
 
 ! REED
 www.reed.co.uk##.google-ad-leaderboard
@@ -3816,6 +3823,7 @@ store.steampowered.com##.home_index_banner
 store.steampowered.com##.home_page_gutter_giftcard
 store.steampowered.com##.cart_rightcol
 store.steampowered.com##.saleEventBannerMobile
+store.steampowered.com###recommended_block
 
 ! STRIPE
 stripe.com##.CookieBanner
@@ -4239,6 +4247,8 @@ www.mirror.co.uk##.related-articles-bg
 www.mirror.co.uk###taboolaBelowArticle > .box-heading
 www.mirror.co.uk##.related-articles-bg
 www.mirror.co.uk##.factbox
+www.mirror.co.uk##section[data-mod="mostRead"]
+www.mirror.co.uk##.author
 
 ! THE NEW STATESMAN
 www.newstatesman.com##.tns-modal-wrapper
