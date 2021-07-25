@@ -1210,6 +1210,19 @@ www.chelsfieldmotorworks.com##.cc-cookies
 ! CITY AM
 www.cityam.com##.article-vuukle-comments
 
+! CITY MAPPER
+citymapper.com##.hero
+citymapper.com##.promo
+citymapper.com##.company
+citymapper.com##.cities
+citymapper.com##.enterprise
+citymapper.com##.pass
+citymapper.com##.news
+citymapper.com##.cmi
+citymapper.com###gms-embed:style(margin-top: 2rem !important)
+citymapper.com##:xpath(//li[child::div[child::button[child::span[contains(text(), 'Login/Sign up')]]]])
+citymapper.com##:xpath(//div[child::a[starts-with(@href, '/android')]])
+
 ! CLICK MECHANIC
 www.clickmechanic.com##.cookie-consent-notice-container
 www.clickmechanic.com###CovidBanner
@@ -2227,6 +2240,13 @@ inews.co.uk##.wp-block-embed-twitter
 
 ! ICY VEINS
 www.icy-veins.com###premium_information
+www.icy-veins.com##*[id*="premium_banners"]
+www.icy-veins.com##.premium_box
+www.icy-veins.com##.internal_links_block
+www.icy-veins.com###footer_content_links
+www.icy-veins.com###user_bar
+www.icy-veins.com###box_author
+www.icy-veins.com###right
 
 ! IGN
 www.ign.com##.sign-in-button
