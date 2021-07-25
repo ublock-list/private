@@ -1968,6 +1968,18 @@ google.*##:xpath(//div[child::div[child::div[child::span[child::h2[descendant::s
 google.*##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Related searches')]]]])
 google.*##:xpath(//div[child::div[child::h2[descendant::span[contains(text(), 'Related searches')]]]])
 google.*##:xpath(//div[contains(@class, 'obcontainer') and descendant::div[contains(@class, 'heading') and contains(text(), 'Dictionary')]])
+google.*##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Dark theme is now available')]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'Featured snippet from the web')]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::h3[child::span[contains(text(), 'People also ask')]]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::title-with-lhs-icon[child::div[child::h3[contains(text(), 'Videos')]]]]]]])
+google.*##:xpath(//body/div/div[child::a[starts-with(@href, 'https://store.google.com')]])
+google.*##:xpath(//div[child::div[child::g-scrolling-carousel]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h3[child::span[contains(text(), 'Related searches')]]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Videos')]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Top stories')]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[contains(text(), 'Featured recaps and highlights')]]]]])
+google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Featured events')]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::span[contains(text(), 'Olympic Games Tokyo 2020')]]]]]]]]]]]])
 google.*###taw
 google.*###extrares
 google.*###consent-bump
@@ -1975,7 +1987,7 @@ google.*##scrolling-carousel
 google.*##footer > div:nth-child(2)
 google.*###taw
 google.*###extrares
-|| consent.google.com/$subdocument
+||consent.google.com/$subdocument
 google.*##jsl > .noprint
 google.*##*[aria-modal="true"]
 google.*###rhs
