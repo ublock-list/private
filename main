@@ -852,19 +852,26 @@ www.bmstores.co.uk##.bm-product-tag-offers
 www.bmstores.co.uk##.bm-back-to-top
 
 ! B&Q
+diy.com###cl-certona-placeholder
 diy.com###product-reviews
 diy.com##footer svg
 diy.com##*[data-test-id="IdeasAndAdviceButton"]
 diy.com##*[data-test-id="UspBar"]
 diy.com##*[data-test-id="usp-bar"]
+diy.com##*[data-test-id="payPalPayLater"]
+diy.com##*[id*="Ideas & Advice"]
 diy.com##:xpath(//div[child::a[contains(@href, '/services/finance')]])
 diy.com##:xpath(//div[child::a[contains(@href, '/customer-support/apps')]])
 diy.com##:xpath(//div[child::a[contains(@href, '/ideas-advice/')]])
+diy.com##:xpath(//div[child::a[contains(@href, '/customer-support/planning-appointment')]])
+diy.com##:xpath(//div[@data-test-id="image" and child::a[contains(@href, '/find-a-store')]])
 diy.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), "Get it before it's gone")]]]])
 diy.com##:xpath(//div[@data-test-id="message-box" and descendant::span[@data-test-id="message-box-title" and contains(text(), 'Urgent product recall and safety notices')]])
 diy.com##:xpath(//div[child::div[child::p[child::strong[contains(text(), 'Terms & Conditions')]]]])
 diy.com##:xpath(//div[child::div[child::h2[contains(text(), 'Popular articles')]]])
 diy.com##:xpath(//div[child::h2[contains(text(), 'Customers who bought this also browsed')]])
+diy.com##:xpath(//div[child::div[child::h2[contains(text(), 'Ideas & Advice')]]])
+diy.com##:xpath(//div[child::div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Next Day Delivery')]]]]]]])
 
 ! BARK SUPPLIERS
 www.barksuppliers.co.uk##.ec-notices
