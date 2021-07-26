@@ -69,6 +69,7 @@
 ||dacanonga.online
 ||dditscdn.com
 ||dennis.co.uk
+||digikfplc.com
 ||dimpawlam.com
 ||discord.com
 ||discordapp.com
@@ -99,6 +100,7 @@
 ||fc.lc
 ||fcc.lc
 ||fcdot.lc
+||flagship.io
 ||focusecoversionc.info
 ||forex-articles.com
 ||forex-gold.net
@@ -240,6 +242,7 @@
 ||stfly.me
 ||stressfulpyjamas.com
 ||swesomepop.com
+||swogo.net
 ||tawk.to
 ||techrfour.com
 ||tei.ai
@@ -849,12 +852,19 @@ www.bmstores.co.uk##.bm-product-tag-offers
 www.bmstores.co.uk##.bm-back-to-top
 
 ! B&Q
-www.diy.com###app-header + div
-www.diy.com##*[data-test-id="IdeasAndAdviceButton"]
-www.diy.com##*[data-test-id="UspBar"]
-www.diy.com###product-reviews
-www.diy.com##footer svg
-www.diy.com##:xpath(//div[child::h2[contains(text(), 'Customers who bought this also browsed')]])
+diy.com###product-reviews
+diy.com##footer svg
+diy.com##*[data-test-id="IdeasAndAdviceButton"]
+diy.com##*[data-test-id="UspBar"]
+diy.com##*[data-test-id="usp-bar"]
+diy.com##:xpath(//div[child::a[contains(@href, '/services/finance')]])
+diy.com##:xpath(//div[child::a[contains(@href, '/customer-support/apps')]])
+diy.com##:xpath(//div[child::a[contains(@href, '/ideas-advice/')]])
+diy.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), "Get it before it's gone")]]]])
+diy.com##:xpath(//div[@data-test-id="message-box" and descendant::span[@data-test-id="message-box-title" and contains(text(), 'Urgent product recall and safety notices')]])
+diy.com##:xpath(//div[child::div[child::p[child::strong[contains(text(), 'Terms & Conditions')]]]])
+diy.com##:xpath(//div[child::div[child::h2[contains(text(), 'Popular articles')]]])
+diy.com##:xpath(//div[child::h2[contains(text(), 'Customers who bought this also browsed')]])
 
 ! BARK SUPPLIERS
 www.barksuppliers.co.uk##.ec-notices
