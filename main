@@ -591,6 +591,7 @@ amazon.co.uk##*[cel_widget_id*="OctopusLightningDeal"]
 amazon.co.uk##*[cel_widget_id*="OctopusDotd"]
 amazon.co.uk###bottom
 amazon.co.uk##.brand-follow-tooltip-root
+amazon.co.uk##.sims-grid-card-deck
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
