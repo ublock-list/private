@@ -1,6 +1,6 @@
-! Title: Paul's Cosmetic Site Improvements
+! Title: Cosmetic Site Improvements
 ! Expires: 4 days
-! Description: I don't like how many sites look, so "improved" them...
+! Description: I don't like how many sites look, so I "improve" them...
 !
 ! GENERAL SITES
 ||050y9lhe8p.com
@@ -68,6 +68,7 @@
 ||dacanonga.com
 ||dacanonga.online
 ||dditscdn.com
+||deadlinefunnel.com
 ||dennis.co.uk
 ||digikfplc.com
 ||dimpawlam.com
@@ -206,6 +207,7 @@
 ||qr-maker.me
 ||raiphupi.com
 ||ravenjs.com
+||reamaze.com
 ||recordervesttasting.com
 ||redeye.international
 ||reedthatm.biz
@@ -267,6 +269,7 @@
 ||totalav.com
 ||trackpush.com
 ||trafficjunky.com
+||trafficjunky.net
 ||trustarc.com
 ||truste-svc.net
 ||truste.com
@@ -310,6 +313,33 @@
 1337x.to##.hidden-sm.list-box
 1337x.to##footer
 1337x.to##.top-bar
+
+! 9 TO 5 MAC
+9to5mac.com##:xpath(//article[@class="post-content" and descendant::div[@class="post-cats" and child::a[@class="featured_tag"]]])
+9to5mac.com##:xpath(//p[child::a[child::em[contains(text(), 'Subscribe to 9to5mac on YouTube for more videos')]]])
+9to5mac.com##:xpath(//h3[contains(text(), 'Related coverage')])
+9to5mac.com##:xpath(//h3[contains(text(), 'Related coverage')]) ~ *
+9to5mac.com##.trending-items
+9to5mac.com##.trending-wrapper
+9to5mac.com##.twitter-handle
+9to5mac.com##.icon-twitter
+9to5mac.com##.byline
+9to5mac.com##.distributed-from-
+9to5mac.com##.post-content.distributed
+9to5mac.com##.ninetofive-toys
+9to5mac.com##.ninetofive-google
+9to5mac.com##.ninetofive-electrek
+9to5mac.com##.ninetofive-dronedj
+9to5mac.com###js-header-social
+9to5mac.com##.related-guides-container
+9to5mac.com##.author-bio-container
+9to5mac.com###content > .infinite-wrap
+9to5mac.com##.powered-by-wpcom
+9to5mac.com###comments
+9to5mac.com###after_disclaimer_placement
+9to5mac.com###after_disclaimer_placement ~ *
+9to5mac.com###h-read-also
+9to5mac.com###h-read-also ~ *
 
 ! ALTERNATIVE TO
 alternativeto.net##.share-buttons
@@ -781,6 +811,7 @@ www.autoexpress.co.uk##.polaris__content-bottom
 www.autoexpress.co.uk##.polaris__collapsible
 www.autoexpress.co.uk##.polaris__gallery--most-popular
 www.autoexpress.co.uk##.polaris__review--template > .polaris__content
+www.autoexpress.co.uk##.polaris-ad--wrapper-desktop
 
 ! AUTOTRADER
 autotrader.co.uk##.search-result__actions
@@ -819,7 +850,7 @@ autotrader.co.uk##.site-footer__links-list
 autotrader.co.uk##.site-footer__native
 autotrader.co.uk##.dealer-finance-link
 autotrader.co.uk##.search-form-pattern:style(position: static !important; margin-top: 30px !important; transform: none !important; max-width: auto !important;)
-autotrader.co.uk##.atds-container
+autotrader.co.uk##.atds-container:not(.home-page__header)
 autotrader.co.uk##.cars-sell-landing
 autotrader.co.uk##.home-page__services
 autotrader.co.uk##footer nav nav:nth-child(4)
@@ -844,6 +875,9 @@ autotrader.co.uk##.fpa__gallery-seller-type-label
 autotrader.co.uk##.fpa__page-bottom--buying-safely
 autotrader.co.uk##.brand-link-pattern-ctt
 autotrader.co.uk##.grecaptcha-badge
+autotrader.co.uk##.home-page__header:style(min-height: 300px !important)
+autotrader.co.uk##.atds-ev-giveaway-banner-wrapper
+autotrader.co.uk###js-takeover-creative
 
 ! AV FORUMS
 www.avforums.com##.p-body-sidebar
@@ -939,8 +973,6 @@ bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img
 bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::p[starts-with(text(), 'Read more:')]])
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'Newsbeat')]])
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'Newsbeat')]]) ~ *
-bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[contains(text(), 'You may also be interested in')]])
-bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[contains(text(), 'You may also be interested in')]]) ~ *
 bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::p[child::i[contains(text(), 'follow')] and child::a[contains(@href, 'https://twitter.com')]]])
 bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::p[contains(text(), 'Follow') and child::a[contains(@href, 'https://twitter.com')]]])
 bbc.*###main-heading + p
@@ -956,6 +988,8 @@ bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[c
 bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[contains(text(), 'You may also be interested in')]]) ~ *
 bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[contains(text(), 'You might also be interested in')]])
 bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[contains(text(), 'You might also be interested in')]]) ~ *
+bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[contains(text(), 'You may be interested to watch')]])
+bbc.*##:xpath(//div[contains(@data-component, 'crosshead-block') and child::h2[contains(text(), 'You may be interested to watch')]]) ~ *
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'YQA')]])
 bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[starts-with(@alt, 'YQA')]]) ~ *
 bbc.*##:xpath(//div[contains(@data-component, 'text-block') and descendant::p[child::i[contains(text(), 'Follow')] and child::a[contains(@href, 'https://twitter.com')]]])
@@ -1228,6 +1262,16 @@ www.carkeys.co.uk###tla_zone_ChatBot01
 ! CAR MAGAZINE
 www.carmagazine.co.uk###topAdContainerFullWidth
 www.carmagazine.co.uk##.advert
+
+! CARS UK
+www.carsuk.net##.sidebar
+www.carsuk.net##.menu-item-56756
+www.carsuk.net##.entry-author
+www.carsuk.net##.jp-relatedposts
+www.carsuk.net##.entry-footer
+www.carsuk.net##.after-entry
+www.carsuk.net##.comment-respond
+www.carsuk.net##.footer-widgets-6
 
 ! CBR
 www.cbr.com##.next-single
@@ -2674,6 +2718,27 @@ linustechtips.com##.lmgComment_footer
 linustechtips.com##.awards-block
 linustechtips.com##.cGuestTeaser
 
+! MAC WORLD
+www.macworld.co.uk##.article-author-box
+www.macworld.co.uk##.author
+www.macworld.co.uk##.idgBrands
+www.macworld.co.uk###sidebar
+www.macworld.co.uk##.idgConnectSection
+www.macworld.co.uk##.reviewOffers
+www.macworld.co.uk##.offers-shown
+www.macworld.co.uk###articleAsideContainer
+www.macworld.co.uk##:xpath(//p[child::strong[child::a[contains(text(), 'Follow') and contains(text(), 'Twitter')]]])
+www.macworld.co.uk##:xpath(//p[child::em[child::strong[contains(text(), 'See also')]]])
+www.macworld.co.uk##:xpath(//p[child::em[child::strong[contains(text(), 'See also')]]]) ~ *
+www.macworld.co.uk##:xpath(//p[child::em[contains(text(), 'This article originally appeared')]])
+www.macworld.co.uk##:xpath(//p[contains(text(), 'This article originally appeared') and child::a[contains(@href, 'https://go.redirectingat.com')]])
+www.macworld.co.uk##:xpath(//p[contains(text(), 'Read:') and child::a[contains(@href, 'https://www.macworld.co.uk')]])
+www.macworld.co.uk##:xpath(//p[contains(text(), 'For the best deals right now') and child::a[contains(@href, 'https://www.macworld.co.uk')]])
+www.macworld.co.uk##*[id*="aff-table-container"]
+infogram.com##.ig-logo
+infogram.com##.ig-share-button
+infogram.com##.sideButtonsHolder
+
 ! MACHINE MART
 www.machinemart.co.uk###PromotionBanner
 www.machinemart.co.uk###Footer > .top
@@ -3139,6 +3204,8 @@ www.parkers.co.uk##:xpath(//*[child::a[contains(@href, 'utm_campaign')]])
 www.parkers.co.uk##:xpath(//*[child::a[contains(@href, 'utm_source')]])
 www.parkers.co.uk##:xpath(//*[child::a[contains(@href, 'utm_medium')]])
 www.parkers.co.uk##:xpath(//section[child::h2[contains(text(), 'Recently Updated Reviews')]])
+www.parkers.co.uk##.article-page__summary
+www.parkers.co.uk##.main-heading__author
 
 ! PATIENT ACCESS
 www.patientaccess.com##.ui-kit-notification
@@ -5035,6 +5102,22 @@ www.volkswagen.co.uk###bannerOverlay
 vuejs.org###sidebar-sponsors-special
 vuejs.org###sidebar-sponsors-platinum-left
 vuejs.org###sidebar-sponsors-platinum-right
+vuejs.org###special
+vuejs.org###sponsors
+vuejs.org###news
+vuejs.org###v3-banner
+vuejs.org##.special-sponsors
+vuejs.org##.section-sponsors
+
+! VUE JS DEVELOPERS
+vuejsdevelopers.com##.author-info
+vuejsdevelopers.com##.related-wrapper
+vuejsdevelopers.com##.comments-wrapper
+vuejsdevelopers.com##.author-image
+vuejsdevelopers.com##.tags
+vuejsdevelopers.com##h5 > span:first-of-type
+vuejsdevelopers.com##.content-cta.hero
+vuejsdevelopers.com##:xpath(//section[child::div[child::div[child::h1[contains(text(), 'Sponsors')]]]])
 
 ! W3SCHOOLS
 www.w3schools.com###right
