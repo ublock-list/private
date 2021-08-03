@@ -2905,8 +2905,23 @@ morningstar.co.uk##div.bottomAd
 morningstar.co.uk##.bottomAd.layout_content_right + * > DIV
 
 ! MOUNTAIN WAREHOUSE
-www.mountainwarehouse.com##.c-cookie-notification
-www.mountainwarehouse.com###sledgehammer
+mountainwarehouse.com##.c-cookie-notification
+mountainwarehouse.com###sledgehammer
+mountainwarehouse.com##html:style(overflow: auto !important;)
+mountainwarehouse.com##.deliverybanner
+mountainwarehouse.com##.c-delivery-strip
+mountainwarehouse.com##.c-home-clearance-banner
+mountainwarehouse.com##.c-home-about
+mountainwarehouse.com##:xpath(//div[child::h2[contains(text(), 'Get Our Latest Offers')]])
+mountainwarehouse.com##.c-cards-container
+mountainwarehouse.com##.c-header__nav__dropdown__featured
+mountainwarehouse.com##.is-new.o-cat-product__flag
+mountainwarehouse.com##.is-sale.o-cat-product__flag
+mountainwarehouse.com##.c-product-description
+mountainwarehouse.com##.c-cat-siblings
+mountainwarehouse.com##.c-bestseller
+mountainwarehouse.com##.c-clearance-banner
+mountainwarehouse.com##.c-clearance-wrap > div:first-of-type ~ *
 
 ! MOZILLA FOUNDATION
 foundation.mozilla.org##.donate-banner
