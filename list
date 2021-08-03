@@ -198,6 +198,173 @@ pornhub.com##.phpFreeBlock
 pornhub.com##.trendingWrapper
 pornhub.com###relatedChannels
 
+! YOUPORN
+www.youporn.com###network-bar
+www.youporn.com##.watchTopCategoriesWrapper
+www.youporn.com##.external-links
+www.youporn.com##.pornstarsInfo
+www.youporn.com##.featureBar
+www.youporn.com###videoComments
+www.youporn.com##.inlineTooltipCntr
+www.youporn.com###relatedVideos ~ *
+www.youporn.com##.footer-yp-logo
+www.youporn.com##.footer-bottom-logos
+www.youporn.com##.block-orientation
+www.youporn.com###js_recommendedToYou
+www.youporn.com##.js_personalizedRow
+www.youporn.com##.js_hot_videos_by_country
+www.youporn.com##.hot-porn-collections
+www.youporn.com##.js_eroticaHomePageScrollable_row
+www.youporn.com##.js_user-block
+www.youporn.com##*[data-espnode="user_subscriptions"]
+www.youporn.com##*[data-espnode="recommended_category"]
+www.youporn.com###additionSearchOverlay
+www.youporn.com##.js_pornstarsScrollable_row
+www.youporn.com##:xpath(//div[child::div[child::div[child::div[child::h2[contains(text(), 'Related Searches')]]]]])
+www.youporn.com##.category-desc-container
+www.youporn.com##.js_recommendedVideosContainer
+www.youporn.com##.container > .relatedCategoriesContainer
+www.youporn.com##.js_channelsScrollable_row
+www.youporn.com##.js_eroticarRelatedScrollable_row
+www.youporn.com###categories_quickLinks
+www.youporn.com##*[data-tracking="track-upgrade-btn"]
+www.youporn.com##.block-resources
+
+! XHAMSTER
+xhamster.com##.dialog-desktop-container
+xhamster.com##html.xh-thumb-disabled img:style(filter: none !important;)
+xhamster.com##html.xh-thumb-disabled .player-container:style(filter: none !important;)
+xhamster.com##.player-container:style(margin-right: 320px !important;)
+xhamster.com##body.xh-scroll-disabled:style(overflow: auto !important;)
+xhamster.com##.top-video-block--user-geo
+xhamster.com##li.displayed-nav-item.nav-item > [href^="https://xhamster.com/faphouse/out"]
+xhamster.com##.sign-up-button
+xhamster.com##.top-video-block
+xhamster.com##.disclaimer
+xhamster.com##footer
+xhamster.com##.main-categories
+xhamster.com##.controls
+xhamster.com##.comments-container
+xhamster.com##.categories-container
+xhamster.com##.header-icons
+xhamster.com##.xplayer-hover-menu
+xhamster.com##.xp-subscribe
+xhamster.com##.related-container
+xhamster.com##.category-info > .large
+xhamster.com##.search-page-suggestions
+xhamster.com##.after-pager
+
+! XVIDEOS
+www.xvideos.com##+js(rc, disclaimer-opened|img-blured, html)
+www.xvideos.com##+js(rc, forced-opened|opened, #nav)
+www.xvideos.com##+js(nosiif, /^/)
+www.xvideos.com###disclaimer_background
+www.xvideos.com##html.disclaimer-opened:style(overflow: auto !important;)
+www.xvideos.com##html.disclaimer-opened > body:style(overflow: auto !important;)
+www.xvideos.com##html.img-blured img:style(filter: none !important;)
+www.xvideos.com###header-mobile-right
+www.xvideos.com##.xv-tabs
+www.xvideos.com###ad-footer
+www.xvideos.com##.remove-ads
+www.xvideos.com###tabComments_bottom_page
+www.xvideos.com###footer
+www.xvideos.com##.search-autocomplete .pornstars
+www.xvideos.com###subs-home-toggle-cont
+www.xvideos.com###search-associates
+
+! REDTUBE
+redtube.com##.rt_autocomplete
+redtube.com###main_menu_upgrade
+redtube.com##.js_upgrade_modal
+redtube.com##:xpath(//span[@class="menu_title" and contains(text(), 'Library')])
+redtube.com##:xpath(//span[@class="menu_title" and contains(text(), 'Library')]) ~ *
+redtube.com##.footer-top
+redtube.com##.footer_content_limit
+redtube.com###recommended_ps_section
+redtube.com###top_rated_playlists_section
+redtube.com###free_porn_videos_section
+redtube.com###recommended_videos_section
+redtube.com###trending_country_section
+redtube.com###video_tags_carousel
+redtube.com###video_right_col
+redtube.com###video_actions
+redtube.com###video_underplayer
+redtube.com###commentingSystemApp
+redtube.com###search_trend_wrapper
+redtube.com###below_footer_ad_content
+redtube.com##.favorites-message
+redtube.com###video_left_col:style(float: none !important; margin: 0 !important; width: 100% !important;)
+redtube.com##.video_left_section:style(width: 100% !important;)
+redtube.com###redtube-player:style(width: 100% !important; height: 800px !important;)
+www.redtube.com###watch_it_again_section
+
+! SPANKBANG
+spankbang.com##.videos > .video-list + a ~ *
+spankbang.com##footer
+spankbang.com##.tag
+spankbang.com##.right
+spankbang.com##.video_toolbar
+spankbang.com##.left > h1
+spankbang.com##.timeline
+spankbang.com##.lv_cm_cl_mx_why
+spankbang.com##.positions
+spankbang.com##.details
+spankbang.com###comment_box_anchor
+spankbang.com##.embed
+spankbang.com##.user_uploads
+spankbang.com##.related_keywords
+
+! TUBE8
+www.tube8.com##.hot-porn-videos-wrapper
+www.tube8.com###pornstars-content
+www.tube8.com##.top-categories
+www.tube8.com##.top-channels
+www.tube8.com###footer-text
+www.tube8.com###PornhubNetworkBar
+www.tube8.com###ph-nav-wrapper
+www.tube8.com##.newest.title-bar
+www.tube8.com##.title-bar
+www.tube8.com###related_search
+www.tube8.com##.video-tags-container
+www.tube8.com##.player-under-btns
+www.tube8.com##.video-data-menu
+www.tube8.com##.related-lists
+www.tube8.com##.watch-page-comments__wrapper
+www.tube8.com###footer-wrapper
+www.tube8.com##.footer-stripe-wrapper-grey
+www.tube8.com##.related-terms
+
+! TXXX
+@@cdn37804682.ahacdn.me
+@@cdn62004373.ahacdn.me
+txxx.com##.network
+txxx.com##.top-country-videos
+txxx.com##.userpanel
+txxx.com##.most-popular-videos
+txxx.com##.latest-updates-videos
+txxx.com##.page-description
+txxx.com##.top-keywords
+txxx.com##.models
+txxx.com##.channels
+txxx.com##.sidebar div.group:nth-of-type(1)
+txxx.com##.listing-videos > div
+txxx.com##.video-stats
+txxx.com##.video-tags
+txxx.com##.video-description
+txxx.com##.video-comments
+txxx.com##.footer
+txxx.com##.video-ad-videos
+
+! PORN.CCOM
+www.porn.com##.nav-main__links--right
+www.porn.com##.category-list
+www.porn.com##.body-text
+www.porn.com##.footer
+www.porn.com##.heading-primary__voting
+www.porn.com##.pagination__label
+www.porn.com##.pagination ~ *
+www.porn.com##.list-global__vote
+
 ! ASIA ME
 asiame.com###_JionMask_
 asiame.com###_joinformMask_
