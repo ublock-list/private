@@ -6,6 +6,22 @@ itsguider.com##center
 
 tny.so##.short-content
 
+ouo.press##.about
+ouo.press##.join-now
+
+iir.ai##.text-left
+
+shrinke.me##.blog-content
+
+ouo.io##.about
+ouo.io##.join-now
+
+linksly.co##.blog-content
+
+genpassword.top##.text-left
+
+bitfly.io##.text-left
+
 shaikhzubair.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
 shaikhzubair.*##+js(abort-on-property-read.js, open)
 ||shaikhzubair.*/sw.js$script,1p
