@@ -94,6 +94,7 @@
 ||evidon.com
 ||evolok.com
 ||evolok.net
+||ex.co
 ||exe.io
 ||expertvn.com
 ||ezlinks.io
@@ -1400,6 +1401,11 @@ crunchyroll.com###onetrust-consent-sdk
 crunchyroll.com##.queue-button
 crunchyroll.com##.js-banner-slide
 crunchyroll.com##.welcome-featured-media
+crunchyroll.com###showmedia_about_info_avail
+crunchyroll.com##:xpath(//div[@id="showmedia_about_info_details"]/div[contains(text(), 'Subtitles:')])
+crunchyroll.com##:xpath(//div[@id="showmedia_about_info_details"]/div[contains(text(), 'Publisher:')])
+crunchyroll.com##:xpath(//div[@id="showmedia_about_info_details"]/div[contains(text(), 'Tags:')])
+||crunchyroll.com/tracker$document,image,important
 
 ! CSS TRICKS
 css-tricks.com##.fem-ad
@@ -1507,6 +1513,11 @@ www.digitaltrends.com##article ~ div
 www.digitaltrends.com##article ~ aside
 www.digitaltrends.com##.dtvideos-container
 
+! DIY NOT
+www.diynot.com##.similarthreadsplus
+www.diynot.com##.diy-inline-notice-before
+www.diynot.com###post-diynot-local
+
 ! DROPBOX
 www.dropbox.com##.black.top-notification-bar-container
 www.dropbox.com##.open-in-app-banner-container
@@ -1542,6 +1553,7 @@ duckduckgo.com##.header--text_promo
 duckduckgo.com##.logo-wrap--home
 duckduckgo.com##.result__sitelinks__scrolling-container
 duckduckgo.com##.js-sitelinks
+duckduckgo.com###zero_click_wrapper
 
 ! DUSK
 dusk.com##.loading-mask
@@ -2002,6 +2014,9 @@ gizmodo.com##.js_footer-logo + *
 gizmodo.com##.js_post-truncation-waypoint-hook ~ *
 gizmodo.com##:xpath(//div[child::p[contains(text(), 'More from our network')]])
 gizmodo.com##:xpath(//div[child::div[child::div[child::div[child::a[contains(@data-ga, 'Author Bio click')]]]]])
+
+! GLOBAL PENFRIENDS
+www.globalpenfriends.com##.double_column_testimonial
 
 ! GOOD HOUSEKEEPING
 www.goodhousekeeping.com###onetrust-consent-sdk
@@ -2807,6 +2822,18 @@ medium.com##:xpath(//button[child::span[contains(text(), 'Popular')]])
 ! MEETUP
 meetup.com##.seeded-event-section.gtm-seeded-events
 meetup.com##.border--top.border--bottom.motivation-section-calendar-view.motivation-section.gtm-motivation-cards
+meetup.com##*[class*="cookieBanner"]
+meetup.com##.navItemLink--createMeetup
+meetup.com###start-new-group-link
+meetup.com###main_footer > div > div:first-of-type
+meetup.com###main_footer > div > div:nth-of-type(3)
+meetup.com###headerCreateLink
+meetup.com###mainFooter-social-links
+meetup.com##.gtmEventFooter--share-btn
+meetup.com##:xpath(//div[child::div[child::div[child::div[child::h4[contains(text(), 'Follow us')]]]]])
+meetup.com##:xpath(//div[child::div[child::div[child::span[contains(text(), 'Share:')]]]])
+meetup.com##.relatedEvents
+meetup.com##.seeAllMeetups
 
 ! MET OFFICE
 www.metoffice.gov.uk##.breaking-news-block
@@ -2865,7 +2892,7 @@ moneysavingexpert.com##.WeeklyTipsSubscriptionModule
 moneysavingexpert.com##.LatestNewsModule
 moneysavingexpert.com##.SecondaryPanel
 moneysavingexpert.com##.FooterDisclaimer
-.moneysavingexpert.com##.cookie-consent
+moneysavingexpert.com##.cookie-consent
 moneysavingexpert.com##.analytics-tiplistbox
 moneysavingexpert.com##.forum-link__image-wrapper
 moneysavingexpert.com##.forum-guide
@@ -3437,6 +3464,22 @@ www.polygon.com##.c-compact-river
 www.polygon.com##.c-footer__section-vox
 www.polygon.com##.l-col__sidebar
 
+! POPULAR MECHANICS
+www.popularmechanics.com##.breaker-ad
+www.popularmechanics.com##.top-nav-subscribe
+www.popularmechanics.com##.affiliate-disclaimer
+www.popularmechanics.com##.byline-with-image
+www.popularmechanics.com##.product-slide-details
+www.popularmechanics.com##.product-buy-button-wrapper
+www.popularmechanics.com##.transporter
+www.popularmechanics.com##.seo-tags-container
+www.popularmechanics.com##.footer-network-logo
+www.popularmechanics.com##.feed-block-with-ad
+www.popularmechanics.com##.embed-editorial-links
+www.popularmechanics.com##.gallery-module.embed
+www.popularmechanics.com##.end-of-content-playlist
+www.popularmechanics.com##.body-tip
+
 ! POWERTOOL WORLD
 www.powertoolworld.co.uk##.header-usps
 www.powertoolworld.co.uk###header-brands
@@ -3502,19 +3545,21 @@ www.purearth.co.uk###footer-widget-2 .textwidget
 www.purearth.co.uk##.footer-social-block
 
 ! QUORA
-www.quora.com##.qu-bg--blue.qu-full.q-absolute
-www.quora.com##.qu-pr--small.q-flex
-www.quora.com##.puppeteer_test_question_main > div:nth-of-type(2) > div:nth-of-type(4)
-www.quora.com##.q-box > .q-text > .q-box > div:nth-of-type(2) > div:nth-of-type(4)
-www.quora.com##.q-box > .q-text > .q-box > .qu-mt--small
-www.quora.com##.q-box > .q-text > .q-box > .qu-my--small
-www.quora.com##.qu-mb--large.q-box
-www.quora.com##div[class*="Banner___StyledFlex-"]
-www.quora.com##.puppeteer_test_question_main.q-box > div.q-box > .qu-bg--raised.qu-gutterBottom.q-box
-www.quora.com##.modal_signup_dialog
-www.quora.com##div[id*="_signup_wall_wrapper"]
-www.quora.com##body.signup_wall_prevent_scroll #root:style(filter: none !important;)
+quora.com##.qu-bg--blue.qu-full.q-absolute
+quora.com##.qu-pr--small.q-flex
+quora.com##.puppeteer_test_question_main > div:nth-of-type(2) > div:nth-of-type(4)
+quora.com##.q-box > .q-text > .q-box > div:nth-of-type(2) > div:nth-of-type(4)
+quora.com##.q-box > .q-text > .q-box > .qu-mt--small
+quora.com##.q-box > .q-text > .q-box > .qu-my--small
+quora.com##.qu-mb--large.q-box
+quora.com##div[class*="Banner___StyledFlex-"]
+quora.com##.puppeteer_test_question_main.q-box > div.q-box > .qu-bg--raised.qu-gutterBottom.q-box
+quora.com##.modal_signup_dialog
+quora.com##div[id*="_signup_wall_wrapper"]
+quora.com##body.signup_wall_prevent_scroll #root:style(filter: none !important;)
 quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Questions')]]]]]]]]]])
+quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]]]])
+quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]]]]) ~ *
 
 ! RAC
 www.rac.co.uk##.sidebar
@@ -3607,6 +3652,8 @@ reddit.com##shreddit-experience-tree
 reddit.com##shreddit-cookie-banner
 reddit.com##listing-below-header
 reddit.com##listing-below-header ~ *
+reddit.com##.PostTopicPills
+reddit.com##.TopPosts
 
 ! REED
 www.reed.co.uk##.google-ad-leaderboard
@@ -4071,6 +4118,11 @@ www.t3.com##.hawk-placeholder
 www.t3.com##.star-deal
 www.t3.com##.jw-carousel
 www.t3.com##.van_vid_carousel
+www.t3.com##.hawk-wrapper
+www.t3.com##.hawk-nest
+www.t3.com##.tag-links
+www.t3.com##.topbutton
+www.t3.com##.author
 
 ! TABLETOPIA
 tabletopia.com##.js-get-premium
@@ -4207,6 +4259,20 @@ tesco.com##.stamp-group
 tesco.com##:xpath(//div[contains(@class, 'ui-panel') and descendant::h2[child::span[contains(text(), 'Reasons to shop with us')]]])
 tesco.com##:xpath(//div[contains(@class, 'ui-panel') and descendant::h2[child::span[contains(text(), 'Offers this week from Tesco')]]])
 tesco.com##:xpath(//div[contains(@class, 'ui-panel') and descendant::h2[child::span[contains(text(), 'Offers this week from Tesco')]]]) ~ *
+
+! THE CULTURE TRIP
+theculturetrip.com##body > div > header:style(top: 0 !important; position: static !important;)
+theculturetrip.com##*[class*="Headerstyled__HeaderMarginTop"]:style(display: none !important;)
+theculturetrip.com##*[class*="billboard__BillboardStyled"]
+theculturetrip.com##*[class*="bootm-article-cta-buttons"]
+theculturetrip.com##*[class*="bootm-article-cta-buttons"] ~ *
+theculturetrip.com##*[class*="meta-section__StyledMetaSectionCell"]
+theculturetrip.com##*[class*="app-install-buttons-wrapper"]
+theculturetrip.com##*[class*="share-icon-stylestyled__ShareIconUL"]
+theculturetrip.com###related-articles
+theculturetrip.com##footer > div > nav:nth-of-type(4)
+theculturetrip.com##*[id*="theculturetrip_article_promotion_related"]
+theculturetrip.com##*[data-automation-id="adslot-after-first-paragraph"]
 
 ! THE DAILY BEAST
 www.thedailybeast.com##.NavSub--visible.NavSub
@@ -4626,6 +4692,8 @@ telegraph.co.uk##.article__end-meta
 telegraph.co.uk##.e-site-logo__award
 telegraph.co.uk##.e-utility
 telegraph.co.uk##.indexSnippetReference
+telegraph.co.uk##.subscribe-banner
+telegraph.co.uk##.opinion
 
 ! THE VERGE
 theverge.com##.m-privacy-consent
@@ -5367,6 +5435,9 @@ windowscentral.com##.article-header__authors
 windowscentral.com##.article-header__comments
 windowscentral.com##.article-bio__bio
 windowscentral.com##.article-shop-bar
+windowscentral.com##.no-amazon
+windowscentral.com###the-art-of-diablo
+windowscentral.com###blizzard-battlenet-gift-card
 
 ! WINDOWS LATEST
 www.windowslatest.com##.footer-social-wrap
@@ -5438,6 +5509,13 @@ www.woodshopdirect.co.uk###product_customer_images_case
 ! XDA DEVELOPERS
 www.xda-developers.com##.xda_suggested_apps
 www.xda-developers.com##.w-social
+www.xda-developers.com###about-author-wrapper
+www.xda-developers.com###post-tags-wrapper
+www.xda-developers.com##.comments-block
+www.xda-developers.com###xda_alert_bar
+www.xda-developers.com##.sidebar
+www.xda-developers.com##.tagbar
+www.xda-developers.com##.xda_nanobox
 
 ! XDA FORUMS
 forum.xda-developers.com##.notice--primary
