@@ -9,6 +9,7 @@
 35.232.188.118
 ||7apple.net
 ||a-ads.com
+||aba.com
 ||acdcdn.com
 ||acertb.com
 ||adbull.me
@@ -34,6 +35,7 @@
 ||beop.io
 ||bibblio.org
 ||blockchain.info
+||blogginglass.com
 ||blueparrot.media
 ||bp.blogspot.com
 ||cadsecz.com
@@ -108,12 +110,14 @@
 ||forex-gold.net
 ||forextrading2.online
 ||fortifi.io
+||fortune.com
 ||gaut-hil.com
 ||get-express-vpn.com
 ||ggpht.com
 ||gigamic.com
 ||gigya.com
 ||go-ahead.com
+||go-vip.net
 ||googleusercontent.com
 ||gonczpsaceew.com
 ||goraps.com
@@ -141,6 +145,7 @@
 ||jistaumt.com
 ||kecmuhot.net
 ||kiemlua.com
+||kiiw.icu
 ||kiw.li
 ||kniferasatte.info
 ||knightlab.com
@@ -197,6 +202,7 @@
 ||popcash.net
 ||popmonetizer.net
 ||popnc.com
+||presspatron.com
 ||privacy-center.org
 ||privacy-mgmt.com
 ||privacymanager.io
@@ -251,6 +257,7 @@
 ||swogo.net
 ||tawk.to
 ||techrfour.com
+||techpedi.com
 ||tei.ai
 ||terdaycominqui.info
 ||termly.io
@@ -263,6 +270,7 @@
 ||tiktokcdn.com
 ||tinypass.com
 ||tm-awx.com
+||tmearn.com
 ||top4top.io
 ||top4top.net
 ||topdisplaynetwork.com
@@ -623,6 +631,7 @@ amazon.co.uk##*[cel_widget_id*="OctopusDotd"]
 amazon.co.uk###bottom
 amazon.co.uk##.brand-follow-tooltip-root
 amazon.co.uk##.sims-grid-card-deck
+amazon.co.uk##:xpath(//div[contains(@class, 's-result-item') and child::div[child::span[contains(@data-cel-widget, 'MAIN-RELATED_PRODUCTS')]]])
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -742,6 +751,12 @@ www.argos.co.uk##.wishlist-checkbox
 www.argos.co.uk##.productCare
 www.argos.co.uk##*[data-test*="hero-"]
 www.argos.co.uk##*[class*="HomepageComponentsstyles__"]
+
+! APK PURE
+apkpure.com##.right
+apkpure.com##.aegon-link
+apkpure.com##.footer-list
+apkpure.com##:xpath(//div[child::div[child::div[contains(text(), 'Similar to')]]])
 
 ! ARS TECHNICA
 arstechnica.com##.featured-video
@@ -1019,6 +1034,8 @@ bbc.*##:xpath(//div[child::figure[child::div[child::span[child::span[child::img[
 !bbc.*##.gs-c-promo
 bbc.*##.wr-c-regional-forecast-slice
 bbc.*##.ipagesTagGroup-title
+bbc.*##*[data-testid="test-overlay"]
+bbc.*##.app__domestic-disclaimer
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
@@ -1159,6 +1176,7 @@ boardgamegeek.com##gg-home-game-explorer-row-preorders
 boardgamegeek.com##gg-home-hot-reviews
 boardgamegeek.com##gg-home-hero
 boardgamegeek.com##.amazon_search_ad
+boardgamegeek.com##gg-livestream
 
 ! BOARD GAME PRICES
 boardgameprices.co.uk##.expandee.newsletter
@@ -1553,7 +1571,7 @@ duckduckgo.com##.header--text_promo
 duckduckgo.com##.logo-wrap--home
 duckduckgo.com##.result__sitelinks__scrolling-container
 duckduckgo.com##.js-sitelinks
-duckduckgo.com###zero_click_wrapper
+!duckduckgo.com###zero_click_wrapper
 
 ! DUSK
 dusk.com##.loading-mask
@@ -1582,6 +1600,9 @@ ebay.*##.srp-river-footer
 ebay.*##:xpath(//li[child::a[contains(@href, 'https://reward.ebay.co.uk/')]])
 ebay.*##:xpath(//li[contains(@class, 's-item') and child::a[contains(@href, '_trkparms=')]])
 ebay.*##:xpath(//li[contains(@class, 's-item') and descendant::div[contains(@class, 's-item__title-tag') and contains(text(), 'SPONSORED')]])
+ebay.*##.hl-multi-cta-banner
+ebay.*##.hl-banner
+ebay.*##.hl-loyalty
 
 ! EHOW
 www.ehow.*##.social-share-icons
@@ -1749,6 +1770,10 @@ www.familyhandyman.com##.project_plan_pdf
 www.familyhandyman.com###mobile-nav-banner
 www.familyhandyman.com##.ad-container-wrapper
 www.familyhandyman.com##.jw-aspect
+
+! THE FAMILY SURGERY
+thefamilysurgeryorpington.nhs.uk###emergency-popup-wrapper
+thefamilysurgeryorpington.nhs.uk###tickerwrap
 
 ! FANDOM
 fandom.com##.activity-module.rail-module
@@ -3225,10 +3250,12 @@ www.overclockers.com##.mh_magazine_custom_posts
 www.overclockers.com##.mh-sidebar
 
 ! OXFORD ONLINE PHARMACY
-www.oxfordonlinepharmacy.co.uk##.similarproducts
-www.oxfordonlinepharmacy.co.uk##.similar-products
-www.oxfordonlinepharmacy.co.uk##.usps
-www.oxfordonlinepharmacy.co.uk##.logos
+oxfordonlinepharmacy.co.uk##.similarproducts
+oxfordonlinepharmacy.co.uk##.similar-products
+oxfordonlinepharmacy.co.uk##.usps
+oxfordonlinepharmacy.co.uk##.logos
+oxfordonlinepharmacy.co.uk##:xpath(//div[child::h2[contains(text(), 'My Favourite Products')]])
+oxfordonlinepharmacy.co.uk##:xpath(//div[child::h2[contains(text(), 'My Favourite Products')]]) ~ *
 
 ! PARKERS GUIDE
 www.parkers.co.uk##.social-nav
@@ -3654,6 +3681,9 @@ reddit.com##listing-below-header
 reddit.com##listing-below-header ~ *
 reddit.com##.PostTopicPills
 reddit.com##.TopPosts
+reddit.com##.ShareCTA
+reddit.com##:xpath(//div[child::div[contains(@class, 'TopPosts')]])
+reddit.com##:xpath(//div[child::div[contains(@class, 'TopPosts')]]) ~ *
 
 ! REED
 www.reed.co.uk##.google-ad-leaderboard
@@ -4790,15 +4820,28 @@ www.timeanddate.com###ad300
 www.timeanddate.com##.footer__social
 
 ! TIMEOUT
-www.timeout.com##*[class*="_byLineDetails"]
-www.timeout.com##.newsletter_inline
-www.timeout.com##.recirc_post
-www.timeout.com##.newsletter_footer
-www.timeout.com##*[class*="_clearfix_"]
-www.timeout.com##*[class*="_adsContainer_"]
-www.timeout.com##.js-author
-www.timeout.com##.ad-mpu
-www.timeout.com##.v5-ad
+timeout.com##*[class*="_byLineDetails"]
+timeout.com##.newsletter_inline
+timeout.com##.recirc_post
+timeout.com##.newsletter_footer
+timeout.com##*[class*="_clearfix_"]
+timeout.com##*[class*="_adsContainer_"]
+timeout.com##.js-author
+timeout.com##.ad-mpu
+timeout.com##.v5-ad
+timeout.com##*[class*="_authorList"]
+timeout.com##*[class*="_profileHeadShotContainer"]
+timeout.com##*[class*="_inlineNewsletter"]
+timeout.com##*[class*="_donationsContainer"]
+timeout.com##aside[class*="_side_content"]
+timeout.com##aside[class*="_side_content"] ~ *
+timeout.com##*[data-component="nav-newsletter"]
+timeout.com##*[data-component="ecomm-widget-card"]
+timeout.com##*[data-component="follow-us"]
+timeout.com##*[data-component="recirc-list-inline"]
+timeout.com##*[id*="ad-oop"]
+timeout.com##*[id*="ad-inline"]
+timeout.com###content ~ *
 
 ! TKMAXX
 www.tkmaxx.com###tjx-newsletter
@@ -5670,21 +5713,22 @@ www.zoopla.co.uk##*[class*="StyledBookValuationCTA"]
 www.zoopla.co.uk##.ui-cookie-consent-no-scroll:style(overflow: auto !important;)
 
 ! ZOOPLUS
-www.zooplus.co.uk##.contentful-loaded
-www.zooplus.co.uk##.contentful-placeholder
-www.zooplus.co.uk##.reco-placeholder
-www.zooplus.co.uk##div[data-zta="similar-horizontal"]
-www.zooplus.co.uk##div[data-zta="similar-vertical"]
-www.zooplus.co.uk##div[data-zta="cross-horizontal"]
-www.zooplus.co.uk##div[data-zta="cross-vertical"]
-www.zooplus.co.uk##.footer__newsletter
-www.zooplus.co.uk##.footer__conditions
-www.zooplus.co.uk##.footer__features
-www.zooplus.co.uk###js-footer-shops
-www.zooplus.co.uk##.banner__box
-www.zooplus.co.uk##.product__reco
-www.zooplus.co.uk##.slider__container
-www.zooplus.co.uk##.js-spBox
+zooplus.co.uk##.contentful-loaded
+zooplus.co.uk##.contentful-placeholder
+zooplus.co.uk##.reco-placeholder
+zooplus.co.uk##div[data-zta="similar-horizontal"]
+zooplus.co.uk##div[data-zta="similar-vertical"]
+zooplus.co.uk##div[data-zta="cross-horizontal"]
+zooplus.co.uk##div[data-zta="cross-vertical"]
+zooplus.co.uk##.footer__newsletter
+zooplus.co.uk##.footer__conditions
+zooplus.co.uk##.footer__features
+zooplus.co.uk###js-footer-shops
+zooplus.co.uk##.banner__box
+zooplus.co.uk##.product__reco
+zooplus.co.uk##.slider__container
+zooplus.co.uk##.js-spBox
+zooplus.co.uk##*[data-zta="recoSlider"]
 
 ! 365 GAMES
 www.365games.co.uk##.takeover_links
