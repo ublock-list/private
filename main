@@ -289,6 +289,7 @@
 ||utytech.com
 ||viafoura.co
 ||viafoura.net
+||visualwebsiteoptimizer.com
 ||vlitag.com
 ||vnkevmoytft.com
 ||voltskegscurate.com
@@ -632,6 +633,7 @@ amazon.co.uk###bottom
 amazon.co.uk##.brand-follow-tooltip-root
 amazon.co.uk##.sims-grid-card-deck
 amazon.co.uk##:xpath(//div[contains(@class, 's-result-item') and child::div[child::span[contains(@data-cel-widget, 'MAIN-RELATED_PRODUCTS')]]])
+amazon.co.uk###storeDisclaimer_feature_div
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -1322,6 +1324,7 @@ citymapper.com##.cmi
 citymapper.com###gms-embed:style(margin-top: 2rem !important)
 citymapper.com##:xpath(//li[child::div[child::button[child::span[contains(text(), 'Login/Sign up')]]]])
 citymapper.com##:xpath(//div[child::a[starts-with(@href, '/android')]])
+citymapper.com##:xpath(//div[child::a[contains(@href, '/love')]])
 
 ! CLICK MECHANIC
 www.clickmechanic.com##.cookie-consent-notice-container
@@ -4628,13 +4631,15 @@ theregister.com##.newsletter_signup_unit
 theregister.com###boot
 theregister.com##.newsletter_and_social
 theregister.com##.promo_article
-forums.theregister.com###condor_1
-forums.theregister.com##.gtag_display.adun
 theregister.com###right-col
 theregister.com###story-bot-col
 theregister.com##.listinks
 theregister.com###article-wrapper:style(max-width: 100% !important;)
 theregister.com###hot
+theregister.com###tags
+theregister.com###tips_or_corrections
+forums.theregister.com###condor_1
+forums.theregister.com##.gtag_display.adun
 forums.theregister.com###story_rhs_ml_signup
 
 ! THE SPRUCE
@@ -4961,6 +4966,17 @@ www.tripadvisor.co.uk##.rail_content
 www.tripadvisor.co.uk##.ad_column_sticky
 www.tripadvisor.co.uk##.content_column:style(width: 100% !important;)
 www.tripadvisor.co.uk###lithium-root > div
+www.tripadvisor.co.uk##.sidebar
+www.tripadvisor.co.uk##.watchTopicButton
+www.tripadvisor.co.uk##.SHOW_TOPIC_SEARCH_containner
+www.tripadvisor.co.uk##.bottom
+www.tripadvisor.co.uk##.parentForumLink
+www.tripadvisor.co.uk##*[id*="taplc_mobile_show_topic_carousel_list_"]
+www.tripadvisor.co.uk##.ppr_priv_breadcrumb_mobile
+www.tripadvisor.co.uk###MAIN > .tabsBar
+www.tripadvisor.co.uk##.saves_bookmark
+www.tripadvisor.co.uk##.postContentHeaderRight
+www.tripadvisor.co.uk###BODYCON .balance:style(width: auto !important; float: none !important;)
 
 ! TRUST A TRADER
 www.trustatrader.com##.join
