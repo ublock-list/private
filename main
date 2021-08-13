@@ -1,4 +1,4 @@
-! Title: Cosmetic Site Improvements
+! Title: Paul's Cosmetic Site Improvements
 ! Expires: 4 days
 ! Description: I don't like how many sites look, so I "improve" them...
 !
@@ -303,7 +303,6 @@
 ||wknd.ai
 ||worldssl.com
 ||wsimg.com
-||www.madratesforall.com
 ||x40u1vj75ks9.com
 ||xadsmart.com
 ||xlgamen.com
@@ -1884,6 +1883,16 @@ fullfact.org###feedback-widget-js
 fullfact.org##.signup
 fullfact.org##.social-links
 
+! FUNIMATION
+www.funimation.com##.header-promo-ribbon-wrap
+www.funimation.com##.prem-promo-btn-container
+www.funimation.com##.premium__box
+www.funimation.com##.v-bottom-sheet
+www.funimation.com###video-details .evenSpacedColumns > div:nth-of-type(2)
+www.funimation.com##.home-subscription-banner
+www.funimation.com##*[data-module*="Hero"][data-module*="Spotlight"]
+www.funimation.com##*[data-module*="For Fans of"]
+
 ! FUTURE GAME RELEASES
 www.futuregamereleases.com###cookie-notice
 www.futuregamereleases.com##.ticker-wrapper
@@ -2104,29 +2113,6 @@ google.*###gb
 google.*###bottomads
 google.*###botstuff
 google.*##input[name="btnI"]
-google.*##:xpath(//div[child::div[child::div[child::div[child::h2[contains(text(), 'Local results')]]]]])
-google.*##:xpath(//div[child::div[child::div[child::span[child::h2[child::div]]]]])
-google.*##:xpath(//div[child::h2[contains(text(), 'Twitter results')]])
-google.*##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Popular on Twitter')]]]])
-google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'People also ask')]]]]]])
-google.*##:xpath(//div[child::div[child::h2[descendant::span[contains(text(), 'People also ask')]]]])
-google.*##:xpath(//div[child::div[child::g-section-with-header]])
-google.*##:xpath(//div[child::div[child::div[child::span[child::h2[descendant::span[contains(text(), 'Top stories')]]]]]])
-google.*##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Related searches')]]]])
-google.*##:xpath(//div[child::div[child::h2[descendant::span[contains(text(), 'Related searches')]]]])
-google.*##:xpath(//div[contains(@class, 'obcontainer') and descendant::div[contains(@class, 'heading') and contains(text(), 'Dictionary')]])
-google.*##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Dark theme is now available')]]]])
-google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'Featured snippet from the web')]]]]]])
-google.*##:xpath(//div[child::div[child::div[child::h3[child::span[contains(text(), 'People also ask')]]]]])
-google.*##:xpath(//div[child::div[child::div[child::div[child::title-with-lhs-icon[child::div[child::h3[contains(text(), 'Videos')]]]]]]])
-google.*##:xpath(//body/div/div[child::a[starts-with(@href, 'https://store.google.com')]])
-google.*##:xpath(//div[child::div[child::g-scrolling-carousel]])
-google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h3[child::span[contains(text(), 'Related searches')]]]]]]])
-google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Videos')]]]]]])
-google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Top stories')]]]]]])
-google.*##:xpath(//div[child::div[child::div[child::div[child::div[contains(text(), 'Featured recaps and highlights')]]]]])
-google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Featured events')]]]]]])
-google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::span[contains(text(), 'Olympic Games Tokyo 2020')]]]]]]]]]]]])
 google.*###taw
 google.*###extrares
 google.*###consent-bump
@@ -2139,6 +2125,30 @@ google.*##jsl > .noprint
 google.*##*[aria-modal="true"]
 google.*###rhs
 google.*##devsite-snackbar
+google.*##:xpath(//div[child::div[child::div[child::div[child::h2[contains(text(), 'Local results')]]]]])
+google.*##:xpath(//div[child::div[child::div[child::span[child::h2[child::div]]]]])
+google.*##:xpath(//div[child::h2[contains(text(), 'Twitter results')]])
+google.*##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Popular on Twitter')]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'People also ask')]]]]]])
+google.*##:xpath(//div[child::div[child::h2[descendant::span[contains(text(), 'People also ask')]]]])
+google.*##:xpath(//div[child::div[child::div[child::span[child::h2[descendant::span[contains(text(), 'Top stories')]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Related searches')]]]])
+google.*##:xpath(//div[child::div[child::h2[descendant::span[contains(text(), 'Related searches')]]]])
+google.*##:xpath(//div[contains(@class, 'obcontainer') and descendant::div[contains(@class, 'heading') and contains(text(), 'Dictionary')]])
+google.*##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Dark theme is now available')]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'Featured snippet from the web')]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::h3[child::span[contains(text(), 'People also ask')]]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::title-with-lhs-icon[child::div[child::h3[contains(text(), 'Videos')]]]]]]])
+google.*##:xpath(//body/div/div[child::a[starts-with(@href, 'https://store.google.com')]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h3[child::span[contains(text(), 'Related searches')]]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Videos')]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Top stories')]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[contains(text(), 'Featured recaps and highlights')]]]]])
+google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Featured events')]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::span[contains(text(), 'Olympic Games Tokyo 2020')]]]]]]]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::g-tray-header[child::div[child::div[contains(text(), 'Top sights in')]]]]]]]]]])
+google.*##:xpath(//div[child::div[child::g-scrolling-carousel]])
+google.*##:xpath(//div[child::g-section-with-header])
 
 ! GOV UK
 www.gov.uk##.govuk-clearfix.gem-c-cookie-banner
@@ -3841,6 +3851,9 @@ retail.santander.co.uk###auxcontentBar
 retail.santander.co.uk###alertsToolbox
 retail.santander.co.uk##:xpath(//h2[contains(text(), 'Credit cards')])
 retail.santander.co.uk##:xpath(//h2[contains(text(), 'Credit cards')]) ~ *
+
+! SASS
+sass-lang.com##.sl-c-alert--info
 
 ! SCAN
 www.scan.co.uk###cookiePolicyPopup
