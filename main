@@ -184,7 +184,6 @@
 ||mptgate.com
 ||nanorep.co
 ||nanorep.com
-||netdna-cdn.com
 ||nkyouvery.fun
 ||nocookie.net
 ||ntvsw.com
@@ -1095,6 +1094,13 @@ www.bloomberg.com##.paywall-inline-tout
 www.bloomberg.com##.current.transporter-item
 www.bloomberg.com##.navi-markets-bar
 
+! BLUEWATER SHOPPING CENTRE
+bluewater.co.uk###homepage-carousel
+bluewater.co.uk##.rg_Header--social
+bluewater.co.uk##.cp_Partners
+bluewater.co.uk##.fd_Section--signup
+bluewater.co.uk##:xpath(//section[child::div[child::div[child::h2[contains(text(), "You'll Like These Too")]]]])
+
 ! BMW
 www.bmw.co.uk##epaas-consent-drawer-shell
 www.bmw.co.uk##.smartbanner
@@ -1140,6 +1146,8 @@ boardgamearena.com###welcomebigprestige
 boardgamearena.com###overall-footer
 boardgamearena.com##:xpath(//div[contains(@class, 'row') and child::div[child::div[child::h3[contains(text(), 'Board Game Arena goodies!')]]]])
 boardgamearena.com##:xpath(//div[contains(@class, 'pagesection') and child::h3[contains(text(), 'My agenda')]])
+boardgamearena.com##:xpath(//div[contains(@class, 'post') and child::div[contains(@class, 'emblem')]])
+boardgamearena.com###welcome_first_row
 
 ! BOARD GAME GEEK
 boardgamegeek.com##gg-support-leaderboard-ad
@@ -1262,6 +1270,10 @@ dictionary.cambridge.org##.loginPopup
 dictionary.cambridge.org###loginPopup
 dictionary.cambridge.org##*[id*="rightcol"]
 dictionary.cambridge.org##.topslot-container ~ div > div:nth-child(2)
+dictionary.cambridge.org##:xpath(//div[child::div[@id="translations"]])
+dictionary.cambridge.org##:xpath(//div[child::a[contains(@href, '/shop/business-vocabulary/')]])
+dictionary.cambridge.org##:xpath(//div[child::h2[child::strong[contains(text(), 'Browse')]]])
+dictionary.cambridge.org##:xpath(//div[contains(text(), 'These examples are from corpora')])
 
 ! CAMBRIDGE MASK COMPANY
 cambridgemask.com###shopify-section-product-recommendations
@@ -1475,29 +1487,34 @@ www.denofgeek.com##.curated-posts
 www.denofgeek.com##.site-aside
 
 ! DICTIONARY.COM
-www.dictionary.com##.trending-words-word-block
-www.dictionary.com##:xpath(//div[child::div[child::div[contains(text(), 'Trending')]]])
-www.dictionary.com##:xpath(//div[child::p[child::b[contains(text(), 'SIGN UP FOR A VOCABULARY BOOST IN YOUR EMAIL')]]])
-www.dictionary.com##:xpath(//div[child::h4[contains(text(), 'DOWNLOAD OUR APPS')]])
-www.dictionary.com###marketingBanner-right-button
-www.dictionary.com###marketingBanner-right
-www.dictionary.com##.marketing-message
-www.dictionary.com##:xpath(//section[child::div[child::div[child::div[child::h2[contains(text(), 'ONLINE TUTORING HELP!')]]]]])
-www.dictionary.com##:xpath(//section[child::div[child::div[child::div[child::h2[contains(text(), 'LEARN ABOUT THE ENGLISH LANGUAGE')]]]]])
-www.dictionary.com##footer
-www.dictionary.com##.wotd-widget__ad
-www.dictionary.com##.otd-widget__form
-www.dictionary.com##*[class*="-AdContainer"]
-www.dictionary.com##*[class*="-SaveWordButtonContainer"]
-www.dictionary.com##*[class*="-RightMarketingSlot"]
-www.dictionary.com##*[class*="-SourceCitation"]
-www.dictionary.com##*[class*="-ExamplesAndEditorialWrapper"]
-www.dictionary.com##*[class*="-SupplementalEditorialContainer"]
-www.dictionary.com##nav[aria-label="Secondary Navigation"]
-www.dictionary.com##nav[aria-label="Site Navigation"] ul > li:nth-child(3)
-www.dictionary.com##nav[aria-label="Site Navigation"] ul > li:nth-child(4)
-www.dictionary.com##.serp-nav-button
-www.dictionary.com###quizzes
+dictionary.com##.trending-words-word-block
+dictionary.com##:xpath(//div[child::div[child::div[contains(text(), 'Trending')]]])
+dictionary.com##:xpath(//div[child::p[child::b[contains(text(), 'SIGN UP FOR A VOCABULARY BOOST IN YOUR EMAIL')]]])
+dictionary.com##:xpath(//div[child::h4[contains(text(), 'DOWNLOAD OUR APPS')]])
+dictionary.com###marketingBanner-right-button
+dictionary.com###marketingBanner-right
+dictionary.com##.marketing-message
+dictionary.com##:xpath(//section[child::div[child::div[child::div[child::h2[contains(text(), 'ONLINE TUTORING HELP!')]]]]])
+dictionary.com##:xpath(//section[child::div[child::div[child::div[child::h2[contains(text(), 'LEARN ABOUT THE ENGLISH LANGUAGE')]]]]])
+dictionary.com##footer
+dictionary.com##.wotd-widget__ad
+dictionary.com##.otd-widget__form
+dictionary.com##*[class*="-AdContainer"]
+dictionary.com##*[class*="-SaveWordButtonContainer"]
+dictionary.com##*[class*="-RightMarketingSlot"]
+dictionary.com##*[class*="-SourceCitation"]
+dictionary.com##*[class*="-ExamplesAndEditorialWrapper"]
+dictionary.com##*[class*="-SupplementalEditorialContainer"]
+dictionary.com##nav[aria-label="Secondary Navigation"]
+dictionary.com##nav[aria-label="Site Navigation"] ul > li:nth-child(3)
+dictionary.com##nav[aria-label="Site Navigation"] ul > li:nth-child(4)
+dictionary.com##.serp-nav-button
+dictionary.com###quizzes
+dictionary.com##aside
+dictionary.com##a[data-feedback-link="true"]
+dictionary.com###quiz
+dictionary.com##:xpath(//div[child::button[@aria-label="save word"]])
+dictionary.com##:xpath(//div[child::h2[contains(text(), 'Words nearby')]])
 
 ! DIGITAL OCEAN
 www.digitalocean.com##.featured-content-header
@@ -2663,6 +2680,7 @@ knowyourmeme.com##.related_memes
 knowyourmeme.com###global-message
 knowyourmeme.com###section_header_wrap > .c
 knowyourmeme.com###content > .right
+knowyourmeme.com###anyclip
 
 ! LANCASHIRE EVENING POST
 lep.co.uk##amp-analytics
@@ -2798,6 +2816,17 @@ www.machinemart.co.uk###Footer > .top
 www.machinemart.co.uk##.footerSocialIcons
 www.machinemart.co.uk##.cardsAccepted
 
+! MAKE USE OF
+www.makeuseof.com###secondary
+www.makeuseof.com##.sentinel-article-nextArticle
+www.makeuseof.com##.article-tags
+www.makeuseof.com##.article-tags ~ *
+www.makeuseof.com##.w-article-author-bio
+www.makeuseof.com##.w-article-related
+www.makeuseof.com##.author
+www.makeuseof.com##.related-single
+www.makeuseof.com##*[id*="dynamically-injected-refresh-ad-zone"]
+
 ! MANCHESTER EVENING NEWS
 www.manchestereveningnews.co.uk##.partner-mast-header
 www.manchestereveningnews.co.uk##.sharebar
@@ -2872,6 +2901,15 @@ meetup.com##:xpath(//div[child::div[child::div[child::div[child::h4[contains(tex
 meetup.com##:xpath(//div[child::div[child::div[child::span[contains(text(), 'Share:')]]]])
 meetup.com##.relatedEvents
 meetup.com##.seeAllMeetups
+
+! MERRIUM WEBSTER DICTIONARY
+www.merriam-webster.com##.right-rail
+www.merriam-webster.com##.learn_more
+www.merriam-webster.com##.more-from
+www.merriam-webster.com###subscribe-unabridged
+www.merriam-webster.com##.additional-content-area
+www.merriam-webster.com##.footer-mast
+www.merriam-webster.com##.save-to-list
 
 ! MET OFFICE
 www.metoffice.gov.uk##.breaking-news-block
@@ -3697,6 +3735,7 @@ reddit.com##.TopPosts
 reddit.com##.ShareCTA
 reddit.com##:xpath(//div[child::div[contains(@class, 'TopPosts')]])
 reddit.com##:xpath(//div[child::div[contains(@class, 'TopPosts')]]) ~ *
+reddit.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Powerup r/')]]]])
 
 ! REED
 www.reed.co.uk##.google-ad-leaderboard
@@ -4106,6 +4145,24 @@ store.steampowered.com##.home_page_gutter_giftcard
 store.steampowered.com##.cart_rightcol
 store.steampowered.com##.saleEventBannerMobile
 store.steampowered.com###recommended_block
+store.steampowered.com##.quadscreenshot_carousel
+store.steampowered.com##.home_cluster_ctn
+store.steampowered.com##.special_offers
+store.steampowered.com##.home_hardware_banner
+store.steampowered.com##.community_recommendations_by_steam_labs_ctn
+store.steampowered.com##.best_selling_vr_ctn
+store.steampowered.com##.big_buttons
+store.steampowered.com##.home_broadcast_scroll_target
+store.steampowered.com##.live_streams_ctn
+store.steampowered.com##.specials_under10_content
+store.steampowered.com##.marketingmessage_area
+store.steampowered.com###content_login
+store.steampowered.com##.header_installsteam_btn_content
+store.steampowered.com##.gutter_giftcard
+store.steampowered.com##.contenthub_dailydeal_container
+store.steampowered.com###contenthub_spotlight_ctn
+store.steampowered.com###specials_container
+store.steampowered.com##.mature_content_filtered
 
 ! STRIPE
 stripe.com##.CookieBanner
@@ -4469,6 +4526,16 @@ www.standard.co.uk##:xpath(//div[contains(@class, 'article') and descendant::a[c
 thefamilysurgeryorpington.nhs.uk###eConsultDefaultTarget
 thefamilysurgeryorpington.nhs.uk###cookiepolicy
 
+! THE FREE DICTIONARY
+www.thefreedictionary.com###sidebar
+www.thefreedictionary.com##.footer-block
+www.thefreedictionary.com##.footer-logo
+www.thefreedictionary.com##.footer-top
+www.thefreedictionary.com##.footer-bottom
+www.thefreedictionary.com###browsers
+www.thefreedictionary.com##aside
+www.thefreedictionary.com###headerBlock
+
 ! THE GUARDIAN
 www.theguardian.com##.site-message--android
 www.theguardian.com###contact-the-guardian
@@ -4770,36 +4837,41 @@ theverge.com##.m-privacy-consent,badfilter
 theverge.com##.c-byline__twitter-handle
 
 ! THESAURUS.COM
-www.thesaurus.com##.trending-words-word-block
-www.thesaurus.com##:xpath(//div[child::div[child::div[contains(text(), 'Trending')]]])
-www.thesaurus.com##:xpath(//div[child::p[child::b[contains(text(), 'SIGN UP FOR A VOCABULARY BOOST IN YOUR EMAIL')]]])
-www.thesaurus.com##:xpath(//div[child::h4[contains(text(), 'DOWNLOAD OUR APPS')]])
-www.thesaurus.com##:xpath(//div[child::h2[contains(text(), 'QUIZZES')]])
-www.thesaurus.com###marketingBanner-right-button
-www.thesaurus.com###marketingBanner-right
-www.thesaurus.com##.marketing-message
-www.thesaurus.com##:xpath(//section[child::div[child::div[child::div[child::h2[contains(text(), 'ONLINE TUTORING HELP!')]]]]])
-www.thesaurus.com##:xpath(//section[child::div[child::div[child::div[child::h2[contains(text(), 'LEARN ABOUT THE ENGLISH LANGUAGE')]]]]])
-www.thesaurus.com##:xpath(//section[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'Meet Grammar Coach')]]]]]])
-www.thesaurus.com##footer
-www.thesaurus.com##.wotd-widget__ad
-www.thesaurus.com##.otd-widget__form
-www.thesaurus.com##*[class*="-AdContainer"]
-www.thesaurus.com##*[class*="-SaveWordButtonContainer"]
-www.thesaurus.com##*[class*="-RightMarketingSlot"]
-www.thesaurus.com##*[class*="-SourceCitation"]
-www.thesaurus.com##*[class*="-ExamplesAndEditorialWrapper"]
-www.thesaurus.com##*[class*="-SupplementalEditorialContainer"]
-www.thesaurus.com##*[id*="thesaurus_serp"]
-www.thesaurus.com##*[id*="tcom_serp"]
-www.thesaurus.com##nav[aria-label="Secondary Navigation"]
-www.thesaurus.com##nav[aria-label="Site Navigation"] ul > li:nth-child(3)
-www.thesaurus.com##nav[aria-label="Site Navigation"] ul > li:nth-child(4)
-www.thesaurus.com##.serp-nav-button
-www.thesaurus.com###quizzes
-www.thesaurus.com###example-creator
-www.thesaurus.com###example-sentences
-www.thesaurus.com##*[data-pagination-container="true"] + *
+thesaurus.com##.trending-words-word-block
+thesaurus.com##:xpath(//div[child::div[child::div[contains(text(), 'Trending')]]])
+thesaurus.com##:xpath(//div[child::p[child::b[contains(text(), 'SIGN UP FOR A VOCABULARY BOOST IN YOUR EMAIL')]]])
+thesaurus.com##:xpath(//div[child::h4[contains(text(), 'DOWNLOAD OUR APPS')]])
+thesaurus.com##:xpath(//div[child::h2[contains(text(), 'QUIZZES')]])
+thesaurus.com###marketingBanner-right-button
+thesaurus.com###marketingBanner-right
+thesaurus.com##.marketing-message
+thesaurus.com##:xpath(//section[child::div[child::div[child::div[child::h2[contains(text(), 'ONLINE TUTORING HELP!')]]]]])
+thesaurus.com##:xpath(//section[child::div[child::div[child::div[child::h2[contains(text(), 'LEARN ABOUT THE ENGLISH LANGUAGE')]]]]])
+thesaurus.com##:xpath(//section[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'Meet Grammar Coach')]]]]]])
+thesaurus.com##footer
+thesaurus.com##.wotd-widget__ad
+thesaurus.com##.otd-widget__form
+thesaurus.com##*[class*="-AdContainer"]
+thesaurus.com##*[class*="-SaveWordButtonContainer"]
+thesaurus.com##*[class*="-RightMarketingSlot"]
+thesaurus.com##*[class*="-SourceCitation"]
+thesaurus.com##*[class*="-ExamplesAndEditorialWrapper"]
+thesaurus.com##*[class*="-SupplementalEditorialContainer"]
+thesaurus.com##*[id*="thesaurus_serp"]
+thesaurus.com##*[id*="tcom_serp"]
+thesaurus.com##nav[aria-label="Secondary Navigation"]
+thesaurus.com##nav[aria-label="Site Navigation"] ul > li:nth-child(3)
+thesaurus.com##nav[aria-label="Site Navigation"] ul > li:nth-child(4)
+thesaurus.com##.serp-nav-button
+thesaurus.com###quizzes
+thesaurus.com###example-creator
+thesaurus.com###example-sentences
+thesaurus.com##*[data-pagination-container="true"] + *
+thesaurus.com##:xpath(//a[child::button[@aria-label="save word"]])
+thesaurus.com##a[href*="https://dictionary.typeform.com/to/"]
+thesaurus.com###grammar-coach-ad
+thesaurus.com##*[data-testid="quiz-module"]
+thesaurus.com##*[data-testid="synonym-of-the-day"]
 
 ! THIS IS MONEY
 www.thisismoney.co.uk###smartBanner
@@ -5388,6 +5460,10 @@ www.whatcar.com##*[class*="FragmentGroupedLink"]
 www.whatcar.com##:xpath(//div[child::a[contains(@data-bi, 'latest-top-10-tag-link')]])
 www.whatcar.com##:xpath(//div[child::a[contains(@data-bi, 'latest-long-term-tests-tag-link')]])
 www.whatcar.com##:xpath(//div[child::a[contains(@data-bi, 'latest-new-car-group-tests-tag-link')]])
+www.whatcar.com##*[class*="GalleryImages_classGalleryImagesRight"]
+www.whatcar.com##*[class*="InfoRibbon_alert"]
+www.whatcar.com##*[class*="SideBarSticky_classSideBarStickyItem"]
+www.whatcar.com##:xpath(//div[child::div[child::header[child::h2[contains(text(), 'Best new car deals on What Car?')]]]])
 
 ! WHICH
 which.co.uk##.wm-share-block
@@ -5447,6 +5523,7 @@ www.wickes.co.uk##.socials
 www.wickes.co.uk##.back-to-top
 www.wickes.co.uk##.payments
 www.wickes.co.uk##.similar-products-v2
+www.wickes.co.uk##.charity
 
 ! WIKI HOW
 www.wikihow.com###contribute_footer_wrap
