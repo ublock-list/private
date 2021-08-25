@@ -349,6 +349,19 @@
 9to5mac.com###h-read-also
 9to5mac.com###h-read-also ~ *
 
+! ALL LANGUAGE RESOURCES
+www.alllanguageresources.com##.top-line
+www.alllanguageresources.com##.allla-header-leaderboard
+www.alllanguageresources.com##.allla-sticky
+www.alllanguageresources.com##.socials
+www.alllanguageresources.com##.post-tags-list
+www.alllanguageresources.com##.post-author-block
+www.alllanguageresources.com##.post-related-posts
+www.alllanguageresources.com##.sidebar
+www.alllanguageresources.com##.footer-widget-area
+www.alllanguageresources.com##.scroll-top-button
+www.alllanguageresources.com##.post-meta-author
+
 ! ALTERNATIVE TO
 alternativeto.net##.share-buttons
 
@@ -894,6 +907,7 @@ autotrader.co.uk##.grecaptcha-badge
 autotrader.co.uk##.home-page__header:style(min-height: 300px !important)
 autotrader.co.uk##.atds-ev-giveaway-banner-wrapper
 autotrader.co.uk###js-takeover-creative
+autotrader.co.uk###back-to-top-button
 
 ! AV FORUMS
 www.avforums.com##.p-body-sidebar
@@ -1036,6 +1050,8 @@ bbc.*##.wr-c-regional-forecast-slice
 bbc.*##.ipagesTagGroup-title
 bbc.*##*[data-testid="test-overlay"]
 bbc.*##.app__domestic-disclaimer
+bbc.*##.secondary-promo__container
+bbc.*##.primary-promo__container
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
@@ -1081,6 +1097,16 @@ www.bbcgoodfood.com##:xpath(//h3[contains(text(), 'Goes well with')]) ~ *
 bbcgoodfood.com##:xpath(//div[contains(@class, 'elementor-element') and child::div[child::div[child::div[child::div[child::h2[child::a[contains(text(), 'BBC Good Food Podcast')]]]]]]])
 bbcgoodfood.com##:xpath(//div[contains(@class, 'elementor-element') and child::div[child::div[child::div[child::div[child::h2[contains(text(), 'Latest offers and promotions')]]]]]])
 bbcgoodfood.com##:xpath(//section[contains(@class, 'elementor-section') and child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'More from the brand')]]]]]]]]]]]])
+
+! BIT TECH
+www.bit-tech.net##.author
+www.bit-tech.net##.companies
+www.bit-tech.net###comments_container
+www.bit-tech.net###theMediaTeamLogo
+www.bit-tech.net##.tags
+www.bit-tech.net###related_articles_container
+www.bit-tech.net##.settings-box-element
+www.bit-tech.net##.top_list
 
 ! BLOOMBERG
 www.bloomberg.com###newsletter-modal
@@ -1373,6 +1399,9 @@ www.cnet.com##.c-reviewCard a
 www.cnet.com##.related-links
 www.cnet.com##iframe[src*="https://playlist.megaphone.fm"]
 www.cnet.com##.leadButton
+www.cnet.com##.instagramContainer
+www.cnet.com###article-body > .col-4
+www.cnet.com##.c-footer_site
 
 ! COMPUTER WORLD
 www.computerworld.com##.right-rail
@@ -1562,6 +1591,9 @@ www.dropbox.com##.persistent-footer-container
 www.dropbox.com##.mc-button-primary.mc-button.open-in-app-button.control__button
 www.dropbox.com##.RebrandHero-drawer--init.RebrandHero-drawer--pisces-rebrand.RebrandHero-drawer
 
+! DRUGS.COM
+www.drugs.com##*[id*="display-ad-injection"]
+
 ! DUCKDUCKGO
 duckduckgo.com##.header-wrap--home
 duckduckgo.com##.tag-home
@@ -1591,6 +1623,8 @@ duckduckgo.com##.logo-wrap--home
 duckduckgo.com##.result__sitelinks__scrolling-container
 duckduckgo.com##.js-sitelinks
 !duckduckgo.com###zero_click_wrapper
+duckduckgo.com##.about-profiles
+duckduckgo.com##.zci--dictionary_definition
 
 ! DUSK
 dusk.com##.loading-mask
@@ -1741,6 +1775,10 @@ www.expertreviews.co.uk###block-expertreviews-category-hub-related-categories
 
 ! EXPRESS JS
 expressjs.com###blm-banner
+
+! EXPRESS TEST
+www.expresstest.co.uk##.trustpilot-widget
+www.expresstest.co.uk##.cookie
 
 ! EXTREME TECH
 www.extremetech.com###share_container
@@ -2000,6 +2038,10 @@ www.gamesradar.com###section-more-board-game-recommendations
 www.gamesradar.com###section-more-board-game-recommendations ~ *
 www.gamesradar.com##.fancy-box
 www.gamesradar.com##:xpath(//ul[child::li[child::a[contains(@href, 'https://target.georiot.com')]]])
+www.gamesradar.com##.topbutton
+www.gamesradar.com##.by-author
+www.gamesradar.com##.jwplayer__widthsetter
+www.gamesradar.com##.supernav
 
 ! GAME RANT
 gamerant.com##.tldr-btn-category
@@ -2166,6 +2208,7 @@ google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[ch
 google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::g-tray-header[child::div[child::div[contains(text(), 'Top sights in')]]]]]]]]]])
 google.*##:xpath(//div[child::div[child::g-scrolling-carousel]])
 google.*##:xpath(//div[child::g-section-with-header])
+google.*##:xpath(//div[child::h1[child::div[contains(text(), 'Suggested search terms')]]])
 
 ! GOV UK
 www.gov.uk##.govuk-clearfix.gem-c-cookie-banner
@@ -2340,6 +2383,9 @@ huel.com###mmModalReferrerStage1
 huel.com###geolocation-app
 huel.com##.header-geolocation-bar
 huel.com###shopify-section-cookie-banner
+discuss.huel.com##.signup-cta
+discuss.huel.com###banner
+discuss.huel.com##.header-buttons
 
 ! HUFFINGTON POST
 www.huffpost.com##.social-buttons
@@ -2522,6 +2568,11 @@ imdb.com##.more-to-watch
 imdb.com##section[data-testid="main-column-editorial-single"]
 imdb.com##:xpath(//div[child::h3[contains(text(), 'Related Polls')]])
 imdb.com##.imdb-footer__links > div:nth-child(2)
+imdb.com##.ipc-icon-button
+imdb.com##*[class*="VideoInfostyles__RelationAndBuyBoxWrapper"] > a
+imdb.com##:xpath(//section[child::hgroup[child::h3[contains(text(), 'Related Videos')]]])
+imdb.com##:xpath(//section[child::hgroup[child::h3[contains(text(), 'Featured Videos')]]])
+imdb.com##.imdb-footer__links
 
 ! IMGUR
 imgur.com##.EmeraldBanner
@@ -2552,6 +2603,8 @@ m.imgur.com##.ShareButtons-getApp
 m.imgur.com#@#.share
 @@||m.imgur.com/js/share.*.bundle.js
 m.imgur.com#@#.ShareButtons
+m.imgur.com##.cta-image
+m.imgur.com##.cta-close
 
 ! IMORE
 www.imore.com##.adunit-wrap
@@ -2681,6 +2734,7 @@ knowyourmeme.com###global-message
 knowyourmeme.com###section_header_wrap > .c
 knowyourmeme.com###content > .right
 knowyourmeme.com###anyclip
+knowyourmeme.com##.ac-widget-placeholder
 
 ! LANCASHIRE EVENING POST
 lep.co.uk##amp-analytics
@@ -2716,6 +2770,19 @@ languagedrops.com##.play-popup-shown
 languagedrops.com##.conversion-banner
 languagedrops.com##.topic-page-footer-container
 languagedrops.com##.topic-page-title-box
+
+! LAPTOP MAG
+www.laptopmag.com##.region_redirect_popup
+www.laptopmag.com##.nav-subscribe
+www.laptopmag.com##.trending-wrapper
+www.laptopmag.com##.affiliateDisclaimerBar
+www.laptopmag.com##.socialite-widget
+www.laptopmag.com##.by-author
+www.laptopmag.com##.van_vid_carousel
+www.laptopmag.com##aside
+www.laptopmag.com##.read-more-container
+www.laptopmag.com###taboola-mobile-below-article-thumbnails
+www.laptopmag.com##.related-articles-block
 
 ! LBC NEWS
 www.lbc.co.uk##.header__user-status
@@ -2842,6 +2909,17 @@ www.manchestereveningnews.co.uk##.tag-list
 www.manchestereveningnews.co.uk##.publication-theme
 www.manchestereveningnews.co.uk##.top-stories
 www.manchestereveningnews.co.uk##.social-links
+
+! MANO MANO
+www.manomano.co.uk###overlay
+www.manomano.co.uk##*[class*="PaymentInformations_paymentIconsContainer"]
+www.manomano.co.uk##*[class*="PaymentInformations_securePaymentContainer"]
+www.manomano.co.uk##*[class*="recommendation_container"]
+www.manomano.co.uk##*[class*="addToCart_"]
+www.manomano.co.uk##*[class*="ProductContainer_freeDeliveryInfos"]
+www.manomano.co.uk##*[class*="styles_socialMedia"]
+www.manomano.co.uk###label-newsletter
+www.manomano.co.uk##*[class*="styles_trustSection"]
 
 ! MARKS AND SPENCER
 www.marksandspencer.com##.navigation-sitestripe
@@ -3042,6 +3120,15 @@ www.mumsnet.com##.navbar-fixed-bottom.navbar-default.navbar
 www.mumsnet.com##.desktop-thread-video
 www.mumsnet.com##.header-leaderboard-container
 www.mumsnet.com##.talk-layout__sidebar
+www.mumsnet.com###ad-leaderboard
+www.mumsnet.com###subscribe_footer
+www.mumsnet.com##.footer-primary__social
+www.mumsnet.com##.footer-primary__mobile-app
+www.mumsnet.com##.footer-primary
+www.mumsnet.com##.premium-header-btn
+www.mumsnet.com##.bookmark-label
+www.mumsnet.com##.message-options
+www.mumsnet.com##.filter-posts-spacing
 
 ! MUSIC JOBS
 www.music-jobs.com##.leaderboard
@@ -3154,9 +3241,14 @@ www.newsshopper.co.uk##.most-popular-block
 www.nhs.uk###nhsuk-cookie-banner
 www.nhs.uk###app-global-alert
 www.england.nhs.uk##.alert-banner-container
+www.hra.nhs.uk###cookie-banner
+www.hra.nhs.uk##.notification
 
 ! NINTENDO
 www.nintendo.co.uk##.plo-overlay
+www.nintendo.co.uk##.plo-mns-price-box
+www.nintendo.co.uk###VA_SolrItemSideGamepage2
+www.nintendo.co.uk##.gamedisclaimer-box
 
 ! NINTENDO LIFE
 www.nintendolife.com##.share-this
@@ -3223,6 +3315,13 @@ www.oneplus.com##.payments-container
 www.oneplus.com##.extra-services
 www.oneplus.com##.section-more-images
 www.oneplus.com###live-chat-common
+www.oneplus.com##.cookie-warn-container
+www.oneplus.com##.banner-container
+www.oneplus.com##.social-media
+www.oneplus.com##.rectangle-ads-box
+forums.oneplus.com##.app-recommand-layer
+forums.oneplus.com##.sidebar
+forums.oneplus.com##.social-media-list
 
 ! ORBI
 192.168.1.1##.card-orbi-app
@@ -3404,6 +3503,7 @@ pcgamesn.com##.game_list
 pcgamesn.com##body:style(padding-top: 0 !important;)
 pcgamesn.com##body > header:style(top: 0 !important;)
 pcgamesn.com##.legion_primiswrapper
+pcgamesn.com##.ad-wrapper
 
 ! PCLOUD
 blog.pcloud.com##.gdpr-privacy-bar
@@ -3465,6 +3565,7 @@ www.pcworld.com##.home-hero
 www.pcworld.com##.digitalMagPromo
 www.pcworld.com###side
 www.pcworld.com##.addLink
+www.pcworld.com##.cat-narrow
 
 ! PETS 4 HOMES
 www.pets4homes.co.uk##.rescue-campaign
@@ -4088,6 +4189,12 @@ www.smallnetbuilder.com##.cadre_alert_cookies
 www.smashingmagazine.com##.c-promo-box
 www.smashingmagazine.com##.feature-panel-container
 
+! SONOS
+en.community.sonos.com##.cookiebar
+en.community.sonos.com##.custom-sidebar
+en.community.sonos.com##.logo-insided
+en.community.sonos.com##.social
+
 ! SOUTH EASTERN RAILWAY
 www.southeasternrailway.co.uk##.smartbanner-android.smartbanner
 
@@ -4245,18 +4352,22 @@ m.tapas.io##.viewer-section--comment.viewer-section
 m.tapas.io##.detail-row--last.detail-row
 
 ! TAPI CARPETS
-www.tapi.co.uk##.section-banners
-www.tapi.co.uk##.tapi-sticky-footer
-www.tapi.co.uk###pdp_ifc_calculator
-www.tapi.co.uk##:xpath(//div[child::h3[contains(text(), 'Help & Advice')]])
-www.tapi.co.uk##:xpath(//div[child::h3[contains(text(), 'You may also like')]])
-www.tapi.co.uk##:xpath(//div[child::h3[contains(text(), 'Accessories')]])
-www.tapi.co.uk##:xpath(//div[child::h3[contains(text(), 'Our Picks')]])
-www.tapi.co.uk##:xpath(//div[child::div[contains(text(), 'Sign up for our newsletter')]])
-www.tapi.co.uk##.v2-benefits-boxes
-www.tapi.co.uk##.tapi-top-banner
-www.tapi.co.uk##.desktop-quick-links
-www.tapi.co.uk##.product-icons
+tapi.co.uk##.section-banners
+tapi.co.uk##.tapi-sticky-footer
+tapi.co.uk###pdp_ifc_calculator
+tapi.co.uk##:xpath(//div[child::h3[contains(text(), 'Help & Advice')]])
+tapi.co.uk##:xpath(//div[child::h3[contains(text(), 'You may also like')]])
+tapi.co.uk##:xpath(//div[child::h3[contains(text(), 'Accessories')]])
+tapi.co.uk##:xpath(//div[child::h3[contains(text(), 'Our Picks')]])
+tapi.co.uk##:xpath(//div[child::div[contains(text(), 'Sign up for our newsletter')]])
+tapi.co.uk##.v2-benefits-boxes
+tapi.co.uk##.tapi-top-banner
+tapi.co.uk##.desktop-quick-links
+tapi.co.uk##.product-icons
+tapi.co.uk##.missions-wrapper
+tapi.co.uk##.store-boxes
+tapi.co.uk##.brands
+tapi.co.uk##.store-offers
 
 ! TECH ADVISOR
 techadvisor.co.uk##*[id*="affiliate-table-container"]
@@ -4323,6 +4434,7 @@ techradar.com##.star-deal
 techradar.com##:xpath(//p[child::strong[contains(text(), 'Follow')] and child::a[contains(@href, 'https://twitter.com/')]])
 techradar.com##.top-featured
 techradar.com##aside
+techradar.com##.list-text-links-trending-panel
 
 ! TECH REPUBLIC
 techrepublic.com##.btn-premium
@@ -4426,6 +4538,7 @@ www.express.co.uk##[href="https://www.express-casino.com/"]
 www.express.co.uk##.download-app
 www.express.co.uk###taboola-ad
 www.express.co.uk###taboola-below-article-thumbnails-express
+www.express.co.uk###social_buttons
 
 ! THE DAILY MAIL
 dailymail.co.uk##.related-with-thumbs.more
@@ -4484,6 +4597,10 @@ dailymail.co.uk##video:style(width: 100% !important; height: auto !important)
 dailymail.co.uk##.alpha:style(width: auto !important; margin-right: 0 !important; float: none !important;)
 dailymail.co.uk##.column-splitter .column-split:style(width: 49% !important;)
 dailymail.co.uk##.column-splitter .first-column:style(width: 49% !important; margin-right: 2% !important;)
+dailymail.co.uk##amp-iframe
+dailymail.co.uk##.more
+dailymail.co.uk##.menu-more-stories
+dailymail.co.uk##.author
 
 ! THE DAILY STAR
 www.dailystar.co.uk##.factbox
@@ -4568,6 +4685,14 @@ www.theguardian.com##.dumathoin--paidfor
 www.theguardian.com##.treats__container
 www.theguardian.com###comments
 
+! THE HILL
+thehill.com##.article-meta
+thehill.com##.share-box
+thehill.com##*[id*="dfp-ad-mos_"]
+thehill.com##.load-comments-disqus
+thehill.com##.block-mostpopular
+thehill.com##.social-list
+
 ! THE INDEPENDENT
 independent.co.uk##.show-in-storybook.access-container
 independent.co.uk##.social-share
@@ -4589,6 +4714,7 @@ independent.co.uk###indy-top-container-wrapper
 independent.co.uk##:xpath(//div[child::div[child::a[contains(@href, '/author/')]]])
 independent.co.uk##:xpath(//div[child::amp-twitter])
 independent.co.uk##*[id*="playinc-article-component"]
+independent.co.uk##.grecaptcha-badge
 
 ! THE METRO
 metro.co.uk###we-need-monies
@@ -4835,6 +4961,9 @@ theverge.com##.c-call-to-action-button
 theverge.com###privacy-consent,badfilter
 theverge.com##.m-privacy-consent,badfilter
 theverge.com##.c-byline__twitter-handle
+theverge.com##.c-footer__section-logo
+theverge.com##.c-footer__section-vox
+theverge.com##*[id*="volume-placement-"]
 
 ! THESAURUS.COM
 thesaurus.com##.trending-words-word-block
@@ -4986,27 +5115,29 @@ www.tomsguide.com##.author-block
 www.tomsguide.com##aside
 
 ! TOM'S HARDWARE
-www.tomshardware.com##.region_redirect_popup
-www.tomshardware.com###affiliateDisclaimer
-www.tomshardware.com##.masthead-item.buttons-social
-www.tomshardware.com##.newsletter-signup.box
-www.tomshardware.com##.trending-wrapper
-www.tomshardware.com##.hawk-processed
-www.tomshardware.com##.future__jwplayer--carousel
-www.tomshardware.com##.read-more-container
-www.tomshardware.com##.less-space.box.socialite-widget
-www.tomshardware.com##.related-articles-block
-www.tomshardware.com###popularcontent
-www.tomshardware.com##.jwplayer__widthsetter
-www.tomshardware.com##.xenforo-comments-see-all
-www.tomshardware.com##.after-article-tags
-www.tomshardware.com###taboola-below-article-thumbnails
-www.tomshardware.com##.xenforo-comment-widget
-www.tomshardware.com###taboola-mobile-below-article-thumbnails
-www.tomshardware.com##.affiliateDisclaimerBar
-www.tomshardware.com##.by-author
+tomshardware.com##.region_redirect_popup
+tomshardware.com###affiliateDisclaimer
+tomshardware.com##.masthead-item.buttons-social
+tomshardware.com##.newsletter-signup.box
+tomshardware.com##.trending-wrapper
+tomshardware.com##.hawk-processed
+tomshardware.com##.future__jwplayer--carousel
+tomshardware.com##.read-more-container
+tomshardware.com##.less-space.box.socialite-widget
+tomshardware.com##.related-articles-block
+tomshardware.com###popularcontent
+tomshardware.com##.jwplayer__widthsetter
+tomshardware.com##.xenforo-comments-see-all
+tomshardware.com##.after-article-tags
+tomshardware.com###taboola-below-article-thumbnails
+tomshardware.com##.xenforo-comment-widget
+tomshardware.com###taboola-mobile-below-article-thumbnails
+tomshardware.com##.affiliateDisclaimerBar
+tomshardware.com##.by-author
 tomshardware.com##.author-block
 tomshardware.com##:xpath(//p[child::strong[contains(text(), 'MORE')]])
+tomshardware.com##.popular-box
+tomshardware.com##.articletable__skip
 
 ! TOOLSTATION
 www.toolstation.com##.ts-usp-bar
@@ -5062,6 +5193,7 @@ www.tripadvisor.co.uk###MAIN > .tabsBar
 www.tripadvisor.co.uk##.saves_bookmark
 www.tripadvisor.co.uk##.postContentHeaderRight
 www.tripadvisor.co.uk###BODYCON .balance:style(width: auto !important; float: none !important;)
+www.tripadvisor.co.uk##*[id*="taplc_hr_xsell_web_component_"]
 
 ! TRUST A TRADER
 www.trustatrader.com##.join
@@ -5294,6 +5426,19 @@ www.very.co.uk###bnplBanner-new
 www.very.co.uk##.ve-on-very-main-cell
 www.very.co.uk##.InsideTrack
 
+! VERY WELL HEALTH
+www.verywellhealth.com##.related-link
+www.verywellhealth.com##.sc-ads
+www.verywellhealth.com##.article-feedback
+www.verywellhealth.com##.sources
+www.verywellhealth.com##.related-article-list
+www.verywellhealth.com##.mntl-dotdash-universal-nav
+www.verywellhealth.com##.global-nav
+www.verywellhealth.com##.certified-badges
+www.verywellhealth.com##.footer-logo
+www.verywellhealth.com##*[id*="mntl-leaderboard-spacer_"]
+www.verywellhealth.com##.article-byline
+
 ! VIVASTREET
 www.vivastreet.co.uk##.vs-disclaimer-wrapper
 
@@ -5413,10 +5558,21 @@ wccftech.com##.aside-deals
 wccftech.com###sidebar-youtube-home
 wccftech.com##.footer-ad
 wccftech.com##.featured-home
+wccftech.com##[href*="/author/"]
+wccftech.com##.topics
 
 ! WEB MD
 webmd.com##.global-nav-subscribe
 webmd.com##.pd-and-cfm-drivers
+webmd.com##.global-nav__reg-links
+webmd.com##aside
+webmd.com##.webmd-special-section
+webmd.com##.view-ref-container
+webmd.com##.navigate-tabs ~ *
+webmd.com##.module-f-idc
+webmd.com##.global-nav__upper-links
+webmd.com##.global-nav__reg-links
+webmd.com##.top-level-nav
 
 ! WEBTOONS
 www.webtoons.com##.on._gdprCookieBanner.gdpr_ly_cookie
@@ -5641,6 +5797,11 @@ www.wired.*##:xpath(//div[child::div[child::div[child::strong[contains(text(), '
 www.wired.*##:xpath(//div[child::div[child::strong[contains(text(), 'More great stories from WIRED')]]])
 www.wired.*##:xpath(//div[child::div[child::div[child::h3[contains(text(), 'More From WIRED')]]]])
 www.wired.*##.homepage__related-row
+www.wired.*##.site-footer__logo
+www.wired.*##*[class*="SiteFooterAbout"]
+www.wired.*##.ticker-view
+www.wired.*##.ad-stickyhero
+www.wired.*##.grid--item.disclaimer
 
 ! WOODSHOP DIRECT
 www.woodshopdirect.co.uk##.targeted-message
@@ -5675,6 +5836,10 @@ forum.xda-developers.com##.p-navgroup-link--whatsnew
 forum.xda-developers.com##.block--similarContents
 forum.xda-developers.com##.p-breadcrumb--bottom
 forum.xda-developers.com###footer div.block:nth-of-type(4)
+forum.xda-developers.com###xdadevelopers_leaderboard_atf
+forum.xda-developers.com###livestream-div
+forum.xda-developers.com###xdadevelopers_leaderboard_btf
+forum.xda-developers.com##.shareButtons
 
 ! YAHOO! (yeah, not using this EVER)
 consent.yahoo.com##.consent-overlay
@@ -5817,6 +5982,8 @@ zdnet.com###secondary
 www.zoopla.co.uk###ui-cookie-consent-overlay-wrap
 www.zoopla.co.uk##*[class*="StyledBookValuationCTA"]
 www.zoopla.co.uk##.ui-cookie-consent-no-scroll:style(overflow: auto !important;)
+www.zoopla.co.uk##.hp-card__cta
+www.zoopla.co.uk##.hp-card__save
 
 ! ZOOPLUS
 zooplus.co.uk##.contentful-loaded
