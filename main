@@ -2856,6 +2856,25 @@ linustechtips.com##.lmgComment_footer
 linustechtips.com##.awards-block
 linustechtips.com##.cGuestTeaser
 
+! LIVE STRONG
+www.livestrong.com##.component-article-jwplayer-wrapper
+www.livestrong.com##.right-rail
+www.livestrong.com##.is-first.article.component-configurable-article > .article-wrapper > .inner > .component-article-header > .component-article-byline > .writer-info
+www.livestrong.com##.infinite-scroll-article-wrapper ~ *
+www.livestrong.com##.component-health-disclaimer
+www.livestrong.com##.homepage-expert-section
+www.livestrong.com##.component-myplate-calorie-tracker
+www.livestrong.com##:xpath(//div[child::div[child::div[@class="component-instagram-grid"]]])
+www.livestrong.com##:xpath(//div[child::div[child::div[@class="component-homepage-spotlight"]]])
+www.livestrong.com##.component-subscriber-manager
+www.livestrong.com##.component-hero-carousel
+www.livestrong.com##.leaf_logo
+www.livestrong.com##.component-article-section-custom-module
+www.livestrong.com##.component-table-of-contents
+www.livestrong.com##.component-article-series
+www.livestrong.com##.fact-checked-link
+www.livestrong.com##.image__visit-page
+
 ! MAC WORLD
 www.macworld.co.uk##.article-author-box
 www.macworld.co.uk##.author
