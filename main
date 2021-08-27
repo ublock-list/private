@@ -2184,6 +2184,7 @@ www.goodreads.com###friendReviews
 www.goodreads.com###readersAlsoEnjoyed
 
 ! GOOGLE
+google.*###consent-bump
 google.*##html:style(overflow-y: auto !important;)
 google.*##div[jsowner]
 google.*##form[role="search"] > div:nth-child(2) > div:first-child > div[jsaction]
@@ -2201,11 +2202,11 @@ google.*###rhsline
 google.*###prm-pt
 google.*###gb
 google.*###bottomads
-google.*###botstuff
+google.*###topstuff
+!google.*###botstuff
 google.*##input[name="btnI"]
 google.*###taw
 google.*###extrares
-google.*###consent-bump
 google.*##scrolling-carousel
 google.*##footer > div:nth-child(2)
 google.*###taw
@@ -2215,33 +2216,43 @@ google.*##jsl > .noprint
 google.*##*[aria-modal="true"]
 google.*###rhs
 google.*##devsite-snackbar
-google.*##:xpath(//div[child::div[child::div[child::div[child::h2[contains(text(), 'Local results')]]]]])
 google.*##:xpath(//div[child::div[child::div[child::span[child::h2[child::div]]]]])
-google.*##:xpath(//div[child::h2[contains(text(), 'Twitter results')]])
-google.*##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Popular on Twitter')]]]])
-google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'People also ask')]]]]]])
-google.*##:xpath(//div[child::div[child::h2[descendant::span[contains(text(), 'People also ask')]]]])
-google.*##:xpath(//div[child::div[child::div[child::span[child::h2[descendant::span[contains(text(), 'Top stories')]]]]]])
-google.*##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Related searches')]]]])
-google.*##:xpath(//div[child::div[child::h2[descendant::span[contains(text(), 'Related searches')]]]])
+google.*##:xpath(//div[child::g-section-with-header])
+google.*##:xpath(//div[child::g-scrolling-carousel])
+google.*##:xpath(//div[child::div[child::div[child::div[child::h2[text()='Local results']]]]])
+google.*##:xpath(//div[child::h2[text()='Twitter results']])
+google.*##:xpath(//div[child::div[child::div[child::div[text()='Popular on Twitter']]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h2[text()='People also ask']]]]]])
+google.*##:xpath(//div[child::div[child::h2[descendant::span[text()='People also ask']]]])
+google.*##:xpath(//div[child::div[child::div[child::span[child::h2[descendant::span[text()='Top stories']]]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[text()='Related searches']]]])
+google.*##:xpath(//div[child::div[child::h2[descendant::span[text()='Related searches']]]])
 google.*##:xpath(//div[contains(@class, 'obcontainer') and descendant::div[contains(@class, 'heading') and contains(text(), 'Dictionary')]])
+google.*##:xpath(//div[contains(@class, 'obcontainer') and descendant::div[contains(@role, 'heading') and contains(text(), 'Dictionary')]])
 google.*##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Dark theme is now available')]]]])
-google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'Featured snippet from the web')]]]]]])
-google.*##:xpath(//div[child::div[child::div[child::h3[child::span[contains(text(), 'People also ask')]]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h2[text()='Featured snippet from the web']]]]]])
+google.*##:xpath(//div[child::div[child::div[child::h3[child::span[text()='People also ask']]]]])
 google.*##:xpath(//div[child::div[child::div[child::div[child::title-with-lhs-icon[child::div[child::h3[contains(text(), 'Videos')]]]]]]])
 google.*##:xpath(//body/div/div[child::a[starts-with(@href, 'https://store.google.com')]])
-google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h3[child::span[contains(text(), 'Related searches')]]]]]]])
-google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Videos')]]]]]])
-google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Top stories')]]]]]])
-google.*##:xpath(//div[child::div[child::div[child::div[child::div[contains(text(), 'Featured recaps and highlights')]]]]])
-google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Featured events')]]]]]])
-google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::span[contains(text(), 'Olympic Games Tokyo 2020')]]]]]]]]]]]])
-google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::g-tray-header[child::div[child::div[contains(text(), 'Top sights in')]]]]]]]]]])
-google.*##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'From sources across the web')]]]])
-google.*##:xpath(//div[child::div[child::div[child::g-tray-header[child::div[child::div[contains(text(), 'More specific searches')]]]]]])
-google.*##:xpath(//div[child::div[child::g-scrolling-carousel]])
-google.*##:xpath(//div[child::g-section-with-header])
-google.*##:xpath(//div[child::h1[child::div[contains(text(), 'Suggested search terms')]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h3[child::span[text()='Related searches']]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[text()='Videos']]]]]])
+google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[text()='Top stories']]]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[text()='Featured recaps and highlights']]]]])
+google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[text()='Featured events']]]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::span[text()='Olympic Games Tokyo 2020']]]]]]]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::g-tray-header[child::div[child::div[text()='Top sights in']]]]]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::h2[text()='From sources across the web']]]])
+google.*##:xpath(//div[child::div[child::div[child::g-tray-header[child::div[child::div[text()='More specific searches']]]]]])
+google.*##:xpath(//div[child::h1[child::div[text()='Suggested search terms']]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::span[text()='Apps']]]]]])
+google.*##:xpath(//div[child::div[child::h2[child::span[text()='People also search for']]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::span[text()='People also search for']]]]]])
+google.*##:xpath(//div[child::div[child::div[text()='Videos']]])
+google.*##:xpath(//div[child::g-card[child::div[child::g-tray-header[child::div[text()='Refine by brand']]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::span[text()='People also ask']]]]]])
+google.*##:xpath(//div[child::div[child::g-tray-header[child::div[child::a[text()='Images']]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[contains(@aria-label, 'Location Results')]]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::span[child::div[contains(@aria-label, 'Location Results')]]]]]]]]])
 google.*##^responseheader(set-cookie)
 google.*##+js(cookie-remover, CONSENT)
 
