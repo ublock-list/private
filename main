@@ -2259,7 +2259,7 @@ google.*##:xpath(//div[child::div[child::div[child::span[child::div[child::span[
 google.*##:xpath(//div[child::div[child::div[child::span[child::div[text()='People also search for']]]]])
 google.*##:xpath(//div[child::div[child::div[child::span[child::div[child::span[text()='Common questions']]]]]])
 google.*##:xpath(//div[child::div[child::g-tray-header[child::div[child::a[text()='Images']]]]])
-google.*##:xpath(//div[child::div[child::div[child::span[child::h3[child::div[child::img[alt="Learn to pronounce"]]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::span[child::h3[child::div[child::img[@alt="Learn to pronounce"]]]]]]])
 google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[contains(@aria-label, 'Location Results')]]]]]]])
 google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::span[child::div[contains(@aria-label, 'Location Results')]]]]]]]]])
 google.*##^responseheader(set-cookie)
