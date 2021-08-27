@@ -2237,6 +2237,8 @@ google.*##:xpath(//div[child::div[child::div[child::div[child::div[contains(text
 google.*##:xpath(//div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Featured events')]]]]]])
 google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::span[contains(text(), 'Olympic Games Tokyo 2020')]]]]]]]]]]]])
 google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::g-tray-header[child::div[child::div[contains(text(), 'Top sights in')]]]]]]]]]])
+google.*##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'From sources across the web')]]]])
+google.*##:xpath(//div[child::div[child::div[child::g-tray-header[child::div[child::div[contains(text(), 'More specific searches')]]]]]])
 google.*##:xpath(//div[child::div[child::g-scrolling-carousel]])
 google.*##:xpath(//div[child::g-section-with-header])
 google.*##:xpath(//div[child::h1[child::div[contains(text(), 'Suggested search terms')]]])
