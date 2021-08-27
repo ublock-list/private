@@ -2216,6 +2216,9 @@ google.*##jsl > .noprint
 google.*##*[aria-modal="true"]
 google.*###rhs
 google.*##devsite-snackbar
+google.*###bres
+google.*###before-appbar
+google.*###appbar
 google.*##:xpath(//div[child::div[child::div[child::span[child::h2[child::div]]]]])
 google.*##:xpath(//div[child::g-section-with-header])
 google.*##:xpath(//div[child::g-scrolling-carousel])
