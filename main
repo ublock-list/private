@@ -2192,6 +2192,7 @@ google.*##body:not([jscontroller]) > div:nth-child(2) > div:first-child
 google.*##body:not([jscontroller]) > div:nth-child(2) > div:nth-child(4)
 google.*##body:not([jscontroller]) > div:nth-child(2) > div:nth-child(5)
 google.*##div[class*="__middle-slot-promo"]
+google.*###sf .x ~ *
 google.*###tads
 google.*###fbar
 google.*###prt
