@@ -645,6 +645,8 @@ amazon.co.uk##.brand-follow-tooltip-root
 amazon.co.uk##.sims-grid-card-deck
 amazon.co.uk##:xpath(//div[contains(@class, 's-result-item') and child::div[child::span[contains(@data-cel-widget, 'MAIN-RELATED_PRODUCTS')]]])
 amazon.co.uk###storeDisclaimer_feature_div
+amazon.co.uk###sellYoursHere_feature_div
+amazon.co.uk###widget-rightUpsellSlot
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -659,6 +661,8 @@ www.anandtech.com##.discussion
 www.anandtech.com##.print_article
 www.anandtech.com##.blog_top_left > .hide_resp2
 www.anandtech.com##.hide_resp2
+www.anandtech.com##.b
+www.anandtech.com##.footer_right
 
 ! ANDROID
 developer.android.com##devsite-snackbar
@@ -789,6 +793,12 @@ www.asos.com###mightLike
 www.asos.com###buyTheLook
 www.asos.com###recentlyViewed
 
+! AUDI
+www.audi.co.uk##.modal-layer
+www.audi.co.uk##body.modal-layer--open:style(overflow: auto !important;)
+usedcars.audi.co.uk##.vtp-modals
+usedcars.audi.co.uk##body.noscroll:style(overflow: auto !important; position: static !important;)
+
 ! AUTOCAR
 www.autocar.co.uk###onetrust-consent-sdk
 www.autocar.co.uk##.block-autocar-ads-mpu1
@@ -908,6 +918,16 @@ autotrader.co.uk##.home-page__header:style(min-height: 300px !important)
 autotrader.co.uk##.atds-ev-giveaway-banner-wrapper
 autotrader.co.uk###js-takeover-creative
 autotrader.co.uk###back-to-top-button
+autotrader.co.uk##*[class*="banner--"][class*="-position"]
+autotrader.co.uk##:xpath(//div[child::a[@data-gui="leisure-insurance-link"]])
+autotrader.co.uk##:xpath(//section[child::div[child::button[@data-gui="gallery-share-button"]]])
+autotrader.co.uk##:xpath(//div[child::div[child::div[child::div[@data-gui="associated-vehicles-dealer-profile-link"]]]])
+autotrader.co.uk##:xpath(//div[child::section[child::div[child::h2[contains(text(), 'About this advert')]]]])
+autotrader.co.uk###deal-builder
+autotrader.co.uk###advert-end
+autotrader.co.uk##*[data-gui="ms-ctm-insurance-section"]
+autotrader.co.uk##*[data-gui="part-ex-promo"]
+autotrader.co.uk##*[data-gui="buying-safely-panel"]
 
 ! AV FORUMS
 www.avforums.com##.p-body-sidebar
@@ -1343,6 +1363,16 @@ www.cbr.com##.tldr-btn-category
 www.cbr.com##.home-secondary
 www.cbr.com##.home-primary
 
+! CBS NEWS
+www.cbsnews.com##.super-nav
+www.cbsnews.com##.popup-link
+www.cbsnews.com##.site-nav__item--cbs_live
+www.cbsnews.com##.content__meta--byline
+www.cbsnews.com##.link-promo
+www.cbsnews.com##.recirculation
+www.cbsnews.com###component-top-stories
+www.cbsnews.com##.list-live-channel-shelf
+
 ! CHELSFIELD MOTORWORKS
 www.chelsfieldmotorworks.com##.cc-cookies
 
@@ -1656,6 +1686,7 @@ ebay.*##:xpath(//li[contains(@class, 's-item') and descendant::div[contains(@cla
 ebay.*##.hl-multi-cta-banner
 ebay.*##.hl-banner
 ebay.*##.hl-loyalty
+ebay.*##.s-item__sep-on-bottom
 
 ! EHOW
 www.ehow.*##.social-share-icons
@@ -2209,6 +2240,8 @@ google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[ch
 google.*##:xpath(//div[child::div[child::g-scrolling-carousel]])
 google.*##:xpath(//div[child::g-section-with-header])
 google.*##:xpath(//div[child::h1[child::div[contains(text(), 'Suggested search terms')]]])
+google.*##^responseheader(set-cookie)
+google.*##+js(cookie-remover, CONSENT)
 
 ! GOV UK
 www.gov.uk##.govuk-clearfix.gem-c-cookie-banner
@@ -3564,6 +3597,8 @@ pcmag.com##.roundup-offers
 pcmag.com##:xpath(//div[child::div[child::h3[starts-with(text(), 'Recommended')]]])
 pcmag.com##.iframe-wrapper
 pcmag.com##*[x-data="window.newsletters()"]
+pcmag.com##.vplayer
+pcmag.com##.wheretobuy
 ||mashable.com/videos/blueprint*$subdocument
 
 ! PC WORLD
@@ -3589,13 +3624,45 @@ www.pcworld.com##.cat-narrow
 ! PETS 4 HOMES
 www.pets4homes.co.uk##.rescue-campaign
 
+! PINCH OF NOM
+pinchofnom.com##body > header:style(top: 0 !important;)
+pinchofnom.com##.pon-heading-2:style(padding-top: 0 !important;)
+pinchofnom.com##.pon-left-area:style(width: 100% !important; padding-right: 0 !important;)
+pinchofnom.com###pon-category-container:style(padding-bottom: 0 !important;)
+pinchofnom.com##.pon-recipe-category-intro:style(padding: 0 !important;)
+pinchofnom.com##.ponbar-cta
+pinchofnom.com##.ponbar-hook
+pinchofnom.com##.pon-sidebar
+pinchofnom.com##.pon-yellow-drawing-section
+pinchofnom.com##.pon-green-drawing-section
+pinchofnom.com##.pon-blue-section
+pinchofnom.com##.pon-recipe > .pon-section-1
+pinchofnom.com##.pon-section-4 ~ *
+pinchofnom.com##.pon-recipe-screenshot-warning
+pinchofnom.com##.pon-recipe-tags
+pinchofnom.com##.pon-recipe-tags ~ *
+pinchofnom.com##.pon-newsletter
+pinchofnom.com##.pon-footer-logo
+pinchofnom.com##.pon-footer-sidebar
+pinchofnom.com##.pon-spacerheight-200
+pinchofnom.com##.pon-add-4
+pinchofnom.com##.pon-hero-section
+pinchofnom.com##.pon-favourites-section.pon-category-carousel
+pinchofnom.com##.pon-home > .pon-favourites-section
+pinchofnom.com##.pon-home > .pon-favourites-section ~ *
+pinchofnom.com##:xpath(//div[contains(@class, 'pon-search-section') and child::h3[child::span[contains(text(), 'Blog')]]])
+pinchofnom.com##:xpath(//div[contains(@class, 'pon-search-section') and child::h3[child::span[contains(text(), 'Blog')]]]) ~ *
+pinchofnom.com##.pon-fave-btn
+pinchofnom.com##.pon-how-to-blog-section
+pinchofnom.com##.pon-recommended-how-tos-section
+
 ! PINTEREST
 pinterest.com##.Modal.Module.absoluteCenter.show
 pinterest.com##.Nags
-www.pinterest.co.uk###__CONTEXT_EXP__ + div
-www.pinterest.co.uk##body:style(overflow: auto !important; touch-action: auto !important;)
-www.pinterest.co.uk##div[role=main] style + div
-www.pinterest.co.uk##nav
+pinterest.co.uk###__CONTEXT_EXP__ + div
+pinterest.co.uk##body:style(overflow: auto !important; touch-action: auto !important;)
+pinterest.co.uk##div[role=main] style + div
+pinterest.co.uk##nav
 
 ! PLAY BOARD GAMES
 www.playboardgames.co.uk###shopify-section-product-recommendations
@@ -3912,6 +3979,8 @@ rightmove.co.uk##.searchSidebar-copyright
 rightmove.co.uk###secondaryContent
 rightmove.co.uk###createAccountContainer
 rightmove.co.uk###recentSearchesContainer
+rightmove.co.uk##:xpath(//div[child::button[child::*[name()='svg' and contains(@data-testid, 'svg-share')]]])
+rightmove.co.uk##:xpath(//div[child::button[contains(@data-mortgage-focus-selector, '')]])
 
 ! ROCK PAPER SHOTGUN
 www.rockpapershotgun.com###onetrust-consent-sdk
@@ -4217,6 +4286,17 @@ en.community.sonos.com##.social
 ! SOUTH EASTERN RAILWAY
 www.southeasternrailway.co.uk##.smartbanner-android.smartbanner
 
+! SPANISH DICT
+spanishdict.com##*[aria-label="suggestions"]
+spanishdict.com##a[href*="/drill"]
+spanishdict.com##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Unlock More Translations for Free')]]]])
+spanishdict.com##:xpath(//div[child::div[child::div[child::a[contains(text(), 'Word of the Day')]]]])
+spanishdict.com##:xpath(//div[child::div[contains(text(), 'Want to Learn Spanish?')]])
+spanishdict.com##:xpath(//div[child::div[contains(text(), 'Possible Results')]])
+spanishdict.com##:xpath(//div[child::div[child::div[contains(text(), 'RELATED ARTICLES')]]])
+spanishdict.com###add-to-list-es
+spanishdict.com###sidebar-container-video
+
 ! STACK EXCHANGE
 stackexchange.com##.js-teams-promo
 stackexchange.com##.js-consent-banner
@@ -4454,6 +4534,8 @@ techradar.com##:xpath(//p[child::strong[contains(text(), 'Follow')] and child::a
 techradar.com##.top-featured
 techradar.com##aside
 techradar.com##.list-text-links-trending-panel
+techradar.com###taboola-below-article-thumbnails
+techradar.com##.techradar-pro
 
 ! TECH REPUBLIC
 techrepublic.com##.btn-premium
@@ -5373,6 +5455,7 @@ www.ultraboardgames.com##.col-lg-2.col-xl-3
 www.ultraboardgames.com##.col-md-12.col-lg-10.col-xl-9:style(max-width: 100% !important; flex: 0 0 100% !important;)
 www.ultraboardgames.com##.leftside:style(max-width: 100% !important; flex: 0 0 100% !important;)
 www.ultraboardgames.com##.rightside
+www.ultraboardgames.com###recommended_posts
 
 ! UNIQLO
 www.uniqlo.com##.recommendation
@@ -5639,6 +5722,11 @@ www.whatcar.com##*[class*="GalleryImages_classGalleryImagesRight"]
 www.whatcar.com##*[class*="InfoRibbon_alert"]
 www.whatcar.com##*[class*="SideBarSticky_classSideBarStickyItem"]
 www.whatcar.com##:xpath(//div[child::div[child::header[child::h2[contains(text(), 'Best new car deals on What Car?')]]]])
+www.whatcar.com##*[class*="Label-container-"]
+www.whatcar.com##*[class*="AuthorCard-authorCard-"]
+www.whatcar.com##*[class*="ReviewsWidget-container-"]
+www.whatcar.com##*[class*="DealsWidget-container-"]
+www.whatcar.com##*[class*="FragmentTagLinks-tagsContainer-"]
 
 ! WHICH
 which.co.uk##.wm-share-block
@@ -5954,6 +6042,8 @@ youtube.com###chips
 youtube.com##ytd-guide-signin-promo-renderer
 youtube.com##.ytd-consent-bump-v2-renderer.style-scope
 youtube.com##:xpath(//ytd-item-section-renderer[descendant::ytd-shelf-renderer[descendant::h2[child::div[child::div[child::a[child::span[contains(text(), 'Subscriptions')]]]]]]])
+youtube.com##^responseheader(set-cookie)
+youtube.com##+js(cookie-remover, CONSENT)
 
 ! YOUTUBE (MOBILE)
 m.youtube.com##.upsell-dialog-lightbox
@@ -5970,6 +6060,13 @@ www.board-game.co.uk##.perfect-products-block
 www.board-game.co.uk##.review-location
 www.board-game.co.uk##.widget_custom_html
 www.board-game.co.uk##.zgh-codes
+
+! ZAVVI
+www.zavvi.com##.emailReengagement
+www.zavvi.com##.responsiveUsp
+www.zavvi.com###service-banner
+www.zavvi.com##.eastendFooter_signupAndSocialIcons
+www.zavvi.com##.eastendFooter_paySecureIcons_endAccreditation_container
 
 ! ZDNET
 zdnet.com##.ad-active
