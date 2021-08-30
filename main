@@ -1392,6 +1392,8 @@ citymapper.com###gms-embed:style(margin-top: 2rem !important)
 citymapper.com##:xpath(//li[child::div[child::button[child::span[contains(text(), 'Login/Sign up')]]]])
 citymapper.com##:xpath(//div[child::a[starts-with(@href, '/android')]])
 citymapper.com##:xpath(//div[child::a[contains(@href, '/love')]])
+citymapper.com##button[title="Send to Phone"]
+citymapper.com##a[href="/poweredby"]
 
 ! CLICK MECHANIC
 www.clickmechanic.com##.cookie-consent-notice-container
@@ -4318,6 +4320,10 @@ spanishdict.com##:xpath(//div[child::div[contains(text(), 'Possible Results')]])
 spanishdict.com##:xpath(//div[child::div[child::div[contains(text(), 'RELATED ARTICLES')]]])
 spanishdict.com###add-to-list-es
 spanishdict.com###sidebar-container-video
+spanishdict.com##:xpath(//div[child::div[child::div[child::div[child::button[@id="possible_result_source-en-audio"]]]]])
+spanishdict.com##:xpath(//div[contains(text(), 'Showing results for') and child::strong])
+spanishdict.com##:xpath(//div[child::h2[contains(text(), 'Want to Practice Conjugations?')]])
+spanishdict.com##*[id*="neodict-translation-image-"]
 
 ! STACK EXCHANGE
 stackexchange.com##.js-teams-promo
