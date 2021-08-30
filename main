@@ -4311,19 +4311,21 @@ en.community.sonos.com##.social
 www.southeasternrailway.co.uk##.smartbanner-android.smartbanner
 
 ! SPANISH DICT
+spanishdict.com###adBotSmall-container
+spanishdict.com###add-to-list-es
+spanishdict.com###sidebar-container-video
 spanishdict.com##*[aria-label="suggestions"]
+spanishdict.com##*[id*="neodict-translation-image-"]
 spanishdict.com##a[href*="/drill"]
 spanishdict.com##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Unlock More Translations for Free')]]]])
 spanishdict.com##:xpath(//div[child::div[child::div[child::a[contains(text(), 'Word of the Day')]]]])
 spanishdict.com##:xpath(//div[child::div[contains(text(), 'Want to Learn Spanish?')]])
 spanishdict.com##:xpath(//div[child::div[contains(text(), 'Possible Results')]])
 spanishdict.com##:xpath(//div[child::div[child::div[contains(text(), 'RELATED ARTICLES')]]])
-spanishdict.com###add-to-list-es
-spanishdict.com###sidebar-container-video
 spanishdict.com##:xpath(//div[child::div[child::div[child::div[child::button[@id="possible_result_source-en-audio"]]]]])
 spanishdict.com##:xpath(//div[contains(text(), 'Showing results for') and child::strong])
 spanishdict.com##:xpath(//div[child::h2[contains(text(), 'Want to Practice Conjugations?')]])
-spanishdict.com##*[id*="neodict-translation-image-"]
+spanishdict.com##:xpath(//div[child::div[child::div[child::div[child::div[child::h1[contains(text(), 'Sign In to Unlock')]]]]]])
 
 ! STACK EXCHANGE
 stackexchange.com##.js-teams-promo
