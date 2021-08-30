@@ -4002,7 +4002,7 @@ rightmove.co.uk###secondaryContent
 rightmove.co.uk###createAccountContainer
 rightmove.co.uk###recentSearchesContainer
 rightmove.co.uk##:xpath(//div[child::button[child::*[name()='svg' and contains(@data-testid, 'svg-share')]]])
-rightmove.co.uk##:xpath(//div[child::button[contains(@data-mortgage-focus-selector, '')]])
+rightmove.co.uk##:xpath(//div[child::button[@data-mortgage-focus-selector=""]])
 
 ! ROCK PAPER SHOTGUN
 www.rockpapershotgun.com###onetrust-consent-sdk
