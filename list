@@ -315,7 +315,7 @@ redtube.com##.favorites-message
 redtube.com###video_left_col:style(float: none !important; margin: 0 !important; width: 100% !important;)
 redtube.com##.video_left_section:style(width: 100% !important;)
 redtube.com###redtube-player:style(width: 100% !important; height: 800px !important;)
-www.redtube.com###watch_it_again_section
+redtube.com###watch_it_again_section
 
 ! SPANKBANG
 spankbang.com##.videos > .video-list + a ~ *
@@ -383,6 +383,10 @@ www.porn.com##.heading-primary__voting
 www.porn.com##.pagination__label
 www.porn.com##.pagination ~ *
 www.porn.com##.list-global__vote
+
+! SEX.COM
+sex.com##.vertical-container
+sex.com##.nav-container
 
 ! OKCUPID
 okcupid.com##.discovery-ad
