@@ -1339,14 +1339,6 @@ www.builderdepot.co.uk##.cart-payment-wrap
 ! BUILDING SHOP
 www.buildingshop.co.uk##.footer-widgets
 
-! BUSINESS INSIDER
-www.businessinsider.com##.post-content-more
-www.businessinsider.com##.popular-recirc
-www.businessinsider.com##.post-content-category
-www.businessinsider.com##.live-updates-module
-www.businessinsider.com##.subscribe-btn
-www.businessinsider.com###recirc
-
 ! CAMBRIDGE DICTIONARY
 dictionary.cambridge.org##.topslot-container
 dictionary.cambridge.org##.cdo-promo
@@ -2823,6 +2815,23 @@ www.insider.com##.ins-edition-picker-wrapper
 www.insider.com##.app-download-cta-container
 www.insider.com##.promo-drawer
 www.insider.com##.social
+www.insider.com###l-rightrail
+www.insider.com##.byline-author
+www.insider.com##.share-wrapper
+www.insider.com##.post-content-more
+www.insider.com##.notification-prompt-wrapper
+www.insider.com##.post-content-category
+www.insider.com##.subscribe-btn
+www.insider.com##.river-tab-featured
+www.insider.com##.multi-newsletter-signup
+www.businessinsider.com##.post-content-more
+www.businessinsider.com##.popular-recirc
+www.businessinsider.com##.post-content-category
+www.businessinsider.com##.live-updates-module
+www.businessinsider.com##.subscribe-btn
+www.businessinsider.com###recirc
+www.businessinsider.com###l-rightrail
+www.businessinsider.com##.popular-story-indicator
 www.businessinsider.com##.share-wrapper
 www.businessinsider.com##.post-prime-tag
 www.businessinsider.com##.byline-link
@@ -3094,6 +3103,19 @@ www.machinemart.co.uk###Footer > .top
 www.machinemart.co.uk##.footerSocialIcons
 www.machinemart.co.uk##.cardsAccepted
 
+! MAGESTIC WINES
+www.majestic.co.uk##.johnson-box
+www.majestic.co.uk##.rendered-promotion
+www.majestic.co.uk##:xpath(//div[child::div[child::div[child::div[child::a[contains(@class, 'rendered-promotion')]]]]])
+www.majestic.co.uk##:xpath(//div[child::div[child::div[child::div[child::div[child::a[contains(@class, 'rendered-promotion')]]]]]])
+www.majestic.co.uk###shopLocalContainer
+www.majestic.co.uk##.shop-local-mobile-toggle
+www.majestic.co.uk##.social-media-container
+www.majestic.co.uk##.mobile-footter-padding
+www.majestic.co.uk##.save-badge
+www.majestic.co.uk##*[data-component="ProductBox"]
+www.majestic.co.uk##.sub-menu-column img
+
 ! MAKE USE OF
 www.makeuseof.com###secondary
 www.makeuseof.com##.sentinel-article-nextArticle
@@ -3340,11 +3362,29 @@ www.mumsnet.com##.premium-header-btn
 www.mumsnet.com##.bookmark-label
 www.mumsnet.com##.message-options
 www.mumsnet.com##.filter-posts-spacing
+www.mumsnet.com##.talk-disclaimer
 
 ! MUSIC JOBS
 www.music-jobs.com##.leaderboard
 www.music-jobs.com##.top-clients
 www.music-jobs.com##.jobsboard-sidebar
+
+! MY TOOL SHED
+www.mytoolshed.co.uk##.upsell
+www.mytoolshed.co.uk##.top-promos
+www.mytoolshed.co.uk##.main-slider-wrap
+www.mytoolshed.co.uk##.trustpilot-widget
+www.mytoolshed.co.uk##.main-top5
+www.mytoolshed.co.uk##div.span6 > .logo
+www.mytoolshed.co.uk###___ratingbadge_0
+www.mytoolshed.co.uk##.owl-carousel
+www.mytoolshed.co.uk##._sale
+www.mytoolshed.co.uk##._leica
+www.mytoolshed.co.uk##._black
+www.mytoolshed.co.uk##.main-category-selling
+www.mytoolshed.co.uk##.page-bottom
+www.mytoolshed.co.uk##p > [href="https://www.mytoolshed.co.uk/discount-tools"]
+www.mytoolshed.co.uk##.custom-mid-content
 
 ! NATIONAL RAIL
 nationalrail.co.uk###disruptions-bar
@@ -3533,6 +3573,23 @@ www.oneplus.com##.rectangle-ads-box
 forums.oneplus.com##.app-recommand-layer
 forums.oneplus.com##.sidebar
 forums.oneplus.com##.social-media-list
+
+! ONLINE CARPETS
+www.onlinecarpets.co.uk###unfixedbox
+www.onlinecarpets.co.uk##.top-container
+www.onlinecarpets.co.uk###m-cookienotice
+www.onlinecarpets.co.uk##.reviews-block
+www.onlinecarpets.co.uk##.last.combine-both > div.grid_2.mobile-collapsible.collapsible > .block-content > .footer-links
+www.onlinecarpets.co.uk##.lof-container
+www.onlinecarpets.co.uk##.sale-product
+www.onlinecarpets.co.uk##.follow-news
+www.onlinecarpets.co.uk##.social-wish
+www.onlinecarpets.co.uk###related_contents
+www.onlinecarpets.co.uk###upsells
+www.onlinecarpets.co.uk###related
+www.onlinecarpets.co.uk###crossell
+www.onlinecarpets.co.uk###nav .bottom-block
+www.onlinecarpets.co.uk###nav .right-block
 
 ! ORBI
 192.168.1.1##.card-orbi-app
@@ -3905,24 +3962,52 @@ www.popularmechanics.com##.end-of-content-playlist
 www.popularmechanics.com##.body-tip
 
 ! POWERTOOL WORLD
-www.powertoolworld.co.uk##.header-usps
-www.powertoolworld.co.uk###header-brands
-www.powertoolworld.co.uk###js-cookienotice
-www.powertoolworld.co.uk##.block-subscribe
-www.powertoolworld.co.uk##.social
-www.powertoolworld.co.uk###launcher
-www.powertoolworld.co.uk##.box-up-sell
-www.powertoolworld.co.uk##.customer-reviews
-www.powertoolworld.co.uk##.cards
-www.powertoolworld.co.uk###launcher
-www.powertoolworld.co.uk##.addthis_native_toolbox
-www.powertoolworld.co.uk##.paypal-credit-container
-www.powertoolworld.co.uk###recently-viewed-items
-www.powertoolworld.co.uk##.block-viewed
+powertoolworld.co.uk##.header-usps
+powertoolworld.co.uk###header-brands
+powertoolworld.co.uk###js-cookienotice
+powertoolworld.co.uk##.block-subscribe
+powertoolworld.co.uk##.social
+powertoolworld.co.uk###launcher
+powertoolworld.co.uk##.box-up-sell
+powertoolworld.co.uk##.customer-reviews
+powertoolworld.co.uk##.cards
+powertoolworld.co.uk###launcher
+powertoolworld.co.uk##.addthis_native_toolbox
+powertoolworld.co.uk##.paypal-credit-container
+powertoolworld.co.uk###recently-viewed-items
+powertoolworld.co.uk##.block-viewed
+powertoolworld.co.uk##.menu-usps
+powertoolworld.co.uk##:xpath(//div[child::p[child::a[contains(@href, '/discount-codes')]]])
+powertoolworld.co.uk##.banners-mosaic
+powertoolworld.co.uk##.page-footer .payment
+powertoolworld.co.uk###newsletter-validate-detail
+powertoolworld.co.uk##.hints-and-tips-section
+powertoolworld.co.uk##.logo--section
+
+! PRO COOK
+www.procook.co.uk##.main-footer-social
+www.procook.co.uk##.main-footer-awwards
+www.procook.co.uk##.main-footer-payment
+www.procook.co.uk##.gjs-image-banner
 
 ! PRODUCTION HIVE
 www.production-hive.co.uk##.leaderboard
 www.production-hive.co.uk##.top-clients
+
+! PROPUBLICA
+www.propublica.org##.article-meta-1__byline
+www.propublica.org##.article-meta-1__section-actions
+www.propublica.org##.promo-series
+www.propublica.org###newsletter-txt-note
+www.propublica.org##.site-header__section-donate
+www.propublica.org##*[class*="promo-newsletter"]
+www.propublica.org##aside
+www.propublica.org##.article-body__bottom-notes
+www.propublica.org##.rich-byline-group
+www.propublica.org##.most-read
+www.propublica.org##.site-footer__section-newsletter
+www.propublica.org##.site-footer__section-logo
+www.propublica.org##.site-footer__links-follow
 
 ! PROTONMAIL
 mail.protonmail.com##.blackFridayModal.pm_modal
@@ -4140,6 +4225,28 @@ rightmove.co.uk###createAccountContainer
 rightmove.co.uk###recentSearchesContainer
 rightmove.co.uk##:xpath(//div[child::button[child::*[name()='svg' and contains(@data-testid, 'svg-share')]]])
 rightmove.co.uk##:xpath(//div[child::button[@data-mortgage-focus-selector=""]])
+rightmove.co.uk##.lva-widget
+rightmove.co.uk##.mortgage-wrapper
+rightmove.co.uk##.disclaimer-wrapper
+rightmove.co.uk##.sidebar-widget
+rightmove.co.uk##.indiana-scroll-container
+
+! ROYAL HORTICULTURAL SOCIETY
+www.rhs.org.uk##.footer__follow
+www.rhs.org.uk##widget-genus-carousel
+www.rhs.org.uk##widget-advice-links
+www.rhs.org.uk##.ad
+www.rhs.org.uk##.owl-carousel
+www.rhs.org.uk##.related-item
+www.rhs.org.uk##widget-plants-preview
+www.rhs.org.uk##.nav-form-button--join.nav-form-button
+www.rhs.org.uk##.footer__podcast
+www.rhs.org.uk##.js-back-to-top
+www.rhs.org.uk##app-plant-beta-msg
+www.rhs.org.uk##.banner
+www.rhs.org.uk##widget-genus-carousel-by-month
+www.rhs.org.uk##widget-inspiration-article-carousel
+www.rhs.org.uk##*[id*="UserPromoRHS2"]
 
 ! ROCK PAPER SHOTGUN
 www.rockpapershotgun.com###onetrust-consent-sdk
@@ -4355,12 +4462,17 @@ screenrant.com###secondary
 screenrant.com##.w-article-related
 
 ! SCREWFIX
-www.screwfix.com##.fuds-container
-www.screwfix.com##.share-container
-www.screwfix.com###recommendations_container > *
-www.screwfix.com##.ls__banner--container
-www.screwfix.com##.product_recall
-www.screwfix.com##.ft-some
+screwfix.com##.fuds-container
+screwfix.com##.share-container
+screwfix.com###recommendations_container > *
+screwfix.com##.ls__banner--container
+screwfix.com##.product_recall
+screwfix.com##.ft-some
+screwfix.com##.truste_overlay
+screwfix.com##.truste_box_overlay
+screwfix.com##.ft-regions__list
+screwfix.com##.footer__cards
+screwfix.com##.lii__offer--flag
 
 ! SERVERFAULT
 serverfault.com##.js-teams-promo
@@ -4452,6 +4564,7 @@ spanishdict.com###sidebar-container-video
 spanishdict.com##*[aria-label="suggestions"]
 spanishdict.com##*[id*="neodict-translation-image-"]
 spanishdict.com##a[href*="/drill"]
+spanishdict.com##.ReactModalPortal
 spanishdict.com##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Unlock More Translations for Free')]]]])
 spanishdict.com##:xpath(//div[child::div[child::div[child::a[contains(text(), 'Word of the Day')]]]])
 spanishdict.com##:xpath(//div[child::div[contains(text(), 'Want to Learn Spanish?')]])
@@ -4632,6 +4745,9 @@ tapi.co.uk##.missions-wrapper
 tapi.co.uk##.store-boxes
 tapi.co.uk##.brands
 tapi.co.uk##.store-offers
+tapi.co.uk##.clp-promo-banner
+tapi.co.uk##:xpath(//div[child::h2[contains(text(), 'Carpet by') and child::span[contains(text(), 'Brand')]]])
+tapi.co.uk##.clp-trustpilot
 
 ! TECH ADVISOR
 techadvisor.co.uk##*[id*="affiliate-table-container"]
@@ -4740,6 +4856,27 @@ tesco.com##.stamp-group
 tesco.com##:xpath(//div[contains(@class, 'ui-panel') and descendant::h2[child::span[contains(text(), 'Reasons to shop with us')]]])
 tesco.com##:xpath(//div[contains(@class, 'ui-panel') and descendant::h2[child::span[contains(text(), 'Offers this week from Tesco')]]])
 tesco.com##:xpath(//div[contains(@class, 'ui-panel') and descendant::h2[child::span[contains(text(), 'Offers this week from Tesco')]]]) ~ *
+
+! TFT CENTRAL
+tftcentral.co.uk##.social-links
+tftcentral.co.uk###cookie-law-info-bar
+tftcentral.co.uk##.widget_slider_area
+tftcentral.co.uk##.widget_featured_posts_vertical
+tftcentral.co.uk##.monsterinsights-popular-posts-widget
+tftcentral.co.uk###secondary
+tftcentral.co.uk##*[id*="colormag_news_in_picture_widget"]
+tftcentral.co.uk###scroll-up
+tftcentral.co.uk##.tg-one-half
+tftcentral.co.uk##.cat-links
+tftcentral.co.uk##.heateor_sss_sharing_container
+tftcentral.co.uk##.news-bar
+tftcentral.co.uk##figure.wp-block-image > [href="https://www.patreon.com/tftcentral"]
+tftcentral.co.uk##.advgb-table-frontend
+tftcentral.co.uk##.patreon-campaign-banner
+tftcentral.co.uk###cliSettingsPopup
+tftcentral.co.uk##.wp-block-image > .size-full.aligncenter
+tftcentral.co.uk##* > [href="https://www.patreon.com/tftcentral"]
+tftcentral.co.uk##.tftce-adlabel
 
 ! THE CULTURE TRIP
 theculturetrip.com##body > div > header:style(top: 0 !important; position: static !important;)
@@ -4950,6 +5087,7 @@ www.theguardian.com##.fc-container--thrasher
 www.theguardian.com##.dumathoin--paidfor
 www.theguardian.com##.treats__container
 www.theguardian.com###comments
+www.theguardian.com##address
 
 ! THE HILL
 thehill.com##.article-meta
@@ -5114,6 +5252,19 @@ forums.theregister.com###condor_1
 forums.theregister.com##.gtag_display.adun
 forums.theregister.com###story_rhs_ml_signup
 
+! THE SCOTTISH SUN
+www.thescottishsun.co.uk##.article__author
+www.thescottishsun.co.uk##.advert-wrapper
+www.thescottishsun.co.uk##.rail__cluster
+www.thescottishsun.co.uk##h4 > a
+www.thescottishsun.co.uk##.brightcove
+www.thescottishsun.co.uk##.tags
+www.thescottishsun.co.uk##.footer-follow
+www.thescottishsun.co.uk###footer-copyright
+www.thescottishsun.co.uk##.article-boxout
+www.thescottishsun.co.uk##.voting-widget
+www.thescottishsun.co.uk###pod-component-pod-accordion
+
 ! THE SPRUCE
 www.thespruce.com###onetrust-consent-sdk
 www.thespruce.com##.mntl-leaderboard-spacer
@@ -5133,6 +5284,10 @@ www.thespruce.com##.product-showcase
 www.thespruce.com##.stats-nav.comp
 www.thespruce.com##.back-to-top-button
 www.thespruce.com##.mntl-sc-block-featuredlink
+www.thespruce.com##.mntl-attribution__item
+www.thespruce.com##.back-to-top
+www.thespruce.com##.embedded-video
+www.thespruce.com##.social-share
 
 ! THE SPRUCE PETS
 www.thesprucepets.com###onetrust-consent-sdk
@@ -5176,6 +5331,13 @@ www.thesun.co.uk##.teaser
 www.thesun.co.uk##.rail--trending
 www.thesun.co.uk##.tags--article.tags
 www.thesun.co.uk##.rail__cluster
+www.thesun.co.uk##.article__author
+www.thesun.co.uk##.advert-wrapper
+www.thesun.co.uk##.copyright-text
+www.thesun.co.uk##.text-slug
+www.thesun.co.uk##.article__section-logo
+www.thesun.co.uk##.article-boxout
+www.thesun.co.uk##.terms
 
 ! THE TELEGRAPH
 telegraph.co.uk##.e-social-share
@@ -5201,6 +5363,7 @@ telegraph.co.uk##.e-utility
 telegraph.co.uk##.indexSnippetReference
 telegraph.co.uk##.subscribe-banner
 telegraph.co.uk##.opinion
+telegraph.co.uk##.byline__author
 
 ! THE VERGE
 theverge.com##.m-privacy-consent
@@ -5276,6 +5439,20 @@ www.thisismoney.co.uk##.related-with-thumbs
 www.thisismoney.co.uk##.byline-section
 www.thisismoney.co.uk###p-most-read-news-mobile
 www.thisismoney.co.uk###most-watched-videos-wrapper
+
+! THOMPSON AND MORGAN
+thompson-morgan.com##.newsletter-pop
+thompson-morgan.com##.scrollup
+thompson-morgan.com##.signup-box
+thompson-morgan.com##.social
+thompson-morgan.com###footer-rhs-logo
+thompson-morgan.com##.payment-icons
+thompson-morgan.com##[href="/membership-signup"]
+thompson-morgan.com##.specialMessage
+thompson-morgan.com##[href*="/vendors/"]
+thompson-morgan.com##a[href="/request-catalogue"]
+thompson-morgan.com##a[href="/kew-flower-seeds"]
+thompson-morgan.com##.detailsSection
 
 ! TIME
 time.com##.author-feedback-text
@@ -5706,6 +5883,30 @@ www.verywellhealth.com##.footer-logo
 www.verywellhealth.com##*[id*="mntl-leaderboard-spacer_"]
 www.verywellhealth.com##.article-byline
 
+! VIKING DIRECT
+www.viking-direct.co.uk###siteflash
+www.viking-direct.co.uk##.live-chat
+www.viking-direct.co.uk##.visible-desktop.customer-service-panel
+www.viking-direct.co.uk##.nectar-loyalty-banner
+www.viking-direct.co.uk##.footer-trustpilot-star-rating
+www.viking-direct.co.uk##[href="/insurance"]
+www.viking-direct.co.uk##[href="/nectar-shop"]
+www.viking-direct.co.uk##.footer-links__social
+www.viking-direct.co.uk##.footer-info__payment
+www.viking-direct.co.uk###footerUspList
+www.viking-direct.co.uk##.html-banner
+www.viking-direct.co.uk###heroBanner
+www.viking-direct.co.uk###halfBanner
+www.viking-direct.co.uk###miniBanner
+www.viking-direct.co.uk###topCategories
+www.viking-direct.co.uk###topDeals
+www.viking-direct.co.uk###serviceSolutions
+www.viking-direct.co.uk###recommendedForYou
+www.viking-direct.co.uk###featuredShops
+www.viking-direct.co.uk###popularBrands
+www.viking-direct.co.uk##.home-seo
+www.viking-direct.co.uk##.banner
+
 ! VIVASTREET
 www.vivastreet.co.uk##.vs-disclaimer-wrapper
 
@@ -5762,6 +5963,13 @@ vuejsdevelopers.com##:xpath(//section[child::div[child::div[child::h1[contains(t
 www.w3schools.com###right
 www.w3schools.com###cert_navbtn
 www.w3schools.com##.top10
+
+! WAITROSE
+www.waitrose.com##.cookie-bar-visible
+www.waitrose.com##.container_cookie_popup
+www.waitrose.com##.body-blackout
+www.waitrose.com##.jl-c-and-c-content
+www.waitrose.com##.social
 
 ! WATERSTONES
 www.waterstones.com##.cookie-bar
@@ -5892,6 +6100,15 @@ www.whatcar.com##*[class*="AuthorCard-authorCard-"]
 www.whatcar.com##*[class*="ReviewsWidget-container-"]
 www.whatcar.com##*[class*="DealsWidget-container-"]
 www.whatcar.com##*[class*="FragmentTagLinks-tagsContainer-"]
+www.whatcar.com##*[class*="ReviewCTACard_reviewCTACard"]
+www.whatcar.com##*[class*="AuthorDate_container"]
+www.whatcar.com##*[class*="ReviewSocialSection"]
+www.whatcar.com##*[class*="FragmentScrollToTop_scrollToTop"]
+www.whatcar.com##*[class*="ReviewCTAButtons_reviewCTAButtons"]
+www.whatcar.com##*[class*="OurPickList_ourPicksList"]
+www.whatcar.com##*[class*="footerWc_classFooterBrandDetails"]
+www.whatcar.com##a[href*="https://www.ipso.co.uk"]
+www.whatcar.com##*[class*="ReviewAtAGlance_footer"]
 
 ! WHICH
 which.co.uk##.wm-share-block
@@ -6207,6 +6424,9 @@ youtube.com###chips
 youtube.com##ytd-guide-signin-promo-renderer
 youtube.com##.ytd-consent-bump-v2-renderer.style-scope
 youtube.com##:xpath(//ytd-item-section-renderer[descendant::ytd-shelf-renderer[descendant::h2[child::div[child::div[child::a[child::span[contains(text(), 'Subscriptions')]]]]]]])
+youtube.com##.ytd-ticket-shelf-renderer
+youtube.com##:xpath(//ytd-badge-supported-renderer[text()="Fundraiser"])
+youtube.com###menu ytd-button-renderer
 youtube.com##^responseheader(set-cookie)
 youtube.com##+js(cookie-remover, CONSENT)
 
