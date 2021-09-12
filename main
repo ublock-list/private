@@ -656,6 +656,9 @@ amazon.co.uk##:xpath(//div[contains(@class, 's-result-item') and child::div[chil
 amazon.co.uk###storeDisclaimer_feature_div
 amazon.co.uk###sellYoursHere_feature_div
 amazon.co.uk###widget-rightUpsellSlot
+amazon.co.uk###aod-recommendations
+amazon.co.uk###smart-wagon-recommendations-atf
+amazon.co.uk###smart-wagon-recommendations-btf
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -678,35 +681,16 @@ developer.android.com##devsite-snackbar
 developer.android.com##.devsite-footer-utility-button
 developer.android.com##.devsite-footer-promo-title
 
-! APPLIANCES DIRECT
-www.appliancesdirect.co.uk##.cc-window
-www.appliancesdirect.co.uk###reassurance-mob
-www.appliancesdirect.co.uk###servicemessage
-www.appliancesdirect.co.uk##.prod-accessory
-www.appliancesdirect.co.uk##.pp-breadcrumb
-www.appliancesdirect.co.uk##.footbar
-www.appliancesdirect.co.uk##.top-flex-container
-www.appliancesdirect.co.uk##.paypal-banner-strip
-www.appliancesdirect.co.uk##.outlet-deals
-www.appliancesdirect.co.uk##.brand-promo
-www.appliancesdirect.co.uk##.brand-logos
-www.appliancesdirect.co.uk##.footer-payments
-www.appliancesdirect.co.uk##.reevoo-foot
-
-! ARS TECHNICA
-arstechnica.com##.instream-wrap
-arstechnica.com##.share-buttons
-arstechnica.com###outbrain-recs-wrap
-arstechnica.com###comments-area
-arstechnica.com##.clearfix-redux.article-author
-arstechnica.com###page-footer > .ad_footer.ad
-arstechnica.com##.mobile-meta-controls
-arstechnica.com###social-footer
-arstechnica.com##.header-highlight-link
-arstechnica.com###header-account > .dropdown-toggle
-arstechnica.com##.article-author
-arstechnica.com###article-footer-wrap
-arstechnica.com##.newsletter-wrapper
+! ANDROID POLICE
+www.androidpolice.com##.ap-new-articles-btn
+www.androidpolice.com##.comment-btn
+www.androidpolice.com##.list-banners
+www.androidpolice.com##.primary-widget
+www.androidpolice.com##.external
+www.androidpolice.com##.horizontal-boxes-tags
+www.androidpolice.com##.post-footer-meta
+www.androidpolice.com##.post-footer
+www.androidpolice.com##.post-author
 
 ! AO
 ao.com##.premiumListingProduct
@@ -749,6 +733,36 @@ ao.com##.promoContainer
 ao.com##.finance-messaging
 ao.com##.text-deals:not([data-testid="price-now"])
 
+! APPLIANCES DIRECT
+www.appliancesdirect.co.uk##.cc-window
+www.appliancesdirect.co.uk###reassurance-mob
+www.appliancesdirect.co.uk###servicemessage
+www.appliancesdirect.co.uk##.prod-accessory
+www.appliancesdirect.co.uk##.pp-breadcrumb
+www.appliancesdirect.co.uk##.footbar
+www.appliancesdirect.co.uk##.top-flex-container
+www.appliancesdirect.co.uk##.paypal-banner-strip
+www.appliancesdirect.co.uk##.outlet-deals
+www.appliancesdirect.co.uk##.brand-promo
+www.appliancesdirect.co.uk##.brand-logos
+www.appliancesdirect.co.uk##.footer-payments
+www.appliancesdirect.co.uk##.reevoo-foot
+
+! ARS TECHNICA
+arstechnica.com##.instream-wrap
+arstechnica.com##.share-buttons
+arstechnica.com###outbrain-recs-wrap
+arstechnica.com###comments-area
+arstechnica.com##.clearfix-redux.article-author
+arstechnica.com###page-footer > .ad_footer.ad
+arstechnica.com##.mobile-meta-controls
+arstechnica.com###social-footer
+arstechnica.com##.header-highlight-link
+arstechnica.com###header-account > .dropdown-toggle
+arstechnica.com##.article-author
+arstechnica.com###article-footer-wrap
+arstechnica.com##.newsletter-wrapper
+
 ! ARGOS
 www.argos.co.uk###__tealiumGDPRecModal
 www.argos.co.uk##div[class^="HomepageContainer__PropbarContainer-"]
@@ -777,6 +791,7 @@ www.argos.co.uk##.wishlist-checkbox
 www.argos.co.uk##.productCare
 www.argos.co.uk##*[data-test*="hero-"]
 www.argos.co.uk##*[class*="HomepageComponentsstyles__"]
+www.argos.co.uk##*[class*="styles__FeedbackBanner-"]
 
 ! APK PURE
 apkpure.com##.right
