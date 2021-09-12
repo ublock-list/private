@@ -852,6 +852,7 @@ www.autocar.co.uk##.block-car-review-sidebar-2
 www.autocar.co.uk##.cta--button
 www.autocar.co.uk##.footer
 www.autocar.co.uk##.col-right
+www.autocar.co.uk##.author
 ||www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/save_you_money_*.jpg$image
 ||www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/what-car-new-buying-*.jpg$image
 
@@ -875,6 +876,8 @@ www.autoexpress.co.uk##.polaris__collapsible
 www.autoexpress.co.uk##.polaris__gallery--most-popular
 www.autoexpress.co.uk##.polaris__review--template > .polaris__content
 www.autoexpress.co.uk##.polaris-ad--wrapper-desktop
+www.autoexpress.co.uk##.polaris__post-meta--author-image
+www.autoexpress.co.uk##.polaris__post-meta--author
 
 ! AUTOTRADER
 autotrader.co.uk##.search-result__actions
@@ -1096,6 +1099,16 @@ bbc.*##*[data-testid="test-overlay"]
 bbc.*##.app__domestic-disclaimer
 bbc.*##.secondary-promo__container
 bbc.*##.primary-promo__container
+bbc.*##.ideas-nav__header-link
+bbc.*##.ideas-video-information__publish-date
+bbc.*##.ideas-brand
+bbc.*##.ideas-user-actions-panel
+bbc.*##.ideas-playlist-information
+bbc.*##.ideas-playlist-section
+bbc.*##.ideas-related-playlists-section
+bbc.*##.ideas-footer-links
+bbc.*##.ideas-related-links
+bbc.*##.nw-c-correspondents-promo
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
