@@ -4574,6 +4574,9 @@ spanishdict.com##:xpath(//div[child::div[child::div[child::div[child::button[@id
 spanishdict.com##:xpath(//div[contains(text(), 'Showing results for') and child::strong])
 spanishdict.com##:xpath(//div[child::h2[contains(text(), 'Want to Practice Conjugations?')]])
 spanishdict.com##:xpath(//div[child::div[child::div[child::div[child::div[child::h1[contains(text(), 'Sign In to Unlock')]]]]]])
+spanishdict.com##a[href*="/premium"]
+spanishdict.com##:xpath(//div[child::a[child::div[child::div[contains(text(), 'New to Spanish?')]]]])
+spanishdict.com##:xpath(//div[child::div[child::a[@href="/textbooks"]]])
 
 ! STACK EXCHANGE
 stackexchange.com##.js-teams-promo
