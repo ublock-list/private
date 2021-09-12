@@ -4577,6 +4577,7 @@ spanishdict.com##:xpath(//div[child::div[child::div[child::div[child::div[child:
 spanishdict.com##a[href*="/premium"]
 spanishdict.com##:xpath(//div[child::a[child::div[child::div[contains(text(), 'New to Spanish?')]]]])
 spanishdict.com##:xpath(//div[child::div[child::a[@href="/textbooks"]]])
+spanishdict.com##:xpath(//div[child::a[child::div[child::div[child::div[child::div[child::p[contains(text(), 'New to Spanish? ')]]]]]]])
 
 ! STACK EXCHANGE
 stackexchange.com##.js-teams-promo
