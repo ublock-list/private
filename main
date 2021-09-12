@@ -991,6 +991,7 @@ diy.com##:xpath(//div[child::div[child::h2[contains(text(), 'Popular articles')]
 diy.com##:xpath(//div[child::h2[contains(text(), 'Customers who bought this also browsed')]])
 diy.com##:xpath(//div[child::div[child::h2[contains(text(), 'Ideas & Advice')]]])
 diy.com##:xpath(//div[child::div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Next Day Delivery')]]]]]]])
+diy.com##*[id*="pop-div"]
 
 ! BARK SUPPLIERS
 www.barksuppliers.co.uk##.ec-notices
@@ -1344,6 +1345,7 @@ www.businessinsider.com##.popular-recirc
 www.businessinsider.com##.post-content-category
 www.businessinsider.com##.live-updates-module
 www.businessinsider.com##.subscribe-btn
+www.businessinsider.com###recirc
 
 ! CAMBRIDGE DICTIONARY
 dictionary.cambridge.org##.topslot-container
@@ -1378,6 +1380,37 @@ www.carkeys.co.uk###tla_zone_ChatBot01
 www.carmagazine.co.uk###topAdContainerFullWidth
 www.carmagazine.co.uk##.advert
 
+! CARPET RIGHT
+www.carpetright.co.uk##.header__pictogram
+www.carpetright.co.uk##.Reasons
+www.carpetright.co.uk##.Brands
+www.carpetright.co.uk##.About
+www.carpetright.co.uk##.Trustpilot
+www.carpetright.co.uk##.promoImage
+www.carpetright.co.uk##a[href*="/visualiser/"]
+www.carpetright.co.uk##a[href*="/useful-links/"]
+www.carpetright.co.uk##a[href*="/artificial-grass/how-to-lay-artificial-grass/"]
+www.carpetright.co.uk##a[href*="/rugs/rugs-buying-guide/"]
+www.carpetright.co.uk##a[href*="/commerce/categories/beds/sleep-tight-guarantee/"]
+www.carpetright.co.uk##.start-page
+www.carpetright.co.uk###FooterBlock .formInline
+www.carpetright.co.uk###FooterBlock *[class*="icon-"]
+www.carpetright.co.uk##.gis-cta-reset
+www.carpetright.co.uk###errorBar
+www.carpetright.co.uk##:xpath(//div[child::div[contains(@style, '/category-banners/')]])
+www.carpetright.co.uk##:xpath(//div[child::div[child::div[child::div[contains(@style, '/price-promise-cat-insert')]]]])
+www.carpetright.co.uk##:xpath(//div[child::div[child::div[child::div[contains(@style, '/ifc-cat-insert')]]]])
+www.carpetright.co.uk##:xpath(//div[child::div[child::div[child::div[contains(@style, '/split-banner')]]]])
+www.carpetright.co.uk##:xpath(//div[child::div[child::div[child::div[contains(@style, '/floor-finder')]]]])
+www.carpetright.co.uk##:xpath(//div[child::div[child::b[contains(text(), 'Interest Free Credit')]]])
+www.carpetright.co.uk##:xpath(//div[child::div[child::b[contains(text(), 'Our promise')]]])
+www.carpetright.co.uk##.trustpilot-widget
+www.carpetright.co.uk##.recommendedProducts
+www.carpetright.co.uk##img[src*="/promotions/"]
+www.carpetright.co.uk##a[href="/carpets/carpet-buying-guide"]
+www.carpetright.co.uk##a[href="/appointments/"]
+www.carpetright.co.uk###ProductListBlock
+
 ! CARS UK
 www.carsuk.net##.sidebar
 www.carsuk.net##.menu-item-56756
@@ -1409,6 +1442,13 @@ www.cbsnews.com##.link-promo
 www.cbsnews.com##.recirculation
 www.cbsnews.com###component-top-stories
 www.cbsnews.com##.list-live-channel-shelf
+
+! CHANNEL4
+www.channel4.com###cookie-consent-banner
+www.channel4.com##.mobile-wrapper
+www.channel4.com##.more-from-factcheck
+www.channel4.com###vubblefeed
+www.channel4.com##.site-footer
 
 ! CHELSFIELD MOTORWORKS
 www.chelsfieldmotorworks.com##.cc-cookies
@@ -1535,6 +1575,9 @@ crunchyroll.com###showmedia_about_info_avail
 crunchyroll.com##:xpath(//div[@id="showmedia_about_info_details"]/div[contains(text(), 'Subtitles:')])
 crunchyroll.com##:xpath(//div[@id="showmedia_about_info_details"]/div[contains(text(), 'Publisher:')])
 crunchyroll.com##:xpath(//div[@id="showmedia_about_info_details"]/div[contains(text(), 'Tags:')])
+crunchyroll.com##.news-top-stories
+crunchyroll.com##.tags
+crunchyroll.com##.top-news
 ||crunchyroll.com/tracker$document,image,important
 
 ! CSS TRICKS
@@ -1809,6 +1852,12 @@ community.ee.co.uk##.lia-quilt-row-engagement-content
 community.ee.co.uk##.useful-links-component
 community.ee.co.uk##.lia-quilt-column-feedback
 
+! EXPAT FOCUS
+www.expatfocus.com##.entry-meta
+www.expatfocus.com##.sidebar
+www.expatfocus.com##.footer-widget-1
+www.expatfocus.com##.footer-widget-4
+
 ! EXPERT REVIEWS
 www.expertreviews.co.uk###__ic-notice
 www.expertreviews.co.uk###secondary-menu > .block-menu.block
@@ -1842,6 +1891,7 @@ www.expertreviews.co.uk##.view-deal-btn-left
 www.expertreviews.co.uk###content-top
 www.expertreviews.co.uk###block-expertreviews-popular-most-popular-reviews-home
 www.expertreviews.co.uk###block-expertreviews-category-hub-related-categories
+www.expertreviews.co.uk##.lazyadslot
 
 ! EXPRESS JS
 expressjs.com###blm-banner
@@ -6127,6 +6177,8 @@ www.board-game.co.uk##.perfect-products-block
 www.board-game.co.uk##.review-location
 www.board-game.co.uk##.widget_custom_html
 www.board-game.co.uk##.zgh-codes
+www.board-game.co.uk##.social-share
+www.board-game.co.uk##.product-share
 
 ! ZAVVI
 www.zavvi.com##.emailReengagement
