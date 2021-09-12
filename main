@@ -2194,6 +2194,31 @@ www.gamespot.com##aside.secondary-content
 www.gamespot.com##.review-authors
 www.gamespot.com###below-content
 
+! GARDENER'S WORLD
+www.gardenersworld.com##.template-article__social-share
+www.gardenersworld.com##.author-name__name
+www.gardenersworld.com##.post-tags
+www.gardenersworld.com##.sidebar
+www.gardenersworld.com##.js-dynamic-related-content
+www.gardenersworld.com##.template-article__footer
+www.gardenersworld.com##.promotional-content
+www.gardenersworld.com##.site-footer-social
+www.gardenersworld.com##.copyright-container
+www.gardenersworld.com##.site-footer__alignment-shim
+www.gardenersworld.com##.template-article__author-name
+www.gardenersworld.com##.post-tags
+www.gardenersworld.com##.promotional-content
+www.gardenersworld.com##.js-dynamic-related-content
+www.gardenersworld.com##.template-article__footer
+www.gardenersworld.com##.site-header__eyebrow
+www.gardenersworld.com##.template-article__meta
+www.gardenersworld.com##.template-article__author-name
+www.gardenersworld.com##.sidebar
+www.gardenersworld.com##.layout-md-rail__secondary
+www.gardenersworld.com##.site-footer__alignment-shim
+www.gardenersworld.com##.copyright-container
+www.gardenersworld.com##.site-header__custom-links
+
 ! GARDENS 4 YOU
 www.gardens4you.co.uk##.promo_top_bar
 www.gardens4you.co.uk##.review_top_bar
@@ -2211,6 +2236,16 @@ gfycat.com##.upload-button
 gfycat.com##.follow-button
 gfycat.com##.pro-cta
 gfycat.com##.cookieBannerContainer
+
+! GIPHY
+giphy.com##*[class*="OpenInAppContainer"]
+giphy.com##*[class*="BannerContainer"]
+giphy.com##*[class*="trending-stories__Container"]
+giphy.com##*[class*="ChannelResults"]
+giphy.com##*[class*="ShowClips"]
+giphy.com##*[class*="homepage__Container"]
+giphy.com###messages
+giphy.com##:xpath(//div[child::div[child::span[child::a[contains(@class, 'Pill')]]]])
 
 ! GIZMODO
 gizmodo.com##.instream-native-video
@@ -2355,6 +2390,7 @@ google.*##+js(cookie-remover, CONSENT)
 google.*##^responseheader(set-cookie)
 accounts.google.*#@#^responseheader(set-cookie)
 mail.google.*#@#^responseheader(set-cookie)
+play.google.com##aside
 
 ! GOV UK
 www.gov.uk##.govuk-clearfix.gem-c-cookie-banner
@@ -2392,6 +2428,16 @@ www.gumtree.com##.header-nav-messages
 www.gumtree.com###partnerships
 www.gumtree.com##.sponsored-link-spot
 www.gumtree.com##.vip-save-ad
+
+! HABITAT FOR HUMANITY
+www.habitatforhumanity.org.uk##.mobile-bar__btn--heart
+www.habitatforhumanity.org.uk##.share-box
+www.habitatforhumanity.org.uk##.form-cta--subscribe
+www.habitatforhumanity.org.uk##.footer-newsletter
+www.habitatforhumanity.org.uk##.pea_cook_wrapper
+www.habitatforhumanity.org.uk##.pea_cook_more_info_popover
+www.habitatforhumanity.org.uk##.exp-newsletter-box
+www.habitatforhumanity.org.uk##.register-box
 
 ! HACKERNOON
 hackernoon.com##.iubenda-cs-visible
