@@ -2351,8 +2351,10 @@ google.*##:xpath(//div[child::div[child::g-tray-header[child::div[child::a[text(
 google.*##:xpath(//div[child::div[child::div[child::span[child::h3[child::div[child::img[@id="flex_text_audio_icon_chunk"]]]]]]])
 google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[contains(@aria-label, 'Location Results')]]]]]]])
 google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::span[child::div[contains(@aria-label, 'Location Results')]]]]]]]]])
-google.*##^responseheader(set-cookie)
 google.*##+js(cookie-remover, CONSENT)
+google.*##^responseheader(set-cookie)
+accounts.google.*#@#^responseheader(set-cookie)
+mail.google.*#@#^responseheader(set-cookie)
 
 ! GOV UK
 www.gov.uk##.govuk-clearfix.gem-c-cookie-banner
