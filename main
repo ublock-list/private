@@ -201,6 +201,7 @@
 ||otrl.io
 ||otrldev.uk
 ||padsatz.com
+||pennbookcenter.com
 ||perficial.space
 ||petametrics.com
 ||pingit.im
@@ -209,6 +210,7 @@
 ||popmonetizer.net
 ||popnc.com
 ||presspatron.com
+||priefy.com
 ||privacy-center.org
 ||privacy-mgmt.com
 ||privacymanager.io
@@ -216,6 +218,7 @@
 ||projectagoralibs.com
 ||protoawe.com
 ||protoawegw.com
+||publicananker.com
 ||pushmono.com
 ||qr-maker.me
 ||raiphupi.com
@@ -659,6 +662,7 @@ amazon.co.uk###widget-rightUpsellSlot
 amazon.co.uk###aod-recommendations
 amazon.co.uk###smart-wagon-recommendations-atf
 amazon.co.uk###smart-wagon-recommendations-btf
+amazon.co.uk###nav-ab-acquisition
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -2386,6 +2390,7 @@ play.google.com##aside
 
 ! GOV UK
 www.gov.uk##.govuk-clearfix.gem-c-cookie-banner
+www.gov.uk##.gem-c-subscription-links
 
 ! GREEN FLAG
 www.greenflag.com##.highways-banner
@@ -2776,6 +2781,7 @@ imgur.com##.Navbar-signup
 imgur.com##.Accolade
 imgur.com##:xpath(//div[child::a[contains(@class, 'Post-item') and descendant::div[contains(@class, 'Post-item-external-ad')]]])
 imgur.com##.TrendingTags
+imgur.com##.welcome.Message
 
 # IMGUR (MOBILE)
 m.imgur.com##.FloatingOIA-container
@@ -3591,6 +3597,9 @@ www.onlinecarpets.co.uk###crossell
 www.onlinecarpets.co.uk###nav .bottom-block
 www.onlinecarpets.co.uk###nav .right-block
 
+! OPENING TIMES IN THE UK
+www.openingtimesin.uk##.offers-section
+
 ! ORBI
 192.168.1.1##.card-orbi-app
 
@@ -4013,6 +4022,9 @@ www.propublica.org##.site-footer__links-follow
 mail.protonmail.com##.blackFridayModal.pm_modal
 beta.protonmail.com##.blackfriday-mail-modal
 beta.protonmail.com##:xpath(//li[child::span[child::button[contains(@title, 'Special offer')]]])
+protonmail.com###entry-author
+protonmail.com###ht-kb-rate-article
+protonmail.com###ht-kb-related-articles
 
 ! PSARIPS
 ||x265.club/wp-content/uploads/pic/72_9.png$image
@@ -4473,6 +4485,23 @@ screwfix.com##.truste_box_overlay
 screwfix.com##.ft-regions__list
 screwfix.com##.footer__cards
 screwfix.com##.lii__offer--flag
+screwfix.com##.carousel-header
+screwfix.com##.banner
+screwfix.com##.skinny-banner
+screwfix.com##.certona-tile__container
+screwfix.com##.promo-certona
+screwfix.com##.homepage_assortment
+screwfix.com##.homepage_carousel
+screwfix.com##.homepage_skinnybanner
+screwfix.com##.popular-cat
+screwfix.com##.brand-carousel-block
+screwfix.com##.homepage_brands
+screwfix.com##.ssb__color-changer
+screwfix.com##.homepage_service
+screwfix.com##.dotd-h2
+screwfix.com##.hp-tiles-outer
+screwfix.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'More from Screwfix')]]]])
+screwfix.com##.bulk-savings
 
 ! SERVERFAULT
 serverfault.com##.js-teams-promo
@@ -4540,6 +4569,13 @@ www.skyscanner.net###index-block-container
 www.skyscanner.net###index-block-plan-peace-container
 www.skyscanner.net###newsletter-signup-wrapper
 www.skyscanner.net###internal-links
+
+! SLANT
+www.slant.co##.FAB-Floating._FABRecommendView
+www.slant.co##.ChatWithSlant
+www.slant.co##.JoinTagBanner-SidebarCard
+www.slant.co##.Sidebar-RelatedQuestions
+www.slant.co##.QuestionHeader-LinkBar
 
 ! SMALLNETBUILDER
 www.smallnetbuilder.com##.cadre_alert_cookies
@@ -4651,6 +4687,8 @@ store.steampowered.com##.contenthub_dailydeal_container
 store.steampowered.com###contenthub_spotlight_ctn
 store.steampowered.com###specials_container
 store.steampowered.com##.mature_content_filtered
+store.steampowered.com##.broadcast_embed_top_ctn_trgt
+store.steampowered.com##.contenthub_featured_item_spotlight
 
 ! STRIPE
 stripe.com##.CookieBanner
@@ -5261,13 +5299,15 @@ www.thescottishsun.co.uk##.article__author
 www.thescottishsun.co.uk##.advert-wrapper
 www.thescottishsun.co.uk##.rail__cluster
 www.thescottishsun.co.uk##h4 > a
-www.thescottishsun.co.uk##.brightcove
 www.thescottishsun.co.uk##.tags
 www.thescottishsun.co.uk##.footer-follow
 www.thescottishsun.co.uk###footer-copyright
 www.thescottishsun.co.uk##.article-boxout
 www.thescottishsun.co.uk##.voting-widget
 www.thescottishsun.co.uk###pod-component-pod-accordion
+www.thescottishsun.co.uk##.rail--trending
+www.thescottishsun.co.uk###sidebar
+www.thescottishsun.co.uk##.brightcove__video:style(position: static !important;)
 
 ! THE SPRUCE
 www.thespruce.com###onetrust-consent-sdk
@@ -5303,6 +5343,8 @@ www.thesprucepets.com##.social-nav
 www.thesprucepets.com##.tag-nav
 www.thesprucepets.com##.mntl-article-sources
 www.thesprucepets.com##.mntl-adhesive-ad
+www.thesprucepets.com##.journey-nav
+www.thesprucepets.com##.mntl-attribution__item-name
 
 ! THE STAR
 www.thestar.co.uk##.sidebar
@@ -5310,38 +5352,51 @@ www.thestar.co.uk###article-newsletter-signup
 www.thestar.co.uk##.footer-social
 
 ! THE STUDENT ROOM
-www.thestudentroom.co.uk###topFixedAd
-www.thestudentroom.co.uk###modal-container
-www.thestudentroom.co.uk###announcements
-www.thestudentroom.co.uk###watchButton
-www.thestudentroom.co.uk##.related-discussions
-www.thestudentroom.co.uk##.ad-holder
-www.thestudentroom.co.uk###inpost-announcements
-www.thestudentroom.co.uk##.ad-divider
-www.thestudentroom.co.uk###widgets
-www.thestudentroom.co.uk##.pre-footer
-www.thestudentroom.co.uk##.advert-mobile
-www.thestudentroom.co.uk###appInstallBadges
+thestudentroom.co.uk###topFixedAd
+thestudentroom.co.uk###modal-container
+thestudentroom.co.uk###announcements
+thestudentroom.co.uk###watchButton
+thestudentroom.co.uk##.related-discussions
+thestudentroom.co.uk##.ad-holder
+thestudentroom.co.uk###inpost-announcements
+thestudentroom.co.uk##.ad-divider
+thestudentroom.co.uk###widgets
+thestudentroom.co.uk##.pre-footer
+thestudentroom.co.uk##.advert-mobile
+thestudentroom.co.uk###appInstallBadges
+thestudentroom.co.uk##:xpath(//div[child::h2[contains(text(), 'Connect with TSR')]])
+thestudentroom.co.uk##:xpath(//div[child::h4[contains(text(), 'Connect with TSR')]])
+thestudentroom.co.uk###footer_decoration
+thestudentroom.co.uk###widget-learn-together-search
+thestudentroom.co.uk###secondary_content
+thestudentroom.co.uk##.register-home-intro
+thestudentroom.co.uk##.register-home
+thestudentroom.co.uk###carousel-container
+thestudentroom.co.uk##.related-articles
+thestudentroom.co.uk###primaryWidgets
+thestudentroom.co.uk##.related-articles-forum
+thestudentroom.co.uk###widgets-gutter
 
 ! THE SUN
-www.thesun.co.uk##.footer-follow
-www.thesun.co.uk##.article__comment.comments
-www.thesun.co.uk##.header--social
-www.thesun.co.uk##.social
-www.thesun.co.uk##.nextArrow
-www.thesun.co.uk##.teaser-item
-www.thesun.co.uk##.pod-component.lazyloaded
-www.thesun.co.uk##.teaser
-www.thesun.co.uk##.rail--trending
-www.thesun.co.uk##.tags--article.tags
-www.thesun.co.uk##.rail__cluster
-www.thesun.co.uk##.article__author
-www.thesun.co.uk##.advert-wrapper
-www.thesun.co.uk##.copyright-text
-www.thesun.co.uk##.text-slug
-www.thesun.co.uk##.article__section-logo
-www.thesun.co.uk##.article-boxout
-www.thesun.co.uk##.terms
+thesun.co.uk##.footer-follow
+thesun.co.uk##.article__comment.comments
+thesun.co.uk##.header--social
+thesun.co.uk##.social
+thesun.co.uk##.nextArrow
+thesun.co.uk##.teaser-item
+thesun.co.uk##.pod-component.lazyloaded
+thesun.co.uk##.teaser
+thesun.co.uk##.rail--trending
+thesun.co.uk##.tags--article.tags
+thesun.co.uk##.rail__cluster
+thesun.co.uk##.article__author
+thesun.co.uk##.advert-wrapper
+thesun.co.uk##.copyright-text
+thesun.co.uk##.text-slug
+thesun.co.uk##.article__section-logo
+thesun.co.uk##.article-boxout
+thesun.co.uk##.terms
+thesun.co.uk##.brightcove__video:style(position: static !important;)
 
 ! THE TELEGRAPH
 telegraph.co.uk##.e-social-share
@@ -5641,6 +5696,7 @@ www.tripadvisor.co.uk##.saves_bookmark
 www.tripadvisor.co.uk##.postContentHeaderRight
 www.tripadvisor.co.uk###BODYCON .balance:style(width: auto !important; float: none !important;)
 www.tripadvisor.co.uk##*[id*="taplc_hr_xsell_web_component_"]
+www.tripadvisor.co.uk##*[id*="taplc_location_detail_tag_questions_rr_responsive_"]
 
 ! TRUST A TRADER
 www.trustatrader.com##.join
@@ -5662,6 +5718,14 @@ www.trustedreviews.com##.icon-tags.post-tags
 www.trustedreviews.com##.footer-menu--icons.footer-menu
 www.trustedreviews.com##.post-author-card
 www.trustedreviews.com###keystone-query-widget-id-40
+www.trustedreviews.com##.related-post-slider
+www.trustedreviews.com##.expert-view-section
+www.trustedreviews.com##.bootom-contain
+www.trustedreviews.com##.footer-legal
+www.trustedreviews.com##.footer__col--sidebar
+www.trustedreviews.com##.home-latest-review-right
+www.trustedreviews.com##.top-post-suggestion-right
+www.trustedreviews.com##.top-post-suggestion-center
 
 ! TUTORIALS POINT
 www.tutorialspoint.com##.google-bottom-ads
@@ -5974,6 +6038,17 @@ www.waitrose.com##.container_cookie_popup
 www.waitrose.com##.body-blackout
 www.waitrose.com##.jl-c-and-c-content
 www.waitrose.com##.social
+www.waitrose.com##*[class*="overlay___"]
+www.waitrose.com##*[class*="modalOpen___"]:style(overflow: auto !important;)
+www.waitrose.com##*[class*="commonSiteBanner___"]
+www.waitrose.com##*[class*="categoryLinks___"]
+www.waitrose.com##*[class*="badges___"]
+www.waitrose.com##*[class*="disclaimer___"]
+www.waitrose.com##*[class*="viewAllButton___"]
+www.waitrose.com##*[class*="tradingCell___"]
+www.waitrose.com##*[class*="appLinks___"]
+www.waitrose.com##*[id*="_content_waitrosegroceriescms_"]
+www.waitrose.com##:xpath(//article[child::div[child::section[child::div[child::div[child::span[contains(text(), 'Sponsored')]]]]]])
 
 ! WATERSTONES
 www.waterstones.com##.cookie-bar
@@ -6236,6 +6311,7 @@ windowscentral.com##.article-shop-bar
 windowscentral.com##.no-amazon
 windowscentral.com###the-art-of-diablo
 windowscentral.com###blizzard-battlenet-gift-card
+windowscentral.com###xbox-elite-wireless-controller-series-2
 
 ! WINDOWS LATEST
 www.windowslatest.com##.footer-social-wrap
