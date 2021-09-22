@@ -4246,6 +4246,7 @@ rightmove.co.uk##.mortgage-wrapper
 rightmove.co.uk##.disclaimer-wrapper
 rightmove.co.uk##.sidebar-widget
 rightmove.co.uk##.indiana-scroll-container
+rightmove.co.uk##:xpath(//section[child::img[@src="https://media.rightmove.co.uk/app-store.png"]])
 
 ! ROYAL HORTICULTURAL SOCIETY
 www.rhs.org.uk##.footer__follow
@@ -5232,19 +5233,26 @@ www.newstatesman.com##.media-icons
 www.newstatesman.com##.article-footer-promotion
 
 ! THE NEW YORK TIMES
-www.nytimes.com##*[data-block-tracking-id="Briefings"]
-www.nytimes.com##*[data-testid="gdpr-dock"]
-www.nytimes.com##*[aria-labelledby="site-index-subscribe-label"]
-www.nytimes.com##*[data-testid="subscribe-button"]
-www.nytimes.com###article-summary + div
-www.nytimes.com##*[data-testid="inline-message"]
-www.nytimes.com##.bottom-of-article
-www.nytimes.com###comments-speech-bubble-bottom
-www.nytimes.com##*[data-testid="recirculation"]
-www.nytimes.com##*[data-testid="expanded-dock"]
-www.nytimes.com###in-story-masthead
-www.nytimes.com###story > div:first-child
-www.nytimes.com##*[aria-labelledby="storyline-menu-title"]
+nytimes.com##*[data-block-tracking-id="Briefings"]
+nytimes.com##*[data-testid="gdpr-dock"]
+nytimes.com##*[aria-labelledby="site-index-subscribe-label"]
+nytimes.com##*[data-testid="subscribe-button"]
+nytimes.com###article-summary + div
+nytimes.com##*[data-testid="inline-message"]
+nytimes.com##.bottom-of-article
+nytimes.com###comments-speech-bubble-bottom
+nytimes.com##*[data-testid="recirculation"]
+nytimes.com##*[data-testid="expanded-dock"]
+nytimes.com###in-story-masthead
+nytimes.com###story > div:first-child
+nytimes.com##*[aria-labelledby="storyline-menu-title"]
+nytimes.com##.related-links-block
+nytimes.com##a[data-testid="subscribe-link"]
+nytimes.com##*[data-testid="InlineEditorsPicks"]
+nytimes.com##:xpath(//div[child::div[child::div[child::p[child::span[contains(@class, 'last-byline')]]]]])
+nytimes.com##:xpath(//div[child::div[child::div[@aria-labelledby="storyline-latest-updates"]]])
+nytimes.com##:xpath(//div[child::div[child::a[@data-testid="story-section"]]])
+nytimes.com##:xpath(//div[child::div[child::p[contains(text(), 'You can follow him on Twitter') or contains(text(), 'You can follow her on Twitter')]]])
 
 ! THE NEXT WEB
 thenextweb.com##.nxtHome
