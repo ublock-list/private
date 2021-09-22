@@ -2382,6 +2382,10 @@ google.*##:xpath(//div[child::div[child::g-tray-header[child::div[child::a[text(
 google.*##:xpath(//div[child::div[child::div[child::span[child::h3[child::div[child::img[@id="flex_text_audio_icon_chunk"]]]]]]])
 google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[contains(@aria-label, 'Location Results')]]]]]]])
 google.*##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::span[child::div[contains(@aria-label, 'Location Results')]]]]]]]]])
+google.*##:xpath(//div[child::div[child::p[contains(text(), 'Google uses cookies to deliver')]]])
+google.*##:xpath(//div[contains(@class, 'sh-sr__shop-result-group') and child::div[child::span[contains(text(), 'Ads')]]])
+google.*##:xpath(//div[contains(@class, 'sh-sr__shop-result-group') and child::div[child::div[child::div[child::div[child::div[child::a[contains(text(), 'Sponsored')]]]]]]])
+google.*##:xpath(//div[child::div[child::div[contains(text(), 'Searches related to')]]])
 google.*##+js(cookie-remover, CONSENT)
 google.*##^responseheader(set-cookie)
 accounts.google.*#@#^responseheader(set-cookie)
@@ -5950,6 +5954,21 @@ www.verywellhealth.com##.certified-badges
 www.verywellhealth.com##.footer-logo
 www.verywellhealth.com##*[id*="mntl-leaderboard-spacer_"]
 www.verywellhealth.com##.article-byline
+
+! VERY WELL MIND
+www.verywellmind.com##.related-link
+www.verywellmind.com##.sc-ads
+www.verywellmind.com##.article-feedback
+www.verywellmind.com##.sources
+www.verywellmind.com##.related-article-list
+www.verywellmind.com##.mntl-dotdash-universal-nav
+www.verywellmind.com##.global-nav
+www.verywellmind.com##.certified-badges
+www.verywellmind.com##.footer-logo
+www.verywellmind.com##.mntl-article-sources
+www.verywellmind.com##.prefooter-content
+www.verywellmind.com##*[id*="related-article-list_"]
+www.verywellmind.com##.mntl-bylines__group--author
 
 ! VIKING DIRECT
 www.viking-direct.co.uk###siteflash
