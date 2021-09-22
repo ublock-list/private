@@ -113,6 +113,7 @@
 ||forextrading2.online
 ||fortifi.io
 ||fortune.com
+||fwmrm.net
 ||gaut-hil.com
 ||get-express-vpn.com
 ||ggpht.com
@@ -663,6 +664,7 @@ amazon.co.uk###aod-recommendations
 amazon.co.uk###smart-wagon-recommendations-atf
 amazon.co.uk###smart-wagon-recommendations-btf
 amazon.co.uk###nav-ab-acquisition
+amazon.co.uk###footer
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -959,6 +961,15 @@ autotrader.co.uk###advert-end
 autotrader.co.uk##*[data-gui="ms-ctm-insurance-section"]
 autotrader.co.uk##*[data-gui="part-ex-promo"]
 autotrader.co.uk##*[data-gui="buying-safely-panel"]
+autotrader.co.uk##:xpath(//div[child::a[contains(@href, 'https://partnerships-motor-gateway.comparethemarket.com')]])
+autotrader.co.uk##:xpath(//div[child::a[contains(@href, '/finance-calculator')]])
+autotrader.co.uk##:xpath(//section[child::span[contains(text(), 'Click and collect')]])
+autotrader.co.uk##:xpath(//section[child::span[contains(text(), 'Home delivery')]])
+autotrader.co.uk##:xpath(//section[child::a[contains(text(), 'Live video')]])
+autotrader.co.uk##:xpath(//section[child::a[contains(text(), 'COVID-19 safety measures')]])
+autotrader.co.uk##:xpath(//div[child::div[child::p[contains(text(), 'Our awards')]]])
+autotrader.co.uk##img[alt="Seller Logo"]
+autotrader.co.uk###part-exchange-promo-form
 
 ! AV FORUMS
 www.avforums.com##.p-body-sidebar
@@ -1367,6 +1378,10 @@ cambridgemask.com###shopify-section-announcement
 
 ! CAMEL CAMEL CAMEL
 uk.camelcamelcamel.com##.baller
+
+! CAR BUYER
+www.carbuyer.co.uk##.fancybox-overlay
+www.carbuyer.co.uk##.fancybox-lock:style(overflow: auto !important;)
 
 ! CAR KEYS
 www.carkeys.co.uk##.cc-grower
@@ -3437,18 +3452,21 @@ www.nationaltrust.org.uk##.nt-primary-cta
 www.nationaltrust.org.uk##.nt-social-links
 
 ! NBC NEWS
-www.nbcnews.com##.breaking-marquee
-www.nbcnews.com##.mini-tease-local
-www.nbcnews.com##.watch-now
-www.nbcnews.com##.share-list
-www.nbcnews.com##.related
-www.nbcnews.com##.endmark
-www.nbcnews.com##.newsletter-signup__container
-www.nbcnews.com##.articleBylineContainer
-www.nbcnews.com##.peacock
-www.nbcnews.com##.brands
-www.nbcnews.com##.recommended-intersection-ref
-www.nbcnews.com##.local-news
+nbcnews.com##.breaking-marquee
+nbcnews.com##.mini-tease-local
+nbcnews.com##.watch-now
+nbcnews.com##.share-list
+nbcnews.com##.related
+nbcnews.com##.endmark
+nbcnews.com##.newsletter-signup__container
+nbcnews.com##.articleBylineContainer
+nbcnews.com##.peacock
+nbcnews.com##.brands
+nbcnews.com##.recommended-intersection-ref
+nbcnews.com##.local-news
+nbcnews.com##:xpath(//p[child::strong[contains(text(), 'Related:')]])
+nbcnews.com##:xpath(//p[child::em[child::strong[child::a[contains(@href, 'https://smart.link/')]]]])
+nbcnews.com##.videoPlayer:style(position: static !important;)
 
 ! NEOWIN
 www.neowin.net###promos
@@ -4085,6 +4103,7 @@ quora.com##body.signup_wall_prevent_scroll #root:style(filter: none !important;)
 quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Questions')]]]]]]]]]])
 quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]]]])
 quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]]]]) ~ *
+quora.com##.qu-zIndex--blocking_wall
 
 ! RAC
 www.rac.co.uk##.sidebar
@@ -4589,6 +4608,12 @@ www.smallnetbuilder.com##.cadre_alert_cookies
 www.smashingmagazine.com##.c-promo-box
 www.smashingmagazine.com##.feature-panel-container
 
+! SMALLNETBUILDER FORUMS
+www.snbforums.com##.js-bottomFixTarget
+www.snbforums.com##.js-notices
+www.snbforums.com##.p-body-sidebar
+www.snbforums.com##.similarthreads-wrapper-wide
+
 ! SONOS
 en.community.sonos.com##.cookiebar
 en.community.sonos.com##.custom-sidebar
@@ -5051,6 +5076,7 @@ dailymail.co.uk##amp-iframe
 dailymail.co.uk##.more
 dailymail.co.uk##.menu-more-stories
 dailymail.co.uk##.author
+dailymail.co.uk###next-story
 
 ! THE DAILY STAR
 www.dailystar.co.uk##.factbox
