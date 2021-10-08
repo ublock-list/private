@@ -740,6 +740,13 @@ ao.com##.promoContainer
 ao.com##.finance-messaging
 ao.com##.text-deals:not([data-testid="price-now"])
 
+! APPLE
+www.apple.com##.rs-storehome-app
+www.apple.com##.rs-shop-chatstore-section
+www.apple.com##.as-footnotes
+www.apple.com##.ribbon
+www.apple.com##.ac-gf-sosumi
+
 ! APPLIANCES DIRECT
 www.appliancesdirect.co.uk##.cc-window
 www.appliancesdirect.co.uk###reassurance-mob
@@ -860,6 +867,9 @@ www.autocar.co.uk##.cta--button
 www.autocar.co.uk##.footer
 www.autocar.co.uk##.col-right
 www.autocar.co.uk##.author
+www.autocar.co.uk##.block-related-news
+www.autocar.co.uk##.personality-type
+www.autocar.co.uk##.personality-author
 ||www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/save_you_money_*.jpg$image
 ||www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/what-car-new-buying-*.jpg$image
 
@@ -1464,8 +1474,12 @@ www.carsuk.net##.entry-author
 www.carsuk.net##.jp-relatedposts
 www.carsuk.net##.entry-footer
 www.carsuk.net##.after-entry
-www.carsuk.net##.comment-respond
 www.carsuk.net##.footer-widgets-6
+
+! CARTA
+carta.com###privacy-consent-modal
+carta.com##.modal-backdrop
+app.carta.com###aisera-webchat
 
 ! CBR
 www.cbr.com##.next-single
@@ -1636,6 +1650,16 @@ crunchyroll.com##.top-news
 
 ! CSS TRICKS
 css-tricks.com##.fem-ad
+
+! CURRENCY CONVERTER X
+www.currencyconverterx.com##.block-after-head
+www.currencyconverterx.com##.header__link_tradays
+www.currencyconverterx.com##.header__link_mt5
+www.currencyconverterx.com##.block__link_mt5
+www.currencyconverterx.com##iframe
+www.currencyconverterx.com##.footer__app-links
+www.currencyconverterx.com##.block__link_webterminal
+www.currencyconverterx.com##.convert-form__link-tradays
 
 ! CURRYS
 www.currys.co.uk##.top-services
@@ -2764,6 +2788,9 @@ www.icy-veins.com###footer_content_links
 www.icy-veins.com###user_bar
 www.icy-veins.com###box_author
 www.icy-veins.com###right
+www.icy-veins.com###topic_follow
+www.icy-veins.com###go_premium
+www.icy-veins.com###elUserNav
 
 ! IGN
 www.ign.com##.sign-in-button
@@ -3032,6 +3059,12 @@ www.johnlewis.com##*[class*="promo-messages_promo__"]
 www.johnlewis.com##.additional-services
 www.johnlewis.com##jl-recommendations-panel
 
+! JUSTIN GUITAR
+www.justinguitar.com##.donation-tile
+www.justinguitar.com##.disqus
+www.justinguitar.com##.footer__row--bottom
+www.justinguitar.com##.pg__badges
+
 ! KENT ADULT EDUCATION
 www.kentadulteducation.co.uk##.newsletter-widget
 www.kentadulteducation.co.uk##.social-share-widget
@@ -3133,6 +3166,11 @@ www.lbc.co.uk##.contact_bar
 www.lbc.co.uk##.level1_wrapper
 www.lbc.co.uk##.footer
 www.lbc.co.uk##.social-share
+
+! LEASING OPTIONS
+www.leasingoptions.co.uk##.modal
+www.leasingoptions.co.uk##.modal-backdrop
+www.leasingoptions.co.uk##.modal-open:style(overflow: auto !important;)
 
 ! LIFEHACK
 www.lifehack.org##.cf-overlay
@@ -3353,6 +3391,12 @@ meetup.com##:xpath(//div[child::div[child::div[child::div[child::h4[contains(tex
 meetup.com##:xpath(//div[child::div[child::div[child::span[contains(text(), 'Share:')]]]])
 meetup.com##.relatedEvents
 meetup.com##.seeAllMeetups
+meetup.com###meetup_serendipity
+meetup.com###a11y-announcement
+meetup.com##*[data-testid="UpcomingRsvp"]
+meetup.com##*[data-event-label="Check out what's happening"]
+meetup.com##*[data-event-label="Starting Soon Events Shelf"]
+meetup.com##:xpath(//div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'Stories from Meetup')]]]]]])
 
 ! MERRIUM WEBSTER DICTIONARY
 www.merriam-webster.com##.right-rail
@@ -3702,6 +3746,14 @@ pagesix.com##html.no-scroll:style(overflow: auto !important;)
 ! NEW YORK TIMES
 nytimes.com###acm-wrapper
 nytimes.com##+js(cookie-remover)
+
+! ODEALO
+odealo.com##.payment-features
+odealo.com##.banner-carousel
+odealo.com##.section-main-header
+odealo.com###hp-custom-boxes-1
+odealo.com##.payment-security
+odealo.com###hp-thirdBox
 
 ! OFFICE FOR NATIONAL STATISTICS
 www.ons.gov.uk##.cookies-banner
@@ -4102,6 +4154,10 @@ www.polygon.com##.c-related-list
 www.polygon.com##.c-compact-river
 www.polygon.com##.c-footer__section-vox
 www.polygon.com##.l-col__sidebar
+www.polygon.com##.c-action-box
+www.polygon.com##.c-entry-hero__meta
+www.polygon.com##.c-entry-hero--default.c-entry-hero > .c-byline
+www.polygon.com##.c-group-disclosure-ecomm
 
 ! POPULAR MECHANICS
 www.popularmechanics.com##.breaker-ad
@@ -4176,30 +4232,30 @@ protonmail.com###ht-kb-rate-article
 protonmail.com###ht-kb-related-articles
 
 ! PSARIPS
-||x265.club/wp-content/uploads/pic/72_9.png$image
-||x265.club/wp-content/uploads/pic/30_25.png$image
-||x265.club/wp-content/uploads/pic/30_25_1.png$image
-||x265.club/wp-content/uploads/pic/72_9_1.png$image
-||x265.club/wp-content/uploads/pic/72_9_1.png$image
-||x265.club/wp-content/uploads/pic/30_25_1.png$image
-x265.club##.group.hu-pad.page-title
-x265.club##.sidebar-content
-x265.club##.themeform.entry > p
-x265.club###header-image-wrap
-x265.club##.widget_custom_html
-x265.club###alxtabs-7
-x265.club###alxtabs-8
-x265.club###alxtabs-9
-x265.club##.widget_tag_cloud
-x265.club###wpd-post-rating
-x265.club.one##.post-byline
-x265.club##.post-tags
-x265.club###content div.hu-pad.group > article.post ~ *
-x265.club##.widget_calendar
-x265.club##:xpath(//li[contains(@class, 'menu-item') and descendant::a[contains(@href, '/support-us/')]])
-x265.club##.new-site-image
-x265.club##.sidebar-content
-x265.club###footer-widgets
+||psarips.top/wp-content/uploads/pic/72_9.png$image
+||psarips.top/wp-content/uploads/pic/30_25.png$image
+||psarips.top/wp-content/uploads/pic/30_25_1.png$image
+||psarips.top/wp-content/uploads/pic/72_9_1.png$image
+||psarips.top/wp-content/uploads/pic/72_9_1.png$image
+||psarips.top/wp-content/uploads/pic/30_25_1.png$image
+psarips.top##.group.hu-pad.page-title
+psarips.top##.sidebar-content
+psarips.top##.themeform.entry > p
+psarips.top###header-image-wrap
+psarips.top##.widget_custom_html
+psarips.top###alxtabs-7
+psarips.top###alxtabs-8
+psarips.top###alxtabs-9
+psarips.top##.widget_tag_cloud
+psarips.top###wpd-post-rating
+psarips.top##.post-byline
+psarips.top##.post-tags
+psarips.top###content div.hu-pad.group > article.post ~ *
+psarips.top##.widget_calendar
+psarips.top##:xpath(//li[contains(@class, 'menu-item') and descendant::a[contains(@href, '/support-us/')]])
+psarips.top##.new-site-image
+psarips.top##.sidebar-content
+psarips.top###footer-widgets
 
 ! PURE EARTH
 www.purearth.co.uk###site-banner-block
@@ -4330,6 +4386,11 @@ reddit.com##.ShareCTA
 reddit.com##:xpath(//div[child::div[contains(@class, 'TopPosts')]])
 reddit.com##:xpath(//div[child::div[contains(@class, 'TopPosts')]]) ~ *
 reddit.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Powerup r/')]]]])
+reddit.com##*[id*="subscribe-button-"]
+reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::h3[contains(text(), 'Top livestream')]]]]]])
+reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[contains(text(), 'Trending today')]]]]])
+reddit.com##:xpath(//div[contains(text(), 'Popular posts')])
+reddit.com##:xpath(//div[contains(text(), 'Popular posts')]) + div
 reddit.com##*[id*="subscribe-button-"]
 
 ! REED
@@ -4851,6 +4912,10 @@ store.steampowered.com###specials_container
 store.steampowered.com##.mature_content_filtered
 store.steampowered.com##.broadcast_embed_top_ctn_trgt
 store.steampowered.com##.contenthub_featured_item_spotlight
+store.steampowered.com###awardsTable
+store.steampowered.com##.responsive_apppage_reviewblock
+store.steampowered.com###achievement_block
+store.steampowered.com###franchise_block
 
 ! STRIPE
 stripe.com##.CookieBanner
@@ -4914,6 +4979,15 @@ www.t3.com##.hawk-nest
 www.t3.com##.tag-links
 www.t3.com##.topbutton
 www.t3.com##.author
+
+! TABLETOP GAMING
+www.tabletopgaming.co.uk###NewsletterSignUpPanel
+www.tabletopgaming.co.uk##*[id*="popup-modal-"]
+www.tabletopgaming.co.uk##.latest-posts-sidebar
+www.tabletopgaming.co.uk##.comments
+www.tabletopgaming.co.uk##:xpath(//p[child::em[contains(text(), 'This review originally appeared in')]])
+www.tabletopgaming.co.uk##:xpath(//p[child::em[contains(text(), 'This article originally appeared in')]])
+www.tabletopgaming.co.uk##:xpath(//p[child::em[contains(text(), 'Sometimes we may include links')]])
 
 ! TABLETOPIA
 tabletopia.com##.js-get-premium
@@ -6056,6 +6130,9 @@ udemy.com##:xpath(//div[child::h2[contains(text(), 'Why learn on Udemy?')]])
 udemy.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Students are viewing')]]]])
 udemy.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Because you searched for')]]]])
 
+! ULTIMATE GUITAR
+tabs.ultimate-guitar.com##.SiteWideBanner
+
 ! UK GOVERNMENT
 www.gov.uk##.gem-c-share-links
 
@@ -6460,6 +6537,18 @@ www.whatcar.com##*[class*="OurPickList_ourPicksList"]
 www.whatcar.com##*[class*="footerWc_classFooterBrandDetails"]
 www.whatcar.com##a[href*="https://www.ipso.co.uk"]
 www.whatcar.com##*[class*="ReviewAtAGlance_footer"]
+www.whatcar.com##*[class*="ArticleTemplate_masthead__"]
+www.whatcar.com##*[class*="Label_container__"]
+www.whatcar.com##*[class*="DiscoveryWidget_container__"]
+www.whatcar.com##*[class*="FragmentDFPAdvert_"]
+www.whatcar.com##*[class*="FragmentTagLinks_tagsContainer__"]
+www.whatcar.com##*[class*="NewsWidget_container__"]
+www.whatcar.com##*[class*="AlsoConsiderWrapper_"]
+www.whatcar.com##:xpath(//p[child::strong[contains(text(), 'sign up to the What Car? newsletter')]])
+www.whatcar.com##:xpath(//p[child::strong[contains(text(), 'sign up to the What Car? newsletter')]]) ~ *
+www.whatcar.com##*[class*="DriftrockInlineFormCTA_"]
+www.whatcar.com##*[class*="ReviewAtAGlance_reviewButtonsWrapper__"]
+www.whatcar.com##iframe[src="https://www.youtube.com/embed/PAMGwqGJVKM"]
 
 ! WHICH
 which.co.uk##.wm-share-block
