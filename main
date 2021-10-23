@@ -1149,6 +1149,11 @@ bbc.*##*[id*="parent_has_typical_ingredient_"]
 bbc.*##*[id*="parent_variety_of_"]
 bbc.*##.recipe-is-from-widget__content
 bbc.*##.seasonal-promo-banner
+bbc.*##:xpath(//div[@data-component="crosshead-block" and child::h2[contains(text(), 'You might be interested in')]])
+bbc.*##:xpath(//div[@data-component="crosshead-block" and child::h2[contains(text(), 'You might be interested in')]]) ~ *
+bbc.*##:xpath(//div[child::figure[child::div[child::span[child::span[child::img[contains(@alt, 'Analysis box by')]]]]]])
+bbc.*##:xpath(//div[child::figure[child::div[child::span[child::span[child::img[contains(@alt, 'More on')]]]]]])
+bbc.*##section[data-component="around-the-bbc"]
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
@@ -1575,6 +1580,12 @@ www.cnet.com##.leadButton
 www.cnet.com##.instagramContainer
 www.cnet.com###article-body > .col-4
 www.cnet.com##.c-footer_site
+
+! CNN
+edition.cnn.com###footer-nav-container
+edition.cnn.com##*[class*="LiveTVWrap"]
+edition.cnn.com##.metadata__byline
+edition.cnn.com##.byline-images
 
 ! COIN MARKET CAP
 coinmarketcap.com##.search-sponsor
@@ -2533,6 +2544,9 @@ www.gumtree.com##.header-nav-messages
 www.gumtree.com###partnerships
 www.gumtree.com##.sponsored-link-spot
 www.gumtree.com##.vip-save-ad
+www.gumtree.com##.treebay
+www.gumtree.com##.related-carousel
+www.gumtree.com##*[id*="partnerAdDefault"]
 
 ! HABITAT FOR HUMANITY
 www.habitatforhumanity.org.uk##.mobile-bar__btn--heart
@@ -2572,6 +2586,7 @@ healthline.com###read-next
 healthline.com##section[style="position:relative;margin-top:0"]
 healthline.com###newsletter-subscription-dialog
 healthline.com##:xpath(//article/div/div[child::aside])
+healthline.com##:xpath(//div[child::div[child::div[child::div[child::div[child::h4[contains(text(), 'how likely are you to recommend')]]]]]])
 
 ! HEVER CASTLE
 www.hevercastle.co.uk##.modals
@@ -2707,6 +2722,13 @@ www.huffpost.com###zone-c
 www.huffpost.com##.redesign-promo
 www.huffpost.com##.js-newsletter-container
 www.huffpost.com##.got-a-tip
+www.huffpost.com##.card--section
+www.huffpost.com##.nav__right__profile__subscription-button
+www.huffpost.com###zone-trending
+www.huffpost.com##.entry-wirepartner
+www.huffpost.com###rightRailTrending
+www.huffpost.com##.cli-related-articles
+www.huffpost.com##.vidible-wrapper
 
 ! HUFFINGTON POST (MOBILE)
 m.huffpost.com##.share-bar
@@ -2740,6 +2762,15 @@ www.huffingtonpost.co.uk###zone-personal
 www.huffingtonpost.co.uk##.zone--theme-life
 www.huffingtonpost.co.uk##.got-a-tip
 www.huffingtonpost.co.uk##.redesign-promo
+www.huffingtonpost.co.uk##.top-media
+www.huffingtonpost.co.uk##.author-byline
+www.huffingtonpost.co.uk##.stickyNav_skin_life
+www.huffingtonpost.co.uk##.related-entries
+www.huffingtonpost.co.uk##.tag-cloud
+www.huffingtonpost.co.uk##.related
+www.huffingtonpost.co.uk###conversations
+www.huffingtonpost.co.uk##.bounceInDown
+www.huffingtonpost.co.uk##.entry-eyebrow
 
 ! HUFFINGTON POST (UK MOBILE)
 m.huffingtonpost.co.uk##.share-bar
@@ -3627,6 +3658,7 @@ nbcnews.com##.local-news
 nbcnews.com##:xpath(//p[child::strong[contains(text(), 'Related:')]])
 nbcnews.com##:xpath(//p[child::em[child::strong[child::a[contains(@href, 'https://smart.link/')]]]])
 nbcnews.com##.videoPlayer:style(position: static !important;)
+nbcnews.com##.nl-signup-inline
 
 ! NEOWIN
 www.neowin.net###promos
@@ -3675,6 +3707,27 @@ www.newsshopper.co.uk##.top-nav
 www.newsshopper.co.uk##.author-details
 www.newsshopper.co.uk##.article-continuation
 www.newsshopper.co.uk##.most-popular-block
+
+! NEWSWEEK
+www.newsweek.com##.author
+www.newsweek.com##.pelcro-subscribe-button
+www.newsweek.com##aside
+www.newsweek.com##.page-sidebar
+www.newsweek.com##.filed-under
+www.newsweek.com##.trinityAudioPlaceholder
+www.newsweek.com##.promo-link
+www.newsweek.com##.tiktok-embed
+www.newsweek.com##.related2
+www.newsweek.com##.content-correction
+www.newsweek.com###block-ibtmedia-facebook-facebook-comment
+www.newsweek.com###recommended
+www.newsweek.com###block-nw-content-recirc
+www.newsweek.com##.page-footer
+www.newsweek.com###sticky3
+www.newsweek.com##.content-right
+www.newsweek.com###sticky1
+www.newsweek.com##.magazine
+www.newsweek.com###block-nw-editors-pick
 
 ! NHS
 www.nhs.uk###nhsuk-cookie-banner
@@ -4025,6 +4078,8 @@ pcmag.com##.iframe-wrapper
 pcmag.com##*[x-data="window.newsletters()"]
 pcmag.com##.vplayer
 pcmag.com##.wheretobuy
+pcmag.com##.breadcrumbs
+pcmag.com##address
 ||mashable.com/videos/blueprint*$subdocument
 
 ! PC WORLD
@@ -4286,6 +4341,7 @@ quora.com##body.signup_wall_prevent_scroll #root:style(filter: none !important;)
 quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Questions')]]]]]]]]]])
 quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]]]])
 quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]]]]) ~ *
+quora.com##:xpath(//div[@class="q-box" and child::div[child::div[child::div[child::div[child::div[child::div[child::div[text() ="Related Questions"]]]]]]]])
 quora.com##.qu-zIndex--blocking_wall
 quora.com##.content-monetization-wall
 
@@ -5401,6 +5457,11 @@ independent.co.uk##:xpath(//div[child::amp-twitter])
 independent.co.uk##*[id*="playinc-article-component"]
 independent.co.uk##.grecaptcha-badge
 
+! THE LUDOQUIST
+www.theludoquist.com###shopify-section-footer
+www.theludoquist.com###kudobuzz_neptune_widget
+www.theludoquist.com##.header_icons
+
 ! THE METRO
 metro.co.uk###we-need-monies
 metro.co.uk##.metro-discounts
@@ -5903,6 +5964,7 @@ www.tomsguide.com##aside
 
 ! TOM'S HARDWARE
 tomshardware.com##.region_redirect_popup
+tomshardware.com##.regionRedirectBanner
 tomshardware.com###affiliateDisclaimer
 tomshardware.com##.masthead-item.buttons-social
 tomshardware.com##.newsletter-signup.box
@@ -6076,6 +6138,15 @@ www.tweaktown.com##:xpath(//ul[child::li[child::span[child::strong[contains(text
 www.tweaktown.com###content-crumbbar
 www.tweaktown.com##.news-sources
 www.tweaktown.com##.center-tag-search
+
+! TWITCH
+twitch.tv##.featured-content-carousel
+twitch.tv##.headliner-ad
+twitch.tv##.front-page-carousel
+twitch.tv##.find-me
+twitch.tv##.search-result-related-live-channels__row-container
+twitch.tv##.side-nav__scrollable_content
+twitch.tv##.prime-offers
 
 ! TWITTER (mobile)
 ! N.B. Breaks all modals - fine for me
@@ -6683,55 +6754,56 @@ www.windowslatest.com##.td-footer-bottom-full
 www.windowslatest.com##.td-post-source-tags
 
 ! WIRED
-www.wired.*##.journey-template--paywall-bar
-www.wired.*##.ad--mid-content.ad
-www.wired.*##.cm-hero-container
-www.wired.*##.social-icons
-www.wired.*##ul.c-card-section__card-list:style(margin-right: 0 !important;)
-www.wired.*##.tg-header__topic-strip
-www.wired.*##.c-nav__social
-www.wired.*##.c-top-stories
-www.wired.*##.c-top-stories-lazy-load
-www.wired.*##.ad__main
-www.wired.*##.a-sidebar-content
-www.wired.*###more-great-stories-from-wired
-www.wired.*###more-great-stories-from-wired ~ *
-www.wired.*##.a-related-tags
-www.wired.*##.c-card-section--a-recommended
-www.wired.*##article.a-main ~ *
-www.wired.*##.a-body__wrapper:style(padding: 0 !important;)
-www.wired.*##.c-nav__promo
-www.wired.*##.c-newsletter
-www.wired.*##.consumer-marketing-unit--nav-dialog
-www.wired.*##.consumer-marketing-unit--nav-cta
-www.wired.*##.cm-subscribe-link-wrapper
-www.wired.*##.grid-layout__aside
-www.wired.*##.newsletter-subscribe-form
-www.wired.*##.ad
-www.wired.*##.article.main-content .grid:style(display: block !important;)
-www.wired.*##.article.main-content ~ *
-www.wired.*##.page__main-footer-filler
-www.wired.*##.page__main-footer-filler + div
-www.wired.*##.article.main-content hr + div.heading-h3
-www.wired.*##.article.main-content hr + div.heading-h3 ~ *
-www.wired.*##.most-popular-side-bar-component
-www.wired.*##.subscribe-panel-component
-www.wired.*##.link-banner
-www.wired.*##:xpath(//p[child::a[contains(@href, '/subscribe/')]])
-www.wired.*##:xpath(//blockquote[descendant::a[contains(@href, '/affiliate-link-policy/')]])
-www.wired.*##:xpath(//div[child::aside[contains(@class, 'paywall-modal')]])
-www.wired.*##.site-footer__brand-info
-www.wired.*##.standard-navigation__section--utility-links
-www.wired.*##*[data-testid="BylinesWrapper"]
-www.wired.*##:xpath(//div[child::div[child::div[child::strong[contains(text(), 'More great stories from WIRED')]]]])
-www.wired.*##:xpath(//div[child::div[child::strong[contains(text(), 'More great stories from WIRED')]]])
-www.wired.*##:xpath(//div[child::div[child::div[child::h3[contains(text(), 'More From WIRED')]]]])
-www.wired.*##.homepage__related-row
-www.wired.*##.site-footer__logo
-www.wired.*##*[class*="SiteFooterAbout"]
-www.wired.*##.ticker-view
-www.wired.*##.ad-stickyhero
-www.wired.*##.grid--item.disclaimer
+wired.*##.journey-template--paywall-bar
+wired.*##.ad--mid-content.ad
+wired.*##.cm-hero-container
+wired.*##.social-icons
+wired.*##ul.c-card-section__card-list:style(margin-right: 0 !important;)
+wired.*##.tg-header__topic-strip
+wired.*##.c-nav__social
+wired.*##.c-top-stories
+wired.*##.c-top-stories-lazy-load
+wired.*##.ad__main
+wired.*##.a-sidebar-content
+wired.*###more-great-stories-from-wired
+wired.*###more-great-stories-from-wired ~ *
+wired.*##.a-related-tags
+wired.*##.c-card-section--a-recommended
+wired.*##article.a-main ~ *
+wired.*##.a-body__wrapper:style(padding: 0 !important;)
+wired.*##.c-nav__promo
+wired.*##.c-newsletter
+wired.*##.consumer-marketing-unit--nav-dialog
+wired.*##.consumer-marketing-unit--nav-cta
+wired.*##.cm-subscribe-link-wrapper
+wired.*##.grid-layout__aside
+wired.*##.newsletter-subscribe-form
+wired.*##.ad
+wired.*##.article.main-content .grid:style(display: block !important;)
+wired.*##.article.main-content ~ *
+wired.*##.page__main-footer-filler
+wired.*##.page__main-footer-filler + div
+wired.*##.article.main-content hr + div.heading-h3
+wired.*##.article.main-content hr + div.heading-h3 ~ *
+wired.*##.most-popular-side-bar-component
+wired.*##.subscribe-panel-component
+wired.*##.link-banner
+wired.*##:xpath(//p[child::a[contains(@href, '/subscribe/')]])
+wired.*##:xpath(//blockquote[descendant::a[contains(@href, '/affiliate-link-policy/')]])
+wired.*##:xpath(//div[child::aside[contains(@class, 'paywall-modal')]])
+wired.*##.site-footer__brand-info
+wired.*##.standard-navigation__section--utility-links
+wired.*##*[data-testid="BylinesWrapper"]
+wired.*##:xpath(//div[child::div[child::div[child::strong[contains(text(), 'More great stories from WIRED')]]]])
+wired.*##:xpath(//div[child::div[child::strong[contains(text(), 'More great stories from WIRED')]]])
+wired.*##:xpath(//div[child::div[child::div[child::h3[contains(text(), 'More From WIRED')]]]])
+wired.*##.homepage__related-row
+wired.*##.site-footer__logo
+wired.*##*[class*="SiteFooterAbout"]
+wired.*##.ticker-view
+wired.*##.ad-stickyhero
+wired.*##.grid--item.disclaimer
+wired.*##:xpath(//p[contains(text(), 'WIRED Recommends is your')])
 
 ! WOODSHOP DIRECT
 www.woodshopdirect.co.uk##.targeted-message
