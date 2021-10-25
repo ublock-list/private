@@ -37,6 +37,9 @@
 ||blockchain.info
 ||blogginglass.com
 ||blueparrot.media
+||botsrv.com
+||botsrv1.com
+||botsrv2.com
 ||bp.blogspot.com
 ||cadsecz.com
 ||cbox.im
@@ -1154,6 +1157,14 @@ bbc.*##:xpath(//div[@data-component="crosshead-block" and child::h2[contains(tex
 bbc.*##:xpath(//div[child::figure[child::div[child::span[child::span[child::img[contains(@alt, 'Analysis box by')]]]]]])
 bbc.*##:xpath(//div[child::figure[child::div[child::span[child::span[child::img[contains(@alt, 'More on')]]]]]])
 bbc.*##section[data-component="around-the-bbc"]
+bbc.*##:xpath(//button[contains(text(), 'Share')])
+bbc.*##.lx-c-more-from
+bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'Analysis by Reality Check')]])
+bbc.*##:xpath(//div[contains(@data-component, 'image-block') and descendant::img[contains(@alt, 'Analysis by Reality Check')]]) ~ *
+bbc.*###bbccom_interstitial_ad
+bbc.*###bbccom_interstitial
+bbc.*###bbccom_wallpaper_ad
+bbc.*###bbccom_wallpaper
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
@@ -1166,39 +1177,43 @@ www.bbc.co.uk##.recipe-quick-links-wrapper
 www.bbc.co.uk##.recipe-ratings--cta
 
 ! BBC GOOD FOOD
-www.bbcgoodfood.com##.template-article__social-share
-www.bbcgoodfood.com##.sponsor-name__link
-www.bbcgoodfood.com###commentsFeed
-www.bbcgoodfood.com##.promotional-content
-www.bbcgoodfood.com##.template-article__footer
-www.bbcgoodfood.com##.site-footer__social-follow
-www.bbcgoodfood.com##.corporate-logo
-www.bbcgoodfood.com##.eyebrow-nav
-www.bbcgoodfood.com##.main-nav__nav > .list-item:nth-child(6)
-www.bbcgoodfood.com##.main-nav__nav > .list-item:nth-child(7)
-www.bbcgoodfood.com##.reactions-article-skiplink
-www.bbcgoodfood.com##.site-header__nav-section:style(top: 0 !important;)
-www.bbcgoodfood.com##.sidebar
-www.bbcgoodfood.com##section > hr
-www.bbcgoodfood.com##section > hr ~ *
-www.bbcgoodfood.com##.nativo
-www.bbcgoodfood.com##.nativo ~ *
-www.bbcgoodfood.com##.site-header__eyebrow-nav
-www.bbcgoodfood.com##.social-share
-www.bbcgoodfood.com##.terms-icons-list
-www.bbcgoodfood.com##.pocket
-www.bbcgoodfood.com##.post-header__promo
-www.bbcgoodfood.com##.post-header__info
-www.bbcgoodfood.com##.post__content-end
-www.bbcgoodfood.com##.highlight-box
-www.bbcgoodfood.com##.post__publication-link
-www.bbcgoodfood.com##:xpath(//h6[contains(text(), 'RECIPE TIPS')])
-www.bbcgoodfood.com##:xpath(//h6[contains(text(), 'RECIPE TIPS')]) ~ *
-www.bbcgoodfood.com##:xpath(//h3[contains(text(), 'Goes well with')])
-www.bbcgoodfood.com##:xpath(//h3[contains(text(), 'Goes well with')]) ~ *
+bbcgoodfood.com##.template-article__social-share
+bbcgoodfood.com##.sponsor-name__link
+bbcgoodfood.com###commentsFeed
+bbcgoodfood.com##.promotional-content
+bbcgoodfood.com##.template-article__footer
+bbcgoodfood.com##.site-footer__social-follow
+bbcgoodfood.com##.corporate-logo
+bbcgoodfood.com##.eyebrow-nav
+bbcgoodfood.com##.main-nav__nav > .list-item:nth-child(6)
+bbcgoodfood.com##.main-nav__nav > .list-item:nth-child(7)
+bbcgoodfood.com##.reactions-article-skiplink
+bbcgoodfood.com##.site-header__nav-section:style(top: 0 !important;)
+bbcgoodfood.com##.sidebar
+bbcgoodfood.com##section > hr
+bbcgoodfood.com##section > hr ~ *
+bbcgoodfood.com##.nativo
+bbcgoodfood.com##.nativo ~ *
+bbcgoodfood.com##.site-header__eyebrow-nav
+bbcgoodfood.com##.social-share
+bbcgoodfood.com##.terms-icons-list
+bbcgoodfood.com##.pocket
+bbcgoodfood.com##.post-header__promo
+bbcgoodfood.com##.post-header__info
+bbcgoodfood.com##.post__content-end
+bbcgoodfood.com##.highlight-box
+bbcgoodfood.com##.post__publication-link
+bbcgoodfood.com##:xpath(//h6[contains(text(), 'RECIPE TIPS')])
+bbcgoodfood.com##:xpath(//h6[contains(text(), 'RECIPE TIPS')]) ~ *
+bbcgoodfood.com##:xpath(//h3[contains(text(), 'Goes well with')])
+bbcgoodfood.com##:xpath(//h3[contains(text(), 'Goes well with')]) ~ *
 bbcgoodfood.com##:xpath(//div[contains(@class, 'elementor-element') and child::div[child::div[child::div[child::div[child::h2[child::a[contains(text(), 'BBC Good Food Podcast')]]]]]]])
 bbcgoodfood.com##:xpath(//div[contains(@class, 'elementor-element') and child::div[child::div[child::div[child::div[child::h2[contains(text(), 'Latest offers and promotions')]]]]]])
 bbcgoodfood.com##:xpath(//section[contains(@class, 'elementor-section') and child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'More from the brand')]]]]]]]]]]]])
+bbcgoodfood.com##.template-article__affiliate_messaging
+bbcgoodfood.com##.template-article__meta
+bbcgoodfood.com##.monetizer__price-comparison-container
+
 
 ! BIT TECH
 www.bit-tech.net##.author
@@ -1209,6 +1224,15 @@ www.bit-tech.net##.tags
 www.bit-tech.net###related_articles_container
 www.bit-tech.net##.settings-box-element
 www.bit-tech.net##.top_list
+
+! BLIZZARD
+forums.blizzard.com###banner
+forums.blizzard.com##.suggested-topics-wrapper
+forums.blizzard.com##.NavbarFooter-legal
+forums.blizzard.com##.NavbarFooter-downloadCta
+forums.blizzard.com##.NavbarFooter-logoContainer
+forums.blizzard.com##.signup-cta
+forums.blizzard.com##.post-links
 
 ! BLOOMBERG
 www.bloomberg.com###newsletter-modal
@@ -1317,6 +1341,9 @@ boardgamegeek.com##gg-livestream
 boardgamegeek.com##:xpath(//div[child::h2[contains(text(), 'Connect')]])
 boardgamegeek.com##gg-home-gone-cardboard
 boardgamegeek.com##gg-post-inline-ad
+boardgamegeek.com###cm
+boardgamegeek.com##.promoted-row
+boardgamegeek.com##.promoted-item
 
 ! BOARD GAME PRICES
 boardgameprices.co.uk##.expandee.newsletter
@@ -1519,6 +1546,9 @@ www.channel4.com##.more-from-factcheck
 www.channel4.com###vubblefeed
 www.channel4.com##.site-footer
 
+! CHEAP FLIGHTS
+www.cheapflights.co.uk##*[class*="gdpr-container"]
+
 ! CHELSFIELD MOTORWORKS
 www.chelsfieldmotorworks.com##.cc-cookies
 
@@ -1657,6 +1687,10 @@ crunchyroll.com##:xpath(//div[@id="showmedia_about_info_details"]/div[contains(t
 crunchyroll.com##.news-top-stories
 crunchyroll.com##.tags
 crunchyroll.com##.top-news
+crunchyroll.com##.news-right
+crunchyroll.com##.news-header-wrapper
+crunchyroll.com##.simulcast-calendar-footer
+crunchyroll.com##.premium-message
 ||crunchyroll.com/tracker$document,image,important
 
 ! CSS TRICKS
@@ -1745,6 +1779,11 @@ dictionary.com##a[data-feedback-link="true"]
 dictionary.com###quiz
 dictionary.com##:xpath(//div[child::button[@aria-label="save word"]])
 dictionary.com##:xpath(//div[child::h2[contains(text(), 'Words nearby')]])
+dictionary.com##.crb-sailthtru-subscribe_wrapper
+dictionary.com##.sidebar
+dictionary.com##.article-paging
+dictionary.com##.you-might-also-like
+dictionary.com##.breadcrumbs
 
 ! DIGITAL OCEAN
 www.digitalocean.com##.featured-content-header
@@ -1784,6 +1823,20 @@ www.digitaltrends.com##.dtvideos-container
 www.diynot.com##.similarthreadsplus
 www.diynot.com##.diy-inline-notice-before
 www.diynot.com###post-diynot-local
+
+! DOWN DETECTOR
+downdetector.com###tweets-card
+downdetector.com###comments-card
+downdetector.com###sidebar
+
+! DR AXE
+draxe.com##.sidebar
+draxe.com##.entry-content > h4
+draxe.com##.rmp-widgets-container
+draxe.com##.breadcrumbs
+draxe.com##.fact-check
+draxe.com##.author
+draxe.com##.recipe-ratings
 
 ! DROPBOX
 www.dropbox.com##.black.top-notification-bar-container
@@ -1858,6 +1911,33 @@ ebay.*##.hl-multi-cta-banner
 ebay.*##.hl-banner
 ebay.*##.hl-loyalty
 ebay.*##.s-item__sep-on-bottom
+
+! EBUYER
+www.ebuyer.com##.siteskin-links__item
+||image.ebuyer.com/customer/promos/*.jpg$image
+www.ebuyer.com##.home-banners
+www.ebuyer.com##.klarna-switcher__wrapper-main
+www.ebuyer.com##.home-categories
+www.ebuyer.com##.usp-wrapper
+www.ebuyer.com##.business-tiles
+www.ebuyer.com##:xpath(//div[contains(@class, 'js-cascade-drop') and child::a[child::img]])
+www.ebuyer.com##:xpath(//div[child::a[contains(@href, '/dailydeals')]])
+www.ebuyer.com##.js-latest-blog-posts
+www.ebuyer.com##.track-order
+www.ebuyer.com##.awards
+www.ebuyer.com##.ebuyer-intro
+www.ebuyer.com###footer-logos
+www.ebuyer.com##.finance-broker-message
+www.ebuyer.com##.copyright
+www.ebuyer.com##.drop-content__free-delivery
+www.ebuyer.com##.marketing-message
+www.ebuyer.com##.site-header__icon--dailydeals
+www.ebuyer.com##.banners
+www.ebuyer.com##.landing-page-content
+www.ebuyer.com##.finance-messaging
+www.ebuyer.com##.recommendations
+www.ebuyer.com##.purchase-info__finance
+www.ebuyer.com##.recently-viewed
 
 ! EHOW
 www.ehow.*##.social-share-icons
@@ -2086,20 +2166,22 @@ www.feastingathome.com##*[class*="adthrive"]
 www.feastingathome.com##.share-pin
 
 ! FIDELITY
-www.fidelity.co.uk##.whatsnew
-www.fidelity.co.uk##.ReactModal__Overlay
+fidelity.co.uk##.whatsnew
+fidelity.co.uk##.ReactModal__Overlay
+fidelity.co.uk##.ReactModal__Body--open:style(overflow: auto !important;)
 
 ! FIRST TUTORS
-www.firsttutors.com##.modal--cookies.modal
+www.firsttutors.com##.modal--cookies
 
 ! FINANCIAL TIMES (SUBSCRIPTION ONLY)
-www.ft.com##.o-subs-card__container
-www.ft.com##.n-feedback__container
-www.ft.com##.o-footer__brand
-www.ft.com##.barrier__util-padding--single
-www.ft.com##.o-header__anon
-www.ft.com##.barrier-banner__content
-www.ft.com##.barrier__util-text--center
+ft.com##.o-subs-card__container
+ft.com##.n-feedback__container
+ft.com##.o-footer__brand
+ft.com##.barrier__util-padding--single
+ft.com##.o-header__anon
+ft.com##.barrier-banner__content
+ft.com##.barrier__util-text--center
+ft.com##:xpath(//div[child::h3[contains(text(), 'Related')]])
 
 ! FIRESTORM CARDS
 firestormcards.co.uk##.block-recently-viewed-products
@@ -2587,6 +2669,14 @@ healthline.com##section[style="position:relative;margin-top:0"]
 healthline.com###newsletter-subscription-dialog
 healthline.com##:xpath(//article/div/div[child::aside])
 healthline.com##:xpath(//div[child::div[child::div[child::div[child::div[child::h4[contains(text(), 'how likely are you to recommend')]]]]]])
+healthline.com##:xpath(//div[child::div[child::div[child::div[child::div[child::h4[contains(text(), 'Based on this experience')]]]]]])
+healthline.com##:xpath(//div[child::div[child::div[@data-article-body="0"]]]) ~ *
+healthline.com##a[data-event*="Navigation|breadcrumb"]
+healthline.com##a[data-event*="Navigation|breadcrumb"] + button
+healthline.com##hl-newsletter-cta
+healthline.com##hl-social-nav
+healthline.com##*[data-testid="branding-panel-button"]
+healthline.com##:xpath(//div[child::div[child::div[child::div[contains(@class, 'reddit')]]]])
 
 ! HEVER CASTLE
 www.hevercastle.co.uk##.modals
@@ -2868,6 +2958,8 @@ ikea.com##.pub__teaser
 ikea.com##.search-list--related-searches
 ikea.com##:xpath(//div[contains(@class, 'result-collection') and child::h2[contains(text(), 'Similar products')]])
 ikea.com##:xpath(//div[contains(@class, 'result-collection') and child::h2[contains(text(), 'Recommended content')]])
+ikea.com##.rec-teaser
+ikea.com##.planner-mobile-display-hiding
 
 ! IMAGERAIDER
 imageraider.com###myGContainer
@@ -3197,6 +3289,35 @@ www.lbc.co.uk##.contact_bar
 www.lbc.co.uk##.level1_wrapper
 www.lbc.co.uk##.footer
 www.lbc.co.uk##.social-share
+
+! LEASING
+leasing.com##.header-carousel-container
+leasing.com##.sponsored
+leasing.com##.popular-search
+leasing.com##.right-panel
+leasing.com##.bestdeals-signup
+leasing.com##.white-block
+leasing.com##.zendeskwrapper
+leasing.com##.save-search
+leasing.com##.footer-links
+leasing.com##.reviewsio-widget-header
+leasing.com##.toppicks-news
+leasing.com##.home-news2
+leasing.com##.reviewsio-widget
+leasing.com##.account-signup
+leasing.com##.guidetoleasing
+leasing.com##.why-lease
+leasing.com##.usp.wrapper
+leasing.com##.promo
+leasing.com##.ldc-search-panel:style(margin: 0 auto !important;)
+leasing.com##*[role="main"] > section ~ *
+leasing.com##.go-back
+leasing.com##.breadcrumbs
+leasing.com##a[href*="/car-leasing-news/author/"]
+leasing.com##.author-image
+leasing.com##.comments-panel
+leasing.com##.categories
+leasing.com##.prev-post
 
 ! LEASING OPTIONS
 www.leasingoptions.co.uk##.modal
@@ -4018,6 +4139,7 @@ pcgamer.com##.popular-box
 pcgamer.com##.fancy-box
 pcgamer.com##.van_vid_carousel
 pcgamer.com##.by-author
+pcgamer.com##.regionRedirectBanner
 
 ! PC GAMES NETWORK
 pcgamesn.com##.social_cta
@@ -4105,6 +4227,14 @@ www.pcworld.com##.cat-narrow
 ! PETS 4 HOMES
 www.pets4homes.co.uk##.rescue-campaign
 
+! PHARMACY ONLINE
+www.pharmacyonline.co.uk##.staticBlock
+www.pharmacyonline.co.uk##.deliveryTimer
+www.pharmacyonline.co.uk##.trustLogoBar
+www.pharmacyonline.co.uk##.footerLogoArea
+www.pharmacyonline.co.uk##.paymentsBar
+www.pharmacyonline.co.uk##.uspBanner
+
 ! PINCH OF NOM
 pinchofnom.com##body > header:style(top: 0 !important;)
 pinchofnom.com##.pon-heading-2:style(padding-top: 0 !important;)
@@ -4151,6 +4281,14 @@ www.playboardgames.co.uk##.payment-types
 www.playboardgames.co.uk###smile-ui-container
 
 ! PLEX
+plex.tv##:xpath(//div[child::div[child::p[contains(text(), 'We value your privacy.')]]])
+plex.tv##:xpath(//div[child::div[child::h2[contains(text(), 'Related Movies on Plex')]]])
+plex.tv##:xpath(//div[child::div[child::h2[contains(text(), 'Cast')]]])
+plex.tv##:xpath(//div[child::div[child::h2[contains(text(), 'Cast')]]]) + div
+plex.tv##:xpath(//div[child::div[child::h2[contains(text(), 'Videos')]]])
+plex.tv##:xpath(//div[child::div[child::h2[contains(text(), 'Videos')]]]) + div
+plex.tv##:xpath(//div[child::p[contains(text(), 'Take Plex everywhere.')]])
+plex.tv##:xpath(//ul[child::li[child::a[contains(@href, 'https://www.facebook.com/plexapp')]]])
 forums.plex.tv##.topic-map-expanded
 forums.plex.tv##.toggle-summary.information
 forums.plex.tv##.suggested-topics-wrapper
@@ -4475,6 +4613,27 @@ www.rhsplants.co.uk##.product-socials
 www.rhsplants.co.uk##.cookies-notice
 www.rhsplants.co.uk###info-panel-general
 www.rhsplants.co.uk##.offers.menu-item
+
+! RICHER SOUNDS
+www.richersounds.com##.unique-selling-points__wrapper
+www.richersounds.com##.widget
+www.richersounds.com##.section-deals-of-the-week
+www.richersounds.com##.desktop-only
+www.richersounds.com##.pagebuilder-mobile-hidden
+www.richersounds.com##.header-icon.vip-link
+www.richersounds.com##.recommended-badge
+www.richersounds.com##:xpath(//div[child::div[child::h3[contains(text(), 'Find a hot deal')]]])
+www.richersounds.com##:xpath(//div[child::div[child::h3[contains(text(), 'More great offers')]]])
+www.richersounds.com##:xpath(//div[child::div[child::h3[contains(text(), "Products we can't stop raving about")]]])
+www.richersounds.com##:xpath(//div[child::div[child::h3[contains(text(), 'Helping customers to "Experience Better" since 1978')]]])
+www.richersounds.com##:xpath(//div[child::div[child::h3[contains(text(), 'Get more than you bargained for')]]])
+www.richersounds.com##:xpath(//div[child::div[child::h3[contains(text(), 'Why Richer Sounds?')]]])
+www.richersounds.com##:xpath(//div[child::div[child::h3[contains(text(), 'Other sites and services')]]])
+www.richersounds.com##.footer-social-media
+www.richersounds.com##.trustpilot-payment-container
+www.richersounds.com##.telesales-info-container
+www.richersounds.com##:xpath(//div[child::a[contains(@href, 'https://customerservice.richersounds.com/hc/en-gb/articles/360012852117')]])
+www.richersounds.com##:xpath(//div[child::figure[child::img[contains(@src, 'https://www.richersounds.com/media/cms-content-images/carousel_sliders/slider_clearance')]]])
 
 ! RIGHTMOVE
 rightmove.co.uk###branchProfilePropertyDetailsHeader
@@ -5035,6 +5194,10 @@ www.t3.com##.hawk-nest
 www.t3.com##.tag-links
 www.t3.com##.topbutton
 www.t3.com##.author
+www.t3.com##.byline__authorname
+www.t3.com##.byline__media
+www.t3.com##.trendingbar
+www.t3.com##.breadcrumb
 
 ! TABLETOP GAMING
 www.tabletopgaming.co.uk###NewsletterSignUpPanel
@@ -5728,6 +5891,7 @@ thesun.co.uk##.article__section-logo
 thesun.co.uk##.article-boxout
 thesun.co.uk##.terms
 thesun.co.uk##.brightcove__video:style(position: static !important;)
+thesun.co.uk###sidebar
 
 ! THE TELEGRAPH
 telegraph.co.uk##.e-social-share
@@ -5910,12 +6074,28 @@ timeout.com##*[id*="ad-oop"]
 timeout.com##*[id*="ad-inline"]
 timeout.com###content ~ *
 
+! TINY PNG
+tinypng.com##.gopro
+tinypng.com##aside
+tinypng.com##.customerlogos
+tinypng.com##.bottom
+tinypng.com###cdnUrl
+
 ! TKMAXX
 www.tkmaxx.com###tjx-newsletter
 www.tkmaxx.com##.footer-social-container
 www.tkmaxx.com##.c-promo
 www.tkmaxx.com##.product-carousel
 www.tkmaxx.com##.product-read-description
+||img.tkmaxx.com/medias/Slimbanner-*.jpg$image
+||img.tkmaxx.com/medias/slimbanner-*.jpg$image
+tkmaxx.com##.carousel-wrapper
+www.tkmaxx.com##.c-scroll-trigger
+www.tkmaxx.com##.icon-heart-empty
+www.tkmaxx.com##.c-product-card__badge
+www.tkmaxx.com##.icon-quick-buy
+www.tkmaxx.com##.pdp-add-lovelist-section
+www.tkmaxx.com##.footer-terms-links-container
 
 ! TODAY
 www.today.com##.breaking-marquee
@@ -5961,6 +6141,7 @@ www.tomsguide.com##.van_vid_carousel
 www.tomsguide.com##.hawk-main-editorialised
 www.tomsguide.com##.author-block
 www.tomsguide.com##aside
+www.tomsguide.com##.regionRedirectBanner
 
 ! TOM'S HARDWARE
 tomshardware.com##.region_redirect_popup
@@ -6940,6 +7121,7 @@ youtube.com##:xpath(//ytd-item-section-renderer[descendant::ytd-shelf-renderer[d
 youtube.com##.ytd-ticket-shelf-renderer
 youtube.com##:xpath(//ytd-badge-supported-renderer[text()="Fundraiser"])
 youtube.com###menu ytd-button-renderer
+youtube.com###links-holder
 youtube.com##^responseheader(set-cookie)
 youtube.com##+js(cookie-remover, CONSENT)
 
