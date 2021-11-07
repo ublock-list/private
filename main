@@ -10,6 +10,7 @@
 ||7apple.net
 ||a-ads.com
 ||aba.com
+||absolutesmmpanel.com
 ||acdcdn.com
 ||acertb.com
 ||adbull.me
@@ -26,6 +27,7 @@
 ||aphycolourses.info
 ||asacdn.com
 ||asewlfjqwlflkew.com
+||audiencepool.com
 ||audionews.fm
 ||avis-verifies.com
 ||awemwh.com
@@ -34,6 +36,7 @@
 ||beenmeekwarmth.casa
 ||beop.io
 ||bibblio.org
+||bitfly.io
 ||blockchain.info
 ||blogginglass.com
 ||blueparrot.media
@@ -51,6 +54,7 @@
 ||chatra.io
 ||civiccomputing.com
 ||climatestate.com
+||clk.asia
 ||clk.ink
 ||clk.sh
 ||clksite.com
@@ -110,6 +114,7 @@
 ||fcc.lc
 ||fcdot.lc
 ||flagship.io
+||focaluprightfurniture.com
 ||focusecoversionc.info
 ||forex-articles.com
 ||forex-gold.net
@@ -133,8 +138,10 @@
 ||gplinks.in
 ||gpmojo.com
 ||grient.com
+||hdnsppaerj.xyz
 ||helpscout.net
 ||honeybulb.com
+||hqsnklubfp.xyz
 ||i-afk.com
 ||i4rsrcj6.top
 ||ibb.co
@@ -151,6 +158,7 @@
 ||intense-brushlands-50749.herokuapp.com
 ||jameeltips.us
 ||jistaumt.com
+||jyruwybiay.xyz
 ||kecmuhot.net
 ||kiemlua.com
 ||kiiw.icu
@@ -168,6 +176,7 @@
 ||launchdarkly.com
 ||licensebuttons.net
 ||link1s.com
+||link1s.net
 ||linksbuddy.com
 ||livechatinc.com
 ||liveperson.net
@@ -204,6 +213,7 @@
 ||onsideratio.fun
 ||otrl.io
 ||otrldev.uk
+||ouphoarg.com
 ||padsatz.com
 ||pennbookcenter.com
 ||perficial.space
@@ -247,6 +257,7 @@
 ||segment.io
 ||sentry.io
 ||short.food-royal.com
+||short.pe
 ||short2.cash
 ||shorten.sh
 ||shortzzy.link
@@ -669,6 +680,7 @@ amazon.co.uk###smart-wagon-recommendations-btf
 amazon.co.uk###nav-ab-acquisition
 amazon.co.uk###footer
 amazon.co.uk###twisterPlusWW_feature_div
+amazon.co.uk##.pageBanner
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -873,6 +885,10 @@ www.autocar.co.uk##.author
 www.autocar.co.uk##.block-related-news
 www.autocar.co.uk##.personality-type
 www.autocar.co.uk##.personality-author
+www.autocar.co.uk##.newsletter-item-top
+www.autocar.co.uk##.menu-wrap
+www.autocar.co.uk##:xpath(//p[child::strong[text()="Read more"]])
+www.autocar.co.uk##:xpath(//p[child::strong[text()="Read more"]]) ~ *
 ||www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/save_you_money_*.jpg$image
 ||www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/what-car-new-buying-*.jpg$image
 
@@ -2378,14 +2394,20 @@ www.gamerevolution.com##.coming-soon-and-available-games
 www.gamerevolution.com##.footer-social
 
 ! GAMESPOT
-www.gamespot.com###js-promo-masthead
-www.gamespot.com##.follow-buy
-www.gamespot.com##.affiliate__note
-www.gamespot.com##.content-slug
-www.gamespot.com##.footer-network
-www.gamespot.com##aside.secondary-content
-www.gamespot.com##.review-authors
-www.gamespot.com###below-content
+gamespot.com###js-promo-masthead
+gamespot.com##.follow-buy
+gamespot.com##.affiliate__note
+gamespot.com##.content-slug
+gamespot.com##.footer-network
+gamespot.com##aside.secondary-content
+gamespot.com##.review-authors
+gamespot.com###below-content
+gamespot.com##.gs_header_buttons
+gamespot.com##.forum_anon
+gamespot.com##.othertopics
+gamespot.com##.pod_top_break
+gamespot.com###footer
+gamespot.com##.masthead_systems
 
 ! GARDENER'S WORLD
 www.gardenersworld.com##.template-article__social-share
@@ -3324,6 +3346,10 @@ www.leasingoptions.co.uk##.modal
 www.leasingoptions.co.uk##.modal-backdrop
 www.leasingoptions.co.uk##.modal-open:style(overflow: auto !important;)
 
+! LET'S PLAY INDEX
+www.letsplayindex.com##.content_sidebar
+www.letsplayindex.com##.detail_list_summary_box
+
 ! LIFEHACK
 www.lifehack.org##.cf-overlay
 www.lifehack.org##.background-overlay
@@ -3406,6 +3432,20 @@ www.livestrong.com##.component-table-of-contents
 www.livestrong.com##.component-article-series
 www.livestrong.com##.fact-checked-link
 www.livestrong.com##.image__visit-page
+
+! LLOYDS PHARMACY
+lloydspharmacy.com###products-carousel-article_related_products_carousel
+lloydspharmacy.com##.related-articles
+lloydspharmacy.com##.authorised-regulated
+lloydspharmacy.com###scroll-top-root
+lloydspharmacy.com##.footer__col:nth-of-type(4)
+lloydspharmacy.com##.usp-bar-section
+lloydspharmacy.com##.hero-banner-carousel-root
+lloydspharmacy.com##.small-content-tiles
+lloydspharmacy.com##.product__featured-section
+lloydspharmacy.com###products-carousel-products-carousel
+lloydspharmacy.com###shopify-section-recently-viewed
+lloydspharmacy.com###trustpilot-customer-reviews-root
 
 ! MAC WORLD
 www.macworld.co.uk##.article-author-box
@@ -3905,6 +3945,11 @@ nypost.com##.credit
 nypost.com##.powered-by-wpcom
 nypost.com###author-byline
 nypost.com##.flag-region
+nypost.com##.flag
+nypost.com##.byline
+nypost.com##aside
+nypost.com##.article-footer
+nypost.com##.site-header__email
 pagesix.com##.breaking-news
 pagesix.com##.nyp-sharedaddy-wrapper
 pagesix.com##.floating-share
@@ -4450,6 +4495,15 @@ psarips.top##.new-site-image
 psarips.top##.sidebar-content
 psarips.top###footer-widgets
 
+! PURE DIABLO
+www.purediablo.com##.elegantwp-sidebar-two-wrapper
+www.purediablo.com##.mega-menu-item-8356
+www.purediablo.com##.mega-menu-item-2769
+www.purediablo.com##.wp-image-2917
+www.purediablo.com###elegantwp-footer-blocks
+www.purediablo.com##.entry-footer
+www.purediablo.com##.social-rocket-inline-buttons
+
 ! PURE EARTH
 www.purearth.co.uk###site-banner-block
 www.purearth.co.uk##.klarna-placement-product-block
@@ -4572,6 +4626,9 @@ reddit.com##:xpath(//div[child::button[contains(text(), 'Back to Top')]])
 reddit.com##body.scroll-is-blocked:style(overflow: auto !important;)
 reddit.com##shreddit-experience-tree
 reddit.com##shreddit-cookie-banner
+reddit.com##shreddit-comments-page-ad
+reddit.com##:xpath(//div[contains(@class, 'lb-header') and child::div[child::h2[contains(text(), 'More posts from')]]])
+reddit.com##:xpath(//div[contains(@class, 'lb-header') and child::div[child::h2[contains(text(), 'More posts from')]]]) ~ *
 reddit.com##listing-below-header
 reddit.com##listing-below-header ~ *
 reddit.com##.PostTopicPills
@@ -5131,6 +5188,7 @@ store.steampowered.com###awardsTable
 store.steampowered.com##.responsive_apppage_reviewblock
 store.steampowered.com###achievement_block
 store.steampowered.com###franchise_block
+store.steampowered.com##.halloween2019_ctn
 
 ! STRIPE
 stripe.com##.CookieBanner
@@ -5547,14 +5605,17 @@ thefamilysurgeryorpington.nhs.uk###eConsultDefaultTarget
 thefamilysurgeryorpington.nhs.uk###cookiepolicy
 
 ! THE FREE DICTIONARY
-www.thefreedictionary.com###sidebar
-www.thefreedictionary.com##.footer-block
-www.thefreedictionary.com##.footer-logo
-www.thefreedictionary.com##.footer-top
-www.thefreedictionary.com##.footer-bottom
-www.thefreedictionary.com###browsers
-www.thefreedictionary.com##aside
-www.thefreedictionary.com###headerBlock
+thefreedictionary.com###sidebar
+thefreedictionary.com##.footer-block
+thefreedictionary.com##.footer-logo
+thefreedictionary.com##.footer-top
+thefreedictionary.com##.footer-bottom
+thefreedictionary.com###browsers
+thefreedictionary.com##aside
+thefreedictionary.com###headerBlock
+thefreedictionary.com##.icon-notif
+thefreedictionary.com##.reg-button
+thefreedictionary.com##.social-login
 
 ! THE GUARDIAN
 www.theguardian.com##.site-message--android
@@ -6231,6 +6292,12 @@ www.tripadvisor.co.uk##.postContentHeaderRight
 www.tripadvisor.co.uk###BODYCON .balance:style(width: auto !important; float: none !important;)
 www.tripadvisor.co.uk##*[id*="taplc_hr_xsell_web_component_"]
 www.tripadvisor.co.uk##*[id*="taplc_location_detail_tag_questions_rr_responsive_"]
+www.tripadvisor.com##.ppr_priv_restaurants_xsell_resp
+www.tripadvisor.com##*[id*="taplc_resp_rail_ad_wrapper_rr_lower_block"]
+www.tripadvisor.com##*[id*="taplc_restaurant_review_faqs_rr_responsive"]
+www.tripadvisor.com##:xpath(//div[child::div[child::span[contains(text(), 'Save')]]])
+www.tripadvisor.com##:xpath(//div[child::span[child::span[contains(text(), 'Share')]]])
+www.tripadvisor.com##*[id*="taplc_location_detail_tag_questions_rr_responsive"]
 
 ! TRUST A TRADER
 www.trustatrader.com##.join
@@ -6381,6 +6448,18 @@ udemy.com##:xpath(//div[contains(@class, 'udlite-heading-lg') and contains(text(
 udemy.com##:xpath(//div[child::h2[contains(text(), 'Why learn on Udemy?')]])
 udemy.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Students are viewing')]]]])
 udemy.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Because you searched for')]]]])
+udemy.com##.ud-component--logged-out-home--browse-discovery
+udemy.com##*[class*="billboard-banner"]
+udemy.com##.non-student-cta-wrapper
+udemy.com##:xpath(//div[child::h2[contains(text(), 'Featured courses')]])
+udemy.com##:xpath(//div[child::h2[contains(text(), 'Featured course')]])
+udemy.com##*[data-purpose="skills-hub-unit"]
+udemy.com##:xpath(//h2[contains(text(), 'Courses to get you started')])
+udemy.com##:xpath(//h2[contains(text(), 'Courses to get you started')]) + div
+udemy.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Popular topics')]]]])
+udemy.com##:xpath(//div[child::div[contains(text(), 'Popular Instructors')]])
+udemy.com##*[class*="popper--popper-content"]
+udemy.com##.udlite-badge
 
 ! ULTIMATE GUITAR
 tabs.ultimate-guitar.com##.SiteWideBanner
@@ -7142,6 +7221,23 @@ www.board-game.co.uk##.widget_custom_html
 www.board-game.co.uk##.zgh-codes
 www.board-game.co.uk##.social-share
 www.board-game.co.uk##.product-share
+www.board-game.co.uk##afterpay-placement
+www.board-game.co.uk##.flash-deal-notice-outer
+www.board-game.co.uk##.home-banner-slider
+www.board-game.co.uk##.home-feature-banner
+www.board-game.co.uk##.flash-deal
+www.board-game.co.uk##.image-desk
+www.board-game.co.uk##.slash-box
+www.board-game.co.uk##.split-image
+www.board-game.co.uk###gr-row
+
+! ZAP MAP
+||www.zap-map.com/engine/wp-content/uploads/2015/11/google-play-badge-*.png$image
+||www.zap-map.com/engine/wp-content/uploads/2015/11/en-apple-badge-*.png$image
+www.zap-map.com##a[href^="https://play.google.com/store/apps/details"]
+www.zap-map.com##a[href^="https://itunes.apple.com/gb/app/zap-map/id964082746"]
+www.zap-map.com##a[href^="https://www.goodenergy.co.uk/"]
+www.zap-map.com##.footnote-icon 
 
 ! ZAVVI
 www.zavvi.com##.emailReengagement
