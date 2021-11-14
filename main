@@ -163,6 +163,8 @@
 ||kiemlua.com
 ||kiiw.icu
 ||kiw.li
+||klarnacdn.net
+||klarnaservices.com
 ||klevu.com
 ||kniferasatte.info
 ||knightlab.com
@@ -1467,6 +1469,10 @@ dictionary.cambridge.org##:xpath(//div[child::a[contains(@href, '/shop/business-
 dictionary.cambridge.org##:xpath(//div[child::h2[child::strong[contains(text(), 'Browse')]]])
 dictionary.cambridge.org##:xpath(//div[contains(text(), 'These examples are from corpora')])
 
+! C&T AUCTIONS
+candtauctions.co.uk##.o-newsletter
+candtauctions.co.uk##.o-news-article-container
+
 ! CAMBRIDGE MASK COMPANY
 cambridgemask.com###shopify-section-product-recommendations
 cambridgemask.com##.Footer__Block--newsletter
@@ -2083,6 +2089,11 @@ etsy.com##*[data-anchor-listing-section]
 etsy.com##*[data-nudger]
 etsy.com##*[data-ui="promo"]
 etsy.com##:xpath(//div[child::div[child::div[child::div[child::h2[contains(text(), 'More Christmas deals - right this way!')]]]]])
+etsy.com##*[data-appears-component-name="wedding_search_recs"]
+etsy.com#@##logo
+etsy.com##klarna-placement
+etsy.com##.featured-listings
+etsy.com##.favorite-shop-action
 
 ! EUROGAMER
 www.eurogamer.net##.secondary
@@ -4188,6 +4199,20 @@ odealo.com###hp-thirdBox
 
 ! OFFICE FOR NATIONAL STATISTICS
 www.ons.gov.uk##.cookies-banner
+
+! ON THE MARKET
+www.onthemarket.com##.social
+www.onthemarket.com###related-searches-panel
+www.onthemarket.com##.bottom-prompt
+www.onthemarket.com##.top-banner
+www.onthemarket.com##.right-col > .agent-info > .agent-info-wrapper > .agent-info-details > .agent-info-contact > .valuation
+www.onthemarket.com###details > .agent-info > .agent-info-wrapper > .agent-info-details > .agent-info-contact > .valuation
+www.onthemarket.com##.related-properties
+www.onthemarket.com##.property-more-like-this
+www.onthemarket.com##.property-disclaimer
+www.onthemarket.com##.flags
+www.onthemarket.com##.modals-container
+www.onthemarket.com##.channel-top-properties
 
 ! ONEPLUS
 www.oneplus.com##.download-button
@@ -7634,6 +7659,20 @@ www.zoopla.co.uk##*[class*="StyledBookValuationCTA"]
 www.zoopla.co.uk##.ui-cookie-consent-no-scroll:style(overflow: auto !important;)
 www.zoopla.co.uk##.hp-card__cta
 www.zoopla.co.uk##.hp-card__save
+www.zoopla.co.uk##*[class*="SocialSharingContainerSideBar"]
+www.zoopla.co.uk##*[class*="SideBar"]
+www.zoopla.co.uk##*[class*="YMBIISection"]
+www.zoopla.co.uk##*[class*="CTASectionContainer"]
+www.zoopla.co.uk##*[class*="TagsContainer"]
+www.zoopla.co.uk##*[class*="SupplementaryItemsContainer"]
+www.zoopla.co.uk##*[class*="StyledMoreWrapper"]
+www.zoopla.co.uk##:xpath(//ul[child::li[child::h3[contains(text(), 'social media')]]])
+www.zoopla.co.uk##*[class*="GlobalProvider"]
+www.zoopla.co.uk##*[class*="CalculatorWrapper"]
+www.zoopla.co.uk##*[class*="ListingValuationContainer"]
+www.zoopla.co.uk##*[class*="RecentSales"]
+www.zoopla.co.uk##*[class*="StyledDisclaimer"]
+www.zoopla.co.uk##*[data-testid="similar-properties-trigger"]
 
 ! ZOOPLUS
 zooplus.co.uk##.contentful-loaded
