@@ -683,6 +683,8 @@ amazon.co.uk###twisterPlusWW_feature_div
 amazon.co.uk##.pageBanner
 amazon.co.uk##*[class*="loom-mobile-top-slot"]
 amazon.co.uk##*[class*="loom-mobile-bottom-slot"]
+amazon.co.uk##*[data-cel-widget*="brand-footer-slot"]
+amazon.co.uk##*[class*="Shoveler-module__shovelerWrapper"]
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -705,6 +707,9 @@ developer.android.com##devsite-snackbar
 developer.android.com##.devsite-footer-utility-button
 developer.android.com##.devsite-footer-promo-title
 developer.android.com##.devsite-badger-award
+
+! ANDROID CENTRAL
+www.androidcentral.com##.article-token--more-of
 
 ! ANDROID POLICE
 www.androidpolice.com##.ap-new-articles-btn
@@ -837,6 +842,7 @@ www.argos.co.uk##.productCare
 www.argos.co.uk##*[data-test*="hero-"]
 www.argos.co.uk##*[class*="HomepageComponentsstyles__"]
 www.argos.co.uk##*[class*="styles__FeedbackBanner-"]
+www.argos.co.uk##*[class*="LazyHydrateCard"] > *[class*="StyledProductCard"]
 
 ! APK PURE
 apkpure.com##.right
@@ -1502,6 +1508,7 @@ www.carmagazine.co.uk###topAdContainerFullWidth
 www.carmagazine.co.uk##.advert
 www.carmagazine.co.uk##.latest-issue
 www.carmagazine.co.uk##.author-info
+www.carmagazine.co.uk##.leasing-widget-iframe
 
 ! CARPET RIGHT
 www.carpetright.co.uk##.header__pictogram
@@ -1547,6 +1554,16 @@ www.carsuk.net##.footer-widgets-6
 carta.com###privacy-consent-modal
 carta.com##.modal-backdrop
 app.carta.com###aisera-webchat
+
+! CAR WOW
+www.carwow.co.uk##.deals-intro
+www.carwow.co.uk##.promotion-banner-container
+www.carwow.co.uk##.promotion-banner__grid-container
+www.carwow.co.uk##.lease-make-model__reassurance_section
+www.carwow.co.uk##.seo-content_description
+www.carwow.co.uk##.section-footer-featured
+www.carwow.co.uk##.trustpilot
+www.carwow.co.uk##.section-footer-smallprint-container
 
 ! CBR
 www.cbr.com##.next-single
@@ -2762,6 +2779,8 @@ www.gumtree.com##.vip-save-ad
 www.gumtree.com##.treebay
 www.gumtree.com##.related-carousel
 www.gumtree.com##*[id*="partnerAdDefault"]
+www.gumtree.com##.js-saveSearchButton
+www.gumtree.com##.listing-save-ad
 
 ! HABITAT FOR HUMANITY
 www.habitatforhumanity.org.uk##.mobile-bar__btn--heart
@@ -3728,6 +3747,10 @@ meetup.com##*[data-testid="UpcomingRsvp"]
 meetup.com##*[data-event-label="Check out what's happening"]
 meetup.com##*[data-event-label="Starting Soon Events Shelf"]
 meetup.com##:xpath(//div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'Stories from Meetup')]]]]]])
+meetup.com###facebook-login
+meetup.com###google-login
+meetup.com###apple-login
+meetup.com##.group-home > .section
 
 ! MERRIUM WEBSTER DICTIONARY
 www.merriam-webster.com##.right-rail
@@ -4341,6 +4364,7 @@ paypal.com##div[class^="GiveAtCheckout_gacContainer_"]
 paypal.com###pay-later
 paypal.com##.PPCOffers
 paypal.com##ccpaCookieBanner
+paypal.com##*[class*="PaymentOptions_bubble"]
 
 ! PC GAMER
 pcgamer.com##.trending-bar-container
@@ -4638,6 +4662,17 @@ www.procook.co.uk##.main-footer-social
 www.procook.co.uk##.main-footer-awwards
 www.procook.co.uk##.main-footer-payment
 www.procook.co.uk##.gjs-image-banner
+www.procook.co.uk##.header-strip-wrapper
+www.procook.co.uk##.loaded.last-child
+www.procook.co.uk###lastChildCloneWrapper
+www.procook.co.uk##*[data-promotion-position]
+www.procook.co.uk##*[id*="homepage-feature-"]
+www.procook.co.uk###iuzly2
+www.procook.co.uk##.dashed
+www.procook.co.uk##:xpath(//div[contains(@class, 'accordion') and child::div[child::h2[contains(text(), 'Customers who viewed this also viewed')]]])
+www.procook.co.uk##:xpath(//div[contains(@class, 'accordion') and child::div[child::h2[contains(text(), 'Recently viewed items')]]])
+www.procook.co.uk###review-summary
+www.procook.co.uk##.product-details-review > .review
 
 ! PRODUCTION HIVE
 www.production-hive.co.uk##.leaderboard
@@ -4733,6 +4768,8 @@ quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[c
 quora.com##:xpath(//div[@class="q-box" and child::div[child::div[child::div[child::div[child::div[child::div[child::div[text() ="Related Questions"]]]]]]]])
 quora.com##.qu-zIndex--blocking_wall
 quora.com##.content-monetization-wall
+quora.com##:xpath(//div[contains(@class, 'q-box') and child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]])
+quora.com##:xpath(//div[contains(@class, 'q-box') and child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]]) ~ *
 
 ! RAC
 www.rac.co.uk##.sidebar
@@ -5207,6 +5244,21 @@ screwfix.com##.hp-tiles-outer
 screwfix.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'More from Screwfix')]]]])
 screwfix.com##.bulk-savings
 
+! SELECT CAR LEASING
+www.selectcarleasing.co.uk##.c-cookies
+www.selectcarleasing.co.uk##.g-deal__item--ev-charger-banner
+www.selectcarleasing.co.uk##.g-deal-benefits
+www.selectcarleasing.co.uk##.g-deal__item--sticky
+www.selectcarleasing.co.uk##.g-deal__item--trustpilot
+www.selectcarleasing.co.uk##.g-deal-summary__description
+www.selectcarleasing.co.uk##.c-trustpilot
+www.selectcarleasing.co.uk##.g-deal__labels
+www.selectcarleasing.co.uk##.c-footer-logos
+www.selectcarleasing.co.uk###related-deals
+www.selectcarleasing.co.uk##.g-deal-summary__subtitle
+www.selectcarleasing.co.uk##.g-deal-summary__call
+www.selectcarleasing.co.uk##.g-deal-summary__card > p
+
 ! SERVERFAULT
 serverfault.com##.js-teams-promo
 serverfault.com##.js-consent-banner
@@ -5220,6 +5272,41 @@ serverfault.com###feed-link
 serverfault.com##.site-footer--copyright
 serverfault.com##.bottom-notice
 serverfault.com##.privacy-policy-agreement
+
+! SHEIN
+shein.co.uk##body:style(overflow: auto !important;)
+shein.co.uk##.c-vue-coupon
+shein.co.uk##.S-modal
+shein.co.uk##.c-config-banner
+shein.co.uk##.c-quick-register
+shein.co.uk##.mshe-z-returnTop
+shein.co.uk##.c-suspension__ctn
+shein.co.uk##.ccc-ad-flow-img
+shein.co.uk##.ccc-ad-flow-link
+shein.co.uk##.config-top-banners
+shein.co.uk##.free-ship
+shein.co.uk##.c-header2__bubble
+shein.co.uk##.header-float__img-wrapper
+shein.co.uk##.j-index-image
+shein.co.uk##.flashsale-box
+shein.co.uk##.ft-right
+shein.co.uk##.c-back-wrap
+shein.co.uk##.ft-bottom-icon
+shein.co.uk##.c-goodsitem
+shein.co.uk##.S-productitem-operation
+shein.co.uk##.top-info
+shein.co.uk##.selection-banner
+shein.co.uk##.product-flow__ad
+shein.co.uk##div.product-list__item
+shein.co.uk##.product-recommend
+shein.co.uk##.mgds-recommend
+shein.co.uk##.product-intro__cccbanner
+shein.co.uk##.related-search
+shein.co.uk##.product-intro__freeshipping
+shein.co.uk##.product-intro__head-instalment-tips
+shein.co.uk##.svgicon-share
+shein.co.uk##.product-intro__add-like
+shein.co.uk##.S-product-item__add-wishlist
 
 ! SHIRE PLANTS
 shireplants.co.uk##.socialLinks
@@ -5908,6 +5995,9 @@ independent.co.uk##:xpath(//div[child::div[child::a[contains(@href, '/author/')]
 independent.co.uk##:xpath(//div[child::amp-twitter])
 independent.co.uk##*[id*="playinc-article-component"]
 independent.co.uk##.grecaptcha-badge
+independent.co.uk##.subscribeLink
+independent.co.uk##.sticky-bar
+independent.co.uk##.coupon--newsletter
 
 ! THE LUDOQUIST
 www.theludoquist.com###shopify-section-footer
@@ -6017,6 +6107,7 @@ thenextweb.com##.corona-wrapper
 thenextweb.com##.alsoTaggedIn
 thenextweb.com###react-related
 thenextweb.com##:xpath(//p[child::em[child::a[contains(@href, 'https://hello.thenextweb.com')]]])
+thenextweb.com##.c-channel__cta
 
 ! THE OBSERVER
 observer.com##.share-buttons.large.social-icons
@@ -6244,6 +6335,7 @@ theverge.com##.c-byline__twitter-handle
 theverge.com##.c-footer__section-logo
 theverge.com##.c-footer__section-vox
 theverge.com##*[id*="volume-placement-"]
+theverge.com##.remixd-wrapper
 
 ! THE WEEK
 www.theweek.co.uk##.polaris__header--subscription
@@ -6478,6 +6570,12 @@ www.toolstation.com##.we-accept
 www.toolstation.com##.secure-payments
 www.toolstation.com##.footer-newsletter
 www.toolstation.com##.footer-social
+www.toolstation.com##.owl-carousel
+www.toolstation.com##.homepage-product-container
+www.toolstation.com##.homepage-why-toolstation
+www.toolstation.com##.home-top-brands
+www.toolstation.com##.homepage-footer
+www.toolstation.com##.footer-top-section
 
 ! TOP GEAR
 www.topgear.com###motors_widget
@@ -6932,6 +7030,7 @@ tv.vkool.net###hide_float
 
 ! VOLKSWAGEN
 www.volkswagen.co.uk###bannerOverlay
+www.volkswagen.co.uk###uwf-floating-chat-container
 
 ! VUE JS
 vuejs.org###sidebar-sponsors-special
@@ -6958,6 +7057,7 @@ vuejsdevelopers.com##:xpath(//section[child::div[child::div[child::h1[contains(t
 www.w3schools.com###right
 www.w3schools.com###cert_navbtn
 www.w3schools.com##.top10
+www.w3schools.com###loginactioncontainer ~ *
 
 ! WAITROSE
 www.waitrose.com##.cookie-bar-visible
