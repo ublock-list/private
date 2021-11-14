@@ -1199,6 +1199,7 @@ bbc.*###bbccom_interstitial_ad
 bbc.*###bbccom_interstitial
 bbc.*###bbccom_wallpaper_ad
 bbc.*###bbccom_wallpaper
+bbc.*##*[class*="StyledShareTool"]
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
@@ -1657,6 +1658,15 @@ edition.cnn.com###footer-nav-container
 edition.cnn.com##*[class*="LiveTVWrap"]
 edition.cnn.com##.metadata__byline
 edition.cnn.com##.byline-images
+
+! CODING GAME
+codingame.com##navigation-hiring-work
+codingame.com##cg-cookies-banner
+codingame.com##*[class*="socialNetworksContainer"]
+codingame.com###languages
+codingame.com##.tio-course-ide_content-banner
+codingame.com##.logos
+codingame.com##.elementor-widget-social-icons
 
 ! COIN MARKET CAP
 coinmarketcap.com##.search-sponsor
@@ -2856,6 +2866,17 @@ hotukdeals.com###footer > div:first-child
 hotukdeals.com###footer > div:nth-child(3)
 hotukdeals.com##:xpath(//section[child::h2[contains(text(), 'Follow us')]])
 hotukdeals.com##:xpath(//div[child::h2[contains(text(), 'Get the app')]])
+
+! HOUZZ
+houzz.co.uk##.hz-visitor-consents
+houzz.co.uk##.pro-signup-header
+houzz.co.uk##.hz-editorial-gallery-author-info__avatar-link
+houzz.co.uk##.hz-editorial-gallery-author-info
+houzz.co.uk##.hz-editorial-gallery__action-bar-top
+houzz.co.uk##.hz-editorial-gallery-main-content__item__action
+houzz.co.uk##.hz-editorial-gallery__action-bar-collapsed
+houzz.co.uk##.hz-editorial-comments
+houzz.co.uk##.hz-editorial-gallery-related-combined
 
 ! HOW TO GEEK
 www.howtogeek.com##.overlay-wrapper
@@ -4762,6 +4783,16 @@ www.ranker.com##*[class*="editRerank_rerankEditBtn"]
 www.ranker.com##*[class*="buyButton"]
 blog.ranker.com##.sqs-widget
 
+! RED BUBBLE
+redbubble.com##*[class*="PromoMessage__promoMessage"]
+redbubble.com##.anon-heart-button
+redbubble.com##*[class*="BNPLMessaging"]
+redbubble.com###product-tags
+redbubble.com###work-tags
+redbubble.com###popular-product-tags
+redbubble.com##*[class*="default__footerLegal"]
+redbubble.com##*[class*="default__footerContainer"]
+
 ! REDDIT
 reddit.com##.XPromoPopup
 reddit.com##.XPromoPill
@@ -5752,24 +5783,33 @@ dailymail.co.uk##.author
 dailymail.co.uk###next-story
 
 ! THE DAILY STAR
-www.dailystar.co.uk##.factbox
-www.dailystar.co.uk##.brand-low.embedded-image-grid
-www.dailystar.co.uk##.publication-theme.pancake > *[class*="channel-"]
-www.dailystar.co.uk##.video-float-wrapper
-www.dailystar.co.uk##.html-embed
-www.dailystar.co.uk##.click-track
-www.dailystar.co.uk##.article-type
-www.dailystar.co.uk##.author-information-container
-www.dailystar.co.uk##.skinny-signup
-www.dailystar.co.uk##aside
-www.dailystar.co.uk##.tag-list
-www.dailystar.co.uk##.top-stories
-www.dailystar.co.uk##.jw-related
-www.dailystar.co.uk##.jw-overlays
-www.dailystar.co.uk##.jw-wrapper
-www.dailystar.co.uk##.breadcrumbs-news
-www.dailystar.co.uk##.partner-mast-header > .secondary
-www.dailystar.co.uk###breaking-news
+dailystar.co.uk##.factbox
+dailystar.co.uk##.brand-low.embedded-image-grid
+dailystar.co.uk##.publication-theme.pancake > *[class*="channel-"]
+dailystar.co.uk##.video-float-wrapper
+dailystar.co.uk##.html-embed
+dailystar.co.uk##.click-track
+dailystar.co.uk##.article-type
+dailystar.co.uk##.author-information-container
+dailystar.co.uk##.skinny-signup
+dailystar.co.uk##aside
+dailystar.co.uk##.tag-list
+dailystar.co.uk##.top-stories
+dailystar.co.uk##.jw-related
+dailystar.co.uk##.jw-overlays
+dailystar.co.uk##.jw-wrapper
+dailystar.co.uk##.breadcrumbs-news
+dailystar.co.uk##.partner-mast-header > .secondary
+dailystar.co.uk###breaking-news
+dailystar.co.uk##.has-partner-mast-header:style(margin-top: 20px !important;)
+dailystar.co.uk##.read-next
+dailystar.co.uk##.related-articles-bg
+dailystar.co.uk##.kitemarks
+dailystar.co.uk##:xpath(//p[child::b[descendant::i[contains(text(), 'free newsletters')]]])
+dailystar.co.uk###social-follow
+dailystar.co.uk###comments-wrapper
+dailystar.co.uk##.sharebar
+dailystar.co.uk##.taboola
 ||www.inyourarea.co.uk/*$subdocument
 ||widget.spreaker.com/player$subdocument
 ||data.reachplc.com/$subdocument
