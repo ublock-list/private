@@ -2036,6 +2036,26 @@ etsy.com##:xpath(//li[contains(@class, 'wt-list-unstyled') and descendant::div[c
 etsy.com##:xpath(//div[child::div[child::a[starts-with(@href, 'https://etsy.app.link/')]]])
 etsy.com##*[data-your-purchases-async-loaded-modules=""]
 etsy.com###recs_ribbon_container
+etsy.com##*[data-appears-component-name="Homepage_Vesta_ApiSpec_PopularRightNow"]
+etsy.com##*[data-appears-component-name="impact_editors_picks_filter"]
+etsy.com##*[data-appears-component-name="Homepage_Vesta_ApiSpec_Blog"]
+etsy.com##*[data-appears-component-name="Homepage_ApiSpecs_EditorsPicks"]
+etsy.com##*[data-appears-component-name="Homepage_Vesta_ApiSpec_DiscoverFeed"]
+etsy.com##*[data-appears-component-name="Homepage_ApiSpecs_EditorsPicks"]
+etsy.com##*[data-appears-component-name="impact_message"]
+etsy.com##*[data-appears-component-name="Homepage_Vesta_ApiSpec_WhatIsEtsy"]
+etsy.com##*[data-appears-component-name="tags"]
+etsy.com##*[data-appears-component-name="Cyber_ApiSpec_Hero"]
+etsy.com###google-one-tap-modal-div
+etsy.com##.wt-badge
+etsy.com##.wt-popover
+etsy.com##.favorite-item-action
+etsy.com##*[class*="wt-nudge"]
+etsy.com##*[data-gifty-listings-module]
+etsy.com##*[data-anchor-listing-section]
+etsy.com##*[data-nudger]
+etsy.com##*[data-ui="promo"]
+etsy.com##:xpath(//div[child::div[child::div[child::div[child::h2[contains(text(), 'More Christmas deals - right this way!')]]]]])
 
 ! EUROGAMER
 www.eurogamer.net##.secondary
