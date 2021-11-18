@@ -6028,8 +6028,20 @@ independent.co.uk##.sticky-bar
 independent.co.uk##.coupon--newsletter
 
 ! THE LIST
-www.list.co.uk##.leaderboardContainer
-www.list.co.uk##.social__icons__bar
+list.co.uk##.leaderboardContainer
+list.co.uk##.social__icons__bar
+list.co.uk##.mobileBannerContainer
+list.co.uk##.slotRow
+list.co.uk##.eventRow
+list.co.uk##.articleRow
+list.co.uk##.rowHeading
+list.co.uk##.sidebar
+list.co.uk##.widgetLink
+list.co.uk##.resultOptions + small
+list.co.uk###sponsorStrip
+list.co.uk##.offerSummary
+list.co.uk##.article-credits > li:first-child
+list.co.uk##.main:style(float: none !important; width: auto !important;)
 
 ! THE LUDOQUIST
 www.theludoquist.com###shopify-section-footer
