@@ -4787,14 +4787,17 @@ quora.com##.puppeteer_test_question_main.q-box > div.q-box > .qu-bg--raised.qu-g
 quora.com##.modal_signup_dialog
 quora.com##div[id*="_signup_wall_wrapper"]
 quora.com##body.signup_wall_prevent_scroll #root:style(filter: none !important;)
-quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Questions')]]]]]]]]]])
-quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]]]])
-quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]]]]) ~ *
-quora.com##:xpath(//div[@class="q-box" and child::div[child::div[child::div[child::div[child::div[child::div[child::div[text() ="Related Questions"]]]]]]]])
 quora.com##.qu-zIndex--blocking_wall
 quora.com##.content-monetization-wall
+quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Questions')]]]]]]]]]])
+quora.com##:xpath(//div[@class="q-box" and child::div[child::div[child::div[child::div[child::div[child::div[child::div[text() ="Related Questions"]]]]]]]])
+quora.com##:xpath(//div[@class="q-box" and child::div[child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), "Related Questions")]]]]]]]])
+quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]]]])
+quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]]]]) ~ *
 quora.com##:xpath(//div[contains(@class, 'q-box') and child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]])
 quora.com##:xpath(//div[contains(@class, 'q-box') and child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]]) ~ *
+quora.com##:xpath(//div[@class="q-box" and child::div[child::div[child::div[child::div[contains(text(), "Related Answers")]]]]])
+quora.com##:xpath(//div[@class="q-box" and child::div[child::div[child::div[child::div[contains(text(), "Related Answers")]]]]]) ~ *
 
 ! RAC
 www.rac.co.uk##.sidebar
@@ -6023,6 +6026,10 @@ independent.co.uk##.grecaptcha-badge
 independent.co.uk##.subscribeLink
 independent.co.uk##.sticky-bar
 independent.co.uk##.coupon--newsletter
+
+! THE LIST
+www.list.co.uk##.leaderboardContainer
+www.list.co.uk##.social__icons__bar
 
 ! THE LUDOQUIST
 www.theludoquist.com###shopify-section-footer
