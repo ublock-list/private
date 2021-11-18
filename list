@@ -24,6 +24,22 @@ genpassword.top##.text-left
 
 bitfly.io##.text-left
 
+! LOVEHONEY
+lovehoney.co.uk##.dis_message
+lovehoney.co.uk##.b-banner_card
+lovehoney.co.uk##.live-help
+lovehoney.co.uk###sectionVideosGuides
+lovehoney.co.uk##.yotpo-reviews-container
+lovehoney.co.uk##.footer_info-block
+lovehoney.co.uk##*[aria-labelledby="recommendation-title"]
+lovehoney.co.uk##*[aria-labelledby="last-view-title"]
+lovehoney.co.uk##*[aria-label="Recently viewed"]
+lovehoney.co.uk##.wishlist-link
+lovehoney.co.uk##.product_detail-wishlist
+lovehoney.co.uk##.callus
+lovehoney.co.uk##.l-split_banner
+lovehoney.co.uk##.plp-main-description
+
 ! PORNHUB
 pornhub.com##:xpath(//deicc)
 pornhub.com##:xpath(//cddei)
