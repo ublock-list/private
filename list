@@ -99,6 +99,9 @@ pornhub.com##.phpFreeBlock
 pornhub.com##.trendingWrapper
 pornhub.com###relatedChannels
 pornhub.com##.video-actions-menu
+pornhub.com###menuItem2
+pornhub.com##.categories .leftPanel > p
+pornhub.com##.categories .leftPanel > .popularSearches
 
 ! YOUPORN
 www.youporn.com###network-bar
@@ -270,6 +273,12 @@ www.porn.com##.list-global__vote
 ! SEX.COM
 sex.com##.vertical-container
 sex.com##.nav-container
+sex.com##.modal-container
+sex.com##.bottom-panel-container
+sex.com##:xpath(//div[child::div[child::p[contains(text(), 'Visit the old sex.com')]]])
+sex.com##:xpath(//div[child::div[child::button[child::span[child::span[contains(text(), 'Follow')]]]]])
+sex.com##:xpath(//div[child::div[child::button[child::span[child::span[contains(text(), 'Subscribe')]]]]])
+sex.com##:xpath(//li[child::div[child::div[@data-cy-id="subscribers-only"]]])
 
 ! OKCUPID
 okcupid.com##.discovery-ad
