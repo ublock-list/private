@@ -102,6 +102,8 @@ pornhub.com##.video-actions-menu
 pornhub.com###menuItem2
 pornhub.com##.categories .leftPanel > p
 pornhub.com##.categories .leftPanel > .popularSearches
+pornhub.com##.ageDisclaimer
+pornhub.com##body:style(overflow: auto !important;)
 
 ! YOUPORN
 www.youporn.com###network-bar
