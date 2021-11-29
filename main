@@ -1051,6 +1051,7 @@ www.avforums.com##.message-attribution-gadget
 ! AWESOME OPEN SOURCE
 awesomeopensource.com##.adsense_ad
 awesomeopensource.com##.aos_project_metadata
+awesomeopensource.com##:xpath(//div[child::div[child::div[contains(text(), 'Weekly Email')]]])
 
 ! B&M STORES
 www.bmstores.co.uk##.bm-newsletter-modal
@@ -1910,6 +1911,7 @@ www.digitalocean.com##.tutorial-footer
 www.digitalocean.com##.creative-commons
 www.digitalocean.com##.product
 www.digitalocean.com##footer > section:not(.dark)
+cloud.digitalocean.com##.alert
 
 ! DIGITAL SPY
 www.digitalspy.com##.feed-block-with-ad
@@ -2620,6 +2622,8 @@ geeksforgeeks.org##.video-widget
 geeksforgeeks.org##.side--container
 geeksforgeeks.org##.textBasedMannualAds
 geeksforgeeks.org##.modal-container
+geeksforgeeks.org##.article--viewer_like
+geeksforgeeks.org##.article--viewer_bookmark
 
 ! GEN PASSWORD
 genpassword.top##a > img
@@ -2644,6 +2648,8 @@ giphy.com##:xpath(//div[child::div[child::span[child::a[contains(@class, 'Pill')
 ! GITHUB
 github.com##.discussion-timeline-actions
 github.com##.protip
+github.com##.Popover.js-notice
+github.com##.js-notice-dismiss
 
 ! GIZMODO
 gizmodo.com##.instream-native-video
@@ -3711,6 +3717,28 @@ lloydspharmacy.com###products-carousel-products-carousel
 lloydspharmacy.com###shopify-section-recently-viewed
 lloydspharmacy.com###trustpilot-customer-reviews-root
 
+! LONELY PLANET
+lonelyplanet.com##.ArticleAuthor
+lonelyplanet.com##.railRight
+lonelyplanet.com##.AffiliateReviews
+lonelyplanet.com##.footer
+lonelyplanet.com##.promoted
+lonelyplanet.com###latest-stories
+lonelyplanet.com###books-and-guides
+lonelyplanet.com##.FeaturedPlaces
+lonelyplanet.com##:xpath(//div[contains(@class, 'bg-black') and child::div[child::div[contains(@class, 'g-alert-text')]]])
+lonelyplanet.com##:xpath(//div[contains(@class, 'bg-black') and child::div[child::p[contains(@class, 'tracking')]]])
+lonelyplanet.com##:xpath(//h2[child::strong[contains(text(), 'You might also like:')]])
+lonelyplanet.com##:xpath(//h2[child::strong[contains(text(), 'You might also like:')]]) ~ *
+lonelyplanet.com##:xpath(//div[child::main]) ~ *
+lonelyplanet.com##*[data-testid="section-container-trending-stories-div"]
+lonelyplanet.com##*[data-testid="featured-video"]
+lonelyplanet.com##*[data-testid="card-callout-list-section"]
+lonelyplanet.com##*[data-testid="section-container-latest-news-div"]
+lonelyplanet.com##*[data-testid="section-container-getting-back-on-the-road-covid-19-and-travel-div"]
+lonelyplanet.com##*[data-testid*="section-container-our-favorite-destinations"]
+lonelyplanet.com##:xpath(//div[@data-testid="card-callout" and child::article[@data-testid="card-preview" and descendant::figcaption[descendant::span[contains(text(), 'SPONSORED')]]]])
+
 ! MAC WORLD
 www.macworld.co.uk##.article-author-box
 www.macworld.co.uk##.author
@@ -4248,6 +4276,8 @@ nypost.com##.byline
 nypost.com##aside
 nypost.com##.article-footer
 nypost.com##.site-header__email
+nypost.com##.layout__item--sidebar
+nypost.com##:xpath(//div[child::div[child::div[child::h2[child::span[contains(text(), 'More On:')]]]]])
 pagesix.com##.breaking-news
 pagesix.com##.nyp-sharedaddy-wrapper
 pagesix.com##.floating-share
@@ -4263,6 +4293,7 @@ pagesix.com##html.no-scroll:style(overflow: auto !important;)
 ! NEW YORK TIMES
 nytimes.com###acm-wrapper
 nytimes.com##+js(cookie-remover)
+nytimes.com###bottom-wrapper
 
 ! OAK FURNITURE LAND
 www.oakfurnitureland.co.uk###emergency-banner
@@ -4830,6 +4861,12 @@ beta.protonmail.com##:xpath(//li[child::span[child::button[contains(@title, 'Spe
 protonmail.com###entry-author
 protonmail.com###ht-kb-rate-article
 protonmail.com###ht-kb-related-articles
+
+! PROTONVPN
+protonvpn.com##.black-friday-top-bar
+protonvpn.com###topbar .text-left
+protonvpn.com###BFpopup
+protonvpn.com###foot
 
 ! PSARIPS
 ||psarips.top/wp-content/uploads/pic/72_9.png$image
@@ -6873,6 +6910,12 @@ tutsplus.com##.ecosystem-highlight
 tutsplus.com##.quick-links
 tutsplus.com##.page-footer__envato-bar
 tutsplus.com##.elements-sign-up-modal
+tutsplus.com##.content-heading__author
+tutsplus.com##.content-heading__secondary
+tutsplus.com##.roundup-block__content
+tutsplus.com##.roundup-block__contents
+tutsplus.com##:xpath(//h2[contains(text(), 'Free Online Course')])
+tutsplus.com##:xpath(//h2[contains(text(), 'Free Online Course')]) ~ *
 
 ! TVDB
 www.thetvdb.com##.tvtime-cta
@@ -7629,6 +7672,8 @@ wired.*##.ticker-view
 wired.*##.ad-stickyhero
 wired.*##.grid--item.disclaimer
 wired.*##:xpath(//p[contains(text(), 'WIRED Recommends is your')])
+wired.*##:xpath(//div[contains(text(), 'More great stories from WIRED')])
+wired.*##:xpath(//div[contains(text(), 'More great stories from WIRED')]) ~ *
 
 ! WOODSHOP DIRECT
 www.woodshopdirect.co.uk##.targeted-message
