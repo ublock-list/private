@@ -4463,6 +4463,19 @@ overclockers.co.uk##.blog-posts
 !overclockers.co.uk##.listViewEventAdded
 overclockers.co.uk##.home-customer-reviews
 overclockers.co.uk##.newsletter
+overclockers.co.uk##wishlist-selector
+overclockers.co.uk##.label-group
+overclockers.co.uk##:xpath(//div[child::h5[contains(text(), 'YOU CAN PAY WITH')]])
+overclockers.co.uk##:xpath(//div[child::h5[contains(text(), 'WE CAN DELIVER WITH')]])
+overclockers.co.uk##:xpath(//div[child::h5[contains(text(), 'FLAGSHIP BRANDSTORES')]])
+overclockers.co.uk##:xpath(//div[child::h5[contains(text(), 'TOP CATEGORIES')]])
+overclockers.co.uk##:xpath(//div[child::h5[contains(text(), 'OUR COMMUNITIES')]])
+overclockers.co.uk##.footer .text-dark
+overclockers.co.uk##.header-wishlist-button
+overclockers.co.uk##body > .bg-darker
+overclockers.co.uk##.mega-menu-ad
+overclockers.co.uk##.body--home main > *
+||img.overclockers.co.uk/assets/certificates/certificates.png$image
 
 ! OVERCLOCKERS (USA)
 www.overclockers.com##.mh-social-top
