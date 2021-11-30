@@ -2005,10 +2005,8 @@ duckduckgo.com##.header--text_promo
 duckduckgo.com##.logo-wrap--home
 duckduckgo.com##.result__sitelinks__scrolling-container
 duckduckgo.com##.js-sitelinks
-!duckduckgo.com###zero_click_wrapper
 duckduckgo.com##.about-profiles
 duckduckgo.com##.zci--dictionary_definition
-duckduckgo.com###zero_click_wrapper
 
 ! DUSK
 dusk.com##.loading-mask
@@ -4462,7 +4460,7 @@ overclockers.co.uk##.ck-rotating-banner
 overclockers.co.uk##body:style(overflow: auto !important;)
 overclockers.co.uk##.home-featured-products-carousel
 overclockers.co.uk##.blog-posts
-overclockers.co.uk##.listViewEventAdded
+!overclockers.co.uk##.listViewEventAdded
 overclockers.co.uk##.home-customer-reviews
 overclockers.co.uk##.newsletter
 
