@@ -104,6 +104,41 @@ pornhub.com##.categories .leftPanel > p
 pornhub.com##.categories .leftPanel > .popularSearches
 pornhub.com##.ageDisclaimer
 pornhub.com##body:style(overflow: auto !important;)
+pornhub.com##.subscribeButton
+pornhub.com###mostViewedVideosPerCountry
+pornhub.com###hottestVideos
+pornhub.com##.carouselVideoListing
+pornhub.com##.relatedSearchTermsHome
+pornhub.com###recommendedVideosList
+pornhub.com##.sectionWrapper
+pornhub.com##.premiumAdvertWrapper
+pornhub.com##.topAdContainter
+pornhub.com##.js-mainFooter
+pornhub.com##.subFilterList
+pornhub.com###welcomeVideoMsg
+pornhub.com###androidAppBar
+pornhub.com###iosAppBar
+pornhub.com##.communitySubmenu
+pornhub.com##.removeAdLink
+pornhub.com##.menuLink.halfWidth
+pornhub.com##.bottomNav 
+pornhub.com###recentSearchesList
+pornhub.com###mobileContainer:style(margin-top: 55px;)
+pornhub.com##:xpath(//div[@id="suggestionList" and child::p[contains(text(), 'Trending')]])
+pornhub.com###suggestionList > p:has-text(Channels)
+pornhub.com###suggestionList > p:has-text(Channels) ~ *
+pornhub.com###suggestionList > p:has-text(Pornstar profiles)
+pornhub.com###suggestionList > p:has-text(Pornstar profiles) ~ *
+pornhub.com##:xpath(//div[contains(@class, 'pageHeader') and child::h1[contains(text(), 'Hot Porn Videos In')]])
+pornhub.com##:xpath(//div[contains(@class, 'pageHeader') and child::h1[contains(text(), 'Hot Porn Videos In')]]) + div
+pornhub.com##:xpath(//div[contains(@class, 'pageHeader') and child::h2[contains(text(), 'Most Viewed Videos')]])
+pornhub.com##.fanClubButtons
+pornhub.com##.userContainer
+pornhub.com##.showTags
+pornhub.com##.underThumbButtons
+pornhub.com##.ratingDetails
+pornhub.com##.mostPopularComment
+pornhub.com##.tabFilterWrapper
 
 ! YOUPORN
 www.youporn.com###network-bar
