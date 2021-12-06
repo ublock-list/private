@@ -2622,6 +2622,8 @@ geeksforgeeks.org##.textBasedMannualAds
 geeksforgeeks.org##.modal-container
 geeksforgeeks.org##.article--viewer_like
 geeksforgeeks.org##.article--viewer_bookmark
+geeksforgeeks.org##.sideBar
+geeksforgeeks.org##.darkMode-wrap
 
 ! GEN PASSWORD
 genpassword.top##a > img
@@ -3305,6 +3307,7 @@ imgur.com##.Accolade
 imgur.com##:xpath(//div[child::a[contains(@class, 'Post-item') and descendant::div[contains(@class, 'Post-item-external-ad')]]])
 imgur.com##.TrendingTags
 imgur.com##.welcome.Message
+imgur.com##.badges-wrapper
 
 # IMGUR (MOBILE)
 m.imgur.com##.FloatingOIA-container
@@ -5724,6 +5727,17 @@ www.strulch.co.uk##.newsletter-inner
 ! STONE PAVING DIRECT
 www.stonepavingdirect.co.uk##.cc-color-override-438490.cc-left.cc-bottom.cc-theme-block.cc-type-info.cc-floating.cc-window
 
+! SUBSTACK
+substack.com##.intro-popup
+substack.com##html.show-intro-popup:style(overflow: auto !important;)
+substack.com##.subscribe-cta
+substack.com##.home-sitemap-signup-form
+substack.com##.footer
+substack.com##.meta-author
+substack.com##.profile-img-wrap
+substack.com##.icon.post-meta-item
+substack.com##.single-post-section
+
 ! SUPERDRUG
 www.superdrug.com##.delivery-message
 www.superdrug.com##.pdp-container > .content-wrapper:style(margin-top: 140px !important;)
@@ -7303,6 +7317,9 @@ vuejs.org###news
 vuejs.org###v3-banner
 vuejs.org##.special-sponsors
 vuejs.org##.section-sponsors
+vuejs.org##.vs-blackfriday-coins
+vuejs.org###vs
+vuejs.org###footer > p:first-child
 
 ! VUE JS DEVELOPERS
 vuejsdevelopers.com##.author-info
