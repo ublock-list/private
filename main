@@ -3050,6 +3050,7 @@ www.homebase.co.uk##:xpath(//div[child::h2[contains(text(), 'Best Sellers')]])
 www.homebase.co.uk##:xpath(//div[child::h2[contains(text(), 'Best sellers')]])
 www.homebase.co.uk##.productBlock_productlogoWrapper
 www.homebase.co.uk##.papBannerWrapper
+www.homebase.co.uk##.swatchSelectSlider_logo_container
 
 ! HOTUKDEALS
 hotukdeals.com##.js-keyword-alerts
