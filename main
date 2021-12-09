@@ -280,6 +280,7 @@
 ||static.adbull.me
 ||stfly.me
 ||stressfulpyjamas.com
+||surveywriter.net
 ||sweettooth.io
 ||swesomepop.com
 ||swogo.net
@@ -351,6 +352,9 @@
 1337x.to##.hidden-sm.list-box
 1337x.to##footer
 1337x.to##.top-bar
+
+! 192
+www.192.com##.ont-cookies-wrapper
 
 ! 9 TO 5 MAC
 9to5mac.com##:xpath(//article[@class="post-content" and descendant::div[@class="post-cats" and child::a[@class="featured_tag"]]])
@@ -693,6 +697,11 @@ amazon.co.uk##*[class*="loom-mobile-top-slot"]
 amazon.co.uk##*[class*="loom-mobile-bottom-slot"]
 amazon.co.uk##*[data-cel-widget*="brand-footer-slot"]
 amazon.co.uk##*[class*="Shoveler-module__shovelerWrapper"]
+amazon.co.uk##*[id^="BEST_DEAL_"]
+amazon.co.uk##*[id*="-best-seller-label"]
+amazon.co.uk##*[id*="-amazons-choice-label"]
+amazon.co.uk##*[id^="LIGHTNING_DEAL_"]
+amazon.co.uk##*[class*="template=SPARKLE_DISPLAY_AD"]
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -805,6 +814,14 @@ www.appliancesdirect.co.uk##.brand-promo
 www.appliancesdirect.co.uk##.brand-logos
 www.appliancesdirect.co.uk##.footer-payments
 www.appliancesdirect.co.uk##.reevoo-foot
+www.appliancesdirect.co.uk##.offerbar
+www.appliancesdirect.co.uk##.merchTopofCentreColumn
+www.appliancesdirect.co.uk##.x-num-deals
+www.appliancesdirect.co.uk##.why-us
+www.appliancesdirect.co.uk##.hpoutlet
+www.appliancesdirect.co.uk##.footer-bar
+www.appliancesdirect.co.uk##.bid-group
+www.appliancesdirect.co.uk##.we-accept
 
 ! ARS TECHNICA
 arstechnica.com##.instream-wrap
@@ -851,6 +868,7 @@ www.argos.co.uk##*[data-test*="hero-"]
 www.argos.co.uk##*[class*="HomepageComponentsstyles__"]
 www.argos.co.uk##*[class*="styles__FeedbackBanner-"]
 www.argos.co.uk##*[class*="LazyHydrateCard"] > *[class*="StyledProductCard"]
+www.argos.co.uk##*[class*="Propbarstyles__Container"]
 
 ! APK PURE
 apkpure.com##.right
@@ -2093,6 +2111,15 @@ www.ehow.*##.widget-container
 www.ehow.*##.component-article-jwplayer-wrapper
 www.ehow.*##.inline-ad
 
+! ELIXIR FORUM
+elixirforum.com##.footer-sponsors-wrap
+elixirforum.com##.suggested-topics-wrapper
+elixirforum.com###banner
+elixirforum.com##.topic-category
+elixirforum.com##.topic-map
+elixirforum.com##.post-controls
+elixirforum.com##.signup-cta
+
 ! ESCAPIST MAGAZINE
 www.escapistmagazine.com##.PicoSignal.mobile-top-header
 www.escapistmagazine.com##.leaderboard-ad
@@ -2196,6 +2223,14 @@ evo.co.uk##.polaris__tags
 evo.co.uk##.polaris__buyacar
 evo.co.uk##.polaris__review--template > .polaris__content
 evo.co.uk##.header-ads-wrapper-desktop
+
+! EXERCISM
+exercism.org##.external-section
+exercism.org##.nfp
+exercism.org##.socials
+exercism.org##.tracks
+exercism.org##.company
+exercism.org##.donate-section
 
 ! EXPAT FOCUS
 www.expatfocus.com##.entry-meta
@@ -2491,6 +2526,27 @@ www.game.co.uk###alertBarContainer
 www.game.co.uk###topButtonWrapper
 www.game.co.uk###uiBlocker
 
+! GAME RANT
+gamerant.com##.tldr-btn-category
+gamerant.com##.sharing
+gamerant.com##.tldr-btn-section
+gamerant.com##.ad-zone-container
+gamerant.com##.related-single
+gamerant.com##.next-single
+gamerant.com##.bottom.sharing
+gamerant.com##.next-btn
+gamerant.com##.article-tags
+gamerant.com##.w-article-author-bio
+gamerant.com###secondary
+gamerant.com##.w-article-related
+
+! GAME REVOLUTION
+www.gamerevolution.com##.postmetadata
+www.gamerevolution.com##.widget_pb-spotim-cta-widget
+www.gamerevolution.com##.also-read
+www.gamerevolution.com##.coming-soon-and-available-games
+www.gamerevolution.com##.footer-social
+
 ! GAMES INDUSTRY.BIZ
 www.gamesindustry.biz##.gilive-promo
 www.gamesindustry.biz##.social-buttons
@@ -2504,6 +2560,22 @@ www.gamesindustry.biz##div.brief > .default.details
 www.gamesindustry.biz##.bleached.details
 www.gamesindustry.biz##.gold.details
 www.gamesindustry.biz##div.feature > .default.details
+
+! GAMESPOT
+gamespot.com###js-promo-masthead
+gamespot.com##.follow-buy
+gamespot.com##.affiliate__note
+gamespot.com##.content-slug
+gamespot.com##.footer-network
+gamespot.com##aside.secondary-content
+gamespot.com##.review-authors
+gamespot.com###below-content
+gamespot.com##.gs_header_buttons
+gamespot.com##.forum_anon
+gamespot.com##.othertopics
+gamespot.com##.pod_top_break
+gamespot.com###footer
+gamespot.com##.masthead_systems
 
 ! GAMES RADAR
 www.gamesradar.com##.trending-bar-container
@@ -2534,43 +2606,7 @@ www.gamesradar.com##.topbutton
 www.gamesradar.com##.by-author
 www.gamesradar.com##.jwplayer__widthsetter
 www.gamesradar.com##.supernav
-
-! GAME RANT
-gamerant.com##.tldr-btn-category
-gamerant.com##.sharing
-gamerant.com##.tldr-btn-section
-gamerant.com##.ad-zone-container
-gamerant.com##.related-single
-gamerant.com##.next-single
-gamerant.com##.bottom.sharing
-gamerant.com##.next-btn
-gamerant.com##.article-tags
-gamerant.com##.w-article-author-bio
-gamerant.com###secondary
-gamerant.com##.w-article-related
-
-! GAME REVOLUTION
-www.gamerevolution.com##.postmetadata
-www.gamerevolution.com##.widget_pb-spotim-cta-widget
-www.gamerevolution.com##.also-read
-www.gamerevolution.com##.coming-soon-and-available-games
-www.gamerevolution.com##.footer-social
-
-! GAMESPOT
-gamespot.com###js-promo-masthead
-gamespot.com##.follow-buy
-gamespot.com##.affiliate__note
-gamespot.com##.content-slug
-gamespot.com##.footer-network
-gamespot.com##aside.secondary-content
-gamespot.com##.review-authors
-gamespot.com###below-content
-gamespot.com##.gs_header_buttons
-gamespot.com##.forum_anon
-gamespot.com##.othertopics
-gamespot.com##.pod_top_break
-gamespot.com###footer
-gamespot.com##.masthead_systems
+www.gamesradar.com##.regionRedirectBanner
 
 ! GARDENER'S WORLD
 www.gardenersworld.com##.template-article__social-share
@@ -2624,6 +2660,7 @@ geeksforgeeks.org##.article--viewer_like
 geeksforgeeks.org##.article--viewer_bookmark
 geeksforgeeks.org##.sideBar
 geeksforgeeks.org##.darkMode-wrap
+geeksforgeeks.org##.spinner-loading-overlay
 
 ! GEN PASSWORD
 genpassword.top##a > img
@@ -2650,6 +2687,8 @@ github.com##.discussion-timeline-actions
 github.com##.protip
 github.com##.Popover.js-notice
 github.com##.js-notice-dismiss
+github.com##*[id*="funding-links-modal"]
+github.com##:xpath(//div[contains(@class, 'BorderGrid-row') and child::div[child::h2[contains(text(), 'Sponsor this project')]]])
 
 ! GIZMODO
 gizmodo.com##.instream-native-video
@@ -2927,6 +2966,9 @@ healthline.com##hl-newsletter-cta
 healthline.com##hl-social-nav
 healthline.com##*[data-testid="branding-panel-button"]
 healthline.com##:xpath(//div[child::div[child::div[child::div[contains(@class, 'reddit')]]]])
+healthline.com###announcementBar
+healthline.com##*[data-testid="qualtrics-container"]
+healthline.com##:xpath(//div[child::h1]) + section
 
 ! HEVER CASTLE
 www.hevercastle.co.uk##.modals
@@ -2954,13 +2996,21 @@ www.homebase.co.uk###more-diy-advice-tabs
 www.homebase.co.uk##:xpath(//div[child::h2[contains(text(), 'Related Products')]])
 www.homebase.co.uk##.cookie_modal_button_v5
 www.homebase.co.uk##.stripBanner
-www.homebase.co.uk##.trackwidget
 www.homebase.co.uk##.productAlternativesWrapper
 www.homebase.co.uk##.eastendFooter_signupAndSocialIcons
 www.homebase.co.uk##.eastendFooter_sectionFourContainer
 www.homebase.co.uk##.multiCategoryCardSet_container
 www.homebase.co.uk##.emailReengagement
 www.homebase.co.uk##.emailReengagement_noscroll:style(overflow: auto !important; position: static !important;)
+www.homebase.co.uk##.productBuyNowPayLater
+www.homebase.co.uk##.productAddToWishlist_button_wrapper
+www.homebase.co.uk##.clearance
+www.homebase.co.uk##.productRecommendations
+www.homebase.co.uk##.productRecentlyViewedProducts
+www.homebase.co.uk##.showPapBanner
+www.homebase.co.uk##.productBrandLogo
+www.homebase.co.uk##.emailReengagement
+www.homebase.co.uk##.responsiveUsp
 
 ! HOTUKDEALS
 hotukdeals.com##.js-keyword-alerts
@@ -3654,6 +3704,22 @@ lifehacker.com##.js_recommend
 lifehacker.com##.js_post-content ~ *
 lifehacker.com##figure figcaption
 
+! LIGHT IN THE BOX
+lightinthebox.com##.big_banner
+lightinthebox.com##*[id^="slide_ads_"]
+lightinthebox.com##.floor-banner1-wrap
+lightinthebox.com##.category-wrap
+lightinthebox.com##.banner-item
+lightinthebox.com##.banner-wrap
+lightinthebox.com##.recommend-list-wrap
+lightinthebox.com##.recommend-wrap
+lightinthebox.com##*[id^="floor_product_"]
+lightinthebox.com##.alsolike-slide-wrap
+lightinthebox.com##.brand-list-wrap
+lightinthebox.com##.related-categories-wrap
+lightinthebox.com##.favorite
+lightinthebox.com##.whatishot-wrap
+
 ! LIFEWIRE
 lifewire.com##*[id*="prefooter_"]
 lifewire.com##*[id*="article-feedback_"]
@@ -3684,6 +3750,9 @@ linustechtips.com##*[data-role="memberSignature"]
 linustechtips.com##.lmgComment_footer
 linustechtips.com##.awards-block
 linustechtips.com##.cGuestTeaser
+
+! LIVE COIN WATCH
+www.livecoinwatch.com##.s-header
 
 ! LIVE STRONG
 www.livestrong.com##.component-article-jwplayer-wrapper
@@ -4337,6 +4406,17 @@ odealo.com###hp-thirdBox
 
 ! OFFICE FOR NATIONAL STATISTICS
 www.ons.gov.uk##.cookies-banner
+
+! OLIVER BONAS
+www.oliverbonas.com##.cdk-overlay-container
+www.oliverbonas.com##.promo-bar
+www.oliverbonas.com##.payment-logos
+www.oliverbonas.com##.related-products
+www.oliverbonas.com##related-products-carousel
+www.oliverbonas.com##[href="https://www.facebook.com/oliverbonas"]
+www.oliverbonas.com##[href="https://www.instagram.com/oliverbonas"]
+www.oliverbonas.com##[href="https://twitter.com/oliverbonas"]
+www.oliverbonas.com##.hero-image-component
 
 ! ON THE MARKET
 www.onthemarket.com##.social
@@ -5094,6 +5174,7 @@ reddit.com##.lb-header
 reddit.com##.lb-header ~ *
 reddit.com##.GetAppFooter
 reddit.com##.JoinButton
+reddit.com##*[data-testid="bottom-sheet-upsell-wrapper"]
 
 ! REED
 www.reed.co.uk##.google-ad-leaderboard
@@ -5244,6 +5325,18 @@ rottentomatoes.com###where-to-watch
 www.royalmail.com##.sliding-popup-top
 www.royalmail.com##.coronavirus18
 
+! RT
+www.rt.com##.header__section_gray
+www.rt.com##.live-button
+www.rt.com##.covid-index-chart__header
+www.rt.com##.static-33_high-100
+www.rt.com##.footer__copiright__BlockWrapper
+www.rt.com##.footer__appContainer
+www.rt.com##.lang_nav_social_BlockWrapper
+www.rt.com##.news-block
+www.rt.com##.read-more
+www.rt.com##.short-url__link
+
 ! RULES OF PLAY
 rulesofplay.co.uk##.product-recently-viewed__wrapper
 rulesofplay.co.uk##.product-recommendations--container
@@ -5293,6 +5386,8 @@ sainsburys.co.uk##:xpath(//li[contains(@class, 'productESpot') and descendant::d
 sainsburys.co.uk##:xpath(//li[contains(@class, 'productESpot') and descendant::h3[contains(text(), 'Have you tried?')]])
 sainsburys.co.uk##:xpath(//li[contains(@class, 'pt-grid-item') and descendant::div[contains(text(), 'Try this instead')]])
 sainsburys.co.uk##:xpath(//li[contains(@class, 'pt-grid-item') and descendant::div[contains(text(), 'Featured')]])
+sainsburys.co.uk##.seasonal-favourites
+sainsburys.co.uk##:xpath(//li[contains(@class, 'pt-grid-item') and child::div[contains(@class, 'pt-espot')]])
 
 ! SANTANDER
 santander.co.uk###splash-97123-overlay
@@ -5476,6 +5571,7 @@ serverfault.com###feed-link
 serverfault.com##.site-footer--copyright
 serverfault.com##.bottom-notice
 serverfault.com##.privacy-policy-agreement
+serverfault.com##.show-votes
 
 ! SHEIN
 shein.co.uk##body:style(overflow: auto !important;)
@@ -5518,6 +5614,28 @@ shireplants.co.uk##.related-product-section
 shireplants.co.uk##.newsletter
 shireplants.co.uk###instocknotify-container
 shireplants.co.uk##.banners
+
+! SHPOCK
+www.shpock.com##*[id*="modal-"]:style(width: 0 !important; height: 0 !important;)
+www.shpock.com##*[class*="Backdrop-"]:style(position: static !important)
+www.shpock.com##*[class*="HeroSection__HeroWrapper"]
+www.shpock.com##*[class*="HeroAppDownloadDesktopBanner"]
+www.shpock.com##*[class*="DownloadAppBanner"]
+www.shpock.com##*[class*="AdShell"]
+www.shpock.com##body[data-dialogs]:style(overflow: auto !important)
+www.shpock.com##+js(ra, data-dialogs, body)
+www.shpock.com##+js(rc, js-focus-visible, html)
+www.shpock.com##:xpath(//div[child::h6[contains(text(), 'Get the App')]])
+www.shpock.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::h3[contains(text(), 'Get the app')]]]]]]])
+www.shpock.com##:xpath(//div[child::a[contains(@href, 'https://www.facebook.com')]])
+www.shpock.com##:xpath(//div[child::h2[contains(text(), 'Top searches in')]])
+
+! SIGNAL
+community.signalusers.org##.suggested-topics-wrapper
+community.signalusers.org##.badge-wrapper
+community.signalusers.org##.signup-cta
+community.signalusers.org##.topic-map
+community.signalusers.org##.post-controls
 
 ! SKY NEWS
 news.sky.com##.site-share-wrapper
@@ -5802,6 +5920,12 @@ www.tabletopgaming.co.uk##.comments
 www.tabletopgaming.co.uk##:xpath(//p[child::em[contains(text(), 'This review originally appeared in')]])
 www.tabletopgaming.co.uk##:xpath(//p[child::em[contains(text(), 'This article originally appeared in')]])
 www.tabletopgaming.co.uk##:xpath(//p[child::em[contains(text(), 'Sometimes we may include links')]])
+www.tabletopgaming.co.uk##.post-detail-widget-list-container
+www.tabletopgaming.co.uk##.text-muted
+www.tabletopgaming.co.uk##.advert
+www.tabletopgaming.co.uk##.fa-facebook-square
+www.tabletopgaming.co.uk##.fa-twitter
+www.tabletopgaming.co.uk##.fa-instagram
 
 ! TABLETOPIA
 tabletopia.com##.js-get-premium
@@ -5933,6 +6057,18 @@ techrepublic.com##:xpath(//section[child::div[child::h2[child::span[contains(tex
 techrepublic.com##:xpath(//div[contains(@class, 'content')]/p[child::strong[contains(text(), 'SEE:')]])
 techrepublic.com##:xpath(//div[contains(@class, 'content')]/h2[contains(text(), 'Also see')])
 techrepublic.com##:xpath(//div[contains(@class, 'content')]/h2[contains(text(), 'Also see')]) ~ *
+
+! TECH SPOT
+www.techspot.com##.sidebarContent
+www.techspot.com###new_social_box
+www.techspot.com##.similar-software
+www.techspot.com##.similars
+www.techspot.com##.category-chicklets
+www.techspot.com##.download_certified
+www.techspot.com###certified
+www.techspot.com##.news
+www.techspot.com##.search-box
+www.techspot.com##.recommended
 
 ! TESCO
 tesco.com###sticky-bar-wrapper
@@ -6927,12 +7063,25 @@ www.trustedreviews.com##.footer__col--sidebar
 www.trustedreviews.com##.home-latest-review-right
 www.trustedreviews.com##.top-post-suggestion-right
 www.trustedreviews.com##.top-post-suggestion-center
+www.trustedreviews.com##.pw-widget
+www.trustedreviews.com##.post-author__name
+www.trustedreviews.com##*[class*="post-author__icon"]
+www.trustedreviews.com##.post-author-card-job-title > .role
+www.trustedreviews.com##.post-author--img
+www.trustedreviews.com##.you-might-like
+www.trustedreviews.com##.squirrel_widget
 
 ! TUTORIALS POINT
+||www.tutorialspoint.com/*mages/*banner*$image
 www.tutorialspoint.com##.google-bottom-ads
 www.tutorialspoint.com###google-top-ads
 www.tutorialspoint.com##.tp-search-widget
-||www.tutorialspoint.com/*mages/*banner*$image
+www.tutorialspoint.com##.site-message
+www.tutorialspoint.com##.top-menu
+www.tutorialspoint.com##.trending.chapters
+www.tutorialspoint.com##.tutorial-toc
+www.tutorialspoint.com##.profile-panel
+www.tutorialspoint.com##.tutorial-content > .chapters
 
 ! TUTS PLUS
 tutsplus.com##.post__article-top
@@ -7365,37 +7514,56 @@ www.waterstones.com##.nav-plus
 www.waterstones.com##.book-recommends
 
 ! WAYFAIR
-www.wayfair.co.uk##.AppBanner
-www.wayfair.co.uk##.FreeShipping
-www.wayfair.co.uk##.CookieComplianceContainer
-www.wayfair.co.uk##.CookieComplianceContainer-veil
-www.wayfair.co.uk###popup_block
-www.wayfair.co.uk##.Header-topBanner
-www.wayfair.co.uk##.ResponsiveFooter-email
-www.wayfair.co.uk##.HPHeroSlider
-www.wayfair.co.uk##.ResponsiveFooter-brandsAndSocialMedia-colSocial
-www.wayfair.co.uk###super_footer
-www.wayfair.co.uk##.MediaWell
-www.wayfair.co.uk##.Footer-container--border
-www.wayfair.co.uk##.Footer-brandsAndSocialMedia
-www.wayfair.co.uk##.Barclays-infoBlock
-www.wayfair.co.uk##.ConfidenceBar
-www.wayfair.co.uk##.TopBanner
-www.wayfair.co.uk###a11y-status-message
-www.wayfair.co.uk##.PdpLayoutResponsive-outOfStockContainer
-www.wayfair.co.uk##.ProductCallToActionForm-contents
-www.wayfair.co.uk##.PdpLayoutResponsiveBelowtheFold > div:first-child
-www.wayfair.co.uk##.PdpLayoutResponsiveBelowtheFold > div:nth-child(2) > div:nth-child(2)
-www.wayfair.co.uk##.PdpLayoutResponsiveBelowtheFold > div:nth-child(2) > div:nth-child(3)
-www.wayfair.co.uk##:xpath(//div[contains(@data-hb-id, 'Grid.Item') and descendant::div[contains(@class, 'FeaturedProductFlag') and contains(text(), 'Sponsored')]])
-www.wayfair.co.uk##:xpath(//div[child::div[child::h2[contains(text(), 'Related Searches')]]])
-www.wayfair.co.uk##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::a[contains(@href, 'https://www.wayfair.co.uk/barclays-financing')]])
-www.wayfair.co.uk##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::section[contains(@class, 'HomepageRoomIdeas-content-wrap')]])
-www.wayfair.co.uk##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::div[contains(@class, 'HomepageSplitGrid-wrap')]])
-www.wayfair.co.uk##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::div[contains(@class, 'HomepageExploreOurShops-leftSectionWrapper')]])
-www.wayfair.co.uk##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::div[contains(@class, 'HomepageCtaContainer')]])
-www.wayfair.co.uk##:xpath(//div[contains(@class, 'HomepageV2-card') and child::div[child::section[child::div[child::div[child::a[child::figure]]]]]])
-www.wayfair.co.uk##:xpath(//div[child::div[contains(@class, 'ResponsiveModal-wrap')]])
+www.wayfair.*##.AppBanner
+www.wayfair.*##.FreeShipping
+www.wayfair.*##.CookieComplianceContainer
+www.wayfair.*##.CookieComplianceContainer-veil
+www.wayfair.*###popup_block
+www.wayfair.*##.Header-topBanner
+www.wayfair.*##.ResponsiveFooter-email
+www.wayfair.*##.HPHeroSlider
+www.wayfair.*##.ResponsiveFooter-brandsAndSocialMedia-colSocial
+www.wayfair.*###super_footer
+www.wayfair.*##.MediaWell
+www.wayfair.*##.Footer-container--border
+www.wayfair.*##.Footer-brandsAndSocialMedia
+www.wayfair.*##.Barclays-infoBlock
+www.wayfair.*##.ConfidenceBar
+www.wayfair.*##.TopBanner
+www.wayfair.*###a11y-status-message
+www.wayfair.*##.PdpLayoutResponsive-outOfStockContainer
+www.wayfair.*##.ProductCallToActionForm-contents
+www.wayfair.*##.PdpLayoutResponsiveBelowtheFold > div:first-child
+www.wayfair.*##.PdpLayoutResponsiveBelowtheFold > div:nth-child(2) > div:nth-child(2)
+www.wayfair.*##.PdpLayoutResponsiveBelowtheFold > div:nth-child(2) > div:nth-child(3)
+www.wayfair.*##:xpath(//div[contains(@data-hb-id, 'Grid.Item') and descendant::div[contains(@class, 'FeaturedProductFlag') and contains(text(), 'Sponsored')]])
+www.wayfair.*##:xpath(//div[child::div[child::h2[contains(text(), 'Related Searches')]]])
+www.wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::a[contains(@href, 'https://www.wayfair.co.uk/barclays-financing')]])
+www.wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::section[contains(@class, 'HomepageRoomIdeas-content-wrap')]])
+www.wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::div[contains(@class, 'HomepageSplitGrid-wrap')]])
+www.wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::div[contains(@class, 'HomepageExploreOurShops-leftSectionWrapper')]])
+www.wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::div[contains(@class, 'HomepageCtaContainer')]])
+www.wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and child::div[child::section[child::div[child::div[child::a[child::figure]]]]]])
+www.wayfair.*##:xpath(//div[child::div[contains(@class, 'ResponsiveModal-wrap')]])
+www.wayfair.*##.TopBanner
+www.wayfair.*##.HPTarotLayeredContent
+www.wayfair.*##.FavoritesListButton
+www.wayfair.*##.pl-BackToTop
+www.wayfair.*##.Barclays-footer-legalText
+www.wayfair.*##.CompareSimilarItemsCarousel
+www.wayfair.*##.CustomersUltimatelyBoughtCarousel
+www.wayfair.*##*[data-testid="frequently_bought_together"]
+www.wayfair.*##*[data-testid="compare_similar_items"]
+www.wayfair.*##*[data-testid="shop_this_collection"]
+www.wayfair.*##.ShippingAndReturns-policyBlock
+www.wayfair.*##.ShippingAndReturns-icon
+www.wayfair.*##*[data-enzyme-id="BrowseProductCardFlag-sale"]
+www.wayfair.*##.KlarnaInfoView
+www.wayfair.*##.BrandCollections
+www.wayfair.*##.BrowseBrandInspirationPage-infoFooter
+www.wayfair.*##*[class*="Flag__StyledBaseFlag-"]
+www.wayfair.*##.LeadLink
+www.wayfair.*##.CommunityBlock-icon
 
 ! WCCF TECH
 wccftech.com##.wccf_related_post
@@ -7444,6 +7612,7 @@ www.webtoons.com##.on._gdprCookieBanner.gdpr_ly_cookie
 community.wd.com##.signup-cta
 community.wd.com##.suggested-topics-wrapper
 community.wd.com##.wdsidebar
+.wd.com##.oda-chat-wrapper
 
 ! WHAT 3 WORDS
 what3words.com##.CookieNotice
@@ -7571,6 +7740,39 @@ conversation.which.co.uk##.comments-meta
 conversation.which.co.uk##.article-info
 conversation.which.co.uk##.comments-number-large
 conversation.which.co.uk##.b_g
+
+! WICKED UNCLE
+www.wickeduncle.co.uk##.inline-usp
+www.wickeduncle.co.uk##.promo-item
+www.wickeduncle.co.uk###recently-viewed-products
+www.wickeduncle.co.uk##.basket-addons
+www.wickeduncle.co.uk##.footer-cards
+www.wickeduncle.co.uk##.footer-ratings
+www.wickeduncle.co.uk##.feefo
+www.wickeduncle.co.uk##.google-reviews-badge
+www.wickeduncle.co.uk##.gift-wrap-usp
+www.wickeduncle.co.uk##.usps
+www.wickeduncle.co.uk##.feefo-review-banner
+www.wickeduncle.co.uk###category-nav
+www.wickeduncle.co.uk##.product-recommendations
+www.wickeduncle.co.uk##.footer-section:nth-of-type(2)
+www.wickeduncle.co.uk##.feefo-rating-md
+www.wickeduncle.co.uk##.wrapping-slide
+||cdn.wickeduncle.co.uk/assets/themes/xmas/images/wrap-thumb.jpg$image
+www.wickeduncle.co.uk##.feefo-rating-custom
+www.wickeduncle.co.uk###gift-alert
+www.wickeduncle.co.uk##.feefo-gold
+www.wickeduncle.co.uk##.rating-banner
+www.wickeduncle.co.uk##.character
+||www.google.com/shopping/customerreviews/optin$subdocument
+www.wickeduncle.co.uk##iframe
+www.wickeduncle.co.uk##iframe ~ *
+www.wickeduncle.co.uk###cta-feefo-rating
+www.wickeduncle.co.uk###blog-row
+www.wickeduncle.co.uk###popular-products
+www.wickeduncle.co.uk###home-about
+www.wickeduncle.co.uk###home-bottom-blocks
+www.wickeduncle.co.uk###cta-blog
 
 ! WICKES
 www.wickes.co.uk##.sticky-wrapper
@@ -7853,6 +8055,9 @@ youtube.com###menu ytd-button-renderer
 youtube.com###links-holder
 youtube.com##^responseheader(set-cookie)
 youtube.com##+js(cookie-remover, CONSENT)
+youtube.com##.ytp-impression-link
+youtube.com##.ytp-watch-later-icon
+youtube.com##.ytp-chrome-top-buttons
 
 ! YOUTUBE (MOBILE)
 m.youtube.com##.upsell-dialog-lightbox
