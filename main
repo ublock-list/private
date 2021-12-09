@@ -2999,7 +2999,6 @@ www.homebase.co.uk##.stripBanner
 www.homebase.co.uk##.productAlternativesWrapper
 www.homebase.co.uk##.eastendFooter_signupAndSocialIcons
 www.homebase.co.uk##.eastendFooter_sectionFourContainer
-www.homebase.co.uk##.multiCategoryCardSet_container
 www.homebase.co.uk##.emailReengagement
 www.homebase.co.uk##.emailReengagement_noscroll:style(overflow: auto !important; position: static !important;)
 www.homebase.co.uk##.productBuyNowPayLater
@@ -3011,6 +3010,46 @@ www.homebase.co.uk##.showPapBanner
 www.homebase.co.uk##.productBrandLogo
 www.homebase.co.uk##.emailReengagement
 www.homebase.co.uk##.responsiveUsp
+www.homebase.co.uk##.primaryBannerWithTextOverlay_container
+www.homebase.co.uk##.generalImageBanner
+www.homebase.co.uk##.simpleCTA_container
+www.homebase.co.uk##.responsiveFlyoutMenu_waterfallFlyOut_detachedFeatureMenu
+www.homebase.co.uk##.multiButtonWidget
+www.homebase.co.uk##.imageCardSet
+www.homebase.co.uk##.primaryBanner_container
+www.homebase.co.uk##.primaryBanner
+www.homebase.co.uk##.twoItemImageTextBlock
+www.homebase.co.uk##:xpath(//div[contains(@class, 'simpleTextWidget') and child::div[child::h2[contains(text(), 'Popular Searches')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'simpleTextWidget') and child::div[child::h2[contains(text(), 'Related categories')]]])
+www.homebase.co.uk##.simpleTextWidgetCTA
+www.homebase.co.uk##.shopTheLook_wrapper
+www.homebase.co.uk##.transformationSlider
+www.homebase.co.uk##.twoItemEditorial
+www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Give it a go')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Popular')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'popular')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Find Your Luxurious Style')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'gift ideas')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Prepare for')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Garden Deals')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Brand')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'brand')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Featured')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'featured')]]]) 
+www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Explore our newest arrivals')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h1[contains(text(), 'Home Trend Inspiration')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h1[contains(text(), 'Top Categories')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'essentials to help')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'Popular')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'popular')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'Brand')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'brand')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'Featured')]]])
+www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'featured')]]])
+www.homebase.co.uk##:xpath(//div[child::h2[contains(text(), 'Best Sellers')]])
+www.homebase.co.uk##:xpath(//div[child::h2[contains(text(), 'Best sellers')]])
+www.homebase.co.uk##.productBlock_productlogoWrapper
+www.homebase.co.uk##.papBannerWrapper
 
 ! HOTUKDEALS
 hotukdeals.com##.js-keyword-alerts
