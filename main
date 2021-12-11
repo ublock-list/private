@@ -703,6 +703,7 @@ amazon.*##*[id^="LIGHTNING_DEAL_"]
 amazon.*##*[class*="template=SPARKLE_DISPLAY_AD"]
 amazon.*##*[data-cel-widget^="sparkle-carousel-creative-"]
 amazon.*###gwm-Deck
+amazon.*###HLCXComparisonWidget_feature_div
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
