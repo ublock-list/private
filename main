@@ -73,6 +73,7 @@
 !||cookielaw.org
 ||cookiepro.com
 ||creativecommons.org
+||ctr.sh
 ||cutlinks.pro
 ||d3c3uihon9kmp.cloudfront.net
 ||dacanonga.com
@@ -332,7 +333,7 @@
 ||whourgie.com
 ||wknd.ai
 ||worldssl.com
-||wsimg.com
+!||wsimg.com
 ||x40u1vj75ks9.com
 ||xadsmart.com
 ||xlgamen.com
@@ -3484,6 +3485,23 @@ www.businessinsider.com##.social
 www.businessinsider.com##.featured-tout
 www.businessinsider.com##.commerce-popular-posts-wrapper
 
+! INSTRUCTABLES
+www.instructables.com##.step-toolbar
+www.instructables.com##.author-promo
+www.instructables.com##.sub-header
+www.instructables.com##.contest-entries
+www.instructables.com##.imadeits
+www.instructables.com##.recommendations
+www.instructables.com##.discuss
+www.instructables.com##.footer-find-us
+www.instructables.com##.adsk-logo
+www.instructables.com##.robot-icon
+www.instructables.com##.follow-btn
+www.instructables.com##.author
+www.instructables.com##.favorite-btn
+www.instructables.com##.imadeit-btn
+www.instructables.com##.view-comments-btn
+
 ! INVESTOPEDIA
 www.investopedia.com###onetrust-consent-sdk
 www.investopedia.com##.mntl-sc-sticky-billboard-ad
@@ -3535,6 +3553,12 @@ news.itsfoss.com##.byline
 news.itsfoss.com##.author-avatar
 news.itsfoss.com##.i-amphtml-fx-flying-carpet-clip
 news.itsfoss.com##.i-amphtml-layout
+itsfoss.com##.sidebar
+itsfoss.com##.ugb-main-block
+itsfoss.com##.author-box
+itsfoss.com###comments
+itsfoss.com###linkcat-2015
+itsfoss.com##.entry-footer
 
 ! ITV
 www.itv.com##.cp_cookie-dialog
@@ -3783,6 +3807,9 @@ linkedin.com##.cta-modal
 linkedin.com##.activities.pp-section
 linkedin.com##.groups.pp-section
 linkedin.com##.bottom-cta-banner
+linkedin.com##.pv-profile-pymk__container
+linkedin.com##.pv-course-recommendations
+linkedin.com##*[data-id^="urn:li:aggregate:(urn:li:jobPosting:"]
 
 ! LINUS TECH TIPS
 linustechtips.com##.ipsLayout_sidebarright
@@ -3949,6 +3976,17 @@ www.marksandspencer.com##.new-hero-banner
 www.marksandspencer.com##.shopby-brand__carousel
 www.marksandspencer.com##.usp-banner
 www.marksandspencer.com##.shopby-category
+
+!  MASHABLE
+mashable.com##a[href^="/author/"]
+mashable.com##aside
+mashable.com##:xpath(//section[child::section[child::h3[contains(text(), 'Recommended')]]])
+mashable.com##:xpath(//h4[contains(text(), 'Related')])
+mashable.com##:xpath(//h4[contains(text(), 'Related')]) ~ *
+mashable.com##:xpath(//p[child::span[contains(text(), 'More in')]])
+mashable.com##footer
+mashable.com##.accent-vertical
+||mashable.com/videos/blueprint*$subdocument
 
 ! MECH BOARDS
 mechboards.co.uk###footer--social
@@ -4770,7 +4808,6 @@ pcmag.com##.vplayer
 pcmag.com##.wheretobuy
 pcmag.com##.breadcrumbs
 pcmag.com##address
-||mashable.com/videos/blueprint*$subdocument
 
 ! PC WORLD
 www.pcworld.com###share-tool
@@ -5119,6 +5156,12 @@ www.radiotimes.com##.widget-newsletter-sign-up
 www.radiotimes.com##.footer-promotional
 www.radiotimes.com##.copyright-container
 www.radiotimes.com##.standard-card-new__sponsored-by
+www.radiotimes.com##.dynamic-related-content
+www.radiotimes.com##.js-dynamic-related-content
+www.radiotimes.com##.site-footer__brand-logo
+www.radiotimes.com##.template-article__affiliate_messaging
+www.radiotimes.com##.site-header__eyebrow-nav
+www.radiotimes.com##.monetizer__price-comparison-container
 
 ! RANKER
 www.ranker.com##*[class*="rightRail_container"]
@@ -5226,6 +5269,9 @@ www.reed.co.uk##.download-app-link
 www.reed.co.uk##.footer--secondary
 www.reed.co.uk##.love-mondays-footer-logo
 www.reed.co.uk##.gtmEmailMeJobsTop
+
+! RESTORE PRIVACY
+restoreprivacy.com##.author-box
 
 ! RHS
 www.rhs.org.uk##.toolbar__search .form-btn--tone-alert
@@ -6078,6 +6124,10 @@ techradar.com##.techradar-pro
 techradar.com##.regionRedirectBanner
 techradar.com##.taboola-in-article
 techradar.com###document-footer-content
+techradar.com##.subsite_subnav-item
+techradar.com##.nav-button-background-blue
+techradar.com##.remixd-audioplayer__container
+techradar.com##.recommended
 
 ! TECH REPUBLIC
 techrepublic.com##.btn-premium
@@ -6712,6 +6762,8 @@ thesun.co.uk##.article-boxout
 thesun.co.uk##.terms
 thesun.co.uk##.brightcove__video:style(position: static !important;)
 thesun.co.uk###sidebar
+thesun.co.uk##.rail-body-container
+thesun.co.uk###article-footer
 
 ! THE TELEGRAPH
 telegraph.co.uk##.e-social-share
@@ -7263,7 +7315,8 @@ udemy.com##.udlite-badge
 tabs.ultimate-guitar.com##.SiteWideBanner
 
 ! UK GOVERNMENT
-www.gov.uk##.gem-c-share-links
+gov.uk##.gem-c-share-links
+gov.uk##.govuk-cookie-banner
 
 ! UK TECH NEWS
 www.uktech.news##.cl-consent
