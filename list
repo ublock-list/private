@@ -141,36 +141,38 @@ pornhub.com##.mostPopularComment
 pornhub.com##.tabFilterWrapper
 
 ! YOUPORN
-www.youporn.com###network-bar
-www.youporn.com##.watchTopCategoriesWrapper
-www.youporn.com##.external-links
-www.youporn.com##.pornstarsInfo
-www.youporn.com##.featureBar
-www.youporn.com###videoComments
-www.youporn.com##.inlineTooltipCntr
-www.youporn.com###relatedVideos ~ *
-www.youporn.com##.footer-yp-logo
-www.youporn.com##.footer-bottom-logos
-www.youporn.com##.block-orientation
-www.youporn.com###js_recommendedToYou
-www.youporn.com##.js_personalizedRow
-www.youporn.com##.js_hot_videos_by_country
-www.youporn.com##.hot-porn-collections
-www.youporn.com##.js_eroticaHomePageScrollable_row
-www.youporn.com##.js_user-block
-www.youporn.com##*[data-espnode="user_subscriptions"]
-www.youporn.com##*[data-espnode="recommended_category"]
-www.youporn.com###additionSearchOverlay
-www.youporn.com##.js_pornstarsScrollable_row
-www.youporn.com##:xpath(//div[child::div[child::div[child::div[child::h2[contains(text(), 'Related Searches')]]]]])
-www.youporn.com##.category-desc-container
-www.youporn.com##.js_recommendedVideosContainer
-www.youporn.com##.container > .relatedCategoriesContainer
-www.youporn.com##.js_channelsScrollable_row
-www.youporn.com##.js_eroticarRelatedScrollable_row
-www.youporn.com###categories_quickLinks
-www.youporn.com##*[data-tracking="track-upgrade-btn"]
-www.youporn.com##.block-resources
+youporn.com###network-bar
+youporn.com##.watchTopCategoriesWrapper
+youporn.com##.external-links
+youporn.com##.pornstarsInfo
+youporn.com##.featureBar
+youporn.com###videoComments
+youporn.com##.inlineTooltipCntr
+youporn.com###relatedVideos ~ *
+youporn.com##.footer-yp-logo
+youporn.com##.footer-bottom-logos
+youporn.com##.block-orientation
+youporn.com###js_recommendedToYou
+youporn.com##.js_personalizedRow
+youporn.com##.js_hot_videos_by_country
+youporn.com##.hot-porn-collections
+youporn.com##.js_eroticaHomePageScrollable_row
+youporn.com##.js_user-block
+youporn.com##*[data-espnode="user_subscriptions"]
+youporn.com##*[data-espnode="recommended_category"]
+youporn.com###additionSearchOverlay
+youporn.com##.js_pornstarsScrollable_row
+youporn.com##:xpath(//div[child::div[child::div[child::div[child::h2[contains(text(), 'Related Searches')]]]]])
+youporn.com##.category-desc-container
+youporn.com##.js_recommendedVideosContainer
+youporn.com##.container > .relatedCategoriesContainer
+youporn.com##.js_channelsScrollable_row
+youporn.com##.js_eroticarRelatedScrollable_row
+youporn.com###categories_quickLinks
+youporn.com##*[data-tracking="track-upgrade-btn"]
+youporn.com##.block-resources
+youporn.com##:xpath(//div[contains(@class, 'video-box') and child::a[contains(@href, '/watch-premium/')]])
+youporn.com##.channelRelatedBox
 
 ! XHAMSTER
 xhamster.com##.dialog-desktop-container
