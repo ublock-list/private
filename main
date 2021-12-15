@@ -693,8 +693,8 @@ amazon.*###nav-ab-acquisition
 amazon.*###footer
 amazon.*###twisterPlusWW_feature_div
 amazon.*##.pageBanner
-amazon.*##*[class*="loom-mobile-top-slot"]
-amazon.*##*[class*="loom-mobile-bottom-slot"]
+amazon.*##*[class*="loom-mobile-"]
+amazon.*##*[data-cel-widget*="loom-mobile-"]
 amazon.*##*[data-cel-widget*="brand-footer-slot"]
 amazon.*##*[class*="Shoveler-module__shovelerWrapper"]
 amazon.*##*[id^="BEST_DEAL_"]
@@ -795,6 +795,10 @@ ao.com##.additional-promotions
 ao.com##.promoContainer
 ao.com##.finance-messaging
 ao.com##.text-deals:not([data-testid="price-now"])
+ao.com###hero-stage
+ao.com##.promotions
+ao.com##.merchPodCarouselWrap
+ao.com##.mobile-banner
 
 ! APPLE
 www.apple.com##.rs-storehome-app
@@ -1643,6 +1647,11 @@ www.cbr.com##.w-article-related
 www.cbr.com##.tldr-btn-category
 www.cbr.com##.home-secondary
 www.cbr.com##.home-primary
+www.cbr.com##.author
+www.cbr.com##.sharing
+www.cbr.com##.adsninja-ad-zone
+www.cbr.com##.tldr-btn-section
+www.cbr.com##.related-single
 
 ! CBS NEWS
 www.cbsnews.com##.super-nav
@@ -1681,6 +1690,20 @@ www.chemistdirect.co.uk##.cd-why-bar
 www.chemistdirect.co.uk##.cd-footer-signup-wrapper
 www.chemistdirect.co.uk###trustpilot-mobile
 www.chemistdirect.co.uk##.cd-payment-logo
+www.chemistdirect.co.uk##.cd-footer-top-li:nth-of-type(4)
+www.chemistdirect.co.uk##.cd-footer-middle
+www.chemistdirect.co.uk###footseo
+www.chemistdirect.co.uk##.cd-excl-pop-brands
+www.chemistdirect.co.uk##.cd-why-block
+www.chemistdirect.co.uk##.trustpilot-widget
+www.chemistdirect.co.uk##.cd-products-popular
+www.chemistdirect.co.uk##.cd-department-carousel
+www.chemistdirect.co.uk##.cd-bottom-block
+www.chemistdirect.co.uk##.cd-block > .cd-products-list
+www.chemistdirect.co.uk##.cd-mm-brands-list-wrap
+www.chemistdirect.co.uk##.cd-mm-right
+www.chemistdirect.co.uk##.cd-products-viewed
+www.chemistdirect.co.uk##.cd-product-details-left
 
 ! CITY AM
 www.cityam.com##.article-vuukle-comments
@@ -3855,6 +3878,7 @@ lloydspharmacy.com##.product__featured-section
 lloydspharmacy.com###products-carousel-products-carousel
 lloydspharmacy.com###shopify-section-recently-viewed
 lloydspharmacy.com###trustpilot-customer-reviews-root
+lloydspharmacy.com##.announcement-bar
 
 ! LONELY PLANET
 lonelyplanet.com##.ArticleAuthor
@@ -4439,6 +4463,11 @@ nypost.com##.article-footer
 nypost.com##.site-header__email
 nypost.com##.layout__item--sidebar
 nypost.com##:xpath(//div[child::div[child::div[child::h2[child::span[contains(text(), 'More On:')]]]]])
+nypost.com##.cta
+nypost.com###header-cta-sports-plus-mobile
+nypost.com##.sharedaddy
+nypost.com##.footer-social
+nypost.com##.site-footer__wrapper
 pagesix.com##.breaking-news
 pagesix.com##.nyp-sharedaddy-wrapper
 pagesix.com##.floating-share
@@ -4832,6 +4861,20 @@ www.pcworld.com##.cat-narrow
 ! PETS 4 HOMES
 www.pets4homes.co.uk##.rescue-campaign
 
+! PHARMACY 2 U
+www.pharmacy2u.co.uk##.home-banner
+www.pharmacy2u.co.uk##.offersbrands
+www.pharmacy2u.co.uk##.helpbar
+www.pharmacy2u.co.uk##.app-strip
+www.pharmacy2u.co.uk##footer .col-2
+www.pharmacy2u.co.uk##.proof-strip
+www.pharmacy2u.co.uk##.pod-steps-container
+www.pharmacy2u.co.uk##.tyf-strip
+www.pharmacy2u.co.uk##.nhs-saver-home
+www.pharmacy2u.co.uk##.mythbuster
+www.pharmacy2u.co.uk##.home-feature
+www.pharmacy2u.co.uk##.app-footer
+
 ! PHARMACY ONLINE
 www.pharmacyonline.co.uk##.staticBlock
 www.pharmacyonline.co.uk##.deliveryTimer
@@ -4946,6 +4989,9 @@ pocket-lint.com##.content > .text-content > ul
 pocket-lint.com###attribution-gallery
 pocket-lint.com##:xpath(//div[contains(@class, 'blocks') and child::div[contains(@class, 'block-ad')]])
 pocket-lint.com###homepage .latest-news:style(padding-bottom: 0 !important)
+pocket-lint.com##.pre-phrase
+pocket-lint.com##.authors
+pocket-lint.com##.author_img
 
 ! POLHILL NURSERY
 www.polhill.co.uk##.sidebar-left.col-md-3 > .product_list_widget
@@ -5162,6 +5208,8 @@ www.radiotimes.com##.site-footer__brand-logo
 www.radiotimes.com##.template-article__affiliate_messaging
 www.radiotimes.com##.site-header__eyebrow-nav
 www.radiotimes.com##.monetizer__price-comparison-container
+www.radiotimes.com##:xpath(//ul[child::li[child::strong]])
+www.radiotimes.com##.site-footer__social-follow
 
 ! RANKER
 www.ranker.com##*[class*="rightRail_container"]
@@ -5353,6 +5401,7 @@ rightmove.co.uk##:xpath(//h3[contains(text(), 'Industry affiliations')])
 rightmove.co.uk##:xpath(//h3[contains(text(), 'Industry affiliations')]) ~ *
 rightmove.co.uk##.propertyCard-tag
 rightmove.co.uk##.propertyCard-cutout
+rightmove.co.uk##.saveSearch-btn-mvt
 
 ! ROYAL HORTICULTURAL SOCIETY
 www.rhs.org.uk##.footer__follow
@@ -6128,6 +6177,8 @@ techradar.com##.subsite_subnav-item
 techradar.com##.nav-button-background-blue
 techradar.com##.remixd-audioplayer__container
 techradar.com##.recommended
+techradar.com##.remixd-audioplayer__container
+techradar.com##.hawk-nest
 
 ! TECH REPUBLIC
 techrepublic.com##.btn-premium
@@ -6268,6 +6319,8 @@ www.express.co.uk##.download-app
 www.express.co.uk###taboola-ad
 www.express.co.uk###taboola-below-article-thumbnails-express
 www.express.co.uk###social_buttons
+www.express.co.uk##.ad-slot-article
+www.express.co.uk##:xpath(//p[child::strong[child::a[contains(@data-link-tracking, 'InArticle|Link')]]])
 
 ! THE DAILY MAIL
 dailymail.co.uk##.related-with-thumbs.more
@@ -6764,6 +6817,7 @@ thesun.co.uk##.brightcove__video:style(position: static !important;)
 thesun.co.uk###sidebar
 thesun.co.uk##.rail-body-container
 thesun.co.uk###article-footer
+thesun.co.uk##.tags
 
 ! THE TELEGRAPH
 telegraph.co.uk##.e-social-share
@@ -8035,6 +8089,11 @@ www.xda-developers.com###xda_alert_bar
 www.xda-developers.com##.sidebar
 www.xda-developers.com##.tagbar
 www.xda-developers.com##.xda_nanobox
+www.xda-developers.com###affiliate-warning-container
+www.xda-developers.com##.meta_author
+www.xda-developers.com##.meta_comments
+www.xda-developers.com###footer-summary
+www.xda-developers.com###footer-left
 
 ! XDA FORUMS
 forum.xda-developers.com##.notice--primary
