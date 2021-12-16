@@ -7664,56 +7664,60 @@ www.waterstones.com##.nav-plus
 www.waterstones.com##.book-recommends
 
 ! WAYFAIR
-www.wayfair.*##.AppBanner
-www.wayfair.*##.FreeShipping
-www.wayfair.*##.CookieComplianceContainer
-www.wayfair.*##.CookieComplianceContainer-veil
-www.wayfair.*###popup_block
-www.wayfair.*##.Header-topBanner
-www.wayfair.*##.ResponsiveFooter-email
-www.wayfair.*##.HPHeroSlider
-www.wayfair.*##.ResponsiveFooter-brandsAndSocialMedia-colSocial
-www.wayfair.*###super_footer
-www.wayfair.*##.MediaWell
-www.wayfair.*##.Footer-container--border
-www.wayfair.*##.Footer-brandsAndSocialMedia
-www.wayfair.*##.Barclays-infoBlock
-www.wayfair.*##.ConfidenceBar
-www.wayfair.*##.TopBanner
-www.wayfair.*###a11y-status-message
-www.wayfair.*##.PdpLayoutResponsive-outOfStockContainer
-www.wayfair.*##.ProductCallToActionForm-contents
-www.wayfair.*##.PdpLayoutResponsiveBelowtheFold > div:first-child
-www.wayfair.*##.PdpLayoutResponsiveBelowtheFold > div:nth-child(2) > div:nth-child(2)
-www.wayfair.*##.PdpLayoutResponsiveBelowtheFold > div:nth-child(2) > div:nth-child(3)
-www.wayfair.*##:xpath(//div[contains(@data-hb-id, 'Grid.Item') and descendant::div[contains(@class, 'FeaturedProductFlag') and contains(text(), 'Sponsored')]])
-www.wayfair.*##:xpath(//div[child::div[child::h2[contains(text(), 'Related Searches')]]])
-www.wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::a[contains(@href, 'https://www.wayfair.co.uk/barclays-financing')]])
-www.wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::section[contains(@class, 'HomepageRoomIdeas-content-wrap')]])
-www.wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::div[contains(@class, 'HomepageSplitGrid-wrap')]])
-www.wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::div[contains(@class, 'HomepageExploreOurShops-leftSectionWrapper')]])
-www.wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::div[contains(@class, 'HomepageCtaContainer')]])
-www.wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and child::div[child::section[child::div[child::div[child::a[child::figure]]]]]])
-www.wayfair.*##:xpath(//div[child::div[contains(@class, 'ResponsiveModal-wrap')]])
-www.wayfair.*##.TopBanner
-www.wayfair.*##.HPTarotLayeredContent
-www.wayfair.*##.FavoritesListButton
-www.wayfair.*##.pl-BackToTop
-www.wayfair.*##.Barclays-footer-legalText
-www.wayfair.*##.CompareSimilarItemsCarousel
-www.wayfair.*##.CustomersUltimatelyBoughtCarousel
-www.wayfair.*##*[data-testid="frequently_bought_together"]
-www.wayfair.*##*[data-testid="compare_similar_items"]
-www.wayfair.*##*[data-testid="shop_this_collection"]
-www.wayfair.*##.ShippingAndReturns-policyBlock
-www.wayfair.*##.ShippingAndReturns-icon
-www.wayfair.*##*[data-enzyme-id="BrowseProductCardFlag-sale"]
-www.wayfair.*##.KlarnaInfoView
-www.wayfair.*##.BrandCollections
-www.wayfair.*##.BrowseBrandInspirationPage-infoFooter
-www.wayfair.*##*[class*="Flag__StyledBaseFlag-"]
-www.wayfair.*##.LeadLink
-www.wayfair.*##.CommunityBlock-icon
+wayfair.*##.AppBanner
+wayfair.*##.FreeShipping
+wayfair.*##.CookieComplianceContainer
+wayfair.*##.CookieComplianceContainer-veil
+wayfair.*###popup_block
+wayfair.*##.Header-topBanner
+wayfair.*##.ResponsiveFooter-email
+wayfair.*##.HPHeroSlider
+wayfair.*##.ResponsiveFooter-brandsAndSocialMedia-colSocial
+wayfair.*###super_footer
+wayfair.*##.MediaWell
+wayfair.*##.Footer-container--border
+wayfair.*##.Footer-brandsAndSocialMedia
+wayfair.*##.Barclays-infoBlock
+wayfair.*##.ConfidenceBar
+wayfair.*##.TopBanner
+wayfair.*###a11y-status-message
+wayfair.*##.PdpLayoutResponsive-outOfStockContainer
+wayfair.*##.ProductCallToActionForm-contents
+wayfair.*##.PdpLayoutResponsiveBelowtheFold > div:first-child
+wayfair.*##.PdpLayoutResponsiveBelowtheFold > div:nth-child(2) > div:nth-child(2)
+wayfair.*##.PdpLayoutResponsiveBelowtheFold > div:nth-child(2) > div:nth-child(3)
+wayfair.*##:xpath(//div[contains(@data-hb-id, 'Grid.Item') and descendant::div[contains(@class, 'FeaturedProductFlag') and contains(text(), 'Sponsored')]])
+wayfair.*##:xpath(//div[child::div[child::h2[contains(text(), 'Related Searches')]]])
+wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::a[contains(@href, 'https://www.wayfair.co.uk/barclays-financing')]])
+wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::section[contains(@class, 'HomepageRoomIdeas-content-wrap')]])
+wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::div[contains(@class, 'HomepageSplitGrid-wrap')]])
+wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::div[contains(@class, 'HomepageExploreOurShops-leftSectionWrapper')]])
+wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and descendant::div[contains(@class, 'HomepageCtaContainer')]])
+wayfair.*##:xpath(//div[contains(@class, 'HomepageV2-card') and child::div[child::section[child::div[child::div[child::a[child::figure]]]]]])
+wayfair.*##:xpath(//div[child::div[contains(@class, 'ResponsiveModal-wrap')]])
+wayfair.*##.TopBanner
+wayfair.*##.HPTarotLayeredContent
+wayfair.*##.FavoritesListButton
+wayfair.*##.pl-BackToTop
+wayfair.*##.Barclays-footer-legalText
+wayfair.*##.CompareSimilarItemsCarousel
+wayfair.*##.CustomersUltimatelyBoughtCarousel
+wayfair.*##*[data-testid="frequently_bought_together"]
+wayfair.*##*[data-testid="compare_similar_items"]
+wayfair.*##*[data-testid="shop_this_collection"]
+wayfair.*##.ShippingAndReturns-policyBlock
+wayfair.*##.ShippingAndReturns-icon
+wayfair.*##*[data-enzyme-id="BrowseProductCardFlag-sale"]
+wayfair.*##.KlarnaInfoView
+wayfair.*##.BrandCollections
+wayfair.*##.BrowseBrandInspirationPage-infoFooter
+wayfair.*##*[class*="Flag__StyledBaseFlag-"]
+wayfair.*##.LeadLink
+wayfair.*##.CommunityBlock-icon
+wayfair.*##body:style(overflow: auto !important;)
+wayfair.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'Compatible Products')]]]]]])
+wayfair.*##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'What We Offer')]]]])
+wayfair.*##.VirtualAssistantChatHead
 
 ! WCCF TECH
 wccftech.com##.wccf_related_post
