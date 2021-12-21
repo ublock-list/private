@@ -73,6 +73,7 @@
 !||cookielaw.org
 ||cookiepro.com
 ||creativecommons.org
+||ctbl.me
 ||ctr.sh
 ||cutlinks.pro
 ||d3c3uihon9kmp.cloudfront.net
@@ -2199,6 +2200,9 @@ www.ebuyer.com##.recommendations
 www.ebuyer.com##.purchase-info__finance
 www.ebuyer.com##.recently-viewed
 
+! EFRAME
+eframe.co.uk###cookies
+
 ! EHOW
 www.ehow.*##.social-share-icons
 www.ehow.*##.social-share--wrapper
@@ -3508,6 +3512,7 @@ imdb.com##*[data-testid="genres"]
 imdb.com##*[data-testid="storyline-plot-keywords"]
 imdb.com##.ipc-watchlist-ribbon
 imdb.com##*[class*="IMDbEmbeddable__EmbeddableSection-"]
+imdb.com##*[data-testid="embeddable-section"]
 
 ! IMGUR
 imgur.com##.EmeraldBanner
@@ -7393,30 +7398,31 @@ uk.trustpilot.com##.commitment-box
 uk.trustpilot.com##.brand-footer__social
 
 ! TRUSTED REVIEWS
-www.trustedreviews.com##.trending
-www.trustedreviews.com##.social-share
-www.trustedreviews.com###mc_embed_signup
-www.trustedreviews.com##.widget_custom_html.sticky-anchor.s-container.widget_text
-www.trustedreviews.com##.slot-wrapper--full.slot-wrapper
-www.trustedreviews.com##.icon-tags.post-tags
-www.trustedreviews.com##.footer-menu--icons.footer-menu
-www.trustedreviews.com##.post-author-card
-www.trustedreviews.com###keystone-query-widget-id-40
-www.trustedreviews.com##.related-post-slider
-www.trustedreviews.com##.expert-view-section
-www.trustedreviews.com##.bootom-contain
-www.trustedreviews.com##.footer-legal
-www.trustedreviews.com##.footer__col--sidebar
-www.trustedreviews.com##.home-latest-review-right
-www.trustedreviews.com##.top-post-suggestion-right
-www.trustedreviews.com##.top-post-suggestion-center
-www.trustedreviews.com##.pw-widget
-www.trustedreviews.com##.post-author__name
-www.trustedreviews.com##*[class*="post-author__icon"]
-www.trustedreviews.com##.post-author-card-job-title > .role
-www.trustedreviews.com##.post-author--img
-www.trustedreviews.com##.you-might-like
-www.trustedreviews.com##.squirrel_widget
+trustedreviews.com##.trending
+trustedreviews.com##.social-share
+trustedreviews.com###mc_embed_signup
+trustedreviews.com##.widget_custom_html.sticky-anchor.s-container.widget_text
+trustedreviews.com##.slot-wrapper--full.slot-wrapper
+trustedreviews.com##.icon-tags.post-tags
+trustedreviews.com##.footer-menu--icons.footer-menu
+trustedreviews.com##.post-author-card
+trustedreviews.com###keystone-query-widget-id-40
+trustedreviews.com##.related-post-slider
+trustedreviews.com##.expert-view-section
+trustedreviews.com##.bootom-contain
+trustedreviews.com##.footer-legal
+trustedreviews.com##.footer__col--sidebar
+trustedreviews.com##.home-latest-review-right
+trustedreviews.com##.top-post-suggestion-right
+trustedreviews.com##.top-post-suggestion-center
+trustedreviews.com##.pw-widget
+trustedreviews.com##.post-author__name
+trustedreviews.com##*[class*="post-author__icon"]
+trustedreviews.com##.post-author-card-job-title > .role
+trustedreviews.com##.post-author--img
+trustedreviews.com##.you-might-like
+trustedreviews.com##.squirrel_widget
+trustedreviews.com##:xpath(//p[child::strong[contains(text(), 'Related')]])
 
 ! TUTORIALS POINT
 ||www.tutorialspoint.com/*mages/*banner*$image
