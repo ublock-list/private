@@ -174,6 +174,8 @@ youporn.com##*[data-tracking="track-upgrade-btn"]
 youporn.com##.block-resources
 youporn.com##:xpath(//div[contains(@class, 'video-box') and child::a[contains(@href, '/watch-premium/')]])
 youporn.com##.channelRelatedBox
+youporn.com###list_query
+youporn.com###metaDataShowMore
 
 ! XHAMSTER
 xhamster.com##.dialog-desktop-container
