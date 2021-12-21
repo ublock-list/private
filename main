@@ -5234,30 +5234,30 @@ protonvpn.com###BFpopup
 protonvpn.com###foot
 
 ! PSARIPS
-||psarips.top/wp-content/uploads/pic/72_9.png$image
-||psarips.top/wp-content/uploads/pic/30_25.png$image
-||psarips.top/wp-content/uploads/pic/30_25_1.png$image
-||psarips.top/wp-content/uploads/pic/72_9_1.png$image
-||psarips.top/wp-content/uploads/pic/72_9_1.png$image
-||psarips.top/wp-content/uploads/pic/30_25_1.png$image
-psarips.top##.group.hu-pad.page-title
-psarips.top##.sidebar-content
-psarips.top##.themeform.entry > p
-psarips.top###header-image-wrap
-psarips.top##.widget_custom_html
-psarips.top###alxtabs-7
-psarips.top###alxtabs-8
-psarips.top###alxtabs-9
-psarips.top##.widget_tag_cloud
-psarips.top###wpd-post-rating
-psarips.top##.post-byline
-psarips.top##.post-tags
-psarips.top###content div.hu-pad.group > article.post ~ *
-psarips.top##.widget_calendar
-psarips.top##:xpath(//li[contains(@class, 'menu-item') and descendant::a[contains(@href, '/support-us/')]])
-psarips.top##.new-site-image
-psarips.top##.sidebar-content
-psarips.top###footer-widgets
+||psa.pm/wp-content/uploads/pic/72_9.png$image
+||psa.pm/wp-content/uploads/pic/30_25.png$image
+||psa.pm/wp-content/uploads/pic/30_25_1.png$image
+||psa.pm/wp-content/uploads/pic/72_9_1.png$image
+||psa.pm/wp-content/uploads/pic/72_9_1.png$image
+||psa.pm/wp-content/uploads/pic/30_25_1.png$image
+psa.pm##.group.hu-pad.page-title
+psa.pm##.sidebar-content
+psa.pm##.themeform.entry > p
+psa.pm###header-image-wrap
+psa.pm##.widget_custom_html
+psa.pm###alxtabs-7
+psa.pm###alxtabs-8
+psa.pm###alxtabs-9
+psa.pm##.widget_tag_cloud
+psa.pm###wpd-post-rating
+psa.pm##.post-byline
+psa.pm##.post-tags
+psa.pm###content div.hu-pad.group > article.post ~ *
+psa.pm##.widget_calendar
+psa.pm##:xpath(//li[contains(@class, 'menu-item') and descendant::a[contains(@href, '/support-us/')]])
+psa.pm##.new-site-image
+psa.pm##.sidebar-content
+psa.pm###footer-widgets
 
 ! PURE DIABLO
 www.purediablo.com##.elegantwp-sidebar-two-wrapper
