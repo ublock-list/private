@@ -701,7 +701,9 @@ amazon.*###footer
 amazon.*###twisterPlusWW_feature_div
 amazon.*##.pageBanner
 amazon.*##*[class*="loom-mobile-"]
+amazon.*##*[class*="loom-desktop-"]
 amazon.*##*[data-cel-widget*="loom-mobile-"]
+amazon.*##*[data-cel-widget*="loom-desktop-"]
 amazon.*##*[data-cel-widget*="brand-footer-slot"]
 amazon.*##*[class*="Shoveler-module__shovelerWrapper"]
 amazon.*##*[id^="BEST_DEAL_"]
@@ -761,6 +763,14 @@ www.androidpolice.com##.w-article-related
 www.androidpolice.com##.app-widget-container
 www.androidpolice.com##.bc-author
 www.androidpolice.com##.bc-author-img
+
+! ANIME PLANET
+www.anime-planet.com##.EntryPage__content__section__discussions
+www.anime-planet.com##.footer-about
+www.anime-planet.com##:xpath(//h2[contains(text(), 'If you like this anime, you might like...')])
+www.anime-planet.com##:xpath(//h2[contains(text(), 'If you like this anime, you might like...')]) + div
+www.anime-planet.com##.HeaderNotifications--logged_out
+www.anime-planet.com##.challenge-banner
 
 ! AO
 ao.com##.premiumListingProduct
@@ -1900,6 +1910,7 @@ crunchyroll.com##.news-right
 crunchyroll.com##.news-header-wrapper
 crunchyroll.com##.simulcast-calendar-footer
 crunchyroll.com##.premium-message
+crunchyroll.com##.cr-beta-cta
 ||crunchyroll.com/tracker$document,image,important
 
 ! CSS TRICKS
@@ -7296,20 +7307,38 @@ www.toolstation.com##.homepage-footer
 www.toolstation.com##.footer-top-section
 
 ! TOP GEAR
-www.topgear.com###motors_widget
-www.topgear.com##.partner-links
-www.topgear.com##.section-box--zuto
-www.topgear.com##.comments
-www.topgear.com##.block--outbrain-integration
-www.topgear.com##.l-region--sidebar-second
-www.topgear.com##.latest-from-tg
-www.topgear.com##.section-box--hub
-www.topgear.com###block-tg-newsletter-signup
-www.topgear.com##.promo-nav
-www.topgear.com##.post-info__magsubs
-www.topgear.com###article-scroll > .news-article--partnered
-www.topgear.com##.tg-retro-hub__home__link--cta
-www.topgear.com##.tg-retro-hub__home
+topgear.com###motors_widget
+topgear.com##.partner-links
+topgear.com##.section-box--zuto
+topgear.com##.comments
+topgear.com##.block--outbrain-integration
+topgear.com##.l-region--sidebar-second
+topgear.com##.latest-from-tg
+topgear.com##.section-box--hub
+topgear.com###block-tg-newsletter-signup
+topgear.com##.promo-nav
+topgear.com##.post-info__magsubs
+topgear.com###article-scroll > .news-article--partnered
+topgear.com##.tg-retro-hub__home__link--cta
+topgear.com##.tg-retro-hub__home
+topgear.com##*[data-testid="AuthorNameLink"]
+topgear.com##*[data-testid="AuthorImage"]
+topgear.com##*[data-testid="MagSubsLink"]
+topgear.com##*[data-testid="CommentCountLink"]
+topgear.com##*[data-testid="PromosInContent"]
+topgear.com##*[data-testid="Comments"]
+topgear.com##*[data-testid="OnwardJourney"]
+topgear.com##*[data-testid="Outbrain"]
+topgear.com##*[data-testid="NewsletterFooter"]
+topgear.com##*[data-testid="AdSlot"]
+topgear.com##*[data-testid="Footer"]
+topgear.com##*[data-testid="Header"] > div:first-of-type
+topgear.com##*[data-testid="EscapeContainer"]
+topgear.com##*[data-testid="AsideMpus"]
+topgear.com##*[data-testid="AsideContent"]
+topgear.com##*[data-testid="CategoryLink"]
+topgear.com##:xpath(//p[contains(text(), '[apester:')])
+topgear.com##:xpath(//li[contains(@class, 'is-dropdown') and child::button[child::span[contains(text(), 'Subscribe')]]])
 
 ! TRAVIS PERKINS
 www.travisperkins.co.uk##*[class*="__USPBlockWrapper-"]
@@ -7953,77 +7982,85 @@ www.webtoons.com##.on._gdprCookieBanner.gdpr_ly_cookie
 community.wd.com##.signup-cta
 community.wd.com##.suggested-topics-wrapper
 community.wd.com##.wdsidebar
+community.wd.com##.topic-map
+community.wd.com##.topic-category
+community.wd.com##.post-controls
 .wd.com##.oda-chat-wrapper
 
 ! WHAT 3 WORDS
 what3words.com##.CookieNotice
 
 ! WHAT CAR
-www.whatcar.com##div[class~="ReviewSocialSection-reviewSocialSection-"]
-www.whatcar.com##div[class~="AuthorDate-container-"]
-www.whatcar.com##div[class~="CarBuyingCard-subContainer-"]
-www.whatcar.com##div[class~="InfoRibbon-alert-"]
-www.whatcar.com##div[class~="FragmentGroupedLink-classFragmentGroupedLink-"]
-www.whatcar.com##div[class~="index-classFooterSocial-"]
-www.whatcar.com##div[class~="index-classFooterSubscribe-"]
-www.whatcar.com##div[class~="FragmentReviewCard-cardLazyLoaderFullHeight-"]
-www.whatcar.com##div[class~="Heading-h2-1371ebad.FragmentReviewsCarousel-title-"]
-www.whatcar.com##div[class~="home-partnersSection-"]
-www.whatcar.com##*[class*="InfoRibbon-"]
-www.whatcar.com##*[class*="relatedContent-"]
-www.whatcar.com##*[class*="sideBarContainer"]
-www.whatcar.com##*[class*="Article-tagLinks"]
-www.whatcar.com##*[class*="NewsWidget-container-"]
-www.whatcar.com##*[class*="AlsoConsiderWrapper-"]
-www.whatcar.com##*[class*="classFooterSocial"]
-www.whatcar.com##*[class*="classFooterSubscribe"]
-www.whatcar.com##*[class*="partnersSection"]
-www.whatcar.com##*[class*="toolsAndAdviceSection"]
-www.whatcar.com##*[class*="PopularNewCarReviews"]
-www.whatcar.com##*[class*="customerRatingSection"]
-www.whatcar.com##*[class*="explainersSection"]
-www.whatcar.com##*[class*="bestNewCarsSection"]
-www.whatcar.com##*[class*="latestReviewsSection"]
-www.whatcar.com##*[class*="bestDealsSection"]
-www.whatcar.com##*[class*="homeArticlesSection"]
-www.whatcar.com##*[class*="usedCarsReviewsSection"]
-www.whatcar.com##*[class*="SideBarStickyWithSiblings"]
-www.whatcar.com##*[class*="ReviewHero-heroCard"]
-www.whatcar.com##*[class*="FragmentReviewsCarousel"]
-www.whatcar.com##*[class*="FragmentGroupedLink"]
-www.whatcar.com##:xpath(//div[child::a[contains(@data-bi, 'latest-top-10-tag-link')]])
-www.whatcar.com##:xpath(//div[child::a[contains(@data-bi, 'latest-long-term-tests-tag-link')]])
-www.whatcar.com##:xpath(//div[child::a[contains(@data-bi, 'latest-new-car-group-tests-tag-link')]])
-www.whatcar.com##*[class*="GalleryImages_classGalleryImagesRight"]
-www.whatcar.com##*[class*="InfoRibbon_alert"]
-www.whatcar.com##*[class*="SideBarSticky_classSideBarStickyItem"]
-www.whatcar.com##:xpath(//div[child::div[child::header[child::h2[contains(text(), 'Best new car deals on What Car?')]]]])
-www.whatcar.com##*[class*="Label-container-"]
-www.whatcar.com##*[class*="AuthorCard-authorCard-"]
-www.whatcar.com##*[class*="ReviewsWidget-container-"]
-www.whatcar.com##*[class*="DealsWidget-container-"]
-www.whatcar.com##*[class*="FragmentTagLinks-tagsContainer-"]
-www.whatcar.com##*[class*="ReviewCTACard_reviewCTACard"]
-www.whatcar.com##*[class*="AuthorDate_container"]
-www.whatcar.com##*[class*="ReviewSocialSection"]
-www.whatcar.com##*[class*="FragmentScrollToTop_scrollToTop"]
-www.whatcar.com##*[class*="ReviewCTAButtons_reviewCTAButtons"]
-www.whatcar.com##*[class*="OurPickList_ourPicksList"]
-www.whatcar.com##*[class*="footerWc_classFooterBrandDetails"]
-www.whatcar.com##a[href*="https://www.ipso.co.uk"]
-www.whatcar.com##*[class*="ReviewAtAGlance_footer"]
-www.whatcar.com##*[class*="ArticleTemplate_masthead__"]
-www.whatcar.com##*[class*="Label_container__"]
-www.whatcar.com##*[class*="DiscoveryWidget_container__"]
-www.whatcar.com##*[class*="FragmentDFPAdvert_"]
-www.whatcar.com##*[class*="FragmentTagLinks_tagsContainer__"]
-www.whatcar.com##*[class*="NewsWidget_container__"]
-www.whatcar.com##*[class*="AlsoConsiderWrapper_"]
-www.whatcar.com##:xpath(//p[child::strong[contains(text(), 'sign up to the What Car? newsletter')]])
-www.whatcar.com##:xpath(//p[child::strong[contains(text(), 'sign up to the What Car? newsletter')]]) ~ *
-www.whatcar.com##*[class*="DriftrockInlineFormCTA_"]
-www.whatcar.com##*[class*="ReviewAtAGlance_reviewButtonsWrapper__"]
-www.whatcar.com##iframe[src="https://www.youtube.com/embed/PAMGwqGJVKM"]
+whatcar.com##div[class~="ReviewSocialSection-reviewSocialSection-"]
+whatcar.com##div[class~="AuthorDate-container-"]
+whatcar.com##div[class~="CarBuyingCard-subContainer-"]
+whatcar.com##div[class~="InfoRibbon-alert-"]
+whatcar.com##div[class~="FragmentGroupedLink-classFragmentGroupedLink-"]
+whatcar.com##div[class~="index-classFooterSocial-"]
+whatcar.com##div[class~="index-classFooterSubscribe-"]
+whatcar.com##div[class~="FragmentReviewCard-cardLazyLoaderFullHeight-"]
+whatcar.com##div[class~="Heading-h2-1371ebad.FragmentReviewsCarousel-title-"]
+whatcar.com##div[class~="home-partnersSection-"]
+whatcar.com##*[class*="InfoRibbon-"]
+whatcar.com##*[class*="relatedContent-"]
+whatcar.com##*[class*="sideBarContainer"]
+whatcar.com##*[class*="Article-tagLinks"]
+whatcar.com##*[class*="NewsWidget-container-"]
+whatcar.com##*[class*="AlsoConsiderWrapper-"]
+whatcar.com##*[class*="classFooterSocial"]
+whatcar.com##*[class*="classFooterSubscribe"]
+whatcar.com##*[class*="partnersSection"]
+whatcar.com##*[class*="toolsAndAdviceSection"]
+whatcar.com##*[class*="PopularNewCarReviews"]
+whatcar.com##*[class*="customerRatingSection"]
+whatcar.com##*[class*="explainersSection"]
+whatcar.com##*[class*="bestNewCarsSection"]
+whatcar.com##*[class*="latestReviewsSection"]
+whatcar.com##*[class*="bestDealsSection"]
+whatcar.com##*[class*="homeArticlesSection"]
+whatcar.com##*[class*="usedCarsReviewsSection"]
+whatcar.com##*[class*="SideBarStickyWithSiblings"]
+whatcar.com##*[class*="ReviewHero-heroCard"]
+whatcar.com##*[class*="FragmentReviewsCarousel"]
+whatcar.com##*[class*="FragmentGroupedLink"]
+whatcar.com##:xpath(//div[child::a[contains(@data-bi, 'latest-top-10-tag-link')]])
+whatcar.com##:xpath(//div[child::a[contains(@data-bi, 'latest-long-term-tests-tag-link')]])
+whatcar.com##:xpath(//div[child::a[contains(@data-bi, 'latest-new-car-group-tests-tag-link')]])
+whatcar.com##*[class*="GalleryImages_classGalleryImagesRight"]
+whatcar.com##*[class*="InfoRibbon_alert"]
+whatcar.com##*[class*="SideBarSticky_classSideBarStickyItem"]
+whatcar.com##:xpath(//div[child::div[child::header[child::h2[contains(text(), 'Best new car deals on What Car?')]]]])
+whatcar.com##*[class*="Label-container-"]
+whatcar.com##*[class*="AuthorCard-authorCard-"]
+whatcar.com##*[class*="ReviewsWidget-container-"]
+whatcar.com##*[class*="DealsWidget-container-"]
+whatcar.com##*[class*="FragmentTagLinks-tagsContainer-"]
+whatcar.com##*[class*="ReviewCTACard_reviewCTACard"]
+whatcar.com##*[class*="AuthorDate_container"]
+whatcar.com##*[class*="ReviewSocialSection"]
+whatcar.com##*[class*="FragmentScrollToTop_scrollToTop"]
+whatcar.com##*[class*="ReviewCTAButtons_reviewCTAButtons"]
+whatcar.com##*[class*="OurPickList_ourPicksList"]
+whatcar.com##*[class*="footerWc_classFooterBrandDetails"]
+whatcar.com##a[href*="https://www.ipso.co.uk"]
+whatcar.com##*[class*="ReviewAtAGlance_footer"]
+whatcar.com##*[class*="ArticleTemplate_masthead__"]
+whatcar.com##*[class*="Label_container__"]
+whatcar.com##*[class*="DiscoveryWidget_container__"]
+whatcar.com##*[class*="FragmentDFPAdvert_"]
+whatcar.com##*[class*="FragmentTagLinks_tagsContainer__"]
+whatcar.com##*[class*="NewsWidget_container__"]
+whatcar.com##*[class*="AlsoConsiderWrapper_"]
+whatcar.com##:xpath(//p[child::strong[contains(text(), 'sign up to the What Car? newsletter')]])
+whatcar.com##:xpath(//p[child::strong[contains(text(), 'sign up to the What Car? newsletter')]]) ~ *
+whatcar.com##*[class*="DriftrockInlineFormCTA_"]
+whatcar.com##*[class*="ReviewAtAGlance_reviewButtonsWrapper__"]
+whatcar.com##iframe[src="https://www.youtube.com/embed/PAMGwqGJVKM"]
+whatcar.com##*[class*="MakeOrCategoryTabbed-tabsSections"]
+whatcar.com##*[class*="FragmentDFPAdvert"]
+whatcar.com##*[class*="Results-headerAd"]
+whatcar.com##*[class*="PartnershipLogo"]
+whatcar.com##*[class*="AlsoConsider"]
 
 ! WHICH
 which.co.uk##.wm-share-block
