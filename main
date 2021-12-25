@@ -1321,6 +1321,20 @@ bbcgoodfood.com##.template-article__affiliate_messaging
 bbcgoodfood.com##.template-article__meta
 bbcgoodfood.com##.monetizer__price-comparison-container
 
+! BERGHAUS
+www.berghaus.com##.responsiveUsp
+www.berghaus.com##.stripBanner
+www.berghaus.com##.productBuyNowPayLater
+www.berghaus.com##.frequentlyBoughtTogether
+www.berghaus.com##.productAddToWishlist
+www.berghaus.com##.productRecommendations
+www.berghaus.com##.productRecentlyViewedProducts
+www.berghaus.com##.eastendFooter_sectionTwo-light
+www.berghaus.com##.eastendFooter_sectionFour
+www.berghaus.com##.primaryBanner_container
+www.berghaus.com##.sponsoredProducts
+www.berghaus.com##.papBannerWrapper
+
 ! BIT TECH
 www.bit-tech.net##.author
 www.bit-tech.net##.companies
@@ -3879,6 +3893,8 @@ www.lazada.vn##.footer-third
 www.lazada.vn##*[exp-tracking="sky-line-banner"]
 www.lazada.vn###seo-footer-text
 www.lazada.vn##*[data-spm="card"]
+www.lazada.vn##.ic-dynamic-badge
+www.lazada.vn##.pdp-block__shop_promotion
 
 ! LBC NEWS
 www.lbc.co.uk##.header__user-status
