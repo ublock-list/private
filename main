@@ -3895,6 +3895,11 @@ www.lazada.vn###seo-footer-text
 www.lazada.vn##*[data-spm="card"]
 www.lazada.vn##.ic-dynamic-badge
 www.lazada.vn##.pdp-block__shop_promotion
+www.lazada.vn##.pdp-block__share
+www.lazada.vn##.pdp-product-brand__suggestion-link
+www.lazada.vn###hp-categories
+www.lazada.vn##.page:style(min-height: 350px !important)
+www.lazada.vn##.pdp-mod-installment
 
 ! LBC NEWS
 www.lbc.co.uk##.header__user-status
