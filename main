@@ -8486,6 +8486,8 @@ youtube.com##.ytp-impression-link
 youtube.com##.ytp-watch-later-icon
 youtube.com##.ytp-chrome-top-buttons
 youtube.com##:xpath(//ytd-compact-video-renderer[descendant::ytd-badge-supported-renderer[descendant::span[contains(text(), 'Fundraiser')]]])
+youtube.com##:xpath(//ytd-compact-video-renderer[descendant::ytd-badge-supported-renderer[descendant::span[contains(@class, 'ytd-badge-supported-renderer') and contains(text(), 'Buy or rent')]]])
+youtube.com##:xpath(//ytd-compact-movie-renderer[descendant::ytd-badge-supported-renderer[descendant::span[contains(@class, 'ytd-badge-supported-renderer') and contains(text(), 'Buy or rent')]]])
 
 ! YOUTUBE (MOBILE)
 m.youtube.com##.upsell-dialog-lightbox
