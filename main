@@ -3842,6 +3842,44 @@ www.laptopmag.com##.read-more-container
 www.laptopmag.com###taboola-mobile-below-article-thumbnails
 www.laptopmag.com##.related-articles-block
 
+! LAZADA
+www.lazada.vn##.footer-second
+www.lazada.vn##.footer-fourth
+www.lazada.vn###webim-container
+www.lazada.vn##.icon-appstore-footer
+www.lazada.vn##:xpath(//div[child::div[child::h3[contains(text(), 'Seller Picks')]]])
+www.lazada.vn##:xpath(//div[child::div[child::h3[contains(text(), 'Seller Picks')]]]) ~ *
+www.lazada.vn##:xpath(//div[child::div[child::p[contains(text(), 'Related Search')]]])
+www.lazada.vn##:xpath(//div[child::div[child::p[contains(text(), 'Related Search')]]]) ~ *
+www.lazada.vn###topActionLiveUpBanner
+www.lazada.vn##.lzd-menu-labels
+www.lazada.vn##.pdp-mod-product-price-topbanner
+www.lazada.vn##.pdp-mod-promotion-tags
+www.lazada.vn##.guideApp
+www.lazada.vn##.pdp-seller-badge
+www.lazada.vn##.seller-im-wrapper
+www.lazada.vn##.pdp-mod-product-badge
+www.lazada.vn##.pdp-sponsored-products
+www.lazada.vn##.pdp-recommend
+www.lazada.vn##.footer-first > .lzd-footer-inner > .lzd-footer-width-50
+www.lazada.vn###topActionDownload
+www.lazada.vn###topActionSell
+www.lazada.vn##.card-platform-campaign-banner
+www.lazada.vn##.card-banner-slider-section.J_BannerSlider
+www.lazada.vn##.J_Channels
+www.lazada.vn##.J_FlashSale
+www.lazada.vn##.card-most-popular-right-panel
+www.lazada.vn##.J_Collections
+www.lazada.vn##.J_OfficialStores
+www.lazada.vn##.J_CategoriesItems
+www.lazada.vn###hp-just-for-you
+www.lazada.vn##.J_CardBottomBanner
+www.lazada.vn##.J_MostPopularItems
+www.lazada.vn##.footer-third
+www.lazada.vn##*[exp-tracking="sky-line-banner"]
+www.lazada.vn###seo-footer-text
+www.lazada.vn##*[data-spm="card"]
+
 ! LBC NEWS
 www.lbc.co.uk##.header__user-status
 www.lbc.co.uk##.js-header-main
