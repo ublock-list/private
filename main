@@ -4691,6 +4691,15 @@ www.mytoolshed.co.uk##.custom-mid-content
 ! NATIONAL GEOGRAPHIC
 nationalgeographic.*##*[id*="gpt--header--"]
 nationalgeographic.*##.ngart__side-col
+nationalgeographic.*##.ng-inline_promo__container
+nationalgeographic.*##:xpath(//div[child::div[child::p[child::em[child::a[contains(@href, '/author/')]]]]])
+nationalgeographic.*##:xpath(//div[child::div[contains(text(), 'By') and child::span[child::a[contains(@href, '/author/')]]]])
+nationalgeographic.*##article + .transp
+nationalgeographic.*##article + .transp ~ *
+nationalgeographic.*##.topbardisney 
+nationalgeographic.*##:xpath(//li[child::a[contains(@href, 'showNewsletter')]])
+nationalgeographic.*##:xpath(//li[child::a[contains(@href, '/television-schedule')]])
+nationalgeographic.*##.headers-container > div > nav
 
 ! NATIONAL RAIL
 nationalrail.co.uk###disruptions-bar
