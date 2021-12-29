@@ -719,6 +719,7 @@ amazon.*##*[class*="template=SPARKLE_DISPLAY_AD"]
 amazon.*##*[data-cel-widget^="sparkle-carousel-creative-"]
 amazon.*###gwm-Deck
 amazon.*###HLCXComparisonWidget_feature_div
+amazon.*##*[id*="DEAL_OF_THE_DAY"]
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -1856,6 +1857,18 @@ citymapper.com##a[href="/poweredby"]
 www.clickmechanic.com##.cookie-consent-notice-container
 www.clickmechanic.com###CovidBanner
 
+! CLOUDS AND CURRENTS
+cloudsandcurrents.com##*[class*="logo-bar-section--"]
+cloudsandcurrents.com###footer-payment-methods
+cloudsandcurrents.com##.mailing-list-footer
+cloudsandcurrents.com###footer-right
+cloudsandcurrents.com##*[href^="https://www.feefo.com/en-GB/reviews/clouds-and-currents"]
+cloudsandcurrents.com##.section--text-adverts-wrapper
+cloudsandcurrents.com##.notification-bar
+cloudsandcurrents.com##.flexslider-homepage
+cloudsandcurrents.com##*[href="/collections/sustainable-christmas-ideas"]
+cloudsandcurrents.com##.sale-badge
+
 ! CNBC
 www.cnbc.com##.BreakingNews-container
 www.cnbc.com##.LiveAlerts-container
@@ -2583,6 +2596,9 @@ www.feastingathome.com##.user-profile
 www.feastingathome.com##.sidebar
 www.feastingathome.com##*[class*="adthrive"]
 www.feastingathome.com##.share-pin
+
+! FEEFO
+www.feefo.com##.mp-merchant-wrapper
 
 ! FIDELITY
 fidelity.co.uk##.whatsnew
@@ -4861,6 +4877,30 @@ www.nintendolife.com##.article-header > .for-mobile.centered.insert-label
 ! NODE JS
 nodejs.org##.home-blacklivesmatterblock
 nodejs.org##.contributor-card
+
+! NOT ON THE HIGH STREET
+www.notonthehighstreet.com##*[class*="TopBanner___"]
+www.notonthehighstreet.com##*[class*="UspBanner___"]
+www.notonthehighstreet.com##*[class*="HomepageHeroBanner___"]
+www.notonthehighstreet.com##*[class*="ProductCarousel___"]
+www.notonthehighstreet.com##*[class*="HomepageBanner___"]
+www.notonthehighstreet.com##*[class*="PillBarCarousel___"]
+www.notonthehighstreet.com##.gc-newsletter-subscribe
+www.notonthehighstreet.com##.gc-footer__list:nth-of-type(6)
+www.notonthehighstreet.com##:xpath(//section[child::h2[contains(text(), "What's trending")]])
+www.notonthehighstreet.com##:xpath(//section[child::h2[contains(text(), 'GIVE HAPPY SHOP SMALL')]])
+www.notonthehighstreet.com##:xpath(//section[child::div[child::h2[contains(text(), 'Wonderfully unique finds, made to be treasured')]]])
+www.notonthehighstreet.com##.fresnel-container
+www.notonthehighstreet.com##:xpath(//div[contains(@data-testid, 'PRODUCT_CARD_GRID_ITEM__DIV') and child::section[child::h3[child::a[child::div[contains(text(), 'Sponsored')]]]]])
+www.notonthehighstreet.com##.favourite-button
+www.notonthehighstreet.com##*[class*="PrimaryLabel___"]
+www.notonthehighstreet.com##*[data-testid="klarna-container"]
+www.notonthehighstreet.com##*[class*="ProductReviews___StyledImg"]
+www.notonthehighstreet.com##*[class*="PartnerStorefront___StyledSkeletonCard"]
+www.notonthehighstreet.com##*[class*="PartnerCardImage___StyledImg"]
+www.notonthehighstreet.com##.toga-storefront-social
+www.notonthehighstreet.com##.toga-top-product__sale
+www.notonthehighstreet.com##*[name="press_comments"]
 
 ! NOTEBOOK CHECK
 www.notebookcheck.net##.intro-author
