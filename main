@@ -709,6 +709,8 @@ amazon.*##*[class*="loom-mobile-"]
 amazon.*##*[class*="loom-desktop-"]
 amazon.*##*[data-cel-widget*="loom-mobile-"]
 amazon.*##*[data-cel-widget*="loom-desktop-"]
+amazon.*##*[cel_widget_id*="loom-mobile"]
+amazon.*##*[cel_widget_id*="loom-desktop"]
 amazon.*##*[data-cel-widget*="brand-footer-slot"]
 amazon.*##*[class*="Shoveler-module__shovelerWrapper"]
 amazon.*##*[id^="BEST_DEAL_"]
@@ -6388,6 +6390,14 @@ spanishdict.com##a[href*="/premium"]
 spanishdict.com##:xpath(//div[child::a[child::div[child::div[contains(text(), 'New to Spanish?')]]]])
 spanishdict.com##:xpath(//div[child::div[child::a[@href="/textbooks"]]])
 spanishdict.com##:xpath(//div[child::a[child::div[child::div[child::div[child::div[child::p[contains(text(), 'New to Spanish? ')]]]]]]])
+
+! STACK ABUSE
+stackabuse.com###ad-lead-magnet
+stackabuse.com##.col-span-7
+stackabuse.com##.col-span-14 > div ~ *
+stackabuse.com##h1 + div
+stackabuse.com##.content ~ *
+stackabuse.com##main ~ *
 
 ! STACK EXCHANGE
 stackexchange.com##.js-teams-promo
