@@ -72,6 +72,7 @@
 ||cookiebot.com
 !||cookielaw.org
 ||cookiepro.com
+||coremetrics.com
 ||creativecommons.org
 ||ctbl.me
 ||ctr.sh
@@ -213,6 +214,7 @@
 ||ntvsw.com
 ||ofhypnoer.com
 ||oipcqenejq.com
+||omtrdc.net
 ||onetrust.com
 ||onsideratio.fun
 ||otrl.io
@@ -249,6 +251,7 @@
 ||repruggob.com
 ||responserver.com
 ||revrtb.net
+||richrelevance.com
 ||riptukri.net
 ||risingkupwara.com
 ||rodjulian.com
@@ -286,6 +289,7 @@
 ||sweettooth.io
 ||swesomepop.com
 ||swogo.net
+||synthetix.com
 ||tawk.to
 ||techrfour.com
 ||techpedi.com
@@ -1554,10 +1558,25 @@ boardgameprices.co.uk###newsletterteaser
 boardgameprices.co.uk###brexitnotice
 
 ! BOOTS
-www.boots.com###estore_social_widget
-www.boots.com##.payPal3PDPMessage
-www.boots.com###estore_partnerSitesLogo
-www.boots.com###estore_product_headline
+boots.com###estore_social_widget
+boots.com##.payPal3PDPMessage
+boots.com###estore_partnerSitesLogo
+boots.com###estore_product_headline
+boots.com##.oct-experience-fragment
+boots.com##.oct-teaser-wrapper-link
+boots.com##*[id*="contentRecommendationWidget"]
+boots.com##*[class*="cm-placement-slot"]
+boots.com###cu_newsletter_signup
+boots.com##.plp-promotion-redesign
+boots.com##.pdp-promotion-redesign
+boots.com##.product_offer_notify
+boots.com##.favouritesPDP
+boots.com##*[class*="mobileplatforms"]
+boots.com##*[aem-promo-visible="true"]
+boots.com###Promotion
+boots.com###richRelevanceContainer
+boots.com###BVRRContainer
+boots.com###estore_adcard_points_to_earn_widget
 
 ! BORED PANDA
 boredpanda.com##.sidebar
