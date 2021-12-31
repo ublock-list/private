@@ -8795,21 +8795,30 @@ www.wickeduncle.co.uk###home-bottom-blocks
 www.wickeduncle.co.uk###cta-blog
 
 ! WICKES
-www.wickes.co.uk##.sticky-wrapper
-www.wickes.co.uk##.new-usp-container
-www.wickes.co.uk###cookie-bar
-www.wickes.co.uk###sign-up-wrapper
-www.wickes.co.uk###pr-reviewsnippet
-www.wickes.co.uk###olapic_specific_widget
-www.wickes.co.uk###recentlyViewedProductsMonetate
-www.wickes.co.uk##.seo-widgets
-www.wickes.co.uk##.info > div:nth-child(2)
-www.wickes.co.uk##.info > div:nth-child(3)
-www.wickes.co.uk##.socials
-www.wickes.co.uk##.back-to-top
-www.wickes.co.uk##.payments
-www.wickes.co.uk##.similar-products-v2
-www.wickes.co.uk##.charity
+wickes.co.uk##.sticky-wrapper
+wickes.co.uk##.new-usp-container
+wickes.co.uk###cookie-bar
+wickes.co.uk###sign-up-wrapper
+wickes.co.uk###pr-reviewsnippet
+wickes.co.uk###olapic_specific_widget
+wickes.co.uk###recentlyViewedProductsMonetate
+wickes.co.uk##.seo-widgets
+wickes.co.uk##.info > div:nth-child(2)
+wickes.co.uk##.info > div:nth-child(3)
+wickes.co.uk##.socials
+wickes.co.uk##.back-to-top
+wickes.co.uk##.payments
+wickes.co.uk##.similar-products-v2
+wickes.co.uk##.charity
+wickes.co.uk##.banner-inside
+wickes.co.uk##.legal-info
+wickes.co.uk##.srp-injected
+wickes.co.uk##.page-header__intro
+wickes.co.uk##.save-shop-list
+wickes.co.uk##.advice
+wickes.co.uk##.banner
+wickes.co.uk##.product-main-info__share
+wickes.co.uk##.price__badges-v2
 
 ! WIKI HOW
 www.wikihow.com###contribute_footer_wrap
