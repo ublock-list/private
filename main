@@ -875,36 +875,54 @@ arstechnica.com###article-footer-wrap
 arstechnica.com##.newsletter-wrapper
 
 ! ARGOS
-www.argos.co.uk###__tealiumGDPRecModal
-www.argos.co.uk##div[class^="HomepageContainer__PropbarContainer-"]
-www.argos.co.uk##div[class^="styles__PropbarContainer"]
-www.argos.co.uk##.prop-bar
-www.argos.co.uk##div[class^="PromotionPanelstyles__"]
-www.argos.co.uk##div[class^="AppPromptstyles__"]
-www.argos.co.uk##*[class^="EmailFormstyles__"]
-www.argos.co.uk##div[class^="SeoHomepagestyles__"]
-www.argos.co.uk##div[class^="Footerstyles__Brand"]
-www.argos.co.uk##div[class^="Footerstyles__Service"]
-www.argos.co.uk##div[class^="Footerstyles__SocialApp"]
-www.argos.co.uk##span[class^="HomepageComponentsstyles__Proposition"]
-www.argos.co.uk##div[data-el="badges"]
-www.argos.co.uk##div[data-test="argos-card-prompt"]
-www.argos.co.uk##div[data-test="email-offers-container"]
-www.argos.co.uk##a[data-test^="promo-block-"]
-www.argos.co.uk##section[class^="Alternativesstyles__Container"]
-www.argos.co.uk##section[class^="FeaturedProductsstyles"]
-www.argos.co.uk##.search__cms-content
-www.argos.co.uk###credit-card-link
-www.argos.co.uk###promotion-link
-www.argos.co.uk##span[data-test="generic-flag-offers"]
-www.argos.co.uk##span[data-test="generic-flag-swogoData"]
-www.argos.co.uk##.wishlist-checkbox
-www.argos.co.uk##.productCare
-www.argos.co.uk##*[data-test*="hero-"]
-www.argos.co.uk##*[class*="HomepageComponentsstyles__"]
-www.argos.co.uk##*[class*="styles__FeedbackBanner-"]
-www.argos.co.uk##*[class*="LazyHydrateCard"] > *[class*="StyledProductCard"]
-www.argos.co.uk##*[class*="Propbarstyles__Container"]
+argos.co.uk###__tealiumGDPRecModal
+argos.co.uk##div[class^="HomepageContainer__PropbarContainer-"]
+argos.co.uk##div[class^="styles__PropbarContainer"]
+argos.co.uk##.prop-bar
+argos.co.uk##div[class^="PromotionPanelstyles__"]
+argos.co.uk##div[class^="AppPromptstyles__"]
+argos.co.uk##*[class^="EmailFormstyles__"]
+argos.co.uk##div[class^="SeoHomepagestyles__"]
+argos.co.uk##div[class^="Footerstyles__Brand"]
+argos.co.uk##div[class^="Footerstyles__Service"]
+argos.co.uk##div[class^="Footerstyles__SocialApp"]
+argos.co.uk##span[class^="HomepageComponentsstyles__Proposition"]
+argos.co.uk##div[data-el="badges"]
+argos.co.uk##div[data-test="argos-card-prompt"]
+argos.co.uk##div[data-test="email-offers-container"]
+argos.co.uk##a[data-test^="promo-block-"]
+argos.co.uk##section[class^="Alternativesstyles__Container"]
+argos.co.uk##section[class^="FeaturedProductsstyles"]
+argos.co.uk##.search__cms-content
+argos.co.uk###credit-card-link
+argos.co.uk###promotion-link
+argos.co.uk##span[data-test="generic-flag-offers"]
+argos.co.uk##span[data-test="generic-flag-swogoData"]
+argos.co.uk##.wishlist-checkbox
+argos.co.uk##.productCare
+argos.co.uk##*[data-test*="hero-"]
+argos.co.uk##*[class*="HomepageComponentsstyles__"]
+argos.co.uk##*[class*="styles__FeedbackBanner-"]
+argos.co.uk##*[class*="LazyHydrateCard"] > *[class*="StyledProductCard"]
+argos.co.uk##*[class*="Propbarstyles__Container"]
+argos.co.uk##*[data-test*="001-container"]
+argos.co.uk##*[class*="WishlistIconContainer"]
+argos.co.uk##*[class*="SavingTextContainer"]
+argos.co.uk##*[class*="BadgeContainer"]
+argos.co.uk##*[class*="BackToTopstyles"]
+argos.co.uk###special-offers-accordion
+argos.co.uk###frequently-bought-together-accordion
+argos.co.uk###matching-accessories
+argos.co.uk##*[data-test="wishlist"]
+argos.co.uk##*[data-test="matching-accessories-hero"]
+argos.co.uk##*[data-test="generic-flag-bundles"]
+argos.co.uk##*[data-test="att-sticky-nav-special-offers-button"]
+argos.co.uk##*[data-test="att-sticky-nav-bought-together-button"]
+argos.co.uk##*[data-test="att-sticky-nav-matching-accessories-button"]
+argos.co.uk##*[data-title="megabutton0"]
+argos.co.uk##*[data-area]
+argos.co.uk##:xpath(//div[contains(@class, 'LazyHydrateCard') and child::div[child::div[child::div[child::div[child::div[contains(text(), 'SPONSORED')]]]]]])
+argos.co.uk##:xpath(//div[contains(@class, 'LazyHydrateCard') and child::div[contains(@class, 'StyledProductCard')]])
 
 ! APK PURE
 apkpure.com##.right
@@ -4853,6 +4871,42 @@ www.newsweek.com###sticky1
 www.newsweek.com##.magazine
 www.newsweek.com###block-nw-editors-pick
 
+! NEXT
+www.next.co.uk##.cm-hero__picture-box
+www.next.co.uk##.cm-placement-hero
+www.next.co.uk##.brands-outer
+www.next.co.uk##.brand-animator-module
+www.next.co.uk##.new-4-teaser-module
+www.next.co.uk##.product-category-module-row
+www.next.co.uk##:xpath(//div[child::div[contains(text(), 'Trending')]])
+www.next.co.uk##.text-banner
+www.next.co.uk##.seoBannerPointer
+www.next.co.uk###ResultBanner
+www.next.co.uk##.divFavouritesContainer
+www.next.co.uk##.favourite-icon
+www.next.co.uk###gpt-ad-desktop-plp
+www.next.co.uk##.footer2.QuickLinks
+www.next.co.uk##.logo
+www.next.co.uk##.verifiedReview
+www.next.co.uk##.pdpBackToTop
+www.next.co.uk##*[class*="MissionBlock"]
+www.next.co.uk##.RecentlyViewed
+www.next.co.uk##.RecentlyViewedWrapper
+www.next.co.uk###3rdParty-intelrecs
+www.next.co.uk###intel-recs-scaffold
+www.next.co.uk###lastArticleBottom
+www.next.co.uk##.StyleWith
+www.next.co.uk##.sw-slider
+www.next.co.uk##.heart.fav
+www.next.co.uk##.shop-branded
+www.next.co.uk##.shop-hero-two
+www.next.co.uk##.cm-placement-topBanner
+www.next.co.uk###sc-search-control
+www.next.co.uk##.banner-overlays
+www.next.co.uk##.cm-teaser-overlay
+www.next.co.uk##*[id^="module94-"]
+www.next.co.uk##.button-list-container
+
 ! NHS
 www.nhs.uk###nhsuk-cookie-banner
 www.nhs.uk###app-global-alert
@@ -4903,6 +4957,7 @@ www.notonthehighstreet.com##*[class*="PartnerCardImage___StyledImg"]
 www.notonthehighstreet.com##.toga-storefront-social
 www.notonthehighstreet.com##.toga-top-product__sale
 www.notonthehighstreet.com##*[name="press_comments"]
+www.notonthehighstreet.com##.gc-header__item--favourites
 
 ! NOTEBOOK CHECK
 www.notebookcheck.net##.intro-author
