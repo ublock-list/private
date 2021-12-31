@@ -176,6 +176,8 @@ youporn.com##:xpath(//div[contains(@class, 'video-box') and child::a[contains(@h
 youporn.com##.channelRelatedBox
 youporn.com###list_query
 youporn.com###metaDataShowMore
+youporn.com##.video-box-infos
+youporn.com##.add-to-button
 
 ! XHAMSTER
 xhamster.com##.dialog-desktop-container
