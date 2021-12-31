@@ -3282,75 +3282,79 @@ www.hollandandbarrett.com##*[class*="FooterSignup"]
 www.hollandandbarrett.com##footer
 
 ! HOMEBASE
-www.homebase.co.uk##.header_top__buttons--ideas
-www.homebase.co.uk##*[id*="trackingPanelPropositionBanner"]
-www.homebase.co.uk##*[datav3-module-name="SummaryPromotion"]
-www.homebase.co.uk##*[datav3-module-name="SummaryPromotionMobile"]
-www.homebase.co.uk##.seo-footer-desktop
-www.homebase.co.uk##.footer-banner
-www.homebase.co.uk##.related-links
-www.homebase.co.uk##.rich-relevance-placement-wrapper
-www.homebase.co.uk##.singlebanner-wrapper
-www.homebase.co.uk##*[datav3-module-name="CategoryDIYRelatedArticles"]
-www.homebase.co.uk###more-diy-advice-tabs
-www.homebase.co.uk##:xpath(//div[child::h2[contains(text(), 'Related Products')]])
-www.homebase.co.uk##.cookie_modal_button_v5
-www.homebase.co.uk##.stripBanner
-www.homebase.co.uk##.productAlternativesWrapper
-www.homebase.co.uk##.eastendFooter_signupAndSocialIcons
-www.homebase.co.uk##.eastendFooter_sectionFourContainer
-www.homebase.co.uk##.emailReengagement
-www.homebase.co.uk##.emailReengagement_noscroll:style(overflow: auto !important; position: static !important;)
-www.homebase.co.uk##.productBuyNowPayLater
-www.homebase.co.uk##.productAddToWishlist_button_wrapper
-www.homebase.co.uk##.clearance
-www.homebase.co.uk##.productRecommendations
-www.homebase.co.uk##.productRecentlyViewedProducts
-www.homebase.co.uk##.showPapBanner
-www.homebase.co.uk##.productBrandLogo
-www.homebase.co.uk##.emailReengagement
-www.homebase.co.uk##.responsiveUsp
-www.homebase.co.uk##.primaryBannerWithTextOverlay
-www.homebase.co.uk##.generalImageBanner
-www.homebase.co.uk##.simpleCTA_container
-www.homebase.co.uk##.responsiveFlyoutMenu_waterfallFlyOut_detachedFeatureMenu
-www.homebase.co.uk##.multiButtonWidget
-www.homebase.co.uk##.imageCardSet
-www.homebase.co.uk##.primaryBanner_container
-www.homebase.co.uk##.primaryBanner
-www.homebase.co.uk##.twoItemImageTextBlock
-www.homebase.co.uk##:xpath(//div[contains(@class, 'simpleTextWidget') and child::div[child::h2[contains(text(), 'Popular Searches')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'simpleTextWidget') and child::div[child::h2[contains(text(), 'Related categories')]]])
-www.homebase.co.uk##.simpleTextWidgetCTA
-www.homebase.co.uk##.shopTheLook_wrapper
-www.homebase.co.uk##.transformationSlider
-www.homebase.co.uk##.twoItemEditorial
-www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Give it a go')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Popular')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'popular')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Find Your Luxurious Style')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'gift ideas')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Prepare for')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Garden Deals')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Brand')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'brand')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Featured')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'featured')]]]) 
-www.homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Explore our newest arrivals')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h1[contains(text(), 'Home Trend Inspiration')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h1[contains(text(), 'Top Categories')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'essentials to help')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'Popular')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'popular')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'Brand')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'brand')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'Featured')]]])
-www.homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'featured')]]])
-www.homebase.co.uk##:xpath(//div[child::h2[contains(text(), 'Best Sellers')]])
-www.homebase.co.uk##:xpath(//div[child::h2[contains(text(), 'Best sellers')]])
-www.homebase.co.uk##.productBlock_productlogoWrapper
-www.homebase.co.uk##.papBannerWrapper
-www.homebase.co.uk##.swatchSelectSlider_logo_container
+homebase.co.uk##.header_top__buttons--ideas
+homebase.co.uk##*[id*="trackingPanelPropositionBanner"]
+homebase.co.uk##*[datav3-module-name="SummaryPromotion"]
+homebase.co.uk##*[datav3-module-name="SummaryPromotionMobile"]
+homebase.co.uk##.seo-footer-desktop
+homebase.co.uk##.footer-banner
+homebase.co.uk##.related-links
+homebase.co.uk##.rich-relevance-placement-wrapper
+homebase.co.uk##.singlebanner-wrapper
+homebase.co.uk##*[datav3-module-name="CategoryDIYRelatedArticles"]
+homebase.co.uk###more-diy-advice-tabs
+homebase.co.uk##:xpath(//div[child::h2[contains(text(), 'Related Products')]])
+homebase.co.uk##.cookie_modal_button_v5
+homebase.co.uk##.stripBanner
+homebase.co.uk##.productAlternativesWrapper
+homebase.co.uk##.eastendFooter_signupAndSocialIcons
+homebase.co.uk##.eastendFooter_sectionFourContainer
+homebase.co.uk##.emailReengagement
+homebase.co.uk##.emailReengagement_noscroll:style(overflow: auto !important; position: static !important;)
+homebase.co.uk##.productBuyNowPayLater
+homebase.co.uk##.productAddToWishlist_button_wrapper
+homebase.co.uk##.clearance
+homebase.co.uk##.productRecommendations
+homebase.co.uk##.productRecentlyViewedProducts
+homebase.co.uk##.showPapBanner
+homebase.co.uk##.productBrandLogo
+homebase.co.uk##.emailReengagement
+homebase.co.uk##.responsiveUsp
+homebase.co.uk##.primaryBannerWithTextOverlay
+homebase.co.uk##.generalImageBanner
+homebase.co.uk##.simpleCTA_container
+homebase.co.uk##.responsiveFlyoutMenu_waterfallFlyOut_detachedFeatureMenu
+homebase.co.uk##.multiButtonWidget
+homebase.co.uk##.imageCardSet
+homebase.co.uk##.primaryBanner_container
+homebase.co.uk##.primaryBanner
+homebase.co.uk##.twoItemImageTextBlock
+homebase.co.uk##:xpath(//div[contains(@class, 'simpleTextWidget') and child::div[child::h2[contains(text(), 'Popular Searches')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'simpleTextWidget') and child::div[child::h2[contains(text(), 'Related categories')]]])
+homebase.co.uk##.simpleTextWidgetCTA
+homebase.co.uk##.shopTheLook_wrapper
+homebase.co.uk##.transformationSlider
+homebase.co.uk##.twoItemEditorial
+homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Give it a go')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Popular')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'popular')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Find Your Luxurious Style')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'gift ideas')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Prepare for')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Garden Deals')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Brand')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'brand')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Featured')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'featured')]]]) 
+homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'Explore our newest arrivals')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h1[contains(text(), 'Home Trend Inspiration')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h1[contains(text(), 'Top Categories')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'essentials to help')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'Popular')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'popular')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'Brand')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'brand')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'Featured')]]])
+homebase.co.uk##:xpath(//div[contains(@class, 'componentWidget') and child::div[child::h2[contains(text(), 'featured')]]])
+homebase.co.uk##:xpath(//div[child::h2[contains(text(), 'Best Sellers')]])
+homebase.co.uk##:xpath(//div[child::h2[contains(text(), 'Best sellers')]])
+homebase.co.uk##.productBlock_productlogoWrapper
+homebase.co.uk##.papBannerWrapper
+homebase.co.uk##.swatchSelectSlider_logo_container
+homebase.co.uk##.countDownTimer
+homebase.co.uk##.multiCategoryCardSet
+homebase.co.uk##.readmore
+homebase.co.uk##.featureHeaderIcons_ideasAndAdvice
 
 ! HOTUKDEALS
 hotukdeals.com##.js-keyword-alerts
@@ -4464,6 +4468,23 @@ mashable.com##:xpath(//p[child::span[contains(text(), 'More in')]])
 mashable.com##footer
 mashable.com##.accent-vertical
 ||mashable.com/videos/blueprint*$subdocument
+
+! MATALAN
+matalan.co.uk###global-banner-container
+matalan.co.uk##.page--static
+matalan.co.uk##.c-wishlist-notifications__wrapper
+matalan.co.uk##.c-wishlist__container
+matalan.co.uk##.c-newsletter-sign-up-tab
+matalan.co.uk##.c-category-seo-banner
+matalan.co.uk##.c-roundel
+matalan.co.uk##.c-promo
+matalan.co.uk##.o-footer__subscribe-container
+matalan.co.uk##.o-footer__app-store-container
+matalan.co.uk##.o-footer--social
+matalan.co.uk##.sub-nav-group__image
+matalan.co.uk###plp-recs
+matalan.co.uk###plp-recs ~ *
+matalan.co.uk##*[data-behavior="global-messages"]
 
 ! MECH BOARDS
 mechboards.co.uk###footer--social
