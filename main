@@ -2102,21 +2102,58 @@ www.currencyconverterx.com##.block__link_webterminal
 www.currencyconverterx.com##.convert-form__link-tradays
 
 ! CURRYS
-www.currys.co.uk##.top-services
-www.currys.co.uk##.delivery-dropdown.homepage-wrapper
-www.currys.co.uk##.slides.homepage-wrapper
-www.currys.co.uk###email-signup
-www.currys.co.uk##.more-from-us
-www.currys.co.uk###telesales
-www.currys.co.uk###terms
-www.currys.co.uk##.features
-www.currys.co.uk###DSG_wrapper_extra
-www.currys.co.uk##.product-offers-list.product-offers.simple
-www.currys.co.uk##.sponsored-products-block
-www.currys.co.uk##.respContent
-www.currys.co.uk##*[data-component="list-page-paginator"] ~ *
-www.currys.co.uk##main.cont > .seo
-www.currys.co.uk##.dc-product-bundles
+currys.co.uk##.top-services
+currys.co.uk##.delivery-dropdown.homepage-wrapper
+currys.co.uk##.slides.homepage-wrapper
+currys.co.uk###email-signup
+currys.co.uk##.more-from-us
+currys.co.uk###telesales
+currys.co.uk###terms
+currys.co.uk##.features
+currys.co.uk###DSG_wrapper_extra
+currys.co.uk##.product-offers-list.product-offers.simple
+currys.co.uk##.sponsored-products-block
+currys.co.uk##.respContent
+currys.co.uk##*[data-component="list-page-paginator"] ~ *
+currys.co.uk##main.cont > .seo
+currys.co.uk##.dc-product-bundles
+currys.co.uk##*[class*="Popup__Backdrop"]
+currys.co.uk##*[class*="Footer__CallToActionWrapper"]
+currys.co.uk##*[class*="Footer__UsefullLinksWrapper"]
+currys.co.uk##*[class*="Footer__SocialMediaSection"]
+currys.co.uk##*[class*="ListItemPromoMessages__"]
+currys.co.uk##img[alt="product sticker"]
+currys.co.uk##*[data-component="price-match-desktop"]
+currys.co.uk##*[data-component="sharingIcons"]
+currys.co.uk##*[data-component="avms"]
+currys.co.uk##*[data-component="careplanSwatchesWrapper"]
+currys.co.uk###bundles-panel
+currys.co.uk###banners
+currys.co.uk###SP-header
+currys.co.uk##.tab-deals
+currys.co.uk##.three.category-blocks
+currys.co.uk##.hot-categories
+currys.co.uk##.sticker
+currys.co.uk##.product-offers
+currys.co.uk##.online-credit-message-wrapper
+currys.co.uk##.badges
+currys.co.uk##.rad
+currys.co.uk##.prd-links-container
+currys.co.uk##.animated-message
+currys.co.uk##.dc-owl-stage-outer
+currys.co.uk###advice-inspiration
+currys.co.uk###brand-shops
+currys.co.uk###description
+currys.co.uk###enhanced-content
+currys.co.uk##*[id*="hotspot"]
+currys.co.uk##*[id*="dc-tabbed-slider"]
+currys.co.uk##.sticker-ribbon
+currys.co.uk##.offer-ribbon
+currys.co.uk##app-added-value-message
+currys.co.uk##.credit-table-container
+currys.co.uk###footer__seo
+currys.co.uk##.sticker-pill-container
+currys.co.uk##.promos
 
 ! DEBENHAMS
 www.debenhams.com##.dbh-global-banner
