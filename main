@@ -242,6 +242,7 @@
 ||publicananker.com
 ||pushmono.com
 ||qr-maker.me
+||queue-it.net
 ||raiphupi.com
 ||ravenjs.com
 ||reamaze.com
@@ -4056,6 +4057,24 @@ www.iwantoneofthose.com##.sign-off
 ! JAVASCRIPT INFO
 javascript.info##.share-icons
 javascript.info##.banner-bottom
+
+! JD SPORTS
+www.jdsports.co.uk###uspAll
+www.jdsports.co.uk##.linkWishlist
+www.jdsports.co.uk##.t-carouselce
+www.jdsports.co.uk##.ProductSpotlight
+www.jdsports.co.uk##.SpotCarousel
+www.jdsports.co.uk##.Editorial
+www.jdsports.co.uk###editor
+www.jdsports.co.uk##.footerbox
+www.jdsports.co.uk##.cards
+www.jdsports.co.uk##.nav-promotions
+www.jdsports.co.uk##.nav-usp
+www.jdsports.co.uk###productListBanner
+www.jdsports.co.uk###itemRelatedCats
+www.jdsports.co.uk##.wishlistAdd
+www.jdsports.co.uk###productListRecent
+www.jdsports.co.uk##*[class*="MainBanner"]
 
 ! JELLYFIN
 forum.jellyfin.org##.suggested-topics-wrapper
