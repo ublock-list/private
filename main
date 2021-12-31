@@ -3955,6 +3955,30 @@ www.itv.com##*[data-testid="article-footer"]
 www.itv.com##*[data-testid="related-content"]
 www.itv.com##*[data-testid="tag-list"]
 
+! I WANT ONE OF THOSE
+www.iwantoneofthose.com##.emailReengagement
+www.iwantoneofthose.com##.stripBanner
+www.iwantoneofthose.com##.responsiveUsp
+www.iwantoneofthose.com##.primaryBanner_container
+www.iwantoneofthose.com##.responsiveSlot1
+www.iwantoneofthose.com##.responsiveProductTabs
+www.iwantoneofthose.com##.twoItemEditorial_container
+www.iwantoneofthose.com##.sixItemCategories
+www.iwantoneofthose.com##.fourBestSellers
+www.iwantoneofthose.com##.responsiveSlot9
+www.iwantoneofthose.com##.eastendFooter_paySecurelyIcons
+www.iwantoneofthose.com##.eastendFooter_signupAndSocialIcons
+www.iwantoneofthose.com##.manchesterProductPage_productBuyNowPayLaterProviders
+www.iwantoneofthose.com##.manchesterProductPage_productRecommendations
+www.iwantoneofthose.com##.productRecommendations
+www.iwantoneofthose.com##.addedToBasketModal_productRecommendations
+www.iwantoneofthose.com##.responsiveProductListFooter_description-always-expanded
+www.iwantoneofthose.com##.editors
+www.iwantoneofthose.com##.post-meta--share
+www.iwantoneofthose.com##.author-info
+www.iwantoneofthose.com##.related-posts
+www.iwantoneofthose.com##.sign-off
+
 ! JAVASCRIPT INFO
 javascript.info##.share-icons
 javascript.info##.banner-bottom
