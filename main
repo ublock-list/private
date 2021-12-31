@@ -728,6 +728,7 @@ amazon.*##*[data-cel-widget^="sparkle-carousel-creative-"]
 amazon.*###gwm-Deck
 amazon.*###HLCXComparisonWidget_feature_div
 amazon.*##*[id*="DEAL_OF_THE_DAY"]
+amazon.*##*[class*="Badge-module__dotdBadge_"]
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -4385,6 +4386,48 @@ linustechtips.com##*[data-role="memberSignature"]
 linustechtips.com##.lmgComment_footer
 linustechtips.com##.awards-block
 linustechtips.com##.cGuestTeaser
+
+! LITTLEWOODS
+littlewoods.com##.uspContainer
+littlewoods.com##.slick-slider
+littlewoods.com###topPicks
+littlewoods.com##.topPicks--homePage ~ *
+littlewoods.com##.poppinsReview
+littlewoods.com###appleStripBanners
+littlewoods.com###fsContainer
+littlewoods.com###newCustBan
+littlewoods.com###footerInfoSignUp
+littlewoods.com###footerInfoApp
+littlewoods.com###footerInfoSocial
+littlewoods.com##.footerModule-fsLegal
+littlewoods.com##.header-sfl
+littlewoods.com##:xpath(//div[@class="topNavCol" and child::h3[contains(text(), 'Not To Be Missed')]])
+littlewoods.com##.sflIconWrap
+littlewoods.com##.lowStock
+littlewoods.com##.bestseller
+littlewoods.com##.footer-copy
+littlewoods.com##.smartOffer
+littlewoods.com##.ui-button-save-for-later__wrapper
+littlewoods.com##*[class*="social--wrapper"]
+littlewoods.com###recs_1_Wrap
+littlewoods.com##.productReviews
+littlewoods.com###recs_2_Wrap
+littlewoods.com###recs_3_Wrap
+littlewoods.com##.moreFrom
+littlewoods.com###galleryLinks
+littlewoods.com###bs-container
+littlewoods.com###newBNPL
+littlewoods.com###zone-container
+littlewoods.com###zoneDynamicContent
+littlewoods.com###fourthway_banner
+littlewoods.com##.sponsorHeader
+littlewoods.com##.exposureCard
+littlewoods.com##.productWarrantyInfo
+littlewoods.com##.fourthwayDesktop
+littlewoods.com##.fullWidthImg
+littlewoods.com##.facetNotToBeMissed
+littlewoods.com##.addOnItemsWrap
+littlewoods.com###checkoutFooter-littlewoods
 
 ! LIVE COIN WATCH
 www.livecoinwatch.com##.s-header
