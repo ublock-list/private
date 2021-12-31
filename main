@@ -36,6 +36,7 @@
 ||beenmeekwarmth.casa
 ||beop.io
 ||bibblio.org
+||bigcontent.io
 ||bitfly.io
 ||blockchain.info
 ||blogginglass.com
@@ -1556,6 +1557,42 @@ boardgamegeek.com##.promoted-item
 boardgameprices.co.uk##.expandee.newsletter
 boardgameprices.co.uk###newsletterteaser
 boardgameprices.co.uk###brexitnotice
+
+! BOOHOO
+www.boohoo.com##.header-cookies-gdpr
+www.boohoo.com##.magic-hidden-wrapper
+www.boohoo.com##.header-gdrp-cookies-visible body::before:style(display: none !important;)
+www.boohoo.com##.dialog-opened body:style(overflow: auto !important;)
+www.boohoo.com##.banner-timer
+www.boohoo.com##.footer-navigation-item:nth-of-type(4)
+www.boohoo.com##.footer-newsletter-social-wrapper
+www.boohoo.com##.homepage-splash
+www.boohoo.com##.footer-payment-method
+www.boohoo.com##.header-wishlist
+www.boohoo.com##.nav-image
+www.boohoo.com##.nav-offers-slots
+www.boohoo.com##.mobile-category-offers-include
+www.boohoo.com##.banners-above-nav
+www.boohoo.com###homepage-slider
+www.boohoo.com##.recommendations-tabs
+www.boohoo.com##.product-promo
+www.boohoo.com##.cta-overlay-container
+www.boohoo.com##.plp-cat-banners-inner
+www.boohoo.com##.plp-banner-wrapper
+www.boohoo.com##.above-promo-message
+www.boohoo.com##.under-cta
+www.boohoo.com##.wishlist-button
+www.boohoo.com##.search-promo
+www.boohoo.com##.category-description-slot
+www.boohoo.com##.recommendations-section
+www.boohoo.com##.product-sales-tag
+www.boohoo.com##.product-tile-badge
+www.boohoo.com##.mini-cart-banner
+www.boohoo.com##.cart-payment-ways
+www.boohoo.com##.payment-calculation-wrapper
+www.boohoo.com##.cart-action-checkout-inner
+www.boohoo.com##.premier
+www.boohoo.com##.cart-shipping-banner
 
 ! BOOTS
 boots.com###estore_social_widget
