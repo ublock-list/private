@@ -1992,6 +1992,10 @@ edition.cnn.com###footer-nav-container
 edition.cnn.com##*[class*="LiveTVWrap"]
 edition.cnn.com##.metadata__byline
 edition.cnn.com##.byline-images
+edition.cnn.com##.owl-carousel
+edition.cnn.com##*[class*="cn-featured-"]
+edition.cnn.com##.el-editorial-note
+edition.cnn.com##.el__article--embed
 
 ! CODING GAME
 codingame.com##navigation-hiring-work
@@ -4060,22 +4064,22 @@ javascript.info##.share-icons
 javascript.info##.banner-bottom
 
 ! JD SPORTS
-www.jdsports.co.uk###uspAll
-www.jdsports.co.uk##.linkWishlist
-www.jdsports.co.uk##.t-carouselce
-www.jdsports.co.uk##.ProductSpotlight
-www.jdsports.co.uk##.SpotCarousel
-www.jdsports.co.uk##.Editorial
-www.jdsports.co.uk###editor
-www.jdsports.co.uk##.footerbox
-www.jdsports.co.uk##.cards
-www.jdsports.co.uk##.nav-promotions
-www.jdsports.co.uk##.nav-usp
-www.jdsports.co.uk###productListBanner
-www.jdsports.co.uk###itemRelatedCats
-www.jdsports.co.uk##.wishlistAdd
-www.jdsports.co.uk###productListRecent
-www.jdsports.co.uk##*[class*="MainBanner"]
+jdsports.co.uk###uspAll
+jdsports.co.uk##.linkWishlist
+jdsports.co.uk##.t-carouselce
+jdsports.co.uk##.ProductSpotlight
+jdsports.co.uk##.SpotCarousel
+jdsports.co.uk##.Editorial
+jdsports.co.uk###editor
+jdsports.co.uk##.footerbox
+jdsports.co.uk##.cards
+jdsports.co.uk##.nav-promotions
+jdsports.co.uk##.nav-usp
+jdsports.co.uk###productListBanner
+jdsports.co.uk###itemRelatedCats
+jdsports.co.uk##.wishlistAdd
+jdsports.co.uk###productListRecent
+jdsports.co.uk##*[class*="MainBanner"]
 
 ! JELLYFIN
 forum.jellyfin.org##.suggested-topics-wrapper
@@ -4428,6 +4432,19 @@ littlewoods.com##.fullWidthImg
 littlewoods.com##.facetNotToBeMissed
 littlewoods.com##.addOnItemsWrap
 littlewoods.com###checkoutFooter-littlewoods
+littlewoods.com##.tradeContent
+littlewoods.com##.fodFooter
+littlewoods.com##.fsLegal
+littlewoods.com##.gallery-seo
+littlewoods.com##.navItem--saved
+littlewoods.com##.menu__bannerLink
+littlewoods.com##.menu__anchor--saveForLater
+littlewoods.com##.bestSeller
+littlewoods.com###recs_1m_Wrap
+littlewoods.com###bundleDeals
+littlewoods.com###moreFromProducts
+littlewoods.com##:xpath(//h3[contains(@class, 'menu__header') and contains(text(), 'Not To Be Missed')])
+littlewoods.com##:xpath(//h3[contains(@class, 'menu__header') and contains(text(), 'Not To Be Missed')]) + ul
 
 ! LIVE COIN WATCH
 www.livecoinwatch.com##.s-header
@@ -6105,6 +6122,17 @@ www.reed.co.uk##.gtmEmailMeJobsTop
 ! RESTORE PRIVACY
 restoreprivacy.com##.author-box
 
+! REUTERS
+www.reuters.com##*[class*="StickyRail__container___"]
+www.reuters.com##*[class*="RegularArticleLayout__related___"]
+www.reuters.com##*[class*="SiteFooter__company___"]
+www.reuters.com##*[class*="ProductCards__container___"]
+www.reuters.com##*[class*="SiteFooter__stay-informed___"]
+www.reuters.com##*[class*="connatix__heading___"]
+www.reuters.com##*[class*="AuthorName__author___"]
+www.reuters.com##*[class*="ArticleHeader__author___"]
+www.reuters.com##*[class*="SignOff__text___"]
+
 ! RHS
 www.rhs.org.uk##.toolbar__search .form-btn--tone-alert
 www.rhs.org.uk###rmg-quick-bookmark_0
@@ -6258,6 +6286,13 @@ www.rt.com##.lang_nav_social_BlockWrapper
 www.rt.com##.news-block
 www.rt.com##.read-more
 www.rt.com##.short-url__link
+www.rt.com##.main-socials
+www.rt.com##.cookies__banner
+www.rt.com##.social-banner
+www.rt.com##.showMobile
+www.rt.com##.main-page-podcasts-white
+www.rt.com##.article__author-text
+www.rt.com##.Section-is1to1
 
 ! RULES OF PLAY
 rulesofplay.co.uk##.product-recently-viewed__wrapper
