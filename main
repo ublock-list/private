@@ -1318,6 +1318,9 @@ bbc.*##.sc-c-playqueue
 bbc.*##.msi-modal-backdrop
 bbc.*##.msi-modal
 bbc.*##*[class*="-BulletListContainer"]
+bbc.*##.bitesize-banner
+bbc.*##.qa-story-cta-link
+bbc.*##.Theme-SocialIcons
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
@@ -1595,6 +1598,9 @@ www.boohoo.com##.payment-calculation-wrapper
 www.boohoo.com##.cart-action-checkout-inner
 www.boohoo.com##.premier
 www.boohoo.com##.cart-shipping-banner
+www.boohoo.com##.scroll-page-top
+www.boohoo.com##.menu-banners
+www.boohoo.com##.product-category-slider-wrapper 
 
 ! BOOTS
 boots.com###estore_social_widget
@@ -1721,7 +1727,9 @@ cambridgemask.com##.Footer__Social
 cambridgemask.com###shopify-section-announcement
 
 ! CAMEL CAMEL CAMEL
-uk.camelcamelcamel.com##.baller
+camelcamelcamel.com##.baller
+camelcamelcamel.com###camelcamelcamel_billboard_atf
+camelcamelcamel.com##.ad
 
 ! CAR BUYER
 www.carbuyer.co.uk##.fancybox-overlay
@@ -2694,6 +2702,7 @@ fandom.com##.recirculation-prefooter__list
 fandom.com##.toc
 fandom.com##.global-navigation
 fandom.com##.notifications-box
+fandom.com###article-featured-video-container
 
 ! FANFICTION.NET
 fanfiction.net###cookie_notice
@@ -3032,6 +3041,7 @@ github.com##.Popover.js-notice
 github.com##.js-notice-dismiss
 github.com##*[id*="funding-links-modal"]
 github.com##:xpath(//div[contains(@class, 'BorderGrid-row') and child::div[child::h2[contains(text(), 'Sponsor this project')]]])
+github.com##.gist-banner
 
 ! GIZMODO
 gizmodo.com##.instream-native-video
@@ -4025,6 +4035,9 @@ itsfoss.com##.author-box
 itsfoss.com###comments
 itsfoss.com###linkcat-2015
 itsfoss.com##.entry-footer
+itsfoss.com##.entry-author
+itsfoss.com##.entry-comments-link
+itsfoss.com###linkcat-2012
 
 ! ITV
 www.itv.com##.cp_cookie-dialog
@@ -8897,6 +8910,7 @@ wickes.co.uk##.advice
 wickes.co.uk##.banner
 wickes.co.uk##.product-main-info__share
 wickes.co.uk##.price__badges-v2
+wickes.co.uk##.header-shop-list
 
 ! WIKI HOW
 www.wikihow.com###contribute_footer_wrap
@@ -9023,6 +9037,7 @@ wired.*##.grid--item.disclaimer
 wired.*##:xpath(//p[contains(text(), 'WIRED Recommends is your')])
 wired.*##:xpath(//div[contains(text(), 'More great stories from WIRED')])
 wired.*##:xpath(//div[contains(text(), 'More great stories from WIRED')]) ~ *
+wired.*##.disclaimer
 
 ! WOODSHOP DIRECT
 www.woodshopdirect.co.uk##.targeted-message
