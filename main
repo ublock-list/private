@@ -943,6 +943,22 @@ arstechnica.com##.byline > a
 arstechnica.com##.story-sidebar
 arstechnica.com###social-footer
 
+! ART PRINT SHOP
+www.artprintshop.co.uk##.announcement-bar
+www.artprintshop.co.uk##.swym-wishlist
+www.artprintshop.co.uk##.swym-add-to-wishlist-view-product
+www.artprintshop.co.uk##.product-template__mobile-reviews-tab
+www.artprintshop.co.uk##.price-item__label
+www.artprintshop.co.uk##.swym-add-to-wishlist
+www.artprintshop.co.uk##.htusb-ui-prod-deadline
+www.artprintshop.co.uk##.product__further-help
+www.artprintshop.co.uk##.product-icons-below-help
+www.artprintshop.co.uk###recently-viewed-products
+www.artprintshop.co.uk##.product-payment-icons
+www.artprintshop.co.uk##.return-link-wrapper
+www.artprintshop.co.uk##.social-icons
+www.artprintshop.co.uk##.site-footer__payment-icons
+
 ! ASOS
 asos.com##*[data-testid="cookie-disclaimer"]
 asos.com###globalBannerComponent
@@ -4093,6 +4109,9 @@ jdsports.co.uk###itemRelatedCats
 jdsports.co.uk##.wishlistAdd
 jdsports.co.uk###productListRecent
 jdsports.co.uk##*[class*="MainBanner"]
+jdsports.co.uk###footerCTAs
+jdsports.co.uk##.wish
+jdsports.co.uk##.sb-animation:style(margin-top: 0 !important;)
 
 ! JELLYFIN
 forum.jellyfin.org##.suggested-topics-wrapper
@@ -4115,6 +4134,21 @@ www.johnlewis.com##jl-recommendations-panel
 
 ! JULIA EVANS
 jvns.ca##.hentry > footer
+
+! JUST ANSWER
+www.justanswer.com##.pearl-chat-container
+www.justanswer.com##.th-cookie-banner
+www.justanswer.com##.th-upvoting
+www.justanswer.com##.gqa-thread-container > .th-how-it-works
+www.justanswer.com##.th-social-sharing
+www.justanswer.com##.th-gqa-question-cards
+www.justanswer.com##.tiles-wrapper
+www.justanswer.com##.th-gqa-disclaimer
+www.justanswer.com##.th-media-footer
+www.justanswer.com##.mobile-tagline
+www.justanswer.com##.teaser-cta
+www.justanswer.com##.th-gqa-expert-card
+www.justanswer.com##.answer-time
 
 ! JUSTIN GUITAR
 www.justinguitar.com##.donation-tile
@@ -6306,6 +6340,9 @@ www.rt.com##.showMobile
 www.rt.com##.main-page-podcasts-white
 www.rt.com##.article__author-text
 www.rt.com##.Section-is1to1
+
+! RTINGS
+www.rtings.com##.landing_page-banner
 
 ! RULES OF PLAY
 rulesofplay.co.uk##.product-recently-viewed__wrapper
