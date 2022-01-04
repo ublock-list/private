@@ -752,6 +752,27 @@ developer.android.com##.devsite-footer-utility-button
 developer.android.com##.devsite-footer-promo-title
 developer.android.com##.devsite-badger-award
 
+! ANDROID AUTHORITY
+androidauthority.com###__next > div
+androidauthority.com##aside
+androidauthority.com##.swiper 
+androidauthority.com##a[href*="/deals/"]
+androidauthority.com##.remixd-audio-player
+androidauthority.com##:xpath(//div[child::span[contains(text(), 'By')]])
+androidauthority.com##:xpath(//div[child::p[contains(text(), 'earn us a commission')]])
+androidauthority.com##:xpath(//div[child::div[child::form[child::button[contains(text(), 'Subscribe')]]]])
+androidauthority.com##:xpath(//p[child::strong and child::a])
+androidauthority.com##:xpath(//div[child::div[child::div[contains(text(), 'Was this page helpful?')]]])
+androidauthority.com##:xpath(//div[child::div[child::a[contains(@href, '/tag/')]]])
+androidauthority.com##:xpath(//button[contains(text(), 'Comments')])
+androidauthority.com##:xpath(//div[child::a[contains(@href, 'partners.androidauthority.com')]])
+androidauthority.com##:xpath(//div[child::a[contains(@href, 'facebook.com')]])
+androidauthority.com##:xpath(//div[child::a[child::div[child::div[contains(text(), 'Reviews')]]]])
+androidauthority.com##:xpath(//div[child::div[child::div[contains(text(), 'More from Android Authority')]]])
+androidauthority.com##:xpath(//div[child::a[contains(@data-sel, 'review-buy-link')]])
+androidauthority.com##:xpath(//div[child::div[child::a[contains(@data-sel, 'list-deal-button')]]])
+androidauthority.com##:xpath(//div[child::a[contains(@data-sel, 'large-deal-button')]])
+
 ! ANDROID CENTRAL
 www.androidcentral.com##.article-token--more-of
 
@@ -4787,6 +4808,12 @@ www.menshealth.com##.feed-block-with-ad
 www.menshealth.com##.feed-block-big-story
 www.menshealth.com##.end-of-content-playlist
 www.menshealth.com##.affiliate-disclaimer
+www.menshealth.com##.top-pathing
+www.menshealth.com##.active.nav-menu-newsletter
+www.menshealth.com##.marquee-list-header-body
+www.menshealth.com##.embed-editorial-links
+www.menshealth.com##.embed
+www.menshealth.com##:xpath(//div[child::div[child::div[child::div[contains(@class, 'sponsor')]]]])
 
 ! MERRIUM WEBSTER DICTIONARY
 www.merriam-webster.com##.right-rail
@@ -5576,6 +5603,7 @@ patient.info##.promo_container
 patient.info##.newsletter
 patient.info##.articleFooter
 patient.info##:xpath(//div[child::div[child::div[child::span[contains(text(), 'Sponsor')]]]])
+patient.info##.promo
 
 ! PAYPAL
 paypal.com###gdprCookieBanner
@@ -6141,7 +6169,6 @@ reddit.com##:xpath(//div[child::div[contains(@class, 'TopPosts')]]) ~ *
 reddit.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Powerup r/')]]]])
 reddit.com##*[id*="subscribe-button-"]
 reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::h3[contains(text(), 'Top livestream')]]]]]])
-reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[contains(text(), 'Trending today')]]]]])
 reddit.com##:xpath(//div[contains(text(), 'Popular posts')])
 reddit.com##:xpath(//div[contains(text(), 'Popular posts')]) + div
 reddit.com##*[id*="subscribe-button-"]
@@ -6156,6 +6183,11 @@ reddit.com##.lb-header ~ *
 reddit.com##.GetAppFooter
 reddit.com##.JoinButton
 reddit.com##*[data-testid="bottom-sheet-upsell-wrapper"]
+reddit.com##a[href*="/hot/"]
+reddit.com##header a[href*="/register/"]
+reddit.com##*[data-testid="frontpage-sidebar"]
+reddit.com##:xpath(//div[child::div[child::div[child::div[child::h2[contains(text(), 'Related Communities')]]]]])
+reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Popular Communities')]]]]]])
 
 ! REED
 www.reed.co.uk##.google-ad-leaderboard
@@ -6343,6 +6375,9 @@ www.rt.com##.Section-is1to1
 
 ! RTINGS
 www.rtings.com##.landing_page-banner
+www.rtings.com##.header-insider
+www.rtings.com##.header-signup
+www.rtings.com##.price_box
 
 ! RULES OF PLAY
 rulesofplay.co.uk##.product-recently-viewed__wrapper
