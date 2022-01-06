@@ -5290,6 +5290,9 @@ www.notebookcheck.net##.journalist_bottom
 www.notebookcheck.net###nbc_belowcontent
 www.notebookcheck.net##.itemauthordate
 
+! NATIONAL SAVINGS AND INVESMTENTS (NS&I)
+nsandi.com##.message.message--skyblue
+
 ! NYPOST
 nypost.com##.breaking-news
 nypost.com##.nyp-sharedaddy-wrapper
@@ -5902,6 +5905,9 @@ www.popularmechanics.com##.gallery-module.embed
 www.popularmechanics.com##.end-of-content-playlist
 www.popularmechanics.com##.body-tip
 
+! POWER LANGUAGE (WORDLE)
+powerlanguage.co.uk##.share
+
 ! POWERTOOL WORLD
 powertoolworld.co.uk##.header-usps
 powertoolworld.co.uk###header-brands
@@ -6041,12 +6047,15 @@ quora.com##.content-monetization-wall
 quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Questions')]]]]]]]]]])
 quora.com##:xpath(//div[@class="q-box" and child::div[child::div[child::div[child::div[child::div[child::div[child::div[text() ="Related Questions"]]]]]]]])
 quora.com##:xpath(//div[@class="q-box" and child::div[child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), "Related Questions")]]]]]]]])
+quora.com##:xpath(//div[@class="q-box" and child::div[child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), "Related questions")]]]]]]]])
 quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]]]])
 quora.com##:xpath(//div[starts-with(@class, 'CssComponent-sc-') and child::div[child::div[child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]]]]) ~ *
 quora.com##:xpath(//div[contains(@class, 'q-box') and child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]])
 quora.com##:xpath(//div[contains(@class, 'q-box') and child::div[child::div[child::div[child::div[contains(text(), 'Related Answers')]]]]]) ~ *
 quora.com##:xpath(//div[@class="q-box" and child::div[child::div[child::div[child::div[contains(text(), "Related Answers")]]]]])
 quora.com##:xpath(//div[@class="q-box" and child::div[child::div[child::div[child::div[contains(text(), "Related Answers")]]]]]) ~ *
+quora.com##:xpath(//div[@class="q-box" and child::div[child::div[child::div[child::div[contains(text(), "Related answers")]]]]])
+quora.com##:xpath(//div[@class="q-box" and child::div[child::div[child::div[child::div[contains(text(), "Related answers")]]]]]) ~ *
 
 ! RAC
 www.rac.co.uk##.sidebar
