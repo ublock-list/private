@@ -2145,6 +2145,8 @@ crunchyroll.com###interstitial_try_premium_cta
 crunchyroll.com##.value-props
 crunchyroll.com##.headline-group
 crunchyroll.com##.interstitial-cta-js
+crunchyroll.com##.random
+crunchyroll.com##.queue
 ||crunchyroll.com/tracker$document,image,important
 
 ! CSS TRICKS
@@ -3901,6 +3903,7 @@ imdb.com##*[data-testid="storyline-plot-keywords"]
 imdb.com##.ipc-watchlist-ribbon
 imdb.com##*[class*="IMDbEmbeddable__EmbeddableSection-"]
 imdb.com##*[data-testid="embeddable-section"]
+imdb.com##*[class*="SidebarContainer"]
 
 ! IMGUR
 imgur.com##.EmeraldBanner
@@ -4158,6 +4161,10 @@ jdsports.co.uk##.sb-animation:style(margin-top: 0 !important;)
 ! JELLYFIN
 forum.jellyfin.org##.suggested-topics-wrapper
 forum.jellyfin.org###banner
+
+! JETBRAINS
+intellij-support.jetbrains.com##.page-sidebar
+intellij-support.jetbrains.com##.recent-activity
 
 ! JOHN LEWIS
 www.johnlewis.com###pecr-cookie-banner-wrapper
@@ -8166,6 +8173,29 @@ topgear.com##*[data-testid="CategoryLink"]
 topgear.com##:xpath(//p[contains(text(), '[apester:')])
 topgear.com##:xpath(//li[contains(@class, 'is-dropdown') and child::button[child::span[contains(text(), 'Subscribe')]]])
 
+! TOPP's TILES
+www.toppstiles.co.uk##page-header-trustbar
+www.toppstiles.co.uk##.icon-wishlist
+www.toppstiles.co.uk##product-trust-bar
+www.toppstiles.co.uk##related-and-recent-products
+www.toppstiles.co.uk##newsletter-form
+www.toppstiles.co.uk##local-privacy-settings
+www.toppstiles.co.uk##privacy-settings-edit-modal
+www.toppstiles.co.uk##newsletter-info-popup
+www.toppstiles.co.uk##product-view > after-content-init
+www.toppstiles.co.uk###page-footer .ta-center-s
+www.toppstiles.co.uk##local-category-view > *[ng-if="vm.withImage"]
+www.toppstiles.co.uk##*[ng-if*="product_label"]
+www.toppstiles.co.uk##.roomvo-container
+www.toppstiles.co.uk##*[meganav-group-name="main"] *[ng-switch-when="image"]
+www.toppstiles.co.uk##trade-image-component
+www.toppstiles.co.uk##.why-topps
+www.toppstiles.co.uk##.mosaic
+www.toppstiles.co.uk##trade-question-popup
+www.toppstiles.co.uk##main-overlay
+www.toppstiles.co.uk##hero-image
+www.toppstiles.co.uk##ng-transclude
+
 ! TRAVIS PERKINS
 www.travisperkins.co.uk##*[class*="__USPBlockWrapper-"]
 www.travisperkins.co.uk##*[class*="CookieBanner__Wrapper-"]
@@ -8505,6 +8535,7 @@ www.uniqlo.com##.l3Grid__content--onlyImage
 www.urbandictionary.com##.share
 www.urbandictionary.com##.mug-ad
 www.urbandictionary.com##.ad-panel
+www.urbandictionary.com##aside
 
 ! USA TODAY
 usatoday.com##.footer-social-buttons
@@ -8619,6 +8650,12 @@ www.viking-direct.co.uk###featuredShops
 www.viking-direct.co.uk###popularBrands
 www.viking-direct.co.uk##.home-seo
 www.viking-direct.co.uk##.banner
+
+! VIMEO
+player.vimeo.com##.like-button
+player.vimeo.com##.watch-later-button
+player.vimeo.com##.share-button
+player.vimeo.com##.logo
 
 ! VIVASTREET
 www.vivastreet.co.uk##.vs-disclaimer-wrapper
