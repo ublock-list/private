@@ -202,6 +202,11 @@ xhamster.com##.related-container
 xhamster.com##.category-info > .large
 xhamster.com##.search-page-suggestions
 xhamster.com##.after-pager
+xhamster.com##body:style(width: 100% !important;)
+xhamster.com##.main-wrap:style(max-width: 100% !important;)
+xhamster.com##.video-page .player-container:style(margin-right: 0 !important;)
+xhamster.com###player-container:style(height: 80vh !important;)
+xhamster.com##.xp-aftershot-inner
 
 ! XVIDEOS
 www.xvideos.com##+js(rc, disclaimer-opened|img-blured, html)
