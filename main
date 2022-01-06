@@ -320,6 +320,7 @@
 ||trustarc.com
 ||truste-svc.net
 ||truste.com
+||tsyndicate.com
 ||typearn.com
 ||uii.io
 ||ukoffzeh.com
@@ -1223,7 +1224,6 @@ bbc.*##.exhqgzu6.ssrcss-u3tmht-ConsentBanner
 bbc.*##div[class*="-StyledTagContainer"]
 bbc.*##div[class*="-TagShareWrapper"]
 bbc.*##nav[class*="-GlobalNavigation"]
-bbc.*##*[data-component="unordered-list-block"]
 bbc.*##*[data-component="tag-list"]
 bbc.*##*[data-component="see-alsos"]
 bbc.*##*[data-component="topStories"]
@@ -1354,10 +1354,12 @@ bbc.*##.ReactModal__Overlay
 bbc.*##.sc-c-playqueue
 bbc.*##.msi-modal-backdrop
 bbc.*##.msi-modal
-bbc.*##*[class*="-BulletListContainer"]
 bbc.*##.bitesize-banner
 bbc.*##.qa-story-cta-link
 bbc.*##.Theme-SocialIcons
+bbc.*##:xpath(//div[contains(@data-component, 'subheadline-block') and child::h2[child::span[contains(text(), 'You may also be interested in')]]])
+bbc.*##:xpath(//div[contains(@data-component, 'subheadline-block') and child::h2[child::span[contains(text(), 'You may also be interested in')]]]) ~ *
+bbc.*##:xpath(//div[contains(@data-component, 'unordered-list-block') and descendant::ul[descendant::a[contains(@class, 'InlineLink')]]])
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
@@ -1750,10 +1752,6 @@ dictionary.cambridge.org##:xpath(//div[child::a[contains(@href, '/shop/business-
 dictionary.cambridge.org##:xpath(//div[child::h2[child::strong[contains(text(), 'Browse')]]])
 dictionary.cambridge.org##:xpath(//div[contains(text(), 'These examples are from corpora')])
 
-! C&T AUCTIONS
-candtauctions.co.uk##.o-newsletter
-candtauctions.co.uk##.o-news-article-container
-
 ! CAMBRIDGE MASK COMPANY
 cambridgemask.com###shopify-section-product-recommendations
 cambridgemask.com##.Footer__Block--newsletter
@@ -1767,6 +1765,16 @@ cambridgemask.com###shopify-section-announcement
 camelcamelcamel.com##.baller
 camelcamelcamel.com###camelcamelcamel_billboard_atf
 camelcamelcamel.com##.ad
+
+! CAN I USE
+caniuse.com##.footer__patreon
+caniuse.com##.permalink
+caniuse.com##.add-feature
+caniuse.com##.news
+
+! C&T AUCTIONS
+candtauctions.co.uk##.o-newsletter
+candtauctions.co.uk##.o-news-article-container
 
 ! CAR BUYER
 www.carbuyer.co.uk##.fancybox-overlay
@@ -2141,6 +2149,13 @@ crunchyroll.com##.interstitial-cta-js
 
 ! CSS TRICKS
 css-tricks.com##.fem-ad
+css-tricks.com##.author-name
+css-tricks.com##a[href*="/author/"]
+css-tricks.com##[href="/product/membership/"]
+css-tricks.com##.top-of-site-link
+css-tricks.com##.related-posts
+css-tricks.com##.footer-inside
+css-tricks.com##.newsletter
 
 ! CURRENCY CONVERTER X
 www.currencyconverterx.com##.block-after-head
@@ -3079,6 +3094,7 @@ github.com##.js-notice-dismiss
 github.com##*[id*="funding-links-modal"]
 github.com##:xpath(//div[contains(@class, 'BorderGrid-row') and child::div[child::h2[contains(text(), 'Sponsor this project')]]])
 github.com##.gist-banner
+github.com##.intro-shelf
 
 ! GIZMODO
 gizmodo.com##.instream-native-video
