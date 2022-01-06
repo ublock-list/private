@@ -3095,6 +3095,11 @@ github.com##*[id*="funding-links-modal"]
 github.com##:xpath(//div[contains(@class, 'BorderGrid-row') and child::div[child::h2[contains(text(), 'Sponsor this project')]]])
 github.com##.gist-banner
 github.com##.intro-shelf
+github.com##:xpath(//div[child::a[contains(text(), 'Add a README')]])
+github.com##:xpath(//div[child::div[child::div[child::strong[contains(text(), 'Introduce yourself')]]]])
+github.com##:xpath(//div[child::h2[contains(text(), 'Discover interesting projects')]])
+github.com##:xpath(//div[child::strong[contains(text(), 'ProTip!')]])
+github.com##a[href*=".private.atom"]
 
 ! GIZMODO
 gizmodo.com##.instream-native-video
