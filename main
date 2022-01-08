@@ -362,6 +362,9 @@
 1337x.to##footer
 1337x.to##.top-bar
 1337x.to##.banner-box
+1337x.to##.filter-list
+1337x.to##aside
+1337x.to##.user-box
 
 ! 192
 www.192.com##.ont-cookies-wrapper
@@ -1214,6 +1217,20 @@ diy.com##:xpath(//div[child::h2[contains(text(), 'Customers who bought this also
 diy.com##:xpath(//div[child::div[child::h2[contains(text(), 'Ideas & Advice')]]])
 diy.com##:xpath(//div[child::div[child::div[child::div[child::a[child::div[child::div[contains(text(), 'Next Day Delivery')]]]]]]])
 diy.com##*[id*="pop-div"]
+diy.com##*[data-test-id="message-bar"]
+diy.com##*[data-test-id="roundel"]
+diy.com##*[data-test-id="promo-text"]
+diy.com##:xpath(//div[child::a[contains(@href, '/bandqclub')]])
+diy.com##:xpath(//div[child::a[contains(@href, '/landingpage/clearance')]])
+diy.com##:xpath(//div[child::div[child::img[contains(@alt, '% off')]]])
+diy.com##:xpath(//div[child::div[child::div[child::div[child::a[child::div[child::img[contains(@alt, '% off')]]]]]]])
+diy.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Most popular this week')]]]])
+diy.com##:xpath(//div[child::div[child::h2[contains(text(), 'Ideas, advice & inspiration')]]])
+diy.com##:xpath(//div[child::div[child::h2[contains(text(), 'Shop popular categories')]]])
+diy.com##:xpath(//div[@data-test-id="grid" and child::div[child::div[child::div[child::a[contains(@href, '/landingpage/clearance')]]]]])
+diy.com##:xpath(//div[child::a[contains(@href, 'https://www.needhelp.com')]])
+diy.com##:xpath(//div[child::a[contains(@href, 'https://www.needhelp.com')]])
+diy.com##:xpath(//h1[contains(text(), 'DIY.com homepage')]) + div
 
 ! BARK SUPPLIERS
 www.barksuppliers.co.uk##.ec-notices
@@ -3904,6 +3921,7 @@ imdb.com##.ipc-watchlist-ribbon
 imdb.com##*[class*="IMDbEmbeddable__EmbeddableSection-"]
 imdb.com##*[data-testid="embeddable-section"]
 imdb.com##*[class*="SidebarContainer"]
+imdb.com##.promoted-watch-ad
 
 ! IMGUR
 imgur.com##.EmeraldBanner
@@ -6409,6 +6427,18 @@ www.rt.com##.showMobile
 www.rt.com##.main-page-podcasts-white
 www.rt.com##.article__author-text
 www.rt.com##.Section-is1to1
+www.rt.com##.showDesktop
+www.rt.com##.Grid-is1to3-xs_is1to1
+www.rt.com##.header__media-projects
+www.rt.com##.header-where-schedule
+www.rt.com##.header__rtshop
+www.rt.com##.header__alternative-links
+www.rt.com##.tps-desktop
+www.rt.com##.Section-isStickyTop
+www.rt.com##.banners-rotator
+www.rt.com##.facebook
+www.rt.com##.Read-more-text-only
+www.rt.com##.header__section_upper
 
 ! RTINGS
 www.rtings.com##.landing_page-banner
