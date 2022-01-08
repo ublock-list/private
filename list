@@ -178,6 +178,10 @@ youporn.com###list_query
 youporn.com###metaDataShowMore
 youporn.com##.video-box-infos
 youporn.com##.add-to-button
+youporn.com##footer
+youporn.com##.right-aside
+youporn.com##.watchContent:style(display: block !important; grid-template-columns: none !important;)
+youporn.com##.playWrapper:style(min-width: 100% !important;)
 
 ! XHAMSTER
 xhamster.com##.dialog-desktop-container
