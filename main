@@ -1182,6 +1182,8 @@ autotrader.co.uk##img[alt="Seller Logo"]
 autotrader.co.uk###part-exchange-promo-form
 autotrader.co.uk##.save-advert-cta-container
 autotrader.co.uk##.save-button
+autotrader.co.uk##*[data-vrt="remove"]
+autotrader.co.uk##*[href="/secure/saved-adverts"]
 
 ! AV FORUMS
 www.avforums.com##.p-body-sidebar
