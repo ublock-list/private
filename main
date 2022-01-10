@@ -732,7 +732,18 @@ amazon.*##*[data-cel-widget^="sparkle-carousel-creative-"]
 amazon.*###gwm-Deck
 amazon.*###HLCXComparisonWidget_feature_div
 amazon.*##*[id*="DEAL_OF_THE_DAY"]
+amazon.*##*[id*="DELIGHT_PRICING"]
 amazon.*##*[class*="Badge-module__dotdBadge_"]
+amazon.*##*[data-component-type="s-coupon-component"]
+amazon.*##*[data-csa-c-content-id="nav_cs_newreleases"]
+amazon.*##*[data-csa-c-content-id="nav_cs_coupons"]
+amazon.*##*[data-csa-c-content-id="nav_cs_gc"]
+amazon.*##*[data-csa-c-content-id="nav_cs_gb"]
+amazon.*##*[data-csa-c-content-id="nav_cs_giftfinder"]
+amazon.*##*[data-csa-c-content-id="nav_cs_bestsellers"]
+amazon.*##.hfd-plankton-hero
+amazon.*###csg-search-cu
+amazon.*###help-alerts
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
