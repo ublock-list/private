@@ -761,6 +761,9 @@ www.anandtech.com##.hide_resp2
 www.anandtech.com##.b
 www.anandtech.com##.footer_right
 
+! ANON ADDY
+anonaddy.com##:xpath(//section[child::div[child::form[contains(@action, 'https://news.anonaddy.com/subscribe')]]])
+
 ! ANDROID
 developer.android.com##devsite-snackbar
 developer.android.com##.devsite-footer-utility-button
@@ -1995,6 +1998,8 @@ www.chemistdirect.co.uk##.cd-mm-brands-list-wrap
 www.chemistdirect.co.uk##.cd-mm-right
 www.chemistdirect.co.uk##.cd-products-viewed
 www.chemistdirect.co.uk##.cd-product-details-left
+www.chemistdirect.co.uk###basket-content
+www.chemistdirect.co.uk##.cd-p-autoreorder
 
 ! CITY AM
 www.cityam.com##.article-vuukle-comments
@@ -3335,6 +3340,22 @@ developers.google.com##.wf-byline
 www.gov.uk##.govuk-clearfix.gem-c-cookie-banner
 www.gov.uk##.gem-c-subscription-links
 
+! GPU MAG
+www.gpumag.com##.fs-social-share-top
+www.gpumag.com##.author
+www.gpumag.com##[href="https://geni.us/DEALS"]
+www.gpumag.com##.fs-related-post
+www.gpumag.com##.wp-block-group
+www.gpumag.com##.content-toc
+www.gpumag.com##.rp4wp-related-posts
+www.gpumag.com##.post-navigation
+www.gpumag.com##.fs-social-share-bottom
+www.gpumag.com##.fs-recommended-post-bottom
+www.gpumag.com##.fs-article-tags
+www.gpumag.com##.author-box
+www.gpumag.com##.sidebar
+www.gpumag.com##.footer-widgets-container
+
 ! GREEN FLAG
 www.greenflag.com##.highways-banner
 
@@ -4238,6 +4259,12 @@ forum.jellyfin.org###banner
 intellij-support.jetbrains.com##.page-sidebar
 intellij-support.jetbrains.com##.recent-activity
 
+! JEWSONS
+www.jewson.co.uk##.modal__overlay
+www.jewson.co.uk##.header__usp
+www.jewson.co.uk##.social-footer
+www.jewson.co.uk##.footer__bottom
+
 ! JOHN LEWIS
 johnlewis.com###pecr-cookie-banner-wrapper
 johnlewis.com###signup-header-banner
@@ -4384,6 +4411,32 @@ lep.co.uk###nativeBanner
 lep.co.uk##.article-read-more
 lep.co.uk##.footer-social
 lep.co.uk##:xpath(//div[child::p[child::strong[child::em[contains(text(), 'digital subscription')]]]])
+
+! LANCASHIRE LIVE
+lancs.live##.pipeline-container
+lancs.live##.partner
+lancs.live##.sharebar
+lancs.live##.author-information-container
+lancs.live##.skinny-signup
+lancs.live##.html-embed
+lancs.live##[href*="https://apps.apple.com"]
+lancs.live##.related-articles-bg
+lancs.live###social-follow
+lancs.live##.tag-list
+lancs.live##.top-stories
+lancs.live##footer > .social-links
+lancs.live##.related-stories
+lancs.live##.pancake > .channel-whats-on
+lancs.live##.opinion-author
+lancs.live##.related-column
+lancs.live###signin
+lancs.live###div-gpt-ad-in-article-slot
+lancs.live##*[data-mod="mostRead"]
+lancs.live##:xpath(//p[child::b[child::a[contains(@data-link-tracking, 'InArticle|Link')]]])
+lancs.live##:xpath(//p[child::i[contains(text(), 'LancsLive app')]])
+lancs.live##:xpath(//p[child::i[contains(text(), 'To keep updated')]])
+lancs.live##:xpath(//p[child::i[contains(text(), 'Contact our newsdesk')]])
+lancs.live##:xpath(//p[child::a[contains(@href, 'https://www.lancs.live/newsletter-preference-centre/')]])
 
 ! LANCASHIRE TELEGRAPH
 www.lancashiretelegraph.co.uk##.nav-container .primary-links
@@ -6484,6 +6537,20 @@ www.rollingstone.com##.l-blog__secondary
 www.rollingstone.com##.l-footer > .l-footer__wrap
 www.rollingstone.com##.jw-reset.jw-wrapper
 
+! ROOFING SUPERSTORE
+www.roofingsuperstore.co.uk##.alert--supply-updates
+www.roofingsuperstore.co.uk##.usp-carousel
+www.roofingsuperstore.co.uk##.footer__trustpilot
+www.roofingsuperstore.co.uk##.footer__finance
+www.roofingsuperstore.co.uk##.footer__benefits
+www.roofingsuperstore.co.uk##.footer__trade-signup
+www.roofingsuperstore.co.uk##.specialist-stores
+www.roofingsuperstore.co.uk##.social__wrapper
+www.roofingsuperstore.co.uk##.newsletter
+www.roofingsuperstore.co.uk##.sub.footer__content
+www.roofingsuperstore.co.uk##.alert--supply-updates__spacer
+www.roofingsuperstore.co.uk##.category-banner
+
 ! ROTTEN TOMATOES
 rottentomatoes.com###newsAndFeatures
 rottentomatoes.com##.center.subnav.col-xs-7
@@ -8332,6 +8399,7 @@ www.toppstiles.co.uk##ng-transclude
 ! TRAVIS PERKINS
 www.travisperkins.co.uk##*[class*="__USPBlockWrapper-"]
 www.travisperkins.co.uk##*[class*="CookieBanner__Wrapper-"]
+www.travisperkins.co.uk##*[class*="SubscriptionBlock__Wrapper"]
 
 ! TRIP ADVISOR
 www.tripadvisor.co.uk###AR_XSELL_AJAX_CONTENT
@@ -8639,6 +8707,15 @@ www.ultrabookreview.com##.sumright
 www.ultrabookreview.com###FreeStarVideoAdContainer
 www.ultrabookreview.com##.comment-bubble
 www.ultrabookreview.com###featured-main
+
+! UNIDRAGON
+unidragon.eu##.email_icon
+unidragon.eu##.announcement_mobile
+unidragon.eu##.hero
+unidragon.eu##.feature-row
+unidragon.eu##.footer-social-icons
+unidragon.eu##.site-footer__payment-icons
+unidragon.eu##.sg-button-wrapper
 
 ! UNIQLO
 www.uniqlo.com##.recommendation
@@ -9575,6 +9652,12 @@ www.zoopla.co.uk##*[class*="ListingValuationContainer"]
 www.zoopla.co.uk##*[class*="RecentSales"]
 www.zoopla.co.uk##*[class*="StyledDisclaimer"]
 www.zoopla.co.uk##*[data-testid="similar-properties-trigger"]
+www.zoopla.co.uk###similar-sold
+www.zoopla.co.uk###similar-for-sale
+www.zoopla.co.uk##*[class*="StyledEstimateExplainer"]
+www.zoopla.co.uk##*[class*="ButtonAndRelationshipWrapper"]
+www.zoopla.co.uk##*[class*="StyledLiveListingsBanner"]
+www.zoopla.co.uk##*[class*="MobileAlertPanelWrapper"]
 
 ! ZOOPLUS
 zooplus.co.uk##.contentful-loaded
