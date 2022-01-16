@@ -212,6 +212,8 @@
 ||nanorep.com
 ||nkyouvery.fun
 ||nocookie.net
+||notebook-check.com
+||notebookchat.com
 ||ntvsw.com
 ||ofhypnoer.com
 ||oipcqenejq.com
@@ -2146,6 +2148,23 @@ www.cosmopolitan.com##.byline-with-image
 www.cosmopolitan.com##.byline
 www.cosmopolitan.com##.top-pathing
 
+! COUNTRY LIFE
+www.countrylife.co.uk##.nav-social
+www.countrylife.co.uk##.header-subscribe
+www.countrylife.co.uk##.trending
+www.countrylife.co.uk##.header-advert-wrapper
+www.countrylife.co.uk##.ad-sticky
+www.countrylife.co.uk##.single-sidebar
+www.countrylife.co.uk##.social-share
+www.countrylife.co.uk##.author
+www.countrylife.co.uk##.post-author--img
+www.countrylife.co.uk##.post-tags
+www.countrylife.co.uk##.collection
+www.countrylife.co.uk##.footer-menu--icons
+www.countrylife.co.uk##.ad-logos
+www.countrylife.co.uk##a[name="Subscribe"]
+www.countrylife.co.uk##a[href*="https://www.magazinesdirect.com/"]
+
 ! CRUNCHYROLL
 crunchyroll.com##.game-banner-wrapper
 crunchyroll.com###marketing_banner
@@ -3597,6 +3616,17 @@ www.homebuilding.co.uk###popular-data
 www.homebuilding.co.uk##.widget-ads
 www.homebuilding.co.uk##.list-text-links-trending-panel
 www.homebuilding.co.uk##.fancy-box
+
+! HONEYBADGER
+www.honeybadger.io##.c-very-special-messages
+www.honeybadger.io##.c-blog-author
+www.honeybadger.io##.top-announcement
+www.honeybadger.io##.c-blog-meta > li:nth-child(1)
+www.honeybadger.io##.c-blog-meta > li:nth-child(2)
+www.honeybadger.io##.right-navbar
+www.honeybadger.io##a[href*="https://twitter.com/"]
+www.honeybadger.io##a[href*="https://www.linkedin.com/in/"]
+www.honeybadger.io##a[href*="https://www.linkedin.com/pub/"]
 
 ! HOTUKDEALS
 hotukdeals.com##.js-keyword-alerts
@@ -5465,16 +5495,20 @@ www.notonthehighstreet.com##*[name="press_comments"]
 www.notonthehighstreet.com##.gc-header__item--favourites
 
 ! NOTEBOOK CHECK
-www.notebookcheck.net##.intro-author
-www.notebookcheck.net##.intro-tags
-www.notebookcheck.net##.header_bar
-www.notebookcheck.net##*[class*="relatedarticles"]
-www.notebookcheck.net###nbc_forum_comments
-www.notebookcheck.net##.forum_comment_button
-www.notebookcheck.net##.prev_next_news
-www.notebookcheck.net##.journalist_bottom
-www.notebookcheck.net###nbc_belowcontent
-www.notebookcheck.net##.itemauthordate
+notebookcheck.net##.intro-author
+notebookcheck.net##.intro-tags
+notebookcheck.net##.header_bar
+notebookcheck.net##*[class*="relatedarticles"]
+notebookcheck.net###nbc_forum_comments
+notebookcheck.net##.forum_comment_button
+notebookcheck.net##.prev_next_news
+notebookcheck.net##.journalist_bottom
+notebookcheck.net###nbc_belowcontent
+notebookcheck.net##.itemauthordate
+notebookcheck.net##*[class*="-incontent-column"]
+notebookcheck.net##a.external-link-new-window
+notebookcheck.net###nbc_subcontent_home
+notebookcheck.net##.introa_other
 
 ! NATIONAL SAVINGS AND INVESMTENTS (NS&I)
 nsandi.com##.message.message--skyblue
@@ -5927,6 +5961,20 @@ www.pcworld.com##.digitalMagPromo
 www.pcworld.com###side
 www.pcworld.com##.addLink
 www.pcworld.com##.cat-narrow
+www.pcworld.com###secondaryNav
+www.pcworld.com##.byline
+www.pcworld.com##.author-image
+www.pcworld.com##.publication-site
+www.pcworld.com##.affiliate-disclaimer
+www.pcworld.com##.tag-list
+www.pcworld.com##.entry-bio
+www.pcworld.com##.primaryFooter-top
+www.pcworld.com###forth-column-footer-menu
+www.pcworld.com##.footer-base
+www.pcworld.com##.primaryFooter-return-top
+www.pcworld.com##.jwPlayer--floatingContainer
+www.pcworld.com##.item-byline
+www.pcworld.com##.item-eyebrow
 
 ! PETS 4 HOMES
 www.pets4homes.co.uk##.rescue-campaign
@@ -8090,6 +8138,7 @@ theverge.com##.c-footer__section-vox
 theverge.com##*[id*="volume-placement-"]
 theverge.com##.remixd-wrapper
 theverge.com##.c-entry-group-labels
+theverge.com##aside
 
 ! THE WEEK
 www.theweek.co.uk##.polaris__header--subscription
@@ -9633,31 +9682,46 @@ zdnet.com##.listicle-precap
 zdnet.com##.listicle-links
 
 ! ZOOPLA
-www.zoopla.co.uk###ui-cookie-consent-overlay-wrap
-www.zoopla.co.uk##*[class*="StyledBookValuationCTA"]
-www.zoopla.co.uk##.ui-cookie-consent-no-scroll:style(overflow: auto !important;)
-www.zoopla.co.uk##.hp-card__cta
-www.zoopla.co.uk##.hp-card__save
-www.zoopla.co.uk##*[class*="SocialSharingContainerSideBar"]
-www.zoopla.co.uk##*[class*="SideBar"]
-www.zoopla.co.uk##*[class*="YMBIISection"]
-www.zoopla.co.uk##*[class*="CTASectionContainer"]
-www.zoopla.co.uk##*[class*="TagsContainer"]
-www.zoopla.co.uk##*[class*="SupplementaryItemsContainer"]
-www.zoopla.co.uk##*[class*="StyledMoreWrapper"]
-www.zoopla.co.uk##:xpath(//ul[child::li[child::h3[contains(text(), 'social media')]]])
-www.zoopla.co.uk##*[class*="GlobalProvider"]
-www.zoopla.co.uk##*[class*="CalculatorWrapper"]
-www.zoopla.co.uk##*[class*="ListingValuationContainer"]
-www.zoopla.co.uk##*[class*="RecentSales"]
-www.zoopla.co.uk##*[class*="StyledDisclaimer"]
-www.zoopla.co.uk##*[data-testid="similar-properties-trigger"]
-www.zoopla.co.uk###similar-sold
-www.zoopla.co.uk###similar-for-sale
-www.zoopla.co.uk##*[class*="StyledEstimateExplainer"]
-www.zoopla.co.uk##*[class*="ButtonAndRelationshipWrapper"]
-www.zoopla.co.uk##*[class*="StyledLiveListingsBanner"]
-www.zoopla.co.uk##*[class*="MobileAlertPanelWrapper"]
+zoopla.co.uk###ui-cookie-consent-overlay-wrap
+zoopla.co.uk##*[class*="StyledBookValuationCTA"]
+zoopla.co.uk##.ui-cookie-consent-no-scroll:style(overflow: auto !important;)
+zoopla.co.uk##.hp-card__cta
+zoopla.co.uk##.hp-card__save
+zoopla.co.uk##*[class*="SocialSharingContainerSideBar"]
+zoopla.co.uk##*[class*="SideBar"]
+zoopla.co.uk##*[class*="YMBIISection"]
+zoopla.co.uk##*[class*="CTASectionContainer"]
+zoopla.co.uk##*[class*="TagsContainer"]
+zoopla.co.uk##*[class*="SupplementaryItemsContainer"]
+zoopla.co.uk##*[class*="StyledMoreWrapper"]
+zoopla.co.uk##:xpath(//ul[child::li[child::h3[contains(text(), 'social media')]]])
+zoopla.co.uk##*[class*="GlobalProvider"]
+zoopla.co.uk##*[class*="CalculatorWrapper"]
+zoopla.co.uk##*[class*="ListingValuationContainer"]
+zoopla.co.uk##*[class*="RecentSales"]
+zoopla.co.uk##*[class*="StyledDisclaimer"]
+zoopla.co.uk##*[data-testid="similar-properties-trigger"]
+zoopla.co.uk###similar-sold
+zoopla.co.uk###similar-for-sale
+zoopla.co.uk##*[class*="StyledEstimateExplainer"]
+zoopla.co.uk##*[class*="ButtonAndRelationshipWrapper"]
+zoopla.co.uk##*[class*="StyledLiveListingsBanner"]
+zoopla.co.uk##*[class*="MobileAlertPanelWrapper"]
+zoopla.co.uk##aside
+zoopla.co.uk##*[data-testid="featured-listings"]
+zoopla.co.uk##*[data-testid="save-listing"]
+zoopla.co.uk##*[data-testid="header-profilemenu-favourites"]
+zoopla.co.uk##*[data-testid="listing-user-action-share"]
+zoopla.co.uk##*[data-testid="listing-user-action-save"]
+zoopla.co.uk##*[data-testid="email-all-agents-form"]
+zoopla.co.uk##a[class*="AgencyLogoLink"]
+zoopla.co.uk##a[class*="AgentImageLink"]
+zoopla.co.uk##*[class*="AdWrapper"]
+zoopla.co.uk##*[class*="StyledEstimateExplainer"]
+zoopla.co.uk##*[class*="ButtonAndRelationshipWrapper"]
+zoopla.co.uk##*[class*="StyledLiveListingsBanner"]
+zoopla.co.uk##*[class*="MobileAlertPanelWrapper"]
+zoopla.co.uk##:xpath(//div[child::h5[contains(@class, 'DiscoverHeader')]])
 
 ! ZOOPLUS
 zooplus.co.uk##.contentful-loaded
