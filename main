@@ -3168,7 +3168,7 @@ giphy.com###messages
 giphy.com##:xpath(//div[child::div[child::span[child::a[contains(@class, 'Pill')]]]])
 
 ! GITHUB
-github.com##.discussion-timeline-actions
+!github.com##.discussion-timeline-actions
 github.com##.protip
 github.com##.Popover.js-notice
 github.com##.js-notice-dismiss
