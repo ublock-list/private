@@ -746,6 +746,7 @@ amazon.*##*[data-csa-c-content-id="nav_cs_bestsellers"]
 amazon.*##.hfd-plankton-hero
 amazon.*###csg-search-cu
 amazon.*###help-alerts
+amazon.*##:xpath(//div[contains(@class, 'a-row') and child::span[contains(text(), 'with Subscribe & Save discount')]])
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -3168,7 +3169,7 @@ giphy.com###messages
 giphy.com##:xpath(//div[child::div[child::span[child::a[contains(@class, 'Pill')]]]])
 
 ! GITHUB
-!github.com##.discussion-timeline-actions
+github.com##body.logged-out .discussion-timeline-actions
 github.com##.protip
 github.com##.Popover.js-notice
 github.com##.js-notice-dismiss
@@ -3356,8 +3357,9 @@ play.google.com##aside
 developers.google.com##.wf-byline
 
 ! GOV UK
-www.gov.uk##.govuk-clearfix.gem-c-cookie-banner
-www.gov.uk##.gem-c-subscription-links
+gov.uk##.govuk-clearfix.gem-c-cookie-banner
+gov.uk##.gem-c-subscription-links
+gov.uk##:xpath(//div[child::p[child::strong[contains(text(), 'alpha')]]])
 
 ! GPU MAG
 www.gpumag.com##.fs-social-share-top
@@ -5443,11 +5445,12 @@ www.next.co.uk##*[id^="module94-"]
 www.next.co.uk##.button-list-container
 
 ! NHS
-www.nhs.uk###nhsuk-cookie-banner
-www.nhs.uk###app-global-alert
-www.england.nhs.uk##.alert-banner-container
-www.hra.nhs.uk###cookie-banner
-www.hra.nhs.uk##.notification
+nhs.uk###nhsuk-cookie-banner
+nhs.uk###app-global-alert
+nhs.uk##core-cookie-banner
+nhs.uk##.alert-banner-container
+nhs.uk###cookie-banner
+nhs.uk##.notification
 
 ! NINTENDO
 www.nintendo.co.uk##.plo-overlay
