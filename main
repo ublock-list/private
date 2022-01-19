@@ -2837,6 +2837,8 @@ fandom.com##.toc
 fandom.com##.global-navigation
 fandom.com##.notifications-box
 fandom.com###article-featured-video-container
+fandom.com##.right-rail-wrapper
+fandom.com##*[data-tracking-label="comments-button"]
 
 ! FANFICTION.NET
 fanfiction.net###cookie_notice
@@ -3457,6 +3459,11 @@ www.halfords.com##.asset
 www.halfords.com##.trustpilot-wrap
 www.halfords.com##.b-product__promo
 www.halfords.com##.b-button__livechat-floating
+
+! HARRODS
+www.harrods.com###promoBanner
+www.harrods.com##*[aria-label="Wishlist"]
+www.harrods.com##*[data-test="productCard-wishlistToggle"]
 
 ! HEALTH.COM
 www.health.com##.subscribe-link
@@ -5354,6 +5361,9 @@ www.neowin.net##.nav-user-register-button
 www.neowin.net##:xpath(//article[contains(@class, 'news-item') and descendant::span[contains(@class, 'sponsored')]])
 www.neowin.net##.news-col:style(width: auto !important;)
 www.neowin.net##.report-article-button
+
+! NETGEAR
+community.netgear.com##a[href*="banners"]
 
 ! NEW EGG
 www.newegg.com##.dialog-backdrop
