@@ -747,6 +747,16 @@ amazon.*##.hfd-plankton-hero
 amazon.*###csg-search-cu
 amazon.*###help-alerts
 amazon.*##:xpath(//div[contains(@class, 'a-row') and child::span[contains(text(), 'with Subscribe & Save discount')]])
+amazon.*##:xpath(//div[contains(@class, 'a-row') and child::span[contains(text(), 'FREE Delivery')]])
+amazon.*##:xpath(//div[contains(@class, 'a-row') and child::span[contains(@aria-label, 'FREE Delivery')]])
+amazon.*##*[class*="OctopusBestSeller"]
+amazon.*##*[class*="OctopusNewRelease"]
+amazon.*##*[class*="OctopusMostGifted"]
+amazon.*##*[class*="OctopusMostWishedFor"]
+amazon.*##*[class*="OctopusUnderPrice"]
+amazon.*##*[class*="OctopusTopRated"]
+amazon.*##*[data-card-metrics-id*="octopus-hotw-asin-card_handsfree-browse_"]
+amazon.*##*[id="s-suggestion cards_discover_widget-suggestion"]
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
