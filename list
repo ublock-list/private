@@ -16,7 +16,7 @@ ouo.press##.join-now
 iir.ai##.text-left
 
 shrinke.me##.blog-content
-
+youpi
 ouo.io##.about
 ouo.io##.join-now
 
@@ -182,6 +182,7 @@ youporn.com##footer
 youporn.com##.right-aside
 youporn.com##.watchContent:style(display: block !important; grid-template-columns: none !important;)
 youporn.com##.playWrapper:style(min-width: 100% !important;)
+youporn.com##.trendingSearchTerms
 
 ! XHAMSTER
 xhamster.com##.dialog-desktop-container
@@ -332,6 +333,7 @@ sex.com##:xpath(//div[child::div[child::p[contains(text(), 'Visit the old sex.co
 sex.com##:xpath(//div[child::div[child::button[child::span[child::span[contains(text(), 'Follow')]]]]])
 sex.com##:xpath(//div[child::div[child::button[child::span[child::span[contains(text(), 'Subscribe')]]]]])
 sex.com##:xpath(//li[child::div[child::div[@data-cy-id="subscribers-only"]]])
+sex.com##:xpath(//div[child::div[contains(text(), 'Advertisement')]])
 
 ! OKCUPID
 okcupid.com##.discovery-ad
