@@ -140,6 +140,12 @@ pornhub.com##.underThumbButtons
 pornhub.com##.ratingDetails
 pornhub.com##.mostPopularComment
 pornhub.com##.tabFilterWrapper
+pornhub.com##:xpath(//div[contains(@class, 'sectionWrapper') and child::div[child::h2[child::a[contains(text(), 'Best of 2021')]]]])
+pornhub.com###searchSuggestions:xpath(//li[contains(@class, 'label') and child::a[contains(text(), 'Pornstar profiles')]])
+pornhub.com###searchSuggestions:xpath(//li[contains(@class, 'label') and child::a[contains(text(), 'Pornstar profiles')]]) ~ li
+pornhub.com###searchSuggestions:xpath(//li[contains(@class, 'label')])
+pornhub.com##search-list[type="recent"]
+pornhub.com##search-list[type="trending"]
 
 ! YOUPORN
 youporn.com###network-bar
