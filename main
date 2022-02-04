@@ -5427,6 +5427,13 @@ www.neowin.net##.report-article-button
 
 ! NETGEAR
 community.netgear.com##a[href*="banners"]
+community.netgear.com##.lia-component-recommendations-widget-recommended-content-taplet
+community.netgear.com##.lia-component-common-widget-announcement
+community.netgear.com##.lia-component-common-widget-discussion-stats
+community.netgear.com##.lia-component-kudos-widget-authors-leaderboard
+community.netgear.com##.support-block
+community.netgear.com##.ui-widget-overlay
+community.netgear.com##.lia-panel-dialog-modal-simple
 
 ! NEW EGG
 www.newegg.com##.dialog-backdrop
@@ -6105,6 +6112,20 @@ www.pharmacyonline.co.uk##.trustLogoBar
 www.pharmacyonline.co.uk##.footerLogoArea
 www.pharmacyonline.co.uk##.paymentsBar
 www.pharmacyonline.co.uk##.uspBanner
+
+! PI HOLE
+discourse.pi-hole.net###banner
+discourse.pi-hole.net##.topic-map
+discourse.pi-hole.net##.post-links-container
+discourse.pi-hole.net##.share
+discourse.pi-hole.net##.like
+discourse.pi-hole.net##.signup-cta
+discourse.pi-hole.net##.suggested-topics-wrapper
+discourse.pi-hole.net##.post-controls
+discourse.pi-hole.net##.timeline-footer-controls
+discourse.pi-hole.net##.share-and-invite
+discourse.pi-hole.net##.bookmark
+discourse.pi-hole.net##.flag-topic
 
 ! PINCH OF NOM
 pinchofnom.com##body > header:style(top: 0 !important;)
@@ -7143,6 +7164,14 @@ www.slant.co##.QuestionHeader-LinkBar
 
 ! SMALLNETBUILDER
 www.smallnetbuilder.com##.cadre_alert_cookies
+www.smallnetbuilder.com##.t3-sidebar
+www.smallnetbuilder.com##.t3-spotlight
+www.smallnetbuilder.com###relatedarticleflyoutbx
+www.smallnetbuilder.com###combobox
+www.smallnetbuilder.com###feedburnerform
+www.smallnetbuilder.com##body:style(padding-top: 0 !important;)
+www.smallnetbuilder.com##.createdby
+www.smallnetbuilder.com##.pwtags_list
 
 ! SMASHING MAGAZINE
 www.smashingmagazine.com##.c-promo-box
