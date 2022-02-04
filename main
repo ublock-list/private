@@ -2486,6 +2486,7 @@ duckduckgo.com##.about-profiles
 duckduckgo.com##.zci--dictionary_definition
 duckduckgo.com##.zci--calculator
 duckduckgo.com##.module-slot
+duckduckgo.com##.results--sidebar
 
 ! DUSK
 dusk.com##.loading-mask
@@ -3214,6 +3215,7 @@ github.com##:xpath(//div[child::div[child::div[child::strong[contains(text(), 'I
 github.com##:xpath(//div[child::h2[contains(text(), 'Discover interesting projects')]])
 github.com##:xpath(//div[child::strong[contains(text(), 'ProTip!')]])
 github.com##a[href*=".private.atom"]
+github.com##a.btn[aria-label*="Sponsor"]
 
 ! GIZMODO
 gizmodo.com##.instream-native-video
@@ -3383,6 +3385,7 @@ google.*##:xpath(//div[contains(@class, 'sh-sr__shop-result-group') and child::d
 google.*##:xpath(//div[child::div[child::div[contains(text(), 'Searches related to')]]])
 google.*##+js(cookie-remover, CONSENT)
 google.*##^responseheader(set-cookie)
+google.*###js-eula-modal
 accounts.google.*#@#^responseheader(set-cookie)
 mail.google.*#@#^responseheader(set-cookie)
 play.google.com##aside
@@ -4992,6 +4995,12 @@ mashable.com##:xpath(//p[child::span[contains(text(), 'More in')]])
 mashable.com##footer
 mashable.com##.accent-vertical
 ||mashable.com/videos/blueprint*$subdocument
+
+! MASTERING JS
+masteringjs.io###default_masteringjsio
+masteringjs.io###jobs
+masteringjs.io###jobs ~ *
+masteringjs.io##.partner
 
 ! MATALAN
 matalan.co.uk###global-banner-container
@@ -9785,6 +9794,9 @@ youtube.com##.ytp-chrome-top-buttons
 youtube.com##:xpath(//ytd-compact-video-renderer[descendant::ytd-badge-supported-renderer[descendant::span[contains(text(), 'Fundraiser')]]])
 youtube.com##:xpath(//ytd-compact-video-renderer[descendant::ytd-badge-supported-renderer[descendant::span[contains(@class, 'ytd-badge-supported-renderer') and contains(text(), 'Buy or rent')]]])
 youtube.com##:xpath(//ytd-compact-movie-renderer[descendant::ytd-badge-supported-renderer[descendant::span[contains(@class, 'ytd-badge-supported-renderer') and contains(text(), 'Buy or rent')]]])
+youtube.com##ytd-video-owner-renderer
+youtube.com###owner-and-teaser
+youtube.com###clarify-box
 
 ! YOUTUBE (MOBILE)
 m.youtube.com##.upsell-dialog-lightbox
