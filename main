@@ -25,6 +25,7 @@
 ||air.tv
 ||ak-is2.net
 ||aphycolourses.info
+||apptus.com
 ||asacdn.com
 ||asewlfjqwlflkew.com
 ||audiencepool.com
@@ -407,6 +408,43 @@ www.4chan.org###site-stats
 9to5mac.com###after_disclaimer_placement ~ *
 9to5mac.com###h-read-also
 9to5mac.com###h-read-also ~ *
+
+! ACE
+www.ace.co.uk##.headerCarousel__top
+www.ace.co.uk###Homepage-_-WOWWinterDeals_Wrap
+www.ace.co.uk###Homepage-_-Hero_Wrap
+www.ace.co.uk##*[id*="Homepage-_-SubHero-"]
+www.ace.co.uk###Homepage-_-Clearance_Wrap
+www.ace.co.uk###Homepage-_-BrandsCarousel
+www.ace.co.uk##.catalog-entry__review-container
+www.ace.co.uk##.pdp-social-icons
+www.ace.co.uk##.egl_category_product_recommend_tabs
+www.ace.co.uk###Promo-_-WinterDeals
+www.ace.co.uk###CB_Mens-_-Hero
+www.ace.co.uk###Hero
+www.ace.co.uk##*[id*="CB_Mens-_-BrandsCarousel-"]
+www.ace.co.uk###BrandsCarousel
+www.ace.co.uk##*[id*="CategoryPanel"]
+www.ace.co.uk##*[id*="egl_product_alternatives_tabs-"]
+www.ace.co.uk###CB_Mens-_-Clearance_Wrap
+www.ace.co.uk##.category-seo-text
+www.ace.co.uk###Promo-_-WinterDeals-_-Lozenges
+www.ace.co.uk###CB_Kids-_-Clearance_Wrap
+www.ace.co.uk###CB_Womans-_-Clearance_Wrap
+www.ace.co.uk##.egl_ga_promo_link
+www.ace.co.uk###Promo-_-WinterDeals-_-Hero
+www.ace.co.uk###SubGroup
+www.ace.co.uk###CategoryRoundel
+www.ace.co.uk##.egl_category_banner_hotspot
+www.ace.co.uk###Kitchen-Carousel
+www.ace.co.uk###AgeCarousel
+www.ace.co.uk###TopCharacters
+www.ace.co.uk###SensoryToys
+www.ace.co.uk###gifts-by-occasion
+www.ace.co.uk##.bottom-breadcrumb-wrapper
+www.ace.co.uk##.product-details__price-save-percent
+www.ace.co.uk###PriceCarousel
+www.ace.co.uk##:xpath(//div[child::div[contains(text(), 'Shop now pay later')]])
 
 ! ALCHEMIST CAMP
 alchemist.camp##.share_box
@@ -2682,6 +2720,7 @@ etsy.com##klarna-placement
 etsy.com##.featured-listings
 etsy.com##.favorite-shop-action
 etsy.com##.subscribe-form
+etsy.com###global-enhancements-search-suggestions
 
 ! EUROGAMER
 www.eurogamer.net##.secondary
@@ -2871,6 +2910,7 @@ fandom.com##.notifications-box
 fandom.com###article-featured-video-container
 fandom.com##.right-rail-wrapper
 fandom.com##*[data-tracking-label="comments-button"]
+fandom.com##.rcs-container
 
 ! FANFICTION.NET
 fanfiction.net###cookie_notice
@@ -3396,6 +3436,8 @@ developers.google.com##.wf-byline
 gov.uk##.govuk-clearfix.gem-c-cookie-banner
 gov.uk##.gem-c-subscription-links
 gov.uk##:xpath(//div[child::p[child::strong[contains(text(), 'alpha')]]])
+gov.uk##.cbanner-govuk-cookie-banner
+gov.uk###covid-banner
 
 ! GPU MAG
 www.gpumag.com##.fs-social-share-top
@@ -4088,6 +4130,9 @@ imdb.com##*[class*="IMDbEmbeddable__EmbeddableSection-"]
 imdb.com##*[data-testid="embeddable-section"]
 imdb.com##*[class*="SidebarContainer"]
 imdb.com##.promoted-watch-ad
+imdb.com##.imdb-header__search-menu li.react-autosuggest__suggestion a[data-testid="search-result--video"]
+imdb.com##*[data-testid="News"]
+imdb.com##*[data-testid="DidYouKnow"]
 
 ! IMGUR
 imgur.com##.EmeraldBanner
@@ -7028,6 +7073,8 @@ screwfix.com##.dotd-h2
 screwfix.com##.hp-tiles-outer
 screwfix.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'More from Screwfix')]]]])
 screwfix.com##.bulk-savings
+screwfix.com##.dotd-cont
+screwfix.com##.banner-mg-wrap
 
 ! SELECT CAR LEASING
 www.selectcarleasing.co.uk##.c-cookies
@@ -7247,15 +7294,25 @@ spanishdict.com##:xpath(//div[child::div[child::a[@href="/textbooks"]]])
 spanishdict.com##:xpath(//div[child::a[child::div[child::div[child::div[child::div[child::p[contains(text(), 'New to Spanish? ')]]]]]]])
 
 ! SPARE ROOM
-spareroom.co.uk##.overlay-mask
-spareroom.co.uk##.popreg
-spareroom.co.uk##.header-utils__button--share
-spareroom.co.uk##.header-utils__button--save
-spareroom.co.uk##.header-utils__button--copy
-spareroom.co.uk##.listing-card__save
-spareroom.co.uk##.hurry
-spareroom.co.uk##.copy_or_share
-spareroom.co.uk##.tip-box
+spareroom.*##.overlay-mask
+spareroom.*##.popreg
+spareroom.*##.header-utils__button--share
+spareroom.*##.header-utils__button--save
+spareroom.*##.header-utils__button--copy
+spareroom.*##.listing-card__save
+spareroom.*##.hurry
+spareroom.*##.copy_or_share
+spareroom.*##.tip-box
+spareroom.*##.trustpilot-static
+spareroom.*##.as-featured-by
+spareroom.*##.promos
+spareroom.*##.facebook-plugin-container
+spareroom.*##:xpath(//li[child::span[contains(text(), 'Follow us')]])
+spareroom.*##.search-locations
+spareroom.*##.footer__bottom-row-apps
+spareroom.*##.footer__row--row-3
+spareroom.*##.footer__row--row-2
+spareroom.*##.trustpilot-widget
 
 ! SPORTS DIRECT
 www.sportsdirect.com##.promotionBanner
@@ -7274,6 +7331,11 @@ www.sportsdirect.com##.hotspotwishlist
 www.sportsdirect.com##.pdpMoreLinksRow
 www.sportsdirect.com###addToWishListContainer
 www.sportsdirect.com##.productImageSash
+www.sportsdirect.com##.brandlogos
+www.sportsdirect.com##.featuredSection
+www.sportsdirect.com##.brandSection
+www.sportsdirect.com##.PSPlacementWrapper
+www.sportsdirect.com##.BrandsWrapper
 
 ! STACK ABUSE
 stackabuse.com###ad-lead-magnet
@@ -8451,6 +8513,17 @@ thompson-morgan.com##a[href="/request-catalogue"]
 thompson-morgan.com##a[href="/kew-flower-seeds"]
 thompson-morgan.com##.detailsSection
 
+! TICKETMASTER
+ticketmaster.co.uk##.footer__tou-container
+ticketmaster.co.uk###teconsent
+ticketmaster.co.uk##*[data-testid="featured"]
+ticketmaster.co.uk##:xpath(//div[contains(@class, 'footer__linkgroup') and child::div[contains(text(), 'Download our Apps')]])
+ticketmaster.co.uk##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Advertisement')]]]])
+ticketmaster.co.uk##:xpath(//div[child::h3[contains(text(), "Let's connect")]])
+ticketmaster.co.uk##:xpath(//div[child::h3[contains(text(), 'Download Our Apps')]])
+ticketmaster.co.uk##:xpath(//div[child::h3[contains(text(), 'Our network')]])
+ticketmaster.co.uk##:xpath(//p[contains(text(), 'By continuing past this page')])
+
 ! TIME
 time.com##.author-feedback-text
 time.com##.share.component
@@ -8502,6 +8575,9 @@ timeout.com##*[id*="ad-oop"]
 timeout.com##*[id*="ad-inline"]
 timeout.com###content ~ *
 
+! TIMPSONS
+www.timpson.co.uk##.store-finder--location-trustist-widget
+
 ! TINY PNG
 tinypng.com##.gopro
 tinypng.com##aside
@@ -8525,6 +8601,12 @@ www.tkmaxx.com##.icon-quick-buy
 www.tkmaxx.com##.pdp-add-lovelist-section
 www.tkmaxx.com##.footer-terms-links-container
 www.tkmaxx.com##.yCmsContentSlot
+
+! TOBY CARVERY
+www.tobycarvery.co.uk###optin-optout
+www.tobycarvery.co.uk##a[href="/tobyapp"]
+www.tobycarvery.co.uk##a[href="/jobs"]
+www.tobycarvery.co.uk##a[href="/our-responsibilities"]
 
 ! TODAY
 www.today.com##.breaking-marquee
@@ -8729,10 +8811,14 @@ www.trustatrader.com##.join
 www.trustatrader.com##.search-tips
 
 ! TRUSTPILOT
-uk.trustpilot.com##.transparency-report-box.card
-uk.trustpilot.com##.similar-companies-box
-uk.trustpilot.com##.commitment-box
-uk.trustpilot.com##.brand-footer__social
+trustpilot.com##.transparency-report-box.card
+trustpilot.com##.similar-companies-box
+trustpilot.com##.commitment-box
+trustpilot.com##.brand-footer__social
+trustpilot.com##*[data-sidebar-commitment-paper="true"]
+trustpilot.com##*[class*="footer_logoContainer__"]
+trustpilot.com##:xpath(//div[child::h3[contains(text(), 'People who looked at this')]])
+trustpilot.com##:xpath(//section[contains(@class, 'footer_section') and child::h3[contains(text(), 'Follow us on')]])
 
 ! TRUSTED REVIEWS
 trustedreviews.com##.trending
@@ -9365,7 +9451,9 @@ community.wd.com##.wdsidebar
 community.wd.com##.topic-map
 community.wd.com##.topic-category
 community.wd.com##.post-controls
-.wd.com##.oda-chat-wrapper
+community.wd.com##.share-and-invite
+community.wd.com##.bookmark
+wd.com##.oda-chat-wrapper
 
 ! WHAT 3 WORDS
 what3words.com##.CookieNotice
