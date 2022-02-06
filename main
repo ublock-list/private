@@ -2682,15 +2682,12 @@ www.escapistmagazine.com##.author-box
 
 ! ETSY
 etsy.com##div.prolist-row
-!etsy.com##.appears-ready
 etsy.com##ul[data-behat-search-results-ads-lg=""]
 etsy.com##body.wt-body-no-scroll:style(overflow: auto !important; position: static !important;)
 etsy.com###gdpr-single-choice-overlay
 etsy.com###collage-footer ~ *
 etsy.com##:xpath(//li[contains(@class, 'block-grid-item') and descendant::span[contains(@class, 'position-absolute') and descendant::span[contains(text(), 'A')] and descendant::span[contains(text(), 'd')]]])
 etsy.com##:xpath(//li[contains(@class, 'wt-list-unstyled') and descendant::span[contains(@class, 'position-absolute') and descendant::span[contains(text(), 'A')] and descendant::span[contains(text(), 'd')]]])
-etsy.com##:xpath(//li[contains(@class, 'wt-list-unstyled') and descendant::div[contains(@class, 'v2-listing-card__info') and descendant::p[contains(@class, 'wt-text-caption') and descendant::span]]])
-etsy.com##:xpath(//li[contains(@class, 'wt-list-unstyled') and descendant::div[contains(@class, 'v2-listing-card__shop') and descendant::p[contains(@class, 'text-gray-lighter') and descendant::span]]])
 etsy.com##:xpath(//div[child::div[child::a[starts-with(@href, 'https://etsy.app.link/')]]])
 etsy.com##*[data-your-purchases-async-loaded-modules=""]
 etsy.com###recs_ribbon_container
@@ -2708,19 +2705,19 @@ etsy.com###google-one-tap-modal-div
 etsy.com##.wt-badge
 etsy.com##.wt-popover
 etsy.com##.favorite-item-action
-etsy.com##*[class*="wt-nudge"]
+etsy.com##*[class*="wt-nudge"]:not(#logo)
 etsy.com##*[data-gifty-listings-module]
 etsy.com##*[data-anchor-listing-section]
 etsy.com##*[data-nudger]
 etsy.com##*[data-ui="promo"]
 etsy.com##:xpath(//div[child::div[child::div[child::div[child::h2[contains(text(), 'More Christmas deals - right this way!')]]]]])
 etsy.com##*[data-appears-component-name="wedding_search_recs"]
-etsy.com#@##logo
 etsy.com##klarna-placement
 etsy.com##.featured-listings
 etsy.com##.favorite-shop-action
 etsy.com##.subscribe-form
 etsy.com###global-enhancements-search-suggestions
+etsy.com##*[data-appears-component-name="collections_recs_listing_page"]
 
 ! EUROGAMER
 www.eurogamer.net##.secondary
@@ -9970,6 +9967,8 @@ board-game.co.uk##.zg-chart-page-header
 board-game.co.uk##.zg-badge-sale
 board-game.co.uk##.miniature-header
 board-game.co.uk###cookie-notice-popup
+board-game.co.uk###flash-deal-wrap
+board-game.co.uk##.page-banner
 
 ! ZAP MAP
 ||www.zap-map.com/engine/wp-content/uploads/2015/11/google-play-badge-*.png$image
