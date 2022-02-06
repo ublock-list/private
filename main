@@ -909,6 +909,7 @@ apple.com##:xpath(//section[child::div[child::h2[contains(text(), 'You Might Als
 apple.com##:xpath(//section[child::div[child::h2[contains(text(), 'Supports')]]])
 apple.com##.badge
 apple.com##.we-banner
+apple.com##section h2:has-text(/more by this developer|you might also like|supports/i):upward(section)
 
 ! APPLIANCES DIRECT
 www.appliancesdirect.co.uk##.cc-window
@@ -3557,6 +3558,19 @@ healthline.com##:xpath(//div[child::div[child::div[child::div[contains(@class, '
 healthline.com###announcementBar
 healthline.com##*[data-testid="qualtrics-container"]
 healthline.com##:xpath(//div[child::h1]) + section
+healthline.com##:xpath(//li[child::div[child::div[child::h3[contains(text(), 'Follow us on social media')]]]])
+healthline.com##:xpath(//div[child::div[child::div[child::h3[contains(text(), 'Follow us on social media')]]]])
+healthline.com##:xpath(//p[child::em[contains(text(), 'freelance journalist')]])
+healthline.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Explore Our Sponsored Topics')]]]])
+healthline.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'MORE TOP READS')]]]])
+healthline.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'SPOTLIGHT')]]]])
+healthline.com##:xpath(//div[child::div[child::div[child::div[child::h1[contains(text(), 'Science and integrity matter to us')]]]]])
+healthline.com##:xpath(//div[child::div[child::div[child::div[child::div[child::h4[contains(text(), 'HEALTHLINE CHALLENGE')]]]]]])
+healthline.com##hr + div > figure > span
+healthline.com###this-just-in
+healthline.com##*[data-widget-id*="widget-hero-listing-"]
+healthline.com###__next > div:first-child button > span > span:has-text(GO NOW):upward(6)
+healthline.com##*[data-testid="jwplayer-wrapper"]
 
 ! HEVER CASTLE
 www.hevercastle.co.uk##.modals
