@@ -160,6 +160,7 @@
 ||in-page-push.com
 ||infopicked.com
 ||ingcigarettbarro.info
+||insurance-space.xyz
 ||intense-brushlands-50749.herokuapp.com
 ||jameeltips.us
 ||jistaumt.com
@@ -2157,6 +2158,10 @@ edition.cnn.com##.el__article--embed
 cnn.com##.disclaimer
 cnn.com##.byline
 
+! CODEPEN
+codepen.io##.heart-button
+codepen.io##.follow-user-button
+
 ! CODING GAME
 codingame.com##navigation-hiring-work
 codingame.com##cg-cookies-banner
@@ -2607,6 +2612,22 @@ ebay.*###seekSurvey
 !ebay.*##:xpath(//li[contains(@class, 's-item') and descendant::div[contains(@class, 's-item__sep') and child::span[contains(@role, 'text') and child::span[text()="S" and contains(@class, 's-39ajgv')] and child::span[text()="p" and contains(@class, 's-39ajgv')] and child::span[text()="o" and contains(@class, 's-39ajgv')] and child::span[text()="n" and contains(@class, 's-39ajgv')]]]])
 ebay.*##.s-answer-region-left-rail-bottom
 ebay.*##.follow-ebay__trigger
+ebay.*##.merch-module
+ebay.*###personalized_events1
+ebay.*###personalized_events2
+ebay.*###destinations_list1
+ebay.*###destinations_list2
+ebay.*###items_list1
+ebay.*###items_list2
+ebay.*###container_item_cards1
+ebay.*###container_item_cards2
+ebay.*###rtm_list1
+ebay.*###rtm_list2
+ebay.*###follow-ebay-helper
+ebay.*###watchWrapperId
+ebay.*##.vi-share-widget-wrapper
+ebay.*##.hl-cat-nav__flyout iframe
+ebay.*##.srp-river-answer
 
 ! EBUYER
 www.ebuyer.com##.siteskin-links__item
@@ -2705,7 +2726,7 @@ etsy.com###google-one-tap-modal-div
 etsy.com##.wt-badge
 etsy.com##.wt-popover
 etsy.com##.favorite-item-action
-etsy.com##*[class*="wt-nudge"]:not(#logo)
+etsy.com##*[class*="wt-nudge"]:not(#logo):not(.filter-dropdown-body)
 etsy.com##*[data-gifty-listings-module]
 etsy.com##*[data-anchor-listing-section]
 etsy.com##*[data-nudger]
@@ -5725,6 +5746,7 @@ pagesix.com##html.no-scroll:style(overflow: auto !important;)
 nytimes.com###acm-wrapper
 nytimes.com##+js(cookie-remover)
 nytimes.com###bottom-wrapper
+nytimes.com##.share
 
 ! OAK FURNITURE LAND
 www.oakfurnitureland.co.uk###emergency-banner
@@ -6046,6 +6068,7 @@ pcgamer.com##.by-author
 pcgamer.com##.regionRedirectBanner
 pcgamer.com##.counts
 pcgamer.com##.hawk-nest
+pcgamer.com##.qc-cmp-cleanslate
 
 ! PC GAMES NETWORK
 pcgamesn.com##.social_cta
@@ -6170,6 +6193,8 @@ www.pharmacyonline.co.uk##.paymentsBar
 www.pharmacyonline.co.uk##.uspBanner
 
 ! PI HOLE
+pi-hole.net##a[href="https://pi-hole.net/donate/#sponsorship"]
+pi-hole.net##a[href="https://pi-hole.net/donate"]
 discourse.pi-hole.net###banner
 discourse.pi-hole.net##.topic-map
 discourse.pi-hole.net##.post-links-container
@@ -6182,6 +6207,9 @@ discourse.pi-hole.net##.timeline-footer-controls
 discourse.pi-hole.net##.share-and-invite
 discourse.pi-hole.net##.bookmark
 discourse.pi-hole.net##.flag-topic
+
+! PIMORONI
+shop.pimoroni.com##.benefits-container
 
 ! PINCH OF NOM
 pinchofnom.com##body > header:style(top: 0 !important;)
@@ -6562,6 +6590,8 @@ blog.ranker.com##.sqs-widget
 ! RASPBERRY PI
 raspberrypi.com##.c-blog-post-layout__sidebar
 raspberrypi.com##.c-cookie-banner
+raspberrypi.com##h2:has-text(Related products):upward(2)
+raspberrypi.com##footer div.__rptl-footer-heading:has-text(Follow us):upward(1)
 
 ! RECLAIM THE NET
 reclaimthenet.org##.elementor-popup-modal
@@ -6928,6 +6958,14 @@ retail.santander.co.uk##:xpath(//h2[contains(text(), 'Credit cards')]) ~ *
 
 ! SASS
 sass-lang.com##.sl-c-alert--info
+
+! SB COMPONENTS
+shop.sb-components.co.uk##.scappfancybox-overlay
+shop.sb-components.co.uk##.scapp-promobox
+shop.sb-components.co.uk###shopify-section-product-recommendations
+shop.sb-components.co.uk##.footer__aside-item--social
+shop.sb-components.co.uk##.footer__aside-item--payment
+shop.sb-components.co.uk##.announcement-bar
 
 ! SCAN
 www.scan.co.uk###cookiePolicyPopup
@@ -9569,6 +9607,7 @@ which.co.uk##.gridarea-footer
 which.co.uk##.strong-article
 which.co.uk##.glide-home-membership
 which.co.uk##*[class*="AffiliateLinksDisclaimer"]
+which.co.uk##h2 > [href*="https://signup.which.co.uk/"]
 conversation.which.co.uk##.social-article
 conversation.which.co.uk##.grecaptcha-badge
 conversation.which.co.uk##.wp-polls
