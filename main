@@ -1463,6 +1463,7 @@ bbc.*##.Theme-SocialIcons
 bbc.*##:xpath(//div[contains(@data-component, 'subheadline-block') and child::h2[child::span[contains(text(), 'You may also be interested in')]]])
 bbc.*##:xpath(//div[contains(@data-component, 'subheadline-block') and child::h2[child::span[contains(text(), 'You may also be interested in')]]]) ~ *
 bbc.*##:xpath(//div[contains(@data-component, 'unordered-list-block') and descendant::ul[descendant::a[contains(@class, 'InlineLink')]]])
+bbc.*##:xpath(//div[./div/p[child::i and child::a[@href="https://www.facebook.com/bbcnewseast/"]]])
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
@@ -5627,10 +5628,13 @@ nhs.uk###cookie-banner
 nhs.uk##.notification
 
 ! NINTENDO
-www.nintendo.co.uk##.plo-overlay
-www.nintendo.co.uk##.plo-mns-price-box
-www.nintendo.co.uk###VA_SolrItemSideGamepage2
-www.nintendo.co.uk##.gamedisclaimer-box
+nintendo.*##.plo-overlay
+nintendo.*##.plo-mns-price-box
+nintendo.*###VA_SolrItemSideGamepage2
+nintendo.*##.gamedisclaimer-box
+nintendo.*##body:style(position: static !important)
+nintendo.*##.plo-header__nav-item--wish-list
+nintendo.*##.searchbar
 
 ! NINTENDO LIFE
 www.nintendolife.com##.share-this
@@ -6207,6 +6211,7 @@ discourse.pi-hole.net##.timeline-footer-controls
 discourse.pi-hole.net##.share-and-invite
 discourse.pi-hole.net##.bookmark
 discourse.pi-hole.net##.flag-topic
+discourse.pi-hole.net##.btn-social
 
 ! PIMORONI
 shop.pimoroni.com##.benefits-container
@@ -7302,6 +7307,9 @@ en.community.sonos.com##.cookiebar
 en.community.sonos.com##.custom-sidebar
 en.community.sonos.com##.logo-insided
 en.community.sonos.com##.social
+
+! SOUND TRACK YOUR BAND
+www.soundtrackyourbrand.com##.modal--overlay
 
 ! SOUTH EASTERN RAILWAY
 www.southeasternrailway.co.uk##.smartbanner-android.smartbanner
