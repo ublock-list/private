@@ -53,6 +53,7 @@
 !||cbsi.map.fastly.net
 !||cbsistatic.com
 ||ccgateway.net
+||chartbeat.com
 ||chatra.io
 ||civiccomputing.com
 ||climatestate.com
@@ -252,6 +253,7 @@
 ||reamaze.com
 ||recordervesttasting.com
 ||redeye.international
+||redventures.io
 ||reedthatm.biz
 ||reevaipi.com
 ||repruggob.com
@@ -2897,6 +2899,8 @@ www.eurogamer.net##div.network
 www.eurogamer.net##.popular
 www.eurogamer.net##.deal.list-item
 www.eurogamer.net##.no-image.right
+www.eurogamer.net##.author-name
+www.eurogamer.net##.supporter
 
 ! EVENTBRITE
 eventbrite.co.uk##.organizer-card__cta
@@ -3309,6 +3313,11 @@ gamespot.com##.othertopics
 gamespot.com##.pod_top_break
 gamespot.com###footer
 gamespot.com##.masthead_systems
+gamespot.com##.promo-masthead-list
+gamespot.com##.byline-author
+gamespot.com##.comments
+gamespot.com##.js-seamless-content > div:not(:first-child)
+gamespot.com##span:has-text(may get a share of the revenue):upward(div)
 
 ! GAMES RADAR
 www.gamesradar.com##.trending-bar-container
@@ -5401,6 +5410,10 @@ meetup.com###facebook-login
 meetup.com###google-login
 meetup.com###apple-login
 meetup.com##.group-home > .section
+meetup.com##*[data-testid="MobileAppBanner"]
+meetup.com##*[data-testid="app-section-title"]:upward(3)
+meetup.com###popularGroups
+meetup.com##h2:has-text(Upcoming online events):upward(2)
 
 ! MEN'S HEALTH
 www.menshealth.com##.breaker-ad
