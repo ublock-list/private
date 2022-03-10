@@ -4602,13 +4602,15 @@ itsfoss.com##.entry-comments-link
 itsfoss.com###linkcat-2012
 
 ! ITV
-www.itv.com##.cp_cookie-dialog
-www.itv.com##.cp_nav__ad-free
-www.itv.com##.cp_footer__channels
-www.itv.com##*[data-testid="sidebar"]
-www.itv.com##*[data-testid="article-footer"]
-www.itv.com##*[data-testid="related-content"]
-www.itv.com##*[data-testid="tag-list"]
+itv.com##.cp_cookie-dialog
+itv.com##.cp_nav__ad-free
+itv.com##.cp_footer__channels
+itv.com##*[data-testid="sidebar"]
+itv.com##*[data-testid="article-footer"]
+itv.com##*[data-testid="related-content"]
+itv.com##*[data-testid="tag-list"]
+itv.com##.syrenis-cookie-widget
+itv.com##body:style(overflow: auto !important;)
 
 ! I WANT ONE OF THOSE
 www.iwantoneofthose.com##.emailReengagement
