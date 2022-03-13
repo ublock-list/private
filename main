@@ -16,6 +16,7 @@
 ||adsafeprotected.com
 ||adbull.me
 ||adhoc4.net
+||adinsurance.xyz
 ||adlinkall.com
 ||adomainscan.com
 ||ads.cutlinks.pro
@@ -34,6 +35,7 @@
 ||avis-verifies.com
 ||awemwh.com
 ||awestc.com
+||b-cdn.net
 ||bazaarvoice.com
 ||beenmeekwarmth.casa
 ||beop.io
@@ -98,6 +100,7 @@
 ||doubleclick.net
 ||downfile.site
 ||drmtoday.com
+||droplink.co
 ||dz4win.com
 ||e-v-e-n.me
 ||earnload.com
@@ -162,6 +165,7 @@
 ||in-page-push.com
 ||infopicked.com
 ||ingcigarettbarro.info
+||insurglobal.xyz
 ||insurance-space.xyz
 ||intense-brushlands-50749.herokuapp.com
 ||jameeltips.us
@@ -250,6 +254,7 @@
 ||qr-maker.me
 ||queue-it.net
 ||raiphupi.com
+||rapid-cut.com
 ||ravenjs.com
 ||reamaze.com
 ||recordervesttasting.com
@@ -300,12 +305,14 @@
 ||swogo.net
 ||synthetix.com
 ||tawk.to
-||techrfour.com
+||techmody.io
 ||techpedi.com
+||techrfour.com
 ||tei.ai
 ||terdaycominqui.info
 ||termly.io
 ||textforex2.info
+||theconomy.me
 ||thegoneapp.com
 ||theicongenerator.com
 ||themezon.net
@@ -331,6 +338,7 @@
 ||typearn.com
 ||uii.io
 ||ukoffzeh.com
+||unibots.in
 ||unsplash.com
 ||utytech.com
 ||viafoura.co
@@ -354,6 +362,7 @@
 ||xlgamen.com
 ||yoptv11.com
 ||yoshare.net
+||yummy-reciepes.com
 ||yydtbpms8tf4.com
 ||zap.buzz
 ||zegtrends.com
@@ -419,6 +428,9 @@ www.4chan.org###site-stats
 9to5mac.com###after_disclaimer_placement ~ *
 9to5mac.com###h-read-also
 9to5mac.com###h-read-also ~ *
+
+! ABC NEWS AUSTRALIA
+abc.net.au##aside
 
 ! ACE
 www.ace.co.uk##.headerCarousel__top
@@ -868,6 +880,10 @@ developer.android.com##.devsite-badger-award
 developer.android.com##.android-editorial-and-updates
 developer.android.com###span-idnewslatest-newsspan
 developer.android.com###span-idvideoslatest-videosspan
+developer.android.com##devsite-thumb-rating
+developer.android.com##.bookmark-checkbox
+developer.android.com##.devsite-footer-promos-list
+developer.android.com##.devsite-footer-linkboxes
 
 ! ANDROID AUTHORITY
 androidauthority.com###__next > div
@@ -1520,6 +1536,7 @@ bbc.*##:xpath(//div[contains(@data-component, 'unordered-list-block') and descen
 bbc.*##:xpath(//div[./div/p[child::i and child::a[@href="https://www.facebook.com/bbcnewseast/"]]])
 bbc.*##:xpath(//div[contains(@data-component, 'links-block') and child::section[child::div[child::h2[contains(text(), 'More on this story')]]]])
 bbc.*##.Info-authorName
+bbc.*###Russia-attacks-Ukraine-More-coverage-:upward(1)
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
@@ -1604,6 +1621,9 @@ www.bimmerfest.com##.california-recommended-reading-container
 www.bimmerfest.com##.california-sticky-footer-ad-container
 www.bimmerfest.com##.button--scroll
 www.bimmerfest.com##.california-footer--logo
+www.bimmerfest.com##.sidebar
+www.bimmerfest.com##.bookmarkLink
+www.bimmerfest.com##.california-share-button
 
 ! BIMMERPOST
 bimmerpost.com###leftControls
@@ -1751,6 +1771,13 @@ boardgamearena.com##:xpath(//div[contains(@class, 'row') and child::div[child::d
 boardgamearena.com##:xpath(//div[contains(@class, 'pagesection') and child::h3[contains(text(), 'My agenda')]])
 boardgamearena.com##:xpath(//div[contains(@class, 'post') and child::div[contains(@class, 'emblem')]])
 boardgamearena.com###welcome_first_row
+boardgamearena.com###bga-modal-container .omnibar-title:has-text(Recently played):upward(1)
+boardgamearena.com###bga-modal-container .omnibar-title:has-text(Suggestions):upward(1)
+boardgamearena.com###bga-modal-container .omnibar-title:has-text(Recently met):upward(1)
+boardgamearena.com###bga-modal-container .omnibar-title:has-text(Feeling lucky?):upward(4)
+boardgamearena.com##.bga-omni-bar input:style(border-top-right-radius: 0 !important;)
+boardgamearena.com##.bga-omni-bar input:style(border-bottom-right-radius: 0 !important;)
+boardgamearena.com##.bga-omni-bar:after:style(box-shadow: none !important;)
 
 ! BOARD GAME GEEK
 boardgamegeek.com##gg-support-leaderboard-ad
@@ -2098,6 +2125,7 @@ carwow.co.uk##.overview-sections
 carwow.co.uk##.car-types__container > .carousel-wrapper
 carwow.co.uk##.leasing-makemodel-top-deal
 carwow.co.uk##div.deal-image-link-card-container
+carwow.co.uk##.model-hub__aside-section
 
 ! CAT IN A FLAT
 catinaflat.com##.Profile-shareLinksMobile
@@ -2173,6 +2201,15 @@ cheezburger.com##.mu-ad-container
 cheezburger.com##.mu-action-bar
 cheezburger.com##.mu-post-sources
 cheezburger.com##.ad-label
+cheezburger.com##.mu-btn-pinterest
+cheezburger.com##.mu-right
+cheezburger.com##.mu-tags
+cheezburger.com##.mu-post-comments
+cheezburger.com##.mu-related-content
+cheezburger.com##.mu-recommended-post
+cheezburger.com##.mu-social-links
+cheezburger.com##.mu-footer-app
+cheezburger.com##.mu-nav-icon
 
 ! CHELSFIELD MOTORWORKS
 www.chelsfieldmotorworks.com##.cc-cookies
@@ -2549,6 +2586,24 @@ www.denofgeek.com##.sidebar-posts
 www.denofgeek.com##.curated-posts
 www.denofgeek.com##.site-aside
 
+! DESIGN MY NIGHT
+www.designmynight.com##.modal-open:style(overflow: auto !important;)
+www.designmynight.com##.modal
+www.designmynight.com##.modal-backdrop
+www.designmynight.com##aside
+www.designmynight.com##.widget__photo-grid
+www.designmynight.com##*[class*="-channel-side"]
+www.designmynight.com##.page__share-buttons
+www.designmynight.com##.footer__extra
+www.designmynight.com##a[href*="?ref=newsletter"]
+www.designmynight.com##.social-icons
+www.designmynight.com##*[class*="-seasonal-banner"]
+www.designmynight.com##*[class*="-home-layer"]
+www.designmynight.com##dmn-wish-list-button
+www.designmynight.com##*[ng-init*="eventVenue.status.recommendations.tab"]
+www.designmynight.com##dmn-covid-traffic-light
+www.designmynight.com##.card__offers
+
 ! DEV TO
 dev.to##.crayons-layout__sidebar-right
 dev.to###bottom-content-read-next
@@ -2599,6 +2654,21 @@ www.digitalocean.com##footer > section:not(.dark)
 www.digitalocean.com##.popular_topics
 www.digitalocean.com##.utility
 www.digitalocean.com##.featured_content
+www.digitalocean.com##*[class*="StyledAuthorDateContainer"]
+www.digitalocean.com##*[class*="StyledRecordMetaList"]
+www.digitalocean.com##*[class*="StyledAvatarContainer"]
+www.digitalocean.com##*[class*="StyledCTA"]
+www.digitalocean.com##*[class*="StyledCollaboratorsFooterContainer"]
+www.digitalocean.com##*[class*="StyledQuestionSearchFooterContainer"]
+www.digitalocean.com##*[class*="StyledRelatedRecordsWrapper"]
+www.digitalocean.com##*[class*="StyledCreativeCommonsLicense"]
+www.digitalocean.com##*[class*="Marquee___StyledSection"]
+www.digitalocean.com##*[class*="MasonryStyles__MasonryDiv"]
+www.digitalocean.com##button:has-text(Comments):upward(2)
+www.digitalocean.com##.tinyTopNavLeft
+www.digitalocean.com##*[class*="TinyTopNavStyles__TinyNav"]
+www.digitalocean.com##*[class*="HeroHome___StyledSection"]
+www.digitalocean.com##*[class*="CompanyDetails___StyledUl"]
 cloud.digitalocean.com##.alert
 
 ! DIGITAL SPY
@@ -3202,6 +3272,10 @@ www.fiverr.com###react-app-banner
 www.fiverr.com##.social
 www.fiverr.com##.sign-up-modal
 
+! FLUTTER
+docs.flutter.dev##.site-header__social
+docs.flutter.dev##.site-banner
+
 ! FORBES
 www.forbes.com##.amp-player-wrapper
 www.forbes.com##.contrib-bottom-byline
@@ -3698,6 +3772,7 @@ gov.uk##.gem-c-subscription-links
 gov.uk##:xpath(//div[child::p[child::strong[contains(text(), 'alpha')]]])
 gov.uk##.cbanner-govuk-cookie-banner
 gov.uk###covid-banner
+gov.uk##.gem-c-contextual-sidebar
 
 ! GPU MAG
 www.gpumag.com##.fs-social-share-top
@@ -4402,6 +4477,10 @@ ikea.com##.rec-teaser
 ikea.com##.planner-mobile-display-hiding
 ikea.com##.hnf-header__shopping-list-link
 ikea.com##.range-revamp-product-compact__add-to-list-button
+ikea.com##button[data-test-target="add-to-list-button"]
+ikea.com##.js-financial-service
+ikea.com##*[data-testid="monthly_pay_fragments_anchor"]
+ikea.com##.shelves
 
 ! IMAGERAIDER
 imageraider.com###myGContainer
@@ -5501,6 +5580,8 @@ meetup.com##*[data-testid="MobileAppBanner"]
 meetup.com##*[data-testid="app-section-title"]:upward(3)
 meetup.com###popularGroups
 meetup.com##h2:has-text(Upcoming online events):upward(2)
+meetup.com##[data-element-name="share-btn-share-click"]
+meetup.com##[data-testid="save-event-button"]
 
 ! MEN'S HEALTH
 www.menshealth.com##.breaker-ad
@@ -5701,6 +5782,7 @@ mountainwarehouse.com##.c-clearance-banner
 mountainwarehouse.com##.c-clearance-wrap > div:first-of-type ~ *
 
 ! MOZILLA FOUNDATION
+addons.mozilla.org##.AddonRecommendations
 foundation.mozilla.org##.donate-banner
 foundation.mozilla.org##.join-us
 foundation.mozilla.org##.instagram-glyph
@@ -5764,7 +5846,7 @@ www.mytoolshed.co.uk##.page-bottom
 www.mytoolshed.co.uk##p > [href="https://www.mytoolshed.co.uk/discount-tools"]
 www.mytoolshed.co.uk##.custom-mid-content
 
-VATIONAL GEOGRAPHIC
+! NATIONAL GEOGRAPHIC
 nationalgeographic.*##*[id*="gpt--header--"]
 nationalgeographic.*##.ngart__side-col
 nationalgeographic.*##.ng-inline_promo__container
@@ -5776,6 +5858,10 @@ nationalgeographic.*##.topbardisney
 nationalgeographic.*##:xpath(//li[child::a[contains(@href, 'showNewsletter')]])
 nationalgeographic.*##:xpath(//li[child::a[contains(@href, '/television-schedule')]])
 nationalgeographic.*##.headers-container > div > nav
+nationalgeographic.com##.FrameBackgroundFull
+nationalgeographic.com##.ArticleStickiness
+nationalgeographic.com##*[data-track-nav_item="subscribe"]
+nationalgeographic.com##.GlobalFooter__Menu__ConstantContainer--share
 
 ! NATIONAL RAIL
 nationalrail.co.uk###disruptions-bar
@@ -5816,6 +5902,8 @@ www.nationaltrust.org.uk##:xpath(//div[child::h3[contains(text(), 'Download the 
 www.nationaltrust.org.uk##.nt-share-social
 www.nationaltrust.org.uk##.nt-primary-cta
 www.nationaltrust.org.uk##.nt-social-links
+www.nationaltrust.org.uk##.save-place-btn
+www.nationaltrust.org.uk##.nt-footer__extra-links
 
 ! NBC NEWS
 nbcnews.com##.breaking-marquee
@@ -6003,6 +6091,19 @@ nhs.uk##core-cookie-banner
 nhs.uk##.alert-banner-container
 nhs.uk###cookie-banner
 nhs.uk##.notification
+nhs.uk##.covid-banner
+nhs.uk##.imi-chat-toggle
+
+! NINJA KITCHEN
+ninjakitchen.co.uk##.header-marketing
+ninjakitchen.co.uk##.benefit-teaser
+ninjakitchen.co.uk##.paypalCredit-msg
+ninjakitchen.co.uk##.product-teaser-text
+ninjakitchen.co.uk##.link-group
+ninjakitchen.co.uk###___ratingbadge_0
+ninjakitchen.co.uk##.hero.carousel
+ninjakitchen.co.uk##.rating-teaser-container
+ninjakitchen.co.uk##.teaser-link
 
 ! NINTENDO
 nintendo.*##.plo-overlay
@@ -6336,6 +6437,7 @@ overclockers.co.uk##.mega-menu-ad
 overclockers.co.uk##.body--home main > *
 overclockers.co.uk###category-seo-block-anchor
 overclockers.co.uk##.fourboxwrap
+overclockers.co.uk##.wishlist
 ||img.overclockers.co.uk/assets/certificates/certificates.png$image
 
 ! OVERCLOCKERS (USA)
@@ -6357,6 +6459,12 @@ oxfordonlinepharmacy.co.uk##.logos
 oxfordonlinepharmacy.co.uk##:xpath(//div[child::h2[contains(text(), 'My Favourite Products')]])
 oxfordonlinepharmacy.co.uk##:xpath(//div[child::h2[contains(text(), 'My Favourite Products')]]) ~ *
 oxfordonlinepharmacy.co.uk##.social-icon
+
+! P&O CRUISES
+www.pocruises.com##.alert-messaging-container
+www.pocruises.com##.favourites
+www.pocruises.com##.fav-button-container
+www.pocruises.com##.recentlyViewed
 
 ! PARKERS GUIDE
 www.parkers.co.uk##.social-nav
@@ -7249,6 +7357,8 @@ rightmove.co.uk##.propertyCard-tag
 rightmove.co.uk##.propertyCard-cutout
 rightmove.co.uk##.saveSearch-btn-mvt
 rightmove.co.uk##.propertyCard-additionalProperties
+rightmove.co.uk##.heart-icon
+rightmove.co.uk##.propertyCard-topBar
 
 ! ROYAL HORTICULTURAL SOCIETY
 www.rhs.org.uk##.footer__follow
@@ -7280,6 +7390,8 @@ www.rockpapershotgun.com##.article_footer
 www.rockpapershotgun.com##.shelf
 www.rockpapershotgun.com###content_below
 www.rockpapershotgun.com##.video_wrapper > span
+www.rockpapershotgun.com##.author
+www.rockpapershotgun.com##.avatar
 
 ! ROLLING STONE
 www.rollingstone.com##.pmc_subscription_section
@@ -8199,6 +8311,9 @@ techradar.com##.recommended
 techradar.com##.remixd-audioplayer__container
 techradar.com##.hawk-nest
 techradar.com##.trending__wrapper
+techradar.com##.supernav
+techradar.com##.trending__wrapper
+techradar.com##.left-rail-area
 
 ! TECH REPUBLIC
 techrepublic.com##.btn-premium
@@ -8963,6 +9078,7 @@ telegraph.co.uk##p > em > strong
 telegraph.co.uk##.card__author-image
 telegraph.co.uk##.e-byline-comment__author
 telegraph.co.uk##.e-byline-comment__author-image
+telegraph.co.uk##aside
 
 ! THE TIMES
 thetimes.co.uk###paywall-portal-sale-modal
@@ -9450,6 +9566,10 @@ tripadvisor.*##*[data-component="@ta/common.faq"]
 tripadvisor.*##.addPoi
 tripadvisor.*##*[data-placement-name="resp_restaurant_detail_commerce"]
 tripadvisor.*###SEE_OFFERS
+tripadvisor.*##*[data-automation="save-and-share-SAVE"]
+tripadvisor.*##*[data-automation="save-and-share-SHARE"]
+tripadvisor.*##*[aria-label="Save to a trip"]
+tripadvisor.*##*[data-automation="WebPresentation_WideCardsCarousel"]
 
 ! TRUST A TRADER
 www.trustatrader.com##.join
@@ -10114,6 +10234,7 @@ community.wd.com##.post-controls
 community.wd.com##.share-and-invite
 community.wd.com##.bookmark
 wd.com##.oda-chat-wrapper
+support-en.wd.com##[href="https://twitter.com/westerndigital"]:upward(li)
 
 ! WHAT 3 WORDS
 what3words.com##.CookieNotice
@@ -10501,6 +10622,7 @@ www.yell.com##.home--popularList
 www.yell.com###CookiePolicy
 www.yell.com###banners
 www.yell.com##.socialShare
+www.yell.com##.similarBusiness
 
 ! YOUTUBE
 ||youtube.com/live_chat_fragments_ajax?$xmlhttprequest
@@ -10593,6 +10715,7 @@ youtube.com##:xpath(//ytd-compact-movie-renderer[descendant::ytd-badge-supported
 youtube.com##ytd-video-owner-renderer
 youtube.com###owner-and-teaser
 youtube.com###clarify-box
+youtube.com##ytd-compact-movie-renderer ytd-badge-supported-renderer:has-text(/Buy|Rent/):upward(ytd-compact-movie-renderer)
 
 ! YOUTUBE (MOBILE)
 m.youtube.com##.upsell-dialog-lightbox
