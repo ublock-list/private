@@ -146,6 +146,7 @@ pornhub.com###searchSuggestions:xpath(//li[contains(@class, 'label') and child::
 pornhub.com###searchSuggestions:xpath(//li[contains(@class, 'label')])
 pornhub.com##search-list[type="recent"]
 pornhub.com##search-list[type="trending"]
+pornhub.com##h2 > a:has-text(Popular Performers):upward(.sectionWrapper)
 
 ! YOUPORN
 youporn.com###network-bar
@@ -340,6 +341,16 @@ sex.com##:xpath(//div[child::div[child::button[child::span[child::span[contains(
 sex.com##:xpath(//div[child::div[child::button[child::span[child::span[contains(text(), 'Subscribe')]]]]])
 sex.com##:xpath(//li[child::div[child::div[@data-cy-id="subscribers-only"]]])
 sex.com##:xpath(//div[child::div[contains(text(), 'Advertisement')]])
+
+! XNXX
+xnxx.com###disclaimer_background
+xnxx.com##+js(rc, img-blured|disclaimer-opened, html, complete)
+xnxx.com##.gold-plate
+xnxx.com##.metadata
+xnxx.com##.video-description
+xnxx.com##.video-tags
+xnxx.com##.video-metadata
+xnxx.com##.slogan
 
 ! OKCUPID
 okcupid.com##.discovery-ad
