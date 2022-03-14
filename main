@@ -36,6 +36,7 @@
 ||awemwh.com
 ||awestc.com
 ||b-cdn.net
+||basketful.co
 ||bazaarvoice.com
 ||beenmeekwarmth.casa
 ||beop.io
@@ -519,6 +520,32 @@ www.alllanguageresources.com##.sidebar
 www.alllanguageresources.com##.footer-widget-area
 www.alllanguageresources.com##.scroll-top-button
 www.alllanguageresources.com##.post-meta-author
+
+! ALL RECIPIES
+www.allrecipes.com##.categoryPageHeader__container-popular
+www.allrecipes.com##.icon-share
+www.allrecipes.com##.favorite
+www.allrecipes.com##.rotd
+www.allrecipes.com##.categoryPagePromoEntity
+www.allrecipes.com##.menu-subscribe
+www.allrecipes.com##.categoryPageListThreeFeatured
+www.allrecipes.com##.footer-follow-us
+www.allrecipes.com##.footer-connect
+www.allrecipes.com##.footer-logo
+www.allrecipes.com##.footer-magazines-more
+www.allrecipes.com##.docked-sharebar-docking-container
+www.allrecipes.com##.byline
+www.allrecipes.com##.recipe-ad-container
+www.allrecipes.com##.contextual-social-links
+www.allrecipes.com##.recipe-blog-content
+www.allrecipes.com##.recipe-shopping-list__container
+www.allrecipes.com##.mobile-ad
+www.allrecipes.com##.madeIt__button
+www.allrecipes.com##.recirculation-wrapper
+www.allrecipes.com##.recipe-ad-region
+www.allrecipes.com##.card__authorName
+www.allrecipes.com##.card__author
+www.allrecipes.com##.shareicon-modal-toggle
 
 ! ALTERNATIVE TO
 alternativeto.net##.share-buttons
@@ -1612,6 +1639,19 @@ www.berghaus.com##.primaryBanner_container
 www.berghaus.com##.sponsoredProducts
 www.berghaus.com##.papBannerWrapper
 
+! BEST RECIPIES UK
+bestrecipesuk.com##.site-banner
+bestrecipesuk.com##.header-social-icons
+bestrecipesuk.com###back-to-top
+bestrecipesuk.com##.widget_bttk_author_bio
+bestrecipesuk.com##.widget_blog_subscription
+bestrecipesuk.com##.widget_twitter_timeline
+bestrecipesuk.com##.widget_brm_popular_recipe
+bestrecipesuk.com##.widget_btif_instagram_widget
+bestrecipesuk.com##.recipe-tags
+bestrecipesuk.com###comments
+bestrecipesuk.com###secondary
+
 ! BIMMERFEST
 www.bimmerfest.com##.join-prompt
 www.bimmerfest.com###post-actionbar-share
@@ -2567,6 +2607,63 @@ www.debenhams.com##.dbh-shop-more-tags
 www.debenhams.com##.t-footer__newsletter
 www.debenhams.com##.t-product-detail__recently-viewed-wrapper
 
+! DELICIOUS MAGAZINE
+www.deliciousmagazine.co.uk##.cta-icon
+www.deliciousmagazine.co.uk##.advert-content
+www.deliciousmagazine.co.uk##.top-banner-ad
+www.deliciousmagazine.co.uk##.change-cookie-consent
+www.deliciousmagazine.co.uk##.magazine-wrapper
+www.deliciousmagazine.co.uk###subscribe-section
+www.deliciousmagazine.co.uk##.social-links
+www.deliciousmagazine.co.uk##.recipe-labels
+www.deliciousmagazine.co.uk##.recipe-utilities
+www.deliciousmagazine.co.uk###whisk-container
+www.deliciousmagazine.co.uk##.recipe-tips
+www.deliciousmagazine.co.uk##.recipe-author-wrapper
+www.deliciousmagazine.co.uk##.related-recipe-collections
+www.deliciousmagazine.co.uk###reviews
+www.deliciousmagazine.co.uk##.sidebar
+www.deliciousmagazine.co.uk##.latest-recipes
+www.deliciousmagazine.co.uk##.slider-wrapper
+www.deliciousmagazine.co.uk##.sponsored-content
+www.deliciousmagazine.co.uk##a[href*="https://www.subscription.co.uk"]
+www.deliciousmagazine.co.uk##.article-author
+www.deliciousmagazine.co.uk##.article-utilities
+www.deliciousmagazine.co.uk##.outbrain-wrapper
+www.deliciousmagazine.co.uk##.featured-collection
+www.deliciousmagazine.co.uk##.collections
+www.deliciousmagazine.co.uk##.popular-today
+www.deliciousmagazine.co.uk##.recipe-description
+www.deliciousmagazine.co.uk###menu-item-18496
+www.deliciousmagazine.co.uk###menu-item-52264
+www.deliciousmagazine.co.uk###menu-item-10471
+
+! DELISH
+www.delish.com##.ad-container
+www.delish.com##.cover-story-marquee
+www.delish.com##.byline
+www.delish.com##.authors
+www.delish.com##.skimlink
+www.delish.com##.syndicate-source-link
+www.delish.com##.spotim-module
+www.delish.com##.affiliate-disclaimer
+www.delish.com##.footer-logo
+www.delish.com##.footer-network-logo
+www.delish.com##.footer-network-tagline
+www.delish.com##.footer-affiliate-disclosure
+www.delish.com##.footer-legal-menu-ads-free
+www.delish.com##a[href*="https://join.delish.com/"]
+www.delish.com##section[data-vars-block-type="Big Story Block"]
+www.delish.com##:xpath(//div[child::div[contains(text(), 'Advertisement')]])
+www.delish.com##:xpath(//div[child::p[contains(text(), 'may get paid commissions')]])
+www.delish.com##section[data-vars-block-heading="MUST READS"]
+www.delish.com##section[data-vars-block-heading="MEMBER-EXCLUSIVE RECIPES"]
+www.delish.com##section[data-vars-block-heading="WHAT WE'RE COOKING THIS WEEK"]
+www.delish.com##section[data-vars-block-heading="THE LATEST"]
+www.delish.com###article-marketplace-horizontal
+www.delish.com##.end-of-content-module
+www.delish.com##.end-of-content-module ~ *
+
 ! DEN OF GEEK
 www.denofgeek.com##.entry__byline
 www.denofgeek.com##.read-more__wrapper
@@ -2913,6 +3010,12 @@ www.ebuyer.com##.recommendations
 www.ebuyer.com##.purchase-info__finance
 www.ebuyer.com##.recently-viewed
 
+! EDAMAM
+www.edamam.com##.mobile-banner
+www.edamam.com###footer-networks
+www.edamam.com###footer-apps
+www.edamam.com##.data-block
+
 ! EDUCBA
 www.educba.com##.avatar
 www.educba.com##.single-title
@@ -2960,6 +3063,38 @@ elixirforum.com##.signup-cta
 ! ENGLISH HERITAGE
 www.english-heritage.org.uk###cookiescript_injected
 www.english-heritage.org.uk##.social-links
+
+! EPICURIOUS
+www.epicurious.com##.desktop-featured-items-ad
+www.epicurious.com##.user-status
+www.epicurious.com##.mobile-featured-items-ad
+www.epicurious.com##.latest-recipes
+www.epicurious.com##.epicurious-links
+www.epicurious.com##.corporate-info-wrap
+www.epicurious.com##.social-channel-links
+www.epicurious.com##.byline__name
+www.epicurious.com##.persistent-bottom
+www.epicurious.com##.social-icons
+www.epicurious.com##.container--body
+www.epicurious.com##.consumer-marketing-unit--in-content
+www.epicurious.com##.ad
+www.epicurious.com##.consumer-marketing-unit
+www.epicurious.com##*[class*="PersistentBottomWrapper"]
+www.epicurious.com##*[class*="ReviewFormWrapper"]
+www.epicurious.com###reviews
+www.epicurious.com##*[class*="RecipePageTagCloud"]
+www.epicurious.com##.consumer-marketing-unit--cm-footer
+www.epicurious.com##.ad-stickyhero
+www.epicurious.com##.caption
+www.epicurious.com##*[class*="CookbookCardWrapper"]
+www.epicurious.com##*[class*="ConsumerMarketingUnitThemedWrapper"]
+www.epicurious.com##*[class*="StickyHeroAdWrapper"]
+www.epicurious.com##*[class*="ContentHeaderByline"]
+www.epicurious.com##.disclaimer
+www.epicurious.com##.product-embed
+www.epicurious.com##*[class*="TagCloudWrapper"]
+www.epicurious.com##*[class*="ArticlePageContentFooterGrid"]
+www.epicurious.com##.modal-wrapper
 
 ! ESCAPIST MAGAZINE
 www.escapistmagazine.com##.PicoSignal.mobile-top-header
@@ -3276,6 +3411,15 @@ www.fiverr.com##.sign-up-modal
 docs.flutter.dev##.site-header__social
 docs.flutter.dev##.site-banner
 
+! FOOD NETWORK
+foodnetwork.co.uk##.carousel
+foodnetwork.co.uk##.callout
+foodnetwork.co.uk##.block--collection
+foodnetwork.co.uk##.footer-logo
+foodnetwork.co.uk##.social
+foodnetwork.co.uk##.header--discovery-plus
+foodnetwork.co.uk##.tags
+
 ! FORBES
 www.forbes.com##.amp-player-wrapper
 www.forbes.com##.contrib-bottom-byline
@@ -3584,6 +3728,7 @@ github.com##:xpath(//div[child::strong[contains(text(), 'ProTip!')]])
 github.com##a[href*=".private.atom"]
 github.com##a.btn[aria-label*="Sponsor"]
 github.com###sponsor-profile-button
+github.blog##aside
 
 ! GIZMODO
 gizmodo.com##.instream-native-video
@@ -7951,6 +8096,25 @@ spareroom.*##.footer__row--row-3
 spareroom.*##.footer__row--row-2
 spareroom.*##.trustpilot-widget
 
+! SPOONACULAR
+spoonacular.com###mobileNotifier
+spoonacular.com###frontImage
+spoonacular.com###recipeOfTheDay
+spoonacular.com###actionBox
+spoonacular.com##.hide-for-medium-up
+spoonacular.com##.creditedImage > span
+spoonacular.com##.summary
+spoonacular.com##h2:has-text(Related Recipes)
+spoonacular.com##h2:has-text(Related Recipes) ~ *
+spoonacular.com###anchorPrice
+spoonacular.com###anchorPrice + .row
+spoonacular.com###anchorTips
+spoonacular.com###anchorTips + .row
+spoonacular.com###anchorNutrition
+spoonacular.com###anchorNutrition ~ *
+spoonacular.com###disclaimerBoxModal
+spoonacular.com###detailedInstructionsMention
+
 ! SPORTS DIRECT
 www.sportsdirect.com##.promotionBanner
 www.sportsdirect.com##.WishList
@@ -8198,6 +8362,26 @@ tapi.co.uk##.store-offers
 tapi.co.uk##.clp-promo-banner
 tapi.co.uk##:xpath(//div[child::h2[contains(text(), 'Carpet by') and child::span[contains(text(), 'Brand')]]])
 tapi.co.uk##.clp-trustpilot
+
+! TASTY
+tasty.co##.featured-recipe_link
+tasty.co##.home-container
+tasty.co##.home__shopping-container
+tasty.co##.footer__column--left
+tasty.co##.secondary-nav
+tasty.co##.article__header > div
+tasty.co##.share-bar
+tasty.co##.inline-share-bar
+tasty.co##.feature-cta
+tasty.co##.show-more
+tasty.co##.byline
+tasty.co##.role
+tasty.co##.featured-in
+tasty.co##.tips-header
+tasty.co##.inspired-by
+tasty.co##.related-recipes
+tasty.co##.recipe-submit-cta
+tasty.co##.article-feed
 
 ! TATLER
 www.tatler.com##.social-icons
@@ -10354,6 +10538,7 @@ which.co.uk##.strong-article
 which.co.uk##.glide-home-membership
 which.co.uk##*[class*="AffiliateLinksDisclaimer"]
 which.co.uk##h2 > [href*="https://signup.which.co.uk/"]
+which.co.uk##*[class*="Badge__badge"]
 conversation.which.co.uk##.social-article
 conversation.which.co.uk##.grecaptcha-badge
 conversation.which.co.uk##.wp-polls
@@ -10726,6 +10911,27 @@ m.youtube.com##.watch-metadata-app-promo-content
 m.youtube.com##.watch-metadata-app-promo-button
 m.youtube.com##.watch-metadata-app-promo-thumb
 m.youtube.com##.consent-bump-v2-lightbox
+
+! YUMMLY
+www.yummly.co.uk##.show-onboarding
+www.yummly.co.uk##.first
+www.yummly.co.uk##.attribution
+www.yummly.co.uk##.review-snippet
+www.yummly.co.uk##.mobile-mp-wrapper
+www.yummly.co.uk##.floating-box:style(position: static !important;)
+www.yummly.co.uk##.basketful-btn
+www.yummly.co.uk##.made-it-button
+www.yummly.co.uk##.recipe-manage-section
+www.yummly.co.uk##.nutrition-wrapper
+www.yummly.co.uk##.tags-wrapper
+www.yummly.co.uk##.related-carousel
+www.yummly.co.uk###reviews
+www.yummly.co.uk###qa-related
+www.yummly.co.uk###qa-more-recipes-from
+www.yummly.co.uk##.download-promo-banner
+www.yummly.co.uk##.top-nav-shopping-list
+www.yummly.co.uk##.app-store-links
+www.yummly.co.uk##.yum-button-wrapper
 
 ! ZATU
 board-game.co.uk##.perfect-products-block
