@@ -1564,6 +1564,7 @@ bbc.*##:xpath(//div[./div/p[child::i and child::a[@href="https://www.facebook.co
 bbc.*##:xpath(//div[contains(@data-component, 'links-block') and child::section[child::div[child::h2[contains(text(), 'More on this story')]]]])
 bbc.*##.Info-authorName
 bbc.*###Russia-attacks-Ukraine-More-coverage-:upward(1)
+bbc.*###War-in-Ukraine-More-coverage-:upward(div)
 
 ! BBC (BROADER)
 www.bbc.co.uk##.chef
@@ -3142,6 +3143,7 @@ etsy.com##.favorite-shop-action
 etsy.com##.subscribe-form
 etsy.com###global-enhancements-search-suggestions
 etsy.com##*[data-appears-component-name="collections_recs_listing_page"]
+etsy.com##*[data-appears-component-name="market_gift_guides"]
 
 ! EUROGAMER
 www.eurogamer.net##.secondary
@@ -3728,6 +3730,7 @@ github.com##:xpath(//div[child::strong[contains(text(), 'ProTip!')]])
 github.com##a[href*=".private.atom"]
 github.com##a.btn[aria-label*="Sponsor"]
 github.com###sponsor-profile-button
+github.com##.home-hero-container ~ *
 github.blog##aside
 
 ! GIZMODO
@@ -5121,6 +5124,19 @@ knowyourmeme.com###anyclip
 knowyourmeme.com##.ac-widget-placeholder
 knowyourmeme.com##.episode
 knowyourmeme.com##.google-trends-embed-wrapper
+
+! LA REDOUTE
+www.laredoute.co.uk##.op-boutique
+www.laredoute.co.uk##.wishlist
+www.laredoute.co.uk##.lr-icon-newsletter
+www.laredoute.co.uk##.creditbanner
+www.laredoute.co.uk##*[data-cerberus="area_plpProduit_magicBox"]
+www.laredoute.co.uk##.discovered-area
+www.laredoute.co.uk###footer-seo
+www.laredoute.co.uk##.tag-container
+www.laredoute.co.uk##.btn-add-to-wishlist
+www.laredoute.co.uk##.delivery-info-container
+www.laredoute.co.uk###childProductBlock
 
 ! LANCASHIRE EVENING POST
 lep.co.uk##amp-analytics
@@ -9055,6 +9071,26 @@ thepointnews.uk##.td-post-sharing-bottom
 thepointnews.uk##.td_block_related_posts
 thepointnews.uk##.td-footer-container
 
+! THE RANGE
+www.therange.co.uk##.four_up_article
+www.therange.co.uk###product_range_product_container
+www.therange.co.uk##.product-range
+www.therange.co.uk##.comp_lister_content
+www.therange.co.uk##.footer-nav-deco
+www.therange.co.uk##.flags
+www.therange.co.uk##.footer-pay-methods
+www.therange.co.uk##.page_footer_social_overflow
+www.therange.co.uk##.six_up_product
+www.therange.co.uk##.seasonal-divider-div
+www.therange.co.uk###delivery_proposition_container
+www.therange.co.uk##.wishlist
+www.therange.co.uk##.rp_container
+www.therange.co.uk###payKlarna
+www.therange.co.uk##.product-collection-sets
+www.therange.co.uk##.goes-well-with-wrapper
+www.therange.co.uk###save_for_later_anchor
+www.therange.co.uk##.klarna_disclosure_wrapper
+
 ! THE REGISTER
 theregister.com##.RegCTBWF_wrapper
 theregister.com##.ad-falcon.bird
@@ -10359,6 +10395,8 @@ wayfair.*##body:style(overflow: auto !important;)
 wayfair.*##:xpath(//div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'Compatible Products')]]]]]])
 wayfair.*##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'What We Offer')]]]])
 wayfair.*##.VirtualAssistantChatHead
+wayfair.*##.CookieComplianceContainer-veil ~ *
+wayfair.*##*[data-testid="clearpay-financing-ad"]
 
 ! WCCF TECH
 wccftech.com##.wccf_related_post
