@@ -5073,11 +5073,23 @@ keybr.com##.Body-header
 keybr.com##.Body-aside
 
 ! KICKSTARTER
-www.kickstarter.com##.grid-col-offset-1-md.grid-col-10-md.grid-col-12 > .pb2.py0 > div.mb3.flex
-www.kickstarter.com##.relative.z2.shadow-high.py2.bg-navy-200
-www.kickstarter.com###project-page-footer-projects
-www.kickstarter.com###subcategory_bar
-www.kickstarter.com##.section_footer-social-links
+kickstarter.com##.grid-col-offset-1-md.grid-col-10-md.grid-col-12 > .pb2.py0 > div.mb3.flex
+kickstarter.com##.relative.z2.shadow-high.py2.bg-navy-200
+kickstarter.com###project-page-footer-projects
+kickstarter.com###subcategory_bar
+kickstarter.com##.section_footer-social-links
+kickstarter.com##span:has-text(Share:):upward(div)
+kickstarter.com##.NS_discover__spotlight_projects
+kickstarter.com##h3:has-text(Recommended for you):upward(div)
+kickstarter.com##*[data-dev-module="FeaturedProjectCollection-featured-project"]
+kickstarter.com##*[data-dev-module="PromoCollection-all"]
+kickstarter.com##*[data-dev-module="ProjectCollection-fresh-favorites"]
+kickstarter.com##*[data-dev-module="ProjectCollection-taking-off"]
+kickstarter.com##*[data-dev-module="ProjectCollection-home-stretch"]
+kickstarter.com##*[data-dev-module="NewsCollection-the-making-of"]
+kickstarter.com##*[data-dev-module="ProjectCollection-near-you"]
+kickstarter.com##*[data-dev-module="PromoCollection-creators-corner"]
+kickstarter.com##*[data-dev-module="NewsCollection-creator-success-stories"]
 
 ! KIRKHAM GRAMMAR SCHOOL
 www.kirkhamgrammar.co.uk##.partners
@@ -8003,6 +8015,10 @@ skyscanner.*##*[data-testid="exploreFeed-hotelRecommendations"]
 skyscanner.*##*[data-testid="confidencePanels"]
 skyscanner.*##*[data-testid="linksPack"]
 skyscanner.*##*[class*="ExploreFeed_ExploreFeed__"]
+skyscanner.*###email-capture-trigger
+skyscanner.*##.oc-flight-search-controls
+skyscanner.*##.sidebar
+skyscanner.*##.author
 
 ! SKY SPORTS
 www.skysports.com##.advert--banner-wrap-ghost
@@ -11111,6 +11127,9 @@ zooplus.co.uk##.product__reco
 zooplus.co.uk##.slider__container
 zooplus.co.uk##.js-spBox
 zooplus.co.uk##*[data-zta="recoSlider"]
+zooplus.co.uk##*[data-zta="btn-goTop"]
+zooplus.co.uk##.uxt-side-banner
+zooplus.co.uk##.payment__bar
 
 ! 365 GAMES
 www.365games.co.uk##.takeover_links
