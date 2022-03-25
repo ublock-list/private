@@ -65,6 +65,7 @@
 ||clk.ink
 ||clk.sh
 ||clksite.com
+||coinadfly.com
 ||commento.io
 ||condenast.io
 ||connexone.co.uk
@@ -149,6 +150,7 @@
 ||gplinks.in
 ||gpmojo.com
 ||grient.com
+||happy-living.online
 ||hdnsppaerj.xyz
 ||helpscout.net
 ||honeybulb.com
@@ -192,6 +194,7 @@
 ||licensebuttons.net
 ||link1s.com
 ||link1s.net
+||linkres.in
 ||linksbuddy.com
 ||livechatinc.com
 ||liveperson.net
@@ -335,6 +338,7 @@
 ||trustarc.com
 ||truste-svc.net
 ||truste.com
+||trxk.com
 ||tsyndicate.com
 ||typearn.com
 ||uii.io
@@ -879,6 +883,10 @@ amazon.*##*[class*="OctopusTopRated"]
 amazon.*##*[data-card-metrics-id*="octopus-hotw-asin-card_handsfree-browse_"]
 amazon.*##*[id="s-suggestion cards_discover_widget-suggestion"]
 amazon.*##.autocomplete-results-container .text-refinement
+amazon.*##.a-row span:has-text(off gift wrap with code):upward(div)
+amazon.*###desktop-top-banner-stripe
+amazon.*###nav-progressive-subnav
+amazon.*##*[data-cel-widget*="YourStoreHome"]
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -4689,43 +4697,55 @@ imdb.com##.promoted-watch-ad
 imdb.com##.imdb-header__search-menu li.react-autosuggest__suggestion a[data-testid="search-result--video"]
 imdb.com##*[data-testid="News"]
 imdb.com##*[data-testid="DidYouKnow"]
+imdb.com##.ipc-page-grid__item--span-1
+imdb.com##*[data-testid="tm-box-pwo-btn"]
+imdb.com##h3:has-text(Explore what’s streaming):upward(div)
+imdb.com##h3:has-text(What to watch):upward(div)
+imdb.com##h3:has-text(Explore Movies & TV shows):upward(div)
+imdb.com##h3:has-text(Editor's picks):upward(section)
+imdb.com##h3:has-text(More to explore):upward(1)
+imdb.com##h3:has-text(Exclusive videos):upward(3)
+imdb.com###fan-picks
+imdb.com##.fan-picks
+imdb.com##.born-today:upward(section)
+imdb.com##.top-news:upward(section)
+imdb.com###from-your-watchlist
+imdb.com##.video-hero.swiper-container:upward(4)
 
 ! IMGUR
-imgur.com##.EmeraldBanner
-imgur.com##.Footer-whitelist
-imgur.com##.EmeraldBannerV1.EmeraldBanner
-imgur.com##.popOverAccount
-imgur.com##.AccoladesTooltip
-imgur.com##.EmeraldButton
-imgur.com##.Gallery-Sidebar
-imgur.com##.Footer-app
-imgur.com##.BottomRecirc
-imgur.com##.GiveEmeraldButton
-imgur.com##.Gallery-Content--tags
-imgur.com##.Comment-create
-imgur.com##.Gallery-EngagementBar
-imgur.com##.Navbar-signup
-imgur.com##.Accolade
-imgur.com##:xpath(//div[child::a[contains(@class, 'Post-item') and descendant::div[contains(@class, 'Post-item-external-ad')]]])
-imgur.com##.TrendingTags
-imgur.com##.welcome.Message
-imgur.com##.badges-wrapper
-
-# IMGUR (MOBILE)
-m.imgur.com##.FloatingOIA-container
-m.imgur.com##.Navbar
-m.imgur.com##.PopOverBannerSmall-buttonClickArea
-m.imgur.com##.get-the-app
-m.imgur.com##div.ShareButtons-shareMethod--wrapper
-m.imgur.com##.ShareButtons-getApp
-m.imgur.com#@#.share
-@@||m.imgur.com/js/share.*.bundle.js
-m.imgur.com#@#.ShareButtons
-m.imgur.com##.cta-image
-m.imgur.com##.cta-close
-m.imgur.com##.favorite
-m.imgur.com##.Gallery-tagHeader
-m.imgur.com##.Ad-emptyMessage
+imgur.*##.EmeraldBanner
+imgur.*##.Footer-whitelist
+imgur.*##.EmeraldBannerV1.EmeraldBanner
+imgur.*##.popOverAccount
+imgur.*##.AccoladesTooltip
+imgur.*##.EmeraldButton
+imgur.*##.Gallery-Sidebar
+imgur.*##.Footer-app
+imgur.*##.BottomRecirc
+imgur.*##.GiveEmeraldButton
+imgur.*##.Gallery-Content--tags
+imgur.*##.Comment-create
+imgur.*##.Gallery-EngagementBar
+imgur.*##.Navbar-signup
+imgur.*##.Accolade
+imgur.*##:xpath(//div[child::a[contains(@class, 'Post-item') and descendant::div[contains(@class, 'Post-item-external-ad')]]])
+imgur.*##.TrendingTags
+imgur.*##.welcome.Message
+imgur.*##.badges-wrapper
+imgur.*##.FloatingOIA-container
+imgur.*##.Navbar
+imgur.*##.PopOverBannerSmall-buttonClickArea
+imgur.*##.get-the-app
+imgur.*##div.ShareButtons-shareMethod--wrapper
+imgur.*##.ShareButtons-getApp
+imgur.com#@#.share
+@@||imgur.*/js/share.*.bundle.js
+imgur.*#@#.ShareButtons
+imgur.*##.cta-image
+imgur.*##.cta-close
+imgur.*##.favorite
+imgur.*##.Gallery-tagHeader
+imgur.*##.Ad-emptyMessage
 
 ! IMORE
 www.imore.com##.adunit-wrap
