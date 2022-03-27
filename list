@@ -356,6 +356,16 @@ xnxx.com##.video-tags
 xnxx.com##.video-metadata
 xnxx.com##.slogan
 
+! EROME
+erome.com##.album-title
+erome.com##.album-bottom-user
+erome.com##.user-profile
+erome.com###legend
+erome.com###goTop
+erome.com##.comments 
+erome.com##.comments ~ *
+erome.com##.navbar
+
 ! OKCUPID
 okcupid.com##.discovery-ad
 okcupid.com##.messenger-main-window:style(width: 95vw !important;)
