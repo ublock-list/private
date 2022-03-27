@@ -41,6 +41,7 @@
 ||beop.io
 ||bibblio.org
 ||bigcontent.io
+||birdurls.com
 ||bitfly.io
 ||blockchain.info
 ||blogginglass.com
@@ -91,6 +92,7 @@
 ||deadlinefunnel.com
 ||dennis.co.uk
 ||digikfplc.com
+||digitalnaz.net
 ||dimpawlam.com
 ||discord.com
 ||discordapp.com
@@ -281,6 +283,7 @@
 ||se-fruit.com
 ||segment.io
 ||sentry.io
+||sevenjournals.com
 ||short.food-royal.com
 ||short.pe
 ||short2.cash
@@ -344,6 +347,7 @@
 ||ukoffzeh.com
 ||unibots.in
 ||unsplash.com
+||up-load.one
 ||utytech.com
 ||viafoura.co
 ||viafoura.net
@@ -4776,6 +4780,7 @@ imdb.com##.top-news:upward(section)
 imdb.com###from-your-watchlist
 imdb.com##.video-hero.swiper-container:upward(4)
 imdb.com###taboola_responsive_wrapper
+imdb.com##.ipc-rating-prompt
 
 ! IMGUR
 imgur.*##.EmeraldBanner
