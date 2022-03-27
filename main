@@ -8702,15 +8702,27 @@ techrepublic.com##:xpath(//div[contains(@class, 'content')]/h2[contains(text(), 
 techrepublic.com##:xpath(//div[contains(@class, 'content')]/h2[contains(text(), 'Also see')]) ~ *
 
 ! TECH SPOT
-www.techspot.com##.sidebarContent
-www.techspot.com###new_social_box
-www.techspot.com##.similar-software
-www.techspot.com##.similars
-www.techspot.com##.category-chicklets
-www.techspot.com##.download_certified
-www.techspot.com###certified
-www.techspot.com##.search-box
-www.techspot.com##.recommended
+techspot.com##.sidebarContent
+techspot.com###new_social_box
+techspot.com##.similar-software
+techspot.com##.similars
+techspot.com##.category-chicklets
+techspot.com##.download_certified
+techspot.com###certified
+techspot.com##.search-box
+techspot.com##.recommended
+techspot.com###author
+techspot.com##.numCom
+techspot.com##.comment-count-block
+techspot.com##.related-query
+techspot.com##.related-stories
+techspot.com##.related-products
+techspot.com###comments
+techspot.com##footer > .wrapper
+techspot.com##article[style="min-height: 250px;"] .tsadpre:upward(article[style="min-height: 250px;"])
+techspot.com##article[style="min-height: 250px;"] .tsadinc:upward(article[style="min-height: 250px;"])
+techspot.com###content ~ *
+techspot.com##.social-column
 
 ! TEN FORUMS
 www.tenforums.com##.postlistfoot
