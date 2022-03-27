@@ -485,6 +485,14 @@ alchemist.camp##.share_box
 alchemist.camp###tf_embed_signup
 alchemist.camp##.topics
 
+! ALDI
+aldi.co.uk###vueRelatedProducts
+aldi.co.uk##.add-to-wishlist
+aldi.co.uk##.teaser-cta
+aldi.co.uk###vueBasketCarouselWrapper
+aldi.co.uk##.banner
+aldi.co.uk##.social-links
+
 ! ALI EXPRESS
 www.aliexpress.com##.may-like
 www.aliexpress.com##.store-banner
@@ -887,6 +895,7 @@ amazon.*##.a-row span:has-text(off gift wrap with code):upward(div)
 amazon.*###desktop-top-banner-stripe
 amazon.*###nav-progressive-subnav
 amazon.*##*[data-cel-widget*="YourStoreHome"]
+amazon.*###desktop-top-banner-stripe
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -1155,6 +1164,17 @@ www.artprintshop.co.uk##.return-link-wrapper
 www.artprintshop.co.uk##.social-icons
 www.artprintshop.co.uk##.site-footer__payment-icons
 
+! ASIA TIMES
+asiatimes.com##.byline
+asiatimes.com##.sharedaddy
+asiatimes.com##.below-content
+asiatimes.com##.entry-footer
+asiatimes.com###secondary
+asiatimes.com##.footer-branding
+asiatimes.com##a[href^="https://asiatimes.com/subscribe-at/"]
+asiatimes.com##.wc-memberships-content-restricted-message
+asiatimes.com##a[href^="https://asiatimes.com/product/"]
+
 ! ASOS
 asos.com##*[data-testid="cookie-disclaimer"]
 asos.com###globalBannerComponent
@@ -1378,6 +1398,7 @@ www.bmstores.co.uk##.bm-banner
 www.bmstores.co.uk##.bm-product-tag-managers-special
 www.bmstores.co.uk##.bm-product-tag-offers
 www.bmstores.co.uk##.bm-back-to-top
+www.bmstores.co.uk##body:style(overflow: auto !important;)
 
 ! B&Q
 diy.com###cl-certona-placeholder
@@ -2241,6 +2262,10 @@ charlestyrwhitt.com##:xpath(//li[child::aside])
 ! CHEAP FLIGHTS
 www.cheapflights.co.uk##*[class*="gdpr-container"]
 
+! CHECK A TRADE
+checkatrade.com##path[d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11a2.987 2.987 0 0 0 4.161-.069A3 3 0 1 0 15 5c0 .24.04.47.09.7L8.04 9.81a2.987 2.987 0 0 0-4.161.069A3 3 0 0 0 6 15c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91a2.915 2.915 0 1 0 0-5.83Z"]:upward(div)
+checkatrade.com##path[d="M353.444 31.253a141.789 141.789 0 0 1 57.465 11.76 141.67 141.67 0 0 1 47.834 34.075l.077.083.074.084a161.86 161.86 0 0 1 41.081 110.633l-.002.111a189.817 189.817 0 0 1-50.522 124.291 1006.266 1006.266 0 0 1-117.973 110.635c-23.943 20.335-53.081 45.611-53.051 45.585a43.165 43.165 0 0 1-56.798 0c-17.304-15.14-34.045-29.397-49.138-42.251l-3.907-3.328a1006.586 1006.586 0 0 1-117.96-110.623A189.83 189.83 0 0 1 .026 188.005l-.003-.129A161.863 161.863 0 0 1 41.217 77.243l.14-.156a141.692 141.692 0 0 1 47.82-34.067 141.8 141.8 0 0 1 57.451-11.767 133.611 133.611 0 0 1 83.242 28.736c11.024 8.587 29.247 8.588 40.291-.002a133.624 133.624 0 0 1 83.283-28.734zm-142.841 53.34c-18.164-14.27-40.812-22.183-63.935-22.09h-.169a110.547 110.547 0 0 0-44.855 9.173 110.437 110.437 0 0 0-37.203 26.476 130.613 130.613 0 0 0-33.173 89.131 158.582 158.582 0 0 0 42.32 103.83l.119.129a975.226 975.226 0 0 0 114.55 107.407l.201.161.196.167 4.111 3.502c15.074 12.836 31.958 27.216 49.425 42.498a11.914 11.914 0 0 0 15.676 0l.021-.018c19.101-16.631 37.387-32.287 53.548-46.012l.188-.159.192-.154a974.79 974.79 0 0 0 114.55-107.406l.112-.123a158.571 158.571 0 0 0 42.254-103.826 130.613 130.613 0 0 0-33.077-89.132 110.427 110.427 0 0 0-37.208-26.477 110.538 110.538 0 0 0-44.869-9.167l-.179.001a102.374 102.374 0 0 0-63.906 22.036c-22.318 17.528-56.543 17.509-78.889.053z"]:upward(div)
+
 ! CHECKLY HQ
 www.checklyhq.com##.promo-banner
 www.checklyhq.com##.welcome
@@ -2285,6 +2310,16 @@ www.chemistdirect.co.uk##.cd-products-viewed
 www.chemistdirect.co.uk##.cd-product-details-left
 www.chemistdirect.co.uk###basket-content
 www.chemistdirect.co.uk##.cd-p-autoreorder
+
+! CHINA DIGITAL TIMES
+chinadigitaltimes.net##.author
+chinadigitaltimes.net##.s_so
+chinadigitaltimes.net###scrollToTopButton
+chinadigitaltimes.net##.addtoany_content
+chinadigitaltimes.net###pagination
+chinadigitaltimes.net##.ampforwp-social-icons-wrapper
+chinadigitaltimes.net##.relatedpost
+chinadigitaltimes.net###footer > .so_i
 
 ! CITY AM
 www.cityam.com##.article-vuukle-comments
@@ -2535,6 +2570,8 @@ css-tricks.com##.top-of-site-link
 css-tricks.com##.related-posts
 css-tricks.com##.footer-inside
 css-tricks.com##.newsletter
+css-tricks.com##.article-sponsor
+css-tricks.com##.search-and-account
 
 ! CURRENCY CONVERTER X
 www.currencyconverterx.com##.block-after-head
@@ -2672,6 +2709,9 @@ www.delish.com##section[data-vars-block-heading="THE LATEST"]
 www.delish.com###article-marketplace-horizontal
 www.delish.com##.end-of-content-module
 www.delish.com##.end-of-content-module ~ *
+www.delish.com##.social-button-group
+www.delish.com##.recipe-introduction
+www.delish.com##.recipe-read-more-trigger
 
 ! DEN OF GEEK
 www.denofgeek.com##.entry__byline
@@ -2817,6 +2857,10 @@ www.digitaltrends.com##.b-foot__social
 www.digitaltrends.com##.b-foot__logo-wrapper
 www.digitaltrends.com##.b-foot__top
 
+! DIY DOCTOR
+www.diydoctor.org.uk##.page-find-tradesman-top
+www.diydoctor.org.uk##.social-buttons
+
 ! DIY NOT
 www.diynot.com##.similarthreadsplus
 www.diynot.com##.diy-inline-notice-before
@@ -2840,6 +2884,14 @@ draxe.com##.breadcrumbs
 draxe.com##.fact-check
 draxe.com##.author
 draxe.com##.recipe-ratings
+
+! DRIVING
+www.driving.co.uk##.social-shares
+www.driving.co.uk##.article-author-wrapper
+www.driving.co.uk##p > strong > a[href="http://www.driving.co.uk/car-reviews/"]:upward(p)
+www.driving.co.uk##.related-articles-wrapper
+www.driving.co.uk##.sidebar-right
+www.driving.co.uk##.share-icons
 
 ! DROPBOX
 www.dropbox.com##.black.top-notification-bar-container
@@ -3174,6 +3226,12 @@ www.eurogamer.net##.no-image.right
 www.eurogamer.net##.author-name
 www.eurogamer.net##.supporter
 
+! EURPOA
+europa.eu##app-detail-media
+europa.eu##.wtShareList
+europa.eu##.social-media-links--webtool-horizontal
+europa.eu##.ecl-footer
+
 ! EVENTBRITE
 eventbrite.co.uk##.organizer-card__cta
 eventbrite.co.uk###listings-root__follow-organizer_hero
@@ -3347,6 +3405,7 @@ fandom.com##.rcs-container
 fandom.com##.global-footer__section-social-links
 fandom.com##.global-footer__section-fandom-stores
 fandom.com##.global-footer__section-ddb-stores
+fandom.com##.global-footer__header
 
 ! FANFICTION.NET
 fanfiction.net###cookie_notice
@@ -3418,8 +3477,9 @@ www.fiverr.com##.social
 www.fiverr.com##.sign-up-modal
 
 ! FLUTTER
-docs.flutter.dev##.site-header__social
-docs.flutter.dev##.site-banner
+flutter.dev##.site-header__social
+flutter.dev##.site-banner
+flutter.dev##.cookie-snack
 
 ! FOOD NETWORK
 foodnetwork.co.uk##.carousel
@@ -4263,10 +4323,12 @@ www.homebuilding.co.uk##.fancy-box
 www.homesitters.co.uk###cookie_notice
 
 ! HONEST JOHN
-www.honestjohn.co.uk###rightContent
-www.honestjohn.co.uk##.newsBoxOuter
-www.honestjohn.co.uk##.related-link
-www.honestjohn.co.uk##.social-icons
+honestjohn.co.uk###rightContent
+honestjohn.co.uk##.newsBoxOuter
+honestjohn.co.uk##.related-link
+honestjohn.co.uk##.social-icons
+honestjohn.co.uk##.email-footer
+honestjohn.co.uk##.sticky-start
 
 ! HONEYBADGER
 www.honeybadger.io##.c-very-special-messages
@@ -4711,6 +4773,7 @@ imdb.com##.born-today:upward(section)
 imdb.com##.top-news:upward(section)
 imdb.com###from-your-watchlist
 imdb.com##.video-hero.swiper-container:upward(4)
+imdb.com###taboola_responsive_wrapper
 
 ! IMGUR
 imgur.*##.EmeraldBanner
@@ -4748,11 +4811,11 @@ imgur.*##.Ad-emptyMessage
 imgur.*##.ShareButtons-header
 imgur.*##.ShareButtons-shareContainer
 imgur.*##.ShareButtons-getApp
-imgur.*##.popOverAccount
 imgur.*##.favorite
 imgur.*##.get-app-block
 imgur.*##.Ad-isFixed
 imgur.*##.Ad-emptyMessage
+imgur.*##.Ad-adhesive
 
 ! IMORE
 www.imore.com##.adunit-wrap
@@ -5062,6 +5125,9 @@ johnlewis.com##a[href*="/brand/anyday-john-lewis-partners/"]
 johnlewis.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::picture[child::source[contains(@srcset, 'generic-bnr')]]]]]]]]])
 johnlewis.com##:xpath(//li[child::h2[contains(@class, 'navigation_navSection__') and contains(text(), 'Sale & Offers')]])
 johnlewis.com##:xpath(//div[child::h4[contains(@class, 'FlyoutMenu-flyoutMenuTitle--') and contains(@data-testid, 'flyout-heading-sale-&-offers-')]])
+johnlewis.com##.share-section
+johnlewis.com##.product-promotional-features
+johnlewis.com##.olapic-wrapper
 
 ! JULIA EVANS
 jvns.ca##.hentry > footer
@@ -5343,6 +5409,22 @@ www.leasingoptions.co.uk##.modal-open:style(overflow: auto !important;)
 www.letsplayindex.com##.content_sidebar
 www.letsplayindex.com##.detail_list_summary_box
 
+! LIDL
+www.lidl.co.uk##.tabnavaccordion__wrapper
+www.lidl.co.uk##.nuc-o-teaser
+www.lidl.co.uk##.sectionteaser
+www.lidl.co.uk##.navigation--social
+www.lidl.co.uk##.teaser
+www.lidl.co.uk##.picture--teaser-square
+www.lidl.co.uk##.video
+www.lidl.co.uk##.footer__prefooter
+www.lidl.co.uk##.totopbutton
+www.lidl.co.uk##.footer__badges
+www.lidl.co.uk##.nuc-a-container
+www.lidl.co.uk##.block_teasercontainer
+www.lidl.co.uk##.footnotes
+www.lidl.co.uk##.hint
+
 ! LIFEHACK
 www.lifehack.org##.cf-overlay
 www.lifehack.org##.background-overlay
@@ -5549,6 +5631,9 @@ lonelyplanet.com##*[data-testid="section-container-latest-news-div"]
 lonelyplanet.com##*[data-testid="section-container-getting-back-on-the-road-covid-19-and-travel-div"]
 lonelyplanet.com##*[data-testid*="section-container-our-favorite-destinations"]
 lonelyplanet.com##:xpath(//div[@data-testid="card-callout" and child::article[@data-testid="card-preview" and descendant::figcaption[descendant::span[contains(text(), 'SPONSORED')]]]])
+
+! LOOPER
+www.looper.com##*[id*="adslot"]
 
 ! MAC WORLD
 www.macworld.co.uk##.article-author-box
@@ -6008,6 +6093,8 @@ www.mumsnet.com##.bookmark-label
 www.mumsnet.com##.message-options
 www.mumsnet.com##.filter-posts-spacing
 www.mumsnet.com##.talk-disclaimer
+www.mumsnet.com###trending-widget
+www.mumsnet.com##.mobile-leaderboard-ad-fixed-padding
 
 ! MUSIC JOBS
 www.music-jobs.com##.leaderboard
@@ -6542,6 +6629,16 @@ www.onlinecarpets.co.uk###crossell
 www.onlinecarpets.co.uk###nav .bottom-block
 www.onlinecarpets.co.uk###nav .right-block
 
+! ONLINE POUND STORE
+www.onlinepoundstore.co.uk##.popup-header-out
+www.onlinepoundstore.co.uk##.posted_in
+www.onlinepoundstore.co.uk##.social-links
+www.onlinepoundstore.co.uk##.related-content
+www.onlinepoundstore.co.uk##.footer-info
+www.onlinepoundstore.co.uk##.footer-sidebar
+www.onlinepoundstore.co.uk##.footer-payments
+www.onlinepoundstore.co.uk##.backtotop
+
 ! OPENING TIMES IN THE UK
 www.openingtimesin.uk##.offers-section
 
@@ -7021,6 +7118,7 @@ www.plymouthherald.co.uk##.top-stories
 www.plymouthherald.co.uk##.read-next
 www.plymouthherald.co.uk##.related-stories
 www.plymouthherald.co.uk##.social-links
+www.plymouthherald.co.uk###breaking-news
 
 ! POCKET LINT
 pocket-lint.com###top-skin-ad
@@ -7432,6 +7530,14 @@ www.reed.co.uk##.download-app-link
 www.reed.co.uk##.footer--secondary
 www.reed.co.uk##.love-mondays-footer-logo
 www.reed.co.uk##.gtmEmailMeJobsTop
+www.reed.co.uk##.saved-jobs-button
+www.reed.co.uk##.saved-jobs
+www.reed.co.uk##.email-job-button
+www.reed.co.uk##.job-alert-button-container
+www.reed.co.uk##.similar-searches
+www.reed.co.uk##.google-ads-bottom-container
+www.reed.co.uk##.related
+www.reed.co.uk##.warning-and-report
 
 ! RESTORE PRIVACY
 restoreprivacy.com##.author-box
@@ -7476,14 +7582,20 @@ www.reviewgeek.com###subprimary
 www.reviewgeek.com##.site-footer
 
 ! RHS
-www.rhs.org.uk##.toolbar__search .form-btn--tone-alert
-www.rhs.org.uk###rmg-quick-bookmark_0
-www.rhs.org.uk###rmg-quick-bookmark_1
-www.rhs.org.uk###get-involved
-www.rhs.org.uk###join-the-rhs
-www.rhs.org.uk##.footer__newsletter
-www.rhs.org.uk##.header-teaser
-www.rhs.org.uk##.rhsplants-banner
+rhs.org.uk##.toolbar__search .form-btn--tone-alert
+rhs.org.uk###rmg-quick-bookmark_0
+rhs.org.uk###rmg-quick-bookmark_1
+rhs.org.uk###get-involved
+rhs.org.uk###join-the-rhs
+rhs.org.uk##.footer__newsletter
+rhs.org.uk##.header-teaser
+rhs.org.uk##.rhsplants-banner
+rhs.org.uk##.THX_TOP_RIGHT
+rhs.org.uk##app-add-plant-to-collection
+rhs.org.uk##.footer__social:upward(.l-row)
+rhs.org.uk##.plants-button-list
+rhs.org.uk##app-advice-month > lib-widget-cards-2-spot-even
+rhs.org.uk##section.section h4:has-text(My Garden):upward(section.section)
 
 ! RHS SHOP
 www.rhsplants.co.uk##.top-footer
@@ -7577,8 +7689,14 @@ www.rhs.org.uk##widget-genus-carousel-by-month
 www.rhs.org.uk##widget-inspiration-article-carousel
 www.rhs.org.uk##*[id*="UserPromoRHS2"]
 
-! ROYAL MAIL
-www.royalmail.com###flmntChatbot
+! ROBERT DYAS
+www.robertdyas.co.uk##.footer-newsletter
+www.robertdyas.co.uk##.footer-socials-list
+www.robertdyas.co.uk##.footer-trust-certif
+www.robertdyas.co.uk##.block-viewed-products-grid
+www.robertdyas.co.uk##.product-social-links
+www.robertdyas.co.uk##.product-info-main-extra
+www.robertdyas.co.uk##.header-content-slot-container
 
 ! ROCK PAPER SHOTGUN
 www.rockpapershotgun.com###onetrust-consent-sdk
@@ -7634,6 +7752,7 @@ rottentomatoes.com###where-to-watch
 ! ROYAL MAIL
 www.royalmail.com##.sliding-popup-top
 www.royalmail.com##.coronavirus18
+www.royalmail.com###flmntChatbot
 
 ! RT
 www.rt.com##.header__section_gray
@@ -9133,6 +9252,10 @@ www.therange.co.uk##.product-collection-sets
 www.therange.co.uk##.goes-well-with-wrapper
 www.therange.co.uk###save_for_later_anchor
 www.therange.co.uk##.klarna_disclosure_wrapper
+www.therange.co.uk###payClearpay
+www.therange.co.uk###klarnaRequire
+www.therange.co.uk###cookie_terms
+www.therange.co.uk###newsletter_submit_wrapper
 
 ! THE REGISTER
 theregister.com##.RegCTBWF_wrapper
@@ -9300,6 +9423,7 @@ thesun.co.uk###article-footer
 thesun.co.uk##.tags
 thesun.co.uk##.widget-area
 thesun.co.uk##.read-more-container
+thesun.co.uk##.article__content > h3
 www.the-sun.com##.advert-wrapper
 www.the-sun.com##.social
 www.the-sun.com##.rail__cluster
@@ -9342,6 +9466,7 @@ telegraph.co.uk##.card__author-image
 telegraph.co.uk##.e-byline-comment__author
 telegraph.co.uk##.e-byline-comment__author-image
 telegraph.co.uk##aside
+telegraph.co.uk##.advert
 
 ! THE TIMES
 thetimes.co.uk###paywall-portal-sale-modal
@@ -10176,6 +10301,11 @@ www.uswitch.com##.article-author__image
 www.uswitch.com##.email-capture-wrapper
 www.uswitch.com##.us-footer__social
 
+! VAILLANT
+www.vaillant.co.uk##.header--mobile__leadbar
+www.vaillant.co.uk###quicklinks
+www.vaillant.co.uk##.social
+
 ! VERY
 www.very.co.uk##.cvBanner
 www.very.co.uk##.E3921-creditProposition
@@ -10726,6 +10856,7 @@ www.wikihow.com##.pdf_link.large_pdf_link
 www.wikihow.com##.coauthor_link
 www.wikihow.com###byline_info > b
 www.wikihow.com###method_toc
+www.wikihow.com##.al_method
 
 ! WIKIPEDIA
 wikipedia.org##.cn-fundraising
@@ -10837,6 +10968,9 @@ www.woodshopdirect.co.uk##.payment_logos
 www.woodshopdirect.co.uk###related_products
 www.woodshopdirect.co.uk##.type-product-question
 www.woodshopdirect.co.uk###product_customer_images_case
+
+! WORCHESTER BOSCH
+www.worcester-bosch.co.uk##.BoschPrivacySettingsV2
 
 ! XDA DEVELOPERS
 www.xda-developers.com##.xda_suggested_apps
