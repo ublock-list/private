@@ -3706,32 +3706,35 @@ www.gamesradar.com##.supernav
 www.gamesradar.com##.regionRedirectBanner
 
 ! GARDENER'S WORLD
-www.gardenersworld.com##.template-article__social-share
-www.gardenersworld.com##.author-name__name
-www.gardenersworld.com##.post-tags
-www.gardenersworld.com##.sidebar
-www.gardenersworld.com##.js-dynamic-related-content
-www.gardenersworld.com##.template-article__footer
-www.gardenersworld.com##.promotional-content
-www.gardenersworld.com##.site-footer-social
-www.gardenersworld.com##.copyright-container
-www.gardenersworld.com##.site-footer__alignment-shim
-www.gardenersworld.com##.template-article__author-name
-www.gardenersworld.com##.post-tags
-www.gardenersworld.com##.promotional-content
-www.gardenersworld.com##.js-dynamic-related-content
-www.gardenersworld.com##.template-article__footer
-www.gardenersworld.com##.site-header__eyebrow
-www.gardenersworld.com##.template-article__meta
-www.gardenersworld.com##.template-article__author-name
-www.gardenersworld.com##.sidebar
-www.gardenersworld.com##.layout-md-rail__secondary
-www.gardenersworld.com##.site-footer__alignment-shim
-www.gardenersworld.com##.copyright-container
-www.gardenersworld.com##.site-header__custom-links
-www.gardenersworld.com##.template-article__affiliate_messaging
-www.gardenersworld.com##.monetizer__price-comparison-container
-www.gardenersworld.com##.social-follow
+gardenersworld.com##.template-article__social-share
+gardenersworld.com##.author-name__name
+gardenersworld.com##.post-tags
+gardenersworld.com##.sidebar
+gardenersworld.com##.js-dynamic-related-content
+gardenersworld.com##.template-article__footer
+gardenersworld.com##.promotional-content
+gardenersworld.com##.site-footer-social
+gardenersworld.com##.copyright-container
+gardenersworld.com##.site-footer__alignment-shim
+gardenersworld.com##.template-article__author-name
+gardenersworld.com##.post-tags
+gardenersworld.com##.promotional-content
+gardenersworld.com##.js-dynamic-related-content
+gardenersworld.com##.template-article__footer
+gardenersworld.com##.site-header__eyebrow
+gardenersworld.com##.template-article__meta
+gardenersworld.com##.template-article__author-name
+gardenersworld.com##.sidebar
+gardenersworld.com##.layout-md-rail__secondary
+gardenersworld.com##.site-footer__alignment-shim
+gardenersworld.com##.copyright-container
+gardenersworld.com##.site-header__custom-links
+gardenersworld.com##.template-article__affiliate_messaging
+gardenersworld.com##.monetizer__price-comparison-container
+gardenersworld.com##.social-follow
+gardenersworld.com##section.highlight h4:has-text(BBC Gardeners’ World Magazine offer:):upward(section.highlight)
+gardenersworld.com##.site-footer__brand-section
+gardenersworld.com##.site-footer__corporate-logo
 
 ! GARDENS 4 YOU
 www.gardens4you.co.uk##.promo_top_bar
@@ -7678,14 +7681,16 @@ rhs.org.uk##.footer__social:upward(.l-row)
 rhs.org.uk##.plants-button-list
 rhs.org.uk##app-advice-month > lib-widget-cards-2-spot-even
 rhs.org.uk##section.section h4:has-text(My Garden):upward(section.section)
+rhs.org.uk##.panel--alt
 
 ! ROYAL HORTICULTURAL SOCIETY SHOP
-www.rhsplants.co.uk##.top-footer
-www.rhsplants.co.uk##.plancard-section2
-www.rhsplants.co.uk##.product-socials
-www.rhsplants.co.uk##.cookies-notice
-www.rhsplants.co.uk###info-panel-general
-www.rhsplants.co.uk##.offers.menu-item
+rhsplants.co.uk##.top-footer
+rhsplants.co.uk##.plancard-section2
+rhsplants.co.uk##.product-socials
+rhsplants.co.uk##.cookies-notice
+rhsplants.co.uk###info-panel-general
+rhsplants.co.uk##.offers.menu-item
+rhsplants.co.uk##.home-section3
 
 ! ROBERT DYAS
 www.robertdyas.co.uk##.footer-newsletter
