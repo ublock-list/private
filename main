@@ -7581,30 +7581,6 @@ www.reviewgeek.com##.affiliate-disclosure
 www.reviewgeek.com###subprimary
 www.reviewgeek.com##.site-footer
 
-! RHS
-rhs.org.uk##.toolbar__search .form-btn--tone-alert
-rhs.org.uk###rmg-quick-bookmark_0
-rhs.org.uk###rmg-quick-bookmark_1
-rhs.org.uk###get-involved
-rhs.org.uk###join-the-rhs
-rhs.org.uk##.footer__newsletter
-rhs.org.uk##.header-teaser
-rhs.org.uk##.rhsplants-banner
-rhs.org.uk##.THX_TOP_RIGHT
-rhs.org.uk##app-add-plant-to-collection
-rhs.org.uk##.footer__social:upward(.l-row)
-rhs.org.uk##.plants-button-list
-rhs.org.uk##app-advice-month > lib-widget-cards-2-spot-even
-rhs.org.uk##section.section h4:has-text(My Garden):upward(section.section)
-
-! RHS SHOP
-www.rhsplants.co.uk##.top-footer
-www.rhsplants.co.uk##.plancard-section2
-www.rhsplants.co.uk##.product-socials
-www.rhsplants.co.uk##.cookies-notice
-www.rhsplants.co.uk###info-panel-general
-www.rhsplants.co.uk##.offers.menu-item
-
 ! RICHER SOUNDS
 www.richersounds.com##.unique-selling-points__wrapper
 www.richersounds.com##.widget
@@ -7673,21 +7649,43 @@ rightmove.co.uk##.heart-icon
 rightmove.co.uk##.propertyCard-topBar
 
 ! ROYAL HORTICULTURAL SOCIETY
-www.rhs.org.uk##.footer__follow
-www.rhs.org.uk##widget-genus-carousel
-www.rhs.org.uk##widget-advice-links
-www.rhs.org.uk##.ad
-www.rhs.org.uk##.owl-carousel
-www.rhs.org.uk##.related-item
-www.rhs.org.uk##widget-plants-preview
-www.rhs.org.uk##.nav-form-button--join.nav-form-button
-www.rhs.org.uk##.footer__podcast
-www.rhs.org.uk##.js-back-to-top
-www.rhs.org.uk##app-plant-beta-msg
-www.rhs.org.uk##.banner
-www.rhs.org.uk##widget-genus-carousel-by-month
-www.rhs.org.uk##widget-inspiration-article-carousel
-www.rhs.org.uk##*[id*="UserPromoRHS2"]
+rhs.org.uk##.footer__follow
+rhs.org.uk##widget-genus-carousel
+rhs.org.uk##widget-advice-links
+rhs.org.uk##.ad
+!rhs.org.uk##.owl-carousel
+rhs.org.uk##.related-item
+rhs.org.uk##widget-plants-preview
+rhs.org.uk##.nav-form-button--join.nav-form-button
+rhs.org.uk##.footer__podcast
+rhs.org.uk##.js-back-to-top
+rhs.org.uk##app-plant-beta-msg
+rhs.org.uk##.banner
+rhs.org.uk##widget-genus-carousel-by-month
+rhs.org.uk##widget-inspiration-article-carousel
+rhs.org.uk##*[id*="UserPromoRHS2"]
+rhs.org.uk##.toolbar__search .form-btn--tone-alert
+rhs.org.uk###rmg-quick-bookmark_0
+rhs.org.uk###rmg-quick-bookmark_1
+rhs.org.uk###get-involved
+rhs.org.uk###join-the-rhs
+rhs.org.uk##.footer__newsletter
+rhs.org.uk##.header-teaser
+rhs.org.uk##.rhsplants-banner
+rhs.org.uk##.THX_TOP_RIGHT
+rhs.org.uk##app-add-plant-to-collection
+rhs.org.uk##.footer__social:upward(.l-row)
+rhs.org.uk##.plants-button-list
+rhs.org.uk##app-advice-month > lib-widget-cards-2-spot-even
+rhs.org.uk##section.section h4:has-text(My Garden):upward(section.section)
+
+! ROYAL HORTICULTURAL SOCIETY SHOP
+www.rhsplants.co.uk##.top-footer
+www.rhsplants.co.uk##.plancard-section2
+www.rhsplants.co.uk##.product-socials
+www.rhsplants.co.uk##.cookies-notice
+www.rhsplants.co.uk###info-panel-general
+www.rhsplants.co.uk##.offers.menu-item
 
 ! ROBERT DYAS
 www.robertdyas.co.uk##.footer-newsletter
