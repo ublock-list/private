@@ -4737,7 +4737,6 @@ imgur.*##.Navbar
 imgur.*##.PopOverBannerSmall-buttonClickArea
 imgur.*##.get-the-app
 imgur.*##div.ShareButtons-shareMethod--wrapper
-imgur.*##.ShareButtons-getApp
 imgur.com#@#.share
 @@||imgur.*/js/share.*.bundle.js
 imgur.*#@#.ShareButtons
@@ -4745,6 +4744,14 @@ imgur.*##.cta-image
 imgur.*##.cta-close
 imgur.*##.favorite
 imgur.*##.Gallery-tagHeader
+imgur.*##.Ad-emptyMessage
+imgur.*##.ShareButtons-header
+imgur.*##.ShareButtons-shareContainer
+imgur.*##.ShareButtons-getApp
+imgur.*##.popOverAccount
+imgur.*##.favorite
+imgur.*##.get-app-block
+imgur.*##.Ad-isFixed
 imgur.*##.Ad-emptyMessage
 
 ! IMORE
