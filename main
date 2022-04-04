@@ -899,6 +899,11 @@ amazon.*###desktop-top-banner-stripe
 amazon.*###nav-progressive-subnav
 amazon.*##*[data-cel-widget*="YourStoreHome"]
 amazon.*###desktop-top-banner-stripe
+amazon.*###b2bUpsell_feature_div
+amazon.*###promoPriceBlockMessage_feature_div
+amazon.*###special-product-offers-1_feature_div
+amazon.*##.s-recentSearchDistinct
+amazon.*##.cards_discover_widget-suggestion
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -2051,6 +2056,11 @@ dictionary.cambridge.org##:xpath(//div[child::div[@id="translations"]])
 dictionary.cambridge.org##:xpath(//div[child::a[contains(@href, '/shop/business-vocabulary/')]])
 dictionary.cambridge.org##:xpath(//div[child::h2[child::strong[contains(text(), 'Browse')]]])
 dictionary.cambridge.org##:xpath(//div[contains(text(), 'These examples are from corpora')])
+dictionary.cambridge.org##*[id*="ad_houseslot"]
+dictionary.cambridge.org##.i-twitter:upward(2)
+dictionary.cambridge.org##.s-logo-footer
+dictionary.cambridge.org##.ctop
+dictionary.cambridge.org##.smartt
 
 ! CAMBRIDGE MASK COMPANY
 cambridgemask.com###shopify-section-product-recommendations
@@ -2791,6 +2801,7 @@ dictionary.com##.sidebar
 dictionary.com##.article-paging
 dictionary.com##.you-might-also-like
 dictionary.com##.breadcrumbs
+dictionary.com###related-content-section
 
 ! DIGITAL OCEAN
 www.digitalocean.com##.featured-content-header
@@ -2939,6 +2950,7 @@ duckduckgo.com##.zci--dictionary_definition
 duckduckgo.com##.zci--calculator
 duckduckgo.com##.module-slot
 duckduckgo.com##.results--sidebar
+duckduckgo.com##.user-loc-tooltip
 
 ! DUSK
 dusk.com##.loading-mask
@@ -5900,7 +5912,7 @@ www.menshealth.com##.embed-editorial-links
 www.menshealth.com##.embed
 www.menshealth.com##:xpath(//div[child::div[child::div[child::div[contains(@class, 'sponsor')]]]])
 
-! MERRIUM WEBSTER DICTIONARY
+! MERRIAM WEBSTER DICTIONARY
 www.merriam-webster.com##.right-rail
 www.merriam-webster.com##.learn_more
 www.merriam-webster.com##.more-from
@@ -5909,6 +5921,7 @@ www.merriam-webster.com##.additional-content-area
 www.merriam-webster.com##.footer-mast
 www.merriam-webster.com##.save-to-list
 www.merriam-webster.com##*[class*="cafemedia-ad"]
+www.merriam-webster.com##.open-web-comments-definition-container
 
 ! MET OFFICE
 www.metoffice.gov.uk##.breaking-news-block
@@ -6517,6 +6530,7 @@ nypost.com##.sharedaddy
 nypost.com##.footer-social
 nypost.com##.site-footer__wrapper
 nypost.com##.ad__wrapper
+nypost.com##.comments-inline-cta
 pagesix.com##.breaking-news
 pagesix.com##.nyp-sharedaddy-wrapper
 pagesix.com##.floating-share
@@ -6534,6 +6548,9 @@ nytimes.com###acm-wrapper
 nytimes.com##+js(cookie-remover)
 nytimes.com###bottom-wrapper
 nytimes.com##.share
+nytimes.com##game-modal
+nytimes.com##.spelling-bee-loved
+nytimes.com###js-hook-pz-moment__cutoff
 
 ! OAK FURNITURE LAND
 www.oakfurnitureland.co.uk###emergency-banner
@@ -8683,6 +8700,8 @@ techradar.com##.trending__wrapper
 techradar.com##.supernav
 techradar.com##.trending__wrapper
 techradar.com##.left-rail-area
+techradar.com##.locale-selector
+techradar.com##.byline
 
 ! TECH REPUBLIC
 techrepublic.com##.btn-premium
