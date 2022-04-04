@@ -153,6 +153,7 @@ pornhub.com###searchSuggestions:xpath(//li[contains(@class, 'label')])
 pornhub.com##search-list[type="recent"]
 pornhub.com##search-list[type="trending"]
 pornhub.com##h2 > a:has-text(Popular Performers):upward(.sectionWrapper)
+pornhub.com##.scrollableSearchSuggestion
 
 ! YOUPORN
 youporn.com###network-bar
