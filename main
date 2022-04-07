@@ -1149,6 +1149,7 @@ argos.co.uk##*[data-title="megabutton0"]
 argos.co.uk##*[data-area]
 argos.co.uk##:xpath(//div[contains(@class, 'LazyHydrateCard') and child::div[child::div[child::div[child::div[child::div[contains(text(), 'SPONSORED')]]]]]])
 argos.co.uk##:xpath(//div[contains(@class, 'LazyHydrateCard') and child::div[contains(@class, 'StyledProductCard')]])
+argos.co.uk##*[class*="Footerstyles__SecondaryFooter"]
 
 ! ARS TECHNICA
 arstechnica.com##.featured-video
@@ -1201,6 +1202,11 @@ asos.com##:xpath(//li[child::a[contains(@href, 'promo')]])
 asos.com##*[class*="payment-promo"]
 asos.com###category-banner-wrapper
 asos.com##.hero__link
+asos.com##.selling-fast
+asos.com##.social-share
+asos.com##.save-for-later-portal
+asos.com###pdp-react-app
+asos.com##.scrollablePromoBanner
 
 ! AUDI
 www.audi.co.uk##.modal-layer
@@ -1376,6 +1382,7 @@ autotrader.co.uk##*[href="/secure/saved-adverts"]
 autotrader.co.uk##.search-form__sign-in
 autotrader.co.uk##.search-form__save-search-top
 autotrader.co.uk##.search-form__save-search
+autotrader.co.uk##.home-page__footer
 
 ! AV FORUMS
 www.avforums.com##.p-body-sidebar
@@ -1989,6 +1996,7 @@ boredpanda.com###post-comments
 boredpanda.com##.tiktok-embed
 boredpanda.com##.see-also-recommendations
 boredpanda.com##.post-footer
+boredpanda.com##.post-recommendations
 
 ! BREITBART
 breitbart.com##.notify-optin-wrap
@@ -2271,6 +2279,8 @@ charlestyrwhitt.com###hp_hero
 charlestyrwhitt.com##.tib-aw21-banner-EOSS
 charlestyrwhitt.com##.js-meganavimg
 charlestyrwhitt.com##:xpath(//li[child::aside])
+charlestyrwhitt.com##.js-thumb-sale-badge
+charlestyrwhitt.com##.paypal-paylater-msg
 
 ! CHEAP FLIGHTS
 www.cheapflights.co.uk##*[class*="gdpr-container"]
@@ -2353,6 +2363,9 @@ citymapper.com##:xpath(//div[child::a[contains(@href, '/love')]])
 citymapper.com##button[title="Send to Phone"]
 citymapper.com##a[href="/poweredby"]
 citymapper.com##.powers
+citymapper.com##span > h2 > a[href*="https://content.citymapper.com/news/"]:upward(div)
+citymapper.com##.apps
+citymapper.com##a[href="https://twitter.com/Citymapper"]:upward(div)
 
 ! CLICK MECHANIC
 www.clickmechanic.com##.cookie-consent-notice-container
@@ -3421,6 +3434,7 @@ fandom.com##.global-footer__section-social-links
 fandom.com##.global-footer__section-fandom-stores
 fandom.com##.global-footer__section-ddb-stores
 fandom.com##.global-footer__header
+fandom.com##.global-footer
 
 ! FANFICTION.NET
 fanfiction.net###cookie_notice
@@ -3646,6 +3660,11 @@ gamerant.com##.article-tags
 gamerant.com##.w-article-author-bio
 gamerant.com###secondary
 gamerant.com##.w-article-related
+gamerant.com##.heading_breadcrumb
+gamerant.com##.heading_sharing
+gamerant.com##.author
+gamerant.com##*[id*="adsninja"]
+gamerant.com##.w-menu-follow
 
 ! GAME REVOLUTION
 www.gamerevolution.com##.postmetadata
@@ -4400,6 +4419,25 @@ hotukdeals.com##.threadItemCard-author
 hotukdeals.com##.groupHeader
 hotukdeals.com##.cept-footer-description
 
+! HOUSE OF FRASER
+www.houseoffraser.co.uk##.HOF_HeaderTop_Promo
+www.houseoffraser.co.uk##.gift-banner
+www.houseoffraser.co.uk###divWishList
+www.houseoffraser.co.uk##.recognitionStrip
+www.houseoffraser.co.uk###divCookieAcceptance
+www.houseoffraser.co.uk##.emailWrapper
+www.houseoffraser.co.uk##.socialSitesWrapper
+www.houseoffraser.co.uk##.footerAppLine
+www.houseoffraser.co.uk###addToWishListContainer
+www.houseoffraser.co.uk##.productLowerPromoContainer
+www.houseoffraser.co.uk##.MoreFromGroup
+www.houseoffraser.co.uk##.HofOffersCon
+www.houseoffraser.co.uk##.HOFhomeDeals
+www.houseoffraser.co.uk##.HOFhomeHero
+www.houseoffraser.co.uk##.HOFhomeInspiration
+www.houseoffraser.co.uk##.HOF_HOME6
+www.houseoffraser.co.uk##.HOF-inspiration-ideas
+
 ! HOUZZ
 houzz.co.uk##.hz-visitor-consents
 houzz.co.uk##.pro-signup-header
@@ -4835,6 +4873,8 @@ imgur.*##.get-app-block
 imgur.*##.Ad-isFixed
 imgur.*##.Ad-emptyMessage
 imgur.*##.Ad-adhesive
+blog.imgur.com###main-sidebar
+blog.imgur.com##.slicknav_menu
 
 ! IMORE
 www.imore.com##.adunit-wrap
@@ -4875,6 +4915,7 @@ indeed.*##.iclcom-ResumeSimpleFooter
 indeed.*###recentSearchesJobFeedZones
 indeed.*###popularSearches
 indeed.*###saveJobButtonContainer
+indeed.*##.bookmark
 
 ! INSIDER / BUSINESS INSIDER
 www.insider.com##.subnav-ad-layout
@@ -5056,6 +5097,10 @@ www.iwantoneofthose.com##.post-meta--share
 www.iwantoneofthose.com##.author-info
 www.iwantoneofthose.com##.related-posts
 www.iwantoneofthose.com##.sign-off
+
+! JACKSON NURSERIES
+www.jacksonsnurseries.co.uk###hw_cookie_law
+www.jacksonsnurseries.co.uk##.ty-add-to-wish
 
 ! JAVASCRIPT INFO
 javascript.info##.share-icons
@@ -5336,6 +5381,17 @@ www.laptopmag.com##.read-more-container
 www.laptopmag.com###taboola-mobile-below-article-thumbnails
 www.laptopmag.com##.related-articles-block
 
+! LAVENDER WORLD
+www.lavenderworld.co.uk##.blocker
+www.lavenderworld.co.uk##body:style(overflow: auto !important;)
+www.lavenderworld.co.uk##.checkout-note
+www.lavenderworld.co.uk##.additional-checkout-buttons
+www.lavenderworld.co.uk##.signup-form
+www.lavenderworld.co.uk##.section-footer__newsletter-block
+www.lavenderworld.co.uk##.section-footer__payment-icons
+www.lavenderworld.co.uk##.product-recommendations
+www.lavenderworld.co.uk##.see-more
+
 ! LAZADA
 www.lazada.vn##.footer-second
 www.lazada.vn##.footer-fourth
@@ -5535,6 +5591,14 @@ linustechtips.com##.lmgComment_footer
 linustechtips.com##.awards-block
 linustechtips.com##.cGuestTeaser
 
+! LINUX CONFIG
+linuxconfig.org##.incontent_ads
+linuxconfig.org##.crp_related
+linuxconfig.org##.inside-article > .entry-meta
+linuxconfig.org##center
+linuxconfig.org###discourse-comments
+linuxconfig.org##.footer-widgets
+
 ! LITTLEWOODS
 littlewoods.com##.uspContainer
 littlewoods.com##.slick-slider
@@ -5628,6 +5692,9 @@ lloydspharmacy.com###products-carousel-products-carousel
 lloydspharmacy.com###shopify-section-recently-viewed
 lloydspharmacy.com###trustpilot-customer-reviews-root
 lloydspharmacy.com##.announcement-bar
+
+! LOG ROCKET
+blog.logrocket.com##.news-pop
 
 ! LONELY PLANET
 lonelyplanet.com##.ArticleAuthor
@@ -5787,6 +5854,7 @@ marksandspencer.com###matchingItems
 marksandspencer.com###shopTheLook
 marksandspencer.com##*[data-component="recommendations"]
 marksandspencer.com##*[data-component="banner"]
+marksandspencer.com##.back-to-top
 
 !  MASHABLE
 mashable.com##a[href^="/author/"]
@@ -6759,6 +6827,10 @@ overclockers.co.uk##.body--home main > *
 overclockers.co.uk###category-seo-block-anchor
 overclockers.co.uk##.fourboxwrap
 overclockers.co.uk##.wishlist
+overclockers.co.uk##.consent-modal
+overclockers.co.uk##.featured-articles
+overclockers.co.uk###featured-posts
+overclockers.co.uk###footer
 ||img.overclockers.co.uk/assets/certificates/certificates.png$image
 
 ! OVERCLOCKERS (USA)
@@ -7703,6 +7775,7 @@ rhs.org.uk##.plants-button-list
 rhs.org.uk##app-advice-month > lib-widget-cards-2-spot-even
 rhs.org.uk##section.section h4:has-text(My Garden):upward(section.section)
 rhs.org.uk##.panel--alt
+rhs.org.uk###aside
 
 ! ROYAL HORTICULTURAL SOCIETY SHOP
 rhsplants.co.uk##.top-footer
@@ -7721,6 +7794,15 @@ www.robertdyas.co.uk##.block-viewed-products-grid
 www.robertdyas.co.uk##.product-social-links
 www.robertdyas.co.uk##.product-info-main-extra
 www.robertdyas.co.uk##.header-content-slot-container
+www.robertdyas.co.uk###br-more-results-widget
+www.robertdyas.co.uk###br-related-items-widget
+www.robertdyas.co.uk###br-related-categories-widget
+www.robertdyas.co.uk##.back-to-top
+www.robertdyas.co.uk###paypal-in3-container
+www.robertdyas.co.uk##h2:has-text(What to Shop Next):upward(.widget)
+www.robertdyas.co.uk##.product-promo
+www.robertdyas.co.uk##.br-content-wrapper
+www.robertdyas.co.uk##.js-product-info-saving
 
 ! ROCK PAPER SHOTGUN
 www.rockpapershotgun.com###onetrust-consent-sdk
@@ -8189,6 +8271,8 @@ skyscanner.*###email-capture-trigger
 skyscanner.*##.oc-flight-search-controls
 skyscanner.*##.sidebar
 skyscanner.*##.author
+skyscanner.*###CombinedResultsHotels
+skyscanner.*###CombinedResultsCarHire
 
 ! SKY SPORTS
 www.skysports.com##.advert--banner-wrap-ghost
@@ -9044,6 +9128,7 @@ www.theguardian.com###comments
 www.theguardian.com##address
 www.theguardian.com##[href*="subscribe-by-email"]
 www.theguardian.com##[href*="the-guardian-app"]
+WWW.theguardian.com##*[id*="sp_message_container_"]
 
 ! THE HEADLESS DEV
 theheadless.dev##.home__subscribe
@@ -9544,6 +9629,7 @@ theverge.com##*[id*="volume-placement-"]
 theverge.com##.remixd-wrapper
 theverge.com##.c-entry-group-labels
 theverge.com##aside
+theverge.com##.c-recirc-module
 
 ! THE WEEK
 www.theweek.co.uk##.polaris__header--subscription
@@ -11163,6 +11249,9 @@ m.youtube.com##.watch-metadata-app-promo-content
 m.youtube.com##.watch-metadata-app-promo-button
 m.youtube.com##.watch-metadata-app-promo-thumb
 m.youtube.com##.consent-bump-v2-lightbox
+m.youtube.com##.clarification-with-menu
+m.youtube.com##.clarification-container
+m.youtube.com##.top-standalone-badge
 
 ! YUMMLY
 www.yummly.co.uk##.show-onboarding
@@ -11226,6 +11315,16 @@ www.zap-map.com##a[href^="https://play.google.com/store/apps/details"]
 www.zap-map.com##a[href^="https://itunes.apple.com/gb/app/zap-map/id964082746"]
 www.zap-map.com##a[href^="https://www.goodenergy.co.uk/"]
 www.zap-map.com##.footnote-icon 
+
+! ZARA
+www.zara.com##.product-detail-card-info__add-to-wishlist
+www.zara.com##.product-detail-cross-selling__related-products
+www.zara.com##.product-detail-secondary-products
+www.zara.com###tabs-T-related-products
+www.zara.com###tabs-T-similar-products
+www.zara.com##.product-share
+www.zara.com##.product-detail-selected-color__join-life-tag
+www.zara.com##.accessibility-widget-button
 
 ! ZAVVI
 www.zavvi.com##.emailReengagement
