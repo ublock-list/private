@@ -1058,6 +1058,15 @@ ao.com###hero-stage
 ao.com##.promotions
 ao.com##.merchPodCarouselWrap
 ao.com##.mobile-banner
+ao.com##.best-buy
+ao.com##.seo-outer-wrapper
+ao.com##.helpMeChooseContainer
+ao.com##.contentHub
+ao.com###category-brands
+ao.com###popularProducts
+ao.com##.text-title-lg:has-text(Latest Promotions):upward(3)
+||media.ao.com/productimages/promoimages/*$image
+||lister-merch-media.ao.com$image
 
 ! APK MIRROR
 www.apkmirror.com##.tab-buttons
@@ -3511,10 +3520,6 @@ www.familyhandyman.com###mobile-nav-banner
 www.familyhandyman.com##.ad-container-wrapper
 www.familyhandyman.com##.jw-aspect
 
-! THE FAMILY SURGERY
-thefamilysurgeryorpington.nhs.uk###emergency-popup-wrapper
-thefamilysurgeryorpington.nhs.uk###tickerwrap
-
 ! FANDOM
 fandom.com##.activity-module.rail-module
 fandom.com###WikiaBar
@@ -4771,6 +4776,30 @@ m.huffingtonpost.co.uk##.author-byline
 m.huffingtonpost.co.uk##.tag-cloud
 m.huffingtonpost.co.uk##.yr-conversations
 
+! HUNKE MOLLER
+www.hunkemoller.co.uk##.l-banners_wrapper
+www.hunkemoller.co.uk##.b-header-promotion
+www.hunkemoller.co.uk##.l-recommendations
+www.hunkemoller.co.uk##.b-social_links
+www.hunkemoller.co.uk##.b-footer_subscribe-button
+www.hunkemoller.co.uk##.js-app-download-block-container
+www.hunkemoller.co.uk##.b-footer_payment-content
+www.hunkemoller.co.uk##.b-footer_delivery-wrap
+www.hunkemoller.co.uk##.b-back_to_top
+www.hunkemoller.co.uk##.js-promo_view
+www.hunkemoller.co.uk##.js-promo_click
+www.hunkemoller.co.uk##.l-few_tiles
+www.hunkemoller.co.uk##.b-flowbox-widget
+www.hunkemoller.co.uk##.b-bottom_text
+www.hunkemoller.co.uk##.b-global_content-carousel
+www.hunkemoller.co.uk##.b-product_tile-wishlist
+www.hunkemoller.co.uk##.b-wishlist_btn
+www.hunkemoller.co.uk##.b-promotion-message
+www.hunkemoller.co.uk##.b-pdp-rating_link
+www.hunkemoller.co.uk##.js-complete-the-look
+www.hunkemoller.co.uk##.b-footer_socials
+www.hunkemoller.co.uk##.b-footer_subscribe
+
 ! HUNKER
 www.hunker.com##.component-article-jwplayer-wrapper
 www.hunker.com##.right-rail
@@ -5207,7 +5236,6 @@ www.ispreview.co.uk##.hidden-desktop
 www.its.co.uk##._lpSurveyEmbed
 www.its.co.uk##.whatsapp-widget
 www.its.co.uk##.scrollToTop
-||its-london.s3-eu-west-1.amazonaws.com/CMS/Footer/cards.png$image
 www.its.co.uk###COVIDStrip
 www.its.co.uk##.slick-slider
 www.its.co.uk##.HOMEPROMO
@@ -5217,7 +5245,6 @@ www.its.co.uk##.trustPilotBottomContainer
 www.its.co.uk###ctl00_HM_cmrMobSubStrip
 www.its.co.uk###ctl00_cph1_lblhBottom
 www.its.co.uk##.trustpilot-widget
-||its-london.s3-eu-west-1.amazonaws.com/CMS/Footer/cards.png$image
 ||its-london.s3-eu-west-1.amazonaws.com/CMS/Footer/cards.png$image
 
 ! IT'S FOSS
@@ -5397,6 +5424,17 @@ www.justinguitar.com##.donation-tile
 www.justinguitar.com##.disqus
 www.justinguitar.com##.footer__row--bottom
 www.justinguitar.com##.pg__badges
+
+! KENT COUNCIL
+kent.gov.uk##.CookieManagement
+kent.gov.uk##html:style(overflow: auto !important)
+kent.gov.uk##.govmetric
+kent.gov.uk##.social-icons
+kent.gov.uk##.site-footer__logo-wrapper
+kent.gov.uk##.banner__picture
+kent.gov.uk##.icon-strip
+kent.gov.uk##.primary-signpost-container
+kent.gov.uk##.priority-topics-navigation
 
 ! KENT ADULT EDUCATION
 www.kentadulteducation.co.uk##.newsletter-widget
@@ -5772,6 +5810,8 @@ lingerieoutletstore.co.uk##.sticky-addto
 lingerieoutletstore.co.uk##.cms-page
 lingerieoutletstore.co.uk##.nav-offer
 lingerieoutletstore.co.uk##.nav-sale ul
+lingerieoutletstore.co.uk##.footer-newsletter
+lingerieoutletstore.co.uk##.section-related
 
 ! LINKEDIN
 linkedin.com###advocate-modal
@@ -7555,6 +7595,8 @@ www.pourmoi.co.uk##.site-menu-mobile-items a[href="/blog"]:upward(.site-menu-mob
 www.pourmoi.co.uk##.site-menu-mobile-items a[href="/signup"]:upward(.site-menu-mobile-items)
 www.pourmoi.co.uk###ucTopDetails_ucStars_panStarRating:upward(div)
 www.pourmoi.co.uk##.site-menu-mobile-header:has-text(Get Inspired)
+www.pourmoi.co.uk##.div_CookieLaw
+www.pourmoi.co.uk##.footer-logo
 
 ! POWER LANGUAGE (WORDLE)
 powerlanguage.co.uk##.share
@@ -7614,6 +7656,9 @@ www.prettylittlething.com##.our-social-links
 www.prettylittlething.com###wishlist-anchor
 www.prettylittlething.com##.js-click-socialsharing
 www.prettylittlething.com##.product-upsell-container
+www.prettylittlething.com##.wishlist-icon
+www.prettylittlething.com###add-to-wishlist
+www.prettylittlething.com##.related-products
 
 ! PRIMARK
 www.primark.com##.scroll-top__button
@@ -7904,6 +7949,13 @@ reddit.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[
 reddit.com##.sidebar-grid:style(filter: none !important;)
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-nsfw-blocking-container
+reddit.com##[id*="overlay-share-menu"]
+reddit.com##span:has-text(save):upward(div)
+reddit.com##span:has-text(hide):upward(div)
+reddit.com##span:has-text(share):upward(div)
+reddit.com##button:has-text(Save)
+reddit.com##button:has-text(Follow)
+reddit.com##button:has-text(Share)
 
 ! REED
 www.reed.co.uk##.google-ad-leaderboard
@@ -9363,6 +9415,8 @@ www.standard.co.uk##.author
 ! THE FAMILY SURGERY
 thefamilysurgeryorpington.nhs.uk###eConsultDefaultTarget
 thefamilysurgeryorpington.nhs.uk###cookiepolicy
+thefamilysurgeryorpington.nhs.uk###emergency-popup-wrapper
+thefamilysurgeryorpington.nhs.uk###tickerwrap
 
 ! THE FREE DICTIONARY
 thefreedictionary.com###sidebar
@@ -10035,6 +10089,20 @@ ticketmaster.co.uk##:xpath(//div[child::h3[contains(text(), 'Download Our Apps')
 ticketmaster.co.uk##:xpath(//div[child::h3[contains(text(), 'Our network')]])
 ticketmaster.co.uk##:xpath(//p[contains(text(), 'By continuing past this page')])
 
+! TIGHTS STORE
+www.tightsstore.co.uk##.page-wrap--cookie-permission
+www.tightsstore.co.uk##.topseller
+www.tightsstore.co.uk##.product--actions
+www.tightsstore.co.uk##.product--tax
+www.tightsstore.co.uk##.icon--heart:upward(.btn)
+www.tightsstore.co.uk##.tab-menu--cross-selling
+www.tightsstore.co.uk##.column--newsletter
+
+! TIGHTS TIGHTS TIGHTS
+www.tightstightstights.co.uk###salesfire-overlay
+www.tightstightstights.co.uk##.cookie_alert
+www.tightstightstights.co.uk##.promo-unit-standard-slither-banners
+
 ! TIME
 time.com##.author-feedback-text
 time.com##.share.component
@@ -10636,6 +10704,7 @@ www.uktights.com##.add-fav
 www.uktights.com##.owl-carousel
 www.uktights.com##.featuredPostContainer
 www.uktights.com###___ratingbadge_0
+www.uktights.com###cookiepolicy
 
 ! UK TIMBER
 www.uk-timber.co.uk###cookieNotice
