@@ -923,6 +923,25 @@ www.anandtech.com##.hide_resp2
 www.anandtech.com##.b
 www.anandtech.com##.footer_right
 
+! ANN SUMMERS
+www.annsummers.com##.hero-image
+www.annsummers.com###USPbanner
+www.annsummers.com##.homepage
+www.annsummers.com##._lpSurveyEmbed
+www.annsummers.com##a[href="https://www.trustpilot.com/review/www.annsummers.com"]:upward(.container)
+www.annsummers.com##a[href="https://instagram.com/annsummers"]:upward(.container)
+www.annsummers.com##.header__component--wishlist
+www.annsummers.com##.header__component--boss
+www.annsummers.com##.header__component--parties
+www.annsummers.com##.plp-hero
+www.annsummers.com##.wishlistTile
+www.annsummers.com##.product-tile__badge
+www.annsummers.com##.swiper-product-badges
+www.annsummers.com##.add-to-wish-list
+www.annsummers.com##.clearpay-placement
+www.annsummers.com##.recommendations
+www.annsummers.com##.cat-landing-banner
+
 ! ANON ADDY
 anonaddy.com##:xpath(//section[child::div[child::form[contains(@action, 'https://news.anonaddy.com/subscribe')]]])
 
@@ -2029,6 +2048,25 @@ boredpanda.com##.see-also-recommendations
 boredpanda.com##.post-footer
 boredpanda.com##.post-recommendations
 
+! BOUX AVENUE
+www.bouxavenue.com##.b-promo_header-item
+www.bouxavenue.com##.b-cat_landing-banner
+www.bouxavenue.com##.spotlight-container
+www.bouxavenue.com##.b-footer-signup-wrapper
+www.bouxavenue.com##.b-footer-follow_list
+www.bouxavenue.com##.b-footer-copy_payment_types
+www.bouxavenue.com##.b-footer-copy_bottom_logo
+www.bouxavenue.com##.spotlight-container-hp
+www.bouxavenue.com##.b-cat_landing-read_more
+www.bouxavenue.com##.b-bxav_block
+www.bouxavenue.com##.banner-sale
+www.bouxavenue.com##.b-product_badge
+www.bouxavenue.com##.b-product_payment-options
+www.bouxavenue.com##.l-pdp-recommendations_top
+www.bouxavenue.com##.l-pdp-recently_viewed
+www.bouxavenue.com###homepage-slider
+www.bouxavenue.com##.header-the-avenue
+
 ! BREITBART
 breitbart.com##.notify-optin-wrap
 breitbart.com###menu-europe-trending
@@ -2287,6 +2325,14 @@ www.cbsnews.com##.smart-banner-download
 www.cbsnews.com##.content__footer
 www.cbsnews.com##.social-icons
 www.cbsnews.com##.site-footer__logo
+
+! CEILING SPEAKER WORLD
+ceilingspeakerworld.co.uk##.social-icons
+ceilingspeakerworld.co.uk##.jdgm-verified-count-badget
+ceilingspeakerworld.co.uk##.product-recommendations
+ceilingspeakerworld.co.uk###shopify-section-announcement-bar
+ceilingspeakerworld.co.uk##.bc-sf-most-popular-products-wrapper
+ceilingspeakerworld.co.uk##.bc-sf-recent-products-wrapper
 
 ! CHANNEL4
 www.channel4.com###cookie-consent-banner
@@ -3618,6 +3664,11 @@ www.for-sale.co.uk##.sidebox
 www.ford.co.uk##.cookie-disclaimer
 www.ford.co.uk##.cta-scroll-panel
 
+! FOSS HUB
+www.fosshub.com###fh-ss
+www.fosshub.com###fh-sd
+www.fosshub.com###fh-side-menu
+
 ! FOX NEWS
 www.foxnews.com###toapp
 www.foxnews.com##.watch
@@ -4254,6 +4305,17 @@ www.halfords.com##.asset
 www.halfords.com##.trustpilot-wrap
 www.halfords.com##.b-product__promo
 www.halfords.com##.b-button__livechat-floating
+
+! HARPER'S BAZAAR
+www.harpersbazaar.com##.nav-menu-subscribe
+www.harpersbazaar.com##.byline-with-image
+www.harpersbazaar.com##.affiliate-disclaimer
+www.harpersbazaar.com##.skimlink
+www.harpersbazaar.com##.end-of-content-playlist
+www.harpersbazaar.com##.transporter
+www.harpersbazaar.com##.footer-logo
+www.harpersbazaar.com##.footer-network-logo
+www.harpersbazaar.com##.ipso-kitemark
 
 ! HARRODS
 www.harrods.com###promoBanner
@@ -5372,6 +5434,15 @@ www.kirkhamgrammar.co.uk##.partners
 www.kirkhamgrammar.co.uk##.schudio
 www.kirkhamgrammar.co.uk##.social
 
+! KITCHEN AID
+www.kitchenaid.co.uk##.m-header__top-ribbon-wrapper
+www.kitchenaid.co.uk##.c-product-features
+www.kitchenaid.co.uk##.m-footer-module-newsletter
+www.kitchenaid.co.uk##.m-footer-module-images-wrapper
+www.kitchenaid.co.uk##.m-footer-module-content
+www.kitchenaid.co.uk##.m-footer-new__bottom-wrapper
+www.kitchenaid.co.uk##.c-scroll-to--top
+
 ! KITSOUND
 kitsound.co.uk##.tab-col-10-12.mobile-col-10-12.col-4-12
 kitsound.co.uk##.page_overlay
@@ -5683,6 +5754,24 @@ lifewire.com##.right-rail__offset.pre-content.loc
 lifewire.com##.mntl-commerce-disclosure
 lifewire.com##.mntl-attribution__item
 lifewire.com##.article-left-rail
+
+! LINGERIE OUTLET STORE
+lingerieoutletstore.co.uk##.modals-wrapper
+lingerieoutletstore.co.uk##.usps
+lingerieoutletstore.co.uk##.header-icon-wishlist
+lingerieoutletstore.co.uk##.flash-banner
+lingerieoutletstore.co.uk##.page-banner
+lingerieoutletstore.co.uk##.badge
+lingerieoutletstore.co.uk##.category-cms
+lingerieoutletstore.co.uk##.copyright-images
+lingerieoutletstore.co.uk##.siteby
+lingerieoutletstore.co.uk##a[href="https://www.facebook.com/LOSUK/"]:upward(ul)
+lingerieoutletstore.co.uk##a[data-action="add-to-wishlist"]
+lingerieoutletstore.co.uk##.product-klarna
+lingerieoutletstore.co.uk##.sticky-addto
+lingerieoutletstore.co.uk##.cms-page
+lingerieoutletstore.co.uk##.nav-offer
+lingerieoutletstore.co.uk##.nav-sale ul
 
 ! LINKEDIN
 linkedin.com###advocate-modal
@@ -6636,6 +6725,7 @@ ninjakitchen.co.uk###___ratingbadge_0
 ninjakitchen.co.uk##.hero.carousel
 ninjakitchen.co.uk##.rating-teaser-container
 ninjakitchen.co.uk##.teaser-link
+ninjakitchen.co.uk##.newsletter
 
 ! NINTENDO
 nintendo.*##.plo-overlay
@@ -7444,6 +7534,28 @@ www.popularmechanics.com##.gallery-module.embed
 www.popularmechanics.com##.end-of-content-playlist
 www.popularmechanics.com##.body-tip
 
+! POUR MOI
+www.pourmoi.co.uk###ucHeader_panFavourites
+www.pourmoi.co.uk##.usp-bar
+www.pourmoi.co.uk###panCategoryHeader
+www.pourmoi.co.uk##*[id*="_panBadge"]
+www.pourmoi.co.uk##*[id*="panSocialText"]
+www.pourmoi.co.uk##*[id*="panNewsletterHeader"]:upward(2)
+www.pourmoi.co.uk##.favouritePicker
+www.pourmoi.co.uk##.fl-scroll-top
+www.pourmoi.co.uk##.div_MarketingBlock
+www.pourmoi.co.uk##.footer-credit-cards
+www.pourmoi.co.uk###panRangeItems
+www.pourmoi.co.uk##a[href="/faq/klarna"]:upward(div)
+www.pourmoi.co.uk##.instagram
+www.pourmoi.co.uk##.new-home
+www.pourmoi.co.uk##.flx-ss-overlay
+www.pourmoi.co.uk##.ribbon
+www.pourmoi.co.uk##.site-menu-mobile-items a[href="/blog"]:upward(.site-menu-mobile-items)
+www.pourmoi.co.uk##.site-menu-mobile-items a[href="/signup"]:upward(.site-menu-mobile-items)
+www.pourmoi.co.uk###ucTopDetails_ucStars_panStarRating:upward(div)
+www.pourmoi.co.uk##.site-menu-mobile-header:has-text(Get Inspired)
+
 ! POWER LANGUAGE (WORDLE)
 powerlanguage.co.uk##.share
 
@@ -7491,6 +7603,17 @@ www.preloved.co.uk##.page-banner
 www.preloved.co.uk##.page-footer__follow-preloved
 www.preloved.co.uk##.floating-ctas--sell
 www.preloved.co.uk##.search-result__favourite
+
+! PRETTY LITTLE THING
+www.prettylittlething.com##.cookie-preference__overlay
+www.prettylittlething.com##.header-wishlist
+www.prettylittlething.com##.banner_schedule_json
+www.prettylittlething.com##.cms-homepage
+www.prettylittlething.com##.topLinkFixed
+www.prettylittlething.com##.our-social-links
+www.prettylittlething.com###wishlist-anchor
+www.prettylittlething.com##.js-click-socialsharing
+www.prettylittlething.com##.product-upsell-container
 
 ! PRIMARK
 www.primark.com##.scroll-top__button
@@ -8071,6 +8194,9 @@ www.rtings.com##.footer-disclaimer
 rulesofplay.co.uk##.product-recently-viewed__wrapper
 rulesofplay.co.uk##.product-recommendations--container
 rulesofplay.co.uk##.payment-icons
+
+! SAFER NETWORKING
+www.safer-networking.org##.float-shop
 
 ! SAGA
 www.saga.co.uk##.sidebar-right
@@ -8956,6 +9082,7 @@ techradar.com##.trending__wrapper
 techradar.com##.left-rail-area
 techradar.com##.locale-selector
 techradar.com##.byline
+techradar.com##*[data-list="deals/news/latest"]
 
 ! TECH REPUBLIC
 techrepublic.com##.btn-premium
@@ -9772,6 +9899,17 @@ thetimes.co.uk##.GlobalMenu-conversionLink--joinNow
 thetimes.co.uk##.InTheNews
 thetimes.co.uk###section-puzzlesPromo
 
+! THE UNDERWEAR SHOP
+www.theunderwearshop.co.uk##.announcement-bar
+www.theunderwearshop.co.uk###shopify-section-collection
+www.theunderwearshop.co.uk##.hero
+www.theunderwearshop.co.uk##h2:has-text(SHOP OUR BRANDS):upward(.shopify-section)
+www.theunderwearshop.co.uk##.site-footer-newsletter__one-half
+www.theunderwearshop.co.uk##.social-icons
+www.theunderwearshop.co.uk##.site-footer__payment-icons
+www.theunderwearshop.co.uk##.bold-ro__widget-loading
+www.theunderwearshop.co.uk###shopify-section-product-recommendations
+
 ! THE VERGE
 theverge.com##.m-privacy-consent
 theverge.com##.c-tab-bar
@@ -10486,6 +10624,18 @@ www.uktech.news##.replacement-related-link
 www.uktech.news##.AboveFooter
 www.uktech.news##.article-content .listings-page-widget-container
 www.uktech.news##.listings-page__title
+
+! UK TIGHTS
+www.uktights.com##.categoryFooter
+www.uktights.com###mc-embedded-subscribe-form
+www.uktights.com##.social-icon
+www.uktights.com##.paymentMethodImg
+www.uktights.com###SimilarProductSlider
+www.uktights.com##.promotion
+www.uktights.com##.add-fav
+www.uktights.com##.owl-carousel
+www.uktights.com##.featuredPostContainer
+www.uktights.com###___ratingbadge_0
 
 ! UK TIMBER
 www.uk-timber.co.uk###cookieNotice
