@@ -169,6 +169,7 @@
 ||in-page-push.com
 ||infopicked.com
 ||ingcigarettbarro.info
+||inlinkz.com
 ||insurglobal.xyz
 ||insurance-space.xyz
 ||intense-brushlands-50749.herokuapp.com
@@ -2590,6 +2591,20 @@ www.computerworld.com###amazon-bottom-widget
 www.computerworld.com##.podcast-gallery > .subscribeLinks
 www.computerworld.com##.sidebar.how-to-listen
 www.computerworld.com##.author.vcard.blog-byline
+
+! COOKING CIRCLE
+cookingcircle.com##.b-recipes-carousel
+cookingcircle.com##.b-latest-recipes
+cookingcircle.com##.b-collections-carousel
+cookingcircle.com##.b-contributors-carousel
+cookingcircle.com##.ajax-send-container.marketing-subscribe
+cookingcircle.com##.btn-bookmark
+cookingcircle.com##.recipe-author
+cookingcircle.com##.tooltip
+cookingcircle.com##.facetwp-facet-authors
+cookingcircle.com##.facetwp-facet-recipe_tag
+cookingcircle.com##.single-related-recipes
+cookingcircle.com##.single-tags
 
 ! COOLINGS
 www.coolings.co.uk###cookie-law-info-bar
@@ -5712,6 +5727,16 @@ www.leasingoptions.co.uk##.modal-open:style(overflow: auto !important;)
 www.letsplayindex.com##.content_sidebar
 www.letsplayindex.com##.detail_list_summary_box
 
+! LIANA'S KITCHEN
+lianaskitchen.co.uk##.mv-create-social
+lianaskitchen.co.uk##.mv-create-footer
+!lianaskitchen.co.uk##article > div > *:not(.wp-block-mv-recipe)
+lianaskitchen.co.uk##.wp-block-mv-recipe ~ *
+lianaskitchen.co.uk##.entry-footer
+lianaskitchen.co.uk##.post-navigation
+lianaskitchen.co.uk##.mv-trellis-comments
+lianaskitchen.co.uk##.mv-pinterest-btn
+
 ! LIDL
 www.lidl.co.uk##.tabnavaccordion__wrapper
 www.lidl.co.uk##.nuc-o-teaser
@@ -6767,6 +6792,54 @@ ninjakitchen.co.uk##.rating-teaser-container
 ninjakitchen.co.uk##.teaser-link
 ninjakitchen.co.uk##.newsletter
 
+! NINJA KITCHEN (USA)
+www.ninjakitchen.com###HolidayViolator
+www.ninjakitchen.com###extole-zone-global_header
+www.ninjakitchen.com##.sign-up
+www.ninjakitchen.com###MetaNav
+www.ninjakitchen.com##.valuePropPod
+www.ninjakitchen.com##.masthead
+www.ninjakitchen.com###MailingListInfo
+www.ninjakitchen.com###MailingList
+www.ninjakitchen.com###footerContact
+www.ninjakitchen.com###Badges
+www.ninjakitchen.com##.mastheadCarousel
+www.ninjakitchen.com##.rtb-container
+www.ninjakitchen.com###HomepageContextOffers
+www.ninjakitchen.com##.zoovu-driver
+www.ninjakitchen.com##.shopcollection
+www.ninjakitchen.com###exclusiveOfferBtn
+www.ninjakitchen.com##.affirm-container
+www.ninjakitchen.com##[match-height*="promoppodsmessage"]
+www.ninjakitchen.com##[match-height*="incentivesppods"]
+www.ninjakitchen.com##.product-flag
+www.ninjakitchen.com##.disclaimers
+www.ninjakitchen.com##.valueProp-pod
+www.ninjakitchen.com##.technology-cross-pod
+www.ninjakitchen.com##.recipe-cards
+www.ninjakitchen.com##.support-pod
+www.ninjakitchen.com##.collection-list-4up
+www.ninjakitchen.com###accessoriesNUp
+www.ninjakitchen.com##.cookingGuides
+www.ninjakitchen.com###Accessories
+www.ninjakitchen.com##.quick-start-guide
+www.ninjakitchen.com###SimilarRecipes
+www.ninjakitchen.com###OtherRecipes
+
+! NINJA TEST KITCHEN
+ninjatestkitchen.com##.b-recipes-carousel
+ninjatestkitchen.com##.b-latest-recipes
+ninjatestkitchen.com##.b-collections-carousel
+ninjatestkitchen.com##.b-contributors-carousel
+ninjatestkitchen.com##.ajax-send-container.marketing-subscribe
+ninjatestkitchen.com##.btn-bookmark
+ninjatestkitchen.com##.recipe-author
+ninjatestkitchen.com##.tooltip
+ninjatestkitchen.com##.facetwp-facet-authors
+ninjatestkitchen.com##.facetwp-facet-recipe_tag
+ninjatestkitchen.com##.single-related-recipes
+ninjatestkitchen.com##.single-tags
+
 ! NINTENDO
 nintendo.*##.plo-overlay
 nintendo.*##.plo-mns-price-box
@@ -6906,6 +6979,7 @@ nytimes.com##.share
 nytimes.com##game-modal
 nytimes.com##.spelling-bee-loved
 nytimes.com###js-hook-pz-moment__cutoff
+nytimes.com###hp-live-band-control
 
 ! OAK FURNITURE LAND
 www.oakfurnitureland.co.uk###emergency-banner
