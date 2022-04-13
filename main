@@ -1834,6 +1834,8 @@ bluewater.co.uk##.rg_Header--social
 bluewater.co.uk##.cp_Partners
 bluewater.co.uk##.fd_Section--signup
 bluewater.co.uk##:xpath(//section[child::div[child::div[child::h2[contains(text(), "You'll Like These Too")]]]])
+bluewater.co.uk##.cp_TopLink
+bluewater.co.uk###big-footer-image
 
 ! BMW
 www.bmw.co.uk##epaas-consent-drawer-shell
@@ -7551,6 +7553,7 @@ plex.tv##:xpath(//div[child::p[contains(text(), 'Take Plex everywhere.')]])
 plex.tv##:xpath(//ul[child::li[child::a[contains(@href, 'https://www.facebook.com/plexapp')]]])
 plex.tv##.remodal-wrapper
 plex.tv###plex-language-bar
+plex.tv##*[class*="block-hero-"]
 forums.plex.tv##.topic-map-expanded
 forums.plex.tv##.toggle-summary.information
 forums.plex.tv##.suggested-topics-wrapper
@@ -8371,6 +8374,9 @@ sainsburys.co.uk##:xpath(//li[contains(@class, 'pt-grid-item') and descendant::d
 sainsburys.co.uk##.seasonal-favourites
 sainsburys.co.uk##:xpath(//li[contains(@class, 'pt-grid-item') and child::div[contains(@class, 'pt-espot')]])
 sainsburys.co.uk##.specialOffer > .strapline
+sainsburys.co.uk##*[data-testid="nav-images"]
+sainsburys.co.uk##*[data-action*="hero"]
+sainsburys.co.uk##*[id*="hero-"]
 
 ! SANTANDER
 santander.co.uk###splash-97123-overlay
@@ -8611,6 +8617,9 @@ shireplants.co.uk##.related-product-section
 shireplants.co.uk##.newsletter
 shireplants.co.uk###instocknotify-container
 shireplants.co.uk##.banners
+
+! SHOWCASE CINEMAS
+showcasecinemas.co.uk##.hero
 
 ! SHPOCK
 www.shpock.com##*[id*="modal-"]:style(width: 0 !important; height: 0 !important;)
@@ -10877,6 +10886,15 @@ www.uniqlo.com##.recommendations
 www.uniqlo.com##.pdp__module--bazaarvoicerating
 www.uniqlo.com##.footer__wrapper > .footer__row--borderDown
 www.uniqlo.com##.l3Grid__content--onlyImage
+www.uniqlo.com##.productTile__wishlist
+www.uniqlo.com##.lineup-banner
+www.uniqlo.com##.ghq-banner
+www.uniqlo.com##.category-inner
+www.uniqlo.com##.pair-with
+www.uniqlo.com##.badge
+www.uniqlo.com##[id*="zoid-paypal-message-uid"]
+www.uniqlo.com##.pdp__wishlist
+www.uniqlo.com##.pdp__module--bazaarVoice
 
 ! URBAN DICTIONARY
 www.urbandictionary.com##.share
