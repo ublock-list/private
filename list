@@ -154,6 +154,7 @@ pornhub.com##search-list[type="recent"]
 pornhub.com##search-list[type="trending"]
 pornhub.com##h2 > a:has-text(Popular Performers):upward(.sectionWrapper)
 pornhub.com##.scrollableSearchSuggestion
+pornhub.com##.languages
 
 ! YOUPORN
 youporn.com###network-bar
@@ -226,6 +227,8 @@ xhamster.com##.main-wrap:style(max-width: 100% !important;)
 xhamster.com##.video-page .player-container:style(margin-right: 0 !important;)
 xhamster.com###player-container:style(height: 80vh !important;)
 xhamster.com##.xp-aftershot-inner
+xhamster.com##.badge-producer
+xhamster.com##.creator-amateur
 
 ! XVIDEOS
 www.xvideos.com##+js(rc, disclaimer-opened|img-blured, html)
