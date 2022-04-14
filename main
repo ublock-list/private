@@ -907,6 +907,8 @@ amazon.*##.s-recentSearchDistinct
 amazon.*##.cards_discover_widget-suggestion
 amazon.*###cart-about-cart-warning
 amazon.*###sc-about
+amazon.*##*[data-cel-widget*="MAIN-TOP_BANNER_MESSAGE-"]
+amazon.*##:xpath(//div[child::span[contains(text(), 'GIFTWRAP')]])
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -3360,6 +3362,12 @@ etsy.com##.subscribe-form
 etsy.com###global-enhancements-search-suggestions
 etsy.com##*[data-appears-component-name="collections_recs_listing_page"]
 etsy.com##*[data-appears-component-name="market_gift_guides"]
+etsy.com##[data-appears-component-name="Homepage_Vesta_ApiSpec_Gifts"]
+etsy.com##[data-favorites-nav-container]
+etsy.com##[data-favorite-button-wrapper]
+etsy.com##[data-saved-search-button-container]
+etsy.com##[data-ui="favorite-listing-button"]
+etsy.com##li.wt-list-unstyled div > p.wt-text-caption.wt-text-gray > span:not(:matches-css(display:none)):has-text(/^Ad/):upward(li)
 
 ! EUROGAMER
 www.eurogamer.net##.secondary
@@ -6918,6 +6926,11 @@ notebookcheck.net##.introa_other
 
 ! NATIONAL SAVINGS AND INVESMTENTS (NS&I)
 nsandi.com##.message.message--skyblue
+nsandi.com##span:has-text(Twitter):upward(li)
+nsandi.com##.section--help
+nsandi.com###js-welcome-slider
+nsandi.com###carousel-container
+nsandi.com##.promotion
 
 ! NYPOST
 nypost.com##.breaking-news
@@ -7788,6 +7801,9 @@ beta.protonmail.com##:xpath(//li[child::span[child::button[contains(@title, 'Spe
 protonmail.com###entry-author
 protonmail.com###ht-kb-rate-article
 protonmail.com###ht-kb-related-articles
+protonmail.com##.apps
+protonmail.com##.press-section
+protonmail.com##.top
 
 ! PROTONVPN
 protonvpn.com##.black-friday-top-bar
