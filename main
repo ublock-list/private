@@ -129,6 +129,7 @@
 ||flagship.io
 ||focaluprightfurniture.com
 ||focusecoversionc.info
+||fooot-map.com
 ||forex-articles.com
 ||forex-gold.net
 ||forextrading2.online
@@ -173,6 +174,7 @@
 ||insurglobal.xyz
 ||insurance-space.xyz
 ||intense-brushlands-50749.herokuapp.com
+||iir.ai
 ||jameeltips.us
 ||jistaumt.com
 ||jyruwybiay.xyz
@@ -275,8 +277,9 @@
 ||riptukri.net
 ||risingkupwara.com
 ||rodjulian.com
-||sarcasticlinezomby.com
+||sainny.com
 ||salesforceliveagent.com
+||sarcasticlinezomby.com
 ||sbc7wfnaakau.com
 !||scene7.com
 ||scorecardresearch.com
@@ -909,6 +912,34 @@ amazon.*###cart-about-cart-warning
 amazon.*###sc-about
 amazon.*##*[data-cel-widget*="MAIN-TOP_BANNER_MESSAGE-"]
 amazon.*##:xpath(//div[child::span[contains(text(), 'GIFTWRAP')]])
+amazon.*###pwTeenMessaging_feature_div
+amazon.*##[data-csa-c-content-id="nav_cs_business"]
+amazon.*##[data-csa-c-content-id="nav_cs_freeshipping"]
+amazon.*##[data-csa-c-content-id="nav_cs_shoppertoolkit"]
+amazon.*##[data-csa-c-content-id="nav_cs_toys"]
+amazon.*##[data-csa-c-content-id="nav_cs_morri"]
+amazon.*##[data-csa-c-content-id="nav_cs_pets"]
+amazon.*##[data-csa-c-content-id="nav_cs_home_garden"]
+amazon.*##[data-csa-c-content-id="nav_cs_hpc"]
+amazon.*##[data-csa-c-content-id="nav_cs_beauty"]
+amazon.*##[data-csa-c-content-id="nav_cs_sports"]
+amazon.*##[data-csa-c-content-id="nav_cs_books"]
+amazon.*##[data-csa-c-content-id="nav_cs_fashion"]
+amazon.*##[data-csa-c-slot-id="nav-link-amazonprime"]
+amazon.*##[data-csa-c-content-id="nav_cs_electronics"]
+amazon.*##[data-csa-c-content-id="nav_cs_automotive"]
+amazon.*##[data-csa-c-content-id="nav_cs_kindle_books"]
+amazon.*##[data-csa-c-content-id="nav_cs_video_games"]
+amazon.*##[data-csa-c-content-id="nav_cs_pc"]
+amazon.*##[data-csa-c-content-id="nav_cs_prime_video"]
+amazon.*##[data-csa-c-content-id="nav_cs_audible"]
+amazon.*##[data-csa-c-content-id="nav_cs_baby"]
+amazon.*##[data-csa-c-content-id="nav_cs_sell"]
+amazon.*##[data-csa-c-content-id="nav_cs_sns"]
+amazon.*##[data-csa-c-content-id="nav_cs_music"]
+amazon.*##[data-csa-c-content-id="nav_cs_registry"]
+amazon.*##.s-suggestion-container
+amazon.*##.a-color-secondary > span:has-text(Save more with Subscribe & Save):upward(div)
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -1978,6 +2009,17 @@ boardgameprices.co.uk###newsletterteaser
 boardgameprices.co.uk###brexitnotice
 boardgameprices.co.uk##*[class*="wayland"]
 
+! BODEN
+boden.co.uk##.product-grid-editorial-snippet
+boden.co.uk##.quick-buy-open-button-wrapper
+boden.co.uk##.product-item-badge-container
+boden.co.uk##.reference-service-bar
+boden.co.uk##.form-footer-newsletter:upward(div)
+boden.co.uk##.questbackButton
+boden.co.uk###outfit-carousel
+boden.co.uk##.storyStream
+boden.co.uk##.serviceBanner
+
 ! BOOHOO
 www.boohoo.com##.header-cookies-gdpr
 www.boohoo.com##.magic-hidden-wrapper
@@ -2015,7 +2057,25 @@ www.boohoo.com##.premier
 www.boohoo.com##.cart-shipping-banner
 www.boohoo.com##.scroll-page-top
 www.boohoo.com##.menu-banners
-www.boohoo.com##.product-category-slider-wrapper 
+www.boohoo.com##.product-category-slider-wrapper
+www.boohoo.com##.m-promo_slot
+www.boohoo.com##.m-wishlist
+www.boohoo.com##.b-footer_top
+www.boohoo.com##.l-footer-signup
+www.boohoo.com##.b-trendingpage_carousel
+www.boohoo.com##[data-tau="menu_promo"]
+www.boohoo.com##.m-offers
+www.boohoo.com##.b-header_plp
+www.boohoo.com##.b-search_promo-wrapper
+www.boohoo.com##.b-wishlist_button
+www.boohoo.com##.b-product_badge
+www.boohoo.com##.b-product_tile-quick_view
+www.boohoo.com##.b-price-discount
+www.boohoo.com##.b-promotion
+www.boohoo.com##.b-payment_breakdown
+www.boohoo.com##.b-product_wishlist
+www.boohoo.com##.b-product_similar-carousel_bottom
+www.boohoo.com##h2:has-text(Complete the look):upward(div)
 
 ! BOOTS
 boots.com###estore_social_widget
@@ -2166,6 +2226,14 @@ cambridgemask.com###shopify-section-announcement
 camelcamelcamel.com##.baller
 camelcamelcamel.com###camelcamelcamel_billboard_atf
 camelcamelcamel.com##.ad
+
+! CAMRA
+camra.org.uk##[href="https://join.camra.org.uk"] img:upward(a)
+camra.org.uk##[href="https://camra.org.uk/save-pubs-join-camra/"] img:upward(a)
+camra.org.uk##[href="/join/10-great-reasons-to-join-camra/"] img:upward(a)
+camra.org.uk##.et_pb_promo
+camra.org.uk##.et_social_pin_images_outer
+camra.org.uk##.footer-logo
 
 ! CAN I USE
 caniuse.com##.footer__patreon
@@ -4178,10 +4246,11 @@ accounts.google.*#@#^responseheader(set-cookie)
 mail.google.*#@#^responseheader(set-cookie)
 play.google.com##aside
 developers.google.com##.wf-byline
-translate.google.com##h2:has-text(Side panels):upward(nav)
-translate.google.com##button[aria-label="Share translation"]
-translate.google.com##button[aria-label="Save translation"]
-translate.google.com##button[aria-label="Rate this translation"]
+translate.google.*##h2:has-text(Side panels):upward(nav)
+translate.google.*##button[aria-label="Share translation"]
+translate.google.*##button[aria-label="Save translation"]
+translate.google.*##button[aria-label="Rate this translation"]
+translate.google.*##*[data-probe-id="translation_history_footer_button"]
 
 ! GOV UK
 gov.uk##.govuk-clearfix.gem-c-cookie-banner
@@ -4276,6 +4345,27 @@ www.gumtree.com##.related-carousel
 www.gumtree.com##*[id*="partnerAdDefault"]
 www.gumtree.com##.js-saveSearchButton
 www.gumtree.com##.listing-save-ad
+
+! H&M
+hm.com##.menu__favorites
+hm.com##[class*="Banners-module--bannerContainer__"]
+hm.com##[class*="TeaserContainer-module--teaserWrapper__"]
+hm.com##.trending-filters
+hm.com##.footer-logotype
+hm.com##.favorite
+hm.com##.item-buttons
+hm.com##.new-product
+hm.com##.swg
+hm.com##.productrecommendationarea
+hm.com###trending-filters
+hm.com##.wc-product-sustainability-goals
+hm.com##.wc-pdp-favourite-button
+hm.com##.more-links
+hm.com##div.menu__services__item:nth-of-type(3)
+hm.com##.personalizedExperienceComp
+hm.com##[class*="USP-module--uspContainer__"]
+hm.com##.hm-life-promo
+hm.com##.promotion-marker
 
 ! HABITAT
 www.habitat.co.uk###__tealiumGDPRecModal
@@ -4433,6 +4523,9 @@ healthline.com###this-just-in
 healthline.com##*[data-widget-id*="widget-hero-listing-"]
 healthline.com###__next > div:first-child button > span > span:has-text(GO NOW):upward(6)
 healthline.com##*[data-testid="jwplayer-wrapper"]
+healthline.com##article + div
+healthline.com##h4:has-text(HEALTHLINE NEWSLETTER):upward(4)
+healthline.com##footer img
 
 ! HERTFORDSHIRE MERCURY
 www.hertfordshiremercury.co.uk##aside
@@ -4638,6 +4731,15 @@ www.houseoffraser.co.uk##.HOFhomeHero
 www.houseoffraser.co.uk##.HOFhomeInspiration
 www.houseoffraser.co.uk##.HOF_HOME6
 www.houseoffraser.co.uk##.HOF-inspiration-ideas
+www.houseoffraser.co.uk##.HeaderTopPromo
+www.houseoffraser.co.uk###aWishListLink
+www.houseoffraser.co.uk##.swiper-container
+www.houseoffraser.co.uk##.HOFhomeBrandLogos
+www.houseoffraser.co.uk##.pboxes
+www.houseoffraser.co.uk##.singleAdContainer
+www.houseoffraser.co.uk##.topheadbox
+www.houseoffraser.co.uk##.hotspotwishlist
+www.houseoffraser.co.uk##.hotspotquickbuy
 
 ! HOUZZ
 houzz.co.uk##.hz-visitor-consents
@@ -5064,6 +5166,7 @@ imdb.com###from-your-watchlist
 imdb.com##.video-hero.swiper-container:upward(4)
 imdb.com###taboola_responsive_wrapper
 imdb.com##.ipc-rating-prompt
+imdb.com##.ipc-split-button
 
 ! IMGUR
 imgur.*##.EmeraldBanner
@@ -5449,6 +5552,28 @@ www.justinguitar.com##.donation-tile
 www.justinguitar.com##.disqus
 www.justinguitar.com##.footer__row--bottom
 www.justinguitar.com##.pg__badges
+
+! KALEIDOSCOPE
+kaleidoscope.co.uk###quitifyPopUpBox
+kaleidoscope.co.uk##.siteWideBanner
+kaleidoscope.co.uk###usp_bar_container
+kaleidoscope.co.uk###topnavwrapper
+kaleidoscope.co.uk###saveditems
+kaleidoscope.co.uk##.ClsBasicBannerSecondary
+kaleidoscope.co.uk##.emailSignupContainer
+kaleidoscope.co.uk##.newFooterSocialIcons
+kaleidoscope.co.uk##.newFooterPaymentLinks
+kaleidoscope.co.uk###at-recommendations
+kaleidoscope.co.uk###at-footerRecommendations
+kaleidoscope.co.uk###topNav .columnImage
+kaleidoscope.co.uk###stickyFooterContainerOuter
+kaleidoscope.co.uk##.SeoBanner
+kaleidoscope.co.uk##.savedItemsContainer
+kaleidoscope.co.uk##.productAddToSavedItemsContainer
+kaleidoscope.co.uk##.PLitemAds
+kaleidoscope.co.uk##.core-page
+kaleidoscope.co.uk##.core-seo
+kaleidoscope.co.uk##.core-title-divider
 
 ! KENT COUNCIL
 kent.gov.uk##.CookieManagement
@@ -6172,6 +6297,7 @@ matalan.co.uk##.sub-nav-group__image
 matalan.co.uk###plp-recs
 matalan.co.uk###plp-recs ~ *
 matalan.co.uk##*[data-behavior="global-messages"]
+matalan.co.uk##.o-footer__menu--social
 
 ! MECH BOARDS
 mechboards.co.uk###footer--social
@@ -7220,6 +7346,16 @@ www.overclockers.com##.mh-comments-wrap
 www.overclockers.com##.mh_magazine_custom_posts
 www.overclockers.com##.mh-sidebar
 
+! OVERCLOCK.NET
+www.overclock.net##.join-prompt
+www.overclock.net###primaryExplorerFooterBar
+www.overclock.net##.california-recommended-reading-container
+www.overclock.net##.california-footer--logo
+www.overclock.net##.california-share-button
+www.overclock.net##.bookmarkLink
+www.overclock.net##.sidebar
+www.overclock.net##*[qid="thread-follow-unfollow-button"]
+
 ! OXFORD ONLINE PHARMACY
 oxfordonlinepharmacy.co.uk##.similarproducts
 oxfordonlinepharmacy.co.uk##.similar-products
@@ -7303,6 +7439,7 @@ paypal.com##.custom-logo-section
 paypal.com##.covid-banner
 paypal.com##.custom-notification-ribbon
 paypal.com##.device-hero-qrc
+paypal.com##xo-credit-example-uk
 
 ! PC GAMER
 pcgamer.com##.trending-bar-container
@@ -7858,6 +7995,18 @@ www.purearth.co.uk##.products.upsells
 www.purearth.co.uk##.footer-images-container
 www.purearth.co.uk###footer-widget-2 .textwidget
 www.purearth.co.uk##.footer-social-block
+
+! PURE NATURALS
+purenaturals.co.uk##.woodmart-wishlist-info-widget
+purenaturals.co.uk###popular-PNcarousel
+purenaturals.co.uk###sale-PNcarousel
+purenaturals.co.uk###PN-promo-background-container
+purenaturals.co.uk###blog-carousel
+purenaturals.co.uk###sale-carousel-wrapper
+purenaturals.co.uk###popular-carousel-wrapper
+purenaturals.co.uk###related-PNcarousel
+purenaturals.co.uk##.woocommerce-Reviews
+purenaturals.co.uk##.footer-sidebar
 
 ! QUORA
 quora.com##.qu-bg--blue.qu-full.q-absolute
@@ -11150,6 +11299,22 @@ www.waitrose.com##*[class*="appLinks___"]
 www.waitrose.com##*[id*="_content_waitrosegroceriescms_"]
 www.waitrose.com##:xpath(//article[child::div[child::section[child::div[child::div[child::span[contains(text(), 'Sponsored')]]]]]])
 
+! WALLIS
+www.wallis.co.uk##.b-header_utility
+www.wallis.co.uk##.m-wishlist
+www.wallis.co.uk##.b-wishlist_button
+www.wallis.co.uk##.b-product_badge
+www.wallis.co.uk##.b-product_tile-quick_view
+www.wallis.co.uk##.b-price-discount
+www.wallis.co.uk##.b-footer_top
+www.wallis.co.uk##.l-footer-signup
+www.wallis.co.uk##.b-promotion
+www.wallis.co.uk##.b-payment_breakdown
+www.wallis.co.uk##.b-product_wishlist
+www.wallis.co.uk##.b-live_banner-inner
+www.wallis.co.uk##.spacing-banner
+www.wallis.co.uk##.b-menu_bar-flyout_promo_picture_image
+
 ! WATERSTONES
 www.waterstones.com##.cookie-bar
 www.waterstones.com##.campaign-ribbon
@@ -11351,6 +11516,14 @@ whatcar.com##*[class*="FragmentDFPAdvert"]
 whatcar.com##*[class*="Results-headerAd"]
 whatcar.com##*[class*="PartnershipLogo"]
 whatcar.com##*[class*="AlsoConsider"]
+
+! WHAT PUB
+whatpub.com##.alert-covid
+whatpub.com##.main_right
+whatpub.com##[aria-controls="recently-viewed-pubs-tab"]
+whatpub.com##.global-ctas
+whatpub.com###camra_logo
+whatpub.com###icons-banner
 
 ! WHICH
 which.co.uk##.wm-share-block
@@ -11797,6 +11970,36 @@ www.yummly.co.uk##.download-promo-banner
 www.yummly.co.uk##.top-nav-shopping-list
 www.yummly.co.uk##.app-store-links
 www.yummly.co.uk##.yum-button-wrapper
+
+! ZALANDO
+zalando.co.uk##[data-testid="usp-bar"]
+zalando.co.uk##.z-navicat-header-uspBar
+zalando.co.uk##.z-navicat-header_navToolItem-wishlist
+zalando.co.uk##[aria-label="Add to wish list or remove from wish list"]
+zalando.co.uk##span:has-text(GO TO TOP):upward(button)
+zalando.co.uk##h3:has-text(Zalando Apps:):upward(div)
+zalando.co.uk##h3:has-text(You can also find us on):upward(div)
+zalando.co.uk###z-jarvis-hawkeye-category-cm-description
+zalando.co.uk###z-stt-glados
+zalando.co.uk##[data-section="Our-partners"]
+zalando.co.uk##[data-section="Gift-Cards"]
+zalando.co.uk##[data-section="Our-payment-methods"]
+zalando.co.uk##[data-section="Our-promises"]
+zalando.co.uk##[data-section="Partner-Up"]
+zalando.co.uk##figure span:has-text(%):upward(div)
+zalando.co.uk##figure span:has-text(New):upward(div)
+zalando.co.uk##figure span:has-text(Sustainability):upward(div)
+zalando.co.uk##h2:has-text(Trending now):upward([data-trckng-component])
+zalando.co.uk##h2:has-text(Similar items):upward([data-trckng-component])
+zalando.co.uk##h2:has-text(Dress code):upward([data-trckng-component])
+zalando.co.uk##h2:has-text(Better together):upward([data-trckng-component])
+zalando.co.uk##h4:has-text(Get on our list):upward([data-trckng-component])
+zalando.co.uk##button:has-text(Follow):upward(div)
+zalando.co.uk##[data-entity-id*="res-reco-personalized-products-sale"]
+zalando.co.uk##[data-entity-id*="collection"]
+zalando.co.uk##[data-entity-id*="generic-usp"]
+zalando.co.uk##[data-entity-id*="campaign"]
+zalando.co.uk##.z-navicat-header_subCategoryImageContainer
 
 ! ZATU
 board-game.co.uk##.perfect-products-block
