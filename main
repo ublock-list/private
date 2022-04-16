@@ -940,6 +940,8 @@ amazon.*##[data-csa-c-content-id="nav_cs_music"]
 amazon.*##[data-csa-c-content-id="nav_cs_registry"]
 amazon.*##.s-suggestion-container
 amazon.*##.a-color-secondary > span:has-text(Save more with Subscribe & Save):upward(div)
+amazon.*##.a-color-secondary span:has-text(Join Prime to save):upward(div)
+amazon.*##.a-color-secondary span:has-text(More buying choices):upward(div)
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -3435,7 +3437,11 @@ etsy.com##[data-favorites-nav-container]
 etsy.com##[data-favorite-button-wrapper]
 etsy.com##[data-saved-search-button-container]
 etsy.com##[data-ui="favorite-listing-button"]
+etsy.com##[data-category-page-hobbies]
+etsy.com##[data-category-page-header]:upward(4)
 etsy.com##li.wt-list-unstyled div > p.wt-text-caption.wt-text-gray > span:not(:matches-css(display:none)):has-text(/^Ad/):upward(li)
+etsy.com##li.wt-list-unstyled a.listing-link div > p.wt-text-caption.wt-text-gray > span:not(:matches-css(display:none)):has-text(/^Ad by/):upward(li)
+etsy.com##li.wt-list-unstyled a.listing-link div > p.wt-text-caption.wt-text-gray > span:not(:matches-css(display:none)):has-text(/^Ad from/):upward(li)
 
 ! EUROGAMER
 www.eurogamer.net##.secondary
@@ -5058,6 +5064,7 @@ www.ign.com##.catalog-wrapper
 www.ign.com##.autoplay-container
 www.ign.com##output.widget-container
 www.ign.com##aside
+www.ign.com##.wiki-extras
 
 ! IKEA
 ikea.com##.hnf-footer__featuredLinks
@@ -6331,6 +6338,18 @@ medium.com##:xpath(//div[child::div[child::a[child::div[child::button[child::div
 medium.com##:xpath(//svg[@aria-label="responses"])
 medium.com##:xpath(//div[child::ul[descendant::a[contains(@href, '/tag')]]])
 medium.com##:xpath(//button[child::span[contains(text(), 'Popular')]])
+medium.com##main:upward(div) > div
+medium.com##nav
+medium.com##p:has-text(Follow me on Twitter)
+medium.com##p:has-text(Follow me on Twitter) ~ *
+medium.com##h2:has-text(Sign up for):upward(5)
+medium.com##h2:has-text(Get an email):upward(5)
+medium.com##main > div > div:first-of-type
+medium.com##main > div > div[role="dialog"] + div:has-text(/^Published in$/)
+medium.com##main div:has-text(/^Published in$/):upward(4)
+medium.com##main > div > div:last-of-type
+medium.com##.pw-multi-vote-count:upward(3)
+medium.com##header.pw-post-byline-header
 
 ! MEETUP
 meetup.com##.seeded-event-section.gtm-seeded-events
