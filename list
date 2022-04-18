@@ -57,6 +57,7 @@ pornhub.com###customSkinCTA
 pornhub.com###headerUpgradePremiumBtn
 pornhub.com##.backgroundImg
 pornhub.com###js-networkBar
+pornhub.com##[data-entrycode="VidPg-premVid-videoPage"]:upward(li)
 pornhub.com##.phimage[data-entrycode="VidPg-premVid-videoPage"]
 pornhub.com##.phimage[data-entrycode="VidPg-premVid-videoPage"] + div
 pornhub.com##.phimage[data-entrycode="VidPg-premVid-videoPage"] + div + div
