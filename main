@@ -2124,6 +2124,13 @@ boredpanda.com##.see-also-recommendations
 boredpanda.com##.post-footer
 boredpanda.com##.post-recommendations
 
+! BOROUGH MARKET
+boroughmarket.org.uk##button[data-modal-id="newsletter"]
+boroughmarket.org.uk##h2:has-text(Borough Talks podcast):upward(section)
+boroughmarket.org.uk##h2:has-text(Follow us on Instagram):upward(section)
+boroughmarket.org.uk##h2:has-text(newsletter):upward(section)
+boroughmarket.org.uk##a[href="https://www.facebook.com/BoroughMarket/"]:upward(div)
+
 ! BOUX AVENUE
 www.bouxavenue.com##.b-promo_header-item
 www.bouxavenue.com##.b-cat_landing-banner
@@ -2223,6 +2230,12 @@ cambridgemask.com###launcher
 cambridgemask.com##.Footer__PaymentList
 cambridgemask.com##.Footer__Social
 cambridgemask.com###shopify-section-announcement
+
+! CAMDEN MARKET
+www.camdenmarket.com###frm-site-subscribe
+www.camdenmarket.com##[class*="footer__socialColumn__"]
+www.camdenmarket.com##.home-slider
+www.camdenmarket.com##.homepageContainer__journalFeed
 
 ! CAMEL CAMEL CAMEL
 camelcamelcamel.com##.baller
@@ -2720,6 +2733,9 @@ www.countrylife.co.uk##.footer-menu--icons
 www.countrylife.co.uk##.ad-logos
 www.countrylife.co.uk##a[name="Subscribe"]
 www.countrylife.co.uk##a[href*="https://www.magazinesdirect.com/"]
+
+! COVENT GARDEN MARKET
+www.coventgarden.london##.featured-content-panel
 
 ! CRUNCHYROLL
 crunchyroll.com##.game-banner-wrapper
