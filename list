@@ -156,6 +156,7 @@ pornhub.com##search-list[type="trending"]
 pornhub.com##h2 > a:has-text(Popular Performers):upward(.sectionWrapper)
 pornhub.com##.scrollableSearchSuggestion
 pornhub.com##.languages
+pornhub.com##search-list[type="pornstar"]
 
 ! YOUPORN
 youporn.com###network-bar
