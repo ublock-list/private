@@ -25,12 +25,23 @@ ouo.io##.join-now
 
 linksly.co##.blog-content
 linksly.co##.social-links
+linksly.co##.navbar
 
 genpassword.top##.text-left
 
 bitfly.io##.text-left
 
 linkres.in##.social-icons
+
+redlifek.com###countdown ~ *:not(#go-link)
+redlifek.com##.form-group ~ *:not(#invisibleCaptchaShortlink)
+redlifek.com##.footer-area
+redlifek.com##.blog-list-v1-area
+
+wellness4live.com###countdown ~ *:not(#go-link)
+wellness4live.com##.form-group ~ *:not(#invisibleCaptchaShortlink)
+wellness4live.com##.footer-area
+wellness4live.com##.blog-list-v1-area
 
 ! LOVEHONEY
 lovehoney.co.uk##.dis_message
