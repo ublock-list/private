@@ -138,6 +138,7 @@
 ||fwmrm.net
 ||gaut-hil.com
 ||get-express-vpn.com
+||get-things-done.net
 ||ggpht.com
 ||gigamic.com
 ||gigya.com
@@ -200,6 +201,7 @@
 ||link1s.net
 ||linkres.in
 ||linksbuddy.com
+||linkszia.co
 ||livechatinc.com
 ||liveperson.net
 ||loginradius.com
@@ -257,6 +259,7 @@
 ||projectagoralibs.com
 ||protoawe.com
 ||protoawegw.com
+||proviralhost.com
 ||publicananker.com
 ||pushmono.com
 ||qr-maker.me
@@ -277,6 +280,7 @@
 ||riptukri.net
 ||risingkupwara.com
 ||rodjulian.com
+||rollserver.xyz
 ||sainny.com
 ||salesforceliveagent.com
 ||sarcasticlinezomby.com
@@ -352,6 +356,7 @@
 ||unibots.in
 ||unsplash.com
 ||up-load.one
+||urbharat.xyz
 ||utytech.com
 ||viafoura.co
 ||viafoura.net
@@ -956,6 +961,7 @@ amazon.*##.s-suggestion-container
 amazon.*##.a-color-secondary > span:has-text(Save more with Subscribe & Save):upward(div)
 amazon.*##.a-color-secondary span:has-text(Join Prime to save):upward(div)
 amazon.*##.a-color-secondary span:has-text(More buying choices):upward(div)
+amazon.*##[data-action="ssf-share-icon"]
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -4509,30 +4515,32 @@ hackernoon.com##.profile
 hackernoon.com##*[class*="StoryAudio__AudioContainer"]
 
 ! HALFORDS
-www.halfords.com##.b-newsletter
-www.halfords.com##.b-social
-www.halfords.com##.b-feedback
-www.halfords.com##.js-tab-financecalculator
-www.halfords.com##.b-rewards
-www.halfords.com##.b-button__top
-www.halfords.com##.b-buy-together
-www.halfords.com##.asset
-www.halfords.com##.trustpilot-wrap
-www.halfords.com##.b-product__promo
-www.halfords.com##.b-button__livechat-floating
-www.halfords.com##.b-product-loyalty-promo
-www.halfords.com##.b-product__banner
-www.halfords.com##.b-product__finance
-www.halfords.com##.loyality-mb-banner
-www.halfords.com##.b-bundle-tile
-www.halfords.com##.promoBlock
-www.halfords.com##.b-payments
-www.halfords.com##h2:has-text(Why Choose Halfords?):upward(.h-container)
-www.halfords.com##.b-header__slider
-www.halfords.com##.b-seo
-www.halfords.com##.js-plp-top-content-slot
-www.halfords.com##.b-product__badges
-www.halfords.com##.b-price__label
+halfords.com##.b-newsletter
+halfords.com##.b-social
+halfords.com##.b-feedback
+halfords.com##.js-tab-financecalculator
+halfords.com##.b-rewards
+halfords.com##.b-button__top
+halfords.com##.b-buy-together
+halfords.com##.asset
+halfords.com##.trustpilot-wrap
+halfords.com##.b-product__promo
+halfords.com##.b-button__livechat-floating
+halfords.com##.b-product-loyalty-promo
+halfords.com##.b-product__banner
+halfords.com##.b-product__finance
+halfords.com##.loyality-mb-banner
+halfords.com##.b-bundle-tile
+halfords.com##.promoBlock
+halfords.com##.b-payments
+halfords.com##h2:has-text(Why Choose Halfords?):upward(.h-container)
+halfords.com##.b-header__slider
+halfords.com##.b-seo
+halfords.com##.js-plp-top-content-slot
+halfords.com##.b-product__badges
+halfords.com##.b-price__label
+halfords.com##.b-product__interaptive
+halfords.com##[data-cmp-id="financeCalculatorLink"]
 
 ! HARPER'S BAZAAR
 www.harpersbazaar.com##.nav-menu-subscribe
@@ -8334,6 +8342,22 @@ raspberrypi.com##.c-cookie-banner
 raspberrypi.com##h2:has-text(Related products):upward(2)
 raspberrypi.com##footer div.__rptl-footer-heading:has-text(Follow us):upward(1)
 
+! RECIPE THIS
+recipethis.com##img[alt="Subscribe to the recipethis newsletter"]:upward(figure)
+recipethis.com##img[alt="ninja foodi bundle"]:upward(figure)
+recipethis.com##img[src="https://recipethis.com/wp-content/uploads/Follow-RecipeThis.com-On-Pinterest.jpg"]:upward(figure)
+recipethis.com###right-sidebar
+recipethis.com##.byline
+recipethis.com##p:has-text(This Post Contains Affiliate Links.)
+recipethis.com##h2:has-text(Can’t make it now? Then pin it for later!)
+recipethis.com##h2:has-text(Can’t make it now? Then pin it for later!) ~ *
+recipethis.com##.entry-content ~ *
+recipethis.com##.comments-area
+recipethis.com##.wprm-recipe-instructions-container ~ *
+recipethis.com##.entry-content > *:not(.wprm-recipe-container)
+recipethis.com##.menu-item > a[href="https://recipethis.com/newsletter/"]:upward(.menu-item)
+recipethis.com##.inside-footer-widgets
+
 ! RECLAIM THE NET
 reclaimthenet.org##.elementor-popup-modal
 
@@ -8601,6 +8625,11 @@ rhs.org.uk##section.section h4:has-text(My Garden):upward(section.section)
 rhs.org.uk##.panel--alt
 rhs.org.uk###aside
 rhs.org.uk##.article-action
+rhs.org.uk##lib-quick-add-bookmark
+rhs.org.uk##lib-widget-advice-list
+rhs.org.uk##app-cta-general
+rhs.org.uk##lib-widget-advice-carousel-grey-background
+rhs.org.uk##h2:has-text(See also...):upward(div)
 
 ! ROYAL HORTICULTURAL SOCIETY SHOP
 rhsplants.co.uk##.top-footer
@@ -10630,6 +10659,15 @@ thompson-morgan.com##[href*="/vendors/"]
 thompson-morgan.com##a[href="/request-catalogue"]
 thompson-morgan.com##a[href="/kew-flower-seeds"]
 thompson-morgan.com##.detailsSection
+thompson-morgan.com##.prod-flash
+thompson-morgan.com##.gardenSticky
+thompson-morgan.com###usp
+thompson-morgan.com##strong:has-text(Wishlist):upward(a)
+thompson-morgan.com##.sale
+thompson-morgan.com##.promo-banner
+thompson-morgan.com##h2:has-text(Recently Viewed):upward(div)
+thompson-morgan.com##strong:has-text(Popular):upward(.viewPopup)
+thompson-morgan.com##.banner
 
 ! THORPE PARK
 www.thorpepark.com##.page-footer__newsletter-signup
