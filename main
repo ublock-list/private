@@ -11808,6 +11808,10 @@ wayfair.*##.CategoryView-itemList
 wayfair.*##.AppBannerFooter-link
 wayfair.*##.DailySalesSignup-privacy
 wayfair.*##.DailySalesSignup
+wayfair.*##[data-enzyme-id="WssBannerContainer"]:upward(7)
+wayfair.*##.Galactic
+wayfair.*##h2.TrustedShops-title:upward(8)
+wayfair.*##.HomepageV2-card
 
 ! WCCF TECH
 wccftech.com##.wccf_related_post
