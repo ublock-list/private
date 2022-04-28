@@ -168,6 +168,10 @@ pornhub.com##h2 > a:has-text(Popular Performers):upward(.sectionWrapper)
 pornhub.com##.scrollableSearchSuggestion
 pornhub.com##.languages
 pornhub.com##search-list[type="pornstar"]
+pornhub.com##suggestion-element
+pornhub.com###searchSuggestions
+pornhub.com###mostViewedVerifiedAmateursSection
+pornhub.com##h2:has-text(Top Verified Amateurs):upward(.sectionWrapper)
 
 ! YOUPORN
 youporn.com###network-bar
