@@ -3872,6 +3872,12 @@ www.freecodecamp.org##.social-row
 www.freecodecamp.org##.learn-cta-row
 www.freecodecamp.org##.site-footer
 
+! FRESHA
+www.fresha.com##[class*="CookieBanner"]
+www.fresha.com###heart-fill
+www.fresha.com##[class*="FavoriteButton"]
+www.fresha.com##[class*="styled__IconsContainer"]
+
 ! FULL FACT
 fullfact.org##.ga-navbar-donate
 fullfact.org##.alert-secondary
@@ -3883,6 +3889,13 @@ fullfact.org###feedback-widget-js
 fullfact.org##.signup
 fullfact.org##.social-links
 fullfact.org##.brand-logo
+
+! FULL STACK PHOENIX
+fullstackphoenix.com##.alert-info
+fullstackphoenix.com###post-content ~ *
+fullstackphoenix.com##h2:has-text(Related Tutorials):upward(div)
+fullstackphoenix.com##h2:has-text(Related Tutorials):upward(div) ~ *
+fullstackphoenix.com##a[href="https://twitter.com/FullstackPhoen1"]
 
 ! FUNIMATION
 www.funimation.com##.header-promo-ribbon-wrap
@@ -5226,6 +5239,9 @@ ikea.com##.pip-pip-sustainability
 ikea.com##.ofeed-intersection-area
 ikea.com##.ofeed-organic-feed
 ikea.com###hnf-header-filler
+ikea.com##.button__add-to-favourite
+ikea.com##.button__add-to-cart
+ikea.com##.product-badge
 
 ! IMAGERAIDER
 imageraider.com###myGContainer
@@ -6969,6 +6985,23 @@ neowin.net##.report-article-button
 neowin.net##.article-share
 neowin.net###news-content > div
 
+! NET DOCTOR
+www.netdoctor.co.uk##.byline-with-image
+www.netdoctor.co.uk##.embed-editorial-links
+www.netdoctor.co.uk##.authors
+www.netdoctor.co.uk##.end-of-content-playlist
+www.netdoctor.co.uk##.transporter
+www.netdoctor.co.uk##.footer-social-menu
+www.netdoctor.co.uk##.footer-logo
+www.netdoctor.co.uk##.footer-network-logo
+www.netdoctor.co.uk##.ot-sdk-show-settings
+www.netdoctor.co.uk##.ipso-kitemark
+www.netdoctor.co.uk##.vertical-ad
+www.netdoctor.co.uk##.breaker-ad
+www.netdoctor.co.uk##.affiliate-disclaimer
+www.netdoctor.co.uk##.body-tip
+www.netdoctor.co.uk##.gallery-module.embed
+
 ! NETGEAR
 community.netgear.com##a[href*="banners"]
 community.netgear.com##.lia-component-recommendations-widget-recommended-content-taplet
@@ -8708,6 +8741,9 @@ rottentomatoes.com##.footer__newsletter-block
 rottentomatoes.com##.footer__social-block
 rottentomatoes.com###newsSection
 rottentomatoes.com###where-to-watch
+rottentomatoes.com###podcastLinkMobile
+rottentomatoes.com##.relative.nav-item > temporary-display > rt-badge
+rottentomatoes.com##.recommendations
 
 ! ROYAL MAIL
 www.royalmail.com##.sliding-popup-top
@@ -9736,6 +9772,12 @@ www.tenforums.com##.newcontent_textcontrol1
 www.tenforums.com###thread_info
 www.tenforums.com##.ft3 > div:nth-of-type(4)
 
+! TES
+www.tes.com##.tds-social-share
+www.tes.com##.l-aside
+www.tes.com##tes-save-for-later
+www.tes.com###tes-top-ad
+
 ! TESCO
 tesco.com###sticky-bar-wrapper
 tesco.com##.beans-cookies-notification__container
@@ -10444,6 +10486,7 @@ thestudentroom.co.uk##.related-articles
 thestudentroom.co.uk###primaryWidgets
 thestudentroom.co.uk##.related-articles-forum
 thestudentroom.co.uk###widgets-gutter
+thestudentroom.co.uk###mobile-ad-floating
 
 ! THE SUN
 thesun.co.uk##.footer-follow
@@ -10578,6 +10621,7 @@ theverge.com##.remixd-wrapper
 theverge.com##.c-entry-group-labels
 theverge.com##aside
 theverge.com##.c-recirc-module
+theverge.com##.grecaptcha-badge
 
 ! THE WEEK
 www.theweek.co.uk##.polaris__header--subscription
@@ -11065,6 +11109,18 @@ tripadvisor.*##*[data-automation="save-and-share-SAVE"]
 tripadvisor.*##*[data-automation="save-and-share-SHARE"]
 tripadvisor.*##*[aria-label="Save to a trip"]
 tripadvisor.*##*[data-automation="WebPresentation_WideCardsCarousel"]
+
+! TREATWELL
+treatwell.co.uk##[class*="PropositionSlotsCarousel-module"]
+treatwell.co.uk##[class*="MerchandisingSlots-module"]
+treatwell.co.uk##[class*="AppBanner-module"]
+treatwell.co.uk##[class*="HomePage-module--cityBlocksArea"]
+treatwell.co.uk##[class*="Promotion-module--promo"]
+treatwell.co.uk##[class*="HorizontalOverflowHint-module"]
+mytreatwell.co.uk##.app-advocacy-banner
+mytreatwell.co.uk##.social-links
+mytreatwell.co.uk##.book-us
+mytreatwell.co.uk##.in-partnership-with
 
 ! TRUST A TRADER
 www.trustatrader.com##.join
@@ -11748,6 +11804,10 @@ wayfair.*##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'What W
 wayfair.*##.VirtualAssistantChatHead
 wayfair.*##.CookieComplianceContainer-veil ~ *
 wayfair.*##*[data-testid="clearpay-financing-ad"]
+wayfair.*##.CategoryView-itemList
+wayfair.*##.AppBannerFooter-link
+wayfair.*##.DailySalesSignup-privacy
+wayfair.*##.DailySalesSignup
 
 ! WCCF TECH
 wccftech.com##.wccf_related_post
@@ -11796,6 +11856,11 @@ webmd.com##.moreAbtCond
 webmd.com##.global-footer-certificates
 webmd.com##.global-footer-logo
 webmd.com##.social-icons
+webmd.com##.disclaimer-container
+webmd.com##.mobile-ad-inside-center
+webmd.com##.mobile-ad
+webmd.com##.copoun-text
+webmd.com##.find-lowest-prices
 
 ! WEBTOONS
 www.webtoons.com##.on._gdprCookieBanner.gdpr_ly_cookie
@@ -11953,6 +12018,25 @@ conversation.which.co.uk##.comments-meta
 conversation.which.co.uk##.article-info
 conversation.which.co.uk##.comments-number-large
 conversation.which.co.uk##.b_g
+
+! WHSMITH
+www.whsmith.co.uk##.no-hits-banner
+www.whsmith.co.uk##.plp-description-ca
+www.whsmith.co.uk##.footer-payment-info
+www.whsmith.co.uk##.social-network
+www.whsmith.co.uk##.footer-logo
+www.whsmith.co.uk##.product-social-media
+www.whsmith.co.uk##.product-promo
+www.whsmith.co.uk##.service-strip-container
+www.whsmith.co.uk##.hero-slide
+www.whsmith.co.uk##.homepage-highlights
+www.whsmith.co.uk##.carousel-content
+www.whsmith.co.uk##.hp-banner-alt
+www.whsmith.co.uk##.most-popular-section-container
+www.whsmith.co.uk##.homepage-roundels-section
+www.whsmith.co.uk##.hp-banner-alt-2
+www.whsmith.co.uk###bluecore-subscription-form
+www.whsmith.co.uk##.discover-brands-section
 
 ! WICKED UNCLE
 www.wickeduncle.co.uk##.inline-usp
