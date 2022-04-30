@@ -8614,6 +8614,9 @@ rightmove.co.uk##.saveSearch-btn-mvt
 rightmove.co.uk##.propertyCard-additionalProperties
 rightmove.co.uk##.heart-icon
 rightmove.co.uk##.propertyCard-topBar
+rightmove.co.uk##[data-gtm-name="discovery-tool"]:upward(article)
+rightmove.co.uk##p > a[rel="sponsored"]:upward(div)
+rightmove.co.uk##h2:has-text(Your search history):upward(div)
 
 ! ROMAN
 www.roman.co.uk##.wishlist-button__outer-container--PLP
