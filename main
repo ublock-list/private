@@ -962,6 +962,7 @@ amazon.*##.a-color-secondary > span:has-text(Save more with Subscribe & Save):up
 amazon.*##.a-color-secondary span:has-text(Join Prime to save):upward(div)
 amazon.*##.a-color-secondary span:has-text(More buying choices):upward(div)
 amazon.*##[data-action="ssf-share-icon"]
+amazon.*##.s-sponsored-label-text:upward(.s-result-item)
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
