@@ -6264,6 +6264,14 @@ linuxconfig.org##.footer-widgets
 list.co.uk###app > .bg-gray-50
 list.co.uk###app > .bg-red-600
 list.co.uk##.carousel
+list.co.uk##a[href="https://www.facebook.com/TheListMagazine"]:upward(ul)
+list.co.uk##h3:has-text(Join our newsletter):upward(section)
+list.co.uk##h2:has-text(Film, Food & Drinks, Offers):upward(section)
+list.co.uk##h2:has-text(What's On):upward(section)
+list.co.uk##h2:has-text(News, Features & Reviews):upward(section)
+list.co.uk##small:has-text(Event listing data supplied by):upward(div)
+list.co.uk##.left
+list.co.uk##footer img[src="/img/list-logo-reversed.svg"]:upward(div)
 
 ! LITTLEWOODS
 littlewoods.com##.uspContainer
