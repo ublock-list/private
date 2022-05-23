@@ -1480,6 +1480,9 @@ autotrader.co.uk##.search-form__sign-in
 autotrader.co.uk##.search-form__save-search-top
 autotrader.co.uk##.search-form__save-search
 autotrader.co.uk##.home-page__footer
+autotrader.co.uk##.apps-and-legal
+autotrader.co.uk###enhanced-seo
+autotrader.co.uk###seo-links-container
 
 ! AV FORUMS
 www.avforums.com##.p-body-sidebar
@@ -12401,6 +12404,9 @@ youtube.com###owner-and-teaser
 youtube.com###clarify-box
 youtube.com##ytd-compact-movie-renderer ytd-badge-supported-renderer:has-text(/Buy|Rent/):upward(ytd-compact-movie-renderer)
 
+youtube-nocookie.com##.ytp-title
+youtube-nocookie.com##.ytp-copylink-button
+
 ! YOUTUBE (MOBILE)
 m.youtube.com##.upsell-dialog-lightbox
 m.youtube.com##body[modal-open-body]:style(position: static !important;)
@@ -12500,6 +12506,10 @@ board-game.co.uk##.miniature-header
 board-game.co.uk###cookie-notice-popup
 board-game.co.uk###flash-deal-wrap
 board-game.co.uk##.page-banner
+board-game.co.uk##.charity-donation-box
+board-game.co.uk##.cart-related-product
+board-game.co.uk##.cart-related
+board-game.co.uk##h5:has-text(recent searches):upward(div)
 
 ! ZAP MAP
 ||www.zap-map.com/engine/wp-content/uploads/2015/11/google-play-badge-*.png$image
