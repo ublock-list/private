@@ -368,6 +368,9 @@ sex.com##:xpath(//div[child::div[child::button[child::span[child::span[contains(
 sex.com##:xpath(//div[child::div[child::button[child::span[child::span[contains(text(), 'Subscribe')]]]]])
 sex.com##:xpath(//li[child::div[child::div[@data-cy-id="subscribers-only"]]])
 sex.com##:xpath(//div[child::div[contains(text(), 'Advertisement')]])
+sex.com##.actions
+sex.com##.newSiteLink
+sex.com###newSite
 
 ! XNXX
 xnxx.com###disclaimer_background
