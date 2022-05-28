@@ -5899,6 +5899,9 @@ www.kentlive.news##.video-headline
 www.kentlive.news##p > b:has-text(Sign up):upward(p)
 www.kentlive.news##p > b:has-text(Get more news):upward(p)
 www.kentlive.news##.html-embed
+www.kentlive.news##body:style(margin-top: 0 !important;)
+www.kentlive.news##.article-wrapper .content-column:style(margin-right: 0 !important; max-width: 100% !important;)
+www.kentlive.news##p > b:has-text(Read more:):upward(p)
 
 ! KENT ONLINE
 www.kentonline.co.uk##.SubsHeader
