@@ -981,6 +981,10 @@ www.anandtech.com##.hide_resp2
 www.anandtech.com##.b
 www.anandtech.com##.footer_right
 
+! ANCESTRY
+www.ancestry.co.uk###BannerRegion
+www.ancestry.co.uk###moreInfo
+
 ! ANN SUMMERS
 www.annsummers.com##.hero-image
 www.annsummers.com###USPbanner
@@ -1181,6 +1185,12 @@ www.appliancesdirect.co.uk##.hpoutlet
 www.appliancesdirect.co.uk##.footer-bar
 www.appliancesdirect.co.uk##.bid-group
 www.appliancesdirect.co.uk##.we-accept
+www.appliancesdirect.co.uk###moreinrangecarousel
+www.appliancesdirect.co.uk##.trustpilot-widget
+www.appliancesdirect.co.uk##.bid-group-btn
+www.appliancesdirect.co.uk##.finance
+www.appliancesdirect.co.uk###ProductFinance
+www.appliancesdirect.co.uk###ProductWarranties
 
 ! ARS TECHNICA
 arstechnica.com##.instream-wrap
@@ -1487,6 +1497,11 @@ autotrader.co.uk##.home-page__footer
 autotrader.co.uk##.apps-and-legal
 autotrader.co.uk###enhanced-seo
 autotrader.co.uk###seo-links-container
+autocar.co.uk##.block-home-page-promotion-reviewpromo
+autocar.co.uk##.block-opinions
+autocar.co.uk##.block-bean-homepage-hub-section-block
+autocar.co.uk##.promotion-grid
+autocar.co.uk##[href*="https://www.whatcar.com/"][href*="/deals"]
 
 ! AV FORUMS
 www.avforums.com##.p-body-sidebar
@@ -2290,6 +2305,16 @@ businessesforsale.com##.form-fields-legals
 businessesforsale.com##.tandc
 businessesforsale.com###share-links-wrap
 
+! BYJU'S
+byjus.com##.social-sharing
+byjus.com###bt_invite_box
+byjus.com###register-now-top-widget-strip
+byjus.com##.country-popup-for-us
+byjus.com##.announcement-banner-wrap
+byjus.com##.follow-us-spacing
+byjus.com##.follow-us-spacing + div
+byjus.com##.home-payments-icon
+
 ! CAMBRIDGE DICTIONARY
 dictionary.cambridge.org##.topslot-container
 dictionary.cambridge.org##.cdo-promo
@@ -2955,9 +2980,19 @@ currys.co.uk##.sticker-pill-container
 currys.co.uk##.promos
 currys.co.uk##.banner_padding
 currys.co.uk##.block-avm-wrapper-mobile
+currys.co.uk##.monthly-amount
+currys.co.uk##.productimageStickers
 
 ! CV LIBRARY
 cv-library.co.uk##[id*="savelnk"]
+
+! DALLAS NEWS
+www.dallasnews.com##[class*="dmnc_features-alert-banner-alert-banner-module"]
+www.dallasnews.com###header-promo
+www.dallasnews.com##[class*="dmnc_generic-byline-byline-module"]
+www.dallasnews.com##[id*="related-story-embed"]
+www.dallasnews.com##[class*="dmnc_features-localgraf-infobox-infobox-module"]
+www.dallasnews.com##[class*="dmnc_features-article-author-author-module"]
 
 ! DAVID WALSH
 davidwalsh.name##.post-more
@@ -3271,6 +3306,8 @@ duckduckgo.com##.module-slot
 duckduckgo.com##.results--sidebar
 duckduckgo.com##.user-loc-tooltip
 duckduckgo.com###sl-0:upward(1)
+duckduckgo.com##.open-in-app
+duckduckgo.com###ads
 
 ! DUNELM MILL
 www.dunelm.com##*[class*="UspBanner"]
@@ -3470,6 +3507,7 @@ elixirforum.com##.topic-category
 elixirforum.com##.topic-map
 elixirforum.com##.post-controls
 elixirforum.com##.signup-cta
+elixirforum.com##.custom-footer-content
 
 ! ENGLISH HERITAGE
 www.english-heritage.org.uk###cookiescript_injected
@@ -3914,6 +3952,9 @@ www.foxnews.com##:xpath(//p[child::a[child::strong[child::u]]])
 www.foxnews.com##.social-icons
 www.foxnews.com##.footer-lower
 www.foxnews.com##.article-meta
+www.foxnews.com##.speechkit-wrapper
+www.foxnews.com##.article-footer
+www.foxnews.com##a > strong:upward(a)
 
 ! FREE CODE CAMP
 www.freecodecamp.org##.author-card
@@ -4421,6 +4462,8 @@ gov.uk##:xpath(//div[child::p[child::strong[contains(text(), 'alpha')]]])
 gov.uk##.cbanner-govuk-cookie-banner
 gov.uk###covid-banner
 gov.uk##.gem-c-contextual-sidebar
+gov.uk##.govuk-footer__copyright-logo
+gov.uk##.govuk-footer__licence-logo
 
 ! GPU MAG
 www.gpumag.com##.fs-social-share-top
@@ -5302,6 +5345,13 @@ ikea.com##.product-badge
 ! IMAGERAIDER
 imageraider.com###myGContainer
 
+! IMAX
+imax.com##[class*="modal"] #modal-title:has-text(Your Privacy):upward([class*="modal"])
+imax.com##[class*="center"]
+imax.com##.root__1d6tV
+imax.com##html:style(overflow: auto !important)
+imax.com##.social-buttons
+
 ! IMDB
 imdb.com###related-news
 imdb.com##.ab_widget
@@ -5420,6 +5470,7 @@ imgur.*##.Ad-isFixed
 imgur.*##.Ad-emptyMessage
 imgur.*##.Ad-adhesive
 imgur.*##.Ad
+imgur.*###qc-cmp2-container
 blog.imgur.com###main-sidebar
 blog.imgur.com##.slicknav_menu
 
@@ -5821,6 +5872,52 @@ www.kentadulteducation.co.uk##.social-links
 www.kentadulteducation.co.uk##.footer-bottom
 www.kentadulteducation.co.uk##.cookie-message
 
+! KENT LIVE
+www.kentlive.news##.sharebar
+www.kentlive.news##.secondary
+www.kentlive.news##.partner
+www.kentlive.news##.author-information-container
+www.kentlive.news##.embedded-image-grid
+www.kentlive.news##.factbox
+www.kentlive.news###social-follow
+www.kentlive.news##.tag-list
+www.kentlive.news##.pancake > .channel-news
+www.kentlive.news##.top-stories
+www.kentlive.news##.related-stories
+www.kentlive.news###comments-wrapper
+www.kentlive.news##.social-links
+www.kentlive.news###section-links
+www.kentlive.news##.kitemarks
+www.kentlive.news###utility-links
+www.kentlive.news##.opinion-author-default
+www.kentlive.news##.related-articles-bg
+www.kentlive.news##.pancake > .channel-whats-on
+www.kentlive.news##p > b > a:has-text(READ MORE):upward(p)
+www.kentlive.news##p > b:has-text(READ MORE):upward(p)
+www.kentlive.news##.video-wrapper
+www.kentlive.news##.video-headline
+www.kentlive.news##p > b:has-text(Sign up):upward(p)
+www.kentlive.news##p > b:has-text(Get more news):upward(p)
+www.kentlive.news##.html-embed
+
+! KENT ONLINE
+www.kentonline.co.uk##.SubsHeader
+www.kentonline.co.uk##.LiveNewsButton
+www.kentonline.co.uk##.EmailNewsButton
+www.kentonline.co.uk##.authorEmail
+www.kentonline.co.uk##.authorName
+www.kentonline.co.uk##.SubsArticleStrap
+www.kentonline.co.uk###article_panel_NationalNews
+www.kentonline.co.uk##.CatKey
+www.kentonline.co.uk###comment-box
+www.kentonline.co.uk##.MostPopular
+www.kentonline.co.uk##.TrendList
+www.kentonline.co.uk##.HeadingFont
+www.kentonline.co.uk##.HeadingLine
+www.kentonline.co.uk##.MobilePromo
+www.kentonline.co.uk##.podcast
+www.kentonline.co.uk##.FooterDarker
+
 ! KEW GARDENS
 www.kew.org##.copy__multi-images
 www.kew.org##.social__wrapper
@@ -5863,6 +5960,8 @@ www.kitchenaid.co.uk##.m-footer-module-images-wrapper
 www.kitchenaid.co.uk##.m-footer-module-content
 www.kitchenaid.co.uk##.m-footer-new__bottom-wrapper
 www.kitchenaid.co.uk##.c-scroll-to--top
+www.kitchenaid.co.uk##.m-listing-banner
+www.kitchenaid.co.uk###Taste\ sensations\ from\ morning\ till\ night
 
 ! KITCHEN KNIVES
 www.kitchenknives.co.uk##[href="/free-gift/"]
@@ -5878,6 +5977,22 @@ www.kitchenknives.co.uk##.deliver-bar
 ! KITSOUND
 kitsound.co.uk##.tab-col-10-12.mobile-col-10-12.col-4-12
 kitsound.co.uk##.page_overlay
+
+! KNIVES AND TOOLS
+www.knivesandtools.co.uk##.MuiHeader-uspBar
+www.knivesandtools.co.uk##.MuiAppBarContent-iconWishlist
+www.knivesandtools.co.uk##.MuiAddToWishlistButton-outlined
+www.knivesandtools.co.uk##h2:has-text(Recommended combi-deals):upward(div)
+www.knivesandtools.co.uk##h2:has-text(Also popular):upward(div)
+www.knivesandtools.co.uk##h2:has-text(Relevant topics):upward(div)
+www.knivesandtools.co.uk##h2:has-text(Browsing history):upward(div)
+www.knivesandtools.co.uk##h2:has-text(Checkout deals):upward(div)
+www.knivesandtools.co.uk##.MuiAddToWishlistButton-root
+www.knivesandtools.co.uk##.MuiProductCard-ageLimit
+www.knivesandtools.co.uk##.MuiFooter-uspBar
+www.knivesandtools.co.uk##.MuiFooter-subFooter
+www.knivesandtools.co.uk##h5:has-text(Newsletter):upward(3)
+www.knivesandtools.co.uk##.MuiPromotion-root
 
 ! KNIVES FROM JAPAN
 www.knivesfromjapan.co.uk##iframe
@@ -5918,6 +6033,11 @@ knowyourmeme.com##.google-trends-embed-wrapper
 knowyourmeme.com##.btn-pinterest
 knowyourmeme.com##.btn-fb.btn
 knowyourmeme.com###infinite-scroll-wrapper
+
+! LAKELAND
+www.lakeland.co.uk##.impact-bnr
+www.lakeland.co.uk##.brand
+www.lakeland.co.uk##.newsletter-signup
 
 ! LA REDOUTE
 www.laredoute.co.uk##.op-boutique
@@ -6223,6 +6343,9 @@ lingerieoutletstore.co.uk##.nav-sale ul
 lingerieoutletstore.co.uk##.footer-newsletter
 lingerieoutletstore.co.uk##.section-related
 
+! LINK
+link.co.uk##.smartbanner
+
 ! LINKEDIN
 linkedin.com###advocate-modal
 linkedin.com###artdeco-global-alert-container
@@ -6242,6 +6365,10 @@ linkedin.com##.save-job-modal-outlet
 linkedin.com##.promo-banner
 linkedin.com##.recommended-content
 linkedin.com##.recommendations__cta
+linkedin.com##.base-promo
+linkedin.com##.global-alert-banner
+linkedin.com##.artdeco-global-alert
+Linkedin.com##.right-rail
 
 ! LINUS TECH TIPS
 linustechtips.com##.ipsLayout_sidebarright
@@ -8234,6 +8361,25 @@ powertoolworld.co.uk##.overview--delivery
 powertoolworld.co.uk##.overview--companyreviews
 powertoolworld.co.uk##.loyalty-points-message
 
+! PRC DIRECT
+prcdirect.co.uk##h3:has-text(Other products you may be interested in)
+prcdirect.co.uk##h3:has-text(Other products you may be interested in) ~ *
+prcdirect.co.uk##h3:has-text(Hot Deals):upward(.col-main)
+prcdirect.co.uk##.preface
+prcdirect.co.uk##.social-links
+prcdirect.co.uk##.block_footer_payment
+prcdirect.co.uk##.whatsapp:upward(div)
+prcdirect.co.uk##.finance-box
+prcdirect.co.uk###trk-but
+prcdirect.co.uk##.action-box
+prcdirect.co.uk##.block_product_img_bottom
+prcdirect.co.uk##a.level-top[href="https://prcdirect.co.uk/brands.html"]:upward(li)
+prcdirect.co.uk##a.level-top[href="https://prcdirect.co.uk/promotions.html"]:upward(li)
+prcdirect.co.uk##a[href*="https://prcdirect.co.uk/payonline/"]:upward(li)
+prcdirect.co.uk##.paybyfinance-selector
+prcdirect.co.uk##.checkout-cards
+prcdirect.co.uk##.scommerce-gdpr-cookienotice
+
 ! PRECIOUS FLOWERS
 www.preciousflowers.co.uk##.mobileSocial
 
@@ -8251,6 +8397,11 @@ www.preloved.co.uk##.search-result__favourite
 www.preloved.co.uk##.place-ad__button
 www.preloved.co.uk##.tag
 
+! PREMIER INN
+www.premierinn.com##.pi-cookie-policy-modal
+www.premierinn.com##.wb-notification-new
+www.premierinn.com##body:style(overflow: auto !important)
+
 ! PRETTY LITTLE THING
 www.prettylittlething.com##.cookie-preference__overlay
 www.prettylittlething.com##.header-wishlist
@@ -8264,6 +8415,14 @@ www.prettylittlething.com##.product-upsell-container
 www.prettylittlething.com##.wishlist-icon
 www.prettylittlething.com###add-to-wishlist
 www.prettylittlething.com##.related-products
+
+! PRICERUNNER
+pricerunner.com##button[aria-label="Add or remove from lists"]:upward(4)
+pricerunner.com##p:has-text(Welcome to PriceRunner UK):upward(7)
+pricerunner.com##p:has-text(My products):upward(4)
+pricerunner.com##h2:has-text(Subscribe to our newsletter):upward(6)
+pricerunner.com##a[href*="https://play.google.com/store/apps/"]:upward(2)
+pricerunner.com##a[href*="https://www.facebook.com/PriceRunner/"]:upward(2)
 
 ! PRIMARK
 www.primark.com##.scroll-top__button
@@ -8737,6 +8896,14 @@ www.richersounds.com##.trustpilot-payment-container
 www.richersounds.com##.telesales-info-container
 www.richersounds.com##:xpath(//div[child::a[contains(@href, 'https://customerservice.richersounds.com/hc/en-gb/articles/360012852117')]])
 www.richersounds.com##:xpath(//div[child::figure[child::img[contains(@src, 'https://www.richersounds.com/media/cms-content-images/carousel_sliders/slider_clearance')]]])
+www.richersounds.com##.footer-contact-social-wrapper
+www.richersounds.com##.pagebuilder-mobile-only
+www.richersounds.com##.finance-options-container
+www.richersounds.com##.buy-options-container
+www.richersounds.com##.buy-options-main-title
+www.richersounds.com###paypal_credit_terms
+www.richersounds.com##.pdp-payment-description
+www.richersounds.com##.footer-terms
 
 ! RIGHTMOVE
 rightmove.co.uk###branchProfilePropertyDetailsHeader
@@ -9871,6 +10038,7 @@ techradar.com##.byline
 techradar.com##*[data-list="deals/news/latest"]
 techradar.com##.deals
 techradar.com##.free-text-label:has-text(TechRadar Deals):upward(.listingResult)
+techradar.com##.trendingbar
 
 ! TECH REPUBLIC
 techrepublic.com##.btn-premium
@@ -10198,6 +10366,7 @@ thefreedictionary.com##.reg-button
 thefreedictionary.com##.social-login
 thefreedictionary.com##:xpath(//div[child::div[child::h1[contains(text(), 'Thank you for using The Free Dictionary!')]]])
 thefreedictionary.com##.cprh
+thefreedictionary.com##.download-link
 
 ! THE GAMER
 www.thegamer.com##.heading_sharing
@@ -10296,6 +10465,7 @@ independent.co.uk##.coupon--newsletter
 independent.co.uk##.logo-stamp
 independent.co.uk##:xpath(//ul[child::li[child::a[child::strong]]])
 independent.co.uk##p > strong > em:upward(p)
+independent.co.uk###main > p > strong:has-text(Read more):upward(p)
 
 ! THE LIST
 list.co.uk##.leaderboardContainer
@@ -11627,6 +11797,9 @@ www.uniqlo.com##[id*="zoid-paypal-message-uid"]
 www.uniqlo.com##.pdp__wishlist
 www.uniqlo.com##.pdp__module--bazaarVoice
 
+! UPS
+ups.com###ups-alertsWrap
+
 ! URBAN DICTIONARY
 www.urbandictionary.com##.share
 www.urbandictionary.com##.mug-ad
@@ -12037,6 +12210,30 @@ webmd.com##.find-lowest-prices
 
 ! WEBTOONS
 www.webtoons.com##.on._gdprCookieBanner.gdpr_ly_cookie
+m.webtoons.com###mainBannerList
+m.webtoons.com##.downapp_area2
+m.webtoons.com##.foot_sns
+m.webtoons.com##.top_area
+m.webtoons.com##.main_notice
+m.webtoons.com###_challengeRoundUpList
+m.webtoons.com##h2:has-text(Popular)
+m.webtoons.com##h2:has-text(Popular) + *
+m.webtoons.com##.viewer_sns_area
+m.webtoons.com##.report_area
+m.webtoons.com##.scroll_list
+m.webtoons.com##.viewer_top
+m.webtoons.com##.fav_inner
+m.webtoons.com##.num
+m.webtoons.com###shareLayerPopBtn
+m.webtoons.com##.btn_info
+m.webtoons.com##.author
+m.webtoons.com##.N\=a\:enc\.bepatreon
+m.webtoons.com##.viewer_patron
+m.webtoons.com###creatorNoteArea
+m.webtoons.com##.viewer_best_comment
+m.webtoons.com###viewerAdWrapper
+m.webtoons.com##.btn_likeit
+m.webtoons.com##.btn_comment
 
 ! WESTERN DIGITAL
 community.wd.com##.signup-cta
@@ -12052,6 +12249,17 @@ support-en.wd.com##[href="https://twitter.com/westerndigital"]:upward(li)
 
 ! WHAT 3 WORDS
 what3words.com##.CookieNotice
+
+! WHAT HIFI
+www.whathifi.com##.nav-subscribe
+www.whathifi.com##.trending__wrapper
+www.whathifi.com##.affiliateDisclaimerBar
+www.whathifi.com##.by-author
+www.whathifi.com##.hawk-nest
+www.whathifi.com###article-body > p > strong:has-text(Read our):upward(p)
+www.whathifi.com###sidebar
+www.whathifi.com##.author-block-with-borders.author-block
+www.whathifi.com###document-footer-content > p
 
 ! WHAT CAR
 whatcar.com##div[class~="ReviewSocialSection-reviewSocialSection-"]
