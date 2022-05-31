@@ -172,6 +172,7 @@ pornhub.com##suggestion-element
 pornhub.com###searchSuggestions
 pornhub.com###mostViewedVerifiedAmateursSection
 pornhub.com##h2:has-text(Top Verified Amateurs):upward(.sectionWrapper)
+pornhub.com##.pageTitle:has-text(Top Channels):upward(.sectionWrapper)
 
 ! YOUPORN
 youporn.com###network-bar
