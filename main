@@ -9177,64 +9177,73 @@ shop.sb-components.co.uk##.footer__aside-item--payment
 shop.sb-components.co.uk##.announcement-bar
 
 ! SCAN
-www.scan.co.uk###cookiePolicyPopup
-www.scan.co.uk###wishListPopUp
-www.scan.co.uk##.share-page
-www.scan.co.uk##.sliding-banner
-www.scan.co.uk##.status-update
-www.scan.co.uk##.offerBlock
-www.scan.co.uk##.social.contactLinks
-www.scan.co.uk##.buyingGuide
-www.scan.co.uk##.mobile.socialMedia
-www.scan.co.uk##.infoSuggestedReplacements
-www.scan.co.uk##.informationPanel
-www.scan.co.uk##body:style(background: #e1e1e1 !important)
-www.scan.co.uk##.siteBg:style(background: #e1e1e1 !important)
-www.scan.co.uk##.skinButton
-www.scan.co.uk##.trust-bar
-www.scan.co.uk##.proBlock
-www.scan.co.uk##.secure-payments
-www.scan.co.uk##.payment-logos
-www.scan.co.uk##.serviceBlock.theWord
-www.scan.co.uk##.latestInfo
-www.scan.co.uk##.tag.hot
-www.scan.co.uk##.relatedProducts
-www.scan.co.uk##.tekspek
-www.scan.co.uk##.paypalcredit
-www.scan.co.uk##.orderBefore
-www.scan.co.uk##.wishListColumn
-www.scan.co.uk##.customerInteraction
-www.scan.co.uk##.reviewShare
-www.scan.co.uk##.frequentlyBoughtTogether
-www.scan.co.uk##.brandNav
-www.scan.co.uk##.systems-3XS
-www.scan.co.uk##.offer3XS
-www.scan.co.uk##.pageOffers
-www.scan.co.uk##.clearanceSale
-www.scan.co.uk##.audio-PCs
-www.scan.co.uk##.section-header.pcs
-www.scan.co.uk##.partners.desktop
-www.scan.co.uk##.techArticles
-www.scan.co.uk##.toHeader
-www.scan.co.uk##.featuredOffers
-www.scan.co.uk##.buttonCont
-www.scan.co.uk##.contC.intro
-www.scan.co.uk##.contCgrey
-www.scan.co.uk##.contC > h3
-www.scan.co.uk##.contC > h3 + p
-www.scan.co.uk##.hmpageContent ~ *
-www.scan.co.uk###banner-0
-www.scan.co.uk###banner-1
-www.scan.co.uk###banner-2
-www.scan.co.uk###banner-3
-www.scan.co.uk###banner-4
-www.scan.co.uk###banner-5
-www.scan.co.uk###banner-6
-www.scan.co.uk###banner-7
-www.scan.co.uk###banner-8
-www.scan.co.uk###banner-9
-www.scan.co.uk##.newsLetter
-www.scan.co.uk##:xpath(//li[contains(@class, 'product') and descendant::span[contains(@class, 'bundle') and contains(text(), 'BUNDLE')]])
+scan.co.uk###cookiePolicyPopup
+scan.co.uk###wishListPopUp
+scan.co.uk##.share-page
+scan.co.uk##.sliding-banner
+scan.co.uk##.status-update
+scan.co.uk##.offerBlock
+scan.co.uk##.social.contactLinks
+scan.co.uk##.buyingGuide
+scan.co.uk##.mobile.socialMedia
+scan.co.uk##.infoSuggestedReplacements
+scan.co.uk##.informationPanel
+scan.co.uk##body:style(background: #e1e1e1 !important)
+scan.co.uk##.siteBg:style(background: #e1e1e1 !important)
+scan.co.uk##.skinButton
+scan.co.uk##.trust-bar
+scan.co.uk##.proBlock
+scan.co.uk##.secure-payments
+scan.co.uk##.payment-logos
+scan.co.uk##.serviceBlock.theWord
+scan.co.uk##.latestInfo
+scan.co.uk##.tag.hot
+scan.co.uk##.relatedProducts
+scan.co.uk##.tekspek
+scan.co.uk##.paypalcredit
+scan.co.uk##.orderBefore
+scan.co.uk##.wishListColumn
+scan.co.uk##.customerInteraction
+scan.co.uk##.reviewShare
+scan.co.uk##.frequentlyBoughtTogether
+scan.co.uk##.brandNav
+scan.co.uk##.systems-3XS
+scan.co.uk##.offer3XS
+scan.co.uk##.pageOffers
+scan.co.uk##.clearanceSale
+scan.co.uk##.audio-PCs
+scan.co.uk##.section-header.pcs
+scan.co.uk##.partners.desktop
+scan.co.uk##.techArticles
+scan.co.uk##.toHeader
+scan.co.uk##.featuredOffers
+scan.co.uk##.buttonCont
+scan.co.uk##.contC.intro
+scan.co.uk##.contCgrey
+scan.co.uk##.contC > h3
+scan.co.uk##.contC > h3 + p
+scan.co.uk##.hmpageContent ~ *
+scan.co.uk###banner-0
+scan.co.uk###banner-1
+scan.co.uk###banner-2
+scan.co.uk###banner-3
+scan.co.uk###banner-4
+scan.co.uk###banner-5
+scan.co.uk###banner-6
+scan.co.uk###banner-7
+scan.co.uk###banner-8
+scan.co.uk###banner-9
+scan.co.uk##.newsLetter
+scan.co.uk##:xpath(//li[contains(@class, 'product') and descendant::span[contains(@class, 'bundle') and contains(text(), 'BUNDLE')]])
+scan.co.uk##.scanFinancePanel
+scan.co.uk##.siteHelp
+scan.co.uk##.scansure
+scan.co.uk##.scanprotect
+scan.co.uk##.email-my-basket
+scan.co.uk##.alternative-pay-panel
+scan.co.uk##.finance-options
+scan.co.uk##.column-basket > div > .checkout-buttons-panel
+scan.co.uk##.scanprotect-options
 
 ! SCIENCE DAILY
 sciencedaily.com##.footer-links.row
