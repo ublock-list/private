@@ -46,10 +46,12 @@
 ||blockchain.info
 ||blogginglass.com
 ||blueparrot.media
+||boopjugdd.com
 ||botsrv.com
 ||botsrv1.com
 ||botsrv2.com
 ||bp.blogspot.com
+||brightbrain.online
 ||cadsecz.com
 ||cbox.im
 ||cbox.ws
@@ -66,6 +68,7 @@
 ||clk.sh
 ||clksite.com
 ||coinadfly.com
+||coin-free.com
 ||commento.io
 ||condenast.io
 ||connexone.co.uk
@@ -89,6 +92,7 @@
 ||d3c3uihon9kmp.cloudfront.net
 ||dacanonga.com
 ||dacanonga.online
+||dash-free.com
 ||dditscdn.com
 ||deadlinefunnel.com
 ||dennis.co.uk
@@ -108,6 +112,7 @@
 ||dz4win.com
 ||e-v-e-n.me
 ||earnload.com
+||earnme.club
 ||earnoffice.com
 ||edgetcdn.com
 ||educationmedianews.com
@@ -268,6 +273,7 @@
 ||raiphupi.com
 ||rapid-cut.com
 ||ravenjs.com
+||real-guap.com
 ||reamaze.com
 ||recordervesttasting.com
 ||redeye.international
@@ -1127,6 +1133,9 @@ ao.com##.contentHub
 ao.com###category-brands
 ao.com###popularProducts
 ao.com##.text-title-lg:has-text(Latest Promotions):upward(3)
+ao.com##div.text-secondary:has-text(AO Finance):upward(li)
+ao.com##[data-tag-section="seo links"]
+ao.com##.topcatbanner
 ||media.ao.com/productimages/promoimages/*$image
 ||lister-merch-media.ao.com$image
 
@@ -4755,6 +4764,27 @@ healthline.com##article + div
 healthline.com##h4:has-text(HEALTHLINE NEWSLETTER):upward(4)
 healthline.com##footer img
 
+! HELLO MAGAZINE
+hellomagazine.com##.author
+hellomagazine.com##p > strong:has-text(READ:):upward(p)
+hellomagazine.com##p > strong:has-text(MORE:):upward(p)
+hellomagazine.com##p > strong:has-text(WATCH:):upward(p)
+hellomagazine.com##.news-tags
+hellomagazine.com##.related
+hellomagazine.com###formulario-newsletter-footer
+hellomagazine.com##.suscriptions
+hellomagazine.com##.socialmedia
+hellomagazine.com###topBar .socialmedia
+hellomagazine.com##.nav-logoHFM
+hellomagazine.com##.hot-topics
+www.hellomagazine.com###secondaryBar
+www.hellomagazine.com##.special_banner
+www.hellomagazine.com###helloStyle
+www.hellomagazine.com###beautyBox
+www.hellomagazine.com###fashionBox
+www.hellomagazine.com###horoscopes
+www.hellomagazine.com##p > strong .in-article-cta:upward(p)
+
 ! HERTFORDSHIRE MERCURY
 www.hertfordshiremercury.co.uk##aside
 www.hertfordshiremercury.co.uk##.sharebar
@@ -4779,6 +4809,13 @@ www.hevercastle.co.uk##.sidebar-signup
 www.hevercastle.co.uk##.social
 www.hevercastle.co.uk##.site-footer .column-1-4:nth-of-type(4)
 www.hevercastle.co.uk##.footer-legals
+
+! HEXUS
+www.hexus.net###right
+www.hexus.net###middle > .subnav + *
+www.hexus.net###middle > .subnav > .subnav
+www.hexus.net###related_reading
+www.hexus.net###article_comments
 
 ! HOLLAND AND BARRETT
 www.hollandandbarrett.com###cookie-consent-wrapper
@@ -5965,6 +6002,7 @@ www.kitchenaid.co.uk##.m-footer-new__bottom-wrapper
 www.kitchenaid.co.uk##.c-scroll-to--top
 www.kitchenaid.co.uk##.m-listing-banner
 www.kitchenaid.co.uk###Taste\ sensations\ from\ morning\ till\ night
+www.kitchenaid.co.uk##.m-listing-banner
 
 ! KITCHEN KNIVES
 www.kitchenknives.co.uk##[href="/free-gift/"]
@@ -5976,6 +6014,8 @@ www.kitchenknives.co.uk##.social
 www.kitchenknives.co.uk##.feefo
 www.kitchenknives.co.uk##.payment
 www.kitchenknives.co.uk##.deliver-bar
+www.kitchenknives.co.uk##.desktopitem
+www.kitchenknives.co.uk##.brandblock
 
 ! KITSOUND
 kitsound.co.uk##.tab-col-10-12.mobile-col-10-12.col-4-12
@@ -5996,6 +6036,9 @@ www.knivesandtools.co.uk##.MuiFooter-uspBar
 www.knivesandtools.co.uk##.MuiFooter-subFooter
 www.knivesandtools.co.uk##h5:has-text(Newsletter):upward(3)
 www.knivesandtools.co.uk##.MuiPromotion-root
+www.knivesandtools.co.uk##.MuiHeader-uspBar
+www.knivesandtools.co.uk##.MuiCarousel-root
+www.knivesandtools.co.uk###combidealswrap
 
 ! KNIVES FROM JAPAN
 www.knivesfromjapan.co.uk##iframe
@@ -6503,6 +6546,13 @@ lloydspharmacy.com##.announcement-bar
 ! LOG ROCKET
 blog.logrocket.com##.news-pop
 
+! LONDON THEATRE
+londontheatre.co.uk###__next > div:first-child
+londontheatre.co.uk###dismiss-cookie:upward(div)
+londontheatre.co.uk##h4:has-text(What's On):upward(div)
+londontheatre.co.uk##h2:has-text(Latest News):upward(div)
+londontheatre.co.uk##footer div:has-text(Connect with us)
+
 ! LONELY PLANET
 lonelyplanet.com##.ArticleAuthor
 lonelyplanet.com##.railRight
@@ -6868,9 +6918,10 @@ metro.co.uk##:xpath(//p[child::strong[contains(text(), 'Get in touch with our ne
 metro.co.uk##:xpath(//p[child::strong[contains(text(), 'For more stories like this')]])
 
 ! MICROSOFT
-www.microsoft.com###uhfCookieAlert
-www.microsoft.com###newsletter
-www.microsoft.com###retailers
+microsoft.com###uhfCookieAlert
+microsoft.com###newsletter
+microsoft.com###retailers
+microsoft.com##[aria-label="Related apps"]
 
 ! MINITOOL
 www.minitool.com##.article-recommend
@@ -6920,6 +6971,20 @@ mod.uk##.news-article__footer
 mod.uk##.news-article__sidebar
 mod.uk##.footer-contact
 mod.uk##.footer-social
+
+! MOMMY HATES COOKING
+www.mommyhatescooking.com###omments
+www.mommyhatescooking.com##.entry-footer
+www.mommyhatescooking.com##.footer-shop
+www.mommyhatescooking.com##.footer-news
+www.mommyhatescooking.com##.foot-disclosure
+www.mommyhatescooking.com##.footer-rows
+www.mommyhatescooking.com##.wprm-callout-custom
+www.mommyhatescooking.com##.sidebar
+www.mommyhatescooking.com##.top-bar
+www.mommyhatescooking.com##.entry-meta
+www.mommyhatescooking.com##.post-disclosure
+www.mommyhatescooking.com##.wprm-recipe-author-container
 
 ! MONEY SAVING EXPERT
 moneysavingexpert.com##.cookie-notification
@@ -7160,16 +7225,22 @@ www.nationalrail.co.uk##.c1
 www.nationalrail.co.uk##.c2
 
 ! NATIONAL TRUST
-www.nationaltrust.org.uk##.v--modal-background-click
-www.nationaltrust.org.uk##.v--modal-overlay
-www.nationaltrust.org.uk##.nt-donate-btn
-www.nationaltrust.org.uk##.nt-social-media-item
-www.nationaltrust.org.uk##:xpath(//div[child::h3[contains(text(), 'Download the app')]])
-www.nationaltrust.org.uk##.nt-share-social
-www.nationaltrust.org.uk##.nt-primary-cta
-www.nationaltrust.org.uk##.nt-social-links
-www.nationaltrust.org.uk##.save-place-btn
-www.nationaltrust.org.uk##.nt-footer__extra-links
+nationaltrust.org.uk##.v--modal-background-click
+nationaltrust.org.uk##.v--modal-overlay
+nationaltrust.org.uk##.nt-donate-btn
+nationaltrust.org.uk##.nt-social-media-item
+nationaltrust.org.uk##:xpath(//div[child::h3[contains(text(), 'Download the app')]])
+nationaltrust.org.uk##.nt-share-social
+nationaltrust.org.uk##.nt-primary-cta
+nationaltrust.org.uk##.nt-social-links
+nationaltrust.org.uk##.save-place-btn
+nationaltrust.org.uk##.nt-footer__extra-links
+nationaltrust.org.uk##.cookie-preferences-forms
+nationaltrust.org.uk##.nt-footer__extra-links
+nationaltrust.org.uk###footer-menu-4
+nationaltrust.org.uk##.nt-external-icon-links:upward(div)
+nationaltrust.org.uk##.v--modal-block-scroll:style(overflow: auto !important)
+nationaltrust.org.uk##.top-container
 
 ! NBC NEWS
 nbcnews.com##.breaking-marquee
@@ -9244,6 +9315,11 @@ scan.co.uk##.alternative-pay-panel
 scan.co.uk##.finance-options
 scan.co.uk##.column-basket > div > .checkout-buttons-panel
 scan.co.uk##.scanprotect-options
+scan.co.uk##.scanProtectBox
+scan.co.uk##.protect
+scan.co.uk##.finance
+scan.co.uk##.paypalCredit
+scan.co.uk##.tp_overlay
 
 ! SCIENCE DAILY
 sciencedaily.com##.footer-links.row
@@ -9350,6 +9426,7 @@ www.selectcarleasing.co.uk###related-deals
 www.selectcarleasing.co.uk##.g-deal-summary__subtitle
 www.selectcarleasing.co.uk##.g-deal-summary__call
 www.selectcarleasing.co.uk##.g-deal-summary__card > p
+www.selectcarleasing.co.uk##.c-notification
 
 ! SEROKELL
 serokell.io##.blog__authors
@@ -10430,6 +10507,7 @@ www.theguardian.com##[href*="subscribe-by-email"]
 www.theguardian.com##[href*="the-guardian-app"]
 www.theguardian.com##*[id*="sp_message_container_"]
 www.theguardian.com##*[id*="sp_message_container"]
+www.theguardian.com##gu-island
 
 ! THE HEADLESS DEV
 theheadless.dev##.home__subscribe
