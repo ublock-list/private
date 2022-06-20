@@ -8567,6 +8567,16 @@ www.primark.com##.off-canvas-nav__column--regular-banner
 www.primark.com##.pdp-giftcard--link
 www.primark.com##.product-detail__social
 www.primark.com##.product-carousel--recently-viewed
+www.primark.com##.tag
+www.primark.com##[data-testautomation-id="social-links-group"]
+www.primark.com##[data-testautomation-id="banner"]
+www.primark.com##[data-testautomation-id="hero-banner"]
+www.primark.com##[data-testautomation-id="collection-carousel"]
+www.primark.com##[data-testautomation-id="browse-collection-banner"]
+www.primark.com##[data-testautomation-id="carousel"]
+www.primark.com##[data-testautomation-id="editorial-content"]
+www.primark.com##[data-testautomation-id="hero-image-product-carousel"]
+www.primark.com##[data-testautomation-id="generic-text-image-banner"]
 
 ! PRO COOK
 www.procook.co.uk##.main-footer-social
