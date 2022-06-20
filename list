@@ -33,6 +33,8 @@ bitfly.io##.text-left
 
 linkres.in##.social-icons
 
+linksly.co##html > iframe
+
 redlifek.com###countdown ~ *:not(#go-link)
 redlifek.com##.form-group ~ *:not(#invisibleCaptchaShortlink)
 redlifek.com##.footer-area
