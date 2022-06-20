@@ -62,6 +62,7 @@
 ||chartbeat.com
 ||chatra.io
 ||civiccomputing.com
+||clickfunnels.com
 ||climatestate.com
 ||clk.asia
 ||clk.ink
@@ -88,7 +89,9 @@
 ||ctbl.me
 ||ctr.sh
 ||customerly.io
+||cut-y.net
 ||cutlinks.pro
+||cuty.io
 ||d3c3uihon9kmp.cloudfront.net
 ||dacanonga.com
 ||dacanonga.online
@@ -163,6 +166,7 @@
 ||hdnsppaerj.xyz
 ||helpscout.net
 ||honeybulb.com
+||hpijiiymdwi.com
 ||hqsnklubfp.xyz
 ||i-afk.com
 ||i4rsrcj6.top
@@ -209,6 +213,7 @@
 ||linksbuddy.com
 ||linkszia.co
 ||livechatinc.com
+||livehelpnow.net
 ||liveperson.net
 ||loginradius.com
 ||logystowtencon.info
@@ -372,11 +377,11 @@
 ||vnkevmoytft.com
 ||voltskegscurate.com
 ||vupyjyyu.xyz
-||walkme.com
 ||wearehearken.com
 ||webflow.com
 ||webpinp.com
 ||weitaba.com
+||wellness4live.com
 ||whourgie.com
 ||wknd.ai
 ||worldssl.com
@@ -405,6 +410,7 @@
 1337x.to##.filter-list
 1337x.to##aside
 1337x.to##.user-box
+1337x.to##[href="/anony9-hideXme"]
 
 ! 192
 www.192.com##.ont-cookies-wrapper
@@ -498,6 +504,15 @@ adfontesmedia.com##.ilightbox-overlay
 adfontesmedia.com##.ilightbox-holder
 adfontesmedia.com##.ilightbox-toolbar
 adfontesmedia.com##.fusion-social-links-footer
+
+! ADZUNA
+www.adzuna.co.uk##.mfp-container
+www.adzuna.co.uk##.mfp-wrap
+www.adzuna.co.uk##.mfp-bg
+www.adzuna.co.uk##html:style(overflow: auto !important;)
+www.adzuna.co.uk##h2:has-text(Popular searches):upward(div)
+www.adzuna.co.uk##.fav
+www.adzuna.co.uk##.adp-right-col
 
 ! ALCHEMIST CAMP
 alchemist.camp##.share_box
@@ -970,6 +985,7 @@ amazon.*##.a-color-secondary span:has-text(Join Prime to save):upward(div)
 amazon.*##.a-color-secondary span:has-text(More buying choices):upward(div)
 amazon.*##[data-action="ssf-share-icon"]
 amazon.*##.s-sponsored-label-text:upward(.s-result-item)
+amazon.*##.bia-content
 
 ! ANANDTECH
 www.anandtech.com##.topic_menu
@@ -2829,6 +2845,13 @@ www.coolings.co.uk###cookie-law-info-bar
 www.coolings.co.uk##.unique-selling-points
 www.coolings.co.uk##.social-container
 www.coolings.co.uk##.footer-bottom
+www.coolings.co.uk##.hero-carousel
+www.coolings.co.uk##.monthly-coolings
+www.coolings.co.uk##.news-and-courses
+www.coolings.co.uk##.featured-products
+www.coolings.co.uk##.cta-link
+www.coolings.co.uk##.shop-item-carousel
+www.coolings.co.uk##.shop-usp-wrapper
 
 ! COSMOPOLITAN
 www.cosmopolitan.com##.affiliate-disclaimer
@@ -3275,7 +3298,11 @@ www.dropbox.com##.black.top-notification-bar-container
 www.dropbox.com##.open-in-app-banner-container
 www.dropbox.com##.persistent-footer-container
 www.dropbox.com##.mc-button-primary.mc-button.open-in-app-button.control__button
-www.dropbox.com##.RebrandHero-drawer--init.RebrandHero-drawer--pisces-rebrand.RebrandHero-drawer
+www.dropbox.com##.RebrandHero-drawer
+www.dropbox.com##.upsell-banner
+www.dropbox.com##.try-dfb
+www.dropbox.com##.login-form-container__google-div
+www.dropbox.com##.login-form-container__apple-div
 
 ! DRUGS.COM
 www.drugs.com##*[id*="display-ad-injection"]
@@ -3439,6 +3466,8 @@ ebay.*##.ux-labels-values--rewards
 ebay.*##.seo-interlink
 ebay.*##.b-browserelated
 ebay.*##.b-motors-links
+ebay.*##.follow-ebay-wrapper
+ebay.*##.payment-entry.payment-entry--PAYPAL_CREDIT
 
 ! EBUYER
 www.ebuyer.com##.siteskin-links__item
@@ -3466,6 +3495,9 @@ www.ebuyer.com##.finance-messaging
 www.ebuyer.com##.recommendations
 www.ebuyer.com##.purchase-info__finance
 www.ebuyer.com##.recently-viewed
+
+! ECCE
+www.ecce.uk##.c-socialnav
 
 ! EDAMAM
 www.edamam.com##.mobile-banner
@@ -3897,6 +3929,15 @@ www.fish4.co.uk##.job-sticky-ctas
 www.fiverr.com###react-app-banner
 www.fiverr.com##.social
 www.fiverr.com##.sign-up-modal
+
+! FLOORING MEGASTORE
+flooringmegastore.co.uk##.iconbar-wrapper
+flooringmegastore.co.uk##.interested-slider
+flooringmegastore.co.uk##.products-interested
+flooringmegastore.co.uk##.newsletter2
+flooringmegastore.co.uk##.featured-products
+flooringmegastore.co.uk##.section-home-cats
+flooringmegastore.co.uk##.promo-block-wrapper
 
 ! FLUTTER
 flutter.dev##.site-header__social
@@ -5551,6 +5592,9 @@ indeed.*###recentSearchesJobFeedZones
 indeed.*###popularSearches
 indeed.*###saveJobButtonContainer
 indeed.*##.bookmark
+indeed.*##.jobsearch-CompanyAvatar
+indeed.*##.related_searches
+indeed.*###resumeCtaFooter
 
 ! INDIEGOGO
 www.indiegogo.com##.backItForm
@@ -7242,6 +7286,13 @@ nationaltrust.org.uk##.nt-external-icon-links:upward(div)
 nationaltrust.org.uk##.v--modal-block-scroll:style(overflow: auto !important)
 nationaltrust.org.uk##.top-container
 
+! NATIONWIDE
+onlinebanking.nationwide.co.uk##.myOffers
+onlinebanking.nationwide.co.uk##.ourproducts
+onlinebanking.nationwide.co.uk##form[action="/Campaigns/PresentPrompt/CapturePromptResponse"]
+onlinebanking.nationwide.co.uk##.user-notes
+onlinebanking.nationwide.co.uk##.related-services
+
 ! NBC NEWS
 nbcnews.com##.breaking-marquee
 nbcnews.com##.mini-tease-local
@@ -7314,6 +7365,16 @@ www.netdoctor.co.uk##.breaker-ad
 www.netdoctor.co.uk##.affiliate-disclaimer
 www.netdoctor.co.uk##.body-tip
 www.netdoctor.co.uk##.gallery-module.embed
+
+! NETFLIX
+www.netflix.com###section-more-titles
+www.netflix.com###section-coming-soon
+www.netflix.com##[data-uia-nmhp="hero_fuji"]
+www.netflix.com##[data-uia-nmhp="watchOnTv"]
+www.netflix.com##[data-uia-nmhp="downloadAndWatch"]
+www.netflix.com##[data-uia-nmhp="watchOnDevice"]
+www.netflix.com##[data-uia-nmhp="kidsValueProp"]
+www.netflix.com##.email-form
 
 ! NETGEAR
 community.netgear.com##a[href*="banners"]
@@ -8331,6 +8392,7 @@ pocket-lint.com##.articles_infinite > header
 
 ! POLHILL NURSERY
 www.polhill.co.uk##.sidebar-left.col-md-3 > .product_list_widget
+www.polhill.co.uk##.wishlist-icon
 
 ! POLITICO
 ||www.politico.eu/*wp-content/uploads/2021/11/18/Red_gradient_pro.png$image
@@ -8557,6 +8619,7 @@ protonmail.com###ht-kb-related-articles
 protonmail.com##.apps
 protonmail.com##.press-section
 protonmail.com##.top
+mail.proton.me##button[title="Close this banner"]:upward(div)
 
 ! PROTONVPN
 protonvpn.com##.black-friday-top-bar
@@ -9801,6 +9864,16 @@ stackoverflow.com##:xpath(//ol[contains(@class, 'nav-links')]/li[child::div[cont
 stackoverflow.com##:xpath(//ol[contains(@class, 'nav-links')]/li[child::div[contains(text(), 'Collectives')]]) ~ *
 stackoverflow.com##.iconBookmark
 stackoverflow.com###announcement-banner
+
+! STEADY HEALTH
+www.steadyhealth.com##.social-links
+www.steadyhealth.com##a[href="https://www.steadyhealth.com/polices/privacy"]:upward(div)
+www.steadyhealth.com##.section--features
+www.steadyhealth.com##[class*="section--banner"]
+www.steadyhealth.com##[class*="featured-"]
+www.steadyhealth.com##[id*="featured-"]
+www.steadyhealth.com##[class*="related-"]
+www.steadyhealth.com##h2:has-text(Recent Discussions):upward(2)
 
 ! STEAM COMMUNITY
 steamcommunity.com##.cookiepreferences_popup_content
@@ -12576,6 +12649,7 @@ wickes.co.uk##.banner
 wickes.co.uk##.product-main-info__share
 wickes.co.uk##.price__badges-v2
 wickes.co.uk##.header-shop-list
+wickes.co.uk##.card-product-banner
 
 ! WIKI HOW
 www.wikihow.com###contribute_footer_wrap
