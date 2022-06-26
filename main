@@ -1307,6 +1307,44 @@ www.artprintshop.co.uk##.return-link-wrapper
 www.artprintshop.co.uk##.social-icons
 www.artprintshop.co.uk##.site-footer__payment-icons
 
+! ASDA
+asda.com##.hp_main_cards_con
+asda.com##.promo-links.wrapper
+asda.com##.banner-grid
+asda.com##.adc_goodliving_pod
+asda.com##.tell_asda
+asda.com##.alcohol-message
+asda.com##.Message_Frame
+asda.com##.HPHeroContainer:upward(.cms-modules)
+asda.com##[data-auto-id="product-spotlight-product-slider"]:upward(.cms-modules)
+asda.com##.banner-row:upward(.cms-modules)
+asda.com##.PanelWrapper:upward(.cms-modules)
+asda.com##.recipe-listings:upward(.cms-modules)
+asda.com##[data-module="Hooklogic Sponsored Products (Global)"]:upward(.cms-modules)
+asda.com##[data-module*="Homepage Services Rich Text"]:upward(.cms-modules)
+asda.com##.SpotlightContainer:upward(.cms-modules)
+asda.com##.HomepageBWSContainer:upward(.cms-modules)
+asda.com##.criteo-bff-banner:upward(.cms-modules)
+asda.com##[data-module="Covid Message"]:upward(.cms-modules)
+asda.com##[data-module="CSS Fixes Homepage"]:upward(.cms-modules)
+asda.com##.navigation-menu picture
+asda.com##.navigation-menu img
+asda.com##.h-nav__banner-container
+asda.com##.produce-featured-messages
+asda.com##.produce-featured-boxes
+asda.com##.banner__link
+asda.com##.produce-title-banner
+asda.com##[data-type="personalized-recommendation"]:upward(.cms-modules)
+asda.com##[data-type="ProductSpotlight"]:upward(.cms-modules)
+asda.com##.asda-banner-static-tempo
+asda.com##.co-product__promo-icon-image-cntr
+asda.com##.link-save-banner
+asda.com##.co-item__promo-container
+asda.com##.co-item-fsl__favourites-button
+asda.com##.pdp-personal-recs
+asda.com##.pdp-main-details__fav-action
+asda.com##.pdp-main-details__add-to-list
+
 ! ASIA TIMES
 asiatimes.com##.byline
 asiatimes.com##.sharedaddy
@@ -4704,6 +4742,12 @@ halfords.com##.b-product__badges
 halfords.com##.b-price__label
 halfords.com##.b-product__interaptive
 halfords.com##[data-cmp-id="financeCalculatorLink"]
+halfords.com##.top-content-qbt
+halfords.com##.klaranaBG
+halfords.com##div[class*="b-heading"]:has-text(Interesting to Read):upward(2)
+halfords.com###js-tab-financecalculator:upward(li)
+halfords.com##.b-vrn-lookup__banner
+halfords.com##.b-product-fitting
 
 ! HARPER'S BAZAAR
 www.harpersbazaar.com##.nav-menu-subscribe
