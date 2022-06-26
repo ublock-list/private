@@ -4514,6 +4514,7 @@ gov.uk###covid-banner
 gov.uk##.gem-c-contextual-sidebar
 gov.uk##.govuk-footer__copyright-logo
 gov.uk##.govuk-footer__licence-logo
+gov.uk##.hmlr-cookie-banner
 
 ! GPU MAG
 www.gpumag.com##.fs-social-share-top
@@ -8630,6 +8631,8 @@ protonmail.com##.apps
 protonmail.com##.press-section
 protonmail.com##.top
 mail.proton.me##button[title="Close this banner"]:upward(div)
+mail.proton.me##.modal-two
+mail.proton.me##.modal-two-backdrop
 
 ! PROTONVPN
 protonvpn.com##.black-friday-top-bar
@@ -9874,6 +9877,7 @@ stackoverflow.com##:xpath(//ol[contains(@class, 'nav-links')]/li[child::div[cont
 stackoverflow.com##:xpath(//ol[contains(@class, 'nav-links')]/li[child::div[contains(text(), 'Collectives')]]) ~ *
 stackoverflow.com##.iconBookmark
 stackoverflow.com###announcement-banner
+stackoverflow.com##.fc-orange-400:has-text(Trending sort available)
 
 ! STEADY HEALTH
 www.steadyhealth.com##.social-links
@@ -11818,6 +11822,21 @@ udemy.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Popula
 udemy.com##:xpath(//div[child::div[contains(text(), 'Popular Instructors')]])
 udemy.com##*[class*="popper--popper-content"]
 udemy.com##.udlite-badge
+udemy.com##[class*="topic--related-"]:upward(.component-margin)
+udemy.com##[class*="popular-topics-"]:upward(.component-margin)
+udemy.com##[data-purpose="topic-enrollment-stats"]:upward(.component-margin)
+udemy.com##[data-purpose*="discovery-unit-"]:upward(.component-margin)
+udemy.com##[id*="Topcoursesin"]:upward(.component-margin)
+udemy.com##[data-purpose="top-companies-notice"]
+udemy.com##[data-purpose="student-quote-unit-wrapper"]
+udemy.com##[class*="topic--learn-more-section-container"]
+udemy.com##[class*="ufb-notice"]
+udemy.com##[class*="featured-review-"]
+udemy.com##h2:has-text(Students also bought):upward(.component-margin)
+udemy.com##[class*="purchase-section-container--separator"]
+udemy.com##[data-purpose="subscription-purchase-section"]
+udemy.com##[data-purpose="social-share-button"]
+udemy.com##.logo-and-copyright
 
 ! ULTIMATE GUITAR
 tabs.ultimate-guitar.com##.SiteWideBanner
@@ -12135,7 +12154,15 @@ visalegal.com##.search-form
 visalegal.com###sidebar-right
 
 ! VIVASTREET
-www.vivastreet.co.uk##.vs-disclaimer-wrapper
+vivastreet.co.uk##.vs-disclaimer-wrapper
+vivastreet.co.uk##.disclaimer_freeze:style(overflow: auto !important;)
+vivastreet.co.uk##.fav-an-ad
+vivastreet.co.uk##.label-badge-featured
+vivastreet.co.uk##.survey-btn-container
+vivastreet.co.uk##[id*="eadd_"]
+vivastreet.co.uk###vs_similar_ad_right_container_box
+vivastreet.co.uk###kiwii-detailpopularsearches-block
+vivastreet.co.uk##.kiwii-tags-container
 
 ! VKOOL
 tv.vkool.net###sidebar
