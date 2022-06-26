@@ -987,6 +987,25 @@ amazon.*##[data-action="ssf-share-icon"]
 amazon.*##.s-sponsored-label-text:upward(.s-result-item)
 amazon.*##.bia-content
 
+! AMERICAN EAGLE
+www.ae.com##.live-chat-tab
+www.ae.com##.cms-header-promo-ae
+www.ae.com##.sticky-promo
+www.ae.com##.slots
+www.ae.com##.category-banner
+www.ae.com##.qa-marketing-product-tile
+www.ae.com##.favorite-button
+www.ae.com##[class*="product-afterpay"]
+www.ae.com##.associated-products
+www.ae.com###awo_more_looks_to_love
+www.ae.com###olapic_specific_widget
+www.ae.com##.footer-banner-holder
+www.ae.com##.site-footer-main
+www.ae.com##.footer-logos
+www.ae.com###awo_recently_viewed
+www.ae.com##.seo-copy
+www.ae.com##.utilities-favorites
+
 ! ANANDTECH
 www.anandtech.com##.topic_menu
 www.anandtech.com##.sidebar
@@ -1431,6 +1450,7 @@ www.autocar.co.uk##.ipso-logo
 www.autocar.co.uk###footer-wrapper
 www.autocar.co.uk##.personality-image
 www.autocar.co.uk##.block-sponsor
+www.autocar.co.uk##.pane-promo-unit
 ||www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/save_you_money_*$subdocument
 ||www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/save_you_money_*.jpg$image
 ||www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/what-car-new-buying-*.jpg$image
@@ -1463,6 +1483,9 @@ autoexpress.co.uk##*[class*="reg-form-intro"]
 autoexpress.co.uk##*[class*="reg-form-intro"] + section[id*="form"]
 autoexpress.co.uk##.sticky-outer-wrapper
 autoexpress.co.uk##.polaris__partner-group
+autoexpress.co.uk##.-latest-featured
+autoexpress.co.uk##.polaris__home--popular
+autoexpress.co.uk##.-home-bottom-articles
 
 ! AUTOTRADER
 autotrader.co.uk##.search-result__actions
@@ -4902,6 +4925,26 @@ www.hexus.net###middle > .subnav + *
 www.hexus.net###middle > .subnav > .subnav
 www.hexus.net###related_reading
 www.hexus.net###article_comments
+
+! HMV
+hmv.com##.js_hero_carousel
+hmv.com##.slides
+hmv.com##.flexslider
+hmv.com##.social
+hmv.com##.subnav
+hmv.com###articles
+hmv.com###secondary-articles
+hmv.com###events
+hmv.com###live-in-store
+hmv.com##.speech-tweet
+hmv.com##h2:has-text(Latest Tweets):upward(div)
+hmv.com##.feat-block
+hmv.com##.hero-wrapper
+hmv.com##.header-banner
+hmv.com##.marketing-popup
+hmv.com##.footer-block--teamails
+hmv.com##.footer-block--social
+hmv.com##.prod__badge
 
 ! HOLLAND AND BARRETT
 www.hollandandbarrett.com###cookie-consent-wrapper
