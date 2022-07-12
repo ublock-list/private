@@ -5,6 +5,7 @@
 ! GENERAL SITES
 ||050y9lhe8p.com
 ||0i0i0i0.com
+||1377x.to
 ||1376341044.rsc.cdn77.org
 35.232.188.118
 ||7apple.net
@@ -505,6 +506,16 @@ adfontesmedia.com##.ilightbox-holder
 adfontesmedia.com##.ilightbox-toolbar
 adfontesmedia.com##.fusion-social-links-footer
 
+! ADMIRAL
+www.admiral.com##.bg-hero
+www.admiral.com##.sub-hero-banner
+www.admiral.com##.side-image
+www.admiral.com##[id*="testimonials-"]
+www.admiral.com##.explore
+www.admiral.com##.footer-icons
+www.admiral.com##.pinned-image
+www.admiral.com###block-emergencymessaging
+
 ! ADZUNA
 www.adzuna.co.uk##.mfp-container
 www.adzuna.co.uk##.mfp-wrap
@@ -513,6 +524,9 @@ www.adzuna.co.uk##html:style(overflow: auto !important;)
 www.adzuna.co.uk##h2:has-text(Popular searches):upward(div)
 www.adzuna.co.uk##.fav
 www.adzuna.co.uk##.adp-right-col
+
+! AIRBNB
+www.airbnb.co.uk##button[aria-label="Add listing to a list"]
 
 ! ALCHEMIST CAMP
 alchemist.camp##.share_box
@@ -526,6 +540,17 @@ aldi.co.uk##.teaser-cta
 aldi.co.uk###vueBasketCarouselWrapper
 aldi.co.uk##.banner
 aldi.co.uk##.social-links
+aldi.co.uk##.header__nav img
+aldi.co.uk##.twoColumnImage__list
+aldi.co.uk##.newsletter-education
+aldi.co.uk##.categorySelector--home
+aldi.co.uk##.eightColumnImage
+aldi.co.uk##.js-proposition-banner
+aldi.co.uk##.heroCarousel-static__three
+aldi.co.uk##.categorySelector--specialbuys
+aldi.co.uk##.header__feature-panel--container
+aldi.co.uk##.product-recommendation
+aldi.co.uk##.product-reviews
 
 ! ALI EXPRESS
 www.aliexpress.com##.may-like
@@ -993,6 +1018,10 @@ amazon.*##.s-quick-view-ingress-button
 amazon.*##.sparkle-container
 amazon.*###agsTips_feature_div
 amazon.*###posts-feed-preview-widget_feature_div
+amazon.*###softlines-recommendation-widget-stack
+amazon.*###pwh-marketing-cards
+amazon.*##.thankyou-content-main-col-returning-items
+amazon.*##[class*="_deals-hero-shoveler_style_carouselWrapper"]
 
 ! AMERICAN EAGLE
 www.ae.com##.live-chat-tab
@@ -2148,6 +2177,13 @@ boardgamearena.com###bga-modal-container .omnibar-title:has-text(Feeling lucky?)
 boardgamearena.com##.bga-omni-bar input:style(border-top-right-radius: 0 !important;)
 boardgamearena.com##.bga-omni-bar input:style(border-bottom-right-radius: 0 !important;)
 boardgamearena.com##.bga-omni-bar:after:style(box-shadow: none !important;)
+boardgamearena.com##.bga-omni-bar-holder .omnibar-title:has-text(Recently searched):upward(div)
+boardgamearena.com##.bga-omni-bar-holder .omnibar-title:has-text(Recently played):upward(div)
+boardgamearena.com##.bga-omni-bar-holder .omnibar-title:has-text(Suggestions):upward(div)
+boardgamearena.com##.bga-omni-bar-holder .omnibar-title:has-text(Recently met):upward(div)
+boardgamearena.com##.bga-omni-bar-holder .omnibar-title:has-text(Players):upward(div)
+boardgamearena.com##.bga-omni-bar-holder .omnibar-title:has-text(Groups):upward(div)
+boardgamearena.com##.bga-omni-bar-holder .omnibar-title:has-text(Feeling lucky?):upward(div.panels)
 
 ! BOARD GAME GEEK
 boardgamegeek.com##gg-support-leaderboard-ad
@@ -2423,6 +2459,12 @@ www.britishhardwoods.co.uk##.bhw-footer-socialise
 www.bromley.gov.uk###announcement
 www.bromley.gov.uk##.additional-links--social
 
+! BROTHER
+www.brother.co.uk##.common-feature-module
+www.brother.co.uk##.alternate-product
+www.brother.co.uk##.ft-adjustment
+www.brother.co.uk##.supplies
+
 ! BT
 www.bt.com##.cookie-ui__cookieUI___3fxp1
 www.bt.com##.author-social-section
@@ -2528,6 +2570,11 @@ caniuse.com##.footer__patreon
 caniuse.com##.permalink
 caniuse.com##.add-feature
 caniuse.com##.news
+
+! CANNON
+www.canon.co.uk##.feedback-btn
+www.canon.co.uk##.survey_popup
+www.canon.co.uk##body:style(overflow: auto !important;)
 
 ! C&T AUCTIONS
 candtauctions.co.uk##.o-newsletter
@@ -3454,6 +3501,20 @@ www.dignited.com##.author
 www.dignited.com##p > strong:has-text(Also Read):upward(p)
 www.dignited.com###jp-relatedposts
 
+! DISCOUNT ELECTRICAL
+www.discount-electrical.co.uk##.topBox
+www.discount-electrical.co.uk###badge-ribbon
+www.discount-electrical.co.uk##.top_menu img
+www.discount-electrical.co.uk##.bannerBox
+www.discount-electrical.co.uk###product_payment_logos
+www.discount-electrical.co.uk###manlogo
+www.discount-electrical.co.uk###viewed-products_block_left
+www.discount-electrical.co.uk###tmhtmlcontent_left
+www.discount-electrical.co.uk##.socialfeedblock
+www.discount-electrical.co.uk###htmlcontent_footer img
+www.discount-electrical.co.uk##.top_menu a[href="https://www.discount-electrical.co.uk/signup"]:upward(li)
+www.discount-electrical.co.uk##.top_menu a[href="https://www.discount-electrical.co.uk/specials"]:upward(li)
+
 ! DIY DOCTOR
 www.diydoctor.org.uk##.page-find-tradesman-top
 www.diydoctor.org.uk##.social-buttons
@@ -3513,6 +3574,16 @@ www.dropbox.com##.login-form-container__apple-div
 
 ! DRUGS.COM
 www.drugs.com##*[id*="display-ad-injection"]
+
+! DT BROWN SEEDS
+www.dtbrownseeds.co.uk###bio_ep_bg
+www.dtbrownseeds.co.uk###bio_ep
+www.dtbrownseeds.co.uk###promorow
+www.dtbrownseeds.co.uk###requests
+www.dtbrownseeds.co.uk###statustext
+www.dtbrownseeds.co.uk###bannerholder
+www.dtbrownseeds.co.uk##body:style(overflow: auto !important;)
+www.dtbrownseeds.co.uk###topscroll
 
 ! DUCKDUCKGO
 duckduckgo.com##.header-wrap--home
@@ -3677,6 +3748,7 @@ ebay.*##.follow-ebay-wrapper
 ebay.*##.payment-entry.payment-entry--PAYPAL_CREDIT
 ebay.*##.b-brand-banner
 ebay.*##.all-listings-panel
+ebay.*##.b-guidance
 
 ! EBUYER
 www.ebuyer.com##.siteskin-links__item
@@ -3816,6 +3888,12 @@ www.epicurious.com##.product-embed
 www.epicurious.com##*[class*="TagCloudWrapper"]
 www.epicurious.com##*[class*="ArticlePageContentFooterGrid"]
 www.epicurious.com##.modal-wrapper
+
+! EPSON
+www.epson.co.uk##.readyprint-teaser__container
+www.epson.co.uk##.cross-sell-accordion
+www.epson.co.uk##.readyprint-box
+www.epson.co.uk##.amp-banner
 
 ! ESCAPIST MAGAZINE
 www.escapistmagazine.com##.PicoSignal.mobile-top-header
@@ -4812,6 +4890,9 @@ www.gpumag.com##.author-box
 www.gpumag.com##.sidebar
 www.gpumag.com##.footer-widgets-container
 
+! GQ MAGAZINE
+www.gq-magazine.co.uk##.grid-layout__aside
+
 ! GREEN FLAG
 www.greenflag.com##.highways-banner
 
@@ -5418,6 +5499,11 @@ www.houseoffraser.co.uk##.singleAdContainer
 www.houseoffraser.co.uk##.topheadbox
 www.houseoffraser.co.uk##.hotspotwishlist
 www.houseoffraser.co.uk##.hotspotquickbuy
+
+! HOUSE SITTERS
+www.housesittersuk.co.uk##.unread-notice
+www.housesittersuk.co.uk##.unread-notice
+www.housesittersuk.co.uk###get-social
 
 ! HOUZZ
 houzz.co.uk##.hz-visitor-consents
@@ -6438,6 +6524,11 @@ www.kitchenknives.co.uk##.brandblock
 kitsound.co.uk##.tab-col-10-12.mobile-col-10-12.col-4-12
 kitsound.co.uk##.page_overlay
 
+! KIWI
+kiwi.com##[class*="Modal__ModalBody-"]
+kiwi.com##[data-test="account-promotion"]
+kiwi.com##[class*="FeedbackButton"]
+
 ! KNIVES AND TOOLS
 www.knivesandtools.co.uk##.MuiHeader-uspBar
 www.knivesandtools.co.uk##.MuiAppBarContent-iconWishlist
@@ -6514,6 +6605,11 @@ www.laredoute.co.uk##.tag-container
 www.laredoute.co.uk##.btn-add-to-wishlist
 www.laredoute.co.uk##.delivery-info-container
 www.laredoute.co.uk###childProductBlock
+
+! LANCASHIRE COUNTY COUNCIL
+www.lancashire.gov.uk##.py-4.text-white.bg-dark.site-footer
+www.lancashire.gov.uk##.adwrapper
+www.lancashire.gov.uk##.adwrapper-side
 
 ! LANCASHIRE EVENING POST
 lep.co.uk##amp-analytics
@@ -7252,6 +7348,7 @@ medium.com##main > div > div:last-of-type
 medium.com##.pw-multi-vote-count:upward(3)
 medium.com##header.pw-post-byline-header
 medium.com##.pw-more-medium-articles
+medium.com##h2 > a:has-text(More from):upward(7)
 
 ! MEETUP
 meetup.com##.seeded-event-section.gtm-seeded-events
@@ -8576,6 +8673,9 @@ paypal.com##.covid-banner
 paypal.com##.custom-notification-ribbon
 paypal.com##.device-hero-qrc
 paypal.com##xo-credit-example-uk
+paypal.com###bmlAcqOfferProminent
+paypal.com##[class*="CreditExampleText__container--"]
+paypal.com##[class*="PageWrapper__merchantHeaderWrapper--"]
 
 ! PC GAMER
 pcgamer.com##.trending-bar-container
@@ -8844,12 +8944,26 @@ plex.tv##:xpath(//ul[child::li[child::a[contains(@href, 'https://www.facebook.co
 plex.tv##.remodal-wrapper
 plex.tv###plex-language-bar
 plex.tv##*[class*="block-hero-"]
+plex.tv##.platform-logos
+plex.tv##.mediaverse-blocks
+plex.tv##.block-standard-5-what-were-watching-now
+plex.tv##.watchlist
+plex.tv##.live-on-plex
+plex.tv##.block-standard-11-search-better-than-sherlock
+plex.tv##.block-grid-12-what-are-you-in-the-mood-for
+plex.tv##.block-standard-13-got-personal-media-plex-does-that-too
+plex.tv##.block-standard-9-live-on-plex-its-free-tv
+plex.tv##.block-custom-14
+plex.tv##.block-standard-15-come-to-the-pro-side
+plex.tv##.plexview-dynamic-cta-content
+plex.tv##.blog-posts
+plex.tv##.block-standard-4-houston-we-have-discovery
+plex.tv##.cookie-consent
 forums.plex.tv##.topic-map-expanded
 forums.plex.tv##.toggle-summary.information
 forums.plex.tv##.suggested-topics-wrapper
 forums.plex.tv##.onscreen-post.small-action
 forums.plex.tv##.alert-info.alert.signup-cta
-support.plex.tv##.cookie-consent
 
 ! PLYMOUTH HERALD
 www.plymouthherald.co.uk##.pipeline-container
@@ -9832,6 +9946,8 @@ sainsburys.co.uk##.specialOffer > .strapline
 sainsburys.co.uk##*[data-testid="nav-images"]
 sainsburys.co.uk##*[data-action*="hero"]
 sainsburys.co.uk##*[id*="hero-"]
+sainsburys.co.uk##[class*="HeaderLogostyles__HeaderLogoContainer-"]
+sainsburys.co.uk##[data-testid="meganav-container"] img
 
 ! SANTANDER
 santander.co.uk###splash-97123-overlay
@@ -10394,6 +10510,10 @@ www.sportsdirect.com##.BrandsWrapper
 ! SPOTIFY
 spotify.com##.mh-social-icons
 
+! SPRINKLER IRRIGATION
+sprinkler-irrigation.co.uk##.form-wishlist
+sprinkler-irrigation.co.uk###tab-related
+
 ! STACK ABUSE
 stackabuse.com###ad-lead-magnet
 stackabuse.com##.col-span-7
@@ -10573,6 +10693,18 @@ superuser.com##.bottom-notice
 superuser.com##.privacy-policy-agreement
 superuser.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')])
 superuser.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')]) ~ *
+
+! SUTTONS
+www.suttons.co.uk##.header-usp
+www.suttons.co.uk##.timer
+www.suttons.co.uk##.header-top-bar
+www.suttons.co.uk##.home-slider
+www.suttons.co.uk##.footer-icon-container
+www.suttons.co.uk##.scrollup
+www.suttons.co.uk##.gardenSticky
+www.suttons.co.uk##.promo-banner
+www.suttons.co.uk###offers_upsells_slider
+www.suttons.co.uk##.wishlist-add-counter
 
 ! T3
 www.t3.com##.masthead-item.user-locale
@@ -12135,6 +12267,13 @@ www.travisperkins.co.uk##*[class*="__USPBlockWrapper-"]
 www.travisperkins.co.uk##*[class*="CookieBanner__Wrapper-"]
 www.travisperkins.co.uk##*[class*="SubscriptionBlock__Wrapper"]
 
+! TRIP
+trip.com##.mod-back-top
+trip.com##.other-info
+trip.com###divAccount_SignIn
+trip.com##.x-product-insurance
+trip.com##.x-product-item-airHelp-v2
+
 ! TRIP ADVISOR
 tripadvisor.*###AR_XSELL_AJAX_CONTENT
 tripadvisor.*###RR_XSELL_WRAPPER
@@ -12955,6 +13094,17 @@ www.waterstones.com##.footer-col-social
 www.waterstones.com##.nav-plus
 www.waterstones.com##.book-recommends
 
+! WATER IRRIGATION
+www.waterirrigation.co.uk##.products-bestsellers
+www.waterirrigation.co.uk##.subscribe__container
+www.waterirrigation.co.uk##.product-categories
+www.waterirrigation.co.uk##.product-item-percentage-discount
+www.waterirrigation.co.uk##.product-relation-list
+www.waterirrigation.co.uk##.usp-banner-wrapper
+www.waterirrigation.co.uk##.payment-gateway
+www.waterirrigation.co.uk##.pagebuilder-image > a[href*="/shop-by-brand/"]:upward(.pagebuilder-image)
+www.waterirrigation.co.uk##[href*="/shop-by-brand/hydrosure/"]
+
 ! WAYFAIR
 wayfair.*##.AppBanner
 wayfair.*##.FreeShipping
@@ -13052,6 +13202,10 @@ wccftech.com##.story-related
 wccftech.com##.footer-notice
 wccftech.com##.social-links-footer
 wccftech.com##.story-products-wrapper
+
+! WCF FUELS
+www.wcfnw.co.uk##.float-right
+www.wcfnw.co.uk##.footerlogos
 
 ! WEATHER
 weather.com###dpr-manager
