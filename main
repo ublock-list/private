@@ -542,6 +542,48 @@ www.adzuna.co.uk##h2:has-text(Popular searches):upward(div)
 www.adzuna.co.uk##.fav
 www.adzuna.co.uk##.adp-right-col
 
+! AGODA
+www.agoda.com##.PersonalizedRecommendedProperties
+www.agoda.com###travel-advisor-banner
+www.agoda.com##[data-element-name="covid19-banner"]
+www.agoda.com##.web-campaign-banner-carousel
+www.agoda.com##.TopDestinationRailStandard
+www.agoda.com##.property-recommended-properties-root
+www.agoda.com##.TravelerReviewsStandard
+www.agoda.com##.SeoLinks
+www.agoda.com##.Copyrights-content
+www.agoda.com###footer-mobile-app-andriod
+www.agoda.com###footer-mobile-app-ios
+www.agoda.com##.BackToSearch
+www.agoda.com###top-destinations-root
+www.agoda.com##.FavoriteHeartSliding
+www.agoda.com##[data-element-name="accommodation-entry-panel"]
+www.agoda.com##[data-element-name="agoda-homes-featured-properties-container"]
+www.agoda.com###travel-advisor-ssr-banner-container
+www.agoda.com##[class*="Bannerstyled__BannerContainer"]
+www.agoda.com##.redirectToAppBar
+www.agoda.com##[id*="ads-ssr-horizontal-desktop-slot"]
+www.agoda.com##h5:has-text(If you're flexible, check out these alternative dates):upward(li)
+www.agoda.com##.HighlyRatedAgodaHomes
+www.agoda.com##.RecommendedProperties
+www.agoda.com##.UnifiedJacket
+www.agoda.com##.TopBadgesReformat
+www.agoda.com##.MoneyEarnedInfo
+www.agoda.com##.PropertyCard__PricingBadges
+www.agoda.com##.PropertyCard__IconMessages
+www.agoda.com##.HeroImageBadge
+www.agoda.com##.BadgeHolder
+www.agoda.com##div[class*="Box-"]:has-text(BEST PRICE GUARANTEE)
+www.agoda.com##div[class*="Box-"] span:has-text(Sign in to use your AgodaCash!):upward(4)
+www.agoda.com##[data-component="footer-machine-name"]:upward(div)
+
+! AIR ASIA
+www.airasia.com##[class*="VoucherInfoWrapper__Container"]
+www.airasia.com##[class*="VoucherInfoWrapper__StickyContainer"]
+www.airasia.com###feedback-label
+www.airasia.com##[class*="Gdpr__GdprParentWrapper"]
+www.airasia.com##[class*="BannerWrapper"]
+
 ! AIRBNB
 www.airbnb.co.uk##button[aria-label="Add listing to a list"]
 
@@ -2366,6 +2408,19 @@ www.boohoo.com##.b-payment_breakdown
 www.boohoo.com##.b-product_wishlist
 www.boohoo.com##.b-product_similar-carousel_bottom
 www.boohoo.com##h2:has-text(Complete the look):upward(div)
+
+! BOOKING.COM
+www.booking.com##[data-testid="wishlist-button"]
+www.booking.com##.share_center_square_cta
+www.booking.com##[data-component="wishlist/entrypoint"]
+www.booking.com##.topbook_pricematch
+www.booking.com###rate_guarantee
+www.booking.com##.coronavirus-main-funnel-banner
+www.booking.com##.e2e-tip_free_cancellation
+www.booking.com##.k2-hp--health_safety
+www.booking.com##.bui-banner
+www.booking.com###seo_links_drawer
+www.booking.com##.footer__priceline
 
 ! BOOTS
 boots.com###estore_social_widget
@@ -4221,6 +4276,33 @@ www.expat.com##.subscribe-right
 www.expat.com###related-forum-topics
 www.expat.com##.partner-bg
 www.expat.com###section-travel
+www.expat.com##.block-registered-members
+www.expat.com##.discussion-thread-footer
+www.expat.com###destinations-links
+www.expat.com###block-abonnement
+www.expat.com##.block-demandes
+www.expat.com###scroll-to-top
+www.expat.com##.subcribeTxt
+www.expat.com##.footer-col__connect
+www.expat.com###section-contracts
+www.expat.com###section-categories
+www.expat.com##.jobs-others
+www.expat.com##.share-container
+www.expat.com##.job-interested
+www.expat.com###btn-subscription
+www.expat.com##.related-ads-outer
+www.expat.com##.related-ads-section-title
+www.expat.com##.anti-scam-banner
+www.expat.com##.associated-pics
+www.expat.com##.block-featured-photos
+www.expat.com###section-blog-month
+www.expat.com##.article-list-ad
+www.expat.com##.add-banner
+www.expat.com##.interview
+www.expat.com###side-pub
+www.expat.com##.forum-promotion
+www.expat.com##.forum-latest-topics
+www.expat.com##.forum-top-cities
 
 ! EXPAT FOCUS
 www.expatfocus.com##.entry-meta
@@ -7357,6 +7439,20 @@ lonelyplanet.com##*[data-testid="section-container-latest-news-div"]
 lonelyplanet.com##*[data-testid="section-container-getting-back-on-the-road-covid-19-and-travel-div"]
 lonelyplanet.com##*[data-testid*="section-container-our-favorite-destinations"]
 lonelyplanet.com##:xpath(//div[@data-testid="card-callout" and child::article[@data-testid="card-preview" and descendant::figcaption[descendant::span[contains(text(), 'SPONSORED')]]]])
+lonelyplanet.com##h2:has-text(Explore related stories):upward(section)
+lonelyplanet.com##button[aria-label="Share to facebook"]:upward([class*="sticky"])
+lonelyplanet.com##a[rel="author"]:upward(2)
+lonelyplanet.com##span[data-chartbeat-hook="author"]:upward(2)
+lonelyplanet.com##aside
+lonelyplanet.com##[class*="ad_Ad"]
+lonelyplanet.com##article a[href^="https://shop.lonelyplanet.com/"]:upward(article)
+lonelyplanet.com##div > a[href^="https://www.lonelyplanet.com/newsletter"]:upward(div)
+lonelyplanet.com##div > em > a[href^="https://www.lonelyplanet.com/newsletter"]:upward(div)
+lonelyplanet.com##div > a[href^="http://www.lonelyplanet.com/newsletter"]:upward(div)
+lonelyplanet.com##div > em > a[href^="http://www.lonelyplanet.com/newsletter"]:upward(div)
+lonelyplanet.com##p strong:has-text(You may also like:):upward(p)
+lonelyplanet.com##p strong:has-text(You might also like:):upward(p)
+lonelyplanet.com###guides
 
 ! LOOPER
 www.looper.com##*[id*="adslot"]
@@ -10644,6 +10740,9 @@ www.sitepoint.com###book_top
 www.sitepoint.com##.fa-github-square:upward(6)
 www.sitepoint.com##[class*="Header-module--link"]
 www.sitepoint.com##[class*="Header-module--img"]
+www.sitepoint.com##.sbBody
+www.sitepoint.com##[href^="https://www.sitepoint.com/premium/"]
+www.sitepoint.com###join-premium
 
 ! SKY NEWS
 news.sky.com##.site-share-wrapper
@@ -12363,6 +12462,25 @@ www.thisismoney.co.uk##.related-with-thumbs
 www.thisismoney.co.uk##.byline-section
 www.thisismoney.co.uk###p-most-read-news-mobile
 www.thisismoney.co.uk###most-watched-videos-wrapper
+www.thisismoney.co.uk##.sticky-container
+www.thisismoney.co.uk##.supplements
+www.thisismoney.co.uk###weather-wrapper
+www.thisismoney.co.uk##.masthead:style(background: transparent !important;)
+www.thisismoney.co.uk##.beta
+www.thisismoney.co.uk##.author-section
+www.thisismoney.co.uk###articleIconLinksContainer
+www.thisismoney.co.uk###sky-right-container
+www.thisismoney.co.uk##.floating-buttons
+www.thisismoney.co.uk##.related-carousel
+www.thisismoney.co.uk##[href="/save"]
+www.thisismoney.co.uk##.shareArticles
+www.thisismoney.co.uk###most-read-news-wrapper
+www.thisismoney.co.uk##.article-reader-comments
+www.thisismoney.co.uk###infinite-list
+www.thisismoney.co.uk##.and-footer
+www.thisismoney.co.uk##.page-footer
+www.thisismoney.co.uk##.footer .nav-secondary
+www.thisismoney.co.uk##section[data-mol-fe-tim-tools]
 
 ! THOMAS PINK
 thomaspink.com##pink-newsletter-signup
@@ -12702,6 +12820,16 @@ www.totaljobs.com##.app-advert-row
 www.totaljobs.com##.faq-widget
 www.totaljobs.com##.salary-widget
 www.totaljobs.com##.activate-oca
+
+! TRAVELOKA
+www.traveloka.com###announcement-section
+www.traveloka.com##div > div > div > a[href*="/promotion/"]:upward(3)
+www.traveloka.com##[data-testid="StandarizedOTPFlow"]
+www.traveloka.com###__next > div > div[tabindex="0"] div:has-text(Search Flights):upward(div[tabindex="0"]):upward(div) ~ *
+www.traveloka.com##a[target="_blank"][href*="/help"]:upward(div)
+www.traveloka.com##div[style*="bottom:60px;right:8px;"]
+www.traveloka.com###desktop-topbar
+www.traveloka.com##svg[data-id="IcSystemShareAndroid"]:upward(div)
 
 ! TRAVIS PERKINS
 www.travisperkins.co.uk##*[class*="__USPBlockWrapper-"]
@@ -14360,6 +14488,9 @@ youtube.com##ytd-video-owner-renderer
 youtube.com###owner-and-teaser
 youtube.com###clarify-box
 youtube.com##ytd-compact-movie-renderer ytd-badge-supported-renderer:has-text(/Buy|Rent/):upward(ytd-compact-movie-renderer)
+youtube.com##ytd-two-column-browse-results-renderer[page-subtype="home"]
+youtube.com##ytd-guide-section-renderer yt-formatted-string:has-text(Best of YouTube):upward(ytd-guide-section-renderer)
+youtube.com##ytd-guide-section-renderer yt-formatted-string:has-text(More from YouTube):upward(ytd-guide-section-renderer)
 
 youtube-nocookie.com##.ytp-title
 youtube-nocookie.com##.ytp-copylink-button
