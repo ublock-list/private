@@ -4167,6 +4167,7 @@ etsy.com##[data-above-header]
 etsy.com###product-safety-notice-toggle
 etsy.com##[data-appears-component-name="listing_page_ads_row"]
 etsy.com##h3:has-text(New items our editors love):upward(.wt-body-max-width)
+etsy.com##[data-tabbed-discover-container]
 
 ! EUFY
 eufylife.com###shopify-section-announcement-bar
@@ -7664,7 +7665,7 @@ marksandspencer.com##*[data-component="recommendations"]
 marksandspencer.com##*[data-component="banner"]
 marksandspencer.com##.back-to-top
 
-!  MASHABLE
+! MASHABLE
 mashable.com##a[href^="/author/"]
 mashable.com##aside
 mashable.com##:xpath(//section[child::section[child::h3[contains(text(), 'Recommended')]]])
@@ -7698,6 +7699,10 @@ matalan.co.uk###plp-recs
 matalan.co.uk###plp-recs ~ *
 matalan.co.uk##*[data-behavior="global-messages"]
 matalan.co.uk##.o-footer__menu--social
+
+! MCCOLL's
+mccolls.co.uk###message-bar
+mccolls.co.uk##.global-cookie.show ~ .page-wrapper::before:style(display: none! important;)
 
 ! MECH BOARDS
 mechboards.co.uk###footer--social
@@ -9858,6 +9863,7 @@ quora.com###mainContent:xpath(//div[contains(@class, 'q-box') and child::div[chi
 quora.com###mainContent:xpath(//div[contains(@class, 'q-box') and child::div[child::div[child::div[contains(@class, 'q-text') and contains(text(), "Related answers")]]]]) ~ *
 quora.com##.q-text:has-text(Related questions):upward(.qu-borderAll)
 quora.com##.q-click-wrapper .q-text:has-text(Related):upward(.qu-borderAll)
+quora.com##.q-text:has-text(Related):upward(.qu-gutterBottom)
 
 ! RAC
 www.rac.co.uk##.sidebar
