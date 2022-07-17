@@ -1513,6 +1513,35 @@ asiatimes.com##a[href^="https://asiatimes.com/subscribe-at/"]
 asiatimes.com##.wc-memberships-content-restricted-message
 asiatimes.com##a[href^="https://asiatimes.com/product/"]
 
+! ASK UBUNTU
+askubuntu.com##.js-teams-promo
+askubuntu.com##.js-consent-banner
+askubuntu.com##.js-dismissable-hero
+askubuntu.com##.s-sidebarwidget
+askubuntu.com##.tex2jax_ignore.module
+askubuntu.com##.js-freemium-cta
+askubuntu.com##.everyonelovesstackoverflow
+askubuntu.com##.facebook-login
+askubuntu.com##.google-login
+askubuntu.com###feed-link
+askubuntu.com##.site-footer--copyright
+askubuntu.com##.bottom-notice
+askubuntu.com##.privacy-policy-agreement
+askubuntu.com##.sidebar-related
+askubuntu.com##.show-votes
+askubuntu.com##.new-login-form
+askubuntu.com##.js-answer-help
+askubuntu.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')])
+askubuntu.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')]) ~ *
+askubuntu.com##:xpath(//ol[contains(@class, 'nav-links')]/li[child::div[contains(text(), 'Collectives')]])
+askubuntu.com##:xpath(//ol[contains(@class, 'nav-links')]/li[child::div[contains(text(), 'Collectives')]]) ~ *
+askubuntu.com##.iconBookmark
+askubuntu.com###announcement-banner
+askubuntu.com##.fc-orange-400:has-text(Trending sort available)
+askubuntu.com##.post-notice
+askubuntu.com##.js-launch-popover-toggle
+askubuntu.com##.new-contributor-indicator
+
 ! ASPINALL FOUNDATION
 www.aspinallfoundation.org##.site_footer__top
 www.aspinallfoundation.org##h6:has-text(Share this page)
@@ -5162,6 +5191,7 @@ accounts.google.*#@#^responseheader(set-cookie)
 mail.google.*#@#^responseheader(set-cookie)
 play.google.com##aside
 developers.google.com##.wf-byline
+support.google.com##.info-bar-container
 translate.google.*##h2:has-text(Side panels):upward(nav)
 translate.google.*##button[aria-label="Share translation"]
 translate.google.*##button[aria-label="Save translation"]
@@ -7279,6 +7309,11 @@ linuxconfig.org##center
 linuxconfig.org###discourse-comments
 linuxconfig.org##.footer-widgets
 
+! LINUXIZE
+linuxize.com##.sidebar
+linuxize.com##main > article ~ *
+linuxize.com##footer
+
 ! THE LIST
 list.co.uk###app > .bg-gray-50
 list.co.uk###app > .bg-red-600
@@ -9004,6 +9039,9 @@ www.pocruises.com##.favourites
 www.pocruises.com##.fav-button-container
 www.pocruises.com##.recentlyViewed
 
+! PACKAGE CLOUD
+packagecloud.io##.callout-container
+
 ! PAPER FORM
 paperform.co##.cc-window
 paperform.co##[class*="help-module--relatedArticles"]
@@ -9066,6 +9104,9 @@ patient.info##.articleFooter
 patient.info##:xpath(//div[child::div[child::div[child::span[contains(text(), 'Sponsor')]]]])
 patient.info##.promo
 
+! PATREON
+www.patreon.com##a[href="https://www.facebook.com/patreon"]:upward(2)
+
 ! PAYPAL
 paypal.com###gdprCookieBanner
 paypal.com##div[class^="GiveAtCheckout_gacContainer_"]
@@ -9083,6 +9124,9 @@ paypal.com##xo-credit-example-uk
 paypal.com###bmlAcqOfferProminent
 paypal.com##[class*="CreditExampleText__container--"]
 paypal.com##[class*="PageWrapper__merchantHeaderWrapper--"]
+
+! PAYOO
+www.payoo.vn##.rolling_lang
 
 ! PC GAMER
 pcgamer.com##.trending-bar-container
@@ -9261,6 +9305,18 @@ www.pharmacyonline.co.uk##.trustLogoBar
 www.pharmacyonline.co.uk##.footerLogoArea
 www.pharmacyonline.co.uk##.paymentsBar
 www.pharmacyonline.co.uk##.uspBanner
+
+! PHUKET 101
+www.phuket101.net##.cli-barmodal-open:style(overflow: auto !important;)
+www.phuket101.net###secondary
+www.phuket101.net##p:has-text([the_ad id=)
+www.phuket101.net##p > iframe:upward(p)
+www.phuket101.net##blockquote.wp-embedded-content
+www.phuket101.net##.tags-links
+www.phuket101.net##.vmag-author-metabox
+www.phuket101.net##.post-navigation
+www.phuket101.net##.vmag-related-wrapper
+www.phuket101.net##.dmca-badge
 
 ! PI HOLE
 pi-hole.net##a[href="https://pi-hole.net/donate/#sponsorship"]
@@ -10052,6 +10108,11 @@ reuters.com##*[class*="article-header__tags"]
 reuters.com##[class*="latest-section-stories__container__"]
 reuters.com##[class*="talking-points__container__"]
 
+! REVIEW CENTRE
+www.reviewcentre.com##.WriteReviewButton
+www.reviewcentre.com###sideBar
+www.reviewcentre.com###MainContentRight
+
 ! REVIEW GEEK
 www.reviewgeek.com###notificationAllowPrompt
 www.reviewgeek.com##.adfullwrap
@@ -10193,6 +10254,7 @@ rightmove.co.uk##p > a[rel="sponsored"]:upward(div)
 rightmove.co.uk##h2:has-text(Your search history):upward(div)
 rightmove.co.uk##.property-hide-button
 rightmove.co.uk###search-related-links
+rightmove.co.uk###propertyplayer
 
 ! RING
 ring.com##.product-pop-acc
@@ -11999,6 +12061,7 @@ www.mirror.co.uk##.signin
 www.mirror.co.uk##.recirculation
 www.mirror.co.uk##.read-more__title
 www.mirror.co.uk##.ad-placeholder
+www.mirror.co.uk##dwell-observer
 
 ! THE NEW STATESMAN
 www.newstatesman.com##.tns-modal-wrapper
@@ -13340,6 +13403,13 @@ www.uniqlo.com##[id*="zoid-paypal-message-uid"]
 www.uniqlo.com##.pdp__wishlist
 www.uniqlo.com##.pdp__module--bazaarVoice
 
+! UNIX TUTORIAL
+www.unixtutorial.org##.c-sidebar
+www.unixtutorial.org###see-also
+www.unixtutorial.org###see-also ~ *
+www.unixtutorial.org##.c-footer
+www.unixtutorial.org##.c-social-nav
+
 ! UPS
 ups.com###ups-alertsWrap
 
@@ -13477,6 +13547,13 @@ www.verywellmind.com##.newsletter-signup-vue
 www.verywellmind.com##.social-follow
 www.verywellmind.com##.mntl-adhesive-ad
 www.verywellmind.com##.mntl-gpt-adunit
+
+! VIET JET AIR
+vietjetair.com##img[alt*="banner"]
+vietjetair.com##a[href="https://www.facebook.com/vietjetvietnam/"]:upward(2)
+vietjetair.com##a[href^="https://play.google.com/store/apps/"]:upward(2)
+vietjetair.com###osc_frame
+vietjetair.com###osc-button
 
 ! VIKING DIRECT
 www.viking-direct.co.uk###siteflash
