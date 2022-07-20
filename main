@@ -315,6 +315,7 @@
 ||shrink.pe
 ||shrinkearn.com
 ||shrinkme.io
+||simpleanalyticsexternal.com
 ||site.dz4win.com
 ||smartartlive.com
 ||smartsupp.com
@@ -371,6 +372,7 @@
 ||unsplash.com
 ||up-load.one
 ||urbharat.xyz
+||usercentrics.eu
 ||utytech.com
 ||viafoura.co
 ||viafoura.net
@@ -1081,6 +1083,10 @@ amazon.*###softlines-recommendation-widget-stack
 amazon.*###pwh-marketing-cards
 amazon.*##.thankyou-content-main-col-returning-items
 amazon.*##[class*="_deals-hero-shoveler_style_carouselWrapper"]
+amazon.*##.js-yo-right-rail
+amazon.*##.CarouselWithSelector
+amazon.*###wlp-injectable-btn
+amazon.*##.zg-more-list-types-container
 
 ! AMERICAN EAGLE
 www.ae.com##.live-chat-tab
@@ -1350,6 +1356,16 @@ www.appliancesdirect.co.uk###ProductPromotions
 www.appliancesdirect.co.uk###kpd_koopidtag
 www.appliancesdirect.co.uk##.search-cat-section
 www.appliancesdirect.co.uk##img[src*="-banner"]
+www.appliancesdirect.co.uk###kpd_koopidtag
+www.appliancesdirect.co.uk##.pp-bundle
+www.appliancesdirect.co.uk##.promoexp
+www.appliancesdirect.co.uk##.payexp
+www.appliancesdirect.co.uk##.low-stock-wrapper
+www.appliancesdirect.co.uk##.wasandsaving
+www.appliancesdirect.co.uk##.sash-banner-container-pp
+www.appliancesdirect.co.uk##.productcolumnright
+www.appliancesdirect.co.uk###financeTableBreakdown
+www.appliancesdirect.co.uk###bidgroup
 
 ! ARLO
 arlo.com##.global-banner
@@ -1441,6 +1457,7 @@ argos.co.uk##:xpath(//div[contains(@class, 'LazyHydrateCard') and child::div[con
 argos.co.uk##*[class*="Footerstyles__SecondaryFooter"]
 argos.co.uk##[class*="styles__ProductRelevancyHeader"]
 argos.co.uk##[class*="styles__ProductRelevancyHeader"] + *
+argos.co.uk###credit-monthly-link
 
 ! ARS TECHNICA
 arstechnica.com##.featured-video
@@ -1769,6 +1786,16 @@ www.avforums.com##.shareButtons
 www.avforums.com##.u-scrollButtons
 www.avforums.com###footerSocialIcons
 www.avforums.com##.message-attribution-gadget
+
+! AVON
+avon.uk.com###shopify-section-header-usp
+avon.uk.com###mbcBundleItemsWidget
+avon.uk.com##.related-products
+avon.uk.com###site-usps
+avon.uk.com###site-social-share
+avon.uk.com##.footer-payment-icons
+avon.uk.com##.recently-viewed-products
+avon.uk.com##.payment-icons
 
 ! AWESOME OPEN SOURCE
 awesomeopensource.com##.adsense_ad
@@ -2964,6 +2991,10 @@ charlestyrwhitt.com##:xpath(//li[child::aside])
 charlestyrwhitt.com##.js-thumb-sale-badge
 charlestyrwhitt.com##.paypal-paylater-msg
 
+! CHASE BANK
+chase.co.uk###consent-manager-modal
+chase.co.uk##.hide-modal-body-overflow:style(overflow: auto !important;)
+
 ! CHEAP FLIGHTS
 www.cheapflights.co.uk##*[class*="gdpr-container"]
 
@@ -3276,6 +3307,10 @@ www.costco.co.uk###pdp_msg_delivery
 www.costco.co.uk##sip-product-social-networks
 www.costco.co.uk##sip-paragraph
 www.costco.co.uk##.product-image > .ng-star-inserted
+www.costco.co.uk##.site-messages-container
+www.costco.co.uk###pdp_msg_delivery
+www.costco.co.uk###footer-email-offers-block
+www.costco.co.uk###footer-widget img
 
 ! COUNTRY LIFE
 www.countrylife.co.uk##.nav-social
@@ -4054,6 +4089,10 @@ elixirforum.com##.custom-footer-content
 ! ELITE DAILY
 www.elitedaily.com##.adWrapper
 
+! EMIRATES
+emirates.com###ctl00_c_MC1_ancillaryContainer_lblRecommended ~ *
+emirates.com###ctl00_c_MC1_ancillaryContainer_dvAncillaries
+
 ! ENGLISH HERITAGE
 www.english-heritage.org.uk###cookiescript_injected
 www.english-heritage.org.uk##.social-links
@@ -4333,6 +4372,7 @@ www.expat.com###side-pub
 www.expat.com##.forum-promotion
 www.expat.com##.forum-latest-topics
 www.expat.com##.forum-top-cities
+www.expat.com##.right-column
 
 ! EXPAT FOCUS
 www.expatfocus.com##.entry-meta
@@ -5028,6 +5068,10 @@ www.glassdoor.co.uk##h2:has-text(The latest conversations about Tech):upward(2)
 ! GLOBAL PENFRIENDS
 www.globalpenfriends.com##.double_column_testimonial
 
+! GLOT.IO
+glot.io##.footer-right
+glot.io##.footer-left:style(width:100% !important;)
+
 ! GMT GAMES
 www.gmtgames.com###chatBeaconBtn
 
@@ -5040,6 +5084,9 @@ www.gofundme.com##.m-gdpr-alert-banner
 www.gofundme.com##.p-campaign-value-props--content
 
 ! GOLANG BOT
+golangbot.com###detlarticle:style(width: auto !important; float: none !important; margin: 0 !important;)
+golangbot.com###detlarticle > article:style(width: auto !important; max-width: 100% !important; padding: 0 2rem !important;)
+golangbot.com###disqus_thread
 golangbot.com###detlsidebar
 golangbot.com##.post-footer
 
@@ -5228,6 +5275,18 @@ www.gpumag.com##.footer-widgets-container
 
 ! GQ MAGAZINE
 www.gq-magazine.co.uk##.grid-layout__aside
+www.gq-magazine.co.uk##[class*="LinkBannerWrapper-"]
+www.gq-magazine.co.uk##[class*="NativeShareIconWrapper-"]
+www.gq-magazine.co.uk##[class*="GalleryPageDisclaimerGrid-"]
+www.gq-magazine.co.uk##[class*="BylineNamesWrapper-"]
+www.gq-magazine.co.uk##[class*="GalleryPageDisclaimerGrid-"]
+www.gq-magazine.co.uk##[class*="ContentFooterWrapper-"]
+www.gq-magazine.co.uk##[class*="SiteFooterBrandInfo-"]
+www.gq-magazine.co.uk##[class*="SummaryCollectionRowWrapper-"]
+www.gq-magazine.co.uk##li > a[href="/subscribe"]:upward(li)
+www.gq-magazine.co.uk##p > strong:has-text(NOW READ):upward(p)
+www.gq-magazine.co.uk##p > strong:has-text(NOW READ):upward(p) ~ *
+www.gq-magazine.co.uk##.ticker-view
 
 ! GREEN FLAG
 www.greenflag.com##.highways-banner
@@ -5844,7 +5903,6 @@ www.houseoffraser.co.uk##.hotspotquickbuy
 
 ! HOUSE SITTERS
 www.housesittersuk.co.uk##.unread-notice
-www.housesittersuk.co.uk##.unread-notice
 www.housesittersuk.co.uk###get-social
 
 ! HOUZZ
@@ -6018,6 +6076,15 @@ m.huffingtonpost.co.uk##.ad_spot
 m.huffingtonpost.co.uk##.author-byline
 m.huffingtonpost.co.uk##.tag-cloud
 m.huffingtonpost.co.uk##.yr-conversations
+
+! HUGHES DIRECT
+www.hughes.co.uk##.is--advertbar
+www.hughes.co.uk##.product--finance-container
+www.hughes.co.uk##.also-viewed--slider
+www.hughes.co.uk##.rewards-banner
+www.hughes.co.uk##.ie-div-position-customer-chat
+www.hughes.co.uk##.payment-icons
+www.hughes.co.uk##.is--hovered.navigation--entry
 
 ! HUNKE MOLLER
 www.hunkemoller.co.uk##.l-banners_wrapper
@@ -6403,6 +6470,7 @@ indeed.*##.bookmark
 indeed.*##.jobsearch-CompanyAvatar
 indeed.*##.related_searches
 indeed.*###resumeCtaFooter
+indeed.*##.related_searches
 
 ! INDIEGOGO
 www.indiegogo.com##.backItForm
@@ -6496,6 +6564,9 @@ www.instructables.com##.view-comments-btn
 www.instructables.com###comments
 www.instructables.com##.footer-social
 www.instructables.com##.copyright
+
+! INTEL
+www.intel.com##.feedback
 
 ! INVESTOPEDIA
 www.investopedia.com###onetrust-consent-sdk
@@ -6731,6 +6802,10 @@ www.justinguitar.com##.disqus
 www.justinguitar.com##.footer__row--bottom
 www.justinguitar.com##.pg__badges
 
+! JUST WATCH
+www.justwatch.com##.recommended-title-lists
+www.justwatch.com##.title-credits
+
 ! KALEIDOSCOPE
 kaleidoscope.co.uk###quitifyPopUpBox
 kaleidoscope.co.uk##.siteWideBanner
@@ -6850,6 +6925,8 @@ kickstarter.com##*[data-dev-module="NewsCollection-the-making-of"]
 kickstarter.com##*[data-dev-module="ProjectCollection-near-you"]
 kickstarter.com##*[data-dev-module="PromoCollection-creators-corner"]
 kickstarter.com##*[data-dev-module="NewsCollection-creator-success-stories"]
+kickstarter.com##.watch-project-button
+kickstarter.com##.campaign-side-nav.project-nav__buttons
 
 ! KIRKHAM GRAMMAR SCHOOL
 www.kirkhamgrammar.co.uk##.partners
@@ -7151,6 +7228,18 @@ www.leasingoptions.co.uk##.modal-open:style(overflow: auto !important;)
 ! LET'S PLAY INDEX
 www.letsplayindex.com##.content_sidebar
 www.letsplayindex.com##.detail_list_summary_box
+
+! LG
+www.lg.com##.pd-sideInfo
+www.lg.com##.price-vip-Installment
+www.lg.com##.tag-content
+www.lg.com##.price-pdp-Installment
+www.lg.com##.legal
+www.lg.com##.product-price > .price
+www.lg.com##.member-price
+www.lg.com##.banner-box
+www.lg.com##.gnb-standard-banner-wrap
+www.lg.com##.info-top
 
 ! LIANA'S KITCHEN
 lianaskitchen.co.uk##.mv-create-social
@@ -7898,6 +7987,7 @@ www.migrate.org.uk##.theiaStickySidebar
 mindahome.co.uk##.newsletter-form-container
 mindahome.co.uk###to-top
 mindahome.co.uk##.listing-blog
+mindahome.co.uk##.listing-badges
 
 ! MINITOOL
 www.minitool.com##.article-recommend
@@ -8142,6 +8232,9 @@ mynintendonews.com##.blog-sidebar
 mynintendonews.com##.wp-block-social-link
 mynintendonews.com##.author
 mynintendonews.com##.comments
+
+! MYSQL
+www.mysql.com##.ochat_slideout
 
 ! MY TOOL SHED
 www.mytoolshed.co.uk##.upsell
@@ -8655,6 +8748,8 @@ nodejs.org##.contributor-card
 ! NOMAD LIST
 nomadlist.com##.new-user-hero-press-featured
 nomadlist.com##.grid-side
+nomadlist.com##.modal-pay-featured
+nomadlist.com##.members-work-at
 
 ! NORTH WEST POWER WASHERS
 northwestpowerwashers.co.uk###sidebar
@@ -8790,6 +8885,7 @@ nytimes.com##game-modal
 nytimes.com##.spelling-bee-loved
 nytimes.com###js-hook-pz-moment__cutoff
 nytimes.com###hp-live-band-control
+nytimes.com##.gift-article-button:upward(8)
 
 ! OAK FURNITURE LAND
 www.oakfurnitureland.co.uk###emergency-banner
@@ -9037,6 +9133,11 @@ oxfordonlinepharmacy.co.uk##.logos
 oxfordonlinepharmacy.co.uk##:xpath(//div[child::h2[contains(text(), 'My Favourite Products')]])
 oxfordonlinepharmacy.co.uk##:xpath(//div[child::h2[contains(text(), 'My Favourite Products')]]) ~ *
 oxfordonlinepharmacy.co.uk##.social-icon
+oxfordonlinepharmacy.co.uk##.low-price-guarantee
+oxfordonlinepharmacy.co.uk##.live-chat-badge
+oxfordonlinepharmacy.co.uk##.registered-pharmacy-holder
+oxfordonlinepharmacy.co.uk##.oop-cqc-widget
+oxfordonlinepharmacy.co.uk##.cta-sidebar
 
 ! P&O CRUISES
 www.pocruises.com##.alert-messaging-container
@@ -9401,6 +9502,26 @@ pinterest.*###relatedPins
 ! PISTONHEADS
 www.pistonheads.com##.msg-ad
 www.pistonheads.com##*[class*="SocialLinks_socialLinks"]
+
+! PLAIN T-SHIRTS
+www.plain-t-shirts.co.uk##.infotext
+www.plain-t-shirts.co.uk##.video_box_right
+www.plain-t-shirts.co.uk##.custom_box_right
+www.plain-t-shirts.co.uk##.neddprinting
+www.plain-t-shirts.co.uk##.askbutton-new
+www.plain-t-shirts.co.uk##.wishlist-compare-friend
+www.plain-t-shirts.co.uk##[href="https://instagram.com/PLAINTSHIRTSUK/"]:upward(p)
+www.plain-t-shirts.co.uk##.product-bottom-related
+www.plain-t-shirts.co.uk###footer_d
+www.plain-t-shirts.co.uk###footer_a_1
+www.plain-t-shirts.co.uk###toTop
+www.plain-t-shirts.co.uk##.social
+www.plain-t-shirts.co.uk##.product-box-slider
+www.plain-t-shirts.co.uk##.carousel-flex
+www.plain-t-shirts.co.uk##.home-blog
+www.plain-t-shirts.co.uk##.bnd
+www.plain-t-shirts.co.uk##.reassurance
+www.plain-t-shirts.co.uk##.video-container
 
 ! PLATFORM.SH
 platform.sh##.partners
@@ -10209,6 +10330,19 @@ www.richersounds.com###paypal_credit_terms
 www.richersounds.com##.pdp-payment-description
 www.richersounds.com##.footer-terms
 www.richersounds.com##.category-cms
+www.richersounds.com##.sidebar img
+www.richersounds.com###___ratingbadge_0
+www.richersounds.com##.disabled-assitance-banner
+www.richersounds.com##.product-wall-mount
+www.richersounds.com###bvseo-aggregateRatingSection
+www.richersounds.com##.product-promotion
+www.richersounds.com##.vip-price
+www.richersounds.com##.nav-additional-item
+www.richersounds.com##.value > div
+www.richersounds.com##.product-promotion
+www.richersounds.com##.product-saving
+www.richersounds.com##.saving-badge
+www.richersounds.com##.previous-price-wrapper
 
 ! RIGHTMOVE
 rightmove.co.uk###branchProfilePropertyDetailsHeader
@@ -11145,6 +11279,25 @@ www.staples.co.uk##.knowledge-centre-container
 www.staples.co.uk###homeAbout
 www.staples.co.uk###topOfficeProducts
 www.staples.co.uk##.officeFurniturePods
+
+! STARLING BANK
+starlingbank.com##[data-focus-lock-disabled="false"]
+
+! STATISTICA
+www.statista.com##.headerSalesContactBar
+www.statista.com##.toolbar
+www.statista.com##.hideMobile.alert
+www.statista.com##.sectionFurtherStatistics
+www.statista.com##.stickyPriceHeader
+www.statista.com##.statisticAccounts
+www.statista.com##.statisticLogosCustomer
+www.statista.com##.statisticStudies
+www.statista.com##.statisticTestimonial
+www.statista.com##.statisticTabbarDossier
+www.statista.com##.statisticSearch
+www.statista.com##.statisticContentLists
+www.statista.com##.statisticContactRequest
+www.statista.com##.navMain__text--highlight
 
 ! STEADY HEALTH
 www.steadyhealth.com##.social-links
@@ -13004,6 +13157,10 @@ tripadvisor.co.uk##.thankButton
 tripadvisor.co.uk##.note
 tripadvisor.co.uk##.flag
 tripadvisor.co.uk##.global_footer img
+tripadvisor.co.uk##[class*="ppr_priv_hotels_list_"]
+tripadvisor.co.uk##.component-widget button:has-text(Download the app):upward(.component-widget)
+tripadvisor.co.uk##.ppr_priv_cupid_pricing_trends
+tripadvisor.co.uk##[id*="taplc_hotels_faq_dusty_hotels_resp"]
 
 ! TRIP SAVVY
 www.tripsavvy.com##.social-share-block
@@ -13036,18 +13193,11 @@ mytreatwell.co.uk##.in-partnership-with
 www.trustatrader.com##.join
 www.trustatrader.com##.search-tips
 
-! TRUSTPILOT
-trustpilot.com##.transparency-report-box.card
-trustpilot.com##.similar-companies-box
-trustpilot.com##.commitment-box
-trustpilot.com##.brand-footer__social
-trustpilot.com##*[data-sidebar-commitment-paper="true"]
-trustpilot.com##*[class*="footer_logoContainer__"]
-trustpilot.com##:xpath(//div[child::h3[contains(text(), 'People who looked at this')]])
-trustpilot.com##:xpath(//section[contains(@class, 'footer_section') and child::h3[contains(text(), 'Follow us on')]])
-trustpilot.com##[class*="styles_actionsWrapper"]
-trustpilot.com##a[href*="/trust/transparency"]:upward(div)
-trustpilot.com###onetrust-consent-sdk
+! TRUSTED HOUSE SITTERS
+www.trustedhousesitters.com##a[href^="/static/resources/Cookie-Policy-"]:upward(div)
+www.trustedhousesitters.com##button > span:has-text(Help):upward(div)
+www.trustedhousesitters.com##p:has-text(Download the app):upward(2)
+www.trustedhousesitters.com##h2:has-text(Download the app):upward(section)
 
 ! TRUSTED REVIEWS
 trustedreviews.com##.trending
@@ -13083,8 +13233,30 @@ trustedreviews.com##.considered-container
 trustedreviews.com###header-bottom
 trustedreviews.com##.remixd-audio-player
 
+! TRUSTPILOT
+trustpilot.com##.transparency-report-box.card
+trustpilot.com##.similar-companies-box
+trustpilot.com##.commitment-box
+trustpilot.com##.brand-footer__social
+trustpilot.com##*[data-sidebar-commitment-paper="true"]
+trustpilot.com##*[class*="footer_logoContainer__"]
+trustpilot.com##:xpath(//div[child::h3[contains(text(), 'People who looked at this')]])
+trustpilot.com##:xpath(//section[contains(@class, 'footer_section') and child::h3[contains(text(), 'Follow us on')]])
+trustpilot.com##[class*="styles_actionsWrapper"]
+trustpilot.com##a[href*="/trust/transparency"]:upward(div)
+trustpilot.com###onetrust-consent-sdk
+
 ! TUMBLR
 tumblr.com##.tmblr-iframe--gdpr-banner
+
+! TURRETA
+turreta.com##.pvc_stats
+turreta.com##.single-post-ads-bottom
+turreta.com##.entry-meta
+turreta.com##.post-page-navigation
+turreta.com##.related-articles
+turreta.com##.you-might-also-like-articles
+turreta.com##.yt-facebook-likebox-widget
 
 ! TUTORIALS POINT
 ||www.tutorialspoint.com/*mages/*banner*$image
@@ -13374,40 +13546,54 @@ unidragon.eu##.site-footer__payment-icons
 unidragon.eu##.sg-button-wrapper
 
 ! UNIQLO
-www.uniqlo.com##.recommendation
-www.uniqlo.com##.uni-footer-privacy-policy
-www.uniqlo.com##.l2-special-collabs
-www.uniqlo.com##.l2-ut-collection
-www.uniqlo.com##.l2-uniqlo-today
-www.uniqlo.com##.l2-recommendations
-www.uniqlo.com##.l2-featured-collections
-www.uniqlo.com###lo-products
-www.uniqlo.com##.l2-limited-offers
-www.uniqlo.com##.l2-new-arrivals
-www.uniqlo.com##.l2-hero
-www.uniqlo.com##.l2-featured-cats
-www.uniqlo.com##.uni-eu-footer-varient
-www.uniqlo.com##page > uni-static-content > .hpContainer
-www.uniqlo.com##.toc-zero
-www.uniqlo.com##.uni-tappable-grid
-www.uniqlo.com##.uni-multilink-image-preload
-www.uniqlo.com##.uni-feature-banner
-www.uniqlo.com##.cta--chatbot
-www.uniqlo.com##.js-pdp-styleHintLookContainer
-www.uniqlo.com##._guide-banner
-www.uniqlo.com##.recommendations
-www.uniqlo.com##.pdp__module--bazaarvoicerating
-www.uniqlo.com##.footer__wrapper > .footer__row--borderDown
-www.uniqlo.com##.l3Grid__content--onlyImage
-www.uniqlo.com##.productTile__wishlist
-www.uniqlo.com##.lineup-banner
-www.uniqlo.com##.ghq-banner
-www.uniqlo.com##.category-inner
-www.uniqlo.com##.pair-with
-www.uniqlo.com##.badge
-www.uniqlo.com##[id*="zoid-paypal-message-uid"]
-www.uniqlo.com##.pdp__wishlist
-www.uniqlo.com##.pdp__module--bazaarVoice
+uniqlo.com##.recommendation
+uniqlo.com##.uni-footer-privacy-policy
+uniqlo.com##.l2-special-collabs
+uniqlo.com##.l2-ut-collection
+uniqlo.com##.l2-uniqlo-today
+uniqlo.com##.l2-recommendations
+uniqlo.com##.l2-featured-collections
+uniqlo.com###lo-products
+uniqlo.com##.l2-limited-offers
+uniqlo.com##.l2-new-arrivals
+uniqlo.com##.l2-hero
+uniqlo.com##.l2-featured-cats
+uniqlo.com##.uni-eu-footer-varient
+uniqlo.com##page > uni-static-content > .hpContainer
+uniqlo.com##.toc-zero
+uniqlo.com##.uni-tappable-grid
+uniqlo.com##.uni-multilink-image-preload
+uniqlo.com##.uni-feature-banner
+uniqlo.com##.cta--chatbot
+uniqlo.com##.js-pdp-styleHintLookContainer
+uniqlo.com##._guide-banner
+uniqlo.com##.recommendations
+uniqlo.com##.pdp__module--bazaarvoicerating
+uniqlo.com##.footer__wrapper > .footer__row--borderDown
+uniqlo.com##.l3Grid__content--onlyImage
+uniqlo.com##.productTile__wishlist
+uniqlo.com##.lineup-banner
+uniqlo.com##.ghq-banner
+uniqlo.com##.category-inner
+uniqlo.com##.pair-with
+uniqlo.com##.badge
+uniqlo.com##[id*="zoid-paypal-message-uid"]
+uniqlo.com##.pdp__wishlist
+uniqlo.com##.pdp__module--bazaarVoice
+uniqlo.com###promo-banner
+uniqlo.com##h1:has-text(TOPICS):upward(section)
+uniqlo.com##h1:has-text(SHOPPING MADE EASY):upward(section)
+uniqlo.com###new-arrivals
+uniqlo.com###featured-collections
+uniqlo.com###new-arrivals
+uniqlo.com###limited-offers
+uniqlo.com###sale
+uniqlo.com###pickupitems
+uniqlo.com###special-collections
+uniqlo.com###ut-collection
+uniqlo.com###stylehint
+uniqlo.com###uniqlo-today
+uniqlo.com###live-commerce
 
 ! UNIX TUTORIAL
 www.unixtutorial.org##.c-sidebar
@@ -13446,6 +13632,18 @@ www.uswitch.com##.us-footer__social
 www.vaillant.co.uk##.header--mobile__leadbar
 www.vaillant.co.uk###quicklinks
 www.vaillant.co.uk##.social
+
+! VANITY FAIR
+www.vanityfair.com##.contributors
+www.vanityfair.com##.cm-nav-cta
+www.vanityfair.com##[class*="SummaryCollectionGridContent"]
+www.vanityfair.com##.consumer-marketing-unit
+www.vanityfair.com##.site-footer__logo
+www.vanityfair.com##[class*="SiteFooterSocialIcons"]
+www.vanityfair.com##[class*="ContentHeaderRubricBlock"]
+www.vanityfair.com##[class*="BylineNamesWrapper"]
+www.vanityfair.com##[class*="ContentHeaderContributorImage"]
+www.vanityfair.com##.content-header__social-share
 
 ! VARIETY
 variety.com###adm-leaderboard
@@ -13891,6 +14089,20 @@ wccftech.com##.story-products-wrapper
 www.wcfnw.co.uk##.float-right
 www.wcfnw.co.uk##.footerlogos
 
+! WCO STREAM
+www.wcostream.com###wrap:style(width: 100% !important; background: #000 !important;)
+www.wcostream.com##.topb:style(width: 100% !important; background: #000 !important;)
+www.wcostream.com###content:style(width: 100% !important; background: #000 !important;)
+www.wcostream.com###content table:style(width: 100% !important; background: #fff !important;)
+www.wcostream.com###content table td:style(width: 100% !important; background: #fff !important;)
+www.wcostream.com##.alert
+www.wcostream.com###sidebar
+www.wcostream.com##h2:has-text(Video Errors & Solutions):upward(table)
+www.wcostream.com##h2:has-text(Video Errors & Solutions):upward(table) ~ *
+www.wcostream.com###star-watch-on
+www.wcostream.com##strong:has-text(Share:):upward(table)
+www.wcostream.com###footer
+
 ! WATCH CARTOONS ONLINE
 m.wcostream.com##.share
 
@@ -13922,6 +14134,8 @@ webmd.com##.mobile-ad-inside-center
 webmd.com##.mobile-ad
 webmd.com##.copoun-text
 webmd.com##.find-lowest-prices
+webmd.com##.collapse-TandS
+webmd.com##.reviewer-info
 
 ! WEBTOONS
 www.webtoons.com##.on._gdprCookieBanner.gdpr_ly_cookie
@@ -14801,6 +15015,13 @@ zooplus.co.uk##*[data-zta="recoSlider"]
 zooplus.co.uk##*[data-zta="btn-goTop"]
 zooplus.co.uk##.uxt-side-banner
 zooplus.co.uk##.payment__bar
+zooplus.co.uk##.shop-footer__newsletter-banner
+zooplus.co.uk##.shop-footer__social-and-apps-container
+zooplus.co.uk##.shop-footer__payment-shipping-and-trust-logos-container
+zooplus.co.uk##.uxt-discount-banner
+zooplus.co.uk##.uxt-middle-banner
+zooplus.co.uk##a[id="Read more"]:upward(div)
+zooplus.co.uk##.uxt-supplier-finance-side-banner
 
 ! 365 GAMES
 www.365games.co.uk##.takeover_links
