@@ -10176,6 +10176,8 @@ reddit.com##span:has-text(share):upward(div)
 reddit.com##button:has-text(Save)
 reddit.com##button:has-text(Follow)
 reddit.com##button:has-text(Share)
+reddit.com##h2:has-text(Similar to this post):upward([data-redditstyle="false"])
+reddit.com##:xpath(//div[contains(text(), 'More posts you may like')]):upward(div)
 
 ! REED
 www.reed.co.uk##.google-ad-leaderboard
@@ -14089,22 +14091,23 @@ wccftech.com##.story-products-wrapper
 www.wcfnw.co.uk##.float-right
 www.wcfnw.co.uk##.footerlogos
 
-! WCO STREAM
-www.wcostream.com###wrap:style(width: 100% !important; background: #000 !important;)
-www.wcostream.com##.topb:style(width: 100% !important; background: #000 !important;)
-www.wcostream.com###content:style(width: 100% !important; background: #000 !important;)
-www.wcostream.com###content table:style(width: 100% !important; background: #fff !important;)
-www.wcostream.com###content table td:style(width: 100% !important; background: #fff !important;)
-www.wcostream.com##.alert
-www.wcostream.com###sidebar
-www.wcostream.com##h2:has-text(Video Errors & Solutions):upward(table)
-www.wcostream.com##h2:has-text(Video Errors & Solutions):upward(table) ~ *
-www.wcostream.com###star-watch-on
-www.wcostream.com##strong:has-text(Share:):upward(table)
-www.wcostream.com###footer
-
 ! WATCH CARTOONS ONLINE
-m.wcostream.com##.share
+wcostream.com###wrap:style(width: 100% !important; background: #000 !important;)
+wcostream.com##.topb:style(width: 100% !important; background: #000 !important;)
+wcostream.com###content:style(width: 100% !important; background: #000 !important;)
+wcostream.com###content table:style(width: 100% !important; background: #fff !important;)
+wcostream.com###content table td:style(width: 100% !important; background: #fff !important;)
+wcostream.com##.alert
+wcostream.com###sidebar
+wcostream.com##h2:has-text(Video Errors & Solutions):upward(table)
+wcostream.com##h2:has-text(Video Errors & Solutions):upward(table) ~ *
+wcostream.com###star-watch-on
+wcostream.com##strong:has-text(Share:):upward(table)
+wcostream.com###footer
+wcostream.com##.share
+
+! WD COMMUNITY
+wdcommunity.com##h2:has-text(Featured packages):upward(section)
 
 ! WEATHER
 weather.com###dpr-manager
