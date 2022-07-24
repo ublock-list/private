@@ -544,6 +544,35 @@ www.adzuna.co.uk##h2:has-text(Popular searches):upward(div)
 www.adzuna.co.uk##.fav
 www.adzuna.co.uk##.adp-right-col
 
+! AMERICAN EAGLE
+ae.com##.live-chat-tab
+ae.com##.cms-header-promo-ae
+ae.com##.sticky-promo
+ae.com##.slots
+ae.com##.category-banner
+ae.com##.qa-marketing-product-tile
+ae.com##.favorite-button
+ae.com##[class*="product-afterpay"]
+ae.com##.associated-products
+ae.com###awo_more_looks_to_love
+ae.com###olapic_specific_widget
+ae.com##.footer-banner-holder
+ae.com##.site-footer-main
+ae.com##.footer-logos
+ae.com###awo_recently_viewed
+ae.com##.seo-copy
+ae.com##.utilities-favorites
+ae.com##.mega-menu-column > span:has-text(Featured):upward(.mega-menu-column)
+ae.com##.product-spotlight
+ae.com##.merchant-flags
+ae.com##.nsa-store-availability
+ae.com##.bottom-content
+ae.com##.seo-content
+ae.com##.frequently-bought-together
+ae.com##.bazzaar-reviews-content
+ae.com###awo_more_looks_to_love
+ae.com###awo_recently_viewed
+
 ! AGODA
 www.agoda.com##.PersonalizedRecommendedProperties
 www.agoda.com###travel-advisor-banner
@@ -1088,25 +1117,6 @@ amazon.*##.CarouselWithSelector
 amazon.*###wlp-injectable-btn
 amazon.*##.zg-more-list-types-container
 
-! AMERICAN EAGLE
-www.ae.com##.live-chat-tab
-www.ae.com##.cms-header-promo-ae
-www.ae.com##.sticky-promo
-www.ae.com##.slots
-www.ae.com##.category-banner
-www.ae.com##.qa-marketing-product-tile
-www.ae.com##.favorite-button
-www.ae.com##[class*="product-afterpay"]
-www.ae.com##.associated-products
-www.ae.com###awo_more_looks_to_love
-www.ae.com###olapic_specific_widget
-www.ae.com##.footer-banner-holder
-www.ae.com##.site-footer-main
-www.ae.com##.footer-logos
-www.ae.com###awo_recently_viewed
-www.ae.com##.seo-copy
-www.ae.com##.utilities-favorites
-
 ! ANANDTECH
 www.anandtech.com##.topic_menu
 www.anandtech.com##.sidebar
@@ -1366,6 +1376,17 @@ www.appliancesdirect.co.uk##.sash-banner-container-pp
 www.appliancesdirect.co.uk##.productcolumnright
 www.appliancesdirect.co.uk###financeTableBreakdown
 www.appliancesdirect.co.uk###bidgroup
+www.appliancesdirect.co.uk##.saving
+www.appliancesdirect.co.uk##.navOffer
+www.appliancesdirect.co.uk##.paypal-bar
+www.appliancesdirect.co.uk##.tile-msg
+www.appliancesdirect.co.uk##.hub-card h4:has-text(Popular searches):upward(.hub-card)
+www.appliancesdirect.co.uk##h2:has-text(Need help?):upward(section)
+www.appliancesdirect.co.uk##h2:has-text(Best Buys):upward(section)
+www.appliancesdirect.co.uk###toptips
+www.appliancesdirect.co.uk##.content-landing-page-carousel
+www.appliancesdirect.co.uk###products > section
+www.appliancesdirect.co.uk###bestbuy
 
 ! ARLO
 arlo.com##.global-banner
@@ -3507,6 +3528,18 @@ www.debenhams.com##.dbh-product-detail__related-products
 www.debenhams.com##.dbh-shop-more-tags
 www.debenhams.com##.t-footer__newsletter
 www.debenhams.com##.t-product-detail__recently-viewed-wrapper
+www.debenhams.com##[data-test-id="global-countdown-banner"]
+www.debenhams.com##[data-test-id="hero-banner-null"]
+www.debenhams.com##[data-test-id="promo-banner-heading"]
+www.debenhams.com##[data-test-id="footer-link-android-app"]:upward(4)
+www.debenhams.com##[data-theme-footer--subscribe-section="true"]
+www.debenhams.com##[data-theme-footer--social="true"]
+www.debenhams.com##[class*="badge__BadgeDiv"]
+www.debenhams.com##[data-test-id="plp-scroll-to-top"]
+www.debenhams.com##[data-test-id="klarna-promo"]:upward(2)
+www.debenhams.com##[data-test-id="similar-products"]
+www.debenhams.com##[data-test-id="recently-viewed"]
+www.debenhams.com##span[class*="html__HTML"]
 
 ! DELICIOUS MAGAZINE
 www.deliciousmagazine.co.uk##.cta-icon
@@ -4075,6 +4108,18 @@ www.ehow.*##.right-column > *
 www.ehow.*##.widget-container
 www.ehow.*##.component-article-jwplayer-wrapper
 www.ehow.*##.inline-ad
+
+! ELECTRICAL DISCOUNT UK
+www.electricaldiscountuk.co.uk##.header-reevoo
+www.electricaldiscountuk.co.uk##.key-messages
+www.electricaldiscountuk.co.uk##.homepage-banner
+www.electricaldiscountuk.co.uk##.shop-by
+www.electricaldiscountuk.co.uk##.brands-carousel
+www.electricaldiscountuk.co.uk##.ratings-carousel
+www.electricaldiscountuk.co.uk##.finance-callout
+www.electricaldiscountuk.co.uk##.footer-payment
+www.electricaldiscountuk.co.uk##.category-carousel
+www.electricaldiscountuk.co.uk##.customer-social
 
 ! ELIXIR FORUM
 elixirforum.com##.footer-sponsors-wrap
@@ -4657,6 +4702,20 @@ www.foxnews.com##.article-meta
 www.foxnews.com##.speechkit-wrapper
 www.foxnews.com##.article-footer
 www.foxnews.com##a > strong:upward(a)
+
+! FOYLES
+www.foyles.co.uk##.OneBanner
+www.foyles.co.uk##.SlideShowHTML
+www.foyles.co.uk##.ReceiveOurNewsletter
+www.foyles.co.uk##.TwoColEqualResp
+www.foyles.co.uk##h2:has-text(Signed Copies)
+www.foyles.co.uk##h2:has-text(Signed Copies) ~ *
+www.foyles.co.uk##.HeaderPlaceholder
+www.foyles.co.uk##.FoyaltyBox
+www.foyles.co.uk##.YouMightAlsoLikePanel
+www.foyles.co.uk##.FoyaltyPoints
+www.foyles.co.uk##.MainRight
+||www.foyles.co.uk/cms-uploaded/New-paperbacks-page-banner-1010x250.jpg$image
 
 ! FRAGRANCE DIRECT
 www.fragrancedirect.co.uk##.modal
@@ -5494,6 +5553,17 @@ www.harpersbazaar.com##.ipso-kitemark
 www.harrods.com###promoBanner
 www.harrods.com##*[aria-label="Wishlist"]
 www.harrods.com##*[data-test="productCard-wishlistToggle"]
+www.harrods.com##[data-test="Cookie-Banner"]
+www.harrods.com##[data-test="hero-wrapper"]
+www.harrods.com##[data-test="homepage-content"]
+www.harrods.com##[data-test^="footer-subscribe"]
+www.harrods.com##[data-test="footer-paymentMethods"]
+www.harrods.com##[data-test="socialLinks-container"]
+www.harrods.com##[data-test="shopNavigation-container"]:style(color: #000 !important;)
+www.harrods.com##[data-test="shopNavigation-container"] img
+www.harrods.com##[data-test^="googleAd-"]
+www.harrods.com###tab-recommendations:upward(div)
+www.harrods.com###stickyBuyingControl-button
 
 ! HAWES AND CURTIS
 www.hawesandcurtis.co.uk##.promo-line
@@ -6680,6 +6750,8 @@ www.iwantoneofthose.com##.post-meta--share
 www.iwantoneofthose.com##.author-info
 www.iwantoneofthose.com##.related-posts
 www.iwantoneofthose.com##.sign-off
+www.iwantoneofthose.com##.storyStreamWidget
+www.iwantoneofthose.com##.productAddToWishlist
 
 ! JACKSON NURSERIES
 www.jacksonsnurseries.co.uk###hw_cookie_law
@@ -6714,6 +6786,24 @@ jdsports.co.uk##.collect
 ! JELLYFIN
 forum.jellyfin.org##.suggested-topics-wrapper
 forum.jellyfin.org###banner
+
+! JESSOPS
+www.jessops.com##.upsells
+www.jessops.com##.banner-strip
+www.jessops.com##.callout-section
+www.jessops.com##.brands
+www.jessops.com##.cta-section
+www.jessops.com##.foot-cards
+www.jessops.com##.social
+www.jessops.com##.similar
+www.jessops.com##.protection
+www.jessops.com##.js-finance
+www.jessops.com##h2:has-text(Jessops Spotlight):upward(section)
+www.jessops.com##li:has-text(Special Offers on this Product):upward(div)
+www.jessops.com##[data-pp-placement]
+www.jessops.com##.buying-options > ul
+www.jessops.com###finance-options
+www.jessops.com##.popular-brands-title
 
 ! JETBRAINS
 intellij-support.jetbrains.com##.page-sidebar
@@ -7122,6 +7212,69 @@ www.laptopmag.com##aside
 www.laptopmag.com##.read-more-container
 www.laptopmag.com###taboola-mobile-below-article-thumbnails
 www.laptopmag.com##.related-articles-block
+
+! LAPTOPS DIRECT
+www.laptopsdirect.co.uk##.cc-window
+www.laptopsdirect.co.uk###reassurance-mob
+www.laptopsdirect.co.uk###servicemessage
+www.laptopsdirect.co.uk##.prod-accessory
+www.laptopsdirect.co.uk##.pp-breadcrumb
+www.laptopsdirect.co.uk##.footbar
+www.laptopsdirect.co.uk##.top-flex-container
+www.laptopsdirect.co.uk##.paypal-banner-strip
+www.laptopsdirect.co.uk##.outlet-deals
+www.laptopsdirect.co.uk##.brand-promo
+www.laptopsdirect.co.uk##.brand-logos
+www.laptopsdirect.co.uk##.footer-payments
+www.laptopsdirect.co.uk##.reevoo-foot
+www.laptopsdirect.co.uk##.offerbar
+www.laptopsdirect.co.uk##.merchTopofCentreColumn
+www.laptopsdirect.co.uk##.x-num-deals
+www.laptopsdirect.co.uk##.why-us
+www.laptopsdirect.co.uk##.hpoutlet
+www.laptopsdirect.co.uk##.footer-bar
+www.laptopsdirect.co.uk##.bid-group
+www.laptopsdirect.co.uk##.we-accept
+www.laptopsdirect.co.uk###moreinrangecarousel
+www.laptopsdirect.co.uk##.trustpilot-widget
+www.laptopsdirect.co.uk##.bid-group-btn
+www.laptopsdirect.co.uk##.finance
+www.laptopsdirect.co.uk###ProductFinance
+www.laptopsdirect.co.uk###ProductWarranties
+www.laptopsdirect.co.uk##.SavingsPrice
+www.laptopsdirect.co.uk##.sash-banner-container-sr
+www.laptopsdirect.co.uk###bundles_header
+www.laptopsdirect.co.uk###ProductPromotions
+www.laptopsdirect.co.uk###kpd_koopidtag
+www.laptopsdirect.co.uk##.search-cat-section
+www.laptopsdirect.co.uk##img[src*="-banner"]
+www.laptopsdirect.co.uk###kpd_koopidtag
+www.laptopsdirect.co.uk##.pp-bundle
+www.laptopsdirect.co.uk##.promoexp
+www.laptopsdirect.co.uk##.payexp
+www.laptopsdirect.co.uk##.low-stock-wrapper
+www.laptopsdirect.co.uk##.wasandsaving
+www.laptopsdirect.co.uk##.sash-banner-container-pp
+www.laptopsdirect.co.uk##.productcolumnright
+www.laptopsdirect.co.uk###financeTableBreakdown
+www.laptopsdirect.co.uk###bidgroup
+www.laptopsdirect.co.uk##.saving
+www.laptopsdirect.co.uk##.navOffer
+www.laptopsdirect.co.uk##.paypal-bar
+www.laptopsdirect.co.uk##.tile-msg
+www.laptopsdirect.co.uk##.hub-card h4:has-text(Popular searches):upward(.hub-card)
+www.laptopsdirect.co.uk##h2:has-text(Need help?):upward(section)
+www.laptopsdirect.co.uk##h2:has-text(Best Buys):upward(section)
+www.laptopsdirect.co.uk###toptips
+www.laptopsdirect.co.uk##.content-landing-page-carousel
+www.laptopsdirect.co.uk###products > section
+www.laptopsdirect.co.uk###bestbuy
+www.laptopsdirect.co.uk##.why-buy
+www.laptopsdirect.co.uk##.bestlaptopdeals-header
+www.laptopsdirect.co.uk##.bestlaptopdeals-header:upward(1) + div
+www.laptopsdirect.co.uk###___ratingbadge_0
+www.laptopsdirect.co.uk##.coda-offer
+www.laptopsdirect.co.uk###Alllaptopsfooter_0_rotating-banner-holder
 
 ! LAVENDER WORLD
 www.lavenderworld.co.uk##.blocker
@@ -7792,6 +7945,8 @@ matalan.co.uk##.o-footer__menu--social
 ! MCCOLL's
 mccolls.co.uk###message-bar
 mccolls.co.uk##.global-cookie.show ~ .page-wrapper::before:style(display: none! important;)
+mccolls.co.uk##.blog-banner
+mccolls.co.uk##.blog-list
 
 ! MECH BOARDS
 mechboards.co.uk###footer--social
@@ -8495,6 +8650,27 @@ www.newegg.com###author-info
 www.newegg.com###author-bio
 www.newegg.com###footer-outer
 
+! NEW LOOK
+www.newlook.com##.banner-component
+www.newlook.com##[id*="global-hero"]
+www.newlook.com##.squared-ratio
+www.newlook.com##[id*="global-category-carousel"]
+www.newlook.com##[id^="cmsitem_"]
+www.newlook.com##.page-footer__sign-up-content
+www.newlook.com##.page-footer__social-media
+www.newlook.com##.page-footer__payment
+www.newlook.com##.main-navigation__wrapper img
+www.newlook.com##.ng-scope.masthead__saved-link
+www.newlook.com##.product-item__saveditem
+www.newlook.com##.product-item__promo-image
+www.newlook.com##.plp-description
+www.newlook.com##.banner-links
+www.newlook.com##.product-description__highlight
+www.newlook.com##.product-item__pdp-heart-icon
+www.newlook.com###shopTheLookProductCarousel
+www.newlook.com##.pdp-shopTheLook
+www.newlook.com##.ng-scope.carousel-component
+
 ! NEW SCIENTIST
 www.newscientist.com##.header-subscribe
 www.newscientist.com##.header-promotion
@@ -8607,6 +8783,12 @@ www.next.co.uk##.bag-action
 www.next.co.uk##.nav-story
 www.next.co.uk###br-related-items-widget
 www.next.co.uk##.recently-viewed
+
+! NEXT DOOR
+nextdoor.co.uk##body:style(overflow: auto !important;)
+nextdoor.co.uk##.__reakit-portal
+nextdoor.co.uk###supporting_content
+nextdoor.co.uk##.static-promo
 
 ! NGINX
 www.nginx.com###nx_gdpr_modal2
@@ -8907,6 +9089,40 @@ www.oakfurnitureland.co.uk##.slides
 www.oakfurnitureland.co.uk##.cell > [href="/category/christmas-delivery/"]
 www.oakfurnitureland.co.uk##.reviews
 
+! OCADO
+www.ocado.com###siteTabs
+www.ocado.com##.first-section
+www.ocado.com##.journey-fh-container
+www.ocado.com##.largeMiddleBanners
+www.ocado.com###offers
+www.ocado.com##.offers
+www.ocado.com###event
+www.ocado.com##.seasonal
+www.ocado.com###easy-shopping
+www.ocado.com##.easy-shopping
+www.ocado.com###brandWrapper
+www.ocado.com##.dropDownNav:style(top: 130px !important;)
+www.ocado.com##.dropdown-menu:style(top: 130px !important;)
+www.ocado.com##.dropDownNav img
+www.ocado.com##.dropdown-menu img
+www.ocado.com##.hd-topTabs
+www.ocado.com##.recommended-fops
+www.ocado.com##.scribe-wrapper
+www.ocado.com##.fop-image-corner
+www.ocado.com##.ft-socialMedia
+www.ocado.com##.ft-apps
+www.ocado.com##.ft-footer__logoImg
+www.ocado.com##.fops-item--featured
+www.ocado.com##.rc-relatedCategories
+www.ocado.com##.sidebar-nav img
+www.ocado.com##.supplierBanner
+www.ocado.com##.bop-bannerSection
+www.ocado.com##.bop-fops
+www.ocado.com##.bop-categoriesAndTags
+www.ocado.com###recipes
+www.ocado.com##.bop-disclaimer
+www.ocado.com##.ft-backToTop
+
 ! ODEALO
 odealo.com##.payment-features
 odealo.com##.banner-carousel
@@ -9004,6 +9220,19 @@ www.openingtimesin.uk##.offers-section
 ! OPENREACH
 www.openreach.com##.cookie-popup-overlay
 www.openreach.com##.g-recaptcha
+
+! OPEN SOURCE
+opensource.com##.branding__supported-by
+opensource.com##.author__list
+opensource.com##.author__comment-count
+opensource.com##.rate-score
+opensource.com##.embedded-callout-menu
+opensource.com##.author-block
+opensource.com##.field--name-field-tags
+opensource.com##.related-articles
+opensource.com##.field--name-field-default-license
+opensource.com###block-connectfooter
+opensource.com###block-sitebranding
 
 ! ORBI
 192.168.1.1##.card-orbi-app
@@ -9444,6 +9673,13 @@ discourse.pi-hole.net##.btn-social
 ! PIMORONI
 shop.pimoroni.com##.benefits-container
 
+! PI MY LIFE UP
+pimylifeup.com##.email-optin
+pimylifeup.com##.lbb-related-posts
+pimylifeup.com##.widget-area
+pimylifeup.com##.byline
+pimylifeup.com##.cat-links
+
 ! PINCH OF NOM
 pinchofnom.com##body > header:style(top: 0 !important;)
 pinchofnom.com##.pon-heading-2:style(padding-top: 0 !important;)
@@ -9798,6 +10034,19 @@ www.prettylittlething.com##.product-upsell-container
 www.prettylittlething.com##.wishlist-icon
 www.prettylittlething.com###add-to-wishlist
 www.prettylittlething.com##.related-products
+
+! PREZZY BOX
+www.prezzybox.com##.site-wide-banner-container
+www.prezzybox.com##.save-for-later-header
+www.prezzybox.com##.content-banner
+www.prezzybox.com###infoblock-container
+www.prezzybox.com##.merchant-reviews
+www.prezzybox.com###newsletter-register
+www.prezzybox.com##.product-badge
+www.prezzybox.com##.save-for-later-large
+www.prezzybox.com##.save-for-later-small
+www.prezzybox.com##.may-also-like
+www.prezzybox.com##.product-page-section-container__related
 
 ! PRICERUNNER
 pricerunner.com##button[aria-label="Add or remove from lists"]:upward(4)
@@ -10401,6 +10650,20 @@ rightmove.co.uk###propertyplayer
 ! RING
 ring.com##.product-pop-acc
 ring.com###shopify-section-kustomer
+
+! RIVER ISLAND
+www.riverisland.com##.promo-links
+www.riverisland.com###header-wishlist
+www.riverisland.com##.mega-menu__column-item.promo
+www.riverisland.com##.newsletter
+www.riverisland.com##[class*="ProductCardWishListButton__button"]
+www.riverisland.com##[data-promo]
+www.riverisland.com##[data-qa="content-banner"]
+www.riverisland.com##[class*="wishlist-btn"]
+www.riverisland.com##[class*="messaging-banner"]
+www.riverisland.com###klarna-banner
+www.riverisland.com##h2:has-text(YOU MAY ALSO LIKE):upward(section)
+www.riverisland.com##h3:has-text(You've just seen):upward(section)
 
 ! ROBERT DYAS
 www.robertdyas.co.uk##.footer-newsletter
@@ -11703,6 +11966,24 @@ techrepublic.com##:xpath(//section[child::div[child::h2[child::span[contains(tex
 techrepublic.com##:xpath(//div[contains(@class, 'content')]/p[child::strong[contains(text(), 'SEE:')]])
 techrepublic.com##:xpath(//div[contains(@class, 'content')]/h2[contains(text(), 'Also see')])
 techrepublic.com##:xpath(//div[contains(@class, 'content')]/h2[contains(text(), 'Also see')]) ~ *
+techrepublic.com##.pinbox
+techrepublic.com##.logo-premium
+techrepublic.com##.author:upward(div)
+techrepublic.com##.author_avatar
+techrepublic.com##p > strong:has-text(LEARN MORE:):upward(p)
+techrepublic.com##p > em > strong:has-text(Affiliate disclosure):upward(p)
+techrepublic.com##.also-see
+techrepublic.com##.share
+techrepublic.com##.author_info_footer
+techrepublic.com##.categories
+techrepublic.com##.editors-picks
+techrepublic.com##.social-links
+techrepublic.com##.premium-col
+techrepublic.com##p > strong:has-text(SEE:):upward(p)
+techrepublic.com##.article-disclaimer
+techrepublic.com##p > b:has-text(SEE:):upward(p)
+techrepublic.com##footer > .byline
+techrepublic.com##.view-category
 
 ! TECH SPOT
 techspot.com##.sidebarContent
@@ -11805,6 +12086,20 @@ tftcentral.co.uk##.tftce-adlabel
 thaievisa.go.th##.ant-modal-root
 thaievisa.go.th##body:style(overflow: auto !important;)
 thaievisa.go.th##.navbar
+
+! THE BODY SHOP
+www.thebodyshop.com##.BottomHeaderSlot
+www.thebodyshop.com##.nav-link__wishlist
+www.thebodyshop.com##.FooterSocialIcons
+www.thebodyshop.com##app-amplience-homepage-hero-banner
+www.thebodyshop.com##cx-amplience-banners
+www.thebodyshop.com##cx-amplience-carousels
+www.thebodyshop.com##cx-add-to-wishlist
+www.thebodyshop.com##app-subscribe
+www.thebodyshop.com##nav[aria-label="Trending"]
+www.thebodyshop.com##.product-row> div
+www.thebodyshop.com##.price__promo-msg
+www.thebodyshop.com##.product-intro__promo
 
 ! THE CANARY
 www.thecanary.co###top-nav-anchor
@@ -14168,6 +14463,9 @@ m.webtoons.com##.btn_likeit
 m.webtoons.com##.btn_comment
 
 ! WESTERN DIGITAL
+www.westerndigital.com##.region-selection-bar
+www.westerndigital.com##.profile-header-b2b
+www.westerndigital.com##.promo-carousel
 community.wd.com##.signup-cta
 community.wd.com##.suggested-topics-wrapper
 community.wd.com##.wdsidebar
@@ -14176,6 +14474,7 @@ community.wd.com##.topic-category
 community.wd.com##.post-controls
 community.wd.com##.share-and-invite
 community.wd.com##.bookmark
+community.wd.com###banner
 wd.com##.oda-chat-wrapper
 support-en.wd.com##[href="https://twitter.com/westerndigital"]:upward(li)
 
@@ -14605,6 +14904,9 @@ www.woodshopdirect.co.uk###product_customer_images_case
 
 ! WORCHESTER BOSCH
 www.worcester-bosch.co.uk##.BoschPrivacySettingsV2
+
+! WORLD NOMADS
+www.worldnomads.com##.zone-aside-second
 
 ! WP BEGINNER
 www.wpbeginner.com##.entry-footer
