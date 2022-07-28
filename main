@@ -10116,7 +10116,7 @@ www.propublica.org##.site-footer__section-logo
 www.propublica.org##.site-footer__links-follow
 
 ! PROTONMAIL
-mail.protonmail.com##.blackFridayModal.pm_modal
+mail.protonmail.com##.blackFridayModal
 beta.protonmail.com##.blackfriday-mail-modal
 beta.protonmail.com##:xpath(//li[child::span[child::button[contains(@title, 'Special offer')]]])
 protonmail.com###entry-author
@@ -10126,8 +10126,8 @@ protonmail.com##.apps
 protonmail.com##.press-section
 protonmail.com##.top
 mail.proton.me##button[title="Close this banner"]:upward(div)
-mail.proton.me##.modal-two
-mail.proton.me##.modal-two-backdrop
+!mail.proton.me##.modal-two
+!mail.proton.me##.modal-two-backdrop
 
 ! PROTONVPN
 protonvpn.com##.black-friday-top-bar
