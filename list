@@ -250,6 +250,8 @@ xhamster.com###player-container:style(height: 80vh !important;)
 xhamster.com##.xp-aftershot-inner
 xhamster.com##.badge-producer
 xhamster.com##.creator-amateur
+xhamster.com##.video-tag
+xhamster.com###video-tags-list-container
 
 ! XVIDEOS
 www.xvideos.com##+js(rc, disclaimer-opened|img-blured, html)
