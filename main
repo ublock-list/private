@@ -175,6 +175,7 @@
 ||icons8.com
 ||iconscout.com
 ||icutlink.com
+||ier.ai
 ||illink.net
 ||imageshack.host
 ||imperialstudy.com
@@ -229,11 +230,13 @@
 ||mavq.net
 ||media-bucket.com
 ||medicalnewstoday.com
+||medipost.org
 ||megafly.in
 ||megaurl.in
 ||metalsess.blogspot.com
 ||metosk.com
 ||mfk-shorter.com
+||mhma12.tech
 ||mobi2c.com
 ||mobilenations.com
 ||moviesfly.club
@@ -372,6 +375,7 @@
 ||unsplash.com
 ||up-load.one
 ||urbharat.xyz
+||usalink.io
 ||usercentrics.eu
 ||utytech.com
 ||viafoura.co
@@ -2120,6 +2124,15 @@ bbc.*##[class*="ShareToolLinkContainer"]
 bbc.*##.wr-hyperpuff-vertical
 bbc.*###You-may-be-interested-in-watching
 bbc.*###You-may-be-interested-in-watching:upward(1) ~ *
+bbc.*##.epl
+bbc.*##.blq-toplink
+bbc.*##.ukfs_services
+bbc.*##.storyextra
+bbc.*##.dotcom-ad
+bbc.*##.promotion__link
+bbc.*##h2:has-text(More from):upward(2)
+bbc.*##li[class*="PromoWrapper"]:upward(3)
+bbc.*##h2:has-text(BBC Around the UK):upward(2)
 
 ! BBC GOOD FOOD
 bbcgoodfood.com##.template-article__social-share
@@ -2424,6 +2437,7 @@ boardgamearena.com##.bga-omni-bar-holder .omnibar-title:has-text(Recently met):u
 boardgamearena.com##.bga-omni-bar-holder .omnibar-title:has-text(Players):upward(div)
 boardgamearena.com##.bga-omni-bar-holder .omnibar-title:has-text(Groups):upward(div)
 boardgamearena.com##.bga-omni-bar-holder .omnibar-title:has-text(Feeling lucky?):upward(div.panels)
+boardgamearena.com##.log .icon20_suggestion:upward(.log)
 
 ! BOARD GAME GEEK
 boardgamegeek.com##gg-support-leaderboard-ad
@@ -2585,6 +2599,21 @@ boots.com###Promotion
 boots.com###richRelevanceContainer
 boots.com###BVRRContainer
 boots.com###estore_adcard_points_to_earn_widget
+
+! BONG NGO TV
+bongngotv.net##a[href^="https://cutt.ly/"]
+bongngotv.net##.right-content
+bongngotv.net###film-trailer
+bongngotv.net##.owl-carousel
+bongngotv.net##.preload-banner
+bongngotv.net##.ab1
+bongngotv.net###btn_lightbulb
+bongngotv.net##.box-rating
+bongngotv.net##.keywords
+bongngotv.net##.logo-footer
+bongngotv.net##.tags
+bongngotv.net##.caption
+bongngotv.net##.copy-right
 
 ! BORED PANDA
 boredpanda.com##.sidebar
@@ -4143,6 +4172,9 @@ ebay.*##.b-guidance
 ebay.*##.hl-popular-destinations-elements
 ebay.*##[id^="destinations_list"]
 ebay.*##.s-results-tray
+ebay.*##.similar-items-panel
+ebay.*##.promotions-panel
+ebay.*##.verticals-tooltip
 
 ! EBUYER
 www.ebuyer.com##.siteskin-links__item
@@ -4200,6 +4232,11 @@ www.educba.com##.single-title
 www.educba.com##.back-to-top
 www.educba.com###mobilenav
 www.educba.com##.inline-pp-banner
+www.educba.com##[id^="banner_"]
+www.educba.com##.quiz-btn
+www.educba.com##[class*="banner-"]
+www.educba.com##.swp_social_panel
+www.educba.com##.sidebar
 
 ! EE
 ee.co.uk##[class*="related-articles"]
@@ -4877,6 +4914,18 @@ www.fresha.com###heart-fill
 www.fresha.com##[class*="FavoriteButton"]
 www.fresha.com##[class*="styled__IconsContainer"]
 
+! FSHARE TV
+fsharetv.com##.movie-card .chip
+fsharetv.com##.movie-card .info
+fsharetv.com##.columns > .column.col-3
+fsharetv.com##[id^="home_incontent_"]
+fsharetv.com##.column .rice
+fsharetv.com##h1:has-text(Thông tin:)
+fsharetv.com##h1:has-text(Từ khóa:)
+fsharetv.com##h1:has-text(Từ khóa:) + div
+fsharetv.com##h1:has-text(Phim liên quan:)
+fsharetv.com##h1:has-text(Phim liên quan:) + div
+
 ! FULL FACT
 fullfact.org##.ga-navbar-donate
 fullfact.org##.alert-secondary
@@ -5139,6 +5188,10 @@ genpassword.top##a > img
 ! GEORGE AND DRAGON
 www.georgeanddragon-ightham.co.uk##.eupopup-container
 www.georgeanddragon-ightham.co.uk##.social-links
+
+! GET DROID TIPS
+www.getdroidtips.com##[class*="ai-viewport-"]
+www.getdroidtips.com##.ad-label
 
 ! GFY CAT
 gfycat.com##[href="https://gfycat.com/signup"]
@@ -5820,6 +5873,7 @@ healthline.com##article + div
 healthline.com##h4:has-text(HEALTHLINE NEWSLETTER):upward(4)
 healthline.com##footer img
 healthline.com##:xpath(//div[contains(text(), 'HEALTHLINE NEWSLETTER')]):upward(section)
+healthline.com##[src*="?w=105&h=105"]
 
 ! HEATHROW
 www.heathrow.com##.share-container
@@ -7827,6 +7881,20 @@ littlewoods.com##:xpath(//h3[contains(@class, 'menu__header') and contains(text(
 ! LIVE COIN WATCH
 www.livecoinwatch.com##.s-header
 
+! LIVE SCIENCE
+www.livescience.com##.qc-cmp2-container
+www.livescience.com##.author-block
+www.livescience.com##.related-articles-block
+www.livescience.com##.trendingbar
+www.livescience.com###affiliate-disclaimer
+www.livescience.com###sidebar
+www.livescience.com##.nav-subscribe
+www.livescience.com##.buttons-social
+www.livescience.com##.by-author
+www.livescience.com##.list-text-links-trending-panel
+www.livescience.com##.popular-box
+www.livescience.com##.sponsored-post:upward(div)
+
 ! LIVE STRONG
 www.livestrong.com##.component-article-jwplayer-wrapper
 www.livestrong.com##.right-rail
@@ -9163,6 +9231,7 @@ nintendolife.com##h2:has-text(Most Read):upward(section)
 nintendolife.com##h2:has-text(Popular Reviews):upward(section)
 nintendolife.com##h2:has-text(Latest Videos):upward(section)
 nintendolife.com##h2:has-text(Featured Reviews):upward(section)
+nintendolife.com##.trending-articles
 
 ! NK NEWS
 www.nknews.org###private
@@ -10723,9 +10792,9 @@ reddit.com##[id*="overlay-share-menu"]
 reddit.com##span:has-text(save):upward(div)
 reddit.com##span:has-text(hide):upward(div)
 reddit.com##span:has-text(share):upward(div)
-reddit.com##button:has-text(Save)
-reddit.com##button:has-text(Follow)
-reddit.com##button:has-text(Share)
+!reddit.com##button:has-text(Save)
+!reddit.com##button:has-text(Follow)
+!reddit.com##button:has-text(Share)
 reddit.com##h2:has-text(Similar to this post):upward([data-redditstyle="false"])
 reddit.com##:xpath(//div[contains(text(), 'More posts you may like')]):upward(div)
 
@@ -11390,7 +11459,7 @@ serokell.io##.blog-post__footer
 serokell.io##.blog-post__bottom
 serokell.io##.footer__socials
 
-! SERVERFAULT
+! SERVER FAULT
 serverfault.com##.js-teams-promo
 serverfault.com##.js-consent-banner
 serverfault.com##.js-dismissable-hero
@@ -11404,6 +11473,10 @@ serverfault.com##.site-footer--copyright
 serverfault.com##.bottom-notice
 serverfault.com##.privacy-policy-agreement
 serverfault.com##.show-votes
+serverfault.com##.jc-space-between
+serverfault.com##.js-share-link
+serverfault.com##.js-follow-question
+serverfault.com###question-header .s-btn
 
 ! SERVE THE HOME
 www.servethehome.com##.td-post-sharing-top
@@ -11811,6 +11884,10 @@ stackexchange.com##.site-footer--copyright
 stackexchange.com##.bottom-notice
 stackexchange.com##.privacy-policy-agreement
 stackexchange.com##.show-votes
+stackexchange.com##.jc-space-between
+stackexchange.com##.js-share-link
+stackexchange.com##.js-follow-question
+stackexchange.com###question-header .s-btn
 
 ! STACK OVERFLOW
 stackoverflow.com##.js-teams-promo
@@ -11839,6 +11916,10 @@ stackoverflow.com###announcement-banner
 stackoverflow.com##.fc-orange-400:has-text(Trending sort available)
 stackoverflow.com##.post-notice
 stackoverflow.com##.js-launch-popover-toggle
+stackoverflow.com##.jc-space-between
+stackoverflow.com##.js-share-link
+stackoverflow.com##.js-follow-question
+stackoverflow.com###question-header .s-btn
 
 ! STAPLES
 www.staples.co.uk##.bestSellers
@@ -12010,6 +12091,20 @@ superuser.com##.bottom-notice
 superuser.com##.privacy-policy-agreement
 superuser.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')])
 superuser.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')]) ~ *
+
+! SURF FORECAST
+www.surf-forecast.com##.resp-leaderboard-cont
+www.surf-forecast.com##.region-breaks-list
+www.surf-forecast.com##.footer__links-flex-block
+www.surf-forecast.com##.footer__meteo-block
+www.surf-forecast.com##.bn-placeholder
+www.surf-forecast.com##.sidebar
+www.surf-forecast.com##.t-shirt-comp
+www.surf-forecast.com##.js-incentive
+www.surf-forecast.com##.print-link
+www.surf-forecast.com##.signup-prompt
+www.surf-forecast.com##.show-for-medium-up
+www.surf-forecast.com##.footer__social-icons-list
 
 ! SUTTONS
 www.suttons.co.uk##.header-usp
@@ -12266,6 +12361,15 @@ techradar.com##.trendingbar
 techradar.com##.slice-experts-header
 techradar.com##.slice-experts
 techradar.com##.trbc
+techradar.com##.ad-unit
+techradar.com##[id*="ad-unit"]
+techradar.com###mobile-in-article
+techradar.com##.moreAbout
+techradar.com##.locale-links
+techradar.com###top-leaderboard
+techradar.com##.sub-brands-bar
+techradar.com##.static-lightbox2
+techradar.com##[class*="static-lightbox"]
 
 ! TECH REPUBLIC
 techrepublic.com##.btn-premium
@@ -12842,6 +12946,7 @@ www.mirror.co.uk##.factbox
 www.mirror.co.uk##section[data-mod="mostRead"]
 www.mirror.co.uk##.author
 www.mirror.co.uk##.ad-placeholder
+www.mirror.co.uk##.ad-placeholder--billboard
 www.mirror.co.uk##.more-on
 www.mirror.co.uk##.breadcrumbs
 www.mirror.co.uk##.topStories
@@ -12854,7 +12959,6 @@ www.mirror.co.uk##.inline-article-nav
 www.mirror.co.uk##.signin
 www.mirror.co.uk##.recirculation
 www.mirror.co.uk##.read-more__title
-www.mirror.co.uk##.ad-placeholder
 www.mirror.co.uk##dwell-observer
 
 ! THE NEW STATESMAN
@@ -13799,19 +13903,24 @@ tripadvisor.*##*[data-automation="save-and-share-SAVE"]
 tripadvisor.*##*[data-automation="save-and-share-SHARE"]
 tripadvisor.*##*[aria-label="Save to a trip"]
 tripadvisor.*##*[data-automation="WebPresentation_WideCardsCarousel"]
-tripadvisor.co.uk##.ui_tagcloud_group
-tripadvisor.co.uk##.thankButton
-tripadvisor.co.uk##.note
-tripadvisor.co.uk##.flag
-tripadvisor.co.uk##.global_footer img
-tripadvisor.co.uk##[class*="ppr_priv_hotels_list_"]
-tripadvisor.co.uk##.component-widget button:has-text(Download the app):upward(.component-widget)
-tripadvisor.co.uk##.ppr_priv_cupid_pricing_trends
-tripadvisor.co.uk##[id*="taplc_hotels_faq_dusty_hotels_resp"]
-tripadvisor.co.uk##.persistent_tabs_header
-tripadvisor.co.uk###component_14
-tripadvisor.co.uk##.ppr_priv_hr_promo_banner
-tripadvisor.co.uk###taplc_second_inline_ad_hotel_review_resp_phone_0
+tripadvisor.*##.ui_tagcloud_group
+tripadvisor.*##.thankButton
+tripadvisor.*##.note
+tripadvisor.*##.flag
+tripadvisor.*##.global_footer img
+tripadvisor.*##[class*="ppr_priv_hotels_list_"]
+tripadvisor.*##.component-widget button:has-text(Download the app):upward(.component-widget)
+tripadvisor.*##.ppr_priv_cupid_pricing_trends
+tripadvisor.*##[id*="taplc_hotels_faq_dusty_hotels_resp"]
+tripadvisor.*##.persistent_tabs_header
+tripadvisor.*###component_14
+tripadvisor.*##.ppr_priv_hr_promo_banner
+tripadvisor.*###taplc_second_inline_ad_hotel_review_resp_phone_0
+tripadvisor.*##[data-automation="WebPresentation_TabbedSectionWeb"]:upward(section)
+tripadvisor.*##[data-automation="WebPresentation_MediumCardsCarouselWeb"]:upward(section)
+tripadvisor.*##section[aria-label^="Find answers to all of your questions about Tripadvisor Visit"]
+tripadvisor.*##a[href^="/TravelersChoice"]
+tripadvisor.*##a[href="/Trips"]
 
 ! TRIP SAVVY
 www.tripsavvy.com##.social-share-block
@@ -14486,6 +14595,7 @@ www.viking-direct.co.uk##.home-seo
 www.viking-direct.co.uk##.banner
 
 ! VIMEO
+vimeo.com##.iris_grid-sidebar
 player.vimeo.com##.like-button
 player.vimeo.com##.watch-later-button
 player.vimeo.com##.share-button
@@ -14856,6 +14966,12 @@ webmd.com##.copoun-text
 webmd.com##.find-lowest-prices
 webmd.com##.collapse-TandS
 webmd.com##.reviewer-info
+webmd.com##.section-related-links-container
+webmd.com##.you-might-also-like
+webmd.com##.other-drugs
+webmd.com##.other-drugs-finder
+webmd.com##.rx-card
+webmd.com##.fdb-declaration
 
 ! WEBTOONS
 www.webtoons.com##.on._gdprCookieBanner.gdpr_ly_cookie
@@ -15130,6 +15246,9 @@ www.wickeduncle.co.uk###popular-products
 www.wickeduncle.co.uk###home-about
 www.wickeduncle.co.uk###home-bottom-blocks
 www.wickeduncle.co.uk###cta-blog
+www.wickeduncle.co.uk##.share-link
+www.wickeduncle.co.uk###help-info-banner
+www.wickeduncle.co.uk##.footer-social
 
 ! WICKES
 wickes.co.uk##.sticky-wrapper
@@ -15192,6 +15311,8 @@ wikihow.*###byline_info > b
 wikihow.*###method_toc
 wikihow.*##.al_method
 wikihow.*###wikilove_header
+wikihow.com##.bss_share_container
+wikihow.com##.sticky.sample
 
 ! WIKIPEDIA
 wikipedia.org##.cn-fundraising
