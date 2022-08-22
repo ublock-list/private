@@ -4879,6 +4879,17 @@ foodnetwork.*##.packagePromo
 foodnetwork.*###mod-article-stream-1 > div:nth-of-type(3) ~*
 foodnetwork.*##.o-AutoPilot__m-AutoPilot-Wrap
 foodnetwork.*##.o-FooterFresh__a-Button--Top
+foodnetwork.*##[id^="mod-full-width-promo"]
+foodnetwork.*##.superLeadHero
+foodnetwork.*##.storyPromo
+foodnetwork.*##.videoPlaylistEmbed
+foodnetwork.*##.container-aside
+foodnetwork.*##.assetNavigation
+foodnetwork.*##.o-AssetActions
+foodnetwork.*##.o-Ingredients__m-Footer
+foodnetwork.*##.recipe-body-footer
+foodnetwork.*##.lookingForSomethingElse
+foodnetwork.*##.m-DropdownMenu__m-MediaPromo
 
 ! FORBES
 www.forbes.com##.amp-player-wrapper
