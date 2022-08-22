@@ -422,6 +422,7 @@
 
 ! 192
 www.192.com##.ont-cookies-wrapper
+www.192.com##.ont-cookies
 
 ! 1ST CHOICE JOBS
 1stchoicejobs.co.uk##.sidebar--block.bg-yellow
@@ -1247,6 +1248,7 @@ www.androidcentral.com##.hawk-merchant-link-widget-container
 www.androidcentral.com##.hawk-title-merchantlink-title-buying-guide
 www.androidcentral.com##aside.hawk-processed.hawk-nest:nth-of-type(1)
 www.androidcentral.com##.vid-present.van_vid_carousel
+forums.androidcentral.com###notices
 
 ! ANDROID POLICE
 www.androidpolice.com##.ap-new-articles-btn
@@ -1731,6 +1733,20 @@ www.autocar.co.uk##.pane-promo-unit
 ||www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/save_you_money_*.jpg$image
 ||www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/what-car-new-buying-*.jpg$image
 
+! AUTO DOC
+m.autodoc.co.uk##.cps_app
+m.autodoc.co.uk##.popup-after-select-auto
+m.autodoc.co.uk##.popup-choose-cookies
+m.autodoc.co.uk##.header-links
+m.autodoc.co.uk##.discount-box
+m.autodoc.co.uk##[id*="app-button-"]
+m.autodoc.co.uk##.js-filter-brands-page
+m.autodoc.co.uk##.scroll-block
+m.autodoc.co.uk##.add-to-wishlist
+m.autodoc.co.uk##.old_price
+m.autodoc.co.uk##.js-btn-show-popup-basket-alternatives
+m.autodoc.co.uk##.recommendation
+
 ! AUTOEXPRESS
 autoexpress.co.uk##.polaris__subscription
 autoexpress.co.uk##.polaris__newsletter
@@ -1883,6 +1899,12 @@ avon.uk.com###site-social-share
 avon.uk.com##.footer-payment-icons
 avon.uk.com##.recently-viewed-products
 avon.uk.com##.payment-icons
+
+! AV TEST
+www.av-test.org##[href="https://www.linkedin.com/company/avtestorg/"]
+www.av-test.org##.ax-social
+www.av-test.org##.ax-newsletter
+www.av-test.org##.ax-main-col-right
 
 ! AWESOME OPEN SOURCE
 awesomeopensource.com##.adsense_ad
@@ -3992,8 +4014,16 @@ www.dropbox.com##.login-form-container__google-div
 www.dropbox.com##.login-form-container__apple-div
 www.dropbox.com##.ReactModalPortal
 
+! DR RUSCIO
+drruscio.com##.subscribe-link
+drruscio.com##.post-meta__top
+drruscio.com##.post-meta__bottom
+drruscio.com##.podcast > ul
+drruscio.com##.pc-full
+
 ! DRUGS.COM
 www.drugs.com##*[id*="display-ad-injection"]
+www.drugs.com##.ddc-reviewed-by
 
 ! DT BROWN SEEDS
 www.dtbrownseeds.co.uk###bio_ep_bg
@@ -4471,6 +4501,9 @@ www.eurogamer.net###onetrust-consent-sdk
 www.eurogamer.net###onetrust-consent-sdk
 www.eurogamer.net##.supporter_promo
 
+! EUROSTAR
+eurostar.com###__tealiumGDPRecModal
+
 ! EURPOA
 europa.eu##app-detail-media
 europa.eu##.wtShareList
@@ -4732,6 +4765,11 @@ fanfiction.net##.timeline-Widget
 ! FAST POLL
 fast-poll.com##.gdpr-cookie-message-wrapper
 
+! F-DROID
+forum.f-droid.org##.suggested-topics-wrapper
+forum.f-droid.org##.actions
+forum.f-droid.org##.topic-map
+
 ! FEASTING AT HOME
 www.feastingathome.com##*[id*="AdThrive_Content"]
 www.feastingathome.com##.tasty-pinit-button
@@ -4801,6 +4839,14 @@ www.fiverr.com###react-app-banner
 www.fiverr.com##.social
 www.fiverr.com##.sign-up-modal
 
+! FLIGHT RADAR 24
+www.flightradar24.com###open-in-app-banner
+www.flightradar24.com##.ad-manager-wrapper
+www.flightradar24.com##.disclaimer
+www.flightradar24.com###navContainer:style(top: 0 !important;)
+www.flightradar24.com##.row-upgrade
+www.flightradar24.com##.map-components-wrapper
+
 ! FLOORING MEGASTORE
 flooringmegastore.co.uk##.iconbar-wrapper
 flooringmegastore.co.uk##.interested-slider
@@ -4816,13 +4862,23 @@ flutter.dev##.site-banner
 flutter.dev##.cookie-snack
 
 ! FOOD NETWORK
-foodnetwork.co.uk##.carousel
-foodnetwork.co.uk##.callout
-foodnetwork.co.uk##.block--collection
-foodnetwork.co.uk##.footer-logo
-foodnetwork.co.uk##.social
-foodnetwork.co.uk##.header--discovery-plus
-foodnetwork.co.uk##.tags
+foodnetwork.*##.carousel
+foodnetwork.*##.callout
+foodnetwork.*##.block--collection
+foodnetwork.*##.footer-logo
+foodnetwork.*##.social
+foodnetwork.*##.header--discovery-plus
+foodnetwork.*##.tags
+foodnetwork.*##.socialSharing
+foodnetwork.*###dfp_smartphone_banner
+foodnetwork.*##.attribution
+foodnetwork.*##.articleBody p > b:has-text(Related Links):upward(p)
+foodnetwork.*##.articleBody p > b:has-text(Related Links):upward(p) ~ *
+foodnetwork.*##.tags
+foodnetwork.*##.packagePromo
+foodnetwork.*###mod-article-stream-1 > div:nth-of-type(3) ~*
+foodnetwork.*##.o-AutoPilot__m-AutoPilot-Wrap
+foodnetwork.*##.o-FooterFresh__a-Button--Top
 
 ! FORBES
 www.forbes.com##.amp-player-wrapper
@@ -6306,6 +6362,8 @@ huel.com###mmModalReferrerStage1
 huel.com###geolocation-app
 huel.com##.header-geolocation-bar
 huel.com###shopify-section-cookie-banner
+huel.com##.PromoBar
+huel.com##.icons_social__container
 discuss.huel.com##.signup-cta
 discuss.huel.com###banner
 discuss.huel.com##.header-buttons
@@ -8215,6 +8273,15 @@ matalan.co.uk##.o-footer__menu--social
 mattermost.com##.notification-bar
 mattermost.com##.signup-form-sso
 
+! MAYO CLINIC
+www.mayoclinic.org##.requestappt
+www.mayoclinic.org##.share
+www.mayoclinic.org##.acces-list-container
+www.mayoclinic.org##.socialmedia
+www.mayoclinic.org##.donate
+www.mayoclinic.org##.requestappointment
+www.mayoclinic.org##.print
+
 ! MCCOLL's
 mccolls.co.uk###message-bar
 mccolls.co.uk##.global-cookie.show ~ .page-wrapper::before:style(display: none! important;)
@@ -8591,6 +8658,12 @@ www.motorauthority.com##.parallax-window
 www.motorauthority.com##.footer
 www.motorauthority.com###used-cars
 
+! MOTOR DOCTOR
+www.motor-doctor.co.uk##.cps_app
+www.motor-doctor.co.uk##.popup-choose-cookies
+www.motor-doctor.co.uk##.generic-links-box
+www.motor-doctor.co.uk##.filter-brands-list
+
 ! MOUNTAIN WAREHOUSE
 mountainwarehouse.com##.c-cookie-notification
 mountainwarehouse.com###sledgehammer
@@ -8849,6 +8922,8 @@ ncbi.nlm.nih.gov##.switch-version-button
 ncbi.nlm.nih.gov##.custom-feedback-button
 ncbi.nlm.nih.gov##.icon-section
 ncbi.nlm.nih.gov###similar
+ncbi.nlm.nih.gov##.social_media
+ncbi.nlm.nih.gov##.page-navigator
 
 ! NCP
 www.ncp.co.uk###cookie-notice
@@ -9354,6 +9429,9 @@ nsandi.com##.section--help
 nsandi.com###js-welcome-slider
 nsandi.com###carousel-container
 nsandi.com##.promotion
+nsandi.com###unsupported-browser
+nsandi.com###__tealiumGDPRecModal
+nsandi.com##.header-message
 
 ! NYPOST
 nypost.com##.breaking-news
@@ -10964,6 +11042,7 @@ www.richersounds.com##.product-promotion
 www.richersounds.com##.product-saving
 www.richersounds.com##.saving-badge
 www.richersounds.com##.previous-price-wrapper
+www.richersounds.com##.vip-welcome-message
 
 ! RIGHTMOVE
 rightmove.co.uk###branchProfilePropertyDetailsHeader
@@ -11352,6 +11431,9 @@ sciencedaily.com###adslot-top-leaderboard
 sciencedaily.com###navwrapper:style(top:95px !important;)
 sciencedaily.com##:xpath(//div[contains(@class, 'hidden-tiny') and descendant::span[contains(text(), 'advertisement')]])
 sciencedaily.com##:xpath(//div[contains(@class, 'col-md-6') and descendant::div[contains(@class, 'fullstory') and contains(text(), 'RELATED STORIES')]])
+
+! SCIENCE DIRECT
+www.sciencedirect.com##._pendo-badge
 
 ! SCIENCE NEWS
 www.sciencenews.org##div[class*="newsletter-global-subscribe__wrapper___"]
@@ -13112,6 +13194,8 @@ theregister.com##.has_label > .row_label:has-text(Popular):upward(.has_label)
 theregister.com##.rt-1c > article
 theregister.com##.rt-1dp > article
 theregister.com##article .section_name:has-text(Sponsored):upward(article)
+theregister.com###bc_cta
+theregister.com##.rt-broadcast
 forums.theregister.com###condor_1
 forums.theregister.com##.gtag_display.adun
 forums.theregister.com###story_rhs_ml_signup
@@ -13325,6 +13409,16 @@ www.thetrainline.com###testing-banner:upward(1)
 www.thetrainline.com###stations_from
 www.thetrainline.com##.scoped-route-suggestions
 www.thetrainline.com##.Footer-module__badges
+www.thetrainline.com##.base-popup
+www.thetrainline.com##.concise-confidence-messaging
+||www.thetrainline.com/content/vul/fleet-components/carriers/*$image
+www.thetrainline.com##.price-cards-carousel
+www.thetrainline.com##.intro-content
+www.thetrainline.com##.page-shortcuts-container
+www.thetrainline.com##.pullout
+www.thetrainline.com###how-to-get-cheap-eurostar-tickets-
+www.thetrainline.com###eurostar-route-map
+www.thetrainline.com##[id^="LL_multiColumnContainer"]
 
 ! THE UNDERWEAR SHOP
 www.theunderwearshop.co.uk##.announcement-bar
@@ -13372,6 +13466,7 @@ theverge.com##.c-recirc-module
 theverge.com##.grecaptcha-badge
 theverge.com##.c-compact-river__entry--featured
 theverge.com##.c-entry-stat--words
+theverge.com##.c-product-card__button-wrapper
 
 ! THE WEEK
 www.theweek.co.uk##.polaris__header--subscription
@@ -13921,6 +14016,7 @@ tripadvisor.*##[data-automation="WebPresentation_MediumCardsCarouselWeb"]:upward
 tripadvisor.*##section[aria-label^="Find answers to all of your questions about Tripadvisor Visit"]
 tripadvisor.*##a[href^="/TravelersChoice"]
 tripadvisor.*##a[href="/Trips"]
+tripadvisor.*###lithium-root ~ div
 
 ! TRIP SAVVY
 www.tripsavvy.com##.social-share-block
@@ -14232,6 +14328,7 @@ gov.uk###global-cookie-message
 gov.uk##.govuk-phase-banner
 gov.uk##.gem-c-feedback
 gov.uk##.gem-c-intervention
+gov.uk###cookie-banner
 
 ! UK TECH NEWS
 www.uktech.news##.cl-consent
@@ -15117,6 +15214,9 @@ whatcar.com##*[class*="FragmentDFPAdvert"]
 whatcar.com##*[class*="Results-headerAd"]
 whatcar.com##*[class*="PartnershipLogo"]
 whatcar.com##*[class*="AlsoConsider"]
+whatcar.com##[href="https://www.whatcar.com/my-shortlist"]
+whatcar.com##[class*="FragmentScrollToTop"]
+whatcar.com##[href="/my-shortlist"]
 
 ! WHAT PUB
 whatpub.com##.alert-covid
@@ -15512,6 +15612,7 @@ forum.xda-developers.com###xdadevelopers_leaderboard_atf
 forum.xda-developers.com###livestream-div
 forum.xda-developers.com###xdadevelopers_leaderboard_btf
 forum.xda-developers.com##.shareButtons
+forum.xda-developers.com##.message-attribution-gadget
 
 ! XE
 www.xe.com##.advertSlot
