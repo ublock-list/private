@@ -63,6 +63,7 @@
 ||chartbeat.com
 ||chatra.io
 ||civiccomputing.com
+||ckk.ai
 ||clickfunnels.com
 ||climatestate.com
 ||clk.asia
@@ -130,6 +131,7 @@
 ||ex.co
 ||exe.io
 ||expertvn.com
+||ez4short.com
 ||ezlinks.io
 ||facebook.net
 ||fc.lc
@@ -190,6 +192,7 @@
 ||iir.ai
 ||jameeltips.us
 ||jistaumt.com
+||jnn-pa.googleapis.com
 ||jyruwybiay.xyz
 ||kecmuhot.net
 ||kiemlua.com
@@ -485,6 +488,11 @@ abcnews.go.com###MOREHighlandParkmassindicators
 abcnews.go.com##[id^="MORE"]
 abcnews.go.com##.Article__Footer
 abcnews.go.com##.taboola
+
+! ACCUWEATHER
+www.accuweather.com##.content-module.zone-rightRail1
+www.accuweather.com##.right-rail
+www.accuweather.com##.feedback-banner
 
 ! ACE
 www.ace.co.uk##.headerCarousel__top
@@ -1247,7 +1255,15 @@ www.androidcentral.com##.hawk-sticky-product-browser-title
 www.androidcentral.com##.hawk-merchant-link-widget-container
 www.androidcentral.com##.hawk-title-merchantlink-title-buying-guide
 www.androidcentral.com##aside.hawk-processed.hawk-nest:nth-of-type(1)
-www.androidcentral.com##.vid-present.van_vid_carousel
+www.androidcentral.com##.van_vid_carousel
+www.androidcentral.com###popular-data
+www.androidcentral.com##.buttons-social
+www.androidcentral.com##.author-block
+www.androidcentral.com##.read-more-container
+www.androidcentral.com###articleTag
+www.androidcentral.com##.xenforo-comments-see-all
+www.androidcentral.com##.xenforo-comment-widget
+www.androidcentral.com##.related-articles-block
 forums.androidcentral.com###notices
 
 ! ANDROID POLICE
@@ -1977,6 +1993,35 @@ bandainamcoent.eu###tarteaucitronRoot
 
 ! BARK SUPPLIERS
 www.barksuppliers.co.uk##.ec-notices
+
+! BAT DONG SAN
+batdongsan.com.vn##.js__live-chat-container
+batdongsan.com.vn##.re__home__hot-news-block
+batdongsan.com.vn##.re__home__bds-for-you-block
+batdongsan.com.vn##.re__home__project-block
+batdongsan.com.vn##.re__home__place-block
+batdongsan.com.vn##.re__home__vip-news-block
+batdongsan.com.vn##.re__home__utility-block
+batdongsan.com.vn##.re__home__enterprise-block
+batdongsan.com.vn##.re__home__social-media-block
+batdongsan.com.vn##.home-list-tag
+batdongsan.com.vn##.re__footer-logo
+batdongsan.com.vn##[href^="https://apps.apple.com/"]
+batdongsan.com.vn##[href="https://www.facebook.com/Batdongsandv"]:upward(2)
+batdongsan.com.vn##.re__branch-tablet
+batdongsan.com.vn###notiSave
+batdongsan.com.vn##.re__tag-section
+batdongsan.com.vn##.js__marking-product
+batdongsan.com.vn##.re__product-count-box
+batdongsan.com.vn##.re__feng-shui-box
+batdongsan.com.vn##.re__main-sidebar
+batdongsan.com.vn##.re__srp-link-suggestion
+batdongsan.com.vn##div.re__pr-short-info-action
+batdongsan.com.vn##.re__pr-tags
+batdongsan.com.vn##.js__similar-listing
+batdongsan.com.vn##.re__disclaimer
+batdongsan.com.vn##.re__pr-project
+batdongsan.com.vn##.re__history-listing
 
 ! BBC NEWS
 bbc.*###cookiePrompt
@@ -3885,6 +3930,15 @@ www.digitalocean.com##.tinyTopNavLeft
 www.digitalocean.com##*[class*="TinyTopNavStyles__TinyNav"]
 www.digitalocean.com##*[class*="HeroHome___StyledSection"]
 www.digitalocean.com##*[class*="CompanyDetails___StyledUl"]
+www.digitalocean.com###community_top_hat_left
+www.digitalocean.com##[class*="QuestionAndTutorialRightContainerStyles__"]
+www.digitalocean.com##[class*="RelatedRecordsStyles__"]
+www.digitalocean.com##[class*="RelatedRecords___"]
+www.digitalocean.com##[class*="TutorialSeriesListStyles__StyledSubscribeButton"]
+www.digitalocean.com##[class*="WasThisHelpfulStyles"]
+www.digitalocean.com##[class*="NotificationsStyles__NotificationsContainer"]
+www.digitalocean.com##.whale
+www.digitalocean.com##[class*="WhaleAmbienceStyles__"]
 cloud.digitalocean.com##.alert
 
 ! DIGITAL SPY
@@ -4766,9 +4820,10 @@ fanfiction.net##.timeline-Widget
 fast-poll.com##.gdpr-cookie-message-wrapper
 
 ! F-DROID
-forum.f-droid.org##.suggested-topics-wrapper
-forum.f-droid.org##.actions
-forum.f-droid.org##.topic-map
+f-droid.org##.sidebar
+f-droid.org##.suggested-topics-wrapper
+f-droid.org##.actions
+f-droid.org##.topic-map
 
 ! FEASTING AT HOME
 www.feastingathome.com##*[id*="AdThrive_Content"]
@@ -7314,7 +7369,12 @@ keybr.com##.supporter
 keybr.com##.Body-header
 keybr.com##.Body-aside
 
+! KHIN'S KITCHEN
 khinskitchen.com##.wprm-call-to-action
+
+! KHO PHIM
+khophim.vip##.sidebar
+khophim.vip##.comments-area
 
 ! KICKSTARTER
 kickstarter.com##.grid-col-offset-1-md.grid-col-10-md.grid-col-12 > .pb2.py0 > div.mb3.flex
@@ -10246,6 +10306,9 @@ forums.plex.tv##.toggle-summary.information
 forums.plex.tv##.suggested-topics-wrapper
 forums.plex.tv##.onscreen-post.small-action
 forums.plex.tv##.alert-info.alert.signup-cta
+forums.plex.tv##.expanded.post-controls
+forums.plex.tv##.topic-map
+support.plex.tv##.sidebar
 
 ! PLYMOUTH HERALD
 www.plymouthherald.co.uk##.pipeline-container
@@ -11106,6 +11169,9 @@ rightmove.co.uk##h2:has-text(Your search history):upward(div)
 rightmove.co.uk##.property-hide-button
 rightmove.co.uk###search-related-links
 rightmove.co.uk###propertyplayer
+rightmove.co.uk##.nearbyProperties
+rightmove.co.uk##.create-alert-button
+rightmove.co.uk##.savePropertyButton
 
 ! RING
 ring.com##.product-pop-acc
@@ -12714,6 +12780,9 @@ www.express.co.uk##.qc-cmp2-container
 www.express.co.uk##.link-shortcuts
 www.express.co.uk##p > b:has-text(Read More:):upward(p)
 www.express.co.uk##p > b:has-text(DON):has-text(MISS):upward(p)
+www.express.co.uk###social-media-buttons
+www.express.co.uk###top-navigation
+www.express.co.uk###login-widget
 
 ! THE DAILY MAIL
 dailymail.co.uk##.related-with-thumbs.more
