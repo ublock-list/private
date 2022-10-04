@@ -11577,6 +11577,43 @@ www.rollingstone.com##.author-content-inner
 www.rollingstone.com##.inStoryLink
 www.rollingstone.com##.injected-related-content
 www.rollingstone.com##.pmc-contextual-player > h3:has-text(Popular on):upward(.pmc-contextual-player)
+www.rollingstone.com##.subscribe-link
+www.rollingstone.com##.header-links-primary
+www.rollingstone.com###story-featured-quote
+www.rollingstone.com##.brands-most-popular
+www.rollingstone.com##.newswire
+www.rollingstone.com##.footer-image
+www.rollingstone.com##.footer-tip
+www.rollingstone.com##a[href^="https://pmc.com"]
+www.rollingstone.com##.pmc-footer
+www.rollingstone.com###cx-interstitial
+www.rollingstone.com##a[href*="/tips"]
+www.rollingstone.com##.sticky-sidebar-container
+www.rollingstone.com##.o-social-list
+www.rollingstone.com##.a-icon-endmark
+www.rollingstone.com##.article-tags
+www.rollingstone.com##.breadcrumbs
+www.rollingstone.com###taboola-below-article-thumbnails-v2 ~ *
+www.rollingstone.com##.story .c-tagline:upward(ul)
+www.rollingstone.com##.o-author
+
+
+! ROLLING STONE (UK)
+www.rollingstone.co.uk##.rs-header__menu-subscribe
+www.rollingstone.co.uk##.rs-trending-stories
+www.rollingstone.co.uk##.rs-footer__logos
+www.rollingstone.co.uk##.wp-block-social-links:upward(1)
+www.rollingstone.co.uk##h2:has-text(Subscription):upward(1)
+www.rollingstone.co.uk##.rs-article__social
+www.rollingstone.co.uk##.rs-article__contributor
+www.rollingstone.co.uk##.rs-related-articles
+www.rollingstone.co.uk##.rs-article__tags
+www.rollingstone.co.uk##.rs-article__sidebar
+www.rollingstone.co.uk##.article-feed > article:not(:first-of-type)
+www.rollingstone.co.uk##a[href*="/newsletter/"]
+www.rollingstone.co.uk##.pp-widget--social
+www.rollingstone.co.uk##.pp-post-grid__author
+www.rollingstone.co.uk##.pp-post-grid__section
 
 ! ROMAN
 www.roman.co.uk##.wishlist-button__outer-container--PLP
