@@ -2358,6 +2358,18 @@ betterprogramming.pub##p:has-text(free member-only stor):upward(2)
 betterprogramming.pub##h2:has-text(Enjoy the read? Reward the writer.):upward(4)
 betterprogramming.pub##h2:has-text(Sign up for Medium):upward(6)
 
+! BILI BILI
+www.bilibili.tv##.bstar-cookie-info
+www.bilibili.tv##.bstar-header__popover
+www.bilibili.tv##.bstar-header__upload
+www.bilibili.tv##.bstar-header__actions
+www.bilibili.tv##.bstar-danmaku-bar
+www.bilibili.tv##.interactive
+www.bilibili.tv##.bstar-back-top
+www.bilibili.tv##.comment-wrap__send--bottom
+www.bilibili.tv##.bstar-meta-icon--report
+www.bilibili.tv##.wa-message-container__left
+
 ! BILLBOARD
 www.billboard.com##.article-related-artists
 www.billboard.com##.injected-related-story
@@ -2729,6 +2741,10 @@ www.booking.com##.k2-hp--health_safety
 www.booking.com##.bui-banner
 www.booking.com###seo_links_drawer
 www.booking.com##.footer__priceline
+
+! BOOT.DEV
+boot.dev##.sticky
+boot.dev##[id*="cta"]
 
 ! BOOTS
 boots.com###estore_social_widget
@@ -5161,6 +5177,8 @@ www.foxnews.com##.speechkit-wrapper
 www.foxnews.com##.article-footer
 www.foxnews.com##a > strong:upward(a)
 www.foxnews.com##.is-live
+www.foxnews.com##.sidebar
+www.foxnews.com##.secondary-nav
 
 ! FOYLES
 www.foyles.co.uk##.OneBanner
@@ -5562,6 +5580,7 @@ github.com##a.btn[aria-label*="Sponsor"]
 github.com###sponsor-profile-button
 github.com##.home-hero-container ~ *
 github.blog##aside
+github.com##.arrow-target-mktg
 
 ! GIZMODO
 gizmodo.com##.instream-native-video
@@ -5656,6 +5675,14 @@ gohugo.io##.nested-lh-copy
 go.dev##.WhoUses
 go.dev##.LearnGo
 
+! GOLANG.CH
+golang.ch##.adguru-zone-wrap
+golang.ch###sidebar
+golang.ch##.wp-block-buttons
+golang.ch##.bc_random_banner
+golang.ch##.post-navigation
+golang.ch##.postmeta
+
 ! GOLANG BOT
 golangbot.com###detlarticle:style(width: auto !important; float: none !important; margin: 0 !important;)
 golangbot.com###detlarticle > article:style(width: auto !important; max-width: 100% !important; padding: 0 2rem !important;)
@@ -5684,6 +5711,12 @@ golangexample.com##.navigation
 golangexample.com##.related-posts
 golangexample.com##.post-tags
 golangexample.com##.share
+
+! GOLANG TUTORIAL
+golangtutorial.dev##.docs-navigation ~ *
+golangtutorial.dev##.docs-navigation
+golangtutorial.dev##.docs-toc
+golangtutorial.dev##.docs-links
 
 ! GOOD HOUSEKEEPING
 www.goodhousekeeping.com###onetrust-consent-sdk
@@ -7051,6 +7084,7 @@ imdb.com##[data-testid="MoreLikeThis"]
 imdb.com##[data-testid="related-videos"]
 imdb.com##.footer__sign-in-button
 imdb.com##[data-testid="dynamic-top-picks--title"]:upward(section)
+imdb.com##.navbar__coachmark
 
 ! IMGUR
 imgur.*##.EmeraldBanner
@@ -8832,6 +8866,13 @@ microsoft.com###retailers
 microsoft.com##[aria-label="Related apps"]
 microsoft.com###cookie-banner
 microsoft.com###banner-holder
+microsoft.com##.DLborder
+microsoft.com##.ocArticleFooterElementContainer
+microsoft.com###threadRightColumnContainer
+microsoft.com###buyInstallButton
+microsoft.com##.message-action-container-col-vote-and-ellipsis
+microsoft.com##.message-voting-container
+microsoft.com##.thread-message-content-body-signature
 
 ! MIGRATE
 www.migrate.org.uk##.share-buttons
@@ -9052,12 +9093,20 @@ mountainwarehouse.com##.c-bestseller
 mountainwarehouse.com##.c-clearance-banner
 mountainwarehouse.com##.c-clearance-wrap > div:first-of-type ~ *
 
+! MOVIT
+moovitapp.com##.side-menu-desktop
+moovitapp.com##.qr-content-wrapper
+moovitapp.com##mv-community-banner
+moovitapp.com##.cdk-overlay-container
+
 ! MOZILLA FOUNDATION
 addons.mozilla.org##.AddonRecommendations
 foundation.mozilla.org##.donate-banner
 foundation.mozilla.org##.join-us
 foundation.mozilla.org##.instagram-glyph
 foundation.mozilla.org##.twitter-glyph
+www.mozilla.org##.c-navigation-vpn-cta-container
+www.mozilla.org##.mzp-c-footer-heading-social:upward(1)
 
 ! MUMSNET
 www.mumsnet.com##.ad-leaderboard-container
@@ -12197,6 +12246,8 @@ skyscanner.*##.sidebar
 skyscanner.*##.author
 skyscanner.*###CombinedResultsHotels
 skyscanner.*###CombinedResultsCarHire
+skyscanner.*##[class*="DefaultBanner_link__"]
+skyscanner.*##[class*="EcoTicketHeader_ecoHeader"]
 
 ! SKY SPORTS
 www.skysports.com##.advert--banner-wrap-ghost
@@ -14657,6 +14708,7 @@ trustpilot.com##:xpath(//section[contains(@class, 'footer_section') and child::h
 trustpilot.com##[class*="styles_actionsWrapper"]
 trustpilot.com##a[href*="/trust/transparency"]:upward(div)
 trustpilot.com###onetrust-consent-sdk
+trustpilot.com##[class*="styles_experienceCard"]
 
 ! TUMBLR
 tumblr.com##.tmblr-iframe--gdpr-banner
@@ -16395,6 +16447,9 @@ youtube.com##ytd-compact-movie-renderer ytd-badge-supported-renderer:has-text(/B
 youtube.com##ytd-two-column-browse-results-renderer[page-subtype="home"]
 youtube.com##ytd-guide-section-renderer yt-formatted-string:has-text(Best of YouTube):upward(ytd-guide-section-renderer)
 youtube.com##ytd-guide-section-renderer yt-formatted-string:has-text(More from YouTube):upward(ytd-guide-section-renderer)
+youtube.com##h3.ytd-guide-section-renderer:has-text(Explore):upward(ytd-guide-section-renderer)
+youtube.com###owner
+youtube.com###comment-teaser
 
 youtube-nocookie.com##.ytp-title
 youtube-nocookie.com##.ytp-copylink-button
