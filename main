@@ -14507,11 +14507,20 @@ www.travisperkins.co.uk##*[class*="CookieBanner__Wrapper-"]
 www.travisperkins.co.uk##*[class*="SubscriptionBlock__Wrapper"]
 
 ! TRIP
+! Doesn't work due to Fanboy's list blocking cookie consent JS
 trip.com##.mod-back-top
 trip.com##.other-info
 trip.com###divAccount_SignIn
 trip.com##.x-product-insurance
 trip.com##.x-product-item-airHelp-v2
+trip.com##.notice.home-wrapper-inner
+trip.com##.online-login-popup
+trip.com##.home-wrapper
+trip.com##.m-seo-footer
+trip.com##.mc-ft__others
+trip.com##.mc-ft__social
+trip.com##.mc-ft_awards
+trip.com##.bundle-tip
 
 ! TRIP ADVISOR
 tripadvisor.*###AR_XSELL_AJAX_CONTENT
