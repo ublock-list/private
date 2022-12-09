@@ -380,6 +380,11 @@ sex.com##:xpath(//div[child::div[contains(text(), 'Advertisement')]])
 sex.com##.actions
 sex.com##.newSiteLink
 sex.com###newSite
+sex.com##.tags
+sex.com##.right-column
+sex.com##.pin-header
+sex.com##.comment_box
+sex.com##.footer_description
 
 ! XNXX
 xnxx.com###disclaimer_background
