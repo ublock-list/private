@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Sun, 22 Jan 2023 15:19:56 +0000
+! Last modified: Sun, 22 Jan 2023 16:07:55 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -2807,6 +2807,7 @@ boots.com##*[aem-promo-visible="true"]
 boots.com##*[class*="cm-placement-slot"]
 boots.com##*[class*="mobileplatforms"]
 boots.com##*[id*="contentRecommendationWidget"]
+boots.com##.PLP_in_grid_html
 boots.com##.favouritesPDP
 boots.com##.oct-experience-fragment
 boots.com##.oct-teaser-wrapper-link
@@ -5428,7 +5429,6 @@ etsy.com##body.wt-body-no-scroll:style(overflow: auto !important; position: stat
 etsy.com##div.prolist-row
 etsy.com##h3:has-text(New items our editors love):upward(.wt-body-max-width)
 etsy.com##klarna-placement
-etsy.com##li.wt-list-unstyled .v2-listing-card__info > .wt-text-caption > span:has-text(ad):has-text(by Etsy seller):upward(li)
 etsy.com##li.wt-list-unstyled a.listing-link div > p.wt-text-caption.wt-text-gray > span:not(:matches-css(display:none)):has-text(/^Ad by/):upward(li)
 etsy.com##li.wt-list-unstyled a.listing-link div > p.wt-text-caption.wt-text-gray > span:not(:matches-css(display:none)):has-text(/^Ad from/):upward(li)
 etsy.com##li.wt-list-unstyled div > p.wt-text-caption.wt-text-gray > span:not(:matches-css(display:none)):has-text(/^Ad/):upward(li)
@@ -6831,7 +6831,6 @@ www.ghacks.net##.the_related_part
 ||gigamic.com^
 
 ! domains\gigya.com.rules
-||gigya.com^
 
 ! GIPHY
 giphy.com###messages
@@ -13605,7 +13604,7 @@ plex.tv##.live-on-plex
 plex.tv##.mediaverse-blocks
 plex.tv##.platform-logos
 plex.tv##.plexview-dynamic-cta-content
-plex.tv##.remodal-wrapper
+plex.tv##.remodal-wrapper > remodal:not([data-action="signin"]):upward(.remodal-wrapper)
 plex.tv##.watchlist
 plex.tv##:xpath(//div[child::div[child::h2[contains(text(), 'Cast')]]])
 plex.tv##:xpath(//div[child::div[child::h2[contains(text(), 'Cast')]]]) + div
