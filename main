@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Sun, 22 Jan 2023 16:07:55 +0000
+! Last modified: Sun, 22 Jan 2023 16:42:41 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -1409,34 +1409,35 @@ argos.co.uk###frequently-bought-together-accordion
 argos.co.uk###matching-accessories
 argos.co.uk###promotion-link
 argos.co.uk###special-offers-accordion
-argos.co.uk##*[class*="BackToTopstyles"]
-argos.co.uk##*[class*="BadgeContainer"]
-argos.co.uk##*[class*="Footerstyles__SecondaryFooter"]
-argos.co.uk##*[class*="HomepageComponentsstyles__"]
-argos.co.uk##*[class*="LazyHydrateCard"] > *[class*="StyledProductCard"]
-argos.co.uk##*[class*="Propbarstyles__Container"]
-argos.co.uk##*[class*="SavingTextContainer"]
-argos.co.uk##*[class*="WishlistIconContainer"]
-argos.co.uk##*[class*="styles__FeedbackBanner-"]
-argos.co.uk##*[class^="EmailFormstyles__"]
-argos.co.uk##*[data-area]
-argos.co.uk##*[data-test*="001-container"]
-argos.co.uk##*[data-test*="hero-"]
-argos.co.uk##*[data-test="att-sticky-nav-bought-together-button"]
-argos.co.uk##*[data-test="att-sticky-nav-matching-accessories-button"]
-argos.co.uk##*[data-test="att-sticky-nav-special-offers-button"]
-argos.co.uk##*[data-test="generic-flag-bundles"]
-argos.co.uk##*[data-test="matching-accessories-hero"]
-argos.co.uk##*[data-test="wishlist"]
-argos.co.uk##*[data-title="megabutton0"]
 argos.co.uk##.productCare
 argos.co.uk##.prop-bar
 argos.co.uk##.search__cms-content
 argos.co.uk##.wishlist-checkbox
 argos.co.uk##:xpath(//div[contains(@class, 'LazyHydrateCard') and child::div[child::div[child::div[child::div[child::div[contains(text(), 'SPONSORED')]]]]]])
-argos.co.uk##:xpath(//div[contains(@class, 'LazyHydrateCard') and child::div[contains(@class, 'StyledProductCard')]])
+argos.co.uk##[class*="BackToTopstyles"]
+argos.co.uk##[class*="BadgeContainer"]
+argos.co.uk##[class*="Footerstyles__SecondaryFooter"]
+argos.co.uk##[class*="HomepageComponentsstyles__"]
+argos.co.uk##[class*="LazyHydrateCard"] > [class*="StyledProductCard"] > [role="button"]:upward(2)
+argos.co.uk##[class*="LazyHydrateCard"] > [class*="StyledProductCard"] [data-test="component-badge"]:has-text(SPONSORED):upward(4)
+argos.co.uk##[class*="Propbarstyles__Container"]
+argos.co.uk##[class*="SavingTextContainer"]
+argos.co.uk##[class*="WishlistIconContainer"]
+argos.co.uk##[class*="styles__AvailabilityTooltip"]
+argos.co.uk##[class*="styles__FeedbackBanner-"]
 argos.co.uk##[class*="styles__ProductRelevancyHeader"]
 argos.co.uk##[class*="styles__ProductRelevancyHeader"] + *
+argos.co.uk##[class^="EmailFormstyles__"]
+argos.co.uk##[data-area]
+argos.co.uk##[data-test*="001-container"]
+argos.co.uk##[data-test*="hero-"]
+argos.co.uk##[data-test="att-sticky-nav-bought-together-button"]
+argos.co.uk##[data-test="att-sticky-nav-matching-accessories-button"]
+argos.co.uk##[data-test="att-sticky-nav-special-offers-button"]
+argos.co.uk##[data-test="generic-flag-bundles"]
+argos.co.uk##[data-test="matching-accessories-hero"]
+argos.co.uk##[data-test="wishlist"]
+argos.co.uk##[data-title="megabutton0"]
 argos.co.uk##a[data-test^="promo-block-"]
 argos.co.uk##div[class^="AppPromptstyles__"]
 argos.co.uk##div[class^="Footerstyles__Brand"]
@@ -5384,24 +5385,6 @@ etsy.com###global-enhancements-search-suggestions
 etsy.com###google-one-tap-modal-div
 etsy.com###product-safety-notice-toggle
 etsy.com###recs_ribbon_container
-etsy.com##*[class*="wt-nudge"]:not(#logo):not(.filter-dropdown-body)
-etsy.com##*[data-anchor-listing-section]
-etsy.com##*[data-appears-component-name="Cyber_ApiSpec_Hero"]
-etsy.com##*[data-appears-component-name="Homepage_ApiSpecs_EditorsPicks"]
-etsy.com##*[data-appears-component-name="Homepage_Vesta_ApiSpec_Blog"]
-etsy.com##*[data-appears-component-name="Homepage_Vesta_ApiSpec_DiscoverFeed"]
-etsy.com##*[data-appears-component-name="Homepage_Vesta_ApiSpec_PopularRightNow"]
-etsy.com##*[data-appears-component-name="Homepage_Vesta_ApiSpec_WhatIsEtsy"]
-etsy.com##*[data-appears-component-name="collections_recs_listing_page"]
-etsy.com##*[data-appears-component-name="impact_editors_picks_filter"]
-etsy.com##*[data-appears-component-name="impact_message"]
-etsy.com##*[data-appears-component-name="market_gift_guides"]
-etsy.com##*[data-appears-component-name="tags"]
-etsy.com##*[data-appears-component-name="wedding_search_recs"]
-etsy.com##*[data-gifty-listings-module]
-etsy.com##*[data-nudger]
-etsy.com##*[data-ui="promo"]
-etsy.com##*[data-your-purchases-async-loaded-modules=""]
 etsy.com##.favorite-item-action
 etsy.com##.favorite-shop-action
 etsy.com##.featured-listings
@@ -5415,16 +5398,35 @@ etsy.com##:xpath(//div[child::div[child::a[starts-with(@href, 'https://etsy.app.
 etsy.com##:xpath(//div[child::div[child::div[child::div[child::h2[contains(text(), 'More Christmas deals - right this way!')]]]]])
 etsy.com##:xpath(//li[contains(@class, 'block-grid-item') and descendant::span[contains(@class, 'position-absolute') and descendant::span[contains(text(), 'A')] and descendant::span[contains(text(), 'd')]]])
 etsy.com##:xpath(//li[contains(@class, 'wt-list-unstyled') and descendant::span[contains(@class, 'position-absolute') and descendant::span[contains(text(), 'A')] and descendant::span[contains(text(), 'd')]]])
+etsy.com##[class*="wt-nudge"]:not(#logo):not(.filter-dropdown-body)
 etsy.com##[data-above-header]
+etsy.com##[data-anchor-listing-section]
+etsy.com##[data-appears-component-name="Cyber_ApiSpec_Hero"]
+etsy.com##[data-appears-component-name="Homepage_ApiSpecs_EditorsPicks"]
+etsy.com##[data-appears-component-name="Homepage_Vesta_ApiSpec_Blog"]
+etsy.com##[data-appears-component-name="Homepage_Vesta_ApiSpec_DiscoverFeed"]
 etsy.com##[data-appears-component-name="Homepage_Vesta_ApiSpec_Gifts"]
+etsy.com##[data-appears-component-name="Homepage_Vesta_ApiSpec_PopularRightNow"]
+etsy.com##[data-appears-component-name="Homepage_Vesta_ApiSpec_WhatIsEtsy"]
+etsy.com##[data-appears-component-name="collections_recs_listing_page"]
+etsy.com##[data-appears-component-name="impact_editors_picks_filter"]
+etsy.com##[data-appears-component-name="impact_message"]
 etsy.com##[data-appears-component-name="listing_page_ads_row"]
+etsy.com##[data-appears-component-name="market_gift_guides"]
+etsy.com##[data-appears-component-name="tags"]
+etsy.com##[data-appears-component-name="wedding_search_recs"]
+etsy.com##[data-async-homepage-modules]
 etsy.com##[data-category-page-header]:upward(4)
 etsy.com##[data-category-page-hobbies]
 etsy.com##[data-favorite-button-wrapper]
 etsy.com##[data-favorites-nav-container]
+etsy.com##[data-gifty-listings-module]
+etsy.com##[data-nudger]
 etsy.com##[data-saved-search-button-container]
 etsy.com##[data-tabbed-discover-container]
 etsy.com##[data-ui="favorite-listing-button"]
+etsy.com##[data-ui="promo"]
+etsy.com##[data-your-purchases-async-loaded-modules=""]
 etsy.com##body.wt-body-no-scroll:style(overflow: auto !important; position: static !important;)
 etsy.com##div.prolist-row
 etsy.com##h3:has-text(New items our editors love):upward(.wt-body-max-width)
@@ -11417,6 +11419,7 @@ www.mirror.co.uk##.video-caption
 www.mirror.co.uk##aside.read-more-links
 www.mirror.co.uk##body > div
 www.mirror.co.uk##dwell-observer
+www.mirror.co.uk##reach-nav
 www.mirror.co.uk##section[data-mod="mostRead"]
 
 ! MISSGUIDED
