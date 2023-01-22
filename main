@@ -1,6 +1,9 @@
 ! Title: Paul's Cosmetic Site Improvements
+! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Description: I don't like how many sites look, so I "improve" them...
+! Last modified: Sun, 22 Jan 2023 15:19:56 +0000
+! Homepage: https://github.com/ublock-list/private/
+! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
 ! domains\050y9lhe8p.com.rules
 ||050y9lhe8p.com^
@@ -960,6 +963,7 @@ androidauthority.com##a[href*="/deals/"]
 androidauthority.com##aside
 
 ! ANDROID CENTRAL
+! (inheriting rules from: futureplc.com.rules)
 androidcentral.com###affiliate-disclaimer
 androidcentral.com###affiliateDisclaimer
 androidcentral.com###article-body > ul
@@ -2262,6 +2266,7 @@ bestrecipesuk.com##.widget_bttk_author_bio
 bestrecipesuk.com##.widget_twitter_timeline
 
 ! BETTER PROGRAMMING
+! (inheriting rules from: medium.com.rules)
 betterprogramming.pub###root article ~ *
 betterprogramming.pub###root ~ div
 betterprogramming.pub##*[id*="lo-highlight-meter-"]
@@ -3884,6 +3889,7 @@ www.costco.co.uk##sip-product-social-networks
 www.couchbase.com##.ramble-ew
 
 ! COUNTRY LIFE
+! (inheriting rules from: futureplc.com.rules)
 countrylife.co.uk###affiliate-disclaimer
 countrylife.co.uk###affiliateDisclaimer
 countrylife.co.uk###article-body > ul
@@ -6506,6 +6512,7 @@ gamespot.com##aside.secondary-content
 gamespot.com##span:has-text(may get a share of the revenue):upward(div)
 
 ! GAMES RADAR
+! (inheriting rules from: futureplc.com.rules)
 gamesradar.com###affiliate-disclaimer
 gamesradar.com###affiliateDisclaimer
 gamesradar.com###article-body > ul
@@ -7931,6 +7938,7 @@ www.homebuilding.co.uk##.vid-present.van_vid_carousel
 www.homebuilding.co.uk##.widget-ads
 
 ! HOMES AND GARDENS
+! (inheriting rules from: futureplc.com.rules)
 homesandgardens.com###affiliate-disclaimer
 homesandgardens.com###affiliateDisclaimer
 homesandgardens.com###article-body > ul
@@ -8114,6 +8122,8 @@ homesandgardens.com##[id*="ad-unit"]
 homesandgardens.com##a[href*="https://www.magazinesdirect.com/"]
 homesandgardens.com##a[name="Subscribe"]
 homesandgardens.com##aside
+www.homesandgardens.com###experts-block
+www.homesandgardens.com##.listing__text--byline
 
 ! HOME SITTERS
 www.homesitters.co.uk###cookie_notice
@@ -8818,6 +8828,7 @@ imgur.com#@#.share
 www.immigrationhelp.org##.popover-c2a
 
 ! IMORE
+! (inheriting rules from: futureplc.com.rules)
 imore.com###affiliate-disclaimer
 imore.com###affiliateDisclaimer
 imore.com###article-body > ul
@@ -10780,6 +10791,7 @@ www.manomano.co.uk##*[class*="styles_trustSection"]
 ||marharo.com^
 
 ! MARIE CLAIRE
+! (inheriting rules from: futureplc.com.rules)
 marieclaire.co.uk###affiliate-disclaimer
 marieclaire.co.uk###affiliateDisclaimer
 marieclaire.co.uk###article-body > ul
@@ -13031,6 +13043,7 @@ paypal.com##div[class^="GiveAtCheckout_gacContainer_"]
 paypal.com##xo-credit-example-uk
 
 ! PC GAMER
+! (inheriting rules from: futureplc.com.rules)
 pcgamer.com###affiliate-disclaimer
 pcgamer.com###affiliateDisclaimer
 pcgamer.com###article-body > ul
@@ -13239,18 +13252,23 @@ pcgamesn.com##p > em > strong:has-text(Related:):upward(p)
 pcgamesn.com##p > em > strong:has-text(Speaking of new:):upward(p)
 
 ! PC GUIDE
-www.pcguide.com###breadcrumbs
-www.pcguide.com##.aawp
-www.pcguide.com##.adthrive
-www.pcguide.com##.adthrive-ad
-www.pcguide.com##.author_wrp
-www.pcguide.com##.elementor-author-box
-www.pcguide.com##.elementor-widget-container > ul > li:upward(ul)
-www.pcguide.com##.generate-back-to-top
-www.pcguide.com##.infin-single-breadcrumb
-www.pcguide.com##.infin-single-glance
-www.pcguide.com##.infin-single-products
-www.pcguide.com##.infin-single-shopping
+pcguide.com###breadcrumbs
+pcguide.com##.aawp
+pcguide.com##.adthrive
+pcguide.com##.adthrive-ad
+pcguide.com##.alm-single-post ~ *
+pcguide.com##.author_wrp
+pcguide.com##.elementor-author-box
+pcguide.com##.elementor-widget-container > ul > li:upward(ul)
+pcguide.com##.footer-bar
+pcguide.com##.footer-widgets-container
+pcguide.com##.generate-back-to-top
+pcguide.com##.infin-single-aside
+pcguide.com##.infin-single-breadcrumb
+pcguide.com##.infin-single-glance
+pcguide.com##.infin-single-products
+pcguide.com##.infin-single-shopping
+pcguide.com##.wepc-takeover
 
 ! PCLOUD
 blog.pcloud.com##.gdpr-privacy-bar
@@ -14082,6 +14100,7 @@ privacytogo.co##.widget-area
 privacytogo.co##[id^="mp_form_popup"]
 
 ! PRO ANDROID DEV
+! (inheriting rules from: medium.com.rules)
 proandroiddev.com###root article ~ *
 proandroiddev.com###root ~ div
 proandroiddev.com##*[id*="lo-highlight-meter-"]
@@ -15222,8 +15241,10 @@ scan.co.uk##.contC > h3
 scan.co.uk##.contC > h3 + p
 scan.co.uk##.contC.intro
 scan.co.uk##.contCgrey
+scan.co.uk##.creditBanner
 scan.co.uk##.customerInteraction
 scan.co.uk##.email-my-basket
+scan.co.uk##.featuredIcon
 scan.co.uk##.featuredOffers
 scan.co.uk##.finance
 scan.co.uk##.finance-options
@@ -15232,6 +15253,7 @@ scan.co.uk##.hmpageContent ~ *
 scan.co.uk##.infoSuggestedReplacements
 scan.co.uk##.informationPanel
 scan.co.uk##.latestInfo
+scan.co.uk##.mainHeaderTO
 scan.co.uk##.mobile.socialMedia
 scan.co.uk##.newsLetter
 scan.co.uk##.offer3XS
@@ -15245,12 +15267,14 @@ scan.co.uk##.paypalcredit
 scan.co.uk##.proBlock
 scan.co.uk##.protect
 scan.co.uk##.relatedProducts
+scan.co.uk##.repExample
 scan.co.uk##.reviewShare
 scan.co.uk##.scanFinancePanel
 scan.co.uk##.scanProtectBox
 scan.co.uk##.scanprotect
 scan.co.uk##.scanprotect-options
 scan.co.uk##.scansure
+scan.co.uk##.scroll-container
 scan.co.uk##.section-header.pcs
 scan.co.uk##.secure-payments
 scan.co.uk##.serviceBlock.theWord
@@ -15265,13 +15289,14 @@ scan.co.uk##.systems-3XS
 scan.co.uk##.tag.hot
 scan.co.uk##.techArticles
 scan.co.uk##.tekspek
+scan.co.uk##.termsFooter
 scan.co.uk##.toHeader
 scan.co.uk##.tp_overlay
 scan.co.uk##.trust-bar
 scan.co.uk##.wishListColumn
 scan.co.uk##:xpath(//li[contains(@class, 'product') and descendant::span[contains(@class, 'bundle') and contains(text(), 'BUNDLE')]])
 scan.co.uk##body:style(background: #e1e1e1 !important)
-www.scan.co.uk##.featuredIcon
+scan.co.uk##li.product .tags:has-text(SYSTEM):upward(li.product)
 
 ! SCIENCE DAILY
 sciencedaily.com###adslot-top-leaderboard
@@ -16330,6 +16355,7 @@ symfony.com##.top-horizontal-highlight
 ||synthetix.com^
 
 ! T3
+! (inheriting rules from: futureplc.com.rules)
 t3.com###affiliate-disclaimer
 t3.com###affiliateDisclaimer
 t3.com###article-body > ul
@@ -16692,6 +16718,7 @@ www.techpowerup.com##.todaysfiles
 www.techpowerup.com##.todaysreviews
 
 ! TECH RADAR
+! (inheriting rules from: futureplc.com.rules)
 techradar.com###affiliate-disclaimer
 techradar.com###affiliateDisclaimer
 techradar.com###article-body > ul
@@ -19807,6 +19834,7 @@ whatcar.com##iframe[src="https://www.youtube.com/embed/PAMGwqGJVKM"]
 www.whatclinic.com##.wcc-cookie-policy
 
 ! WHAT HIFI
+! (inheriting rules from: futureplc.com.rules)
 whathifi.com###affiliate-disclaimer
 whathifi.com###affiliateDisclaimer
 whathifi.com###article-body > p > strong:has-text(Read our):upward(p)
@@ -20218,6 +20246,7 @@ blogs.windows.com###uhfCookieAlert
 blogs.windows.com##.social-share
 
 ! WINDOWS CENTRAL
+! (inheriting rules from: futureplc.com.rules)
 windowscentral.com###affiliate-disclaimer
 windowscentral.com###affiliateDisclaimer
 windowscentral.com###article-body > ul
@@ -21203,4 +21232,3 @@ zooplus.*##div[data-zta="similar-vertical"]
 
 ! domains\zshort.io.rules
 ||zshort.io^
-
