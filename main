@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Sun, 22 Jan 2023 16:42:41 +0000
+! Last modified: Fri, 27 Jan 2023 11:58:44 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -55,6 +55,19 @@ www.360ss.com##.grecaptcha-badge
 www.360ss.com##.icons
 
 ! 365 GAMES
+365games.co.uk##.category-menu img
+365games.co.uk##.custom-you-may-also-like
+365games.co.uk##.featured-products-section
+365games.co.uk##.form-wishlist.form
+365games.co.uk##.newsletter
+365games.co.uk##.sidebar
+365games.co.uk##.sidenav-image
+365games.co.uk##.similar-products-by-views
+365games.co.uk##.widget-block-grid
+365games.co.uk##.widget-slider-container
+365games.co.uk##.widget-top-banner
+365games.co.uk##.wishlist
+365games.co.uk##[data-content-region="product_below_content--global"]
 www.365games.co.uk##.takeover_links
 
 ! 4 CHAN
@@ -452,7 +465,19 @@ www.aljazeera.com##.site-footer__social-links
 www.aljazeera.com##.social-share-buttons
 
 ! domains\all3dp.com.rules
+all3dp.com###recommendations
+all3dp.com###similar-machines
+all3dp.com###toc-related
+all3dp.com##.all3dp-affiliated
+all3dp.com##.amazondeal-note
+all3dp.com##.article-header__disclaimer
+all3dp.com##.article-link
+all3dp.com##.author-teaser
+all3dp.com##.disqus-comments
+all3dp.com##.navbar__craftcloud
+all3dp.com##.navbar__get-it-printed
 all3dp.com##.navbar__notification
+all3dp.com##.navbar__pro
 
 ! ALL IN LONDON
 www.allinlondon.co.uk###cookieconsent
@@ -2287,6 +2312,7 @@ betterprogramming.pub##:xpath(//div[child::ul[descendant::a[contains(@href, '/ta
 betterprogramming.pub##:xpath(//svg[@aria-label="responses"])
 betterprogramming.pub##a:has-text(Open in app)
 betterprogramming.pub##a[href*="/membership"]
+betterprogramming.pub##a[href^="/tag/"]:upward(4)
 betterprogramming.pub##a[href^="https://medium.com/tag/"]:upward(4)
 betterprogramming.pub##button[aria-label="user options menu"]:upward(3)
 betterprogramming.pub##div > span > a[href*="-smart_meter-"]:upward(7)
@@ -3156,6 +3182,7 @@ www.camdenmarket.com##[class*="footer__socialColumn__"]
 camelcamelcamel.com###camelcamelcamel_billboard_atf
 camelcamelcamel.com##.ad
 camelcamelcamel.com##.baller
+uk.camelcamelcamel.com###camelizer_top_promo
 
 ! CAMRA
 camra.org.uk##.et_pb_promo
@@ -6492,6 +6519,10 @@ www.gamesindustry.biz##div.brief > .default.details
 www.gamesindustry.biz##div.container
 www.gamesindustry.biz##div.feature > .default.details
 
+! domains\gameslore.com.rules
+www.gameslore.com###bestSellerLeft
+www.gameslore.com##.product-marketing-list
+
 ! GAMESPOT
 gamespot.com###below-content
 gamespot.com###footer
@@ -6744,6 +6775,12 @@ www.gardens4you.co.uk##.review_top_bar
 www.gardens4you.co.uk##.socialbarretje
 www.gardens4you.co.uk##.solutions-container
 
+! domains\gatwickairport.com.rules
+www.gatwickairport.com###Main_ctl01_BrandLogoImageLink
+www.gatwickairport.com###airportAI-root
+www.gatwickairport.com##.promo-wrapper
+www.gatwickairport.com##h4:has-text(Get Social):upward(div)
+
 ! domains\gaut-hil.com.rules
 ||gaut-hil.com^
 
@@ -6973,6 +7010,18 @@ www.glassdoor.co.uk##.uploadResumePromoModule
 www.glassdoor.co.uk##body:style(overflow: auto !important)
 www.glassdoor.co.uk##h2:has-text(The latest conversations about Tech):upward(2)
 
+! domains\glassesdirect.co.uk.rules
+www.glassesdirect.co.uk###choose-range
+www.glassesdirect.co.uk###footer-row-brands
+www.glassesdirect.co.uk###hero-banner
+www.glassesdirect.co.uk###home-trustpilot
+www.glassesdirect.co.uk###nav-favourites
+www.glassesdirect.co.uk###nav-hometrial
+www.glassesdirect.co.uk###usp-bar
+www.glassesdirect.co.uk##.favourites-button
+www.glassesdirect.co.uk##.homepage-banners
+www.glassesdirect.co.uk##.sitewide-banner
+
 ! GLOBAL PENFRIENDS
 www.globalpenfriends.com##.access_denied
 www.globalpenfriends.com##.double_column_testimonial
@@ -7173,6 +7222,10 @@ www.goodreads.com##div[data-react-class="ReactComponents.QualtricsSurvey"]
 www.goodreads.com##div[data-react-class="ReactComponents.ShareDialog"]
 www.goodreads.com##div[id^="relatedWorks-"]
 www.goodreads.com##html:style(overflow: auto !important;)
+
+! domains\google.co.uk.rules
+www.google.co.uk##button[data-async-trigger="ddlshare"]
+www.google.co.uk##h2:has-text(Image results):upward(1) > div > div > div > h2:has-text(Related searches):upward(3)
 
 ! GOOGLE
 @@||contacts.google.com^$document
@@ -8563,19 +8616,190 @@ www.icy-veins.com##.internal_links_block
 www.icy-veins.com##.premium_box
 
 ! IDEAL HOME
-www.idealhome.co.uk##.ad-container
-www.idealhome.co.uk##.ad-logos
-www.idealhome.co.uk##.advert
-www.idealhome.co.uk##.author
-www.idealhome.co.uk##.footer-legal
-www.idealhome.co.uk##.footer-menu--icons
-www.idealhome.co.uk##.header-advert-wrapper
-www.idealhome.co.uk##.keystone-query-widget
-www.idealhome.co.uk##.post-author--img
-www.idealhome.co.uk##.social-share
-www.idealhome.co.uk##.trending
-www.idealhome.co.uk##.widget_custom_html
-www.idealhome.co.uk##blockquote
+! (inheriting rules from: futureplc.com.rules)
+idealhome.co.uk###affiliate-disclaimer
+idealhome.co.uk###affiliateDisclaimer
+idealhome.co.uk###article-body > ul
+idealhome.co.uk###articleTag
+idealhome.co.uk###comment-jump
+idealhome.co.uk###content:style(width: auto !important;)
+idealhome.co.uk###document-footer-content
+idealhome.co.uk###mobile-in-article
+idealhome.co.uk###notices
+idealhome.co.uk###popular-data
+idealhome.co.uk###sidebar
+idealhome.co.uk###slice-container-trendingbar
+idealhome.co.uk###taboola-below-article-thumbnails
+idealhome.co.uk###taboola-mid-article-thumbnails
+idealhome.co.uk###taboola-mobile-below-article-thumbnails
+idealhome.co.uk###top-leaderboard
+idealhome.co.uk##.ad-container
+idealhome.co.uk##.ad-logos
+idealhome.co.uk##.ad-sticky
+idealhome.co.uk##.ad-unit
+idealhome.co.uk##.adunit-wrap
+idealhome.co.uk##.affiliateDisclaimerBar
+idealhome.co.uk##.article-bio__bio
+idealhome.co.uk##.article-body__suppl_content--taboola-mid-article
+idealhome.co.uk##.article-footer
+idealhome.co.uk##.article-header__authors
+idealhome.co.uk##.article-header__breadcrumbs
+idealhome.co.uk##.article-header__comments
+idealhome.co.uk##.article-header__disclosure-wrap
+idealhome.co.uk##.article-header__tag
+idealhome.co.uk##.article-lead-image-wrap
+idealhome.co.uk##.article-meta
+idealhome.co.uk##.article-shop-bar
+idealhome.co.uk##.article-token
+idealhome.co.uk##.article-token--more-of
+idealhome.co.uk##.author
+idealhome.co.uk##.author-block
+idealhome.co.uk##.author-byline__authors
+idealhome.co.uk##.author-byline__avatar
+idealhome.co.uk##.authorBio
+idealhome.co.uk##.auto-disclosure-wrap
+idealhome.co.uk##.award
+idealhome.co.uk##.block-newsletter
+idealhome.co.uk##.bordeaux-slot-root
+idealhome.co.uk##.breadcrumb
+idealhome.co.uk##.buttons-social
+idealhome.co.uk##.by-author
+idealhome.co.uk##.byline
+idealhome.co.uk##.byline__authorname
+idealhome.co.uk##.byline__contributors
+idealhome.co.uk##.byline__media
+idealhome.co.uk##.category-link
+idealhome.co.uk##.collection
+idealhome.co.uk##.counts
+idealhome.co.uk##.credit
+idealhome.co.uk##.cta
+idealhome.co.uk##.deals
+idealhome.co.uk##.exit-intent
+idealhome.co.uk##.fancy-box
+idealhome.co.uk##.feature-block-item
+idealhome.co.uk##.featured_product_block
+idealhome.co.uk##.footer-legal
+idealhome.co.uk##.footer-menu--icons
+idealhome.co.uk##.footer__partner-logo
+idealhome.co.uk##.footer__section--sitelinks
+idealhome.co.uk##.free-text-label
+idealhome.co.uk##.full.block-link
+idealhome.co.uk##.future__jwplayer--carousel
+idealhome.co.uk##.fwd-link
+idealhome.co.uk##.hawk-merchant-link-widget-container
+idealhome.co.uk##.hawk-nest
+idealhome.co.uk##.hawk-placeholder
+idealhome.co.uk##.hawk-sticky-product-browser-placeholder
+idealhome.co.uk##.hawk-sticky-product-browser-title
+idealhome.co.uk##.hawk-title-merchantlink-title-buying-guide
+idealhome.co.uk##.hawk-wrapper
+idealhome.co.uk##.header-advert-wrapper
+idealhome.co.uk##.header-subscribe
+idealhome.co.uk##.header-top-alert-bar
+idealhome.co.uk##.how-we-test
+idealhome.co.uk##.how-we-test-component
+idealhome.co.uk##.input-bar
+idealhome.co.uk##.instagram-embed
+idealhome.co.uk##.js-comments-jump
+idealhome.co.uk##.jump-to-comments
+idealhome.co.uk##.jw-carousel
+idealhome.co.uk##.jwplayer__widthsetter
+idealhome.co.uk##.jwplayer__wrapper
+idealhome.co.uk##.keystone-newsletter-class
+idealhome.co.uk##.keystone-query-widget
+idealhome.co.uk##.left-rail-area
+idealhome.co.uk##.list-text-links-trending-panel
+idealhome.co.uk##.listing--latest
+idealhome.co.uk##.listing--related
+idealhome.co.uk##.listing--suggested
+idealhome.co.uk##.locale-links
+idealhome.co.uk##.locale-selector
+idealhome.co.uk##.masthead-item.buttons-social
+idealhome.co.uk##.masthead-item.user-locale
+idealhome.co.uk##.menu-item-main-pro
+idealhome.co.uk##.mixed4
+idealhome.co.uk##.mixed5
+idealhome.co.uk##.mixedtertiary
+idealhome.co.uk##.moreAbout
+idealhome.co.uk##.most-popular-item
+idealhome.co.uk##.nav-button-background-blue
+idealhome.co.uk##.nav-social
+idealhome.co.uk##.nav-subscribe
+idealhome.co.uk##.nav-subscribe-widget-container
+idealhome.co.uk##.news-article:style(max-width: none !important;)
+idealhome.co.uk##.newsletter-form__wrapper
+idealhome.co.uk##.newsletter-inbodyContent-slice
+idealhome.co.uk##.newsletter-signup
+idealhome.co.uk##.newsletterForm-articleInbodyContent
+idealhome.co.uk##.no-amazon
+idealhome.co.uk##.onesignal-customlink-container
+idealhome.co.uk##.popular-box
+idealhome.co.uk##.post-author
+idealhome.co.uk##.post-author--img
+idealhome.co.uk##.post-tags
+idealhome.co.uk##.product-cards-scroll-wrapper
+idealhome.co.uk##.qc-cmp-cleanslate
+idealhome.co.uk##.read-more-container
+idealhome.co.uk##.recommended
+idealhome.co.uk##.regionRedirectBanner
+idealhome.co.uk##.region_redirect_popup
+idealhome.co.uk##.region_redirect_popup_asset
+idealhome.co.uk##.related-articles-block
+idealhome.co.uk##.remixd-audioplayer__container
+idealhome.co.uk##.see-more
+idealhome.co.uk##.side-nav-on.sticky-nav
+idealhome.co.uk##.sidebar
+idealhome.co.uk##.single-sidebar
+idealhome.co.uk##.slice-experts
+idealhome.co.uk##.slice-experts-header
+idealhome.co.uk##.slot-mpu1
+idealhome.co.uk##.slot-mpu2
+idealhome.co.uk##.slot-single-height-7
+idealhome.co.uk##.social
+idealhome.co.uk##.social-share
+idealhome.co.uk##.socialite-widget
+idealhome.co.uk##.speciallink
+idealhome.co.uk##.sponsored-post
+idealhome.co.uk##.star-deal
+idealhome.co.uk##.static-lightbox2
+idealhome.co.uk##.sub-brands-bar
+idealhome.co.uk##.subscribe-text
+idealhome.co.uk##.subsite_subnav-item
+idealhome.co.uk##.supernav
+idealhome.co.uk##.taboola-in-article
+idealhome.co.uk##.tag-links
+idealhome.co.uk##.toggle-more-less
+idealhome.co.uk##.top-featured
+idealhome.co.uk##.topbutton
+idealhome.co.uk##.trbc
+idealhome.co.uk##.trending
+idealhome.co.uk##.trending-bar-container
+idealhome.co.uk##.trending-wrapper
+idealhome.co.uk##.trending__wrapper
+idealhome.co.uk##.trendingbar
+idealhome.co.uk##.twitter-cls-wrapper
+idealhome.co.uk##.van_taboola
+idealhome.co.uk##.van_vid_carousel
+idealhome.co.uk##.van_vid_carousel__container
+idealhome.co.uk##.widget-ads
+idealhome.co.uk##.widget-dynamic-fter-popular-box
+idealhome.co.uk##.widget-dynamic-popular-data
+idealhome.co.uk##.widget-newsletter
+idealhome.co.uk##.widget-popular-data
+idealhome.co.uk##.xenforo-comment-widget
+idealhome.co.uk##.xenforo-comments-see-all
+idealhome.co.uk##:xpath(//p[child::strong[contains(text(), 'Follow')] and child::a[contains(@href, 'https://twitter.com/')]])
+idealhome.co.uk##[class*="premium_inline_"]
+idealhome.co.uk##[class*="slot-double-height-"]
+idealhome.co.uk##[class*="slot-single-height-"]
+idealhome.co.uk##[class*="slot-single-height-before-heading-"]
+idealhome.co.uk##[class*="static-lightbox"]
+idealhome.co.uk##[data-action="Deal Block"]
+idealhome.co.uk##[data-list="deals/news/latest"]
+idealhome.co.uk##[id*="ad-unit"]
+idealhome.co.uk##a[href*="https://www.magazinesdirect.com/"]
+idealhome.co.uk##a[name="Subscribe"]
+idealhome.co.uk##aside
 
 ! domains\ier.ai.rules
 ||ier.ai^
@@ -9715,6 +9939,8 @@ kickstarter.com##.section_footer-social-links
 kickstarter.com##.watch-project-button
 kickstarter.com##h3:has-text(Recommended for you):upward(div)
 kickstarter.com##span:has-text(Share:):upward(div)
+www.kickstarter.com###project-page-recommendations
+www.kickstarter.com##span a[href="/discover/pwl?ref=pwl_badge"]:upward(span)
 
 ! domains\kiemlua.com.rules
 ||kiemlua.com^
@@ -11151,6 +11377,7 @@ medium.com##:xpath(//div[child::ul[descendant::a[contains(@href, '/tag')]]])
 medium.com##:xpath(//svg[@aria-label="responses"])
 medium.com##a:has-text(Open in app)
 medium.com##a[href*="/membership"]
+medium.com##a[href^="/tag/"]:upward(4)
 medium.com##a[href^="https://medium.com/tag/"]:upward(4)
 medium.com##button[aria-label="user options menu"]:upward(3)
 medium.com##div > span > a[href*="-smart_meter-"]:upward(7)
@@ -14122,6 +14349,7 @@ proandroiddev.com##:xpath(//div[child::ul[descendant::a[contains(@href, '/tag')]
 proandroiddev.com##:xpath(//svg[@aria-label="responses"])
 proandroiddev.com##a:has-text(Open in app)
 proandroiddev.com##a[href*="/membership"]
+proandroiddev.com##a[href^="/tag/"]:upward(4)
 proandroiddev.com##a[href^="https://medium.com/tag/"]:upward(4)
 proandroiddev.com##button[aria-label="user options menu"]:upward(3)
 proandroiddev.com##div > span > a[href*="-smart_meter-"]:upward(7)
@@ -14169,6 +14397,20 @@ www.production-hive.co.uk##.top-clients
 
 ! domains\profitwell.com.rules
 ||profitwell.com^
+
+! domains\programiz.com.rules
+www.programiz.com##.above-bottom-recommended-articles
+www.programiz.com##.app-download-btn
+www.programiz.com##.app-link
+www.programiz.com##.cta
+www.programiz.com##.footer__vendor-btn:upward(1)
+www.programiz.com##.hero-contents__link
+www.programiz.com##.notice-bar-top__message--link:upward(2)
+www.programiz.com##.pagination-area
+www.programiz.com##.social-icons
+www.programiz.com##.vote-share-wrapper
+www.programiz.com##[class*="view-related-topics-sidebar"]
+www.programiz.com##ul a[href="https://www.facebook.com/programiz"]:upward(div)
 
 ! domains\projectagoralibs.com.rules
 ||projectagoralibs.com^
@@ -14326,6 +14568,7 @@ queens.london##.whatsapp-btn
 quora.com###mainContent:xpath(//div[contains(@class, 'q-box') and child::div[child::div[child::div[contains(@class, 'q-text') and contains(text(), "Related answers")]]]])
 quora.com###mainContent:xpath(//div[contains(@class, 'q-box') and child::div[child::div[child::div[contains(@class, 'q-text') and contains(text(), "Related answers")]]]]) ~ *
 quora.com###mainContent:xpath(//div[contains(@class, 'q-box') and contains(@class, 'qu-borderBottom') and child::div[child::div[child::div[child::div[child::div[child::div[contains(@class, 'q-text') and contains(text(), "Related questions")]]]]]]])
+quora.com###onetap_google_intermediate_iframe
 quora.com##.content-monetization-wall
 quora.com##.modal_signup_dialog
 quora.com##.puppeteer_test_question_main > div:nth-of-type(2) > div:nth-of-type(4)
@@ -19277,6 +19520,19 @@ visalegal.com##.search-form
 visalegal.com##.second-widget-area
 visalegal.com##.themestek-meta-info-bottom
 
+! domains\visionexpress.com.rules
+www.visionexpress.com##.banner
+www.visionexpress.com##.footer__additional-content
+www.visionexpress.com##.footer__payment
+www.visionexpress.com##.footer__top
+www.visionexpress.com##.location-item__header-image
+www.visionexpress.com##.promotion-banners
+www.visionexpress.com##.rich-banner
+www.visionexpress.com##.store-details-stores-v2__nearest-stores
+www.visionexpress.com##.store-details-stores-v2__store-offers
+www.visionexpress.com##.store-payment-methods-stores-v2
+www.visionexpress.com##.store-social-media-stores-v2
+
 ! VISTA CITY
 visitacity.com##.make-the-most.modal
 
@@ -20948,6 +21204,11 @@ youtube.com##ytd-video-owner-renderer
 
 ! domains\ytimg.com.rules
 ||ytimg.com/yts/swfbin/player-*/endscreen.swf$object-subrequest,domain=youtube.com
+
+! domains\yum-asia.com.rules
+yum-asia.com##.elementor-widget-wd_single_product_fbt_products
+yum-asia.com##.wd-promo-popup-wrapper
+yum-asia.com##html:style(overflow: auto !important;)
 
 ! YUMMLY
 www.yummly.co.uk###qa-more-recipes-from
