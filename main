@@ -372,7 +372,6 @@ www.agoda.com##h3:has-text(Trending cities):upward(2)
 www.agoda.com##h5:has-text(If you're flexible, check out these alternative dates):upward(li)
 
 ! domains\ahacdn.me.rules
-@@
 ||ahacdn.me^
 
 ! domains\air.tv.rules
