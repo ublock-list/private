@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Fri, 27 Jan 2023 11:58:44 +0000
+! Last modified: Thu, 16 Feb 2023 17:06:25 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -543,6 +543,8 @@ www.amazon.co.uk###HLCXComparisonWidget-Placement-A_feature_div
 www.amazon.co.uk###aplus_feature_div
 www.amazon.co.uk###breadcrumb_feature_div
 www.amazon.co.uk###miraiBTFShopByLook_feature_div
+www.amazon.co.uk##.a-color-secondary > span:has-text(Promotion Available):upward(.a-color-secondary)
+www.amazon.co.uk##.ewc-checkout-container
 www.amazon.co.uk##.more-like-this-list-view
 www.amazon.co.uk##[id*="sobe-dp-feature-"]
 
@@ -999,6 +1001,7 @@ androidcentral.com###document-footer-content
 androidcentral.com###mobile-in-article
 androidcentral.com###notices
 androidcentral.com###popular-data
+androidcentral.com###popularcontent
 androidcentral.com###sidebar
 androidcentral.com###slice-container-trendingbar
 androidcentral.com###taboola-below-article-thumbnails
@@ -1011,6 +1014,7 @@ androidcentral.com##.ad-sticky
 androidcentral.com##.ad-unit
 androidcentral.com##.adunit-wrap
 androidcentral.com##.affiliateDisclaimerBar
+androidcentral.com##.after-article-tags
 androidcentral.com##.article-bio__bio
 androidcentral.com##.article-body__suppl_content--taboola-mid-article
 androidcentral.com##.article-footer
@@ -1024,6 +1028,7 @@ androidcentral.com##.article-meta
 androidcentral.com##.article-shop-bar
 androidcentral.com##.article-token
 androidcentral.com##.article-token--more-of
+androidcentral.com##.articletable__skip
 androidcentral.com##.author
 androidcentral.com##.author-block
 androidcentral.com##.author-byline__authors
@@ -1046,7 +1051,9 @@ androidcentral.com##.counts
 androidcentral.com##.credit
 androidcentral.com##.cta
 androidcentral.com##.deals
+androidcentral.com##.editors-choice
 androidcentral.com##.exit-intent
+androidcentral.com##.expert-carousel
 androidcentral.com##.fancy-box
 androidcentral.com##.feature-block-item
 androidcentral.com##.featured_product_block
@@ -1061,8 +1068,10 @@ androidcentral.com##.fwd-link
 androidcentral.com##.hawk-merchant-link-widget-container
 androidcentral.com##.hawk-nest
 androidcentral.com##.hawk-placeholder
+androidcentral.com##.hawk-processed
 androidcentral.com##.hawk-sticky-product-browser-placeholder
 androidcentral.com##.hawk-sticky-product-browser-title
+androidcentral.com##.hawk-target-tomsguide-deals-section
 androidcentral.com##.hawk-title-merchantlink-title-buying-guide
 androidcentral.com##.hawk-wrapper
 androidcentral.com##.header-advert-wrapper
@@ -1084,14 +1093,17 @@ androidcentral.com##.list-text-links-trending-panel
 androidcentral.com##.listing--latest
 androidcentral.com##.listing--related
 androidcentral.com##.listing--suggested
+androidcentral.com##.listingResult > .sponsored-post:upward(.listingResult)
 androidcentral.com##.locale-links
 androidcentral.com##.locale-selector
 androidcentral.com##.masthead-item.buttons-social
 androidcentral.com##.masthead-item.user-locale
+androidcentral.com##.menu-item-coupons
 androidcentral.com##.menu-item-main-pro
 androidcentral.com##.mixed4
 androidcentral.com##.mixed5
 androidcentral.com##.mixedtertiary
+androidcentral.com##.more-about__container
 androidcentral.com##.moreAbout
 androidcentral.com##.most-popular-item
 androidcentral.com##.nav-button-background-blue
@@ -1114,11 +1126,13 @@ androidcentral.com##.qc-cmp-cleanslate
 androidcentral.com##.read-more-container
 androidcentral.com##.recommended
 androidcentral.com##.regionRedirectBanner
+androidcentral.com##.region_redirect_banner
 androidcentral.com##.region_redirect_popup
 androidcentral.com##.region_redirect_popup_asset
 androidcentral.com##.related-articles-block
 androidcentral.com##.remixd-audioplayer__container
 androidcentral.com##.see-more
+androidcentral.com##.see-more--clipped
 androidcentral.com##.side-nav-on.sticky-nav
 androidcentral.com##.sidebar
 androidcentral.com##.single-sidebar
@@ -1130,6 +1144,8 @@ androidcentral.com##.slot-single-height-7
 androidcentral.com##.social
 androidcentral.com##.social-share
 androidcentral.com##.socialite-widget
+androidcentral.com##.sp-message-open body:style(overflow: auto !important; position: static !important; margin-top: 0 !important; top: auto !important; left: auto !important; right: auto !important;)
+androidcentral.com##.sp-message-open:style(height: auto !important; width: auto !important;)
 androidcentral.com##.speciallink
 androidcentral.com##.sponsored-post
 androidcentral.com##.star-deal
@@ -1169,6 +1185,7 @@ androidcentral.com##[class*="static-lightbox"]
 androidcentral.com##[data-action="Deal Block"]
 androidcentral.com##[data-list="deals/news/latest"]
 androidcentral.com##[id*="ad-unit"]
+androidcentral.com##[id*="sp_message_container"]
 androidcentral.com##a[href*="https://www.magazinesdirect.com/"]
 androidcentral.com##a[name="Subscribe"]
 androidcentral.com##aside
@@ -1480,6 +1497,47 @@ argos.co.uk##section[class^="FeaturedProductsstyles"]
 argos.co.uk##span[class^="HomepageComponentsstyles__Proposition"]
 argos.co.uk##span[data-test="generic-flag-offers"]
 argos.co.uk##span[data-test="generic-flag-swogoData"]
+
+! domains\arifsetyawan.com.rules
+! (inheriting rules from: medium.com.rules)
+arifsetyawan.com###root article ~ *
+arifsetyawan.com###root ~ div
+arifsetyawan.com##*[id*="lo-highlight-meter-"]
+arifsetyawan.com##*[id*="open-in-app-button"]
+arifsetyawan.com##*[id*="sign-in-button"]
+arifsetyawan.com##*[id*="sign-up-button"]
+arifsetyawan.com##.butterBar--privacy
+arifsetyawan.com##.pw-more-medium-articles
+arifsetyawan.com##.pw-multi-vote-count:upward(3)
+arifsetyawan.com##:xpath(//a[contains(@href, '/followers')])
+arifsetyawan.com##:xpath(//button[child::span[contains(text(), 'Popular')]])
+arifsetyawan.com##:xpath(//button[contains(text(), 'Follow')])
+arifsetyawan.com##:xpath(//div[child::div[child::a[child::div[child::button[child::div[child::*[name()='svg' and contains(@aria-label, 'responses')]]]]]]])
+arifsetyawan.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[contains(@role, 'tooltip') and child::a[child::h4]]]]]]])
+arifsetyawan.com##:xpath(//div[child::div[child::div[child::div[child::div[child::span[child::a[contains(@href, 'bookmark')]]]]]]])
+arifsetyawan.com##:xpath(//div[child::ul[descendant::a[contains(@href, '/tag')]]])
+arifsetyawan.com##:xpath(//svg[@aria-label="responses"])
+arifsetyawan.com##a:has-text(Open in app)
+arifsetyawan.com##a[href*="/membership"]
+arifsetyawan.com##a[href^="/tag/"]:upward(4)
+arifsetyawan.com##a[href^="https://medium.com/tag/"]:upward(4)
+arifsetyawan.com##button[aria-label="user options menu"]:upward(3)
+arifsetyawan.com##div > span > a[href*="-smart_meter-"]:upward(7)
+arifsetyawan.com##h2 > a:has-text(More from):upward(7)
+arifsetyawan.com##h2:has-text(Enjoy the read? Reward the writer.):upward(4)
+arifsetyawan.com##h2:has-text(Get an email):upward(5)
+arifsetyawan.com##h2:has-text(Sign up for Medium):upward(6)
+arifsetyawan.com##h2:has-text(Sign up for):upward(5)
+arifsetyawan.com##header.pw-post-byline-header
+arifsetyawan.com##main > div > div:first-of-type
+arifsetyawan.com##main > div > div:last-of-type
+arifsetyawan.com##main > div > div[role="dialog"] + div:has-text(/^Published in$/)
+arifsetyawan.com##main div:has-text(/^Published in$/):upward(4)
+arifsetyawan.com##main:upward(div) > div
+arifsetyawan.com##nav
+arifsetyawan.com##p:has-text(Follow me on Twitter)
+arifsetyawan.com##p:has-text(Follow me on Twitter) ~ *
+arifsetyawan.com##p:has-text(free member-only stor):upward(2)
 
 ! ARLO
 arlo.com###aboutTheProduct-new
@@ -2615,7 +2673,10 @@ board-game.co.uk##h5:has-text(recent searches):upward(div)
 www.board-game.co.uk##.footer-bottom-social-media
 www.board-game.co.uk##.footer-gateway-icons
 www.board-game.co.uk##.footer-split-col-newsletter
+www.board-game.co.uk##.paypal-later-product-widget
 www.board-game.co.uk##.stock-alert-subscribe
+www.board-game.co.uk##.zg-sidebar-author
+www.board-game.co.uk##.zg-sidebar-info-box
 www.board-game.co.uk##.zgp-container
 
 ! BOARD GAME ARENA
@@ -2664,6 +2725,7 @@ boardgamegeek.com##.amazon_search_ad
 boardgamegeek.com##.footer__container .footer__col:nth-child(4)
 boardgamegeek.com##.game-description-ad
 boardgamegeek.com##.game-header-secondary-actions
+boardgamegeek.com##.global-body-content-container > .ng-isolate-scope
 boardgamegeek.com##.media-sidebar-col
 boardgamegeek.com##.ng-scope.support-plea-container
 boardgamegeek.com##.promoted-item
@@ -2680,6 +2742,7 @@ boardgamegeek.com##gg-feedback-button
 boardgamegeek.com##gg-footer .tw-bg-black
 boardgamegeek.com##gg-footer img
 boardgamegeek.com##gg-home-feat-videos
+boardgamegeek.com##gg-home-game-explorer-row-hotness
 boardgamegeek.com##gg-home-game-explorer-row-preorders
 boardgamegeek.com##gg-home-game-list
 boardgamegeek.com##gg-home-geek-weekly
@@ -3929,6 +3992,7 @@ countrylife.co.uk###document-footer-content
 countrylife.co.uk###mobile-in-article
 countrylife.co.uk###notices
 countrylife.co.uk###popular-data
+countrylife.co.uk###popularcontent
 countrylife.co.uk###sidebar
 countrylife.co.uk###slice-container-trendingbar
 countrylife.co.uk###taboola-below-article-thumbnails
@@ -3941,6 +4005,7 @@ countrylife.co.uk##.ad-sticky
 countrylife.co.uk##.ad-unit
 countrylife.co.uk##.adunit-wrap
 countrylife.co.uk##.affiliateDisclaimerBar
+countrylife.co.uk##.after-article-tags
 countrylife.co.uk##.article-bio__bio
 countrylife.co.uk##.article-body__suppl_content--taboola-mid-article
 countrylife.co.uk##.article-footer
@@ -3954,6 +4019,7 @@ countrylife.co.uk##.article-meta
 countrylife.co.uk##.article-shop-bar
 countrylife.co.uk##.article-token
 countrylife.co.uk##.article-token--more-of
+countrylife.co.uk##.articletable__skip
 countrylife.co.uk##.author
 countrylife.co.uk##.author-block
 countrylife.co.uk##.author-byline__authors
@@ -3976,7 +4042,9 @@ countrylife.co.uk##.counts
 countrylife.co.uk##.credit
 countrylife.co.uk##.cta
 countrylife.co.uk##.deals
+countrylife.co.uk##.editors-choice
 countrylife.co.uk##.exit-intent
+countrylife.co.uk##.expert-carousel
 countrylife.co.uk##.fancy-box
 countrylife.co.uk##.feature-block-item
 countrylife.co.uk##.featured_product_block
@@ -3991,8 +4059,10 @@ countrylife.co.uk##.fwd-link
 countrylife.co.uk##.hawk-merchant-link-widget-container
 countrylife.co.uk##.hawk-nest
 countrylife.co.uk##.hawk-placeholder
+countrylife.co.uk##.hawk-processed
 countrylife.co.uk##.hawk-sticky-product-browser-placeholder
 countrylife.co.uk##.hawk-sticky-product-browser-title
+countrylife.co.uk##.hawk-target-tomsguide-deals-section
 countrylife.co.uk##.hawk-title-merchantlink-title-buying-guide
 countrylife.co.uk##.hawk-wrapper
 countrylife.co.uk##.header-advert-wrapper
@@ -4014,14 +4084,17 @@ countrylife.co.uk##.list-text-links-trending-panel
 countrylife.co.uk##.listing--latest
 countrylife.co.uk##.listing--related
 countrylife.co.uk##.listing--suggested
+countrylife.co.uk##.listingResult > .sponsored-post:upward(.listingResult)
 countrylife.co.uk##.locale-links
 countrylife.co.uk##.locale-selector
 countrylife.co.uk##.masthead-item.buttons-social
 countrylife.co.uk##.masthead-item.user-locale
+countrylife.co.uk##.menu-item-coupons
 countrylife.co.uk##.menu-item-main-pro
 countrylife.co.uk##.mixed4
 countrylife.co.uk##.mixed5
 countrylife.co.uk##.mixedtertiary
+countrylife.co.uk##.more-about__container
 countrylife.co.uk##.moreAbout
 countrylife.co.uk##.most-popular-item
 countrylife.co.uk##.nav-button-background-blue
@@ -4044,11 +4117,13 @@ countrylife.co.uk##.qc-cmp-cleanslate
 countrylife.co.uk##.read-more-container
 countrylife.co.uk##.recommended
 countrylife.co.uk##.regionRedirectBanner
+countrylife.co.uk##.region_redirect_banner
 countrylife.co.uk##.region_redirect_popup
 countrylife.co.uk##.region_redirect_popup_asset
 countrylife.co.uk##.related-articles-block
 countrylife.co.uk##.remixd-audioplayer__container
 countrylife.co.uk##.see-more
+countrylife.co.uk##.see-more--clipped
 countrylife.co.uk##.side-nav-on.sticky-nav
 countrylife.co.uk##.sidebar
 countrylife.co.uk##.single-sidebar
@@ -4060,6 +4135,8 @@ countrylife.co.uk##.slot-single-height-7
 countrylife.co.uk##.social
 countrylife.co.uk##.social-share
 countrylife.co.uk##.socialite-widget
+countrylife.co.uk##.sp-message-open body:style(overflow: auto !important; position: static !important; margin-top: 0 !important; top: auto !important; left: auto !important; right: auto !important;)
+countrylife.co.uk##.sp-message-open:style(height: auto !important; width: auto !important;)
 countrylife.co.uk##.speciallink
 countrylife.co.uk##.sponsored-post
 countrylife.co.uk##.star-deal
@@ -4099,6 +4176,7 @@ countrylife.co.uk##[class*="static-lightbox"]
 countrylife.co.uk##[data-action="Deal Block"]
 countrylife.co.uk##[data-list="deals/news/latest"]
 countrylife.co.uk##[id*="ad-unit"]
+countrylife.co.uk##[id*="sp_message_container"]
 countrylife.co.uk##a[href*="https://www.magazinesdirect.com/"]
 countrylife.co.uk##a[name="Subscribe"]
 countrylife.co.uk##aside
@@ -4874,6 +4952,9 @@ www.dorothyperkins.com##.b-wishlist_button
 www.dorothyperkins.com##.l-footer-signup
 www.dorothyperkins.com##.m-wishlist
 
+! domains\dotmetrics.net.rules
+||dotmetrics.net^
+
 ! domains\doubleclick.net.rules
 ||doubleclick.net^
 
@@ -4914,15 +4995,18 @@ www.droidwin.com##.post-navigation
 www.droidwin.com##.wp-post-author-wrap
 
 ! DROPBOX
-www.dropbox.com##.ReactModalPortal
 www.dropbox.com##.RebrandHero-drawer
 www.dropbox.com##.black.top-notification-bar-container
 www.dropbox.com##.google-one-tap-inline-container
+www.dropbox.com##.home-access-section-suggest-empty
+www.dropbox.com##.home-access-section-suggest-nonempty
 www.dropbox.com##.login-form-container__apple-div
 www.dropbox.com##.login-form-container__google-div
 www.dropbox.com##.mc-button-primary.mc-button.open-in-app-button.control__button
 www.dropbox.com##.open-in-app-banner-container
 www.dropbox.com##.persistent-footer-container
+www.dropbox.com##.prompt-header-link--preview
+www.dropbox.com##.prompt-modal-dig:upward(.ReactModalPortal)
 www.dropbox.com##.try-dfb
 www.dropbox.com##.upsell-banner
 
@@ -5996,6 +6080,9 @@ www.flyvietair.com##ul [href="javascript:void(0);"]:upward(ul)
 ! domains\focusecoversionc.info.rules
 ||focusecoversionc.info^
 
+! domains\foldedspace.net.rules
+www.foldedspace.net##.jtpl-sidebar
+
 ! domains\food-royal.com.rules
 ||short.food-royal.com^
 
@@ -6261,6 +6348,7 @@ futureplc.com###document-footer-content
 futureplc.com###mobile-in-article
 futureplc.com###notices
 futureplc.com###popular-data
+futureplc.com###popularcontent
 futureplc.com###sidebar
 futureplc.com###slice-container-trendingbar
 futureplc.com###taboola-below-article-thumbnails
@@ -6273,6 +6361,7 @@ futureplc.com##.ad-sticky
 futureplc.com##.ad-unit
 futureplc.com##.adunit-wrap
 futureplc.com##.affiliateDisclaimerBar
+futureplc.com##.after-article-tags
 futureplc.com##.article-bio__bio
 futureplc.com##.article-body__suppl_content--taboola-mid-article
 futureplc.com##.article-footer
@@ -6286,6 +6375,7 @@ futureplc.com##.article-meta
 futureplc.com##.article-shop-bar
 futureplc.com##.article-token
 futureplc.com##.article-token--more-of
+futureplc.com##.articletable__skip
 futureplc.com##.author
 futureplc.com##.author-block
 futureplc.com##.author-byline__authors
@@ -6308,7 +6398,9 @@ futureplc.com##.counts
 futureplc.com##.credit
 futureplc.com##.cta
 futureplc.com##.deals
+futureplc.com##.editors-choice
 futureplc.com##.exit-intent
+futureplc.com##.expert-carousel
 futureplc.com##.fancy-box
 futureplc.com##.feature-block-item
 futureplc.com##.featured_product_block
@@ -6323,8 +6415,10 @@ futureplc.com##.fwd-link
 futureplc.com##.hawk-merchant-link-widget-container
 futureplc.com##.hawk-nest
 futureplc.com##.hawk-placeholder
+futureplc.com##.hawk-processed
 futureplc.com##.hawk-sticky-product-browser-placeholder
 futureplc.com##.hawk-sticky-product-browser-title
+futureplc.com##.hawk-target-tomsguide-deals-section
 futureplc.com##.hawk-title-merchantlink-title-buying-guide
 futureplc.com##.hawk-wrapper
 futureplc.com##.header-advert-wrapper
@@ -6346,14 +6440,17 @@ futureplc.com##.list-text-links-trending-panel
 futureplc.com##.listing--latest
 futureplc.com##.listing--related
 futureplc.com##.listing--suggested
+futureplc.com##.listingResult > .sponsored-post:upward(.listingResult)
 futureplc.com##.locale-links
 futureplc.com##.locale-selector
 futureplc.com##.masthead-item.buttons-social
 futureplc.com##.masthead-item.user-locale
+futureplc.com##.menu-item-coupons
 futureplc.com##.menu-item-main-pro
 futureplc.com##.mixed4
 futureplc.com##.mixed5
 futureplc.com##.mixedtertiary
+futureplc.com##.more-about__container
 futureplc.com##.moreAbout
 futureplc.com##.most-popular-item
 futureplc.com##.nav-button-background-blue
@@ -6376,11 +6473,13 @@ futureplc.com##.qc-cmp-cleanslate
 futureplc.com##.read-more-container
 futureplc.com##.recommended
 futureplc.com##.regionRedirectBanner
+futureplc.com##.region_redirect_banner
 futureplc.com##.region_redirect_popup
 futureplc.com##.region_redirect_popup_asset
 futureplc.com##.related-articles-block
 futureplc.com##.remixd-audioplayer__container
 futureplc.com##.see-more
+futureplc.com##.see-more--clipped
 futureplc.com##.side-nav-on.sticky-nav
 futureplc.com##.sidebar
 futureplc.com##.single-sidebar
@@ -6392,6 +6491,8 @@ futureplc.com##.slot-single-height-7
 futureplc.com##.social
 futureplc.com##.social-share
 futureplc.com##.socialite-widget
+futureplc.com##.sp-message-open body:style(overflow: auto !important; position: static !important; margin-top: 0 !important; top: auto !important; left: auto !important; right: auto !important;)
+futureplc.com##.sp-message-open:style(height: auto !important; width: auto !important;)
 futureplc.com##.speciallink
 futureplc.com##.sponsored-post
 futureplc.com##.star-deal
@@ -6431,6 +6532,7 @@ futureplc.com##[class*="static-lightbox"]
 futureplc.com##[data-action="Deal Block"]
 futureplc.com##[data-list="deals/news/latest"]
 futureplc.com##[id*="ad-unit"]
+futureplc.com##[id*="sp_message_container"]
 futureplc.com##a[href*="https://www.magazinesdirect.com/"]
 futureplc.com##a[name="Subscribe"]
 futureplc.com##aside
@@ -6556,6 +6658,7 @@ gamesradar.com###document-footer-content
 gamesradar.com###mobile-in-article
 gamesradar.com###notices
 gamesradar.com###popular-data
+gamesradar.com###popularcontent
 gamesradar.com###section-more-board-game-recommendations
 gamesradar.com###section-more-board-game-recommendations ~ *
 gamesradar.com###sidebar
@@ -6570,6 +6673,7 @@ gamesradar.com##.ad-sticky
 gamesradar.com##.ad-unit
 gamesradar.com##.adunit-wrap
 gamesradar.com##.affiliateDisclaimerBar
+gamesradar.com##.after-article-tags
 gamesradar.com##.article-bio__bio
 gamesradar.com##.article-body__suppl_content--taboola-mid-article
 gamesradar.com##.article-footer
@@ -6583,6 +6687,7 @@ gamesradar.com##.article-meta
 gamesradar.com##.article-shop-bar
 gamesradar.com##.article-token
 gamesradar.com##.article-token--more-of
+gamesradar.com##.articletable__skip
 gamesradar.com##.author
 gamesradar.com##.author-block
 gamesradar.com##.author-byline__authors
@@ -6605,7 +6710,9 @@ gamesradar.com##.counts
 gamesradar.com##.credit
 gamesradar.com##.cta
 gamesradar.com##.deals
+gamesradar.com##.editors-choice
 gamesradar.com##.exit-intent
+gamesradar.com##.expert-carousel
 gamesradar.com##.fancy-box
 gamesradar.com##.feature-block-item
 gamesradar.com##.featured_product_block
@@ -6620,8 +6727,10 @@ gamesradar.com##.fwd-link
 gamesradar.com##.hawk-merchant-link-widget-container
 gamesradar.com##.hawk-nest
 gamesradar.com##.hawk-placeholder
+gamesradar.com##.hawk-processed
 gamesradar.com##.hawk-sticky-product-browser-placeholder
 gamesradar.com##.hawk-sticky-product-browser-title
+gamesradar.com##.hawk-target-tomsguide-deals-section
 gamesradar.com##.hawk-title-merchantlink-title-buying-guide
 gamesradar.com##.hawk-wrapper
 gamesradar.com##.header-advert-wrapper
@@ -6643,14 +6752,17 @@ gamesradar.com##.list-text-links-trending-panel
 gamesradar.com##.listing--latest
 gamesradar.com##.listing--related
 gamesradar.com##.listing--suggested
+gamesradar.com##.listingResult > .sponsored-post:upward(.listingResult)
 gamesradar.com##.locale-links
 gamesradar.com##.locale-selector
 gamesradar.com##.masthead-item.buttons-social
 gamesradar.com##.masthead-item.user-locale
+gamesradar.com##.menu-item-coupons
 gamesradar.com##.menu-item-main-pro
 gamesradar.com##.mixed4
 gamesradar.com##.mixed5
 gamesradar.com##.mixedtertiary
+gamesradar.com##.more-about__container
 gamesradar.com##.moreAbout
 gamesradar.com##.most-popular-item
 gamesradar.com##.nav-button-background-blue
@@ -6674,11 +6786,13 @@ gamesradar.com##.qc-cmp-cleanslate
 gamesradar.com##.read-more-container
 gamesradar.com##.recommended
 gamesradar.com##.regionRedirectBanner
+gamesradar.com##.region_redirect_banner
 gamesradar.com##.region_redirect_popup
 gamesradar.com##.region_redirect_popup_asset
 gamesradar.com##.related-articles-block
 gamesradar.com##.remixd-audioplayer__container
 gamesradar.com##.see-more
+gamesradar.com##.see-more--clipped
 gamesradar.com##.side-nav-on.sticky-nav
 gamesradar.com##.sidebar
 gamesradar.com##.single-sidebar
@@ -6690,6 +6804,8 @@ gamesradar.com##.slot-single-height-7
 gamesradar.com##.social
 gamesradar.com##.social-share
 gamesradar.com##.socialite-widget
+gamesradar.com##.sp-message-open body:style(overflow: auto !important; position: static !important; margin-top: 0 !important; top: auto !important; left: auto !important; right: auto !important;)
+gamesradar.com##.sp-message-open:style(height: auto !important; width: auto !important;)
 gamesradar.com##.speciallink
 gamesradar.com##.sponsored-post
 gamesradar.com##.star-deal
@@ -6730,6 +6846,7 @@ gamesradar.com##[class*="static-lightbox"]
 gamesradar.com##[data-action="Deal Block"]
 gamesradar.com##[data-list="deals/news/latest"]
 gamesradar.com##[id*="ad-unit"]
+gamesradar.com##[id*="sp_message_container"]
 gamesradar.com##a[href*="https://www.magazinesdirect.com/"]
 gamesradar.com##a[name="Subscribe"]
 gamesradar.com##aside
@@ -7018,6 +7135,7 @@ www.glassesdirect.co.uk###home-trustpilot
 www.glassesdirect.co.uk###nav-favourites
 www.glassesdirect.co.uk###nav-hometrial
 www.glassesdirect.co.uk###usp-bar
+www.glassesdirect.co.uk##.bogo-container
 www.glassesdirect.co.uk##.favourites-button
 www.glassesdirect.co.uk##.homepage-banners
 www.glassesdirect.co.uk##.sitewide-banner
@@ -7122,6 +7240,10 @@ forum.golangbridge.org##.accepted-answer.quote
 forum.golangbridge.org##.post-controls
 forum.golangbridge.org##.suggested-topics-wrapper
 forum.golangbridge.org##.topic-map
+
+! domains\golangbyexample.com.rules
+golangbyexample.com##.featured-sidebar
+golangbyexample.com##.tags-list
 
 ! GOLANG DOCS
 golangdocs.com##.post-navigation
@@ -8003,6 +8125,7 @@ homesandgardens.com###document-footer-content
 homesandgardens.com###mobile-in-article
 homesandgardens.com###notices
 homesandgardens.com###popular-data
+homesandgardens.com###popularcontent
 homesandgardens.com###sidebar
 homesandgardens.com###slice-container-trendingbar
 homesandgardens.com###taboola-below-article-thumbnails
@@ -8015,6 +8138,7 @@ homesandgardens.com##.ad-sticky
 homesandgardens.com##.ad-unit
 homesandgardens.com##.adunit-wrap
 homesandgardens.com##.affiliateDisclaimerBar
+homesandgardens.com##.after-article-tags
 homesandgardens.com##.article-bio__bio
 homesandgardens.com##.article-body__suppl_content--taboola-mid-article
 homesandgardens.com##.article-footer
@@ -8028,6 +8152,7 @@ homesandgardens.com##.article-meta
 homesandgardens.com##.article-shop-bar
 homesandgardens.com##.article-token
 homesandgardens.com##.article-token--more-of
+homesandgardens.com##.articletable__skip
 homesandgardens.com##.author
 homesandgardens.com##.author-block
 homesandgardens.com##.author-byline__authors
@@ -8050,7 +8175,9 @@ homesandgardens.com##.counts
 homesandgardens.com##.credit
 homesandgardens.com##.cta
 homesandgardens.com##.deals
+homesandgardens.com##.editors-choice
 homesandgardens.com##.exit-intent
+homesandgardens.com##.expert-carousel
 homesandgardens.com##.fancy-box
 homesandgardens.com##.feature-block-item
 homesandgardens.com##.featured_product_block
@@ -8065,8 +8192,10 @@ homesandgardens.com##.fwd-link
 homesandgardens.com##.hawk-merchant-link-widget-container
 homesandgardens.com##.hawk-nest
 homesandgardens.com##.hawk-placeholder
+homesandgardens.com##.hawk-processed
 homesandgardens.com##.hawk-sticky-product-browser-placeholder
 homesandgardens.com##.hawk-sticky-product-browser-title
+homesandgardens.com##.hawk-target-tomsguide-deals-section
 homesandgardens.com##.hawk-title-merchantlink-title-buying-guide
 homesandgardens.com##.hawk-wrapper
 homesandgardens.com##.header-advert-wrapper
@@ -8088,14 +8217,17 @@ homesandgardens.com##.list-text-links-trending-panel
 homesandgardens.com##.listing--latest
 homesandgardens.com##.listing--related
 homesandgardens.com##.listing--suggested
+homesandgardens.com##.listingResult > .sponsored-post:upward(.listingResult)
 homesandgardens.com##.locale-links
 homesandgardens.com##.locale-selector
 homesandgardens.com##.masthead-item.buttons-social
 homesandgardens.com##.masthead-item.user-locale
+homesandgardens.com##.menu-item-coupons
 homesandgardens.com##.menu-item-main-pro
 homesandgardens.com##.mixed4
 homesandgardens.com##.mixed5
 homesandgardens.com##.mixedtertiary
+homesandgardens.com##.more-about__container
 homesandgardens.com##.moreAbout
 homesandgardens.com##.most-popular-item
 homesandgardens.com##.nav-button-background-blue
@@ -8118,11 +8250,13 @@ homesandgardens.com##.qc-cmp-cleanslate
 homesandgardens.com##.read-more-container
 homesandgardens.com##.recommended
 homesandgardens.com##.regionRedirectBanner
+homesandgardens.com##.region_redirect_banner
 homesandgardens.com##.region_redirect_popup
 homesandgardens.com##.region_redirect_popup_asset
 homesandgardens.com##.related-articles-block
 homesandgardens.com##.remixd-audioplayer__container
 homesandgardens.com##.see-more
+homesandgardens.com##.see-more--clipped
 homesandgardens.com##.side-nav-on.sticky-nav
 homesandgardens.com##.sidebar
 homesandgardens.com##.single-sidebar
@@ -8134,6 +8268,8 @@ homesandgardens.com##.slot-single-height-7
 homesandgardens.com##.social
 homesandgardens.com##.social-share
 homesandgardens.com##.socialite-widget
+homesandgardens.com##.sp-message-open body:style(overflow: auto !important; position: static !important; margin-top: 0 !important; top: auto !important; left: auto !important; right: auto !important;)
+homesandgardens.com##.sp-message-open:style(height: auto !important; width: auto !important;)
 homesandgardens.com##.speciallink
 homesandgardens.com##.sponsored-post
 homesandgardens.com##.star-deal
@@ -8173,6 +8309,7 @@ homesandgardens.com##[class*="static-lightbox"]
 homesandgardens.com##[data-action="Deal Block"]
 homesandgardens.com##[data-list="deals/news/latest"]
 homesandgardens.com##[id*="ad-unit"]
+homesandgardens.com##[id*="sp_message_container"]
 homesandgardens.com##a[href*="https://www.magazinesdirect.com/"]
 homesandgardens.com##a[name="Subscribe"]
 homesandgardens.com##aside
@@ -8627,6 +8764,7 @@ idealhome.co.uk###document-footer-content
 idealhome.co.uk###mobile-in-article
 idealhome.co.uk###notices
 idealhome.co.uk###popular-data
+idealhome.co.uk###popularcontent
 idealhome.co.uk###sidebar
 idealhome.co.uk###slice-container-trendingbar
 idealhome.co.uk###taboola-below-article-thumbnails
@@ -8639,6 +8777,7 @@ idealhome.co.uk##.ad-sticky
 idealhome.co.uk##.ad-unit
 idealhome.co.uk##.adunit-wrap
 idealhome.co.uk##.affiliateDisclaimerBar
+idealhome.co.uk##.after-article-tags
 idealhome.co.uk##.article-bio__bio
 idealhome.co.uk##.article-body__suppl_content--taboola-mid-article
 idealhome.co.uk##.article-footer
@@ -8652,6 +8791,7 @@ idealhome.co.uk##.article-meta
 idealhome.co.uk##.article-shop-bar
 idealhome.co.uk##.article-token
 idealhome.co.uk##.article-token--more-of
+idealhome.co.uk##.articletable__skip
 idealhome.co.uk##.author
 idealhome.co.uk##.author-block
 idealhome.co.uk##.author-byline__authors
@@ -8674,7 +8814,9 @@ idealhome.co.uk##.counts
 idealhome.co.uk##.credit
 idealhome.co.uk##.cta
 idealhome.co.uk##.deals
+idealhome.co.uk##.editors-choice
 idealhome.co.uk##.exit-intent
+idealhome.co.uk##.expert-carousel
 idealhome.co.uk##.fancy-box
 idealhome.co.uk##.feature-block-item
 idealhome.co.uk##.featured_product_block
@@ -8689,8 +8831,10 @@ idealhome.co.uk##.fwd-link
 idealhome.co.uk##.hawk-merchant-link-widget-container
 idealhome.co.uk##.hawk-nest
 idealhome.co.uk##.hawk-placeholder
+idealhome.co.uk##.hawk-processed
 idealhome.co.uk##.hawk-sticky-product-browser-placeholder
 idealhome.co.uk##.hawk-sticky-product-browser-title
+idealhome.co.uk##.hawk-target-tomsguide-deals-section
 idealhome.co.uk##.hawk-title-merchantlink-title-buying-guide
 idealhome.co.uk##.hawk-wrapper
 idealhome.co.uk##.header-advert-wrapper
@@ -8712,14 +8856,17 @@ idealhome.co.uk##.list-text-links-trending-panel
 idealhome.co.uk##.listing--latest
 idealhome.co.uk##.listing--related
 idealhome.co.uk##.listing--suggested
+idealhome.co.uk##.listingResult > .sponsored-post:upward(.listingResult)
 idealhome.co.uk##.locale-links
 idealhome.co.uk##.locale-selector
 idealhome.co.uk##.masthead-item.buttons-social
 idealhome.co.uk##.masthead-item.user-locale
+idealhome.co.uk##.menu-item-coupons
 idealhome.co.uk##.menu-item-main-pro
 idealhome.co.uk##.mixed4
 idealhome.co.uk##.mixed5
 idealhome.co.uk##.mixedtertiary
+idealhome.co.uk##.more-about__container
 idealhome.co.uk##.moreAbout
 idealhome.co.uk##.most-popular-item
 idealhome.co.uk##.nav-button-background-blue
@@ -8742,11 +8889,13 @@ idealhome.co.uk##.qc-cmp-cleanslate
 idealhome.co.uk##.read-more-container
 idealhome.co.uk##.recommended
 idealhome.co.uk##.regionRedirectBanner
+idealhome.co.uk##.region_redirect_banner
 idealhome.co.uk##.region_redirect_popup
 idealhome.co.uk##.region_redirect_popup_asset
 idealhome.co.uk##.related-articles-block
 idealhome.co.uk##.remixd-audioplayer__container
 idealhome.co.uk##.see-more
+idealhome.co.uk##.see-more--clipped
 idealhome.co.uk##.side-nav-on.sticky-nav
 idealhome.co.uk##.sidebar
 idealhome.co.uk##.single-sidebar
@@ -8758,6 +8907,8 @@ idealhome.co.uk##.slot-single-height-7
 idealhome.co.uk##.social
 idealhome.co.uk##.social-share
 idealhome.co.uk##.socialite-widget
+idealhome.co.uk##.sp-message-open body:style(overflow: auto !important; position: static !important; margin-top: 0 !important; top: auto !important; left: auto !important; right: auto !important;)
+idealhome.co.uk##.sp-message-open:style(height: auto !important; width: auto !important;)
 idealhome.co.uk##.speciallink
 idealhome.co.uk##.sponsored-post
 idealhome.co.uk##.star-deal
@@ -8797,6 +8948,7 @@ idealhome.co.uk##[class*="static-lightbox"]
 idealhome.co.uk##[data-action="Deal Block"]
 idealhome.co.uk##[data-list="deals/news/latest"]
 idealhome.co.uk##[id*="ad-unit"]
+idealhome.co.uk##[id*="sp_message_container"]
 idealhome.co.uk##a[href*="https://www.magazinesdirect.com/"]
 idealhome.co.uk##a[name="Subscribe"]
 idealhome.co.uk##aside
@@ -9064,6 +9216,7 @@ imore.com###document-footer-content
 imore.com###mobile-in-article
 imore.com###notices
 imore.com###popular-data
+imore.com###popularcontent
 imore.com###sidebar
 imore.com###slice-container-trendingbar
 imore.com###taboola-below-article-thumbnails
@@ -9076,6 +9229,7 @@ imore.com##.ad-sticky
 imore.com##.ad-unit
 imore.com##.adunit-wrap
 imore.com##.affiliateDisclaimerBar
+imore.com##.after-article-tags
 imore.com##.article-bio__bio
 imore.com##.article-body__suppl_content--taboola-mid-article
 imore.com##.article-footer
@@ -9089,6 +9243,7 @@ imore.com##.article-meta
 imore.com##.article-shop-bar
 imore.com##.article-token
 imore.com##.article-token--more-of
+imore.com##.articletable__skip
 imore.com##.author
 imore.com##.author-block
 imore.com##.author-byline__authors
@@ -9111,7 +9266,9 @@ imore.com##.counts
 imore.com##.credit
 imore.com##.cta
 imore.com##.deals
+imore.com##.editors-choice
 imore.com##.exit-intent
+imore.com##.expert-carousel
 imore.com##.fancy-box
 imore.com##.feature-block-item
 imore.com##.featured_product_block
@@ -9126,8 +9283,10 @@ imore.com##.fwd-link
 imore.com##.hawk-merchant-link-widget-container
 imore.com##.hawk-nest
 imore.com##.hawk-placeholder
+imore.com##.hawk-processed
 imore.com##.hawk-sticky-product-browser-placeholder
 imore.com##.hawk-sticky-product-browser-title
+imore.com##.hawk-target-tomsguide-deals-section
 imore.com##.hawk-title-merchantlink-title-buying-guide
 imore.com##.hawk-wrapper
 imore.com##.header-advert-wrapper
@@ -9149,14 +9308,17 @@ imore.com##.list-text-links-trending-panel
 imore.com##.listing--latest
 imore.com##.listing--related
 imore.com##.listing--suggested
+imore.com##.listingResult > .sponsored-post:upward(.listingResult)
 imore.com##.locale-links
 imore.com##.locale-selector
 imore.com##.masthead-item.buttons-social
 imore.com##.masthead-item.user-locale
+imore.com##.menu-item-coupons
 imore.com##.menu-item-main-pro
 imore.com##.mixed4
 imore.com##.mixed5
 imore.com##.mixedtertiary
+imore.com##.more-about__container
 imore.com##.moreAbout
 imore.com##.most-popular-item
 imore.com##.nav-button-background-blue
@@ -9179,11 +9341,13 @@ imore.com##.qc-cmp-cleanslate
 imore.com##.read-more-container
 imore.com##.recommended
 imore.com##.regionRedirectBanner
+imore.com##.region_redirect_banner
 imore.com##.region_redirect_popup
 imore.com##.region_redirect_popup_asset
 imore.com##.related-articles-block
 imore.com##.remixd-audioplayer__container
 imore.com##.see-more
+imore.com##.see-more--clipped
 imore.com##.side-nav-on.sticky-nav
 imore.com##.sidebar
 imore.com##.single-sidebar
@@ -9195,6 +9359,8 @@ imore.com##.slot-single-height-7
 imore.com##.social
 imore.com##.social-share
 imore.com##.socialite-widget
+imore.com##.sp-message-open body:style(overflow: auto !important; position: static !important; margin-top: 0 !important; top: auto !important; left: auto !important; right: auto !important;)
+imore.com##.sp-message-open:style(height: auto !important; width: auto !important;)
 imore.com##.speciallink
 imore.com##.sponsored-post
 imore.com##.star-deal
@@ -9234,6 +9400,7 @@ imore.com##[class*="static-lightbox"]
 imore.com##[data-action="Deal Block"]
 imore.com##[data-list="deals/news/latest"]
 imore.com##[id*="ad-unit"]
+imore.com##[id*="sp_message_container"]
 imore.com##a[href*="https://www.magazinesdirect.com/"]
 imore.com##a[name="Subscribe"]
 imore.com##aside
@@ -10799,6 +10966,7 @@ blog.logrocket.com##.comments-area
 blog.logrocket.com##.embed-link
 blog.logrocket.com##.footer-cta-container
 blog.logrocket.com##.footerRight
+blog.logrocket.com##.gutter-link
 blog.logrocket.com##.listrelated
 blog.logrocket.com##.metrics-banner
 blog.logrocket.com##.news-pop
@@ -11029,6 +11197,7 @@ marieclaire.co.uk###document-footer-content
 marieclaire.co.uk###mobile-in-article
 marieclaire.co.uk###notices
 marieclaire.co.uk###popular-data
+marieclaire.co.uk###popularcontent
 marieclaire.co.uk###sidebar
 marieclaire.co.uk###slice-container-trendingbar
 marieclaire.co.uk###taboola-below-article-thumbnails
@@ -11041,6 +11210,7 @@ marieclaire.co.uk##.ad-sticky
 marieclaire.co.uk##.ad-unit
 marieclaire.co.uk##.adunit-wrap
 marieclaire.co.uk##.affiliateDisclaimerBar
+marieclaire.co.uk##.after-article-tags
 marieclaire.co.uk##.article-bio__bio
 marieclaire.co.uk##.article-body__suppl_content--taboola-mid-article
 marieclaire.co.uk##.article-footer
@@ -11054,6 +11224,7 @@ marieclaire.co.uk##.article-meta
 marieclaire.co.uk##.article-shop-bar
 marieclaire.co.uk##.article-token
 marieclaire.co.uk##.article-token--more-of
+marieclaire.co.uk##.articletable__skip
 marieclaire.co.uk##.author
 marieclaire.co.uk##.author-block
 marieclaire.co.uk##.author-byline__authors
@@ -11076,7 +11247,9 @@ marieclaire.co.uk##.counts
 marieclaire.co.uk##.credit
 marieclaire.co.uk##.cta
 marieclaire.co.uk##.deals
+marieclaire.co.uk##.editors-choice
 marieclaire.co.uk##.exit-intent
+marieclaire.co.uk##.expert-carousel
 marieclaire.co.uk##.fancy-box
 marieclaire.co.uk##.feature-block-item
 marieclaire.co.uk##.featured_product_block
@@ -11091,8 +11264,10 @@ marieclaire.co.uk##.fwd-link
 marieclaire.co.uk##.hawk-merchant-link-widget-container
 marieclaire.co.uk##.hawk-nest
 marieclaire.co.uk##.hawk-placeholder
+marieclaire.co.uk##.hawk-processed
 marieclaire.co.uk##.hawk-sticky-product-browser-placeholder
 marieclaire.co.uk##.hawk-sticky-product-browser-title
+marieclaire.co.uk##.hawk-target-tomsguide-deals-section
 marieclaire.co.uk##.hawk-title-merchantlink-title-buying-guide
 marieclaire.co.uk##.hawk-wrapper
 marieclaire.co.uk##.header-advert-wrapper
@@ -11114,14 +11289,17 @@ marieclaire.co.uk##.list-text-links-trending-panel
 marieclaire.co.uk##.listing--latest
 marieclaire.co.uk##.listing--related
 marieclaire.co.uk##.listing--suggested
+marieclaire.co.uk##.listingResult > .sponsored-post:upward(.listingResult)
 marieclaire.co.uk##.locale-links
 marieclaire.co.uk##.locale-selector
 marieclaire.co.uk##.masthead-item.buttons-social
 marieclaire.co.uk##.masthead-item.user-locale
+marieclaire.co.uk##.menu-item-coupons
 marieclaire.co.uk##.menu-item-main-pro
 marieclaire.co.uk##.mixed4
 marieclaire.co.uk##.mixed5
 marieclaire.co.uk##.mixedtertiary
+marieclaire.co.uk##.more-about__container
 marieclaire.co.uk##.moreAbout
 marieclaire.co.uk##.most-popular-item
 marieclaire.co.uk##.nav-button-background-blue
@@ -11144,11 +11322,13 @@ marieclaire.co.uk##.qc-cmp-cleanslate
 marieclaire.co.uk##.read-more-container
 marieclaire.co.uk##.recommended
 marieclaire.co.uk##.regionRedirectBanner
+marieclaire.co.uk##.region_redirect_banner
 marieclaire.co.uk##.region_redirect_popup
 marieclaire.co.uk##.region_redirect_popup_asset
 marieclaire.co.uk##.related-articles-block
 marieclaire.co.uk##.remixd-audioplayer__container
 marieclaire.co.uk##.see-more
+marieclaire.co.uk##.see-more--clipped
 marieclaire.co.uk##.side-nav-on.sticky-nav
 marieclaire.co.uk##.sidebar
 marieclaire.co.uk##.single-sidebar
@@ -11160,6 +11340,8 @@ marieclaire.co.uk##.slot-single-height-7
 marieclaire.co.uk##.social
 marieclaire.co.uk##.social-share
 marieclaire.co.uk##.socialite-widget
+marieclaire.co.uk##.sp-message-open body:style(overflow: auto !important; position: static !important; margin-top: 0 !important; top: auto !important; left: auto !important; right: auto !important;)
+marieclaire.co.uk##.sp-message-open:style(height: auto !important; width: auto !important;)
 marieclaire.co.uk##.speciallink
 marieclaire.co.uk##.sponsored-post
 marieclaire.co.uk##.star-deal
@@ -11199,6 +11381,7 @@ marieclaire.co.uk##[class*="static-lightbox"]
 marieclaire.co.uk##[data-action="Deal Block"]
 marieclaire.co.uk##[data-list="deals/news/latest"]
 marieclaire.co.uk##[id*="ad-unit"]
+marieclaire.co.uk##[id*="sp_message_container"]
 marieclaire.co.uk##a[href*="https://www.magazinesdirect.com/"]
 marieclaire.co.uk##a[name="Subscribe"]
 marieclaire.co.uk##aside
@@ -12930,6 +13113,9 @@ www.oneplus.com##.section-more-images
 www.oneplus.com##.side-navigation-container
 www.oneplus.com##.social-media
 
+! domains\onesignal.com.rules
+||onesignal.com^
+
 ! domains\onetrust.com.rules
 ||onetrust.com^
 
@@ -13284,6 +13470,7 @@ pcgamer.com###hero > .widget-header
 pcgamer.com###mobile-in-article
 pcgamer.com###notices
 pcgamer.com###popular-data
+pcgamer.com###popularcontent
 pcgamer.com###sidebar
 pcgamer.com###slice-container-trendingbar
 pcgamer.com###taboola-below-article-thumbnails
@@ -13296,6 +13483,7 @@ pcgamer.com##.ad-sticky
 pcgamer.com##.ad-unit
 pcgamer.com##.adunit-wrap
 pcgamer.com##.affiliateDisclaimerBar
+pcgamer.com##.after-article-tags
 pcgamer.com##.article-bio__bio
 pcgamer.com##.article-body__suppl_content--taboola-mid-article
 pcgamer.com##.article-footer
@@ -13310,6 +13498,7 @@ pcgamer.com##.article-shop-bar
 pcgamer.com##.article-token
 pcgamer.com##.article-token--more-of
 pcgamer.com##.article__schema-answer
+pcgamer.com##.articletable__skip
 pcgamer.com##.author
 pcgamer.com##.author-block
 pcgamer.com##.author-byline__authors
@@ -13332,7 +13521,9 @@ pcgamer.com##.counts
 pcgamer.com##.credit
 pcgamer.com##.cta
 pcgamer.com##.deals
+pcgamer.com##.editors-choice
 pcgamer.com##.exit-intent
+pcgamer.com##.expert-carousel
 pcgamer.com##.fancy-box
 pcgamer.com##.feature-block-item
 pcgamer.com##.featured_product_block
@@ -13347,8 +13538,10 @@ pcgamer.com##.fwd-link
 pcgamer.com##.hawk-merchant-link-widget-container
 pcgamer.com##.hawk-nest
 pcgamer.com##.hawk-placeholder
+pcgamer.com##.hawk-processed
 pcgamer.com##.hawk-sticky-product-browser-placeholder
 pcgamer.com##.hawk-sticky-product-browser-title
+pcgamer.com##.hawk-target-tomsguide-deals-section
 pcgamer.com##.hawk-title-merchantlink-title-buying-guide
 pcgamer.com##.hawk-wrapper
 pcgamer.com##.header-advert-wrapper
@@ -13370,14 +13563,17 @@ pcgamer.com##.list-text-links-trending-panel
 pcgamer.com##.listing--latest
 pcgamer.com##.listing--related
 pcgamer.com##.listing--suggested
+pcgamer.com##.listingResult > .sponsored-post:upward(.listingResult)
 pcgamer.com##.locale-links
 pcgamer.com##.locale-selector
 pcgamer.com##.masthead-item.buttons-social
 pcgamer.com##.masthead-item.user-locale
+pcgamer.com##.menu-item-coupons
 pcgamer.com##.menu-item-main-pro
 pcgamer.com##.mixed4
 pcgamer.com##.mixed5
 pcgamer.com##.mixedtertiary
+pcgamer.com##.more-about__container
 pcgamer.com##.moreAbout
 pcgamer.com##.most-popular-item
 pcgamer.com##.nav-button-background-blue
@@ -13401,11 +13597,13 @@ pcgamer.com##.qc-cmp-cleanslate
 pcgamer.com##.read-more-container
 pcgamer.com##.recommended
 pcgamer.com##.regionRedirectBanner
+pcgamer.com##.region_redirect_banner
 pcgamer.com##.region_redirect_popup
 pcgamer.com##.region_redirect_popup_asset
 pcgamer.com##.related-articles-block
 pcgamer.com##.remixd-audioplayer__container
 pcgamer.com##.see-more
+pcgamer.com##.see-more--clipped
 pcgamer.com##.side-nav-on.sticky-nav
 pcgamer.com##.sidebar
 pcgamer.com##.single-sidebar
@@ -13417,6 +13615,8 @@ pcgamer.com##.slot-single-height-7
 pcgamer.com##.social
 pcgamer.com##.social-share
 pcgamer.com##.socialite-widget
+pcgamer.com##.sp-message-open body:style(overflow: auto !important; position: static !important; margin-top: 0 !important; top: auto !important; left: auto !important; right: auto !important;)
+pcgamer.com##.sp-message-open:style(height: auto !important; width: auto !important;)
 pcgamer.com##.speciallink
 pcgamer.com##.sponsored-post
 pcgamer.com##.star-deal
@@ -13456,6 +13656,7 @@ pcgamer.com##[class*="static-lightbox"]
 pcgamer.com##[data-action="Deal Block"]
 pcgamer.com##[data-list="deals/news/latest"]
 pcgamer.com##[id*="ad-unit"]
+pcgamer.com##[id*="sp_message_container"]
 pcgamer.com##a[href*="https://www.magazinesdirect.com/"]
 pcgamer.com##a[name="Subscribe"]
 pcgamer.com##aside
@@ -15281,6 +15482,7 @@ rottentomatoes.com##bottom-nav
 rottentomatoes.com##search-page-result:nth-of-type(3)
 
 ! ROYAL MAIL
+www.royalmail.com###block-internationalcyberincident
 www.royalmail.com###flmntChatbot
 www.royalmail.com##.cookie-policy
 www.royalmail.com##.coronavirus18
@@ -16066,7 +16268,13 @@ softpedia.com##.tags
 solveforum.com##.blocks
 solveforum.com##.p-body-sidebar
 
+! domains\songsterr.com.rules
+www.songsterr.com###accept:upward(4)
+www.songsterr.com###menu-plus
+www.songsterr.com###text-showroom
+
 ! SONOS
+developer.sonos.com###atlwdg-trigger
 en.community.sonos.com##.cookiebar
 en.community.sonos.com##.custom-sidebar
 en.community.sonos.com##.logo-insided
@@ -16285,6 +16493,7 @@ stackexchange.com##.tex2jax_ignore.module
 ! STACK OVERFLOW
 stackoverflow.com###announcement-banner
 stackoverflow.com###feed-link
+stackoverflow.com###nav-collective-discover
 stackoverflow.com###question-header .s-btn
 stackoverflow.com###saves-launch-popover
 stackoverflow.com###tags-browser .fs-caption
@@ -16536,6 +16745,7 @@ www.superdrug.com##.pdp__deliveryDetails
 ! SUPERUSER
 superuser.com###feed-link
 superuser.com###hot-network-questions
+superuser.com###sidebar
 superuser.com##.bottom-notice
 superuser.com##.facebook-login
 superuser.com##.google-login
@@ -16611,6 +16821,7 @@ t3.com###document-footer-content
 t3.com###mobile-in-article
 t3.com###notices
 t3.com###popular-data
+t3.com###popularcontent
 t3.com###sidebar
 t3.com###slice-container-trendingbar
 t3.com###taboola-below-article-thumbnails
@@ -16623,6 +16834,7 @@ t3.com##.ad-sticky
 t3.com##.ad-unit
 t3.com##.adunit-wrap
 t3.com##.affiliateDisclaimerBar
+t3.com##.after-article-tags
 t3.com##.article-bio__bio
 t3.com##.article-body__suppl_content--taboola-mid-article
 t3.com##.article-footer
@@ -16636,6 +16848,7 @@ t3.com##.article-meta
 t3.com##.article-shop-bar
 t3.com##.article-token
 t3.com##.article-token--more-of
+t3.com##.articletable__skip
 t3.com##.author
 t3.com##.author-block
 t3.com##.author-byline__authors
@@ -16658,7 +16871,9 @@ t3.com##.counts
 t3.com##.credit
 t3.com##.cta
 t3.com##.deals
+t3.com##.editors-choice
 t3.com##.exit-intent
+t3.com##.expert-carousel
 t3.com##.fancy-box
 t3.com##.feature-block-item
 t3.com##.featured_product_block
@@ -16673,8 +16888,10 @@ t3.com##.fwd-link
 t3.com##.hawk-merchant-link-widget-container
 t3.com##.hawk-nest
 t3.com##.hawk-placeholder
+t3.com##.hawk-processed
 t3.com##.hawk-sticky-product-browser-placeholder
 t3.com##.hawk-sticky-product-browser-title
+t3.com##.hawk-target-tomsguide-deals-section
 t3.com##.hawk-title-merchantlink-title-buying-guide
 t3.com##.hawk-wrapper
 t3.com##.header-advert-wrapper
@@ -16696,14 +16913,17 @@ t3.com##.list-text-links-trending-panel
 t3.com##.listing--latest
 t3.com##.listing--related
 t3.com##.listing--suggested
+t3.com##.listingResult > .sponsored-post:upward(.listingResult)
 t3.com##.locale-links
 t3.com##.locale-selector
 t3.com##.masthead-item.buttons-social
 t3.com##.masthead-item.user-locale
+t3.com##.menu-item-coupons
 t3.com##.menu-item-main-pro
 t3.com##.mixed4
 t3.com##.mixed5
 t3.com##.mixedtertiary
+t3.com##.more-about__container
 t3.com##.moreAbout
 t3.com##.most-popular-item
 t3.com##.nav-button-background-blue
@@ -16726,11 +16946,13 @@ t3.com##.qc-cmp-cleanslate
 t3.com##.read-more-container
 t3.com##.recommended
 t3.com##.regionRedirectBanner
+t3.com##.region_redirect_banner
 t3.com##.region_redirect_popup
 t3.com##.region_redirect_popup_asset
 t3.com##.related-articles-block
 t3.com##.remixd-audioplayer__container
 t3.com##.see-more
+t3.com##.see-more--clipped
 t3.com##.side-nav-on.sticky-nav
 t3.com##.sidebar
 t3.com##.single-sidebar
@@ -16742,6 +16964,8 @@ t3.com##.slot-single-height-7
 t3.com##.social
 t3.com##.social-share
 t3.com##.socialite-widget
+t3.com##.sp-message-open body:style(overflow: auto !important; position: static !important; margin-top: 0 !important; top: auto !important; left: auto !important; right: auto !important;)
+t3.com##.sp-message-open:style(height: auto !important; width: auto !important;)
 t3.com##.speciallink
 t3.com##.sponsored-post
 t3.com##.star-deal
@@ -16781,6 +17005,7 @@ t3.com##[class*="static-lightbox"]
 t3.com##[data-action="Deal Block"]
 t3.com##[data-list="deals/news/latest"]
 t3.com##[id*="ad-unit"]
+t3.com##[id*="sp_message_container"]
 t3.com##a[href*="https://www.magazinesdirect.com/"]
 t3.com##a[name="Subscribe"]
 t3.com##aside
@@ -16974,6 +17199,7 @@ techradar.com###document-footer-content
 techradar.com###mobile-in-article
 techradar.com###notices
 techradar.com###popular-data
+techradar.com###popularcontent
 techradar.com###sidebar
 techradar.com###slice-container-trendingbar
 techradar.com###taboola-below-article-thumbnails
@@ -16986,6 +17212,7 @@ techradar.com##.ad-sticky
 techradar.com##.ad-unit
 techradar.com##.adunit-wrap
 techradar.com##.affiliateDisclaimerBar
+techradar.com##.after-article-tags
 techradar.com##.article-bio__bio
 techradar.com##.article-body__suppl_content--taboola-mid-article
 techradar.com##.article-footer
@@ -16999,6 +17226,7 @@ techradar.com##.article-meta
 techradar.com##.article-shop-bar
 techradar.com##.article-token
 techradar.com##.article-token--more-of
+techradar.com##.articletable__skip
 techradar.com##.author
 techradar.com##.author-block
 techradar.com##.author-byline__authors
@@ -17021,7 +17249,9 @@ techradar.com##.counts
 techradar.com##.credit
 techradar.com##.cta
 techradar.com##.deals
+techradar.com##.editors-choice
 techradar.com##.exit-intent
+techradar.com##.expert-carousel
 techradar.com##.fancy-box
 techradar.com##.feature-block-item
 techradar.com##.featured_product_block
@@ -17037,8 +17267,10 @@ techradar.com##.fwd-link
 techradar.com##.hawk-merchant-link-widget-container
 techradar.com##.hawk-nest
 techradar.com##.hawk-placeholder
+techradar.com##.hawk-processed
 techradar.com##.hawk-sticky-product-browser-placeholder
 techradar.com##.hawk-sticky-product-browser-title
+techradar.com##.hawk-target-tomsguide-deals-section
 techradar.com##.hawk-title-merchantlink-title-buying-guide
 techradar.com##.hawk-wrapper
 techradar.com##.header-advert-wrapper
@@ -17060,14 +17292,17 @@ techradar.com##.list-text-links-trending-panel
 techradar.com##.listing--latest
 techradar.com##.listing--related
 techradar.com##.listing--suggested
+techradar.com##.listingResult > .sponsored-post:upward(.listingResult)
 techradar.com##.locale-links
 techradar.com##.locale-selector
 techradar.com##.masthead-item.buttons-social
 techradar.com##.masthead-item.user-locale
+techradar.com##.menu-item-coupons
 techradar.com##.menu-item-main-pro
 techradar.com##.mixed4
 techradar.com##.mixed5
 techradar.com##.mixedtertiary
+techradar.com##.more-about__container
 techradar.com##.moreAbout
 techradar.com##.most-popular-item
 techradar.com##.nav-button-background-blue
@@ -17090,11 +17325,13 @@ techradar.com##.qc-cmp-cleanslate
 techradar.com##.read-more-container
 techradar.com##.recommended
 techradar.com##.regionRedirectBanner
+techradar.com##.region_redirect_banner
 techradar.com##.region_redirect_popup
 techradar.com##.region_redirect_popup_asset
 techradar.com##.related-articles-block
 techradar.com##.remixd-audioplayer__container
 techradar.com##.see-more
+techradar.com##.see-more--clipped
 techradar.com##.side-nav-on.sticky-nav
 techradar.com##.sidebar
 techradar.com##.single-sidebar
@@ -17106,6 +17343,8 @@ techradar.com##.slot-single-height-7
 techradar.com##.social
 techradar.com##.social-share
 techradar.com##.socialite-widget
+techradar.com##.sp-message-open body:style(overflow: auto !important; position: static !important; margin-top: 0 !important; top: auto !important; left: auto !important; right: auto !important;)
+techradar.com##.sp-message-open:style(height: auto !important; width: auto !important;)
 techradar.com##.speciallink
 techradar.com##.sponsored-post
 techradar.com##.star-deal
@@ -17146,6 +17385,7 @@ techradar.com##[class*="static-lightbox"]
 techradar.com##[data-action="Deal Block"]
 techradar.com##[data-list="deals/news/latest"]
 techradar.com##[id*="ad-unit"]
+techradar.com##[id*="sp_message_container"]
 techradar.com##a[href*="https://www.magazinesdirect.com/"]
 techradar.com##a[name="Subscribe"]
 techradar.com##aside
@@ -18294,54 +18534,217 @@ www.tomsguide.com##header:has-text(Coupons):upward(.listingResultsWrapper)
 www.tomsguide.com##p > em:has-text(Read next):upward(p)
 
 ! TOM'S HARDWARE
+! (inheriting rules from: futureplc.com.rules)
+forums.tomshardware.com##.footer_left > .logo
+forums.tomshardware.com##.footer_right
 forums.tomshardware.com##.message-userExtras
 forums.tomshardware.com##.notices
+forums.tomshardware.com##.p-body-sidebar
 forums.tomshardware.com##.rsp_ft
 forums.tomshardware.com##.similarthreads-wrapper-narrow
+forums.tomshardware.com##.similarthreads-wrapper-wide
 forums.tomshardware.com##.trophyShowcase
+forums.tomshardware.com##.uix_welcomeSection
+tomshardware.com###affiliate-disclaimer
 tomshardware.com###affiliateDisclaimer
-tomshardware.com###document-footer-content > p
+tomshardware.com###article-body > ul
+tomshardware.com###articleTag
+tomshardware.com###comment-jump
+tomshardware.com###content:style(width: auto !important;)
+tomshardware.com###document-footer-content
+tomshardware.com###mobile-in-article
+tomshardware.com###notices
+tomshardware.com###popular-data
 tomshardware.com###popularcontent
+tomshardware.com###sidebar
+tomshardware.com###slice-container-trendingbar
 tomshardware.com###taboola-below-article-thumbnails
+tomshardware.com###taboola-mid-article-thumbnails
 tomshardware.com###taboola-mobile-below-article-thumbnails
+tomshardware.com###top-leaderboard
+tomshardware.com##.ad-container
+tomshardware.com##.ad-logos
+tomshardware.com##.ad-sticky
+tomshardware.com##.ad-unit
+tomshardware.com##.adunit-wrap
 tomshardware.com##.affiliateDisclaimerBar
 tomshardware.com##.after-article-tags
+tomshardware.com##.article-bio__bio
+tomshardware.com##.article-body__suppl_content--taboola-mid-article
+tomshardware.com##.article-footer
+tomshardware.com##.article-header__authors
+tomshardware.com##.article-header__breadcrumbs
+tomshardware.com##.article-header__comments
+tomshardware.com##.article-header__disclosure-wrap
+tomshardware.com##.article-header__tag
+tomshardware.com##.article-lead-image-wrap
+tomshardware.com##.article-meta
+tomshardware.com##.article-shop-bar
+tomshardware.com##.article-token
+tomshardware.com##.article-token--more-of
 tomshardware.com##.articletable__skip
+tomshardware.com##.author
 tomshardware.com##.author-block
 tomshardware.com##.author-byline__authors
+tomshardware.com##.author-byline__avatar
 tomshardware.com##.authorBio
+tomshardware.com##.auto-disclosure-wrap
+tomshardware.com##.award
+tomshardware.com##.block-newsletter
+tomshardware.com##.bordeaux-slot-root
+tomshardware.com##.breadcrumb
+tomshardware.com##.buttons-social
 tomshardware.com##.by-author
+tomshardware.com##.byline
+tomshardware.com##.byline__authorname
+tomshardware.com##.byline__contributors
+tomshardware.com##.byline__media
+tomshardware.com##.category-link
+tomshardware.com##.collection
+tomshardware.com##.counts
+tomshardware.com##.credit
+tomshardware.com##.cta
+tomshardware.com##.deals
 tomshardware.com##.editors-choice
+tomshardware.com##.exit-intent
 tomshardware.com##.expert-carousel
+tomshardware.com##.fancy-box
+tomshardware.com##.feature-block-item
+tomshardware.com##.featured_product_block
+tomshardware.com##.footer-legal
+tomshardware.com##.footer-menu--icons
+tomshardware.com##.footer__partner-logo
+tomshardware.com##.footer__section--sitelinks
+tomshardware.com##.free-text-label
+tomshardware.com##.full.block-link
 tomshardware.com##.future__jwplayer--carousel
+tomshardware.com##.fwd-link
+tomshardware.com##.hawk-merchant-link-widget-container
+tomshardware.com##.hawk-nest
+tomshardware.com##.hawk-placeholder
 tomshardware.com##.hawk-processed
+tomshardware.com##.hawk-sticky-product-browser-placeholder
+tomshardware.com##.hawk-sticky-product-browser-title
 tomshardware.com##.hawk-target-tomsguide-deals-section
+tomshardware.com##.hawk-title-merchantlink-title-buying-guide
+tomshardware.com##.hawk-wrapper
+tomshardware.com##.header-advert-wrapper
+tomshardware.com##.header-subscribe
+tomshardware.com##.header-top-alert-bar
 tomshardware.com##.how-we-test
+tomshardware.com##.how-we-test-component
+tomshardware.com##.input-bar
+tomshardware.com##.instagram-embed
+tomshardware.com##.js-comments-jump
+tomshardware.com##.jump-to-comments
+tomshardware.com##.jw-carousel
 tomshardware.com##.jwplayer__widthsetter
-tomshardware.com##.less-space.box.socialite-widget
+tomshardware.com##.jwplayer__wrapper
+tomshardware.com##.keystone-newsletter-class
+tomshardware.com##.keystone-query-widget
+tomshardware.com##.left-rail-area
 tomshardware.com##.list-text-links-trending-panel
+tomshardware.com##.listing--latest
+tomshardware.com##.listing--related
+tomshardware.com##.listing--suggested
 tomshardware.com##.listingResult > .sponsored-post:upward(.listingResult)
 tomshardware.com##.locale-links
+tomshardware.com##.locale-selector
 tomshardware.com##.masthead-item.buttons-social
+tomshardware.com##.masthead-item.user-locale
+tomshardware.com##.menu-item-coupons
+tomshardware.com##.menu-item-main-pro
+tomshardware.com##.mixed4
+tomshardware.com##.mixed5
+tomshardware.com##.mixedtertiary
 tomshardware.com##.more-about__container
-tomshardware.com##.newsletter-signup.box
+tomshardware.com##.moreAbout
+tomshardware.com##.most-popular-item
+tomshardware.com##.nav-button-background-blue
+tomshardware.com##.nav-social
+tomshardware.com##.nav-subscribe
+tomshardware.com##.nav-subscribe-widget-container
+tomshardware.com##.news-article:style(max-width: none !important;)
+tomshardware.com##.newsletter-form__wrapper
+tomshardware.com##.newsletter-inbodyContent-slice
+tomshardware.com##.newsletter-signup
+tomshardware.com##.newsletterForm-articleInbodyContent
+tomshardware.com##.no-amazon
+tomshardware.com##.onesignal-customlink-container
 tomshardware.com##.popular-box
+tomshardware.com##.post-author
+tomshardware.com##.post-author--img
+tomshardware.com##.post-tags
+tomshardware.com##.product-cards-scroll-wrapper
+tomshardware.com##.qc-cmp-cleanslate
 tomshardware.com##.read-more-container
+tomshardware.com##.recommended
 tomshardware.com##.regionRedirectBanner
 tomshardware.com##.region_redirect_banner
 tomshardware.com##.region_redirect_popup
+tomshardware.com##.region_redirect_popup_asset
 tomshardware.com##.related-articles-block
+tomshardware.com##.remixd-audioplayer__container
+tomshardware.com##.see-more
 tomshardware.com##.see-more--clipped
+tomshardware.com##.side-nav-on.sticky-nav
+tomshardware.com##.sidebar
+tomshardware.com##.single-sidebar
+tomshardware.com##.slice-experts
 tomshardware.com##.slice-experts-header
+tomshardware.com##.slot-mpu1
+tomshardware.com##.slot-mpu2
+tomshardware.com##.slot-single-height-7
+tomshardware.com##.social
+tomshardware.com##.social-share
+tomshardware.com##.socialite-widget
+tomshardware.com##.sp-message-open body:style(overflow: auto !important; position: static !important; margin-top: 0 !important; top: auto !important; left: auto !important; right: auto !important;)
+tomshardware.com##.sp-message-open:style(height: auto !important; width: auto !important;)
+tomshardware.com##.speciallink
+tomshardware.com##.sponsored-post
+tomshardware.com##.star-deal
+tomshardware.com##.static-lightbox2
+tomshardware.com##.sub-brands-bar
+tomshardware.com##.subscribe-text
+tomshardware.com##.subsite_subnav-item
+tomshardware.com##.supernav
+tomshardware.com##.taboola-in-article
+tomshardware.com##.tag-links
+tomshardware.com##.toggle-more-less
+tomshardware.com##.top-featured
+tomshardware.com##.topbutton
+tomshardware.com##.trbc
+tomshardware.com##.trending
 tomshardware.com##.trending-bar-container
 tomshardware.com##.trending-wrapper
+tomshardware.com##.trending__wrapper
+tomshardware.com##.trendingbar
+tomshardware.com##.twitter-cls-wrapper
+tomshardware.com##.van_taboola
+tomshardware.com##.van_vid_carousel
+tomshardware.com##.van_vid_carousel__container
+tomshardware.com##.widget-ads
+tomshardware.com##.widget-dynamic-fter-popular-box
+tomshardware.com##.widget-dynamic-popular-data
+tomshardware.com##.widget-newsletter
+tomshardware.com##.widget-popular-data
 tomshardware.com##.xenforo-comment-widget
 tomshardware.com##.xenforo-comments-see-all
+tomshardware.com##:xpath(//p[child::strong[contains(text(), 'Follow')] and child::a[contains(@href, 'https://twitter.com/')]])
 tomshardware.com##:xpath(//p[child::strong[contains(text(), 'MORE')]])
+tomshardware.com##[class*="premium_inline_"]
+tomshardware.com##[class*="slot-double-height-"]
+tomshardware.com##[class*="slot-single-height-"]
+tomshardware.com##[class*="slot-single-height-before-heading-"]
+tomshardware.com##[class*="static-lightbox"]
+tomshardware.com##[data-action="Deal Block"]
+tomshardware.com##[data-list="deals/news/latest"]
+tomshardware.com##[id*="ad-unit"]
+tomshardware.com##[id*="sp_message_container"]
+tomshardware.com##a[href*="https://www.magazinesdirect.com/"]
+tomshardware.com##a[name="Subscribe"]
+tomshardware.com##aside
 tomshardware.com##li > strong:has-text(MORE:):upward(ul)
-www.tomshardware.com##.author-byline__contributors
-www.tomshardware.com##.menu-item-coupons
-www.tomshardware.com##.newsletterForm-articleInbodyContent.newsletter-inbodyContent-slice.slice-container
 
 ! TOOLSTATION
 www.toolstation.com##.alert-dismissable
@@ -20104,6 +20507,7 @@ whathifi.com###document-footer-content
 whathifi.com###mobile-in-article
 whathifi.com###notices
 whathifi.com###popular-data
+whathifi.com###popularcontent
 whathifi.com###sidebar
 whathifi.com###slice-container-trendingbar
 whathifi.com###taboola-below-article-thumbnails
@@ -20116,6 +20520,7 @@ whathifi.com##.ad-sticky
 whathifi.com##.ad-unit
 whathifi.com##.adunit-wrap
 whathifi.com##.affiliateDisclaimerBar
+whathifi.com##.after-article-tags
 whathifi.com##.article-bio__bio
 whathifi.com##.article-body__suppl_content--taboola-mid-article
 whathifi.com##.article-footer
@@ -20129,6 +20534,7 @@ whathifi.com##.article-meta
 whathifi.com##.article-shop-bar
 whathifi.com##.article-token
 whathifi.com##.article-token--more-of
+whathifi.com##.articletable__skip
 whathifi.com##.author
 whathifi.com##.author-block
 whathifi.com##.author-byline__authors
@@ -20151,7 +20557,9 @@ whathifi.com##.counts
 whathifi.com##.credit
 whathifi.com##.cta
 whathifi.com##.deals
+whathifi.com##.editors-choice
 whathifi.com##.exit-intent
+whathifi.com##.expert-carousel
 whathifi.com##.fancy-box
 whathifi.com##.feature-block-item
 whathifi.com##.featured_product_block
@@ -20166,8 +20574,10 @@ whathifi.com##.fwd-link
 whathifi.com##.hawk-merchant-link-widget-container
 whathifi.com##.hawk-nest
 whathifi.com##.hawk-placeholder
+whathifi.com##.hawk-processed
 whathifi.com##.hawk-sticky-product-browser-placeholder
 whathifi.com##.hawk-sticky-product-browser-title
+whathifi.com##.hawk-target-tomsguide-deals-section
 whathifi.com##.hawk-title-merchantlink-title-buying-guide
 whathifi.com##.hawk-wrapper
 whathifi.com##.header-advert-wrapper
@@ -20189,14 +20599,17 @@ whathifi.com##.list-text-links-trending-panel
 whathifi.com##.listing--latest
 whathifi.com##.listing--related
 whathifi.com##.listing--suggested
+whathifi.com##.listingResult > .sponsored-post:upward(.listingResult)
 whathifi.com##.locale-links
 whathifi.com##.locale-selector
 whathifi.com##.masthead-item.buttons-social
 whathifi.com##.masthead-item.user-locale
+whathifi.com##.menu-item-coupons
 whathifi.com##.menu-item-main-pro
 whathifi.com##.mixed4
 whathifi.com##.mixed5
 whathifi.com##.mixedtertiary
+whathifi.com##.more-about__container
 whathifi.com##.moreAbout
 whathifi.com##.most-popular-item
 whathifi.com##.nav-button-background-blue
@@ -20219,11 +20632,13 @@ whathifi.com##.qc-cmp-cleanslate
 whathifi.com##.read-more-container
 whathifi.com##.recommended
 whathifi.com##.regionRedirectBanner
+whathifi.com##.region_redirect_banner
 whathifi.com##.region_redirect_popup
 whathifi.com##.region_redirect_popup_asset
 whathifi.com##.related-articles-block
 whathifi.com##.remixd-audioplayer__container
 whathifi.com##.see-more
+whathifi.com##.see-more--clipped
 whathifi.com##.side-nav-on.sticky-nav
 whathifi.com##.sidebar
 whathifi.com##.single-sidebar
@@ -20235,6 +20650,8 @@ whathifi.com##.slot-single-height-7
 whathifi.com##.social
 whathifi.com##.social-share
 whathifi.com##.socialite-widget
+whathifi.com##.sp-message-open body:style(overflow: auto !important; position: static !important; margin-top: 0 !important; top: auto !important; left: auto !important; right: auto !important;)
+whathifi.com##.sp-message-open:style(height: auto !important; width: auto !important;)
 whathifi.com##.speciallink
 whathifi.com##.sponsored-post
 whathifi.com##.star-deal
@@ -20274,11 +20691,15 @@ whathifi.com##[class*="static-lightbox"]
 whathifi.com##[data-action="Deal Block"]
 whathifi.com##[data-list="deals/news/latest"]
 whathifi.com##[id*="ad-unit"]
+whathifi.com##[id*="sp_message_container"]
 whathifi.com##a[href*="https://www.magazinesdirect.com/"]
 whathifi.com##a[name="Subscribe"]
 whathifi.com##aside
 whathifi.com##p > strong:has-text(MORE:):upward(p)
 whathifi.com##p > strong:has-text(MORE:):upward(p) ~ *
+
+! domains\whatismybrowser.com.rules
+www.whatismybrowser.com##.related-articles
 
 ! WHAT PUB
 whatpub.com###camra_logo
@@ -20516,6 +20937,7 @@ windowscentral.com###document-footer-content
 windowscentral.com###mobile-in-article
 windowscentral.com###notices
 windowscentral.com###popular-data
+windowscentral.com###popularcontent
 windowscentral.com###sidebar
 windowscentral.com###slice-container-trendingbar
 windowscentral.com###taboola-below-article-thumbnails
@@ -20530,6 +20952,7 @@ windowscentral.com##.ad-sticky
 windowscentral.com##.ad-unit
 windowscentral.com##.adunit-wrap
 windowscentral.com##.affiliateDisclaimerBar
+windowscentral.com##.after-article-tags
 windowscentral.com##.article-bio__bio
 windowscentral.com##.article-body__suppl_content--taboola-mid-article
 windowscentral.com##.article-footer
@@ -20543,6 +20966,7 @@ windowscentral.com##.article-meta
 windowscentral.com##.article-shop-bar
 windowscentral.com##.article-token
 windowscentral.com##.article-token--more-of
+windowscentral.com##.articletable__skip
 windowscentral.com##.author
 windowscentral.com##.author-block
 windowscentral.com##.author-byline__authors
@@ -20565,7 +20989,9 @@ windowscentral.com##.counts
 windowscentral.com##.credit
 windowscentral.com##.cta
 windowscentral.com##.deals
+windowscentral.com##.editors-choice
 windowscentral.com##.exit-intent
+windowscentral.com##.expert-carousel
 windowscentral.com##.fancy-box
 windowscentral.com##.feature-block-item
 windowscentral.com##.featured_product_block
@@ -20580,8 +21006,10 @@ windowscentral.com##.fwd-link
 windowscentral.com##.hawk-merchant-link-widget-container
 windowscentral.com##.hawk-nest
 windowscentral.com##.hawk-placeholder
+windowscentral.com##.hawk-processed
 windowscentral.com##.hawk-sticky-product-browser-placeholder
 windowscentral.com##.hawk-sticky-product-browser-title
+windowscentral.com##.hawk-target-tomsguide-deals-section
 windowscentral.com##.hawk-title-merchantlink-title-buying-guide
 windowscentral.com##.hawk-wrapper
 windowscentral.com##.header-advert-wrapper
@@ -20603,14 +21031,17 @@ windowscentral.com##.list-text-links-trending-panel
 windowscentral.com##.listing--latest
 windowscentral.com##.listing--related
 windowscentral.com##.listing--suggested
+windowscentral.com##.listingResult > .sponsored-post:upward(.listingResult)
 windowscentral.com##.locale-links
 windowscentral.com##.locale-selector
 windowscentral.com##.masthead-item.buttons-social
 windowscentral.com##.masthead-item.user-locale
+windowscentral.com##.menu-item-coupons
 windowscentral.com##.menu-item-main-pro
 windowscentral.com##.mixed4
 windowscentral.com##.mixed5
 windowscentral.com##.mixedtertiary
+windowscentral.com##.more-about__container
 windowscentral.com##.moreAbout
 windowscentral.com##.most-popular-item
 windowscentral.com##.nav-button-background-blue
@@ -20633,11 +21064,13 @@ windowscentral.com##.qc-cmp-cleanslate
 windowscentral.com##.read-more-container
 windowscentral.com##.recommended
 windowscentral.com##.regionRedirectBanner
+windowscentral.com##.region_redirect_banner
 windowscentral.com##.region_redirect_popup
 windowscentral.com##.region_redirect_popup_asset
 windowscentral.com##.related-articles-block
 windowscentral.com##.remixd-audioplayer__container
 windowscentral.com##.see-more
+windowscentral.com##.see-more--clipped
 windowscentral.com##.side-nav-on.sticky-nav
 windowscentral.com##.sidebar
 windowscentral.com##.single-sidebar
@@ -20649,6 +21082,8 @@ windowscentral.com##.slot-single-height-7
 windowscentral.com##.social
 windowscentral.com##.social-share
 windowscentral.com##.socialite-widget
+windowscentral.com##.sp-message-open body:style(overflow: auto !important; position: static !important; margin-top: 0 !important; top: auto !important; left: auto !important; right: auto !important;)
+windowscentral.com##.sp-message-open:style(height: auto !important; width: auto !important;)
 windowscentral.com##.speciallink
 windowscentral.com##.sponsored-post
 windowscentral.com##.star-deal
@@ -20688,6 +21123,7 @@ windowscentral.com##[class*="static-lightbox"]
 windowscentral.com##[data-action="Deal Block"]
 windowscentral.com##[data-list="deals/news/latest"]
 windowscentral.com##[id*="ad-unit"]
+windowscentral.com##[id*="sp_message_container"]
 windowscentral.com##a[href*="https://www.magazinesdirect.com/"]
 windowscentral.com##a[name="Subscribe"]
 windowscentral.com##aside
@@ -20706,12 +21142,14 @@ windowsreport.com##.article-details__meta__second-author
 windowsreport.com##.comments
 windowsreport.com##.main-footer__middle
 windowsreport.com##.main-footer__top
+windowsreport.com##.refmedprd-b
 windowsreport.com##.related-articles
 windowsreport.com##.related_posts
 windowsreport.com##.related_posts_searchform
 windowsreport.com##.tags-widget
 windowsreport.com##.wr-layout-feedback-container
 windowsreport.com##.wr-layout-related-posts-container
+windowsreport.com##.yoast-link-suggestion__value:upward(3)
 windowsreport.com##a[href^="https://windowsreport.com/author/"]
 
 ! WIRED
