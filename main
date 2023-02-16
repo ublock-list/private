@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Thu, 16 Feb 2023 17:06:25 +0000
+! Last modified: Thu, 16 Feb 2023 17:15:55 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -861,6 +861,7 @@ amazon.*##.octopus-widget-container
 amazon.*##.pageBanner
 amazon.*##.prime-ad-banner-content
 amazon.*##.s-brand-footer-container
+amazon.*##.s-promotion-highlight-color
 amazon.*##.s-quick-view-ingress-button
 amazon.*##.s-recentSearchDistinct
 amazon.*##.s-sponsored-label-text:upward(.s-result-item)
@@ -1410,6 +1411,7 @@ www.appliancesdirect.co.uk##.outlet-deals
 www.appliancesdirect.co.uk##.payexp
 www.appliancesdirect.co.uk##.paypal-banner-strip
 www.appliancesdirect.co.uk##.paypal-bar
+www.appliancesdirect.co.uk##.paypal-wrap
 www.appliancesdirect.co.uk##.pp-breadcrumb
 www.appliancesdirect.co.uk##.pp-bundle
 www.appliancesdirect.co.uk##.prod-accessory
@@ -2148,8 +2150,11 @@ bbc.*##.nw-c-sport
 bbc.*##.orb-footer-promo-loaded
 bbc.*##.primary-promo__container
 bbc.*##.promotion__link
+bbc.*##.qa-contributor
+bbc.*##.qa-contributor-link
 bbc.*##.qa-embed-report-button
 bbc.*##.qa-story-cta-link
+bbc.*##.qa-stream-tag
 bbc.*##.recipe-actions
 bbc.*##.recipe-is-from-widget__content
 bbc.*##.recipe-quick-links-wrapper
@@ -2296,6 +2301,9 @@ bbcgoodfood.com##:xpath(//h6[contains(text(), 'RECIPE TIPS')]) ~ *
 bbcgoodfood.com##:xpath(//section[contains(@class, 'elementor-section') and child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'More from the brand')]]]]]]]]]]]])
 bbcgoodfood.com##section > hr
 bbcgoodfood.com##section > hr ~ *
+
+! domains\bbci.co.uk.rules
+||ichef.bbci.co.uk/news/*/cpsprodpb/C414/production/_*_pressxjpeg.jp*$image
 
 ! domains\beenmeekwarmth.casa.rules
 ||beenmeekwarmth.casa^
@@ -2467,6 +2475,7 @@ www.bimmerfest.com##.california-recommended-reading-container
 www.bimmerfest.com##.california-share-button
 www.bimmerfest.com##.california-sticky-footer-ad-container
 www.bimmerfest.com##.join-prompt
+www.bimmerfest.com##.message-footer
 www.bimmerfest.com##.sidebar
 www.bimmerfest.com##.topical-info
 
@@ -2509,6 +2518,12 @@ www.bit-tech.net##.top_list
 ! domains\bitfly.io.rules
 ||bitfly.io^
 bitfly.io##.text-left
+
+! domains\blackpoolgazette.co.uk.rules
+www.blackpoolgazette.co.uk##.article-read-more
+www.blackpoolgazette.co.uk##.footer-social
+www.blackpoolgazette.co.uk##[class*="ArticleMeta__Author"]
+www.blackpoolgazette.co.uk##[class*="helper__MobileAdContainer"]
 
 ! BLACKS
 www.blacks.co.uk###family-of-stores
@@ -3844,6 +3859,13 @@ codingame.com##navigation-hiring-work
 coinmarketcap.com###cmc-slot--leaderboard-top
 coinmarketcap.com##.search-sponsor
 
+! domains\comicbook.com.rules
+comicbook.com##.about
+comicbook.com##.author > .author
+comicbook.com##.channel-nav
+comicbook.com##.js-activateComments
+comicbook.com##.mid-content-comment
+
 ! domains\commento.io.rules
 ||commento.io^
 
@@ -4401,6 +4423,14 @@ currys.co.uk##wainclude
 ! CV LIBRARY
 cv-library.co.uk##[id*="savelnk"]
 
+! domains\cwjobs.co.uk.rules
+www.cwjobs.co.uk###GDPRConsentManagerContainer
+www.cwjobs.co.uk###app-footer
+www.cwjobs.co.uk###mya-widget
+www.cwjobs.co.uk##.faq-widget
+www.cwjobs.co.uk##[class*="StarIconEmpty"]
+www.cwjobs.co.uk##[id*="stepstone-disclosure-"]
+
 ! domains\d3c3uihon9kmp.cloudfront.net.rules
 ||d3c3uihon9kmp.cloudfront.net^
 
@@ -4529,6 +4559,33 @@ dart.dev###cookie-notice
 
 ! WHITELIST
 @@||connect.data.com^$document
+
+! domains\data.world.rules
+data.world##.featured-clients-logo-cloud
+data.world##.mobile-nav-bottom
+data.world##.nav-social
+data.world##.top-alert-bar
+data.world##[class*="DatasetView__footer"]
+data.world##[class*="SignupBar__signupBanner"]
+data.world##[class*="UserCard__action"]
+
+! domains\datingadvice.com.rules
+www.datingadvice.com###footer-authority
+www.datingadvice.com###footer-reviews
+www.datingadvice.com###industry-news
+www.datingadvice.com###latest-advice
+www.datingadvice.com##.about-the-author
+www.datingadvice.com##.advertiser-disclosure
+www.datingadvice.com##.author-attribution
+www.datingadvice.com##.author-avatar
+www.datingadvice.com##.back-button
+www.datingadvice.com##.back-to-top
+www.datingadvice.com##.footer-advertiser-disclosure
+www.datingadvice.com##.related-topics
+www.datingadvice.com##.share-bar
+www.datingadvice.com##.social
+www.datingadvice.com##.trending-related
+www.datingadvice.com##.yarpp
 
 ! DAVID WALSH
 davidwalsh.name###comment-form-holder
@@ -4689,6 +4746,13 @@ dev.to##.crayons-sponsorship-article
 dev.to##.hamburger__content .c-link__icon
 dev.to##a[href^="https://twitter.com/"]:upward(1)
 
+! domains\dfs.co.uk.rules
+www.dfs.co.uk##.MuiButton-label:has-text(finance calculator):upward(2)
+www.dfs.co.uk##.MuiButton-root:has-text(shortlist)
+www.dfs.co.uk##.bannerContainer
+www.dfs.co.uk##.countdown_true
+www.dfs.co.uk##.productBannerContainer
+
 ! DICTIONARY.COM
 dictionary.com###marketingBanner-right
 dictionary.com###marketingBanner-right-button
@@ -4808,6 +4872,7 @@ www.digitaltrends.com##.b-foot__menu
 www.digitaltrends.com##.b-foot__social
 www.digitaltrends.com##.b-foot__top
 www.digitaltrends.com##.b-headline__note
+www.digitaltrends.com##.b-related-links
 www.digitaltrends.com##.b-share
 www.digitaltrends.com##.b-sub
 www.digitaltrends.com##.dtcc-affiliate
@@ -5410,6 +5475,13 @@ emirates.com##.operational-updates
 emirates.com##.promo-wrapper
 emirates.com##.subscribe
 
+! domains\encorepetfood.com.rules
+encorepetfood.com##.footer__follow
+encorepetfood.com##.gdpr-banner
+encorepetfood.com##.related-posts
+encorepetfood.com##.spotlight-col
+encorepetfood.com##.where-to-buy
+
 ! ENGLISH HERITAGE
 www.english-heritage.org.uk###cookiescript_injected
 www.english-heritage.org.uk##.chat-trigger
@@ -5796,8 +5868,10 @@ www.express.co.uk###top-navigation
 www.express.co.uk###weather-widget
 www.express.co.uk##.OUTBRAIN
 www.express.co.uk##.ad-slot-article
+www.express.co.uk##.affiliate-links
 www.express.co.uk##.author
 www.express.co.uk##.breaking-news-container
+www.express.co.uk##.breakout
 www.express.co.uk##.download-app
 www.express.co.uk##.eu-referendum-interloper
 www.express.co.uk##.fiveitems
@@ -5836,6 +5910,7 @@ www.express.co.uk##:xpath(//p[child::strong[starts-with(text(), 'READ MORE')]])
 www.express.co.uk##:xpath(//ul[contains(@class, 'sub-nav') and child::li[starts-with(text(), 'TRENDING')]])
 www.express.co.uk##[href="https://www.express-casino.com/"]
 www.express.co.uk##p > a > b:upward(p)
+www.express.co.uk##p > b > i > span > a:upward(p)
 www.express.co.uk##p > b:has-text(DON):has-text(MISS):upward(p)
 www.express.co.uk##p > b:has-text(Read More:):upward(p)
 
@@ -6176,6 +6251,7 @@ www.fosshub.com###fh-ss
 
 ! FOX NEWS
 www.foxnews.com###toapp
+www.foxnews.com##.ad-contain
 www.foxnews.com##.article-footer
 www.foxnews.com##.article-meta
 www.foxnews.com##.article-social
@@ -6215,6 +6291,10 @@ www.fragrancedirect.co.uk##.header-wishlist
 www.fragrancedirect.co.uk##.hero-banner
 www.fragrancedirect.co.uk##.info-bar
 www.fragrancedirect.co.uk##.modal
+
+! domains\frames.co.uk.rules
+www.frames.co.uk###cookie-consent
+www.frames.co.uk##.mobile-usp-bar
 
 ! FREE CODE CAMP
 freecodecamp.org###nav-donate
@@ -6883,6 +6963,14 @@ gardenersworld.com##.template-article__footer
 gardenersworld.com##.template-article__meta
 gardenersworld.com##.template-article__social-share
 gardenersworld.com##section.highlight h4:has-text(BBC Gardeners’ World Magazine offer:):upward(section.highlight)
+www.gardenersworld.com##.ad-banner
+www.gardenersworld.com##.author-link
+www.gardenersworld.com##.dynamic-related-content
+www.gardenersworld.com##.editor-content a[href*="/affiliate-links-frequently-asked-questions/"]:upward(.editor-content)
+www.gardenersworld.com##.heading-6:has-text(More like this):upward(1)
+www.gardenersworld.com##.post-header__promo.link
+www.gardenersworld.com##.promotion-cards
+www.gardenersworld.com##.social-share
 
 ! GARDENS 4 YOU
 www.gardens4you.co.uk##.footertop
@@ -6978,10 +7066,16 @@ www.ghacks.net###post-author
 www.ghacks.net###snippet-box
 www.ghacks.net###snippet-box ~ *
 www.ghacks.net###widgets-sec
+www.ghacks.net##.banner-mobile
 www.ghacks.net##.box-banner
+www.ghacks.net##.column-ad
+www.ghacks.net##.ghacks-content > div
 www.ghacks.net##.ghacks-sidebar
+www.ghacks.net##.home-intro-post-meta
 www.ghacks.net##.home-popular-posts
+www.ghacks.net##.post-subtitle-meta_left_author
 www.ghacks.net##.the_related_part
+www.ghacks.net##.wide-ad
 
 ! domains\gigamic.com.rules
 ||gigamic.com^
@@ -7128,17 +7222,21 @@ www.glassdoor.co.uk##body:style(overflow: auto !important)
 www.glassdoor.co.uk##h2:has-text(The latest conversations about Tech):upward(2)
 
 ! domains\glassesdirect.co.uk.rules
+www.glassesdirect.co.uk###brands-banner
 www.glassesdirect.co.uk###choose-range
+www.glassesdirect.co.uk###footer
 www.glassesdirect.co.uk###footer-row-brands
 www.glassesdirect.co.uk###hero-banner
 www.glassesdirect.co.uk###home-trustpilot
 www.glassesdirect.co.uk###nav-favourites
 www.glassesdirect.co.uk###nav-hometrial
 www.glassesdirect.co.uk###usp-bar
+www.glassesdirect.co.uk###usp-grid-container
 www.glassesdirect.co.uk##.bogo-container
 www.glassesdirect.co.uk##.favourites-button
 www.glassesdirect.co.uk##.homepage-banners
 www.glassesdirect.co.uk##.sitewide-banner
+www.glassesdirect.co.uk##.transitions-section
 
 ! GLOBAL PENFRIENDS
 www.globalpenfriends.com##.access_denied
@@ -7175,6 +7273,15 @@ abcnews.go.com##[id^="MORE"]
 go.dev##.Documentation-exampleShareButton
 go.dev##.LearnGo
 go.dev##.WhoUses
+
+! domains\gobeyond.dev.rules
+www.gobeyond.dev##.c-card-author
+www.gobeyond.dev##.c-post-header__author_media
+www.gobeyond.dev##.c-post-header__author_name
+www.gobeyond.dev##.c-related
+www.gobeyond.dev##.c-share
+www.gobeyond.dev##.c-sidebar
+www.gobeyond.dev##.c-tags
 
 ! GO FUND ME
 www.gofundme.com##.m-gdpr-alert-banner
@@ -7283,6 +7390,7 @@ www.golinuxcloud.com##[class*="golin-content-"]
 ! GOOD HOUSEKEEPING
 www.goodhousekeeping.com###onetrust-consent-sdk
 www.goodhousekeeping.com##.affiliate-disclaimer
+www.goodhousekeeping.com##.breadcrumb
 www.goodhousekeeping.com##.breaker-ad
 www.goodhousekeeping.com##.byline-with-image
 www.goodhousekeeping.com##.embed-editorial-links
@@ -7299,6 +7407,7 @@ www.goodhousekeeping.com##.social-button-group
 www.goodhousekeeping.com##.top-nav-subscribe
 www.goodhousekeeping.com##.transporter
 www.goodhousekeeping.com##.vertical-ad
+www.goodhousekeeping.com##a:has-text(Subscribe)
 
 ! GOOD READS
 www.goodreads.com###buyButtonContainer
@@ -7876,42 +7985,53 @@ www.heathrow.com##.advisory-notification
 www.heathrow.com##.share-container
 
 ! HELLO MAGAZINE
+hellomagazine.com###beautyBox
+hellomagazine.com###didomi-host
+hellomagazine.com###fashionBox
 hellomagazine.com###formulario-newsletter-footer
+hellomagazine.com###helloStyle
+hellomagazine.com###horoscopes
+hellomagazine.com###native-share
+hellomagazine.com###secondaryBar
 hellomagazine.com###topBar .socialmedia
 hellomagazine.com##.author
+hellomagazine.com##.breadcrumb-stories
 hellomagazine.com##.hot-topics
 hellomagazine.com##.nav-logoHFM
 hellomagazine.com##.news-tags
+hellomagazine.com##.nwslttr_button
+hellomagazine.com##.recommendations-module
 hellomagazine.com##.related
 hellomagazine.com##.socialmedia
+hellomagazine.com##.special_banner
 hellomagazine.com##.suscriptions
+hellomagazine.com##body:style(overflow: auto !important;)
+hellomagazine.com##p > strong .in-article-cta:upward(p)
+hellomagazine.com##p > strong > a:upward(p)
 hellomagazine.com##p > strong:has-text(MORE:):upward(p)
 hellomagazine.com##p > strong:has-text(READ:):upward(p)
 hellomagazine.com##p > strong:has-text(WATCH:):upward(p)
-www.hellomagazine.com###beautyBox
-www.hellomagazine.com###fashionBox
-www.hellomagazine.com###helloStyle
-www.hellomagazine.com###horoscopes
-www.hellomagazine.com###native-share
-www.hellomagazine.com###secondaryBar
-www.hellomagazine.com##.breadcrumb-stories
-www.hellomagazine.com##.nwslttr_button
-www.hellomagazine.com##.special_banner
-www.hellomagazine.com##p > strong .in-article-cta:upward(p)
-www.hellomagazine.com##p > strong > a:upward(p)
 
 ! domains\helpscout.net.rules
 ||helpscout.net^
 
 ! HERTFORDSHIRE MERCURY
 www.hertfordshiremercury.co.uk###social-follow
+www.hertfordshiremercury.co.uk##.advertorial
 www.hertfordshiremercury.co.uk##.author-information-container
+www.hertfordshiremercury.co.uk##.bookmark-btn-container-mobile
+www.hertfordshiremercury.co.uk##.bookmark-btn-pancake
+www.hertfordshiremercury.co.uk##.click-track
 www.hertfordshiremercury.co.uk##.embedded-image-grid
+www.hertfordshiremercury.co.uk##.partner-mast-header > .secondary > section
+www.hertfordshiremercury.co.uk##.partner-mast-header.mod-header > .secondary
 www.hertfordshiremercury.co.uk##.publication-theme > .channel-news
 www.hertfordshiremercury.co.uk##.sharebar
 www.hertfordshiremercury.co.uk##.skinny-signup
 www.hertfordshiremercury.co.uk##.social-links
 www.hertfordshiremercury.co.uk##.tag-list
+www.hertfordshiremercury.co.uk##.teaser-hero
+www.hertfordshiremercury.co.uk##.teaser-label-comment
 www.hertfordshiremercury.co.uk##.top-stories
 www.hertfordshiremercury.co.uk##aside
 www.hertfordshiremercury.co.uk##aside.read-more-links
@@ -8730,6 +8850,16 @@ www.huwsgray.co.uk##.popup.branch-lookup
 ! domains\ibb.co.rules
 ||ibb.co^
 
+! domains\ibtimes.sg.rules
+www.ibtimes.sg##.amp-ad-container
+www.ibtimes.sg##.amp-article--share
+www.ibtimes.sg##.article--byline
+www.ibtimes.sg##.article--category
+www.ibtimes.sg##.button__red
+www.ibtimes.sg##.demo-container
+www.ibtimes.sg##.featured_stories
+www.ibtimes.sg##.fullArticle > ul
+
 ! domains\icons8.com.rules
 ||icons8.com^
 
@@ -9117,6 +9247,7 @@ imdb.com##.imdb-header__watchlist-button
 imdb.com##.ipc-icon-button
 imdb.com##.ipc-page-grid__item--span-1
 imdb.com##.ipc-rating-prompt
+imdb.com##.ipc-scroll-to-top-button
 imdb.com##.ipc-snackbar
 imdb.com##.ipc-split-button
 imdb.com##.ipc-split-button__btn
@@ -10009,6 +10140,7 @@ www.kentlive.news###social-follow
 www.kentlive.news###utility-links
 www.kentlive.news##.article-wrapper .content-column:style(margin-right: 0 !important; max-width: 100% !important;)
 www.kentlive.news##.author-information-container
+www.kentlive.news##.bookmark-btn-container-mobile
 www.kentlive.news##.embedded-image-grid
 www.kentlive.news##.factbox
 www.kentlive.news##.html-embed
@@ -10017,6 +10149,7 @@ www.kentlive.news##.opinion-author-default
 www.kentlive.news##.pancake > .channel-news
 www.kentlive.news##.pancake > .channel-whats-on
 www.kentlive.news##.partner
+www.kentlive.news##.read-more-links
 www.kentlive.news##.related-articles-bg
 www.kentlive.news##.related-stories
 www.kentlive.news##.secondary
@@ -10289,17 +10422,23 @@ www.lancashire.gov.uk##.adwrapper-side
 www.lancashire.gov.uk##.py-4.text-white.bg-dark.site-footer
 
 ! LANCASHIRE TELEGRAPH
+www.lancashiretelegraph.co.uk###mostReadBlock
 www.lancashiretelegraph.co.uk###uber-interstitial
 www.lancashiretelegraph.co.uk###uber-most-popular
+www.lancashiretelegraph.co.uk##.article-comments
 www.lancashiretelegraph.co.uk##.article-continuation
 www.lancashiretelegraph.co.uk##.article-sticky-social
 www.lancashiretelegraph.co.uk##.author-details
+www.lancashiretelegraph.co.uk##.block-article-content__socialbar
 www.lancashiretelegraph.co.uk##.cta-component-contributions
+www.lancashiretelegraph.co.uk##.header-top-navigation__links--primary-links > .mar-btn--promo-primary
+www.lancashiretelegraph.co.uk##.header-topnav
 www.lancashiretelegraph.co.uk##.most-popular-block
 www.lancashiretelegraph.co.uk##.nav-container .inverted
 www.lancashiretelegraph.co.uk##.nav-container .primary-links
 www.lancashiretelegraph.co.uk##.single-short-block
 www.lancashiretelegraph.co.uk##.social-circles-component-v2
+www.lancashiretelegraph.co.uk##.sub-nav
 www.lancashiretelegraph.co.uk##.top-nav
 
 ! LANCASHIRE LIVE
@@ -10835,6 +10974,10 @@ list.co.uk##h2:has-text(What's On):upward(section)
 list.co.uk##h3:has-text(Join our newsletter):upward(section)
 list.co.uk##small:has-text(Event listing data supplied by):upward(div)
 
+! domains\litfibre.com.rules
+litfibre.com##.CookieConsent
+litfibre.com##.grecaptcha-badge
+
 ! LITTLEWOODS
 littlewoods.com###appleStripBanners
 littlewoods.com###bs-container
@@ -10976,6 +11119,9 @@ blog.logrocket.com##.sharedaddy
 
 ! domains\logystowtencon.info.rules
 ||logystowtencon.info^
+
+! domains\london.gov.uk.rules
+www.london.gov.uk##.user-navigation
 
 ! LONDON LUGGAGE
 www.londonluggage.co.uk###shopify-section-footer-promotions
@@ -11386,6 +11532,11 @@ marieclaire.co.uk##a[href*="https://www.magazinesdirect.com/"]
 marieclaire.co.uk##a[name="Subscribe"]
 marieclaire.co.uk##aside
 
+! domains\mariowiki.com.rules
+www.mariowiki.com###adBanner
+www.mariowiki.com###adBox
+www.mariowiki.com###disambig
+
 ! MARKS AND SPENCER
 marksandspencer.com###matchingItems
 marksandspencer.com###mobileRelatedCategories
@@ -11683,6 +11834,7 @@ www.metoffice.gov.uk##.video-link
 ! METRO NEWS
 metro.co.uk###back-to-top
 metro.co.uk###ipso
+metro.co.uk###metro-comments-area
 metro.co.uk###mosaic-channel-zone-wrapper:style(width: 100% !important;)
 metro.co.uk###post-content:style(width: 100% !important; float: none !important;)
 metro.co.uk###share-buttons-bottom
@@ -11708,6 +11860,7 @@ metro.co.uk##.metro-discounts
 metro.co.uk##.metro-email-signup
 metro.co.uk##.metro-email-signup-the-fix.metro-email-signup-shortcode.metro-email-signup
 metro.co.uk##.metro-factbox
+metro.co.uk##.metro-signpost
 metro.co.uk##.mor-link
 metro.co.uk##.newzit-embed
 metro.co.uk##.nf-social
@@ -11746,6 +11899,9 @@ microsoft.com##.ocArticleFooterElementContainer
 microsoft.com##.teachingCalloutPopover
 microsoft.com##.thread-message-content-body-signature
 microsoft.com##[aria-label="Related apps"]
+
+! domains\midjourney.com.rules
+docs.midjourney.com##.back-to-top
 
 ! MIGRATE
 www.migrate.org.uk###related-posts
@@ -11962,6 +12118,7 @@ moneysavingexpert.com##.twitter-ticker
 moneysavingexpert.com##:xpath(//div[child::div[child::div[child::div[child::div[child::div[child::div[child::h3[contains(text(), 'Have your say')]]]]]]]])
 moneysavingexpert.com##:xpath(//div[child::div[child::div[child::div[child::div[child::h5[contains(text(), 'Share this guide?')]]]]]])
 moneysavingexpert.com##:xpath(//p[contains(text(), 'Founder, Martin Lewis · Editor-in-Chief, Marcus Herbert')])
+www.moneysavingexpert.com##.analytics-sharethis
 
 ! MONEY SUPERMARKET
 moneysupermarket.com##.cross-sell
@@ -12058,6 +12215,7 @@ mountainwarehouse.com##html:style(overflow: auto !important;)
 
 ! MOZILLA FOUNDATION
 addons.mozilla.org##.AddonRecommendations
+developer.mozilla.org##.social-icons
 foundation.mozilla.org##.donate-banner
 foundation.mozilla.org##.instagram-glyph
 foundation.mozilla.org##.join-us
@@ -12075,6 +12233,7 @@ www.msn.com##[class*="articlePage_continueReadingButtonPrimary-DS-EntryPoint"]
 www.msn.com##[class*="articlePage_riverContainer"]
 www.msn.com##[class*="articlePage_riverContainer-DS-EntryPoint"]
 www.msn.com##[class*="viewsInteractions-DS-EntryPoint"]
+www.msn.com##div.article-list-slot > ul
 www.msn.com##mobile-footer
 
 ! MUMSNET
@@ -12366,6 +12525,7 @@ neowin.net##.vcard.author
 neowin.net##.widget-community.widget
 neowin.net##:xpath(//article[contains(@class, 'news-item') and descendant::span[contains(@class, 'sponsored')]])
 neowin.net##span.hot
+www.neowin.net##.article-share
 
 ! NET DOCTOR
 www.netdoctor.co.uk##.affiliate-disclaimer
@@ -12394,6 +12554,13 @@ www.netflix.com##[data-uia-nmhp="kidsValueProp"]
 www.netflix.com##[data-uia-nmhp="watchOnDevice"]
 www.netflix.com##[data-uia-nmhp="watchOnTv"]
 
+! domains\netflixlife.com.rules
+netflixlife.com##.article-share
+netflixlife.com##.byline
+netflixlife.com##.featured-image
+netflixlife.com##.featured-video
+netflixlife.com##.fs-shortcode
+
 ! NETGEAR
 community.netgear.com##.lia-component-common-widget-announcement
 community.netgear.com##.lia-component-common-widget-discussion-stats
@@ -12406,6 +12573,9 @@ community.netgear.com##a[href*="banners"]
 
 ! domains\netmums.com.rules
 @@||netmums.com^$document
+www.netmums.com##.nm
+www.netmums.com##.nmg
+www.netmums.com##.nmg-promo
 
 ! NEW EGG
 www.newegg.com###author-bio
@@ -12556,6 +12726,7 @@ www.newsweek.com##[src^="https://open.spotify.com/embed/"]
 www.newsweek.com##aside
 
 ! NEXT
+||www3.next.co.uk/static-content/icons/shared/back-to-top-chevron.svg$image
 www.next.co.uk###3rdParty-intelrecs
 www.next.co.uk###ResultBanner
 www.next.co.uk###br-related-items-widget
@@ -12601,6 +12772,9 @@ www.next.co.uk##.text-banner
 www.next.co.uk##.top-action
 www.next.co.uk##.verifiedReview
 www.next.co.uk##:xpath(//div[child::div[contains(text(), 'Trending')]])
+www3.next.co.uk###onetrust-consent-sdk
+www3.next.co.uk##.SocialMedia
+www3.next.co.uk##[id*="product-summary-favourites-icon"]
 
 ! NEXT DOOR
 nextdoor.co.uk###supporting_content
@@ -12710,6 +12884,10 @@ ninjatestkitchen.com##.single-related-recipes
 ninjatestkitchen.com##.single-tags
 ninjatestkitchen.com##.tooltip
 
+! domains\nintendo.co.uk.rules
+nintendo.co.uk###onetrust-consent-sdk
+nintendo.co.uk##.last-updated
+
 ! NINTENDO
 nintendo.*###VA_SolrItemSideGamepage2
 nintendo.*##.gamedisclaimer-box
@@ -12730,6 +12908,7 @@ nintendolife.com##.article-header > .for-mobile.centered.insert-label
 nintendolife.com##.article-stats
 nintendolife.com##.author-name
 nintendolife.com##.avatar
+nintendolife.com##.category
 nintendolife.com##.copyright
 nintendolife.com##.dgp-consent
 nintendolife.com##.friends
@@ -13165,6 +13344,9 @@ www.onthemarket.com##.related-properties
 www.onthemarket.com##.right-col > .agent-info > .agent-info-wrapper > .agent-info-details > .agent-info-contact > .valuation
 www.onthemarket.com##.social
 www.onthemarket.com##.top-banner
+
+! domains\openbanking.org.uk.rules
+www.openbanking.org.uk##.wt-cli-cookie-bar-container
 
 ! OPENING TIMES IN THE UK
 www.openingtimesin.uk##.offers-section
@@ -13897,6 +14079,7 @@ discourse.pi-hole.net##.signup-cta
 discourse.pi-hole.net##.suggested-topics-wrapper
 discourse.pi-hole.net##.timeline-footer-controls
 discourse.pi-hole.net##.topic-map
+discourse.pi-hole.net##.with-topic-progress
 pi-hole.net##a[href="https://pi-hole.net/donate"]
 pi-hole.net##a[href="https://pi-hole.net/donate/#sponsorship"]
 
@@ -14826,7 +15009,9 @@ www.rac.co.uk##main > div[style*="background-color"]
 ! RADIO TIMES
 www.radiotimes.com##.author-link
 www.radiotimes.com##.copyright-container
+www.radiotimes.com##.dynamic-cards-list
 www.radiotimes.com##.dynamic-related-content
+www.radiotimes.com##.editor-content:has-text(We may earn commission )
 www.radiotimes.com##.footer-promotional
 www.radiotimes.com##.js-dynamic-related-content
 www.radiotimes.com##.monetizer__price-comparison-container
@@ -14851,6 +15036,8 @@ www.radiotimes.com##.template-article__social-share
 www.radiotimes.com##.widget-newsletter-sign-up
 www.radiotimes.com##:xpath(//ul[child::li[child::strong]])
 www.radiotimes.com##p > strong > [href^="http://radiotimes.com/magazine-subscription"]:upward(p)
+www.radiotimes.com##p > strong > [href^="https://www.amazon.co"]:upward(p)
+www.radiotimes.com##p > strong > [href^="https://www.awin1.com/"]:upward(p)
 www.radiotimes.com##p > strong:has-text(Read more):upward(p)
 
 ! domains\railwaysleeper.co.uk.rules
@@ -14883,6 +15070,21 @@ www.ranker.com##*[class*="relatedInline_container"]
 www.ranker.com##*[class*="rightRail_container"]
 www.ranker.com##*[class*="ticker_main"]
 www.ranker.com##*[class*="title_shareContainer"]
+www.ranker.com##.react-multi-carousel-track
+www.ranker.com##[class*="CollectionsDropdown_dropdownButton"]
+www.ranker.com##[class*="LargeTiles_main"]
+www.ranker.com##[class*="NextList_buttonsContainer"]
+www.ranker.com##[class*="RisingAndFalling_main"]
+www.ranker.com##[class*="Strip_main"]
+www.ranker.com##[class*="TriviaPopUp_main"]
+www.ranker.com##[class*="VotePrompt_main"]
+www.ranker.com##[class*="bottomMoreLists_main"]
+www.ranker.com##[class*="buzzingInfoContainer_main"]
+www.ranker.com##[class*="channel_main"]
+www.ranker.com##[class*="collections_main"]
+www.ranker.com##[class*="featured_featured"]
+www.ranker.com##[class*="nodeRelated_main"]
+www.ranker.com##[class*="rerankButton_wrapper"]
 
 ! domains\rapid-cut.com.rules
 ||rapid-cut.com^
@@ -15034,6 +15236,7 @@ reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
 www.reddit.com##a[href="/RedditRecap2022"]
 www.reddit.com##button:has-text(Get App)
+www.reddit.com##shreddit-blurred-container
 
 ! domains\redeye.international.rules
 ||redeye.international^
@@ -15599,6 +15802,7 @@ sainsburys.co.uk##:xpath(//li[contains(@class, 'pt-grid-item') and descendant::d
 sainsburys.co.uk##:xpath(//li[contains(@class, 'pt-grid-item') and descendant::div[contains(text(), 'Try this instead')]])
 sainsburys.co.uk##[class*="HeaderLogostyles__HeaderLogoContainer-"]
 sainsburys.co.uk##[data-testid="meganav-container"] img
+www.sainsburys.co.uk##.topOfPageLink
 
 ! domains\salesfire.co.uk.rules
 ||salesfire.co.uk^
@@ -15764,6 +15968,20 @@ sciencedaily.com##:xpath(//div[contains(@class, 'hidden-tiny') and descendant::s
 
 ! SCIENCE DIRECT
 www.sciencedirect.com##._pendo-badge
+
+! domains\sciencefocus.com.rules
+www.sciencefocus.com##.ad-banner
+www.sciencefocus.com##.author-bios
+www.sciencefocus.com##.author-link
+www.sciencefocus.com##.breadcrumb
+www.sciencefocus.com##.dynamic-cards-list
+www.sciencefocus.com##.dynamic-related-content
+www.sciencefocus.com##.editor-content > ul
+www.sciencefocus.com##.post-header__promo
+www.sciencefocus.com##.site-footer__brand-section
+www.sciencefocus.com##.site-footer__corporate-logo
+www.sciencefocus.com##.social-share
+www.sciencefocus.com##p > strong:has-text(Read more:)
 
 ! SCIENCE NEWS
 www.sciencenews.org##.wp-block-sciencenews-inline-related-post
@@ -16256,6 +16474,16 @@ www.snbforums.com##.js-notices
 www.snbforums.com##.p-body-sidebar
 www.snbforums.com##.similarthreads-wrapper-wide
 
+! domains\sofa.com.rules
+www.sofa.com##.social-links
+
+! domains\sofasandfriends.co.uk.rules
+sofasandfriends.co.uk##.homePageSliderWrap
+sofasandfriends.co.uk##.membershipWrapOuter
+sofasandfriends.co.uk##.newsletterWrap
+sofasandfriends.co.uk##.snap-block
+sofasandfriends.co.uk##.topBannerText
+
 ! SOFTPEDIA
 softpedia.com###cookienotif
 softpedia.com###disqus_thread
@@ -16538,8 +16766,11 @@ stackoverflow.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text()
 
 ! THE EVENING STANDARD
 www.standard.co.uk###indy-top-container-wrapper
+www.standard.co.uk###subnavMenu
 www.standard.co.uk##.article-newsletter-form
 www.standard.co.uk##.author
+www.standard.co.uk##.i-amphtml-layout
+www.standard.co.uk##.linVeZ
 www.standard.co.uk##.show-comment-top
 www.standard.co.uk##.social-share
 www.standard.co.uk##:xpath(//div[child::div[child::div[contains(@data-tile-name, 'top_banner')]]])
@@ -16552,6 +16783,7 @@ www.standard.co.uk##[id*="sp_message_container_"]
 www.standard.co.uk##a[href="/video"]
 www.standard.co.uk##amp-twitter
 www.standard.co.uk##aside
+www.standard.co.uk##iframe
 
 ! STAPLES
 www.staples.co.uk###deliveryMessage0
@@ -16589,6 +16821,7 @@ www.star-telegram.com##.upper-nav
 starlingbank.com##[data-focus-lock-disabled="false"]
 
 ! STATISTICA
+www.statista.com###onetrust-consent-sdk
 www.statista.com##.headerSalesContactBar
 www.statista.com##.hideMobile.alert
 www.statista.com##.navMain__text--highlight
@@ -17108,6 +17341,13 @@ www.tatler.com##.ticker-view
 ! domains\tawk.to.rules
 ||tawk.to^
 
+! domains\tech4gamers.com.rules
+tech4gamers.com##.aawp-tb__row--highlight
+tech4gamers.com##.ftwp-fixed-to-post
+tech4gamers.com##.tdb-breadcrumbs
+tech4gamers.com##.tdb_single_author
+tech4gamers.com##.tdb_single_post_share
+
 ! TECH ADVISOR
 techadvisor.co.uk###subHeader
 techadvisor.co.uk##*[id*="affiliate-table-container"]
@@ -17523,6 +17763,17 @@ www.tenforums.com###thread_info
 www.tenforums.com##.ft3 > div:nth-of-type(4)
 www.tenforums.com##.newcontent_textcontrol1
 www.tenforums.com##.postlistfoot
+
+! domains\tenor.com.rules
+tenor.com##.Banner
+tenor.com##.FavButton
+tenor.com##.FeaturedPage
+tenor.com##.GifListItem > [href*="/gif-maker"]:upward(.GifListItem)
+tenor.com##.RelatedTag
+tenor.com##.StickerList
+tenor.com##.related-gifs-container
+tenor.com##.search > div > .section-header-row:has-text(Stickers):upward(1)
+tenor.com##.share-buttons
 
 ! TERAMIND
 www.teramind.co###cookie-law-info-bar
@@ -18100,6 +18351,7 @@ thesun.co.uk##.advert-wrapper
 thesun.co.uk##.article-boxout
 thesun.co.uk##.article__author
 thesun.co.uk##.article__comment.comments
+thesun.co.uk##.article__content > .brightcove
 thesun.co.uk##.article__content > h3
 thesun.co.uk##.article__section-logo
 thesun.co.uk##.brightcove__video:style(position: static !important;)
@@ -18116,17 +18368,19 @@ thesun.co.uk##.rail__cluster
 thesun.co.uk##.read-more-container
 thesun.co.uk##.sim-module-wrapper
 thesun.co.uk##.social
+thesun.co.uk##.sp-message-open body:style(overflow: auto !important; position: static !important; margin-top: 0 !important; top: auto !important; left: auto !important; right: auto !important;)
+thesun.co.uk##.sp-message-open:style(height: auto !important; width: auto !important;)
 thesun.co.uk##.tags
 thesun.co.uk##.teaser
 thesun.co.uk##.teaser-item
 thesun.co.uk##.terms
 thesun.co.uk##.text-slug
 thesun.co.uk##.widget-area
+thesun.co.uk##[id*="sp_message_container"]
+thesun.co.uk##figure > .article__media-img-container > a:upward(figure)
 thesun.co.uk##li > strong > a:upward(ul)
 thesun.co.uk##p > strong > a:upward(p)
-www.thesun.co.uk##.article__content > .brightcove
-www.thesun.co.uk##figure > .article__media-img-container > a:upward(figure)
-www.thesun.co.uk##p [href="mailto:tips@the-sun.co.uk"]:upward(p)
+thesun.co.uk##p [href="mailto:tips@the-sun.co.uk"]:upward(p)
 
 ! THE THINGS
 www.thethings.com###secondary
@@ -18220,6 +18474,7 @@ theverge.com##.m-privacy-consent,badfilter
 theverge.com##.main-social
 theverge.com##.remixd-wrapper
 theverge.com##aside
+www.theverge.com##.duet--cta--cookie-banner
 www.theverge.com##.twitter-tweet
 
 ! THE WEATHER NETWORK
@@ -18313,6 +18568,15 @@ thompson-morgan.com##strong:has-text(Wishlist):upward(a)
 www.thorpepark.com##.page-footer__newsletter-signup
 www.thorpepark.com##.page-footer__outro
 
+! domains\thrillist.com.rules
+www.thrillist.com###vox_logo_white_svg__Layer_1
+www.thrillist.com##.breadcrumb
+www.thrillist.com##.footer__social
+www.thrillist.com##.page-element--recommended-video
+www.thrillist.com##.related-content-stack__wrap
+www.thrillist.com##.sponsored-presented:upward(.article-element)
+www.thrillist.com##[class*="Bylinestyles__ArticleAuthor"]
+
 ! domains\thunderbird.net.rules
 give.thunderbird.net##.donate-form
 
@@ -18370,6 +18634,8 @@ time.com##.social-share-hed
 time.com##.subscribe-link-container
 time.com##.trending
 time.com##.video-jw
+time.com##p > a > em:upward(p)
+time.com##p > a > i:upward(p)
 
 ! TIME IS
 time.is###follow_app
@@ -18855,8 +19121,11 @@ www.toppstiles.co.uk##trade-question-popup
 ||totalav.com^
 
 ! TOTAL JOBS
+www.totaljobs.com###GDPRConsentManagerContainer
+www.totaljobs.com###app-footer
 www.totaljobs.com###backToResultsTop
 www.totaljobs.com###mobileList
+www.totaljobs.com###mya-widget
 www.totaljobs.com###navbar-mobile-nc-toggle
 www.totaljobs.com###recommended-jobs-placeholder
 www.totaljobs.com###viewMoreJobsModalContainer
@@ -18882,6 +19151,8 @@ www.totaljobs.com##.social-links
 www.totaljobs.com##.social-links-row
 www.totaljobs.com##.super-banner
 www.totaljobs.com##.travelTime-container
+www.totaljobs.com##[class*="StarIconEmpty"]
+www.totaljobs.com##[id*="stepstone-disclosure-"]
 
 ! domains\trackpush.com.rules
 ||trackpush.com^
@@ -19138,6 +19409,10 @@ trustedreviews.com##.trending
 trustedreviews.com##.widget_custom_html.sticky-anchor.s-container.widget_text
 trustedreviews.com##.you-might-like
 trustedreviews.com##:xpath(//p[child::strong[contains(text(), 'Related')]])
+www.trustedreviews.com##.audio-player-section
+www.trustedreviews.com##.banner-span-section
+www.trustedreviews.com##.home-banner
+www.trustedreviews.com##.top-post-suggestion-container
 
 ! TRUSTPILOT
 @@||en-gb.b2b.trustpilot.com^$document
@@ -19261,6 +19536,7 @@ www.tweaktown.com##.news-sources
 www.tweaktown.com##.pacbuy
 www.tweaktown.com##.page_all_content.cva
 www.tweaktown.com##.product_box
+www.tweaktown.com##.right-img-box
 www.tweaktown.com##.right_subscribe
 www.tweaktown.com##.sharedesktop
 www.tweaktown.com##.simcontent.cva
@@ -19716,6 +19992,21 @@ www.vedantu.com###trendingTopicsWrap
 www.vedantu.com##[class*="Header_useAppButton__"]
 www.vedantu.com##[class*="TelegramWidget_telegram_img"]
 
+! domains\versus.com.rules
+versus.com##.cookiewrapper
+versus.com##.gpBadgeContainer
+versus.com##.priceContainer
+versus.com##.social
+versus.com##.trendingContainer
+versus.com##.vs-ads
+versus.com##[class*="ComparisonList__comparison"]
+versus.com##[class*="Comparison__nativeShareContainer"]
+versus.com##[class*="Comparison__secondPriceContainer"]
+versus.com##[class*="Comparison__videoContainer"]
+versus.com##[class*="InlinePrices__inlinePricesContainer"]
+versus.com##[class*="Legend__legend"]
+versus.com##[class*="ReviewSection__reviewSection"]
+
 ! VERY
 www.very.co.uk###bnplBanner-new
 www.very.co.uk###bnplBanner-newTest
@@ -19846,6 +20137,19 @@ www.vice.com##p > strong > em > a:upward(p)
 ! domains\videolan.org.rules
 get.videolan.org###friends
 get.videolan.org###full
+
+! domains\viessmann.co.uk.rules
+www.viessmann.co.uk##.vic-m-content-teaser-group
+www.viessmann.co.uk##.vic-m-floating-cta
+www.viessmann.co.uk##.vic-m-footer-content-section
+www.viessmann.co.uk##.vic-m-footer__breadcrumb-box
+www.viessmann.co.uk##.vic-m-header__top-bar
+www.viessmann.co.uk##.vic-m-recommended-topics
+www.viessmann.co.uk##.vic-m-related-news
+www.viessmann.co.uk##.vic-m-sitemap__search-input:upward(1)
+www.viessmann.co.uk##.vic-m-sitemap__social-links
+www.viessmann.co.uk##.vic-m-social-sharing-component
+www.viessmann.co.uk##.vic-m-social-sharing-group
 
 ! VIET JET AIR
 vietjetair.com###osc-button
@@ -20080,10 +20384,13 @@ vuejsdevelopers.com##h5 > span:first-of-type
 www.vulture.com###comments
 www.vulture.com##.bylines
 www.vulture.com##.comments-link
+www.vulture.com##.episode-recap
 www.vulture.com##.latest-news
 www.vulture.com##.logo-wrapper
+www.vulture.com##.mobile-subscribe-url
 www.vulture.com##.related
 www.vulture.com##.related-count-2
+www.vulture.com##.secondary
 www.vulture.com##.secondary-area
 www.vulture.com##.social-section
 www.vulture.com##.tags
@@ -20771,7 +21078,12 @@ which.co.uk##h2 > [href*="https://signup.which.co.uk/"]
 which.co.uk##section[data-test-element="related-articles"]
 which.co.uk##section[data-test="recommendedAlternatives"]
 which.co.uk##ul[data-test-element="product-list"] li:not([itemprop])
+www.which.co.uk###money-newsletter-sign-up
+www.which.co.uk###onetrust-consent-sdk
 www.which.co.uk##.gridarea-related
+www.which.co.uk##.ul-article
+www.which.co.uk##[class*="AffiliateDisclaimer_affiliateDisclaimerWrapper"]
+www.which.co.uk##[id*="promo-"]
 
 ! domains\whitebullgreateccleston.co.uk.rules
 www.whitebullgreateccleston.co.uk##.cookies-wrpr
@@ -21545,12 +21857,15 @@ m.youtube.com##.clarification-with-menu
 m.youtube.com##.consent-bump-v2-lightbox
 m.youtube.com##.mobile-topbar-header-sign-in-button
 m.youtube.com##.slim-owner-subscribe-button
+m.youtube.com##.standalone-collection-badge
 m.youtube.com##.top-standalone-badge
 m.youtube.com##.upsell-dialog-lightbox
 m.youtube.com##.watch-metadata-app-promo-button
 m.youtube.com##.watch-metadata-app-promo-content
 m.youtube.com##.watch-metadata-app-promo-thumb
 m.youtube.com##body[modal-open-body]:style(position: static !important;)
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-rich-section-renderer
 youtube.com###YtKevlarVisibilityIdentifier
 youtube.com###channel-subscription-promo-in-feed
 youtube.com###chat
