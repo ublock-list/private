@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Thu, 16 Feb 2023 17:15:55 +0000
+! Last modified: Thu, 16 Feb 2023 18:59:06 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -63,12 +63,12 @@ www.360ss.com##.icons
 365games.co.uk##.sidebar
 365games.co.uk##.sidenav-image
 365games.co.uk##.similar-products-by-views
+365games.co.uk##.takeover_links
 365games.co.uk##.widget-block-grid
 365games.co.uk##.widget-slider-container
 365games.co.uk##.widget-top-banner
 365games.co.uk##.wishlist
 365games.co.uk##[data-content-region="product_below_content--global"]
-www.365games.co.uk##.takeover_links
 
 ! 4 CHAN
 www.4chan.org###abc-cnt
@@ -372,6 +372,8 @@ www.agoda.com##h3:has-text(Trending cities):upward(2)
 www.agoda.com##h5:has-text(If you're flexible, check out these alternative dates):upward(li)
 
 ! domains\ahacdn.me.rules
+@@cdn37804682.ahacdn.me^
+@@cdn62004373.ahacdn.me^
 ||ahacdn.me^
 
 ! domains\air.tv.rules
@@ -536,19 +538,9 @@ www.allrecipes.com##.shareicon-modal-toggle
 ! ALTERNATIVE TO
 alternativeto.net##.share-buttons
 
-! domains\amazon.co.uk.rules
-@@||amazon.co.uk^$document
-www.amazon.co.uk###HLCXComparisonWidget-Placement-A_feature_div
-www.amazon.co.uk###aplus_feature_div
-www.amazon.co.uk###breadcrumb_feature_div
-www.amazon.co.uk###miraiBTFShopByLook_feature_div
-www.amazon.co.uk##.a-color-secondary > span:has-text(Promotion Available):upward(.a-color-secondary)
-www.amazon.co.uk##.ewc-checkout-container
-www.amazon.co.uk##.more-like-this-list-view
-www.amazon.co.uk##[id*="sobe-dp-feature-"]
-
 ! AMAZON
 @@||console.aws.amazon.com^$document
+amazon.*###HLCXComparisonWidget-Placement-A_feature_div
 amazon.*###HLCXComparisonWidget_feature_div
 amazon.*###WrapperDivToHideFooter
 amazon.*###acBadge_feature_div
@@ -564,6 +556,7 @@ amazon.*###aod-recommendations
 amazon.*###ape_detail_btf2_mweb_aui_card > .a-cardui-body > .celwidget
 amazon.*###ape_detail_btf2_mweb_text-wrapper
 amazon.*###ape_detail_mobile-hero-quick-promo_mweb_aui_cardDeck
+amazon.*###aplus_feature_div
 amazon.*###applicablePromotionList_feature_div
 amazon.*###ask-dp-search_feature_div
 amazon.*###attach-accessories
@@ -573,6 +566,7 @@ amazon.*###bbg_feature_div
 amazon.*###bbop_feature_div
 amazon.*###bia-hcb-widget
 amazon.*###bottom
+amazon.*###breadcrumb_feature_div
 amazon.*###businessPricing_feature_div
 amazon.*###buyNow_feature_div
 amazon.*###bx-root
@@ -646,6 +640,7 @@ amazon.*###iconFarmV2InsidePrimary_feature_div
 amazon.*###issuancePriceblockAmabot_feature_div
 amazon.*###machineTranslation_feature_div
 amazon.*###mbb_feature_div
+amazon.*###miraiBTFShopByLook_feature_div
 amazon.*###mobile-ads-top_feature_div
 amazon.*###mobileFamilyStripe_feature_div
 amazon.*###mobile_orderInformationGroup_feature_div
@@ -714,6 +709,7 @@ amazon.*###universalHQP_feature_div
 amazon.*###valueAdds_feature_div
 amazon.*###valuePick_feature_div
 amazon.*###vgRating_feature_div
+amazon.*###vse-vw-dp-vse-related-videos
 amazon.*###warrantyCheckBox_feature_div
 amazon.*###widget-rightUpsellSlot
 amazon.*###wlp-injectable-btn
@@ -821,6 +817,7 @@ amazon.*##*[name="goKindleStaticPopDiv"]
 amazon.*##.AdHolder
 amazon.*##.CarouselWithSelector
 amazon.*##.a-carousel-display-stretchygoodness
+amazon.*##.a-color-secondary > span:has-text(Promotion Available):upward(.a-color-secondary)
 amazon.*##.a-color-secondary > span:has-text(Save more with Subscribe & Save):upward(div)
 amazon.*##.a-color-secondary span:has-text(Join Prime to save):upward(div)
 amazon.*##.a-color-secondary span:has-text(More buying choices):upward(div)
@@ -845,6 +842,7 @@ amazon.*##.coupon-shoveler.a-section
 amazon.*##.couponFeature
 amazon.*##.cr-summarization-lighthut
 amazon.*##.deal-of-the-day
+amazon.*##.ewc-checkout-container
 amazon.*##.fresh-shoveler
 amazon.*##.gw-media-card
 amazon.*##.gwm-DealsStack
@@ -853,6 +851,7 @@ amazon.*##.js-yo-right-rail
 amazon.*##.maple-banner
 amazon.*##.maple-banner-uss.maple-banner
 amazon.*##.mom-nudge-card-item
+amazon.*##.more-like-this-list-view
 amazon.*##.nav-signin-tt.nav-flyout
 amazon.*##.navAccessibility.navFooterVerticalColumn
 amazon.*##.octopus-best-seller-card
@@ -860,6 +859,7 @@ amazon.*##.octopus-widget-container
 amazon.*##.pageBanner
 amazon.*##.prime-ad-banner-content
 amazon.*##.s-brand-footer-container
+amazon.*##.s-easy-mode-ingress-button
 amazon.*##.s-promotion-highlight-color
 amazon.*##.s-quick-view-ingress-button
 amazon.*##.s-recentSearchDistinct
@@ -914,16 +914,15 @@ amazon.*##[data-csa-c-content-id="nav_cs_sports"]
 amazon.*##[data-csa-c-content-id="nav_cs_toys"]
 amazon.*##[data-csa-c-content-id="nav_cs_video_games"]
 amazon.*##[data-csa-c-slot-id="nav-link-amazonprime"]
+amazon.*##[id*="sobe-dp-feature-"]
 amazon.*##div[cel_widget_id="seo-related-keywords-pages_csm_instrumentation_wrapper"]
 amazon.*##div[id^="octopus-ajax-shell-OctopusJsonRenderWidgetAjaxShell"]
 amazon.*##div[id^="sims-mobile-consolidated-"]
 amazon.*##li.acs-private-brands-container-background
 amazon.*##li.acs-private-brands-container-background-single-image
 amazon.*##span[data-component-type="s-ads-metrics"]
+console.aws.amazon.com###aperture-csat-container
 console.aws.amazon.com##.awsui-context-flashbar
-eu-west-2.console.aws.amazon.com###aperture-csat-container
-www.amazon.com###vse-vw-dp-vse-related-videos
-www.amazon.com##.s-easy-mode-ingress-button
 
 ! AMERICAN THINKER
 www.americanthinker.com###commentsSection
