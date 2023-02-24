@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Thu, 16 Feb 2023 18:59:06 +0000
+! Last modified: Fri, 24 Feb 2023 14:29:56 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -493,6 +493,19 @@ www.allinlondon.co.uk##h3:has-text(Best For):upward(.bg-brand-orange)
 www.allinlondon.co.uk##h3:has-text(Best For):upward(.bg-brand-orange) + .bg-brand-section
 www.allinlondon.co.uk##strong:has-text(Have your say):upward(.bg-brand-section)
 
+! domains\allkpop.com.rules
+www.allkpop.com###article-headline-right
+www.allkpop.com###article-headline-tags
+www.allkpop.com###article-info
+www.allkpop.com###article-title > .button
+www.allkpop.com###vote_sticky
+www.allkpop.com##.author
+www.allkpop.com##.category
+www.allkpop.com##.container
+www.allkpop.com##.external_social_share
+www.allkpop.com##.next_article:upward(1)
+www.allkpop.com##.sort_new
+
 ! ALL LANGUAGE RESOURCES
 www.alllanguageresources.com##.allla-header-leaderboard
 www.alllanguageresources.com##.allla-sticky
@@ -507,36 +520,71 @@ www.alllanguageresources.com##.socials
 www.alllanguageresources.com##.top-line
 
 ! ALL RECIPIES
+www.allrecipes.com###onetrust-consent-sdk
+www.allrecipes.com##.adhesive
+www.allrecipes.com##.article-feedback
 www.allrecipes.com##.byline
+www.allrecipes.com##.campaign-dialog
 www.allrecipes.com##.card__author
 www.allrecipes.com##.card__authorName
+www.allrecipes.com##.card__save
 www.allrecipes.com##.categoryPageHeader__container-popular
 www.allrecipes.com##.categoryPageListThreeFeatured
 www.allrecipes.com##.categoryPagePromoEntity
 www.allrecipes.com##.contextual-social-links
 www.allrecipes.com##.docked-sharebar-docking-container
 www.allrecipes.com##.favorite
+www.allrecipes.com##.five-post
 www.allrecipes.com##.footer-connect
 www.allrecipes.com##.footer-copyright-logo
 www.allrecipes.com##.footer-follow-us
 www.allrecipes.com##.footer-logo
 www.allrecipes.com##.footer-magazines-more
+www.allrecipes.com##.footer__primary
 www.allrecipes.com##.icon-share
 www.allrecipes.com##.madeIt__button
 www.allrecipes.com##.menu-subscribe
+www.allrecipes.com##.mntl-attribution__item
+www.allrecipes.com##.mntl-dotdash-universal-nav
+www.allrecipes.com##.mntl-gpt-adunit
+www.allrecipes.com##.mntl-lrs-ingredients
+www.allrecipes.com##.mntl-recipe-intro
+www.allrecipes.com##.mntl-sc-block-adslot
 www.allrecipes.com##.mobile-ad
 www.allrecipes.com##.recipe-ad-container
 www.allrecipes.com##.recipe-ad-region
 www.allrecipes.com##.recipe-ad-wrapper
 www.allrecipes.com##.recipe-blog-content
+www.allrecipes.com##.recipe-rate-print
 www.allrecipes.com##.recipe-review-author
 www.allrecipes.com##.recipe-shopping-list__container
+www.allrecipes.com##.recipe-social-share
+www.allrecipes.com##.recirc-section
 www.allrecipes.com##.recirculation-wrapper
 www.allrecipes.com##.rotd
 www.allrecipes.com##.shareicon-modal-toggle
+www.allrecipes.com##.sidebar
+www.allrecipes.com##.social-share-block
+www.allrecipes.com##[id*="one-post-hero"]
+www.allrecipes.com##strong > em:has-text(Related):upward(2)
+www.allrecipes.com##strong > em:has-text(Related):upward(2) ~ *
 
 ! ALTERNATIVE TO
 alternativeto.net##.share-buttons
+
+! domains\altontowers.com.rules
+www.altontowers.com###accesso
+www.altontowers.com##.page-footer__newsletter-signup
+www.altontowers.com##.page-footer__outro
+
+! domains\amazon.co.uk.rules
+www.amazon.co.uk###buyItOnAB_feature_div
+www.amazon.co.uk###installmentPaymentAccordionRow
+www.amazon.co.uk###installmentPaymentPrice_feature_div
+www.amazon.co.uk###wishlistButtonStack
+www.amazon.co.uk##.sc-unified-promotion-with-recommendations-modal-row
+www.amazon.co.uk##.sns-opt-in-link-desktop
+www.amazon.co.uk##[data-csa-c-painter="deals-shoveler"]
 
 ! AMAZON
 @@||console.aws.amazon.com^$document
@@ -865,6 +913,7 @@ amazon.*##.s-quick-view-ingress-button
 amazon.*##.s-recentSearchDistinct
 amazon.*##.s-sponsored-label-text:upward(.s-result-item)
 amazon.*##.s-suggestion-container
+amazon.*##.sg-col-inner > [data-csa-c-type="widget"]
 amazon.*##.similarities-widget
 amazon.*##.sims-grid-card-deck
 amazon.*##.sl-sobe-dynamic-image
@@ -931,6 +980,10 @@ www.americanthinker.com##.blog_nav
 www.americanthinker.com##.column_364
 www.americanthinker.com##.sponsored_title
 www.americanthinker.com##.support_text
+
+! domains\amp.dev.rules
+amp.dev##.ap--footer
+amp.dev##.ap-a-sidebar-mobile-toggle-label-sidebar
 
 ! ANANDTECH
 anandtech.com##.b
@@ -1269,9 +1322,11 @@ anonaddy.com##:xpath(//section[child::div[child::form[contains(@action, 'https:/
 ||media.ao.com/productimages/promoimages/*$image
 ao.com###app footer > div
 ao.com###category-brands
+ao.com###chatbot-widget
 ao.com###footer-proposition
 ao.com###header-propositionBar
 ao.com###hero-stage
+ao.com###member-pricing
 ao.com###popularProducts
 ao.com##.additional-promotions
 ao.com##.asterisks
@@ -1283,6 +1338,7 @@ ao.com##.finance-messaging
 ao.com##.gdprCookieWrapper
 ao.com##.helpAdvice
 ao.com##.helpMeChooseContainer
+ao.com##.hero-heading-copy
 ao.com##.lister-banner-wrapper
 ao.com##.lister__seo-content-block
 ao.com##.main-navigation__sub-navigation-merch
@@ -1497,6 +1553,7 @@ argos.co.uk##section[class^="FeaturedProductsstyles"]
 argos.co.uk##span[class^="HomepageComponentsstyles__Proposition"]
 argos.co.uk##span[data-test="generic-flag-offers"]
 argos.co.uk##span[data-test="generic-flag-swogoData"]
+www.argos.co.uk##[class*="PayPalMessagingstyles__Wrapper"]
 
 ! domains\arifsetyawan.com.rules
 ! (inheriting rules from: medium.com.rules)
@@ -1727,6 +1784,9 @@ asos.com##footer > div:first-child
 www.aspinallfoundation.org##.mobile_menu_control
 www.aspinallfoundation.org##.site_footer__top
 www.aspinallfoundation.org##h6:has-text(Share this page)
+
+! domains\attraqt.com.rules
+||attraqt.com^
 
 ! AUDI
 usedcars.audi.co.uk##.vtp-modals
@@ -2234,6 +2294,7 @@ bbc.*##[class*="BylineComponentWrapper"]
 bbc.*##[class*="BylineWrapper"]
 bbc.*##[class*="ChameleonGlobalNavigation"]
 bbc.*##[class*="Container-ContributorDetails"]
+bbc.*##[class*="MetadataStripContainer"]
 bbc.*##[class*="ShareToolLinkContainer"]
 bbc.*##[class*="Text-TextContributorName"]
 bbc.*##amp-analytics
@@ -2299,9 +2360,46 @@ bbcgoodfood.com##:xpath(//h6[contains(text(), 'RECIPE TIPS')]) ~ *
 bbcgoodfood.com##:xpath(//section[contains(@class, 'elementor-section') and child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::div[child::h2[contains(text(), 'More from the brand')]]]]]]]]]]]])
 bbcgoodfood.com##section > hr
 bbcgoodfood.com##section > hr ~ *
+www.bbcgoodfood.com##.ad-banner
+www.bbcgoodfood.com##.dynamic-cards-list
+www.bbcgoodfood.com##.dynamic-link
+www.bbcgoodfood.com##.site-footer
+www.bbcgoodfood.com##.stack
 
 ! domains\bbci.co.uk.rules
 ||ichef.bbci.co.uk/news/*/cpsprodpb/C414/production/_*_pressxjpeg.jp*$image
+
+! domains\beaverbrooks.co.uk.rules
+www.beaverbrooks.co.uk###scroll-to-top
+www.beaverbrooks.co.uk##.appointment-sect
+www.beaverbrooks.co.uk##.bb-brands
+www.beaverbrooks.co.uk##.brands-sect
+www.beaverbrooks.co.uk##.content-sect
+www.beaverbrooks.co.uk##.content-slot
+www.beaverbrooks.co.uk##.couples-rings
+www.beaverbrooks.co.uk##.delivery-options
+www.beaverbrooks.co.uk##.diamond-cert
+www.beaverbrooks.co.uk##.diamond-deposit-offer
+www.beaverbrooks.co.uk##.diamond-offer
+www.beaverbrooks.co.uk##.engagement-faqs
+www.beaverbrooks.co.uk##.feature.footer-group
+www.beaverbrooks.co.uk##.footer-icons
+www.beaverbrooks.co.uk##.footer-payments
+www.beaverbrooks.co.uk##.hero
+www.beaverbrooks.co.uk##.ifc-sect
+www.beaverbrooks.co.uk##.key-messages
+www.beaverbrooks.co.uk##.metal-sect
+www.beaverbrooks.co.uk##.newsletter
+www.beaverbrooks.co.uk##.page-header-promo-bar
+www.beaverbrooks.co.uk##.price-sect
+www.beaverbrooks.co.uk##.product-actions-panel
+www.beaverbrooks.co.uk##.product-panel__finance-cta
+www.beaverbrooks.co.uk##.quote-sect
+www.beaverbrooks.co.uk##.style-options
+www.beaverbrooks.co.uk##.style-sect
+www.beaverbrooks.co.uk##.zirconium-sect
+www.beaverbrooks.co.uk##[class*="financing"]
+www.beaverbrooks.co.uk##[class*="product__buttons-wrapper"]
 
 ! domains\beenmeekwarmth.casa.rules
 ||beenmeekwarmth.casa^
@@ -2536,13 +2634,33 @@ www.blacks.co.uk##.social-links
 www.blacks.co.uk##.trustpilot-widget
 
 ! BLIZZARD
+! (inheriting rules from: discourse.org.rules)
 forums.blizzard.com###banner
+forums.blizzard.com###topic-progress-wrapper
 forums.blizzard.com##.NavbarFooter-downloadCta
 forums.blizzard.com##.NavbarFooter-legal
 forums.blizzard.com##.NavbarFooter-logoContainer
-forums.blizzard.com##.post-links
+forums.blizzard.com##.badge-wrapper
+forums.blizzard.com##.bookmark
+forums.blizzard.com##.btn-social
+forums.blizzard.com##.expanded.post-controls
+forums.blizzard.com##.flag-topic
+forums.blizzard.com##.header-buttons
+forums.blizzard.com##.like
+forums.blizzard.com##.onscreen-post.small-action
+forums.blizzard.com##.post-controls
+forums.blizzard.com##.post-links-container
+forums.blizzard.com##.progress-back-container
+forums.blizzard.com##.share
+forums.blizzard.com##.share-and-invite
 forums.blizzard.com##.signup-cta
 forums.blizzard.com##.suggested-topics-wrapper
+forums.blizzard.com##.timeline-footer-controls
+forums.blizzard.com##.toggle-summary.information
+forums.blizzard.com##.topic-category
+forums.blizzard.com##.topic-map
+forums.blizzard.com##.topic-map-expanded
+forums.blizzard.com##.with-topic-progress
 
 ! domains\blockchain.info.rules
 ||blockchain.info^
@@ -2574,6 +2692,9 @@ bluewater.co.uk##.fd_Section--signup
 bluewater.co.uk##.rg_Footer--social
 bluewater.co.uk##.rg_Header--social
 bluewater.co.uk##:xpath(//section[child::div[child::div[child::h2[contains(text(), "You'll Like These Too")]]]])
+
+! domains\bluntumbrellas.co.uk.rules
+bluntumbrellas.co.uk##.site-footer-newsletter__one-half
 
 ! B&M STORES
 www.bmstores.co.uk##.bm-back-to-top
@@ -2738,7 +2859,9 @@ boardgamegeek.com##.amazon_search_ad
 boardgamegeek.com##.footer__container .footer__col:nth-child(4)
 boardgamegeek.com##.game-description-ad
 boardgamegeek.com##.game-header-secondary-actions
+boardgamegeek.com##.geeksidebar
 boardgamegeek.com##.global-body-content-container > .ng-isolate-scope
+boardgamegeek.com##.global-secondary-nav
 boardgamegeek.com##.media-sidebar-col
 boardgamegeek.com##.ng-scope.support-plea-container
 boardgamegeek.com##.promoted-item
@@ -2785,6 +2908,7 @@ boardgameprices.co.uk###cookiePopup
 boardgameprices.co.uk###newsletterteaser
 boardgameprices.co.uk##*[class*="wayland"]
 boardgameprices.co.uk##.expandee.newsletter
+boardgameprices.co.uk##.tags
 
 ! domains\boardgamesland.com.rules
 boardgamesland.com###back_to_top
@@ -3195,6 +3319,13 @@ www.businessinsider.com##.the-refresh-promo
 www.businessinsider.com##.the-refresh-summary-list
 www.businessinsider.com##p > em > strong:has-text(Read more):upward(p)
 
+! domains\buyagift.co.uk.rules
+www.buyagift.co.uk###main_content_container:style(margin-top: 180px !important;)
+www.buyagift.co.uk###usps
+www.buyagift.co.uk###valentines-banner
+www.buyagift.co.uk##.cat-page-text-summary-container
+www.buyagift.co.uk##footer
+
 ! BUZZFEED
 www.buzzfeed.com###commentsWrapper
 www.buzzfeed.com##.embed-action-bar
@@ -3290,6 +3421,13 @@ www.capterra.co.uk##.alternative-pills__section
 www.capterra.co.uk##.compare-product
 www.capterra.co.uk##.tagline
 www.capterra.co.uk##[href="https://twitter.com/Capterra_UK"]:upward(ul)
+
+! domains\capterra.com.rules
+www.capterra.com##.nb-back-to-top-button
+www.capterra.com##[data-test-id="FoundInSection"]
+www.capterra.com##[data-test-id="desktop-spotlight-share-button"]
+www.capterra.com##[data-uw-saved-from="spotlight"]
+www.capterra.com##a[href="https://www.instagram.com/capterra/"]:upward(1)
 
 ! CAR BUYER
 www.carbuyer.co.uk###buyacar-isccw
@@ -3826,6 +3964,12 @@ codecademy.com##[aria-label="Social Media"]
 codecademy.com##[data-testid="course-taken-by"]:upward(section)
 codecademy.com##[data-testid="oauth-group"]
 codecademy.com##h2[class*="Text-FooterHeading"]:has-text(Mobile):upward(div)
+www.codecademy.com##.author-box
+www.codecademy.com##.fav-block
+www.codecademy.com##.footer-social
+www.codecademy.com##.footer_mobile.footer-menu
+www.codecademy.com##.in-development
+www.codecademy.com##.try-codecademy
 
 ! CODEPEN
 codepen.io##.follow-user-button
@@ -3976,6 +4120,21 @@ www.cosmopolitan.com##:xpath(//p[child::em[child::a[contains(@href, 'https://hea
 www.cosmopolitan.com##:xpath(//p[child::em[child::strong[child::a[contains(@href, 'https://www.hearstmagazines.co.uk/cosmopolitan-magazine-subscription-website')]]]])
 www.cosmopolitan.com##:xpath(//p[child::strong[child::a[contains(@href, 'https://twitter.com/')]]])
 www.cosmopolitan.com##:xpath(//p[child::strong[child::a[contains(@href, 'https://www.instagram.com')]]])
+
+! domains\cosmosmagazine.com.rules
+cosmosmagazine.com##.about.item
+cosmosmagazine.com##.advert
+cosmosmagazine.com##.article-cta
+cosmosmagazine.com##.article-sharing
+cosmosmagazine.com##.author
+cosmosmagazine.com##.contributors
+cosmosmagazine.com##.footer-branding
+cosmosmagazine.com##.newsletter
+cosmosmagazine.com##.newsletter-box
+cosmosmagazine.com##.show-related-box
+cosmosmagazine.com##.single-post-loadmore-wrap
+cosmosmagazine.com##.subscribe
+cosmosmagazine.com##aside
 
 ! COSTCO
 www.costco.co.uk###footer-email-offers-block
@@ -4404,6 +4563,11 @@ currys.co.uk##app-added-value-message
 currys.co.uk##img[alt="product sticker"]
 currys.co.uk##main.cont > .seo
 currys.co.uk##wainclude
+www.currys.co.uk##.addwishlistprod
+www.currys.co.uk##.credit-tile:upward(2)
+www.currys.co.uk##.deal-brand-sec
+www.currys.co.uk##.top-header-help-section
+www.currys.co.uk##.widget-header > .link
 
 ! domains\customerly.io.rules
 ||customerly.io^
@@ -4510,6 +4674,8 @@ dailymail.co.uk##div[class*="promo_"]
 dailymail.co.uk##div[class*="socialContainer"]
 dailymail.co.uk##div[data-api-host="https://www.newzit.com/api"]
 dailymail.co.uk##video:style(width: 100% !important; height: auto !important)
+www.dailymail.co.uk##.mol-bullets-with-font
+www.dailymail.co.uk##.mol-fe-related-replace
 
 ! THE DAILY STAR
 dailystar.co.uk###breaking-news
@@ -4540,6 +4706,7 @@ dailystar.co.uk##.top-stories
 dailystar.co.uk##.video-float-wrapper
 dailystar.co.uk##:xpath(//p[child::b[descendant::i[contains(text(), 'free newsletters')]]])
 dailystar.co.uk##aside
+www.dailystar.co.uk##.bookmark-btn-container-mobile
 
 ! DALLAS NEWS
 www.dallasnews.com###header-promo
@@ -4607,6 +4774,7 @@ www.debenhams.com##.dbh-shop-more-tags
 www.debenhams.com##.t-footer__newsletter
 www.debenhams.com##.t-product-detail__recently-viewed-wrapper
 www.debenhams.com##[class*="badge__BadgeDiv"]
+www.debenhams.com##[data-test-id="content-card-SHOP NOW"]
 www.debenhams.com##[data-test-id="footer-link-android-app"]:upward(4)
 www.debenhams.com##[data-test-id="global-countdown-banner"]
 www.debenhams.com##[data-test-id="hero-banner-null"]
@@ -4615,6 +4783,7 @@ www.debenhams.com##[data-test-id="plp-scroll-to-top"]
 www.debenhams.com##[data-test-id="promo-banner-heading"]
 www.debenhams.com##[data-test-id="recently-viewed"]
 www.debenhams.com##[data-test-id="similar-products"]
+www.debenhams.com##[data-test-id^="content-card-UP TO "]
 www.debenhams.com##[data-theme-footer--social="true"]
 www.debenhams.com##[data-theme-footer--subscribe-section="true"]
 www.debenhams.com##span[class*="html__HTML"]
@@ -4744,12 +4913,33 @@ dev.to##.crayons-sponsorship-article
 dev.to##.hamburger__content .c-link__icon
 dev.to##a[href^="https://twitter.com/"]:upward(1)
 
+! domains\developer.com.rules
+www.developer.com##._ntv_latest_posts_widget
+www.developer.com##.devco-sticky
+www.developer.com##.td-footer-template-wrap
+www.developer.com##.td_block_empty_space
+www.developer.com##.tdb-author-name-wrap
+www.developer.com##.tdb-author-photo
+www.developer.com##.tdb-single-related-posts
+www.developer.com##.tdb_single_post_share
+www.developer.com##.tdc-column:has-text(Related Stories):upward(2)
+www.developer.com##.tdm-social-wrapper
+www.developer.com##[id*="devco"]
+
 ! domains\dfs.co.uk.rules
 www.dfs.co.uk##.MuiButton-label:has-text(finance calculator):upward(2)
 www.dfs.co.uk##.MuiButton-root:has-text(shortlist)
 www.dfs.co.uk##.bannerContainer
 www.dfs.co.uk##.countdown_true
 www.dfs.co.uk##.productBannerContainer
+
+! domains\diamondlobby.com.rules
+diamondlobby.com##.author
+diamondlobby.com##.author-card
+diamondlobby.com##.content-sidebar
+diamondlobby.com##.pg-post-breadcrumbs
+diamondlobby.com##.pg-related
+diamondlobby.com##.site-footer
 
 ! DICTIONARY.COM
 dictionary.com###marketingBanner-right
@@ -4833,6 +5023,7 @@ www.digitalocean.com##[class*="WasThisHelpfulStyles"]
 www.digitalocean.com##[class*="WhaleAmbienceStyles__"]
 www.digitalocean.com##button:has-text(Comments):upward(2)
 www.digitalocean.com##footer > section:not(.dark)
+www.digitalocean.com##p > em > a[href^="https://www.brightfunds.org/"]:upward(p)
 
 ! DIGITAL SPY
 forums.digitalspy.com##.SignInOrRegister
@@ -4912,6 +5103,31 @@ www.discount-electrical.co.uk##.top_menu a[href="https://www.discount-electrical
 www.discount-electrical.co.uk##.top_menu a[href="https://www.discount-electrical.co.uk/specials"]:upward(li)
 www.discount-electrical.co.uk##.top_menu img
 
+! DISCOURSE
+discourse.org###banner
+discourse.org###topic-progress-wrapper
+discourse.org##.badge-wrapper
+discourse.org##.bookmark
+discourse.org##.btn-social
+discourse.org##.expanded.post-controls
+discourse.org##.flag-topic
+discourse.org##.header-buttons
+discourse.org##.like
+discourse.org##.onscreen-post.small-action
+discourse.org##.post-controls
+discourse.org##.post-links-container
+discourse.org##.progress-back-container
+discourse.org##.share
+discourse.org##.share-and-invite
+discourse.org##.signup-cta
+discourse.org##.suggested-topics-wrapper
+discourse.org##.timeline-footer-controls
+discourse.org##.toggle-summary.information
+discourse.org##.topic-category
+discourse.org##.topic-map
+discourse.org##.topic-map-expanded
+discourse.org##.with-topic-progress
+
 ! domains\disqus.com.rules
 ||disqus.com^
 
@@ -4969,21 +5185,38 @@ www.diynot.com##.similarthreadsplus
 ||dmgmediaprivacy.co.uk^
 
 ! DOCKER
-docker.com###banner
+! (inheriting rules from: discourse.org.rules)
 docker.com###consent_blackbar
 docker.com###footer .et-last-child
 docker.com###sidebar:upward(1)
-docker.com###topic-progress-wrapper
 docker.com##.header-meta > .author
-docker.com##.post-controls
 docker.com##.progress-back-container
 docker.com##.related-posts
-docker.com##.signup-cta
-docker.com##.suggested-topics-wrapper
 docker.com##.tags
-docker.com##.topic-category
-docker.com##.topic-map
 docker.com##[class*="styles__welcomeBox"]
+forums.docker.com###banner
+forums.docker.com###topic-progress-wrapper
+forums.docker.com##.badge-wrapper
+forums.docker.com##.bookmark
+forums.docker.com##.btn-social
+forums.docker.com##.expanded.post-controls
+forums.docker.com##.flag-topic
+forums.docker.com##.header-buttons
+forums.docker.com##.like
+forums.docker.com##.onscreen-post.small-action
+forums.docker.com##.post-controls
+forums.docker.com##.post-links-container
+forums.docker.com##.progress-back-container
+forums.docker.com##.share
+forums.docker.com##.share-and-invite
+forums.docker.com##.signup-cta
+forums.docker.com##.suggested-topics-wrapper
+forums.docker.com##.timeline-footer-controls
+forums.docker.com##.toggle-summary.information
+forums.docker.com##.topic-category
+forums.docker.com##.topic-map
+forums.docker.com##.topic-map-expanded
+forums.docker.com##.with-topic-progress
 
 ! DOCTOR FOX
 www.doctorfox.co.uk##.aside-callout
@@ -5171,12 +5404,25 @@ dusk.com##.top_msg
 dusk.com##.yotpo-gallery-widget-header
 dusk.com##div.trustpilot-widget
 
+! domains\dustinmarlowe.com.rules
+www.dustinmarlowe.com###ghost-portal-root
+www.dustinmarlowe.com##.cover
+www.dustinmarlowe.com##.gh-comments
+www.dustinmarlowe.com##.gh-foot
+www.dustinmarlowe.com##.gh-powered-by
+www.dustinmarlowe.com##.related-wrapper
+www.dustinmarlowe.com##.single-footer
+
 ! domains\dz4win.com.rules
 ||dz4win.com^
 ||site.dz4win.com^
 
 ! domains\e-v-e-n.me.rules
 ||e-v-e-n.me^
+
+! domains\ea.com.rules
+answers.ea.com##.logo-ea.f-internal-links
+answers.ea.com##.social-links
 
 ! domains\earnload.com.rules
 ||earnload.com^
@@ -5442,6 +5688,12 @@ www.electricaldiscountuk.co.uk##.key-messages
 www.electricaldiscountuk.co.uk##.ratings-carousel
 www.electricaldiscountuk.co.uk##.shop-by
 
+! domains\elegoo.com.rules
+www.elegoo.com###conversions_sp_root
+www.elegoo.com##.announcement-bar
+www.elegoo.com##.toolbar
+www.elegoo.com##h1:has-text(Related Products):upward(6)
+
 ! ELEPHANT GOGO
 www.elephantgogo.com##.fix-on-bottom
 www.elephantgogo.com##.social-icon
@@ -5451,14 +5703,32 @@ www.elephantgogo.com##[href="https://itunes.apple.com/th/app/elephant-gogo/id146
 www.elitedaily.com##.adWrapper
 
 ! ELIXIR FORUM
+! (inheriting rules from: discourse.org.rules)
 elixirforum.com###banner
+elixirforum.com###topic-progress-wrapper
+elixirforum.com##.badge-wrapper
+elixirforum.com##.bookmark
+elixirforum.com##.btn-social
 elixirforum.com##.custom-footer-content
+elixirforum.com##.expanded.post-controls
+elixirforum.com##.flag-topic
 elixirforum.com##.footer-sponsors-wrap
+elixirforum.com##.header-buttons
+elixirforum.com##.like
+elixirforum.com##.onscreen-post.small-action
 elixirforum.com##.post-controls
+elixirforum.com##.post-links-container
+elixirforum.com##.progress-back-container
+elixirforum.com##.share
+elixirforum.com##.share-and-invite
 elixirforum.com##.signup-cta
 elixirforum.com##.suggested-topics-wrapper
+elixirforum.com##.timeline-footer-controls
+elixirforum.com##.toggle-summary.information
 elixirforum.com##.topic-category
 elixirforum.com##.topic-map
+elixirforum.com##.topic-map-expanded
+elixirforum.com##.with-topic-progress
 
 ! EMIRATES
 emirates.com###bx-mobile_web_feedback_button
@@ -5498,6 +5768,16 @@ www.english-heritageshop.org.uk##.upsell
 ! domains\eo62cocntx.com.rules
 ||eo62cocntx.com^
 
+! domains\epicgardening.com.rules
+www.epicgardening.com###right-sidebar
+www.epicgardening.com##.gb-container-f300cf00
+www.epicgardening.com##.inline-post-meta-area
+www.epicgardening.com##.main-navigation
+www.epicgardening.com##.related-products-container
+www.epicgardening.com##.site-footer
+www.epicgardening.com##.taxonomy-category:upward(2)
+www.epicgardening.com##.top-social-bar
+
 ! EPICURIOUS
 www.epicurious.com###reviews
 www.epicurious.com##*[class*="ArticlePageContentFooterGrid"]
@@ -5535,6 +5815,33 @@ www.epson.co.uk##.amp-banner
 www.epson.co.uk##.cross-sell-accordion
 www.epson.co.uk##.readyprint-box
 www.epson.co.uk##.readyprint-teaser__container
+
+! domains\ernestjones.co.uk.rules
+www.ernestjones.co.uk###icons
+www.ernestjones.co.uk###js-3rd
+www.ernestjones.co.uk###logos
+www.ernestjones.co.uk###seoBanner
+www.ernestjones.co.uk###skip-to-email-sign-up
+www.ernestjones.co.uk##.banner
+www.ernestjones.co.uk##.banner-card
+www.ernestjones.co.uk##.book-appointments-section
+www.ernestjones.co.uk##.c-product-similar
+www.ernestjones.co.uk##.cta
+www.ernestjones.co.uk##.featured
+www.ernestjones.co.uk##.footer__external-channels
+www.ernestjones.co.uk##.footer__external-finance-banner
+www.ernestjones.co.uk##.footer__site-sections
+www.ernestjones.co.uk##.ifc-banner
+www.ernestjones.co.uk##.offers
+www.ernestjones.co.uk##.product-clearpay
+www.ernestjones.co.uk##.product-messages
+www.ernestjones.co.uk##.product-price-offer
+www.ernestjones.co.uk##.product-price__finance
+www.ernestjones.co.uk##.promocode-copyer
+www.ernestjones.co.uk##.promotion-messages
+www.ernestjones.co.uk##.reviews
+www.ernestjones.co.uk##finance-options
+www.ernestjones.co.uk##warranty-options
 
 ! EROME
 erome.com###goTop
@@ -5616,6 +5923,8 @@ etsy.com##li.wt-list-unstyled a.listing-link div > p.wt-text-caption.wt-text-gra
 etsy.com##li.wt-list-unstyled a.listing-link div > p.wt-text-caption.wt-text-gray > span:not(:matches-css(display:none)):has-text(/^Ad from/):upward(li)
 etsy.com##li.wt-list-unstyled div > p.wt-text-caption.wt-text-gray > span:not(:matches-css(display:none)):has-text(/^Ad/):upward(li)
 etsy.com##ul[data-behat-search-results-ads-lg=""]
+www.etsy.com##[data-appears-component-name="market_page_bottom"]
+www.etsy.com##[data-top-rated-narrowing-intent-search]
 
 ! EUFY
 eufylife.com###backtop
@@ -5726,6 +6035,9 @@ evo.co.uk##:xpath(//p[child::strong[child::a[contains(@class, 'polaris__link')]]
 
 ! domains\evolok.net.rules
 ||evolok.net^
+
+! domains\evolv.ai.rules
+||evolv.ai^
 
 ! EVRI
 www.evri.com##.details__footer
@@ -5868,6 +6180,7 @@ www.express.co.uk##.OUTBRAIN
 www.express.co.uk##.ad-slot-article
 www.express.co.uk##.affiliate-links
 www.express.co.uk##.author
+www.express.co.uk##.bottom_navigation
 www.express.co.uk##.breaking-news-container
 www.express.co.uk##.breakout
 www.express.co.uk##.download-app
@@ -5907,6 +6220,7 @@ www.express.co.uk##:xpath(//p[child::strong[starts-with(text(), 'MUST READ')]])
 www.express.co.uk##:xpath(//p[child::strong[starts-with(text(), 'READ MORE')]])
 www.express.co.uk##:xpath(//ul[contains(@class, 'sub-nav') and child::li[starts-with(text(), 'TRENDING')]])
 www.express.co.uk##[href="https://www.express-casino.com/"]
+www.express.co.uk##div > .text-description > div > strong > a:upward(2)
 www.express.co.uk##p > a > b:upward(p)
 www.express.co.uk##p > b > i > span > a:upward(p)
 www.express.co.uk##p > b:has-text(DON):has-text(MISS):upward(p)
@@ -6030,6 +6344,13 @@ fanfiction.net###cookie_notice
 fanfiction.net##.icon-twitter-3
 fanfiction.net##.timeline-Widget
 
+! domains\farandwide.com.rules
+www.farandwide.com##.ad-mobileHeader
+www.farandwide.com##.ad-mobileInStory
+www.farandwide.com##.byline
+www.farandwide.com##.header-right
+www.farandwide.com##.inline-video-wrapper-featured
+
 ! CPC
 cpc.farnell.com###mktg_Cookie_Wrap
 
@@ -6095,6 +6416,21 @@ filehippo.com##.grid-programs
 ! domains\finanzas-vida.com.rules
 ||m.finanzas-vida.com^
 
+! domains\findmeagift.co.uk.rules
+www.findmeagift.co.uk###band-masthead
+www.findmeagift.co.uk###band-newsletter
+www.findmeagift.co.uk##.footer-logo
+www.findmeagift.co.uk##.product-payin3
+www.findmeagift.co.uk##.ps_pcard_new
+www.findmeagift.co.uk##.ps_pcard_sale
+www.findmeagift.co.uk##.ps_plp_content
+www.findmeagift.co.uk##.ps_plp_content_footer
+www.findmeagift.co.uk##.ps_prod_recent
+www.findmeagift.co.uk##.ps_prod_reviews
+www.findmeagift.co.uk##.ps_prod_ymal
+www.findmeagift.co.uk##.read-more-container
+www.findmeagift.co.uk##nav figure:upward(a)
+
 ! FIRESTORM CARDS
 firestormcards.co.uk##.block-recently-viewed-products
 firestormcards.co.uk##.product-recommendations
@@ -6142,6 +6478,10 @@ flooringmegastore.co.uk##.section-home-cats
 flutter.dev##.cookie-snack
 flutter.dev##.site-banner
 flutter.dev##.site-header__social
+
+! domains\fly.io.rules
+fly.io##.post-cta
+fly.io##.tracking-wider
 
 ! FLY VIET AIR
 www.flyvietair.com##[src="/static/images/pay-card.png"]
@@ -6630,6 +6970,13 @@ gadgethacks.com##.social-cta
 gadgethacks.com##aside > blockquote
 gadgethacks.com##footer > center
 
+! domains\game-debate.com.rules
+www.game-debate.com##.canIRunIt
+www.game-debate.com##.comment-section
+www.game-debate.com##.footer-links:nth-of-type(3)
+www.game-debate.com##.gd__news-item-sidebar
+www.game-debate.com##[href^="/blog/index.php"]
+
 ! GAME
 www.game.co.uk###COOKIEPOLICY_OVERLAY
 www.game.co.uk###ListerTop1
@@ -6698,6 +7045,20 @@ www.gamesindustry.biz##aside > .section-title
 www.gamesindustry.biz##div.brief > .default.details
 www.gamesindustry.biz##div.container
 www.gamesindustry.biz##div.feature > .default.details
+
+! domains\gameskinny.com.rules
+www.gameskinny.com###comment-block
+www.gameskinny.com###secondary-stack
+www.gameskinny.com##.aTopLinks
+www.gameskinny.com##.author-bio
+www.gameskinny.com##.browseable
+www.gameskinny.com##.byline
+www.gameskinny.com##.footer
+www.gameskinny.com##.hubbox
+www.gameskinny.com##.mobile_lb
+www.gameskinny.com##.related-below
+www.gameskinny.com##.related-below.mobile-one-up
+www.gameskinny.com##.share-bar
 
 ! domains\gameslore.com.rules
 www.gameslore.com###bestSellerLeft
@@ -7080,6 +7441,14 @@ www.ghacks.net##.wide-ad
 
 ! domains\gigya.com.rules
 
+! domains\ginx.tv.rules
+www.ginx.tv##.article__author
+www.ginx.tv##.article__authorcard
+www.ginx.tv##.article__body > ul > li > strong:upward(ul)
+www.ginx.tv##.article__breadcrumb
+www.ginx.tv##.page__sidebar
+www.ginx.tv##p > em > a:upward(p)
+
 ! GIPHY
 giphy.com###messages
 giphy.com##*[class*="BannerContainer"]
@@ -7156,6 +7525,28 @@ gizmodo.com##.share-tools-static
 gizmodo.com##:xpath(//div[child::div[child::div[child::div[child::a[contains(@data-ga, 'Author Bio click')]]]]])
 gizmodo.com##:xpath(//div[child::p[contains(text(), 'More from our network')]])
 gizmodo.com##aside
+
+! domains\glamira.co.uk.rules
+www.glamira.co.uk##.add-to-favorites
+www.glamira.co.uk##.amgdprjs-bar-template
+www.glamira.co.uk##.benefit
+www.glamira.co.uk##.compare
+www.glamira.co.uk##.help_icon
+www.glamira.co.uk##.item-block-banner
+www.glamira.co.uk##.more-size
+www.glamira.co.uk##.navbar_filter_mobile
+www.glamira.co.uk##.newsletter
+www.glamira.co.uk##.page-seotext
+www.glamira.co.uk##.pagebuilder-column-group
+www.glamira.co.uk##.pagebuilder-slide-wrapper
+www.glamira.co.uk##.panel-top-campaign-container
+www.glamira.co.uk##.payment-advertise-list
+www.glamira.co.uk##.row-home
+www.glamira.co.uk##.single-banner
+www.glamira.co.uk##.social-icon:upward(1)
+www.glamira.co.uk##.topLinkActive
+www.glamira.co.uk##.wrapper-tab-seo
+www.glamira.co.uk##[href="https://www.glamira.co.uk/trendshop-lp/"]:upward(ul)
 
 ! GLAMOUR
 glamour.com##*[class*="ContentFooterBottom"]
@@ -7281,20 +7672,40 @@ www.gobeyond.dev##.c-share
 www.gobeyond.dev##.c-sidebar
 www.gobeyond.dev##.c-tags
 
+! domains\gofiber.io.rules
+docs.gofiber.io##[class*="announcementBar_"]
+
 ! GO FUND ME
 www.gofundme.com##.m-gdpr-alert-banner
 www.gofundme.com##.p-campaign-value-props--content
 
 ! GO HUGO
+! (inheriting rules from: discourse.org.rules)
 gohugo.io###banner
 gohugo.io###topic-progress-wrapper
+gohugo.io##.badge-wrapper
+gohugo.io##.bookmark
+gohugo.io##.btn-social
+gohugo.io##.expanded.post-controls
+gohugo.io##.flag-topic
+gohugo.io##.header-buttons
 gohugo.io##.like
 gohugo.io##.nested-lh-copy
+gohugo.io##.onscreen-post.small-action
+gohugo.io##.post-controls
+gohugo.io##.post-links-container
+gohugo.io##.progress-back-container
 gohugo.io##.share
+gohugo.io##.share-and-invite
 gohugo.io##.signup-cta
 gohugo.io##.suggested-topics-wrapper
+gohugo.io##.timeline-footer-controls
+gohugo.io##.toggle-summary.information
+gohugo.io##.topic-category
 gohugo.io##.topic-map
+gohugo.io##.topic-map-expanded
 gohugo.io##.twitter
+gohugo.io##.with-topic-progress
 gohugo.io##[href="https://www.netlify.com"]
 gohugo.io##h3:has-text(Hugo Sponsors):upward(1)
 
@@ -7340,11 +7751,31 @@ golangbot.com##.post-footer
 golangbot.com##center
 
 ! GOLANG BRIDGE
+! (inheriting rules from: discourse.org.rules)
+forum.golangbridge.org###banner
 forum.golangbridge.org###topic-progress-wrapper
 forum.golangbridge.org##.accepted-answer.quote
+forum.golangbridge.org##.badge-wrapper
+forum.golangbridge.org##.bookmark
+forum.golangbridge.org##.btn-social
+forum.golangbridge.org##.expanded.post-controls
+forum.golangbridge.org##.flag-topic
+forum.golangbridge.org##.header-buttons
+forum.golangbridge.org##.like
+forum.golangbridge.org##.onscreen-post.small-action
 forum.golangbridge.org##.post-controls
+forum.golangbridge.org##.post-links-container
+forum.golangbridge.org##.progress-back-container
+forum.golangbridge.org##.share
+forum.golangbridge.org##.share-and-invite
+forum.golangbridge.org##.signup-cta
 forum.golangbridge.org##.suggested-topics-wrapper
+forum.golangbridge.org##.timeline-footer-controls
+forum.golangbridge.org##.toggle-summary.information
+forum.golangbridge.org##.topic-category
 forum.golangbridge.org##.topic-map
+forum.golangbridge.org##.topic-map-expanded
+forum.golangbridge.org##.with-topic-progress
 
 ! domains\golangbyexample.com.rules
 golangbyexample.com##.featured-sidebar
@@ -7371,6 +7802,26 @@ golangtutorial.dev##.docs-links
 golangtutorial.dev##.docs-navigation
 golangtutorial.dev##.docs-navigation ~ *
 golangtutorial.dev##.docs-toc
+
+! domains\goldsmiths.co.uk.rules
+www.goldsmiths.co.uk###cookie-message
+www.goldsmiths.co.uk##.addToWishlistButton
+www.goldsmiths.co.uk##.atcLiveButton
+www.goldsmiths.co.uk##.bannerOuterLink
+www.goldsmiths.co.uk##.categoryFooter
+www.goldsmiths.co.uk##.cmsBannerCarouselComponent
+www.goldsmiths.co.uk##.family-logos
+www.goldsmiths.co.uk##.finance-text
+www.goldsmiths.co.uk##.footer-payment
+www.goldsmiths.co.uk##.footer-social
+www.goldsmiths.co.uk##.product-tile-wishlist
+www.goldsmiths.co.uk##.productDetailsFinanceBlock
+www.goldsmiths.co.uk##.productListPaypalCreditBlock
+www.goldsmiths.co.uk##.productPagePaypalCreditBlock
+www.goldsmiths.co.uk##.productTileIfc
+www.goldsmiths.co.uk##.promoBarComponent
+www.goldsmiths.co.uk##.trustpilotContainer
+www.goldsmiths.co.uk##.uspBar
 
 ! domains\golinuxcloud.com.rules
 www.golinuxcloud.com###fixBanner
@@ -7595,7 +8046,10 @@ gosamples.dev##.support
 ! UK GOVERNMENT SERVICES
 gov.uk###cookie-banner
 gov.uk###covid-banner
+gov.uk###featured-documents
 gov.uk###global-cookie-message
+gov.uk###people
+gov.uk###what-we-do
 gov.uk##.cbanner-govuk-cookie-banner
 gov.uk##.gem-c-contextual-sidebar
 gov.uk##.gem-c-cookie-banner
@@ -7771,6 +8225,7 @@ www.habitatforhumanity.org.uk##.share-box
 ! HACKADAY
 hackaday.com###comments
 hackaday.com###footer .logo-img
+hackaday.com###secondary
 hackaday.com###sidebar-mobile-1
 hackaday.com###sidebar-mobile-2
 hackaday.com##.author
@@ -7802,6 +8257,12 @@ hackernoon.com##.top-reactions
 hackernoon.com##:xpath(//section[child::h4[contains(text(), 'Tags')]])
 hackernoon.com##main > div:xpath(//h2[contains(text(), 'More in ')])
 hackernoon.com##main > div:xpath(//h2[contains(text(), 'More in ')]) ~ *
+
+! domains\hackr.io.rules
+hackr.io###coupon-banner-v1
+hackr.io##.author-link-name:upward(2)
+hackr.io##.post-head > p
+hackr.io##.scroll-top-btn
 
 ! HAIRY BIKERS
 www.hairybikers.com##.article__share
@@ -8489,15 +8950,39 @@ hookup-solutions.com##.wt-cli-cookie-bar-container
 ! HOSTGATOR
 hostgator.com##.social-nav-links-container
 
+! domains\hotdeals.com.rules
+www.hotdeals.com###goTop
+www.hotdeals.com##.add-hide
+www.hotdeals.com##.bgwraper
+www.hotdeals.com##.card-box
+www.hotdeals.com##.couper-list
+www.hotdeals.com##.cpbotwrap
+www.hotdeals.com##.discountclist:upward(1)
+www.hotdeals.com##.faq
+www.hotdeals.com##.feedback
+www.hotdeals.com##.footer_data
+www.hotdeals.com##.home-right
+www.hotdeals.com##.home-top
+www.hotdeals.com##.main-right
+www.hotdeals.com##.media
+www.hotdeals.com##.privacy-policy-pop
+www.hotdeals.com##.reviews
+www.hotdeals.com##.sell_right
+www.hotdeals.com##.subscribe
+www.hotdeals.com##[href="/amazon-coupons"]:upward(2)
+www.hotdeals.com##[href="https://www.facebook.com/hotdealscom/"]:upward(1)
+
 ! HOT HARDWARE
 hothardware.com##.additem
 hothardware.com##.bn-link-twitter:upward(1)
+hothardware.com##.bottomnav
 hothardware.com##.cli-footer
 hothardware.com##.cn-tags
 hothardware.com##.display-mobile
 hothardware.com##.disqus-area
 hothardware.com##.footer > .container
 hothardware.com##.p-author
+hothardware.com##.related-content
 hothardware.com##.sharing-row
 hothardware.com##[href*="/author/"]
 
@@ -8545,6 +9030,8 @@ hotukdeals.com##.threadItemCard-author
 hotukdeals.com##:xpath(//div[child::h2[contains(text(), 'Get the app')]])
 hotukdeals.com##:xpath(//section[child::h2[contains(text(), 'Follow us')]])
 hotukdeals.com##h3:has-text(Explore More):upward(3)
+www.hotukdeals.com###thread-reactions
+www.hotukdeals.com##.threadTempBadge
 
 ! HOUSE OF FRASER
 www.houseoffraser.co.uk###aWishListLink
@@ -8656,6 +9143,36 @@ hrtechprivacy.com###onetrust-consent-sdk
 ||hs-scripts.com^
 ||js.hs-scripts.com^
 
+! domains\hsamuel.co.uk.rules
+www.hsamuel.co.uk###logos
+www.hsamuel.co.uk###skip-to-email-sign-up
+www.hsamuel.co.uk###usps
+www.hsamuel.co.uk##.banner-card
+www.hsamuel.co.uk##.bestsellers
+www.hsamuel.co.uk##.blog-cards
+www.hsamuel.co.uk##.book-appointments-section
+www.hsamuel.co.uk##.c-product-similar
+www.hsamuel.co.uk##.categories
+www.hsamuel.co.uk##.category-tabs
+www.hsamuel.co.uk##.category__trending
+www.hsamuel.co.uk##.delivery-banner
+www.hsamuel.co.uk##.first-banner
+www.hsamuel.co.uk##.footer
+www.hsamuel.co.uk##.hero-banner
+www.hsamuel.co.uk##.product-badge
+www.hsamuel.co.uk##.product-clearpay
+www.hsamuel.co.uk##.product-paypal-credit
+www.hsamuel.co.uk##.product-price-offer
+www.hsamuel.co.uk##.product-price__finance
+www.hsamuel.co.uk##.promo-banners
+www.hsamuel.co.uk##.promotion-messages
+www.hsamuel.co.uk##.quick-links
+www.hsamuel.co.uk##.reviews
+www.hsamuel.co.uk##.seo-banner
+www.hsamuel.co.uk##.syte-discovery
+www.hsamuel.co.uk##finance-options
+www.hsamuel.co.uk##warranty-options
+
 ! HSBC
 @@||hsbc.co.uk/1/PA_esf-ca-app-content/content/scripts/rapport/rapport_opt.js
 hsbc.co.uk###black_overlay
@@ -8677,9 +9194,30 @@ www.htmlforums.net##.shareButtons
 www.htmlforums.net##.xenfocus-social
 
 ! HUEL
+! (inheriting rules from: discourse.org.rules)
 discuss.huel.com###banner
+discuss.huel.com###topic-progress-wrapper
+discuss.huel.com##.badge-wrapper
+discuss.huel.com##.bookmark
+discuss.huel.com##.btn-social
+discuss.huel.com##.expanded.post-controls
+discuss.huel.com##.flag-topic
 discuss.huel.com##.header-buttons
+discuss.huel.com##.like
+discuss.huel.com##.onscreen-post.small-action
+discuss.huel.com##.post-controls
+discuss.huel.com##.post-links-container
+discuss.huel.com##.progress-back-container
+discuss.huel.com##.share
+discuss.huel.com##.share-and-invite
 discuss.huel.com##.signup-cta
+discuss.huel.com##.suggested-topics-wrapper
+discuss.huel.com##.timeline-footer-controls
+discuss.huel.com##.toggle-summary.information
+discuss.huel.com##.topic-category
+discuss.huel.com##.topic-map
+discuss.huel.com##.topic-map-expanded
+discuss.huel.com##.with-topic-progress
 huel.com###geolocation-app
 huel.com###mmMaskReferrerStage1
 huel.com###mmModalReferrerStage1
@@ -9085,6 +9623,8 @@ idealhome.co.uk##aside
 ||ier.ai^
 
 ! IGN
+ign.com##.doodle
+ign.com##.poll-content-block
 www.ign.com###zdcFloatingBtn
 www.ign.com##.adunit-wrapper
 www.ign.com##.article-author
@@ -9176,6 +9716,8 @@ ikea.com##:xpath(//div[contains(@class, 'result-collection') and child::h2[conta
 ikea.com##:xpath(//div[contains(@class, 'result-collection') and child::h2[contains(text(), 'Similar products')]])
 ikea.com##[id*="addThis_"]
 ikea.com##button[data-test-target="add-to-list-button"]
+www.ikea.com###btn-back-to-top
+www.ikea.com##.pip-desktop-favourite-button-wrapper
 www.ikea.com##.pip-mobile-favourite-button-wrapper
 www.ikea.com##.plp-widget-wrapper
 
@@ -9624,6 +10166,7 @@ independent.co.uk##[class*="LiveBlogStatus"]
 independent.co.uk##[class*="SectionNewsletter"]
 independent.co.uk##[class*="SubscribePremiumButton"]
 independent.co.uk##p > strong > em:upward(p)
+www.independent.co.uk##.js-product-buy
 
 ! INDIEGOGO
 www.indiegogo.com##.backItForm
@@ -9669,6 +10212,11 @@ infogram.com##.sideButtonsHolder
 
 ! domains\inlinkz.com.rules
 ||inlinkz.com^
+
+! domains\inngest.com.rules
+www.inngest.com##.page-banner
+www.inngest.com##footer
+www.inngest.com##nav ul:nth-of-type(2)
 
 ! INSIDER / BUSINESS INSIDER
 www.insider.com###l-rightrail
@@ -9751,6 +10299,12 @@ www.investopedia.com##.tradingview-widget-container
 
 ! domains\inyourarea.co.uk.rules
 ||www.inyourarea.co.uk/*$subdocument
+
+! domains\iotespresso.com.rules
+iotespresso.com###comments
+iotespresso.com##.entry-footer
+iotespresso.com##.post-navigation
+iotespresso.com##.widget-area
 
 ! I SAW IT FIRST
 www.isawitfirst.com##.carousels
@@ -9922,6 +10476,20 @@ www.jacksonsnurseries.co.uk##.ty-add-to-wish
 ! domains\jameeltips.us.rules
 ||jameeltips.us^
 
+! domains\jamesallen.com.rules
+www.jamesallen.com###backToTopStyle
+www.jamesallen.com###chatPH
+www.jamesallen.com##.ECFlipBanner
+www.jamesallen.com##[class*="NewsLetter"]
+www.jamesallen.com##[class*="friendsContainer"]
+www.jamesallen.com##[class*="fullScreenNew"]
+www.jamesallen.com##[class*="iconWishlist"]
+www.jamesallen.com##[class*="r2comp_btnWishListWrapper"]
+www.jamesallen.com##[class*="r2comp_dropHint"]
+www.jamesallen.com##[class*="r2comp_sort-by-promotion-tooltip"]
+www.jamesallen.com##[class*="r2comp_top-left-marks"]
+www.jamesallen.com##[class*="signUpContainer"]
+
 ! JAVASCRIPT INFO
 javascript.info##.banner-bottom
 javascript.info##.share-icons
@@ -10048,6 +10616,9 @@ www.johnlewis.com##.feedback-app-section-wrapper
 www.johnlewis.com##.social-links-wrapper-bp
 www.johnlewis.com##[class*="UserGeneratedContent_user-generated-content__"]
 
+! domains\jsitor.com.rules
+jsitor.com##.cookie-consent
+
 ! JUST ANSWER
 www.justanswer.com##.answer-time
 www.justanswer.com##.gqa-thread-container > .th-how-it-works
@@ -10075,6 +10646,14 @@ www.justwatch.com##.title-credits
 
 ! JULIA EVANS
 jvns.ca##.hentry > footer
+
+! domains\jwt.io.rules
+jwt.io##.badges
+jwt.io##.jtw-ebook-banner
+jwt.io##.libraries
+jwt.io##.logotype
+jwt.io##.social-counter
+jwt.io##.tokens-created
 
 ! domains\jyruwybiay.xyz.rules
 ||jyruwybiay.xyz^
@@ -10243,6 +10822,14 @@ www.kickstarter.com##span a[href="/discover/pwl?ref=pwl_badge"]:upward(span)
 ! domains\kiemlua.com.rules
 ||kiemlua.com^
 
+! domains\kienda.co.uk.rules
+kienda.co.uk###left-column
+kienda.co.uk###loyaltyb
+kienda.co.uk##.laberBestSellers
+kienda.co.uk##.laberProduct-flags
+kienda.co.uk##.laberthemes
+kienda.co.uk##.laberwishlist
+
 ! domains\kiiw.icu.rules
 ||kiiw.icu^
 
@@ -10410,9 +10997,13 @@ labstack.com##footer > h2
 ||ladsdown.com^
 
 ! LAKELAND
+www.lakeland.co.uk##.banners
 www.lakeland.co.uk##.brand
 www.lakeland.co.uk##.impact-bnr
+www.lakeland.co.uk##.impact-container
 www.lakeland.co.uk##.newsletter-signup
+www.lakeland.co.uk##.product-recs
+www.lakeland.co.uk##.social-links
 
 ! LANCASHIRE COUNTY COUNCIL
 www.lancashire.gov.uk##.adwrapper
@@ -10713,12 +11304,30 @@ lep.co.uk##amp-analytics
 lep.co.uk##amp-social-share
 
 ! LET'S ENCRYPT
+! (inheriting rules from: discourse.org.rules)
+community.letsencrypt.org###banner
 community.letsencrypt.org###topic-progress-wrapper
+community.letsencrypt.org##.badge-wrapper
+community.letsencrypt.org##.bookmark
+community.letsencrypt.org##.btn-social
+community.letsencrypt.org##.expanded.post-controls
+community.letsencrypt.org##.flag-topic
+community.letsencrypt.org##.header-buttons
+community.letsencrypt.org##.like
+community.letsencrypt.org##.onscreen-post.small-action
 community.letsencrypt.org##.post-controls
+community.letsencrypt.org##.post-links-container
 community.letsencrypt.org##.progress-back-container
+community.letsencrypt.org##.share
+community.letsencrypt.org##.share-and-invite
 community.letsencrypt.org##.signup-cta
 community.letsencrypt.org##.suggested-topics-wrapper
+community.letsencrypt.org##.timeline-footer-controls
+community.letsencrypt.org##.toggle-summary.information
+community.letsencrypt.org##.topic-category
 community.letsencrypt.org##.topic-map
+community.letsencrypt.org##.topic-map-expanded
+community.letsencrypt.org##.with-topic-progress
 
 ! LET'S PLAY INDEX
 www.letsplayindex.com##.content_sidebar
@@ -10891,7 +11500,13 @@ link.co.uk##.smartbanner
 ||link1s.net^
 
 ! domains\linkedin.com.rules
+||www.linkedin.com/embeds/publishingEmbed.html$subdocument
 Linkedin.com##.right-rail
+www.linkedin.com##.main-author-card
+www.linkedin.com##.slide-list
+www.linkedin.com##.social-details
+www.linkedin.com##h3 > a:upward(h3)
+www.linkedin.com##p > [href^="https://www.zerox24.com/"]:upward(p)
 
 ! domains\linkres.in.rules
 ||linkres.in^
@@ -11612,6 +12227,12 @@ www.masterofmalt.com##.key-benefits-banner
 www.masterofmalt.com##.recommended-box-container
 www.masterofmalt.com##.sect-prod-crossell
 
+! domains\mastersofgames.com.rules
+www.mastersofgames.com###sidebarboxright
+www.mastersofgames.com##.relatedproducts
+www.mastersofgames.com##.relatedproducts + div
+www.mastersofgames.com##div.footericons
+
 ! MATALAN
 matalan.co.uk###global-banner-container
 matalan.co.uk###plp-recs
@@ -11632,7 +12253,13 @@ matalan.co.uk##.sub-nav-group__image
 
 ! MATTER MOST
 mattermost.com##.notification-bar
+mattermost.com##.post__author
+mattermost.com##.post__button
+mattermost.com##.post__stickybar
+mattermost.com##.prefooter-newsletter-signup
+mattermost.com##.read-more-category-articles
 mattermost.com##.signup-form-sso
+mattermost.com##footer
 
 ! domains\mavq.net.rules
 ||mavq.net^
@@ -11883,9 +12510,15 @@ metro.co.uk##p:nth-of-type(41) > .mor-link
 ||mhma12.tech^
 
 ! MICROSOFT
+answers.microsoft.com###announcementSection
+answers.microsoft.com###headerUniversalHeader
+microsoft.com###Footer
+microsoft.com###announcementSection
 microsoft.com###banner-holder
 microsoft.com###buyInstallButton
 microsoft.com###cookie-banner
+microsoft.com###footerUniversalFooter
+microsoft.com###headerUniversalHeader
 microsoft.com###newsletter
 microsoft.com###retailers
 microsoft.com###threadRightColumnContainer
@@ -12073,6 +12706,7 @@ www.mommyhatescooking.com##.wprm-callout-custom
 www.mommyhatescooking.com##.wprm-recipe-author-container
 
 ! MONEY SAVING EXPERT
+forums.moneysavingexpert.com##.AlertMessage
 moneysavingexpert.com###MainHeader
 moneysavingexpert.com##.BoxFilter
 moneysavingexpert.com##.FooterDisclaimer
@@ -12219,11 +12853,20 @@ foundation.mozilla.org##.instagram-glyph
 foundation.mozilla.org##.join-us
 foundation.mozilla.org##.twitter-glyph
 mozilla.org###id_scam_alert
+support.mozilla.org###doc-contributors
+support.mozilla.org##.document-vote--sidebar-wrap
+support.mozilla.org##.mzp-c-footer-links-social
+support.mozilla.org##.sumo-page-section
 www.mozilla.org##.c-navigation-vpn-cta-container
 www.mozilla.org##.mzp-c-footer-heading-social:upward(1)
 
 ! domains\mptgate.com.rules
 ||mptgate.com^
+
+! domains\mrkaran.dev.rules
+mrkaran.dev##.gh-powered-by
+mrkaran.dev##.related-wrapper
+mrkaran.dev##.single-footer
 
 ! MSN
 www.msn.com##.cwt-overlay-cta-button
@@ -12316,6 +12959,9 @@ mynintendonews.com##.nv-post-navigation
 mynintendonews.com##.nv-tags-list
 mynintendonews.com##.sharedaddy
 mynintendonews.com##.wp-block-social-link
+
+! domains\mypurecloud.ie.rules
+||mypurecloud.ie^
 
 ! MYSQL
 www.mysql.com##.ochat_slideout
@@ -12546,6 +13192,7 @@ www.netdoctor.co.uk##.vertical-ad
 www.netflix.com###section-coming-soon
 www.netflix.com###section-more-titles
 www.netflix.com##.email-form
+www.netflix.com##.value-prop-with-cta
 www.netflix.com##[data-uia-nmhp="downloadAndWatch"]
 www.netflix.com##[data-uia-nmhp="hero_fuji"]
 www.netflix.com##[data-uia-nmhp="kidsValueProp"]
@@ -13044,6 +13691,10 @@ www.notonthehighstreet.com##:xpath(//div[contains(@data-testid, 'PRODUCT_CARD_GR
 www.notonthehighstreet.com##:xpath(//section[child::div[child::h2[contains(text(), 'Wonderfully unique finds, made to be treasured')]]])
 www.notonthehighstreet.com##:xpath(//section[child::h2[contains(text(), "What's trending")]])
 www.notonthehighstreet.com##:xpath(//section[child::h2[contains(text(), 'GIVE HAPPY SHOP SMALL')]])
+www.notonthehighstreet.com##[class*="BackToTopButton"]
+www.notonthehighstreet.com##[class*="FooterPayment"]
+www.notonthehighstreet.com##[class*="FooterPromo"]:upward(1)
+www.notonthehighstreet.com##[class*="NewsletterSignUpForm___"]:upward(2)
 
 ! NOVATECH
 www.novatech.co.uk###cookienotify
@@ -13154,13 +13805,17 @@ www.oakfurnitureland.co.uk###emergency-banner
 www.oakfurnitureland.co.uk###return-to-top
 www.oakfurnitureland.co.uk###uspBannerBar
 www.oakfurnitureland.co.uk##.banners-skin-banner-banner
+www.oakfurnitureland.co.uk##.category-heading
 www.oakfurnitureland.co.uk##.cell > [href="/category/christmas-delivery/"]
 www.oakfurnitureland.co.uk##.delivery-message
 www.oakfurnitureland.co.uk##.description
 www.oakfurnitureland.co.uk##.finance-block
 www.oakfurnitureland.co.uk##.footer-bottom
+www.oakfurnitureland.co.uk##.image-block > .top-block
+www.oakfurnitureland.co.uk##.nav-promo-graphic
 www.oakfurnitureland.co.uk##.promo-label
 www.oakfurnitureland.co.uk##.promo-overlay
+www.oakfurnitureland.co.uk##.purecloud-chat-available
 www.oakfurnitureland.co.uk##.reviews
 www.oakfurnitureland.co.uk##.saving-sash
 www.oakfurnitureland.co.uk##.slides
@@ -13247,6 +13902,17 @@ okcupid.com##.messenger-main-window:style(width: 95vw !important;)
 
 ! domains\oko.sh.rules
 ||oko.sh^
+
+! domains\okta.com.rules
+developer.okta.com###discourse-comments
+developer.okta.com##.BlogPost-attribution
+developer.okta.com##.BlogPost-author-bio
+developer.okta.com##.BlogPost-cover
+developer.okta.com##.BlogPost-prev-next
+developer.okta.com##.BlogPost-readtime
+developer.okta.com##.BlogPost-social-share
+developer.okta.com##.before-post-tags
+developer.okta.com##.footer
 
 ! OLIVER BONAS
 www.oliverbonas.com##.cdk-overlay-container
@@ -13347,6 +14013,7 @@ www.onthemarket.com##.top-banner
 www.openbanking.org.uk##.wt-cli-cookie-bar-container
 
 ! OPENING TIMES IN THE UK
+www.openingtimesin.uk##.label:has-text(Social sites):upward(.item)
 www.openingtimesin.uk##.offers-section
 
 ! OPENREACH
@@ -13364,6 +14031,7 @@ opensource.com##.embedded-callout-menu
 opensource.com##.field--name-field-default-license
 opensource.com##.field--name-field-tags
 opensource.com##.rate-score
+opensource.com##.rate-widget
 opensource.com##.related-articles
 
 ! ORNAMENTAL TREES
@@ -13488,6 +14156,8 @@ overclockers.co.uk##:xpath(//div[contains(@class, 'greybox') and descendant::ul[
 overclockers.co.uk##body > .bg-darker
 overclockers.co.uk##body:style(overflow: auto !important;)
 overclockers.co.uk##wishlist-selector
+www.overclockers.co.uk##.ck-social-media-icons:upward(1)
+www.overclockers.co.uk##.menu-item > span:has-text(Popular Products):upward(1)
 
 ! OVERCLOCKERS (USA)
 www.overclockers.com##.clearfix.entry-tags
@@ -13855,6 +14525,7 @@ pcgamesn.com##.menu-header-overwolf
 pcgamesn.com##.next_page_placeholder
 pcgamesn.com##.nn_mobile_mpu_wrapper
 pcgamesn.com##.post_footer
+pcgamesn.com##.sidebar-right
 pcgamesn.com##.social_cta
 pcgamesn.com##body > header:style(top: 0 !important;)
 pcgamesn.com##body:style(padding-top: 0 !important;)
@@ -13934,6 +14605,8 @@ pcmag.com##footer
 pcmag.com##h3:has-text(Our Top 10 Picks):upward(div)
 pcmag.com##p > em:has-text(Deals are selected by our):upward(p)
 pcmag.com##ul > li:has-text(Related):has-text(Picks:):upward(ul)
+www.pcmag.com##.leading-tight
+www.pcmag.com##.video-parent
 
 ! PC WORLD
 www.pcworld.com###footer-social
@@ -14064,19 +14737,29 @@ www.phuket101.net##p > iframe:upward(p)
 www.phuket101.net##p:has-text([the_ad id=)
 
 ! PI HOLE
+! (inheriting rules from: discourse.org.rules)
 discourse.pi-hole.net###banner
+discourse.pi-hole.net###topic-progress-wrapper
+discourse.pi-hole.net##.badge-wrapper
 discourse.pi-hole.net##.bookmark
 discourse.pi-hole.net##.btn-social
+discourse.pi-hole.net##.expanded.post-controls
 discourse.pi-hole.net##.flag-topic
+discourse.pi-hole.net##.header-buttons
 discourse.pi-hole.net##.like
+discourse.pi-hole.net##.onscreen-post.small-action
 discourse.pi-hole.net##.post-controls
 discourse.pi-hole.net##.post-links-container
+discourse.pi-hole.net##.progress-back-container
 discourse.pi-hole.net##.share
 discourse.pi-hole.net##.share-and-invite
 discourse.pi-hole.net##.signup-cta
 discourse.pi-hole.net##.suggested-topics-wrapper
 discourse.pi-hole.net##.timeline-footer-controls
+discourse.pi-hole.net##.toggle-summary.information
+discourse.pi-hole.net##.topic-category
 discourse.pi-hole.net##.topic-map
+discourse.pi-hole.net##.topic-map-expanded
 discourse.pi-hole.net##.with-topic-progress
 pi-hole.net##a[href="https://pi-hole.net/donate"]
 pi-hole.net##a[href="https://pi-hole.net/donate/#sponsorship"]
@@ -14192,14 +14875,42 @@ www.playboardgames.co.uk##.newsletter-content
 www.playboardgames.co.uk##.payment-types
 www.playboardgames.co.uk##.section-block-social-icons
 
+! domains\player.one.rules
+www.player.one###block-bean-game-reviews
+www.player.one###block-bean-top-stories
+www.player.one###block-fusion-facebook-comment-facebook-comment
+www.player.one##.bg-b.cont
+www.player.one##.block-fusion-dfp
+www.player.one##.page-footer
+www.player.one##.related-stories
+www.player.one##.vocabulary-author
+www.player.one##[id*="dfp-ad-"]
+
 ! PLEX
-forums.plex.tv##.alert-info.alert.signup-cta
+! (inheriting rules from: discourse.org.rules)
+forums.plex.tv###banner
+forums.plex.tv###topic-progress-wrapper
+forums.plex.tv##.badge-wrapper
+forums.plex.tv##.bookmark
+forums.plex.tv##.btn-social
 forums.plex.tv##.expanded.post-controls
+forums.plex.tv##.flag-topic
+forums.plex.tv##.header-buttons
+forums.plex.tv##.like
 forums.plex.tv##.onscreen-post.small-action
+forums.plex.tv##.post-controls
+forums.plex.tv##.post-links-container
+forums.plex.tv##.progress-back-container
+forums.plex.tv##.share
+forums.plex.tv##.share-and-invite
+forums.plex.tv##.signup-cta
 forums.plex.tv##.suggested-topics-wrapper
+forums.plex.tv##.timeline-footer-controls
 forums.plex.tv##.toggle-summary.information
+forums.plex.tv##.topic-category
 forums.plex.tv##.topic-map
 forums.plex.tv##.topic-map-expanded
+forums.plex.tv##.with-topic-progress
 plex.tv###plex-language-bar
 plex.tv##*[class*="block-hero-"]
 plex.tv##.block-custom-14
@@ -14502,6 +15213,30 @@ pornhub.com##suggestion-element
 www.pornhub.com##.pre-footer
 
 ! POSTMAN
+! (inheriting rules from: discourse.org.rules)
+community.postman.com###banner
+community.postman.com###topic-progress-wrapper
+community.postman.com##.badge-wrapper
+community.postman.com##.bookmark
+community.postman.com##.btn-social
+community.postman.com##.expanded.post-controls
+community.postman.com##.flag-topic
+community.postman.com##.header-buttons
+community.postman.com##.like
+community.postman.com##.onscreen-post.small-action
+community.postman.com##.post-controls
+community.postman.com##.post-links-container
+community.postman.com##.progress-back-container
+community.postman.com##.share
+community.postman.com##.share-and-invite
+community.postman.com##.signup-cta
+community.postman.com##.suggested-topics-wrapper
+community.postman.com##.timeline-footer-controls
+community.postman.com##.toggle-summary.information
+community.postman.com##.topic-category
+community.postman.com##.topic-map
+community.postman.com##.topic-map-expanded
+community.postman.com##.with-topic-progress
 www.postman.com###CaseStudiesSection
 www.postman.com###social:upward(1)
 www.postman.com##[src*="statuspage.io/embed/frame"]
@@ -14684,6 +15419,10 @@ www.primark.com##[data-testautomation-id="generic-text-image-banner"]
 www.primark.com##[data-testautomation-id="hero-banner"]
 www.primark.com##[data-testautomation-id="hero-image-product-carousel"]
 www.primark.com##[data-testautomation-id="social-links-group"]
+
+! domains\prismic.io.rules
+prismic.io###mc_embed_signup
+prismic.io##header .bg-indigo
 
 ! domains\privacy-center.org.rules
 ||privacy-center.org^
@@ -15096,6 +15835,11 @@ raspberrypi.com##h2:has-text(Related products):upward(2)
 ! domains\ravenjs.com.rules
 ||ravenjs.com^
 
+! domains\ravensburger.co.uk.rules
+www.ravensburger.co.uk###auto-popup
+www.ravensburger.co.uk##.modal-backdrop
+www.ravensburger.co.uk##.newsletter-sign-up
+
 ! domains\reachplc.com.rules
 ||data.reachplc.com/$subdocument
 
@@ -15236,8 +15980,69 @@ www.reddit.com##a[href="/RedditRecap2022"]
 www.reddit.com##button:has-text(Get App)
 www.reddit.com##shreddit-blurred-container
 
+! domains\reddwarf.co.uk.rules
+reddwarf.co.uk###sidebar
+reddwarf.co.uk##.follow-links
+
 ! domains\redeye.international.rules
 ||redeye.international^
+
+! domains\redgifs.com.rules
+www.redgifs.com###gif_indolentilliterateleafhopper
+www.redgifs.com##.appFooter
+www.redgifs.com##.author-wrap
+www.redgifs.com##.cookieNotice
+www.redgifs.com##.newCreators
+www.redgifs.com##.sideBar
+www.redgifs.com##.trendingCreators
+www.redgifs.com##.trendingNiches
+www.redgifs.com##.trendingTags
+www.redgifs.com##[class*="AdUnit_wrapper"]
+
+! domains\redletterdays.co.uk.rules
+www.redletterdays.co.uk###adventure-header
+www.redletterdays.co.uk###attractions-header
+www.redletterdays.co.uk###bnr-bookable-online
+www.redletterdays.co.uk###bnr-lush-spas
+www.redletterdays.co.uk###drink-dining-header
+www.redletterdays.co.uk###driving-cat-header
+www.redletterdays.co.uk###flying-header
+www.redletterdays.co.uk###gifts-for-women-header
+www.redletterdays.co.uk###homepage-container
+www.redletterdays.co.uk###ideas-container
+www.redletterdays.co.uk###main_content:style(margin-top: 180px !important;)
+www.redletterdays.co.uk###merlin-container
+www.redletterdays.co.uk###paypal-pay-later-message
+www.redletterdays.co.uk###section-brand-pods
+www.redletterdays.co.uk###section-brands
+www.redletterdays.co.uk###section-favourites
+www.redletterdays.co.uk###section-giftboxes
+www.redletterdays.co.uk###section-love
+www.redletterdays.co.uk###section-mayalsolike
+www.redletterdays.co.uk###section-minibreaks
+www.redletterdays.co.uk###section-night-pods
+www.redletterdays.co.uk###section-popular-categories
+www.redletterdays.co.uk###section-popular-types
+www.redletterdays.co.uk###section-price-location
+www.redletterdays.co.uk###section-racetracks
+www.redletterdays.co.uk###section-reasons
+www.redletterdays.co.uk###section-reviews
+www.redletterdays.co.uk###section-supercars
+www.redletterdays.co.uk###section-trade-pods
+www.redletterdays.co.uk###shortbreaks-header
+www.redletterdays.co.uk###spa-beauty-header
+www.redletterdays.co.uk###usps
+www.redletterdays.co.uk##.carbon-neutral-sitewide
+www.redletterdays.co.uk##.contact-social
+www.redletterdays.co.uk##.favourite-features
+www.redletterdays.co.uk##.gift-box-banner
+www.redletterdays.co.uk##.ics-sitewide
+www.redletterdays.co.uk##.privacy-policy-update
+www.redletterdays.co.uk##.product-carousel-wrapper
+www.redletterdays.co.uk##.productsash
+www.redletterdays.co.uk##.special-offers-banner
+www.redletterdays.co.uk##div.spacer-full
+www.redletterdays.co.uk##div.spacer-half
 
 ! domains\redlifek.com.rules
 redlifek.com###countdown ~ *:not(#go-link)
@@ -15905,6 +16710,7 @@ scan.co.uk##.latestInfo
 scan.co.uk##.mainHeaderTO
 scan.co.uk##.mobile.socialMedia
 scan.co.uk##.newsLetter
+scan.co.uk##.offer.tag
 scan.co.uk##.offer3XS
 scan.co.uk##.offerBlock
 scan.co.uk##.orderBefore
@@ -15918,6 +16724,7 @@ scan.co.uk##.protect
 scan.co.uk##.relatedProducts
 scan.co.uk##.repExample
 scan.co.uk##.reviewShare
+scan.co.uk##.sale.tag
 scan.co.uk##.scanFinancePanel
 scan.co.uk##.scanProtectBox
 scan.co.uk##.scanprotect
@@ -16074,6 +16881,20 @@ www.seattletimes.com##.secondary-nav-mobile
 ! SECRET CINEMA
 tickets.secretcinema.org##.c-cookieBanner
 
+! domains\securecoding.com.rules
+www.securecoding.com##.article__meta > p
+www.securecoding.com##.author-box
+www.securecoding.com##.comments-likes
+www.securecoding.com##.cookie-consent
+www.securecoding.com##.footer-logo
+www.securecoding.com##.footer-newsletter
+www.securecoding.com##.grecaptcha-badge
+www.securecoding.com##.recommended-posts
+
+! domains\seedparade.co.uk.rules
+www.seedparade.co.uk###flash_sale_complete_banner
+www.seedparade.co.uk##.featured-products
+
 ! SEE TICKETS
 seetickets.com##.l-gdpr-banner
 seetickets.com##.support-centre
@@ -16096,6 +16917,18 @@ www.selectcarleasing.co.uk##.g-deal__item--ev-charger-banner
 www.selectcarleasing.co.uk##.g-deal__item--sticky
 www.selectcarleasing.co.uk##.g-deal__item--trustpilot
 www.selectcarleasing.co.uk##.g-deal__labels
+
+! domains\selfridges.com.rules
+www.selfridges.com##.box-footer-bottom
+www.selfridges.com##.c-prod-card__cta-box-wishlist
+www.selfridges.com##.c-prod-card__flourish
+www.selfridges.com##.c-sticky-buttons
+www.selfridges.com##.image-logo
+www.selfridges.com##.newsletter-signup-btn
+www.selfridges.com##.richText-header-service-banner
+www.selfridges.com##.service-updates-banner
+www.selfridges.com##.shareThis
+www.selfridges.com##.wishlist
 
 ! domains\sentry.io.rules
 ||sentry.io^
@@ -16276,11 +17109,30 @@ shrinke.me##.social-links
 ||shrinkme.io^
 
 ! SIGNAL
+! (inheriting rules from: discourse.org.rules)
+community.signalusers.org###banner
+community.signalusers.org###topic-progress-wrapper
 community.signalusers.org##.badge-wrapper
+community.signalusers.org##.bookmark
+community.signalusers.org##.btn-social
+community.signalusers.org##.expanded.post-controls
+community.signalusers.org##.flag-topic
+community.signalusers.org##.header-buttons
+community.signalusers.org##.like
+community.signalusers.org##.onscreen-post.small-action
 community.signalusers.org##.post-controls
+community.signalusers.org##.post-links-container
+community.signalusers.org##.progress-back-container
+community.signalusers.org##.share
+community.signalusers.org##.share-and-invite
 community.signalusers.org##.signup-cta
 community.signalusers.org##.suggested-topics-wrapper
+community.signalusers.org##.timeline-footer-controls
+community.signalusers.org##.toggle-summary.information
+community.signalusers.org##.topic-category
 community.signalusers.org##.topic-map
+community.signalusers.org##.topic-map-expanded
+community.signalusers.org##.with-topic-progress
 
 ! domains\simpleanalyticsexternal.com.rules
 ||simpleanalyticsexternal.com^
@@ -16288,11 +17140,20 @@ community.signalusers.org##.topic-map
 ! domains\simplilearn.com.rules
 www.simplilearn.com###google_onetap_appened
 
+! domains\simplybook.me.rules
+simplybook.me###reviews
+simplybook.me###supportChat-card
+simplybook.me##.app-links
+simplybook.me##.company-social-links
+simplybook.me##.cookies
+simplybook.me##.scroll-bar-dog
+
 ! SITEPOINT
 www.sitepoint.com###book_top
 www.sitepoint.com###bookshelf
 www.sitepoint.com###join-premium
 www.sitepoint.com##.fa-github-square:upward(6)
+www.sitepoint.com##.inline-ad
 www.sitepoint.com##.sbBody
 www.sitepoint.com##.share-icon:upward(2)
 www.sitepoint.com##[class*="Header-module--img"]
@@ -16518,13 +17379,31 @@ www.soundtrackyourbrand.com##.modal--overlay
 ! SOUTH EASTERN RAILWAY
 www.southeasternrailway.co.uk##.smartbanner
 
-! domains\southlondonmakerspace.org.rules
+! SOUTH LONDON MAKER SPACE
+! (inheriting rules from: discourse.org.rules)
+discourse.southlondonmakerspace.org###banner
 discourse.southlondonmakerspace.org###topic-progress-wrapper
+discourse.southlondonmakerspace.org##.badge-wrapper
+discourse.southlondonmakerspace.org##.bookmark
+discourse.southlondonmakerspace.org##.btn-social
+discourse.southlondonmakerspace.org##.expanded.post-controls
+discourse.southlondonmakerspace.org##.flag-topic
+discourse.southlondonmakerspace.org##.header-buttons
+discourse.southlondonmakerspace.org##.like
+discourse.southlondonmakerspace.org##.onscreen-post.small-action
 discourse.southlondonmakerspace.org##.post-controls
 discourse.southlondonmakerspace.org##.post-links-container
+discourse.southlondonmakerspace.org##.progress-back-container
+discourse.southlondonmakerspace.org##.share
+discourse.southlondonmakerspace.org##.share-and-invite
 discourse.southlondonmakerspace.org##.signup-cta
 discourse.southlondonmakerspace.org##.suggested-topics-wrapper
+discourse.southlondonmakerspace.org##.timeline-footer-controls
+discourse.southlondonmakerspace.org##.toggle-summary.information
+discourse.southlondonmakerspace.org##.topic-category
 discourse.southlondonmakerspace.org##.topic-map
+discourse.southlondonmakerspace.org##.topic-map-expanded
+discourse.southlondonmakerspace.org##.with-topic-progress
 southlondonmakerspace.org##.footer-contact-social
 southlondonmakerspace.org##.hc_scrollup
 
@@ -16941,6 +17820,26 @@ www.strulch.co.uk##.newsletter-inner
 ! STUDY GOLANG
 studygolang.com##.Header-banner
 
+! domains\stuff.tv.rules
+www.stuff.tv###secondary
+www.stuff.tv##.affiliate-commissioning-message
+www.stuff.tv##.c-ad
+www.stuff.tv##.c-ad-protection
+www.stuff.tv##.c-digiteka
+www.stuff.tv##.c-entries--slider
+www.stuff.tv##.c-entry__taxonomies--sponsored:upward(.c-entry__grid)
+www.stuff.tv##.c-footer__grid > .c-nav-secondary
+www.stuff.tv##.c-nav-social
+www.stuff.tv##.c-nav-trending__grid
+www.stuff.tv##.c-singular__author-image
+www.stuff.tv##.c-singular__author-name
+www.stuff.tv##.c-singular__related-posts
+www.stuff.tv##.c-singular__taxonomies
+www.stuff.tv##.c-singular__text > ul > li > a:upward(ul)
+www.stuff.tv##.c-singular__types
+www.stuff.tv##.is-style-newsletter
+www.stuff.tv##.sharedaddy
+
 ! SUBSTACK
 substack.com##.footer
 substack.com##.home-sitemap-signup-form
@@ -17015,6 +17914,9 @@ www.suttons.co.uk##.promo-banner
 www.suttons.co.uk##.scrollup
 www.suttons.co.uk##.timer
 www.suttons.co.uk##.wishlist-add-counter
+
+! domains\svelte.dev.rules
+kit.svelte.dev##.svelte-tdqbhp.banner
 
 ! domains\sweettooth.io.rules
 ||sweettooth.io^
@@ -17680,6 +18582,7 @@ techspot.com###comments
 techspot.com###content ~ *
 techspot.com###new_social_box
 techspot.com##.BigHead
+techspot.com##.author
 techspot.com##.category-chicklets
 techspot.com##.comment-count-block
 techspot.com##.download_certified
@@ -17700,6 +18603,12 @@ techspot.com##footer > .wrapper
 www.techspot.com##.espMobileMenu
 
 ! TECH WEEK MAGAZINE
+techweekmag.com##.mvp-author-info-wrap
+techweekmag.com##.mvp-author-thumb
+techweekmag.com##.mvp-post-more-wrap
+techweekmag.com##.popup-overlay
+techweekmag.com##.relative.mvp-post-head > .mvp-post-cat
+techweekmag.com##.theiaStickySidebar
 www.techweekmag.com###ez-cookie-dialog-wrapper
 www.techweekmag.com##.author
 www.techweekmag.com##.author-avatar
@@ -17841,6 +18750,11 @@ thaievisa.go.th##.ant-modal-root
 thaievisa.go.th##.navbar
 thaievisa.go.th##body:style(overflow: auto !important;)
 
+! domains\thameswater.co.uk.rules
+thameswater.co.uk###web-messenger-container
+thameswater.co.uk##.tw-footer__icon-btns
+thameswater.co.uk##.tw-footer__safe-spaces
+
 ! domains\the-sun.com.rules
 www.the-sun.com##.advert-wrapper
 www.the-sun.com##.article-boxout
@@ -17854,6 +18768,10 @@ www.the-sun.com##.rail__cluster
 www.the-sun.com##.sim-module-wrapper
 www.the-sun.com##.social
 www.the-sun.com##.tags
+
+! domains\the3dprinterbee.com.rules
+the3dprinterbee.com##.abh_box_fancy
+the3dprinterbee.com##.sidebar
 
 ! domains\thebeertown.co.uk.rules
 www.thebeertown.co.uk###addtc-sticky-cart
@@ -17900,6 +18818,14 @@ www.thecanary.co##.support-widget
 www.thecanary.co##.twitter-user
 www.thecanary.co##.with-ad-link
 www.thecanary.co##[id*="beyondwords-player"]
+
+! domains\thecastleislington.co.uk.rules
+www.thecastleislington.co.uk##.footer__item--logo
+www.thecastleislington.co.uk##.promo-modal__overlay
+www.thecastleislington.co.uk##.promo-modal__wrapper
+www.thecastleislington.co.uk##.region--sign-up
+www.thecastleislington.co.uk##.social
+www.thecastleislington.co.uk##image
 
 ! domains\theconomy.me.rules
 ||theconomy.me^
@@ -18473,6 +19399,7 @@ theverge.com##.main-social
 theverge.com##.remixd-wrapper
 theverge.com##aside
 www.theverge.com##.duet--cta--cookie-banner
+www.theverge.com##.duet--layout--rail
 www.theverge.com##.twitter-tweet
 
 ! THE WEATHER NETWORK
@@ -18504,9 +19431,11 @@ www.thisismoney.co.uk###most-watched-videos-wrapper
 www.thisismoney.co.uk###p-most-read-news-mobile
 www.thisismoney.co.uk###sky-right-container
 www.thisismoney.co.uk###smartBanner
+www.thisismoney.co.uk###swipeIndicator
 www.thisismoney.co.uk###weather-wrapper
 www.thisismoney.co.uk##.and-footer
 www.thisismoney.co.uk##.article-reader-comments
+www.thisismoney.co.uk##.author
 www.thisismoney.co.uk##.author-section
 www.thisismoney.co.uk##.beta
 www.thisismoney.co.uk##.byline-section
@@ -18522,6 +19451,7 @@ www.thisismoney.co.uk##.social
 www.thisismoney.co.uk##.sticky-container
 www.thisismoney.co.uk##.supplements
 www.thisismoney.co.uk##[href="/save"]
+www.thisismoney.co.uk##[href="https://www.thisismoney.co.uk/podcast"]
 www.thisismoney.co.uk##section[data-mol-fe-tim-tools]
 
 ! domains\thisoldhouse.com.rules
@@ -19115,6 +20045,9 @@ www.toppstiles.co.uk##trade-question-popup
 ! domains\toptechtalk.xyz.rules
 ||toptechtalk.xyz^
 
+! domains\torrentz.workers.dev.rules
+eztv.torrentz.workers.dev###header_holder > .forum_header_border_normal
+
 ! domains\totalav.com.rules
 ||totalav.com^
 
@@ -19474,6 +20407,7 @@ www.tutorialspoint.com###ebooks_grid
 www.tutorialspoint.com###google-top-ads
 www.tutorialspoint.com##.google-bottom-ads
 www.tutorialspoint.com##.navbar-top
+www.tutorialspoint.com##.pre-btn:upward(1)
 www.tutorialspoint.com##.profile-panel
 www.tutorialspoint.com##.site-message
 www.tutorialspoint.com##.top-menu
@@ -19710,6 +20644,9 @@ udemy.com##[data-purpose="topic-enrollment-stats"]:upward(.component-margin)
 udemy.com##[id*="Topcoursesin"]:upward(.component-margin)
 udemy.com##h2:has-text(Students also bought):upward(.component-margin)
 udemy.com##section[aria-labelledby="popularInstructorsHeading"]:upward(div)
+www.udemy.com##.ud-badge
+www.udemy.com##[class*="generic-purchase-section--ctas"]
+www.udemy.com##[class*="money-back-guarantee--"]
 
 ! domains\uii.io.rules
 ||uii.io^
@@ -19928,6 +20865,9 @@ usatoday.com##.teal-video-wrap
 usatoday.com##util-sticky-module
 www.usatoday.com##.gnt_xmst
 
+! domains\userbenchmark.com.rules
+userbenchmark.com##.btn-danger
+
 ! domains\usercentrics.eu.rules
 ||usercentrics.eu^
 
@@ -20050,8 +20990,14 @@ www.very.co.uk##div.gallery-copy
 ! VERY WELL FAMILY
 www.verywellfamily.com###onetrust-consent-sdk
 www.verywellfamily.com##.journey-slideshow-row
+www.verywellfamily.com##.mntl-commerce-disclosure
+www.verywellfamily.com##.mntl-sc-block-callout
 www.verywellfamily.com##.spotlight-trending-row
 www.verywellfamily.com##.stats-bar
+www.verywellfamily.com##.summary-list
+www.verywellfamily.com##.wellness-bylines
+www.verywellfamily.com##[id^="mntl-sc-block-adslot"]
+www.verywellfamily.com##[id^="product-record__commerce-buttons"]
 
 ! VERY WELL HEALTH
 www.verywellhealth.com###onetrust-consent-sdk
@@ -20216,6 +21162,12 @@ vimeo.com##.iris_grid-sidebar
 ! domains\vinmec.com.rules
 www.vinmec.com##.footer-app
 
+! domains\virginexperiencedays.co.uk.rules
+www.virginexperiencedays.co.uk##.footerBoxWrapper
+www.virginexperiencedays.co.uk##.js-recentlyviewed
+www.virginexperiencedays.co.uk##.popularNav
+www.virginexperiencedays.co.uk##button:has-text(Accept):upward(1)
+
 ! VISA LEGAL
 visalegal.com###comments
 visalegal.com###customerly-container
@@ -20252,6 +21204,9 @@ marketplace.visualstudio.com###survey-container
 
 ! domains\visualwebsiteoptimizer.com.rules
 ||visualwebsiteoptimizer.com^
+
+! domains\vitejs.dev.rules
+vitejs.dev##.social-links
 
 ! VIVASTREET
 vivastreet.co.uk###kiwii-detailpopularsearches-block
@@ -20350,6 +21305,16 @@ www.vouchercloud.com##.section-banner-container
 www.vouchercloud.com##.section-richcontent
 www.vouchercloud.com##.tile-signup
 
+! domains\vouchercodes.co.uk.rules
+www.vouchercodes.co.uk##.added-by
+www.vouchercodes.co.uk##.dealfinder-footer-banner
+www.vouchercodes.co.uk##.footer-banners
+www.vouchercodes.co.uk##.footer-banners-contain
+www.vouchercodes.co.uk##.merchant-extra-content-contain
+www.vouchercodes.co.uk##[data-qa*="el:signUpModule"]
+www.vouchercodes.co.uk##aside
+www.vouchercodes.co.uk##footer
+
 ! VUE JS
 vuejs.org###banner
 vuejs.org###footer > p:first-child
@@ -20378,6 +21343,14 @@ vuejsdevelopers.com##.tags
 vuejsdevelopers.com##:xpath(//section[child::div[child::div[child::h1[contains(text(), 'Sponsors')]]]])
 vuejsdevelopers.com##h5 > span:first-of-type
 
+! domains\vuemastery.com.rules
+www.vuemastery.com##.announcement-bar
+www.vuemastery.com##.author-image
+www.vuemastery.com##.brand
+www.vuemastery.com##.c-cheatsheet
+www.vuemastery.com##.post-author
+www.vuemastery.com##.post-related
+
 ! VULTURE
 www.vulture.com###comments
 www.vulture.com##.bylines
@@ -20401,6 +21374,7 @@ www.vulture.com##p > [href="https://www.vulture.com/news/friday-night-movie-club
 
 ! W3SCHOOLS
 www.w3schools.com###cert_navbtn
+www.w3schools.com###footer
 www.w3schools.com###loginactioncontainer ~ *
 www.w3schools.com###right
 www.w3schools.com##.top10
@@ -20447,6 +21421,15 @@ www.wallis.co.uk##.spacing-banner
 www.walmart.com###intent-banner-section
 www.walmart.com##.bg-white.bottom-0.fixed
 
+! domains\warrenjames.co.uk.rules
+www.warrenjames.co.uk##.banner-holder-home
+www.warrenjames.co.uk##.footerMessages
+www.warrenjames.co.uk##.footerMobileSocial
+www.warrenjames.co.uk##.glide
+www.warrenjames.co.uk##.privacy-message-overlay
+www.warrenjames.co.uk##.scrollToTopBtn
+www.warrenjames.co.uk##.showFooterMsg
+
 ! WASHINGTON EXAMINER
 www.washingtonexaminer.com##.ArticlePage-actions
 www.washingtonexaminer.com##.ArticlePage-below
@@ -20492,6 +21475,10 @@ www.waterstones.com##.ribbon-banner
 www.waterstones.com##.slick-slider
 www.waterstones.com##.socials
 www.waterstones.com##.swiper-container
+
+! domains\wayfair.co.uk.rules
+www.wayfair.co.uk##.ProductDetailInfoBlock-notifyMeContainer
+www.wayfair.co.uk##.pl-CardFlag--topLeft
 
 ! WAYFAIR
 wayfair.*###a11y-status-message
@@ -20612,19 +21599,36 @@ wcostream.com##h2:has-text(Video Errors & Solutions):upward(table)
 wcostream.com##h2:has-text(Video Errors & Solutions):upward(table) ~ *
 wcostream.com##strong:has-text(Share:):upward(table)
 
-! domains\wd.com.rules
-community.wd.com###banner
-community.wd.com###topic-progress-wrapper
-community.wd.com##.bookmark
-community.wd.com##.post-controls
-community.wd.com##.share-and-invite
-community.wd.com##.signup-cta
-community.wd.com##.suggested-topics-wrapper
-community.wd.com##.topic-category
-community.wd.com##.topic-map
+! WESTERN DIGITAL
+! (inheriting rules from: discourse.org.rules)
 community.wd.com##.wdsidebar
 support-en.wd.com##[href="https://twitter.com/westerndigital"]:upward(li)
+wd.com###banner
+wd.com###rn_AnswerFeedback_div
+wd.com###rn_PopularAnswers_div
+wd.com###topic-progress-wrapper
+wd.com##.badge-wrapper
+wd.com##.bookmark
+wd.com##.btn-social
+wd.com##.expanded.post-controls
+wd.com##.flag-topic
+wd.com##.header-buttons
+wd.com##.like
 wd.com##.oda-chat-wrapper
+wd.com##.onscreen-post.small-action
+wd.com##.post-controls
+wd.com##.post-links-container
+wd.com##.progress-back-container
+wd.com##.share
+wd.com##.share-and-invite
+wd.com##.signup-cta
+wd.com##.suggested-topics-wrapper
+wd.com##.timeline-footer-controls
+wd.com##.toggle-summary.information
+wd.com##.topic-category
+wd.com##.topic-map
+wd.com##.topic-map-expanded
+wd.com##.with-topic-progress
 
 ! WD COMMUNITY
 wdcommunity.com##h2:has-text(Featured packages):upward(section)
@@ -20702,6 +21706,10 @@ m.webtoons.com##.viewer_top
 m.webtoons.com##h2:has-text(Popular)
 m.webtoons.com##h2:has-text(Popular) + *
 www.webtoons.com##.on._gdprCookieBanner.gdpr_ly_cookie
+
+! domains\weddingrings-direct.com.rules
+www.weddingrings-direct.com##.sitemessage
+www.weddingrings-direct.com##[href="/my/saved"]
 
 ! domains\weitaba.com.rules
 ||weitaba.com^
@@ -21229,6 +22237,13 @@ wikipedia.org###siteNotice
 wikipedia.org##.cn-fundraising
 wikipedia.org##.read-more-container
 
+! domains\wilko.com.rules
+www.wilko.com##.footer__payment-container
+www.wilko.com##.inspire-me
+www.wilko.com##.pdp-product-merchandising__wrapper
+www.wilko.com##.recently-viewed-component
+www.wilko.com##.usp_bar_main
+
 ! WINDOWS BLOG
 blogs.windows.com###footerUniversalFooter
 blogs.windows.com###uhfCookieAlert
@@ -21629,6 +22644,7 @@ www.xda-developers.com##.w-pencil-banner
 www.xda-developers.com##.w-social
 www.xda-developers.com##.xda_nanobox
 www.xda-developers.com##.xda_suggested_apps
+www.xda-developers.com##[id*="adsninja"]
 www.xda-developers.com##[id*="adsninja-ad-zone-div-gpt-ad"]
 
 ! XE
@@ -22053,6 +23069,7 @@ www.zavvi.com##.responsiveUsp
 www.zdnet.com##.c-articleTableOfContents_container
 www.zdnet.com##.c-contentBreadcrumb
 www.zdnet.com##.c-globalAuthor
+www.zdnet.com##.c-globalDisclosure
 www.zdnet.com##.c-globalSpecialFeatureLink
 www.zdnet.com##.c-globalStickyBottom
 www.zdnet.com##.c-myFinance_container
