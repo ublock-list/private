@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Fri, 24 Feb 2023 14:29:56 +0000
+! Last modified: Sat, 25 Feb 2023 17:44:03 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -5359,6 +5359,7 @@ duckduckgo.com##.has-feedback-prompt.js-module--maps_places.module--places.modul
 duckduckgo.com##.header--aside__item
 duckduckgo.com##.header--text_promo
 duckduckgo.com##.header-wrap--home
+duckduckgo.com##.ia-modules:has-text(appears in some of the top results for this)
 duckduckgo.com##.js-ia-modules.ia-modules
 duckduckgo.com##.js-module--videos.module
 duckduckgo.com##.js-open-in-app-link.open-in-app__deep-link
@@ -9788,6 +9789,8 @@ imdb.com##.ipc-icon-button
 imdb.com##.ipc-page-grid__item--span-1
 imdb.com##.ipc-rating-prompt
 imdb.com##.ipc-scroll-to-top-button
+imdb.com##.ipc-slate-card .ipc-lockup-overlay__text:has-text(Promo):upward(.ipc-slate-card)
+imdb.com##.ipc-slate-card a[aria-label*="PromoNetflix"]:upward(.ipc-slate-card)
 imdb.com##.ipc-snackbar
 imdb.com##.ipc-split-button
 imdb.com##.ipc-split-button__btn
