@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Sat, 4 Mar 2023 11:35:12 +0000
+! Last modified: Sat, 4 Mar 2023 11:57:04 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -15969,6 +15969,9 @@ reddit.com##a[href="/RedditRecap2022"]
 reddit.com##body.scroll-disabled:style(height: auto;overflow: auto !important;position: static !important;width: auto !important;)
 reddit.com##body.scroll-is-blocked:style(overflow: auto !important;)
 reddit.com##button:has-text(Get App)
+reddit.com##button:has-text(hide):upward(div)
+reddit.com##button:has-text(save):upward(div)
+reddit.com##button:has-text(share):upward(div)
 reddit.com##form.state-button.hide-button:upward(li)
 reddit.com##h2:has-text(Related subs):upward(4)
 reddit.com##h2:has-text(Similar to this post):upward([data-redditstyle="false"])
@@ -23272,4 +23275,3 @@ zooplus.*##div[data-zta="similar-vertical"]
 
 ! domains\zshort.io.rules
 ||zshort.io^
-
