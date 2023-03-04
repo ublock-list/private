@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Sat, 25 Feb 2023 17:44:03 +0000
+! Last modified: Sat, 4 Mar 2023 11:35:12 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -15929,7 +15929,9 @@ reddit.com##.giftgold
 reddit.com##.infobar-toaster-container
 reddit.com##.lb-header
 reddit.com##.lb-header ~ *
+reddit.com##.linkflairlabel
 reddit.com##.listingsignupbar.infobar
+reddit.com##.oc-tag
 reddit.com##.premium-banner-outer
 reddit.com##.sidebar-grid:style(filter: none !important;)
 reddit.com##.sr-list
@@ -15963,25 +15965,29 @@ reddit.com##:xpath(//div[contains(text(), 'Popular posts')]) + div
 reddit.com##[id*="overlay-share-menu"]
 reddit.com##[role="menu"] [role="heading"]:has-text(Feeds):upward([role="menu"]):upward(1)
 reddit.com##a[href*="/hot/"]
+reddit.com##a[href="/RedditRecap2022"]
 reddit.com##body.scroll-disabled:style(height: auto;overflow: auto !important;position: static !important;width: auto !important;)
 reddit.com##body.scroll-is-blocked:style(overflow: auto !important;)
+reddit.com##button:has-text(Get App)
+reddit.com##form.state-button.hide-button:upward(li)
 reddit.com##h2:has-text(Related subs):upward(4)
 reddit.com##h2:has-text(Similar to this post):upward([data-redditstyle="false"])
 reddit.com##header a[href*="/register/"]
+reddit.com##li.crosspost-button
+reddit.com##li.give-gold-button
+reddit.com##li.link-save-button
+reddit.com##li.post-sharing-button
+reddit.com##li.report-button
+reddit.com##li.share
 reddit.com##listing-below-header
 reddit.com##listing-below-header ~ *
+reddit.com##shreddit-blurred-container
 reddit.com##shreddit-comments-page-ad
 reddit.com##shreddit-cookie-banner
 reddit.com##shreddit-experience-tree
-reddit.com##span:has-text(hide):upward(div)
-reddit.com##span:has-text(save):upward(div)
-reddit.com##span:has-text(share):upward(div)
 reddit.com##xpromo-nsfw-blocking-container
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
-www.reddit.com##a[href="/RedditRecap2022"]
-www.reddit.com##button:has-text(Get App)
-www.reddit.com##shreddit-blurred-container
 
 ! domains\reddwarf.co.uk.rules
 reddwarf.co.uk###sidebar
