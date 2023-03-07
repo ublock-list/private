@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Mon, 6 Mar 2023 15:55:54 +0000
+! Last modified: Tue, 7 Mar 2023 10:34:09 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -1269,6 +1269,12 @@ www.androidpolice.com##.w-article-author-bio
 www.androidpolice.com##.w-article-related
 www.androidpolice.com##div.w-content > .article.infinite-scroll.w-article
 
+! domains\angel.co.rules
+angel.co##[class*="styles_kebabAndShare"]
+angel.co##[data-test="Sidebar"] > div .uppercase:has-text(People also viewed):upward(1)
+angel.co##a[href="http://twitter.com/wellfoundhq"]:upward(2)
+angel.co##button:has-text(Follow):upward(2)
+
 ! ANIME PLANET
 www.anime-planet.com##.CharacterCard__actions
 www.anime-planet.com##.EntryPage__content__section__discussions
@@ -1593,7 +1599,7 @@ arifsetyawan.com##a[href^="https://medium.com/tag/"]:upward(4)
 arifsetyawan.com##button[aria-label="user options menu"]:upward(3)
 arifsetyawan.com##div > span > a[href*="-smart_meter-"]:upward(7)
 arifsetyawan.com##h2 > a:has-text(More from):upward(7)
-arifsetyawan.com##h2:has-text(Enjoy the read? Reward the writer.):upward(4)
+arifsetyawan.com##h2:has-text(Enjoy the read? Reward the writer.):upward(3)
 arifsetyawan.com##h2:has-text(Get an email):upward(5)
 arifsetyawan.com##h2:has-text(Sign up for Medium):upward(6)
 arifsetyawan.com##h2:has-text(Sign up for):upward(5)
@@ -2503,7 +2509,7 @@ betterprogramming.pub##a[href^="https://medium.com/tag/"]:upward(4)
 betterprogramming.pub##button[aria-label="user options menu"]:upward(3)
 betterprogramming.pub##div > span > a[href*="-smart_meter-"]:upward(7)
 betterprogramming.pub##h2 > a:has-text(More from):upward(7)
-betterprogramming.pub##h2:has-text(Enjoy the read? Reward the writer.):upward(4)
+betterprogramming.pub##h2:has-text(Enjoy the read? Reward the writer.):upward(3)
 betterprogramming.pub##h2:has-text(Get an email):upward(5)
 betterprogramming.pub##h2:has-text(Sign up for Medium):upward(6)
 betterprogramming.pub##h2:has-text(Sign up for):upward(5)
@@ -8427,6 +8433,10 @@ hackernoon.com##:xpath(//section[child::h4[contains(text(), 'Tags')]])
 hackernoon.com##main > div:xpath(//h2[contains(text(), 'More in ')])
 hackernoon.com##main > div:xpath(//h2[contains(text(), 'More in ')]) ~ *
 
+! domains\hackneygazette.co.uk.rules
+www.hackneygazette.co.uk##.mega-news-block
+www.hackneygazette.co.uk##.most-read
+
 ! domains\hackr.io.rules
 hackr.io###coupon-banner-v1
 hackr.io##.author-link-name:upward(2)
@@ -10643,7 +10653,7 @@ itnext.io##a[href^="https://medium.com/tag/"]:upward(4)
 itnext.io##button[aria-label="user options menu"]:upward(3)
 itnext.io##div > span > a[href*="-smart_meter-"]:upward(7)
 itnext.io##h2 > a:has-text(More from):upward(7)
-itnext.io##h2:has-text(Enjoy the read? Reward the writer.):upward(4)
+itnext.io##h2:has-text(Enjoy the read? Reward the writer.):upward(3)
 itnext.io##h2:has-text(Get an email):upward(5)
 itnext.io##h2:has-text(Sign up for Medium):upward(6)
 itnext.io##h2:has-text(Sign up for):upward(5)
@@ -11817,6 +11827,15 @@ link.co.uk##.smartbanner
 ! domains\linkedin.com.rules
 ||www.linkedin.com/embeds/publishingEmbed.html$subdocument
 Linkedin.com##.right-rail
+linkedin.com##.activities
+linkedin.com##.artdeco-card h2:has-text(Celebrations):upward(.artdeco-card)
+linkedin.com##.artdeco-card h2:has-text(More suggestions for you):upward(.artdeco-card)
+linkedin.com##.artdeco-card h2:has-text(People you may know):upward(.artdeco-card)
+linkedin.com##.banner
+linkedin.com##.cta-modal
+linkedin.com##.feed-identity-module__anchored-widget--premium-upsell
+linkedin.com##.recommended-content
+linkedin.com##.update-components-header__text-view:has-text(Popular course on LinkedIn Learning):upward(.ember-view)
 www.linkedin.com##.artdeco-card.launchpad-v2
 www.linkedin.com##.global-nav__spotlight-upsell
 www.linkedin.com##.main-author-card
@@ -12680,7 +12699,7 @@ medium.com##a[href^="https://medium.com/tag/"]:upward(4)
 medium.com##button[aria-label="user options menu"]:upward(3)
 medium.com##div > span > a[href*="-smart_meter-"]:upward(7)
 medium.com##h2 > a:has-text(More from):upward(7)
-medium.com##h2:has-text(Enjoy the read? Reward the writer.):upward(4)
+medium.com##h2:has-text(Enjoy the read? Reward the writer.):upward(3)
 medium.com##h2:has-text(Get an email):upward(5)
 medium.com##h2:has-text(Sign up for Medium):upward(6)
 medium.com##h2:has-text(Sign up for):upward(5)
@@ -15540,6 +15559,7 @@ pornhub.com##.phimage[data-entrycode="VidPg-premVid-videoPage"] + div + div
 pornhub.com##.phpFreeBlock
 pornhub.com##.pornstar.item-5.menu
 pornhub.com##.pornstarsWrapper
+pornhub.com##.pre-footer
 pornhub.com##.premiumAdvertWrapper
 pornhub.com##.profile-sidebar
 pornhub.com##.ratingDetails
@@ -15565,6 +15585,7 @@ pornhub.com##.userActions
 pornhub.com##.userButtonsMenu
 pornhub.com##.userContainer
 pornhub.com##.userRow
+pornhub.com##.usernameWrapper
 pornhub.com##.video-actions-menu
 pornhub.com##.video-wrapper.hd-videos_wrapper.hd-smallerWidth.sectionWrapper
 pornhub.com##.viewersChoiceContest
@@ -15586,7 +15607,6 @@ pornhub.com##search-list[type="pornstar"]
 pornhub.com##search-list[type="recent"]
 pornhub.com##search-list[type="trending"]
 pornhub.com##suggestion-element
-www.pornhub.com##.pre-footer
 
 ! domains\postimg.cc.rules
 postimg.cc##.container-top
@@ -15854,7 +15874,7 @@ proandroiddev.com##a[href^="https://medium.com/tag/"]:upward(4)
 proandroiddev.com##button[aria-label="user options menu"]:upward(3)
 proandroiddev.com##div > span > a[href*="-smart_meter-"]:upward(7)
 proandroiddev.com##h2 > a:has-text(More from):upward(7)
-proandroiddev.com##h2:has-text(Enjoy the read? Reward the writer.):upward(4)
+proandroiddev.com##h2:has-text(Enjoy the read? Reward the writer.):upward(3)
 proandroiddev.com##h2:has-text(Get an email):upward(5)
 proandroiddev.com##h2:has-text(Sign up for Medium):upward(6)
 proandroiddev.com##h2:has-text(Sign up for):upward(5)
@@ -17680,6 +17700,9 @@ www.slant.co##.FAB-Floating._FABRecommendView
 www.slant.co##.JoinTagBanner-SidebarCard
 www.slant.co##.QuestionHeader-LinkBar
 www.slant.co##.Sidebar-RelatedQuestions
+
+! domains\slashgear.com.rules
+www.slashgear.com##article.news-post ~ *
 
 ! domains\slate.com.rules
 slate.com##.article__byline
@@ -20614,7 +20637,7 @@ towardsdatascience.com##a[href^="https://medium.com/tag/"]:upward(4)
 towardsdatascience.com##button[aria-label="user options menu"]:upward(3)
 towardsdatascience.com##div > span > a[href*="-smart_meter-"]:upward(7)
 towardsdatascience.com##h2 > a:has-text(More from):upward(7)
-towardsdatascience.com##h2:has-text(Enjoy the read? Reward the writer.):upward(4)
+towardsdatascience.com##h2:has-text(Enjoy the read? Reward the writer.):upward(3)
 towardsdatascience.com##h2:has-text(Get an email):upward(5)
 towardsdatascience.com##h2:has-text(Sign up for Medium):upward(6)
 towardsdatascience.com##h2:has-text(Sign up for):upward(5)
@@ -23203,11 +23226,16 @@ wordlegame.org##.section--rate
 wordlegame.org##section.section:nth-of-type(4)
 
 ! domains\workinstartups.com.rules
+workinstartups.com###addHeart
 workinstartups.com###offer-popup
 workinstartups.com###swapHeartMobile
 workinstartups.com##.cookie-message
 workinstartups.com##.email-alert
 workinstartups.com##.featured
+workinstartups.com##.homepage-joblist
+workinstartups.com##.logoroll-clients
+workinstartups.com##.logoroll-partners
+workinstartups.com##.testimonials
 workinstartups.com##[href="https://www.facebook.com/workinstartups/"]:upward(.footer-links)
 
 ! WORLD NOMADS
