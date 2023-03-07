@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Tue, 7 Mar 2023 10:34:09 +0000
+! Last modified: Tue, 7 Mar 2023 10:37:22 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -23872,14 +23872,6 @@ zoopla.co.uk##a[class*="AgencyLogoLink"]
 zoopla.co.uk##a[class*="AgentImageLink"]
 zoopla.co.uk##aside
 
-! domains\zooplus.co.uk.rules
-www.zooplus.co.uk##.uxt-product-group-top-section
-www.zooplus.co.uk##.uxt-supplier-financed-middle-banner
-www.zooplus.co.uk##[class*="DiscountBanner"]
-www.zooplus.co.uk##[class*="LeftNavigation-module_linkDanger"]
-www.zooplus.co.uk##[class*="SupplierFinancedMiddleBanner"]
-www.zooplus.co.uk##[class*="SupplierFinancedMiddleBanner_supplierFinancedMiddleBanner"]
-
 ! ZOOPLUS
 zooplus.*###js-footer-shops
 zooplus.*##*[data-zta="btn-goTop"]
@@ -23902,14 +23894,18 @@ zooplus.*##.shop-footer__social-and-apps-container
 zooplus.*##.slider__container
 zooplus.*##.uxt-discount-banner
 zooplus.*##.uxt-middle-banner
+zooplus.*##.uxt-product-group-top-section
 zooplus.*##.uxt-side-banner
 zooplus.*##.uxt-supplier-finance-side-banner
+zooplus.*##.uxt-supplier-financed-middle-banner
 zooplus.*##.uxt-teaser
 zooplus.*##.v3-h3:has-text(Often bought together):upward(div)
 zooplus.*##.v3-h3:has-text(Your pet might also like):upward(div)
 zooplus.*##[class*="BackgroundBanner_backgroundBannerContainer"]
 zooplus.*##[class*="BannerCarousel"]
+zooplus.*##[class*="DiscountBanner"]
 zooplus.*##[class*="GoTopButton"]
+zooplus.*##[class*="LeftNavigation-module_linkDanger"]
 zooplus.*##[class*="LoginOrReorder_loginAndReorder"]
 zooplus.*##[class*="MagazineTeaser_magazineTeaserMainWrapper"]
 zooplus.*##[class*="MobileRedirects_redirectLinks"]
@@ -23923,6 +23919,7 @@ zooplus.*##[class*="SmartAppBanner"]
 zooplus.*##[class*="SmartAppBanner-module_bannerWrapper"]
 zooplus.*##[class*="SocialAndApps_socialAndApps"]
 zooplus.*##[class*="SpecialTeaser_specialTeaserMainWrapper"]
+zooplus.*##[class*="SupplierFinancedMiddleBanner"]
 zooplus.*##[class*="TopBar-module_topBar"]
 zooplus.*##[class*="TopBar_topBar"]
 zooplus.*##[data-zta="brand-carousel"]
