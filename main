@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Thu, 23 Mar 2023 16:02:54 +0000
+! Last modified: Tue, 4 Apr 2023 10:22:11 +0100
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -1960,6 +1960,7 @@ autoexpress.co.uk##.polaris-ad--wrapper-desktop
 autoexpress.co.uk##.polaris__article--consider
 autoexpress.co.uk##.polaris__article--most-popular
 autoexpress.co.uk##.polaris__article-card--li
+autoexpress.co.uk##.polaris__below-header-ad-wrapper
 autoexpress.co.uk##.polaris__buyacar
 autoexpress.co.uk##.polaris__collapsible
 autoexpress.co.uk##.polaris__content-bottom
@@ -1977,6 +1978,7 @@ autoexpress.co.uk##.polaris__report-card--ctas > .-is-external.polaris__link
 autoexpress.co.uk##.polaris__review--most-popular
 autoexpress.co.uk##.polaris__review--template > .polaris__content
 autoexpress.co.uk##.polaris__side-content
+autoexpress.co.uk##.polaris__simple-grid--aside
 autoexpress.co.uk##.polaris__social
 autoexpress.co.uk##.polaris__subscription
 autoexpress.co.uk##.sticky-outer-wrapper
@@ -2003,9 +2005,15 @@ autotrader.co.uk##*[data-vrt="remove"]
 autotrader.co.uk##*[href="/secure/saved-adverts"]
 autotrader.co.uk##.alert-banner
 autotrader.co.uk##.apps-and-legal
+autotrader.co.uk##.atc-type-fiesta:has-text(Call seller):upward(1)
+autotrader.co.uk##.atc-type-picanto:has-text(Save)
+autotrader.co.uk##.atc-type-picanto:has-text(Share)
+autotrader.co.uk##.atc-type-toledo:has-text(Other cars from this seller):upward(3)
+autotrader.co.uk##.atc-type-toledo:has-text(Our most recent awards):upward(2)
 autotrader.co.uk##.atds-container:not(.home-page__header)
 autotrader.co.uk##.atds-ev-giveaway-banner-wrapper
 autotrader.co.uk##.atds-nav-wrapper > .narrow-hide
+autotrader.co.uk##.badge-group
 autotrader.co.uk##.brand-link-pattern-ctt
 autotrader.co.uk##.buying-safely__wrapper
 autotrader.co.uk##.cars-sell-landing
@@ -2031,7 +2039,6 @@ autotrader.co.uk##.home-page__hero
 autotrader.co.uk##.home-page__services
 autotrader.co.uk##.insurance
 autotrader.co.uk##.interested-in-ctt
-autotrader.co.uk##.js-standout-listing
 autotrader.co.uk##.listings-standout
 autotrader.co.uk##.module--vehicle-check.module
 autotrader.co.uk##.newcar-2020
@@ -2079,12 +2086,6 @@ autotrader.co.uk##:xpath(//section[child::span[contains(text(), 'Click and colle
 autotrader.co.uk##:xpath(//section[child::span[contains(text(), 'Home delivery')]])
 autotrader.co.uk##footer nav nav:nth-child(4)
 autotrader.co.uk##img[alt="Seller Logo"]
-www.autotrader.co.uk##.atc-type-fiesta:has-text(Call seller):upward(1)
-www.autotrader.co.uk##.atc-type-picanto:has-text(Save)
-www.autotrader.co.uk##.atc-type-picanto:has-text(Share)
-www.autotrader.co.uk##.atc-type-toledo:has-text(Other cars from this seller):upward(3)
-www.autotrader.co.uk##.atc-type-toledo:has-text(Our most recent awards):upward(2)
-www.autotrader.co.uk##.badge-group
 
 ! AV TEST
 www.av-test.org##.ax-main-col-right
@@ -2735,32 +2736,33 @@ www.blacks.co.uk##.trustpilot-widget
 
 ! BLIZZARD
 ! (inheriting rules from: discourse.org.rules)
-forums.blizzard.com###banner
-forums.blizzard.com###topic-progress-wrapper
+blizzard.com###banner
+blizzard.com###topic-progress-wrapper
+blizzard.com##.badge-wrapper
+blizzard.com##.bookmark
+blizzard.com##.btn-social
+blizzard.com##.expanded.post-controls
+blizzard.com##.flag-topic
+blizzard.com##.header-buttons
+blizzard.com##.like
+blizzard.com##.onscreen-post.small-action
+blizzard.com##.post-controls
+blizzard.com##.post-links-container
+blizzard.com##.progress-back-container
+blizzard.com##.share
+blizzard.com##.share-and-invite
+blizzard.com##.signup-cta
+blizzard.com##.suggested-topics-wrapper
+blizzard.com##.timeline-footer-controls
+blizzard.com##.toggle-summary.information
+blizzard.com##.topic-category
+blizzard.com##.topic-map
+blizzard.com##.topic-map-expanded
+blizzard.com##.with-topic-progress
 forums.blizzard.com##.NavbarFooter-downloadCta
 forums.blizzard.com##.NavbarFooter-legal
 forums.blizzard.com##.NavbarFooter-logoContainer
-forums.blizzard.com##.badge-wrapper
-forums.blizzard.com##.bookmark
-forums.blizzard.com##.btn-social
-forums.blizzard.com##.expanded.post-controls
-forums.blizzard.com##.flag-topic
-forums.blizzard.com##.header-buttons
-forums.blizzard.com##.like
-forums.blizzard.com##.onscreen-post.small-action
-forums.blizzard.com##.post-controls
-forums.blizzard.com##.post-links-container
-forums.blizzard.com##.progress-back-container
-forums.blizzard.com##.share
-forums.blizzard.com##.share-and-invite
-forums.blizzard.com##.signup-cta
-forums.blizzard.com##.suggested-topics-wrapper
-forums.blizzard.com##.timeline-footer-controls
-forums.blizzard.com##.toggle-summary.information
-forums.blizzard.com##.topic-category
-forums.blizzard.com##.topic-map
-forums.blizzard.com##.topic-map-expanded
-forums.blizzard.com##.with-topic-progress
+forums.blizzard.com##.quote-button
 
 ! domains\blockchain.info.rules
 ||blockchain.info^
@@ -4057,6 +4059,7 @@ www.cnbc.com##p > strong > em:upward(p)
 ! domains\cncsourced.com.rules
 www.cncsourced.com###ez-cookie-dialog-wrapper
 www.cncsourced.com##.badge-text-wrapper
+www.cncsourced.com##.gb-grid-column + .gb-grid-column
 www.cncsourced.com##.gb-headline > [href^="https://www.cncsourced.com/author/"]:upward(7)
 www.cncsourced.com##.gb-headline:has-text(Related Posts):upward(2)
 www.cncsourced.com##.lasso-container
@@ -5836,6 +5839,9 @@ diy.com##:xpath(//div[child::div[child::img[contains(@alt, '% off')]]])
 diy.com##:xpath(//div[child::div[child::p[child::strong[contains(text(), 'Terms & Conditions')]]]])
 diy.com##:xpath(//div[child::h2[contains(text(), 'Customers who bought this also browsed')]])
 diy.com##:xpath(//h1[contains(text(), 'DIY.com homepage')]) + div
+diy.com##[data-test-id="location-tool-tip"]:upward(1)
+diy.com##a[href="https://www.facebook.com/bandq"]:upward(1)
+diy.com##button[data-test-id="add-to-wishlist"]
 diy.com##footer svg
 diy.com##h2:has-text(Alternative):upward(div)
 www.diy.com###product-fbt
@@ -6447,6 +6453,15 @@ encorepetfood.com##.gdpr-banner
 encorepetfood.com##.related-posts
 encorepetfood.com##.spotlight-col
 encorepetfood.com##.where-to-buy
+
+! domains\endurancelasers.com.rules
+endurancelasers.com###tpbr_topbar
+endurancelasers.com##.ai-close-fit
+endurancelasers.com##.entry-footer
+endurancelasers.com##.google-business-reviews-rating
+endurancelasers.com##.headline.iconset
+endurancelasers.com##.phones
+endurancelasers.com##[href="#contact_form_pop"]
 
 ! ENGLISH HERITAGE
 www.english-heritage.org.uk###cookiescript_injected
@@ -9646,6 +9661,7 @@ homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child:
 homebase.co.uk##:xpath(//div[contains(@class, 'multiCategoryCardSet') and child::div[child::h2[contains(text(), 'popular')]]])
 homebase.co.uk##:xpath(//div[contains(@class, 'simpleTextWidget') and child::div[child::h2[contains(text(), 'Popular Searches')]]])
 homebase.co.uk##:xpath(//div[contains(@class, 'simpleTextWidget') and child::div[child::h2[contains(text(), 'Related categories')]]])
+www.homebase.co.uk##.floatingHelpCentreButton
 
 ! HOME BUILDING
 www.homebuilding.co.uk###affiliate-disclaimer
@@ -17024,29 +17040,29 @@ protonvpn.com##.black-friday-top-bar
 ||proviralhost.com^
 
 ! PSARIPS
-||psa.pm/wp-content/uploads/pic/30_25.png$image
-||psa.pm/wp-content/uploads/pic/30_25_1.png$image
-||psa.pm/wp-content/uploads/pic/72_9.png$image
-||psa.pm/wp-content/uploads/pic/72_9_1.png$image
-psa.pm###alxtabs-7
-psa.pm###alxtabs-8
-psa.pm###alxtabs-9
-psa.pm###content div.hu-pad.group > article.post ~ *
-psa.pm###footer-widgets
-psa.pm###header-image-wrap
-psa.pm###wpd-post-rating
-psa.pm##.group.hu-pad.page-title
-psa.pm##.new-site-image
-psa.pm##.post-byline
-psa.pm##.post-comments
-psa.pm##.post-tags
-psa.pm##.sidebar
-psa.pm##.sidebar-content
-psa.pm##.themeform.entry > p
-psa.pm##.widget_calendar
-psa.pm##.widget_custom_html
-psa.pm##.widget_tag_cloud
-psa.pm##:xpath(//li[contains(@class, 'menu-item') and descendant::a[contains(@href, '/support-us/')]])
+||psa.*/wp-content/uploads/pic/30_25.png$image
+||psa.*/wp-content/uploads/pic/30_25_1.png$image
+||psa.*/wp-content/uploads/pic/72_9.png$image
+||psa.*/wp-content/uploads/pic/72_9_1.png$image
+psa.*###alxtabs-7
+psa.*###alxtabs-8
+psa.*###alxtabs-9
+psa.*###content div.hu-pad.group > article.post ~ *
+psa.*###footer-widgets
+psa.*###header-image-wrap
+psa.*###wpd-post-rating
+psa.*##.group.hu-pad.page-title
+psa.*##.new-site-image
+psa.*##.post-byline
+psa.*##.post-comments
+psa.*##.post-tags
+psa.*##.sidebar
+psa.*##.sidebar-content
+psa.*##.themeform.entry > p
+psa.*##.widget_calendar
+psa.*##.widget_custom_html
+psa.*##.widget_tag_cloud
+psa.*##:xpath(//li[contains(@class, 'menu-item') and descendant::a[contains(@href, '/support-us/')]])
 
 ! PSYCHOLOGY TODAY
 psychologytoday.com###SubHeader_TherpistForm
@@ -18400,6 +18416,15 @@ screwfix.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'Mor
 
 ! domains\scroll.com.rules
 ||scroll.com^
+
+! domains\sculpfun.com.rules
+sculpfun.com##.compare-js
+sculpfun.com##.demo_swiper
+sculpfun.com##.tt-fixed-product-wrapper
+sculpfun.com##.tt-newsletter
+sculpfun.com##.tt-payment-list
+sculpfun.com##.tt-social-icon
+sculpfun.com##.wlbutton-js
 
 ! domains\se-fruit.com.rules
 ||se-fruit.com^
@@ -20279,6 +20304,80 @@ telegraph.co.uk##:xpath(//div[contains(@class, 'html-embed') and child::div[chil
 telegraph.co.uk##:xpath(//div[contains(@class, 'html-embed') and child::script[contains(@src, '/particle-embed/')]])
 telegraph.co.uk##aside
 telegraph.co.uk##p > em > strong
+
+! domains\temu.com.rules
+www.temu.com###BoughtTogetherRef
+www.temu.com###RecommendedRef
+www.temu.com###__POPUP_IMAGE_CONTAINER
+www.temu.com###payiconTitle:upward(1)
+www.temu.com###payiconTitle:upward(1) ~ *
+www.temu.com###shopping_cart_head
+www.temu.com###shopping_cart_recommend_goods_list:upward(1)
+www.temu.com##[class*="bannerWrap"]
+www.temu.com##[class*="bubble"]
+www.temu.com##[class*="confidence"]
+www.temu.com##[class*="delivery"] ~ *
+www.temu.com##[class*="discountWrap"]
+www.temu.com##[class*="downloadsWrapper"]
+www.temu.com##[class*="followBtn"]:upward(1)
+www.temu.com##[class*="goodsDetail"] ~ *
+www.temu.com##[class*="guideMask"]
+www.temu.com##[class*="guideModal"]
+www.temu.com##[class*="guideText"]:has-text(Sign in for the best experience):upward(2)
+www.temu.com##[class*="homeContainer"]
+www.temu.com##[class*="hotSkc"]
+www.temu.com##[class*="mallInfoWrap"]:upward(1)
+www.temu.com##[class*="mask"]:upward(1)
+www.temu.com##[class*="modelSizeGuide"]
+www.temu.com##[class*="popWrap"]
+www.temu.com##[class*="promotionTagWrap"]
+www.temu.com##[class*="rank"]
+www.temu.com##[class*="recommendItem"]
+www.temu.com##[class*="reduction"]
+www.temu.com##[class*="richText"] > span:has-text(Hurry！):upward(5)
+www.temu.com##[class*="right"]:has-text(Item availability and pricing are not guaranteed until payment is final.):upward(3)
+www.temu.com##[class*="scrollBannerWrap"]
+www.temu.com##[class*="tagInfo"]
+www.temu.com##[class*="tagsWrap"]
+www.temu.com##[class*="text"]:has-text(4 interest-free installments of ):upward(3)
+www.temu.com##[class*="textRich"]:has-text(#1 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#10 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#11 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#12 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#13 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#14 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#15 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#16 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#17 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#18 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#19 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#2 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#20 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#3 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#4 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#5 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#6 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#7 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#8 Best Seller):upward(2)
+www.temu.com##[class*="textRich"]:has-text(#9 Best Seller):upward(2)
+www.temu.com##[class*="title"]:has-text(Free shipping on all orders):upward(4)
+www.temu.com##[class*="title"]:has-text(Popular items on Temu):upward(1)
+www.temu.com##[class*="title"]:has-text(Popular right now):upward(2)
+www.temu.com##[class*="topBar"]
+www.temu.com##[class*="topBarWrap"]:upward(1)
+www.temu.com##[class*="topTabContainer"]:upward(3):style(height: auto !important;)
+www.temu.com##[class*="watchRef"]
+www.temu.com##[id*="sticky_"]
+www.temu.com##[role="main"] > div:nth-of-type(2) > div:nth-of-type(1)
+www.temu.com##[style*="position: fixed; top: 0px; left: 0px; right: 0px;"]:upward(1)
+www.temu.com##[style*="position:fixed;top:0;left:0;right:0;"]:upward(1)
+www.temu.com##[style*="position:static;top:0;left:0;right:0"]:upward(1)
+www.temu.com##body > div:nth-of-type(4)
+www.temu.com##body > div[aria-hidden="true"]
+www.temu.com##h1:has-text(Shop by category):upward(2) ~ *
+www.temu.com##h2:has-text(Similar items):upward(2)
+www.temu.com##span:has-text(Can‘t find your size? Find similar items in your size):upward(3)
+www.temu.com##span:has-text(Hurry！):upward(2)
 
 ! TENANCY DEPOSIT SCHEME
 tenancydepositscheme.com###foot-logo
