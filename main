@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Tue, 4 Apr 2023 10:22:11 +0100
+! Last modified: Thu, 13 Apr 2023 18:54:48 +0100
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -2153,6 +2153,9 @@ bandainamcoent.eu##body:style(overflow: auto !important;)
 
 ! BARK SUPPLIERS
 www.barksuppliers.co.uk##.ec-notices
+
+! domains\basic-tutorials.com.rules
+basic-tutorials.com##.theiaStickySidebar
 
 ! domains\basketful.co.rules
 ||basketful.co^
@@ -5725,8 +5728,10 @@ www.digitalspy.com##:xpath(//p[child::strong[contains(text(), 'Related: ')]])
 www.digitalspy.com##strong > .body-link
 
 ! DIGITAL TRENDS
+www.digitaltrends.com###dt-post-content > .b-cc-compact
 www.digitaltrends.com###menu-social-footer
 www.digitaltrends.com##.b-byline__authors
+www.digitaltrends.com##.b-byline__avatars
 www.digitaltrends.com##.b-docking__bar
 www.digitaltrends.com##.b-foot__blurb
 www.digitaltrends.com##.b-foot__copyright
@@ -5734,7 +5739,9 @@ www.digitaltrends.com##.b-foot__logo-wrapper
 www.digitaltrends.com##.b-foot__menu
 www.digitaltrends.com##.b-foot__social
 www.digitaltrends.com##.b-foot__top
+www.digitaltrends.com##.b-headline__crumbs
 www.digitaltrends.com##.b-headline__note
+www.digitaltrends.com##.b-product-index
 www.digitaltrends.com##.b-related-links
 www.digitaltrends.com##.b-share
 www.digitaltrends.com##.b-sub
@@ -6063,6 +6070,9 @@ duckduckgo.com##.user-loc-cta
 duckduckgo.com##.user-loc-tooltip
 duckduckgo.com##.zci--calculator
 duckduckgo.com##.zci--dictionary_definition
+duckduckgo.com##[class*="header_logoStacked"]
+duckduckgo.com##[class*="searchbox_suggestions"]
+duckduckgo.com##[class*="tagline_tagline"]
 
 ! DUNELM MILL
 www.dunelm.com##*[class*="FooterSocialIcons"]
@@ -6242,6 +6252,10 @@ ebay.*##li[r="1"]
 
 ! EBUYER
 ||image.ebuyer.com/customer/promos/*.jpg$image
+ebuyer.com##.grid-item__finance
+ebuyer.com##.grid-item__free-delivery
+ebuyer.com##.home-splashback
+ebuyer.com##.newsletter-signup
 www.ebuyer.com###cascade
 www.ebuyer.com###footer-logos
 www.ebuyer.com###product-share-accordion
@@ -10639,6 +10653,7 @@ idealhome.co.uk##aside
 ign.com##.doodle
 ign.com##.icon-gb_logo:upward(3)
 ign.com##.poll-content-block
+ign.com##li > a[href^="https://zdcs.link/"][target="_blank"]:upward(ul)
 www.ign.com###zdcFloatingBtn
 www.ign.com##.adunit-wrapper
 www.ign.com##.article-author
@@ -11613,6 +11628,8 @@ jdsports.co.uk##.wishlistAdd
 features.jellyfin.org##.l-powered
 forum.jellyfin.org###banner
 forum.jellyfin.org##.suggested-topics-wrapper
+jellyfin.org##.pagination-nav
+jellyfin.org##[class*="blogPostFooterDetailsFull"]
 
 ! JESSOPS
 www.jessops.com###finance-options
@@ -14552,6 +14569,15 @@ www.netmums.com##.nmg
 www.netmums.com##.nmg-promo
 
 ! NEW EGG
+newegg.com###Link-generator
+newegg.com###newegg_footer_feedback
+newegg.com##.btn-save-search
+newegg.com##.floating-right-tools
+newegg.com##.has-side-banner > .row-side
+newegg.com##.item-quick-action-container
+newegg.com##.price-save
+newegg.com##.price-ship
+newegg.com##.shipped-by-newegg
 www.newegg.com###author-bio
 www.newegg.com###author-info
 www.newegg.com###footer-outer
@@ -15369,6 +15395,9 @@ www.oneplus.com##.social-media
 ! domains\onetrust.com.rules
 ||onetrust.com^
 
+! domains\online-metrix.net.rules
+||online-metrix.net^
+
 ! ONLINE CARPETS
 www.onlinecarpets.co.uk###crossell
 www.onlinecarpets.co.uk###m-cookienotice
@@ -15504,6 +15533,7 @@ overclock3d.net###forum-posts-con
 ! OVERCLOCKERS (UK)
 ||img.overclockers.co.uk/assets/certificates/certificates.png$image
 ||overclockers.co.uk/home_banners/*
+overclockers.co.uk###AmazonPayButton
 overclockers.co.uk###also_bought_container
 overclockers.co.uk###awards
 overclockers.co.uk###category-seo-block-anchor
@@ -15525,6 +15555,7 @@ overclockers.co.uk###description_buy_follower
 overclockers.co.uk###featured-posts
 overclockers.co.uk###footer
 overclockers.co.uk###footer_links
+overclockers.co.uk###js-category-seo-block-anchor
 overclockers.co.uk###payments-wrapper
 overclockers.co.uk###trust-row
 overclockers.co.uk###trust-wrapper
@@ -15542,7 +15573,9 @@ overclockers.co.uk##.blog-posts
 overclockers.co.uk##.body--home main > *
 overclockers.co.uk##.cc-theme-block
 overclockers.co.uk##.ck-banner-start
+overclockers.co.uk##.ck-notification-box
 overclockers.co.uk##.ck-rotating-banner
+overclockers.co.uk##.ck-third-party-login-button
 overclockers.co.uk##.ck-user-cookie-consent-modal
 overclockers.co.uk##.consent-modal
 overclockers.co.uk##.covid-bar
@@ -15568,6 +15601,7 @@ overclockers.co.uk##.sidebar-free-text
 overclockers.co.uk##.usp-bar
 overclockers.co.uk##.viewlast
 overclockers.co.uk##.wishlist
+overclockers.co.uk##.wishlist-selector
 overclockers.co.uk##:xpath(//div[child::h5[contains(text(), 'FLAGSHIP BRANDSTORES')]])
 overclockers.co.uk##:xpath(//div[child::h5[contains(text(), 'OUR COMMUNITIES')]])
 overclockers.co.uk##:xpath(//div[child::h5[contains(text(), 'TOP CATEGORIES')]])
@@ -15634,6 +15668,9 @@ pagesix.com##.sidebar
 pagesix.com##.tag-list
 pagesix.com##.zephr-component
 pagesix.com##html.no-scroll:style(overflow: auto !important;)
+
+! domains\pangoly.com.rules
+pangoly.com##.pangoly-sidebar
 
 ! domains\papercard.co.uk.rules
 www.papercard.co.uk##.bk-products-recently-viewed
@@ -17035,6 +17072,7 @@ protonvpn.com###BFpopup
 protonvpn.com###foot
 protonvpn.com###topbar .text-left
 protonvpn.com##.black-friday-top-bar
+protonvpn.com##ul a[href="https://www.reddit.com/r/ProtonVPN"]:upward(ul)
 
 ! domains\proviralhost.com.rules
 ||proviralhost.com^
@@ -17397,6 +17435,7 @@ www.redbubble.com##[aria-label="Your Lists"]
 reddit.com###AppRouter-main-content:style(padding-left: 0 !important;)
 reddit.com###POPUP_CONTAINER + div
 reddit.com###TrendingPostsContainer
+reddit.com###get-app
 reddit.com###redesign-beta-optin-btn
 reddit.com##*[class*="XPromo"]
 reddit.com##*[data-testid="bottom-cell-wrapper"]
@@ -17424,6 +17463,7 @@ reddit.com##.XPromoInFeed
 reddit.com##.XPromoPill
 reddit.com##.XPromoPopup
 reddit.com##.author-flair
+reddit.com##.flairselectbtn
 reddit.com##.giftgold
 reddit.com##.infobar-toaster-container
 reddit.com##.lb-header
@@ -17432,9 +17472,11 @@ reddit.com##.linkflairlabel
 reddit.com##.listingsignupbar.infobar
 reddit.com##.oc-tag
 reddit.com##.premium-banner-outer
+reddit.com##.right-sidebar
 reddit.com##.sidebar-grid:style(filter: none !important;)
 reddit.com##.sr-list
 reddit.com##.topics-links-block
+reddit.com##.width-clip
 reddit.com##.xPromoAppStoreFooter
 reddit.com##.xPromoChoiceBanner
 reddit.com##:xpath(//article[contains(@class, 'Post') and descendant::span[contains(text(), 'Promoted')]])
@@ -17470,7 +17512,6 @@ reddit.com##body.scroll-is-blocked:style(overflow: auto !important;)
 reddit.com##button:has-text(Get App)
 reddit.com##button:has-text(hide):upward(div)
 reddit.com##button:has-text(save):upward(div)
-reddit.com##button:has-text(share):upward(div)
 reddit.com##form.state-button.hide-button:upward(li)
 reddit.com##h2:has-text(Related subs):upward(4)
 reddit.com##h2:has-text(Similar to this post):upward([data-redditstyle="false"])
@@ -17490,9 +17531,6 @@ reddit.com##shreddit-experience-tree
 reddit.com##xpromo-nsfw-blocking-container
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
-www.reddit.com##.flairselectbtn
-www.reddit.com##.right-sidebar
-www.reddit.com##.width-clip
 
 ! domains\reddwarf.co.uk.rules
 reddwarf.co.uk###sidebar
@@ -18235,6 +18273,7 @@ scan.co.uk###wishListPopUp
 scan.co.uk##.address > i
 scan.co.uk##.alternative-pay-panel
 scan.co.uk##.audio-PCs
+scan.co.uk##.bfHeader
 scan.co.uk##.brandNav
 scan.co.uk##.buttonCont
 scan.co.uk##.buyingGuide
@@ -18251,7 +18290,10 @@ scan.co.uk##.featuredIcon
 scan.co.uk##.featuredOffers
 scan.co.uk##.finance
 scan.co.uk##.finance-options
+scan.co.uk##.freeItemToggle
 scan.co.uk##.frequentlyBoughtTogether
+scan.co.uk##.geforceBanner
+scan.co.uk##.headerHex
 scan.co.uk##.hmpageContent ~ *
 scan.co.uk##.infoSuggestedReplacements
 scan.co.uk##.informationPanel
@@ -18259,6 +18301,8 @@ scan.co.uk##.latestInfo
 scan.co.uk##.mainHeaderTO
 scan.co.uk##.mobile.socialMedia
 scan.co.uk##.newsLetter
+scan.co.uk##.offer-easter > div > .details > .tags
+scan.co.uk##.offer-todayonly > div > .details > .tags
 scan.co.uk##.offer.tag
 scan.co.uk##.offer3XS
 scan.co.uk##.offerBlock
@@ -18270,6 +18314,7 @@ scan.co.uk##.paypalCredit
 scan.co.uk##.paypalcredit
 scan.co.uk##.proBlock
 scan.co.uk##.protect
+scan.co.uk##.reasons-to-buy
 scan.co.uk##.relatedProducts
 scan.co.uk##.repExample
 scan.co.uk##.reviewShare
@@ -18292,10 +18337,13 @@ scan.co.uk##.social.contactLinks
 scan.co.uk##.status-update
 scan.co.uk##.systems-3XS
 scan.co.uk##.tag.hot
+scan.co.uk##.tagLogos
+scan.co.uk##.tags
 scan.co.uk##.techArticles
 scan.co.uk##.tekspek
 scan.co.uk##.termsFooter
 scan.co.uk##.toHeader
+scan.co.uk##.toTab > [href="https://www.scan.co.uk/eastersale"]:upward(1)
 scan.co.uk##.tp_overlay
 scan.co.uk##.trust-bar
 scan.co.uk##.wishListColumn
@@ -18672,6 +18720,10 @@ shrinke.me##.social-links
 ! domains\shrinkme.io.rules
 ||shrinkme.io^
 
+! domains\signal.org.rules
+www.signal.org##.icon-instagram:upward(a)
+www.signal.org##.icon-twitter:upward(a)
+
 ! SIGNAL
 ! (inheriting rules from: discourse.org.rules)
 community.signalusers.org###banner
@@ -18906,6 +18958,7 @@ smashpages.net##.site-footer
 ||smile.io^
 
 ! SMALLNETBUILDER FORUMS
+www.snbforums.com##.block-header:has-text(Similar threads):upward(2)
 www.snbforums.com##.js-bottomFixTarget
 www.snbforums.com##.js-notices
 www.snbforums.com##.p-body-sidebar
@@ -19875,10 +19928,16 @@ www.taylorguitars.com##.tt-c-review__grid-footer
 
 ! domains\tech4gamers.com.rules
 tech4gamers.com##.aawp-tb__row--highlight
+tech4gamers.com##.author-box-wrap
+tech4gamers.com##.footer-logo-wrap
+tech4gamers.com##.footer-text-wrap
 tech4gamers.com##.ftwp-fixed-to-post
+tech4gamers.com##.td-pb-span3.tdc-column
+tech4gamers.com##.td_block_related_posts
 tech4gamers.com##.tdb-breadcrumbs
 tech4gamers.com##.tdb_single_author
 tech4gamers.com##.tdb_single_post_share
+tech4gamers.com##.wth-helpful-section
 
 ! TECH ADVISOR
 techadvisor.co.uk###subHeader
@@ -19957,6 +20016,8 @@ technologyoutlet.co.uk##html:style(overflow: auto !important;)
 ||techpedi.com^
 
 ! TECH POWERUP
+techpowerup.com##.page > .s-
+techpowerup.com##address
 www.techpowerup.com##.comments
 www.techpowerup.com##.frontpage-extra
 www.techpowerup.com##.patreon-previews
@@ -20841,6 +20902,7 @@ www.therange.co.uk##.wishlist
 
 ! THE REGISTER
 forums.theregister.com###comment-form
+forums.theregister.com##.login_unit
 theregister.com###article-wrapper:style(max-width: 100% !important;)
 theregister.com###bc_cta
 theregister.com###boot
@@ -20885,6 +20947,10 @@ theregister.com##.similar_topics
 theregister.com##.tf-v1-widget:upward(div)
 theregister.com##[src^="https://form.typeform.com/"]
 theregister.com##article .section_name:has-text(Sponsored):upward(article)
+www.theregister.com##.cat_header
+www.theregister.com##.comments_wrap
+www.theregister.com##.old_article
+www.theregister.com##.tip_off_widget
 
 ! THE SALARY CALCULATOR
 thesalarycalculator.co.uk###topleaderboardad
@@ -23249,6 +23315,9 @@ www.vox.com##.outbrain-wrapper
 www.vox.com##.top
 www.vox.com##.vox-media-logo
 
+! domains\voxel-firmware.com.rules
+www.voxel-firmware.com##form
+
 ! VUE JS
 vuejs.org###banner
 vuejs.org###footer > p:first-child
@@ -24231,6 +24300,14 @@ blogs.windows.com###footerUniversalFooter
 blogs.windows.com###uhfCookieAlert
 blogs.windows.com##.social-share
 
+! domains\windows11tips.com.rules
+windows11tips.com##.author
+windows11tips.com##.entry-content:upward(1) ~ *
+windows11tips.com##.entry-meta-categories
+windows11tips.com##.entry-meta-comments
+windows11tips.com##.mh-header-tagline
+windows11tips.com##.mh-sidebar
+
 ! WINDOWS CENTRAL
 ! (inheriting rules from: futureplc.com.rules)
 windowscentral.com###affiliate-disclaimer
@@ -24434,6 +24511,7 @@ windowscentral.com##[id*="sp_message_container"]
 windowscentral.com##a[href*="https://www.magazinesdirect.com/"]
 windowscentral.com##a[name="Subscribe"]
 windowscentral.com##aside
+www.windowscentral.com###article-body:upward(1) ~ *
 
 ! WINDOWS LATEST
 www.windowslatest.com##.footer-social-wrap
@@ -24630,11 +24708,13 @@ www.xda-developers.com###xda_alert_bar
 www.xda-developers.com##.affiliate-sponsored
 www.xda-developers.com##.article-footer
 www.xda-developers.com##.comments-block
+www.xda-developers.com##.display-card-badge
 www.xda-developers.com##.meta_author
 www.xda-developers.com##.meta_comments
 www.xda-developers.com##.sidebar
 www.xda-developers.com##.tagbar
 www.xda-developers.com##.w-author
+www.xda-developers.com##.w-display-card-link
 www.xda-developers.com##.w-pencil-banner
 www.xda-developers.com##.w-social
 www.xda-developers.com##.xda_nanobox
