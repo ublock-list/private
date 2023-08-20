@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Sun, 20 Aug 2023 09:21:39 +0100
+! Last modified: Sun, 20 Aug 2023 09:27:11 +0100
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -9097,6 +9097,7 @@ github.com##.gist-banner
 github.com##.home-hero-container ~ *
 github.com##.intro-shelf
 github.com##.js-discussion-spotlight
+github.com##.js-feeds-tabs:upward(1)
 github.com##.js-for-you-feed-items
 github.com##.js-notice-dismiss
 github.com##.protip
@@ -9105,9 +9106,12 @@ github.com##:xpath(//div[child::div[child::div[child::strong[contains(text(), 'I
 github.com##:xpath(//div[child::h2[contains(text(), 'Discover interesting projects')]])
 github.com##:xpath(//div[child::strong[contains(text(), 'ProTip!')]])
 github.com##:xpath(//div[contains(@class, 'BorderGrid-row') and child::div[child::h2[contains(text(), 'Sponsor this project')]]])
+github.com##[aria-labelledby="feed-next"]
 github.com##[aria-labelledby="feed-next"] .js-notice
+github.com##[aria-labelledby="feed-original"]
 github.com##a.btn[aria-label*="Sponsor"]
 github.com##a[href*=".private.atom"]
+github.com##aside
 github.com##aside[aria-label="Explore"]
 github.com##body.logged-out .discussion-timeline-actions
 github.com##button[aria-label="Scroll to top"]:upward(div)
