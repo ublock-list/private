@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Tue, 3 Oct 2023 14:37:03 +0100
+! Last modified: Tue, 3 Oct 2023 15:28:08 +0100
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -2606,8 +2606,10 @@ bbc.*##[data-component="image-block"] img[alt*="Watch on iPlayer banner"]:upward
 bbc.*##[data-component="image-block"] img[alt*="Watch on iPlayer banner"]:upward([data-component="image-block"]) + div + div
 bbc.*##[data-component="text-block"] [href^="https://www.bbc.co.uk/newsletters/"]:upward([data-component="text-block"])
 bbc.*##amp-analytics
+bbc.*##div + div[data-component="image-block"] > figure:not(:has(figcaption)) > div:not(:has(span[role="text"]))
 bbc.*##div > div > main + section
 bbc.*##div.gs-o-faux-block-link.gel-1\/1\@m.gel-1\/2\@s.gel-layout__item:nth-of-type(2)
+bbc.*##div.nw-c-cluster3 h2:has-text(Tackling it together):upward(.nw-c-cluster3)
 bbc.*##div[class*="-ContainerWithSidebarWrapper"]:style(display: block !important;)
 bbc.*##div[class*="-MainColumn"] + div
 bbc.*##div[class*="-MainColumn"]:style(max-width: 100% !important;)
@@ -2615,13 +2617,25 @@ bbc.*##div[class*="-StyledTagContainer"]
 bbc.*##div[class*="-TagShareWrapper"]
 bbc.*##div[class*="ShareTools__Container-"]
 bbc.*##div[class*="layout__secondary"]
+bbc.*##div[data-component="image-block"] + div + div + div[data-component="text-block"] p > a[href^="https://www.bbcselect.com/"]:upward(div[data-component="text-block"])
+bbc.*##div[data-component="image-block"] + div + div + div[data-component="text-block"] p > i:has-text(Listen to the podcast series):upward(div[data-component="text-block"])
+bbc.*##div[data-component="image-block"] + div + div + div[data-component="text-block"] p > i:has-text(Watch):upward(div[data-component="text-block"])
+bbc.*##div[data-component="image-block"] + div + div[data-component="text-block"] p > a[href^="https://www.bbcselect.com/"]:upward(div[data-component="text-block"])
+bbc.*##div[data-component="image-block"] + div + div[data-component="text-block"] p > i:has-text(Listen to the podcast series):upward(div[data-component="text-block"])
+bbc.*##div[data-component="image-block"] + div + div[data-component="text-block"] p > i:has-text(Watch):upward(div[data-component="text-block"])
+bbc.*##div[data-component="image-block"] + div[data-component="text-block"] p > a[href^="https://www.bbcselect.com/"]:upward(div[data-component="text-block"])
+bbc.*##div[data-component="image-block"] + div[data-component="text-block"] p > i:has-text(Listen to the podcast series):upward(div[data-component="text-block"])
+bbc.*##div[data-component="image-block"] + div[data-component="text-block"] p > i:has-text(Watch):upward(div[data-component="text-block"])
 bbc.*##h2:has-text(BBC Around the UK):upward(2)
 bbc.*##h2:has-text(More from):upward(2)
+bbc.*##h2[id^="Read-more-"]
 bbc.*##li[class*="PromoWrapper"]:upward(3)
 bbc.*##nav[class*="-GlobalNavigation"]
 bbc.*##p > [href="http://pages.emails.bbc.com/subscribe/"] > strong > em:upward(p)
 bbc.*##p > [href="https://twitter.com/bbc_culture"] > strong > em:upward(p)
 bbc.*##p > [href="https://www.facebook.com/groups/440074069852291/"] > strong > em:upward(p)
+bbc.*##p > a[href^="https://twitter.com/BBCLondonNews"]:upward(p)
+bbc.*##p > a[href^="https://www.youtube.com/@bbcnews"]:upward(p)
 bbc.*##p.BodyA > [href^="https://cloud.email.bbc.com/SignUp"]:upward(p)
 bbc.*##p.BodyA > [href^="https://www.instagram.com/bbc"]:upward(p)
 bbc.*##section[aria-labelledby="features-analysis-heading"]
@@ -9345,6 +9359,7 @@ github.com##.js-discussion-spotlight
 github.com##.js-feeds-tabs:upward(1)
 github.com##.js-for-you-feed-items
 github.com##.js-notice-dismiss
+github.com##.new-feed-onboarding-notice
 github.com##.protip
 github.com##:xpath(//div[child::a[contains(text(), 'Add a README')]])
 github.com##:xpath(//div[child::div[child::div[child::strong[contains(text(), 'Introduce yourself')]]]])
