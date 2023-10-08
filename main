@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Sun, 8 Oct 2023 08:56:47 +0100
+! Last modified: Sun, 8 Oct 2023 09:18:54 +0100
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -18686,6 +18686,7 @@ pornhub.com##.frontListingWrapper > div:nth-child(3)
 pornhub.com##.headerBtnsWrapper
 pornhub.com##.join
 pornhub.com##.joinLinkWrapper
+pornhub.com##.js-headerUploadBtn
 pornhub.com##.js-mainFooter
 pornhub.com##.languages
 pornhub.com##.leftSide .sectionChannelsWrapper
@@ -18708,6 +18709,7 @@ pornhub.com##.relatedSearchTermsBottom
 pornhub.com##.relatedSearchTermsHome
 pornhub.com##.relatedSearches
 pornhub.com##.removeAdLink
+pornhub.com##.rightPanel > .popularSearches:upward(.rightPanel)
 pornhub.com##.scrollableSearchSuggestion
 pornhub.com##.sectionTitle:has-text(Recommended For You):upward(.sectionWrapper)
 pornhub.com##.showTags
@@ -18731,7 +18733,6 @@ pornhub.com##.usernameWrapper
 pornhub.com##.video-actions-menu
 pornhub.com##.video-wrapper.hd-videos_wrapper.hd-smallerWidth.sectionWrapper
 pornhub.com##.viewersChoiceContest
-pornhub.com##.wrapper ~ *:not(#js-ageDisclaimerModal)
 pornhub.com##:xpath(//cddei)
 pornhub.com##:xpath(//deicc)
 pornhub.com##:xpath(//div[@id="suggestionList" and child::p[contains(text(), 'Trending')]])
