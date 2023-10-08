@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Tue, 3 Oct 2023 15:28:08 +0100
+! Last modified: Sun, 8 Oct 2023 08:56:47 +0100
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -241,6 +241,9 @@ www.adalo.com##.post-info-text
 ! domains\adbull.me.rules
 ||adbull.me^
 ||static.adbull.me^
+
+! domains\addy.io.rules
+addy.io##h2:has-text(Product News & Updates):upward(3)
 
 ! ADFONTES MEDIA
 adfontesmedia.com##.fusion-social-links-footer
@@ -3193,6 +3196,8 @@ board-game.co.uk##.iso-certified
 board-game.co.uk##.miniature-header
 board-game.co.uk##.page-banner
 board-game.co.uk##.perfect-products-block
+board-game.co.uk##.post-tags
+board-game.co.uk##.primary-sidebar
 board-game.co.uk##.product-share
 board-game.co.uk##.product-share-block
 board-game.co.uk##.review-location
@@ -3200,17 +3205,22 @@ board-game.co.uk##.shop-main > header
 board-game.co.uk##.slash-box
 board-game.co.uk##.social-share
 board-game.co.uk##.split-image
+board-game.co.uk##.vp-breakdown-row
+board-game.co.uk##.vp-notice-simple
 board-game.co.uk##.vp-product-points
 board-game.co.uk##.widget_custom_html
 board-game.co.uk##.wishlist-action
+board-game.co.uk##.zbr-tablet-row:nth-of-type(3)
 board-game.co.uk##.zg-badge-left
 board-game.co.uk##.zg-badge-right
 board-game.co.uk##.zg-badge-sale
 board-game.co.uk##.zg-chart-page-header
 board-game.co.uk##.zg-charts
+board-game.co.uk##.zg-delivery-bar
 board-game.co.uk##.zg-header-mobile-wishlist
 board-game.co.uk##.zg-product-points
 board-game.co.uk##.zg-single-product-points
+board-game.co.uk##.zg-thanks-block-container:nth-of-type(3)
 board-game.co.uk##.zgh-codes
 board-game.co.uk##.zgh-mega-menu-col-images
 board-game.co.uk##.zgh-mega-menu-col-sale
@@ -4171,6 +4181,20 @@ catinaflat.com##.Payments
 catinaflat.com##.Profile-shareLinksMobile
 catinaflat.com##.SectionSitterg .SectionResults
 catinaflat.com##aside
+
+! domains\cats.com.rules
+cats.com###breadcrumbs
+cats.com##.card-guide
+cats.com##.cliverse-related-posts
+cats.com##.comments-area
+cats.com##.entry-meta
+cats.com##.footer-bottom
+cats.com##.post-author-info
+cats.com##.post-top-info-row:nth-of-type(3)
+cats.com##.site-info-social
+cats.com##.sourses-top
+cats.com##.widget-area
+cats.com##p > strong:has-text(Also Read):upward(p)
 
 ! CAT'S BEST
 www.catsbest.eu##.gdpr-cookie-banner
@@ -7354,6 +7378,7 @@ www.esquire.com##.byline-with-image
 ! ETSY
 etsy.*###web2app-banner
 etsy.*##li.wt-list-unstyled div.v2-listing-card__info > div.wt-text-caption > span[aria-hidden="true"]:has-text(/^ad/i):matches-css(display:inline-block):upward(li):remove()
+etsy.com###buyer-reviews-module
 etsy.com###collage-footer ~ *
 etsy.com###gdpr-single-choice-overlay
 etsy.com###global-enhancements-search-suggestions
@@ -7407,6 +7432,7 @@ etsy.com##[data-top-rated-narrowing-intent-search]
 etsy.com##[data-ui="favorite-listing-button"]
 etsy.com##[data-ui="promo"]
 etsy.com##[data-your-purchases-async-loaded-modules=""]
+etsy.com##a.listing-link p[aria-hidden="true"]:not(:matches-css(position: absolute)):has-text(ad):has-text(by Etsy seller):upward(li)
 etsy.com##body.wt-body-no-scroll:style(overflow: auto !important; position: static !important;)
 etsy.com##div.prolist-row
 etsy.com##h3:has-text(New items our editors love):upward(.wt-body-max-width)
@@ -8435,6 +8461,12 @@ www.funimation.com##.premium__box
 www.funimation.com##.smartbanner
 www.funimation.com##.v-bottom-sheet
 
+! domains\furnitureferret.com.rules
+www.furnitureferret.com##.card:not(.ff-card)
+www.furnitureferret.com##.ff-disphird
+www.furnitureferret.com##.ff-sidebar
+www.furnitureferret.com##.ff-social-button
+
 ! FURNITURE VILLAGE
 www.furniturevillage.co.uk##.additional-products-title
 www.furniturevillage.co.uk##.amp-grid-tile-banner
@@ -8762,6 +8794,10 @@ www.gamerevolution.com##.xe-footer-author-byline
 www.gamerevolution.com##.xe-post-footer
 www.gamerevolution.com##.xe-post-footer-tags
 www.gamerevolution.com##.xe-site-footer
+
+! domains\gamersathart.co.uk.rules
+gamersathart.co.uk##.usp-banner
+gamersathart.co.uk##a.text-brand-bravo
 
 ! GAMES INDUSTRY.BIZ
 www.gamesindustry.biz##.article-gilive-promo
@@ -9925,6 +9961,7 @@ google.*##input[name="btnI"]
 google.*##jsl > .noprint
 google.*##scrolling-carousel
 google.*##video-voyager
+google.com##span[role="button"]:has-text(feedback):upward(1)
 mail.google.*#@#^responseheader(set-cookie)
 meet.google.com##.SLmGcd.zfYLqc.TZFSLb
 meet.google.com##.xcqgyd
@@ -12540,6 +12577,10 @@ www.insider.com##.subnav-ad-layout
 www.insider.com##.subscribe-and-login-links
 www.insider.com##.subscribe-btn
 
+! domains\inspirelancs.org.uk.rules
+inspirelancs.org.uk##.elementor-popup-modal
+inspirelancs.org.uk##body:style(overflow: auto !important;)
+
 ! INSTRUCTABLES
 www.instructables.com###comments
 www.instructables.com##.adsk-logo
@@ -13025,6 +13066,11 @@ www.johnlewis.com##.site-wide-banner
 www.johnlewis.com##.social-links-wrapper-bp
 www.johnlewis.com##[class*="UserGeneratedContent_user-generated-content__"]
 www.johnlewis.com##[class*="image-search-tooltip"]
+
+! domains\jsbin.com.rules
+jsbin.com##.blog.menu
+jsbin.com##.menu.loggedout
+jsbin.com##.toppanel-wrapper
 
 ! domains\jscompress.com.rules
 jscompress.com##.info
@@ -14562,6 +14608,21 @@ lorextechnology.co.uk##.sitewideBanner
 lorextechnology.co.uk##.social-media__item-list
 lorextechnology.co.uk##.trustpilot-widget
 
+! domains\loudersound.com.rules
+www.loudersound.com##.author-byline__authors
+www.loudersound.com##.author-byline__contributors
+www.loudersound.com##.author-byline__publications
+www.loudersound.com##.authorBio
+www.loudersound.com##.breadcrumb
+www.loudersound.com##.buttons-social
+www.loudersound.com##.moreAbout
+www.loudersound.com##.nav-subscribe
+www.loudersound.com##.related-articles-block
+www.loudersound.com##.supernav
+www.loudersound.com##.trending__wrapper
+www.loudersound.com##[href="https://www.loudersound.com/classic-rock"] > .strapline
+www.loudersound.com##aside
+
 ! domains\lovehomeswap.com.rules
 www.lovehomeswap.com##.disclaimer
 www.lovehomeswap.com##.info-box
@@ -15379,6 +15440,19 @@ www.merriam-webster.com##.open-web-comments-definition-container
 www.merriam-webster.com##.right-rail
 www.merriam-webster.com##.save-to-list
 
+! domains\metal-tracker.com.rules
+metal-tracker.com###ajaxChatContent
+metal-tracker.com###sideRight
+metal-tracker.com###thanks
+metal-tracker.com###toTop
+metal-tracker.com##.birthday_block
+metal-tracker.com##.donate_block:upward(2)
+metal-tracker.com##.new_trackers
+metal-tracker.com##.news_intro:upward(5)
+metal-tracker.com##.side:has-text(Hall of Fame):upward(1)
+metal-tracker.com##.welcome
+metal-tracker.com##[href="/donate.html"]
+
 ! domains\metalsess.blogspot.com.rules
 ||metalsess.blogspot.com^
 
@@ -15917,6 +15991,7 @@ support.mozilla.org###doc-contributors
 support.mozilla.org##.document-vote--sidebar-wrap
 support.mozilla.org##.mzp-c-footer-links-social
 support.mozilla.org##.sumo-page-section
+support.mozilla.org##aside
 www.mozilla.org##.c-navigation-vpn-cta-container
 www.mozilla.org##.mzp-c-footer-heading-social:upward(1)
 
@@ -17090,6 +17165,9 @@ observer.com##.next-container
 observer.com##.share-buttons.large.social-icons
 observer.com##.social-icons
 observer.com##.widget-area
+
+! domains\obsproject.com.rules
+obsproject.com##.kb_sidebar
 
 ! OCADO
 www.ocado.com###brandWrapper
@@ -18653,7 +18731,7 @@ pornhub.com##.usernameWrapper
 pornhub.com##.video-actions-menu
 pornhub.com##.video-wrapper.hd-videos_wrapper.hd-smallerWidth.sectionWrapper
 pornhub.com##.viewersChoiceContest
-pornhub.com##.wrapper ~ *
+pornhub.com##.wrapper ~ *:not(#js-ageDisclaimerModal)
 pornhub.com##:xpath(//cddei)
 pornhub.com##:xpath(//deicc)
 pornhub.com##:xpath(//div[@id="suggestionList" and child::p[contains(text(), 'Trending')]])
@@ -19472,6 +19550,7 @@ www.redbubble.com##[class*="styles__tinyButton"]
 reddit.com###AppRouter-main-content:style(padding-left: 0 !important;)
 reddit.com###POPUP_CONTAINER + div
 reddit.com###TrendingPostsContainer
+reddit.com###credential_picker_container
 reddit.com###get-app
 reddit.com###redesign-beta-optin-btn
 reddit.com##*[class*="XPromo"]
@@ -20804,6 +20883,7 @@ sex.com##:xpath(//div[child::div[child::p[contains(text(), 'Visit the old sex.co
 sex.com##:xpath(//div[child::div[contains(text(), 'Advertisement')]])
 sex.com##:xpath(//li[child::div[child::div[@data-cy-id="subscribers-only"]]])
 sex.com##[href^="//ads.cdn.live/ck.php"]
+www.sex.com###loading-more-pins
 www.sex.com###related_pins
 www.sex.com##.caption
 www.sex.com##.share-button
@@ -21824,6 +21904,13 @@ www.strulch.co.uk##.header-banner
 www.strulch.co.uk##.lgcookieslaw_banner
 www.strulch.co.uk##.newsletter-inner
 
+! domains\studentjob.co.uk.rules
+www.studentjob.co.uk###save-job-search-box
+www.studentjob.co.uk##.job-opening-optional-elems
+www.studentjob.co.uk##.job-opening-tags
+www.studentjob.co.uk##.social-buttons
+www.studentjob.co.uk##.toggle-candidate-job-opening-favorite
+
 ! STUDY GOLANG
 studygolang.com##.Header-banner
 
@@ -21916,6 +22003,8 @@ supplementhub.co.uk##.payment-methods
 supplementhub.co.uk##.wishlist-button
 supplementhub.co.uk##main > .product-slider
 supplementhub.co.uk##main > div > section a[href="https://checkout.supplementhub.com/tools/perfect-product-finder/supplement-finder#/"]:upward(section)
+www.supplementhub.co.uk##a[href="/wishlist"]
+www.supplementhub.co.uk##button[aria-label="Quick add to cart"]
 
 ! SURF FORECAST
 www.surf-forecast.com##.bn-placeholder
@@ -23585,6 +23674,8 @@ www.thespruceeats.com##.social-nav
 www.thespruceeats.com##.tag-nav
 
 ! THE SPRUCE PETS
+thesprucepets.com##.lifestyle-social-nav
+thesprucepets.com##.recirc
 www.thesprucepets.com###onetrust-consent-sdk
 www.thesprucepets.com##*[class*="ad-group--sc__ad"]
 www.thesprucepets.com##.article__post-footer
@@ -27780,25 +27871,30 @@ yougov.co.uk##.entity-footer-container
 yougov.co.uk##.share-section
 
 ! YOUPORN
+www.youporn.com##.related-searches
 youporn.com###additionSearchOverlay
 youporn.com###categories_quickLinks
 youporn.com###js_recommendedToYou
 youporn.com###list_query
 youporn.com###metaDataShowMore
 youporn.com###network-bar
+youporn.com###popsByTrafficJunky
 youporn.com###relatedVideos ~ *
 youporn.com###videoComments
 youporn.com##*[data-espnode="recommended_category"]
 youporn.com##*[data-espnode="user_subscriptions"]
 youporn.com##*[data-tracking="track-upgrade-btn"]
 youporn.com##.add-to-button
+youporn.com##.avatar-image-wrapper
 youporn.com##.block-orientation
 youporn.com##.block-resources
 youporn.com##.category-desc-container
 youporn.com##.channelRelatedBox
+youporn.com##.channel_subscription_button
 youporn.com##.container > .relatedCategoriesContainer
 youporn.com##.enabling_cookie_warning
 youporn.com##.external-links
+youporn.com##.feature-video-jump
 youporn.com##.featureBar
 youporn.com##.footer-bottom-logos
 youporn.com##.footer-yp-logo
@@ -27817,11 +27913,11 @@ youporn.com##.js_user-block
 youporn.com##.playWrapper:style(min-width: 100% !important;)
 youporn.com##.pornstarRow
 youporn.com##.pornstarsInfo
+youporn.com##.promo-description
+youporn.com##.promo-logo
 youporn.com##.right-aside
-youporn.com##.title-text:has-text(RECOMMENDED):upward(1)
-youporn.com##.title-text:has-text(RECOMMENDED):upward(1) + div
-youporn.com##.title-text:has-text(Recommended):upward(1)
-youporn.com##.title-text:has-text(Recommended):upward(1) + div
+youporn.com##.tm_commentingSystemApp
+youporn.com##.trending-searches
 youporn.com##.trendingSearchTerms
 youporn.com##.video-box-infos
 youporn.com##.videoAutoNext
