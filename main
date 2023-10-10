@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Tue, 10 Oct 2023 12:11:45 +0100
+! Last modified: Tue, 10 Oct 2023 12:15:32 +0100
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -3044,6 +3044,7 @@ bitiba.co.uk##.slider__container
 bitiba.co.uk##.uxt-discount-banner
 bitiba.co.uk##.uxt-middle-banner
 bitiba.co.uk##.uxt-product-group-top-section
+bitiba.co.uk##.uxt-shop-header-logos
 bitiba.co.uk##.uxt-side-banner
 bitiba.co.uk##.uxt-supplier-finance-side-banner
 bitiba.co.uk##.uxt-supplier-financed-middle-banner
@@ -3088,6 +3089,7 @@ bitiba.co.uk##[class*="Variant_autoshipmentPrice"]
 bitiba.co.uk##[class*="Variant_discountContainer"]
 bitiba.co.uk##[class*="Wishlist_addToWishlistContainer"]
 bitiba.co.uk##[class*="ZooplusChoiceSign_zooplusChoiceDescriptionWrapper"]
+bitiba.co.uk##[class*="recommendations-slider-module_wrapper"]
 bitiba.co.uk##[data-zta="brand-carousel"]
 bitiba.co.uk##[id^="header-category-flyout-animal-special-offer"]
 bitiba.co.uk##a[id="Read more"]:upward(div)
@@ -28466,6 +28468,7 @@ zooplus.*##.slider__container
 zooplus.*##.uxt-discount-banner
 zooplus.*##.uxt-middle-banner
 zooplus.*##.uxt-product-group-top-section
+zooplus.*##.uxt-shop-header-logos
 zooplus.*##.uxt-side-banner
 zooplus.*##.uxt-supplier-finance-side-banner
 zooplus.*##.uxt-supplier-financed-middle-banner
@@ -28510,6 +28513,7 @@ zooplus.*##[class*="Variant_autoshipmentPrice"]
 zooplus.*##[class*="Variant_discountContainer"]
 zooplus.*##[class*="Wishlist_addToWishlistContainer"]
 zooplus.*##[class*="ZooplusChoiceSign_zooplusChoiceDescriptionWrapper"]
+zooplus.*##[class*="recommendations-slider-module_wrapper"]
 zooplus.*##[data-zta="brand-carousel"]
 zooplus.*##[id^="header-category-flyout-animal-special-offer"]
 zooplus.*##a[id="Read more"]:upward(div)
