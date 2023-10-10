@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Sun, 8 Oct 2023 09:18:54 +0100
+! Last modified: Tue, 10 Oct 2023 12:11:45 +0100
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -1466,6 +1466,7 @@ ao.com###header-propositionBar
 ao.com###hero-stage
 ao.com###member-pricing
 ao.com###popularProducts
+ao.com###siteSearch-item-0 > span:has-text(AO Five Star Member Deals):upward(li)
 ao.com##.additional-promotions
 ao.com##.asterisks
 ao.com##.best-buy
@@ -1480,6 +1481,7 @@ ao.com##.hero-heading-copy
 ao.com##.lister-banner-wrapper
 ao.com##.lister__seo-content-block
 ao.com##.main-navigation__sub-navigation-merch
+ao.com##.memberprice-container
 ao.com##.merchPodCarouselWrap
 ao.com##.mobile-banner
 ao.com##.mostpopular
@@ -1490,6 +1492,7 @@ ao.com##.promotions
 ao.com##.reactive-promo-strip
 ao.com##.seo-links__container
 ao.com##.seo-outer-wrapper
+ao.com##.shareProduct
 ao.com##.shopbybrand-bg
 ao.com##.skinny-banner
 ao.com##.slide-content-inner
@@ -1501,11 +1504,15 @@ ao.com##:xpath(//div[child::a[child::img[contains(@alt, 'AddedValue')]]])
 ao.com##:xpath(//div[child::div[child::div[child::div[contains(text(), 'Trending Brands')]]]])
 ao.com##:xpath(//li[child::div[child::div[child::div[contains(text(), 'AO Finance')]]]])
 ao.com##:xpath(//li[contains(@itemprop, 'itemListElement')]/div[contains(text(), 'We Recommend')])
+ao.com##[data-facet-name="Promotions"]
 ao.com##[data-help-and-advice]
+ao.com##[data-item-id="top-fiveStar"]
 ao.com##[data-tag-name="ProductPageFinanceComponent"]
 ao.com##[data-tag-name="ProductPagePromotionsComponent"]
 ao.com##[data-tag-section="seo links"]
 ao.com##[data-testid="product-card-link"] > div:has-text(Error!):upward(a)
+ao.com##[data-testid="siteSearch-most-popular"]
+ao.com##[data-testid="siteSearch-most-popular"] ~ *
 ao.com##a[data-testid="middle-banner-link"]
 ao.com##button[data-tag-finance-type="finance-instalments-button"]
 ao.com##button[data-tag-name="finance-buy-now-pay-later-button"]
@@ -1516,8 +1523,11 @@ ao.com##div[data-tag-name="ao finance"]
 ao.com##div[data-tag-name="free returns label"]
 ao.com##li[data-testid="product-card--featured"]
 ao.com##li[itemprop="itemListElement"].rounded-lg.bg-darkgreen:style(border: 1px solid #e2e7e8 !important; padding: 0 !important;)
+ao.com##span:has-text(AO member price)
+ao.com##span:has-text(Non-member price)
 ao.com##ul > a
 ao.com##ul > div
+ao.com##ul > li >a[href^="https://www.instagram.com/"]:upward(ul)
 
 ! AOL
 www.aol.com###header-form
@@ -2933,6 +2943,8 @@ www.bimmer-tech.net##.subscribe
 www.bimmer-tech.net##.vin-wrapper:upward(1)
 
 ! BIMMERFEST
+bimmerfest.com##.js-notices
+bimmerfest.com##.product__trust
 www.bimmerfest.com###post-actionbar-share
 www.bimmerfest.com##.actionBar-set--external
 www.bimmerfest.com##.bookmarkLink
@@ -3004,6 +3016,85 @@ bitfieldconsulting.com##.summary-block-wrapper
 ! domains\bitfly.io.rules
 ||bitfly.io^
 bitfly.io##.text-left
+
+! BITIBA
+! (inheriting rules from: zooplus.com.rules)
+bitiba.co.uk###autoshipment-banner
+bitiba.co.uk###bonus-points-forecast-box-wrapper
+bitiba.co.uk###carbon-neutral-app
+bitiba.co.uk###js-footer-shops
+bitiba.co.uk##*[data-zta="btn-goTop"]
+bitiba.co.uk##*[data-zta="recoSlider"]
+bitiba.co.uk##.banner__box
+bitiba.co.uk##.bg-banner
+bitiba.co.uk##.button__goTop__fixed
+bitiba.co.uk##.contentful-loaded
+bitiba.co.uk##.contentful-placeholder
+bitiba.co.uk##.footer__conditions
+bitiba.co.uk##.footer__features
+bitiba.co.uk##.footer__newsletter
+bitiba.co.uk##.js-spBox
+bitiba.co.uk##.payment__bar
+bitiba.co.uk##.product__reco
+bitiba.co.uk##.reco-placeholder
+bitiba.co.uk##.shop-footer__newsletter-banner
+bitiba.co.uk##.shop-footer__payment-shipping-and-trust-logos-container
+bitiba.co.uk##.shop-footer__social-and-apps-container
+bitiba.co.uk##.slider__container
+bitiba.co.uk##.uxt-discount-banner
+bitiba.co.uk##.uxt-middle-banner
+bitiba.co.uk##.uxt-product-group-top-section
+bitiba.co.uk##.uxt-side-banner
+bitiba.co.uk##.uxt-supplier-finance-side-banner
+bitiba.co.uk##.uxt-supplier-financed-middle-banner
+bitiba.co.uk##.uxt-teaser
+bitiba.co.uk##.v3-h3:has-text(Often bought together):upward(div)
+bitiba.co.uk##.v3-h3:has-text(Your pet might also like):upward(div)
+bitiba.co.uk##[class*="AdvantagesTeaser-module"]
+bitiba.co.uk##[class*="AdvantagesTeaser-module_advantagesTeaser"]
+bitiba.co.uk##[class*="BackgroundBanner-module_container"]
+bitiba.co.uk##[class*="BackgroundBanner_backgroundBannerContainer"]
+bitiba.co.uk##[class*="BannerCarousel"]
+bitiba.co.uk##[class*="DiscountBanner"]
+bitiba.co.uk##[class*="GoTopButton"]
+bitiba.co.uk##[class*="LeftNavigation-module_linkDanger"]
+bitiba.co.uk##[class*="LoginOrReorder_loginAndReorder"]
+bitiba.co.uk##[class*="MagazineTeaser_magazineTeaserMainWrapper"]
+bitiba.co.uk##[class*="MiddleBanner-module_container"]
+bitiba.co.uk##[class*="MobileRedirects_redirectLinks"]
+bitiba.co.uk##[class*="Newsletter-module"]
+bitiba.co.uk##[class*="Newsletter-module_"]
+bitiba.co.uk##[class*="ProductListItemVariant-module_stockReminderLink"]
+bitiba.co.uk##[class*="PurchaseDetails-module_paymentShippingAndTrust"]
+bitiba.co.uk##[class*="PurchaseDetails_paymentShippingAndTrust"]
+bitiba.co.uk##[class*="RecommendationSlider_sliderContainer"]
+bitiba.co.uk##[class*="SEOAccordion-module_seoAccordionContainer"]
+bitiba.co.uk##[class*="SEOAccordion_seoAccordionContainer"]
+bitiba.co.uk##[class*="SeoAccordion_seoContainer"]
+bitiba.co.uk##[class*="ShopFooterNewsletter"]
+bitiba.co.uk##[class*="SideBanner-module_sideBannerContainer"]
+bitiba.co.uk##[class*="SideBanner_sideBannerContainer"]
+bitiba.co.uk##[class*="SmartAppBanner"]
+bitiba.co.uk##[class*="SmartAppBanner-module_bannerWrapper"]
+bitiba.co.uk##[class*="SocialAndApps-module_socialAndApps"]
+bitiba.co.uk##[class*="SocialAndApps_socialAndApps"]
+bitiba.co.uk##[class*="SpecialTeaser_specialTeaserMainWrapper"]
+bitiba.co.uk##[class*="SupplierFinancedMiddleBanner"]
+bitiba.co.uk##[class*="TopBar-module_topBar"]
+bitiba.co.uk##[class*="TopBar_topBar"]
+bitiba.co.uk##[class*="TwinTeaser_twinTeaserMainWrapper"]
+bitiba.co.uk##[class*="Variant_autoshipmentLogo"]
+bitiba.co.uk##[class*="Variant_autoshipmentPrice"]
+bitiba.co.uk##[class*="Variant_discountContainer"]
+bitiba.co.uk##[class*="Wishlist_addToWishlistContainer"]
+bitiba.co.uk##[class*="ZooplusChoiceSign_zooplusChoiceDescriptionWrapper"]
+bitiba.co.uk##[data-zta="brand-carousel"]
+bitiba.co.uk##[id^="header-category-flyout-animal-special-offer"]
+bitiba.co.uk##a[id="Read more"]:upward(div)
+bitiba.co.uk##div[data-zta="cross-horizontal"]
+bitiba.co.uk##div[data-zta="cross-vertical"]
+bitiba.co.uk##div[data-zta="similar-horizontal"]
+bitiba.co.uk##div[data-zta="similar-vertical"]
 
 ! domains\bitwarden.com.rules
 community.bitwarden.com###banner
@@ -5453,6 +5544,7 @@ crunchyroll.com##:xpath(//div[@id="showmedia_about_info_details"]/div[contains(t
 www.crunchyroll.com##.erc-upsell-popup
 
 ! CSS TRICKS
+css-tricks.com###get-the-poster:upward(3)
 css-tricks.com###h-related-posts
 css-tricks.com###h-related-posts ~ *
 css-tricks.com##.article-sponsor
@@ -21654,6 +21746,8 @@ stackoverflow.com###inline_related_see_more
 stackoverflow.com###inline_related_var_a_less
 stackoverflow.com###js-ai-search-alpha-popover
 stackoverflow.com###nav-collective-discover
+stackoverflow.com###nav-labs-discussions
+stackoverflow.com###openid-buttons
 stackoverflow.com###question-header .s-btn
 stackoverflow.com###saves-launch-popover
 stackoverflow.com###tags-browser .fs-caption
@@ -21664,6 +21758,7 @@ stackoverflow.com##.fc-light:has-text(Part of):has-text(Collective)
 stackoverflow.com##.fc-orange-400:has-text(Trending sort available)
 stackoverflow.com##.google-login
 stackoverflow.com##.iconBookmark
+stackoverflow.com##.js-ai-search-alpha-banner
 stackoverflow.com##.js-answer-help
 stackoverflow.com##.js-carousel-logos
 stackoverflow.com##.js-consent-banner
@@ -21678,6 +21773,8 @@ stackoverflow.com##.js-post-issue
 stackoverflow.com##.js-saves-btn
 stackoverflow.com##.js-share-link
 stackoverflow.com##.js-teams-promo
+stackoverflow.com##.nav-links .nav-links > li:has-text(Collectives)
+stackoverflow.com##.nav-links .nav-links > li:has-text(Labs)
 stackoverflow.com##.new-contributor-indicator
 stackoverflow.com##.new-login-form
 stackoverflow.com##.new-post-login:upward(#post-form)
@@ -21698,6 +21795,7 @@ stackoverflow.com##:xpath(//ol[contains(@class, 'nav-links')]/li[child::div[cont
 stackoverflow.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')])
 stackoverflow.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')]) ~ *
 stackoverflow.com##[aria-controls="teams-were-moved-popover"]
+stackoverflow.com##[href="https://careers.stackoverflow.com/employer/login"]:upward(1)
 stackoverflow.com##li.js-collectives-navcta-toggle
 
 ! THE EVENING STANDARD
@@ -28343,6 +28441,7 @@ zoopla.co.uk##a[class*="AgentImageLink"]
 zoopla.co.uk##aside
 
 ! ZOOPLUS
+zooplus.*###autoshipment-banner
 zooplus.*###bonus-points-forecast-box-wrapper
 zooplus.*###carbon-neutral-app
 zooplus.*###js-footer-shops
@@ -28375,6 +28474,7 @@ zooplus.*##.v3-h3:has-text(Often bought together):upward(div)
 zooplus.*##.v3-h3:has-text(Your pet might also like):upward(div)
 zooplus.*##[class*="AdvantagesTeaser-module"]
 zooplus.*##[class*="AdvantagesTeaser-module_advantagesTeaser"]
+zooplus.*##[class*="BackgroundBanner-module_container"]
 zooplus.*##[class*="BackgroundBanner_backgroundBannerContainer"]
 zooplus.*##[class*="BannerCarousel"]
 zooplus.*##[class*="DiscountBanner"]
@@ -28382,15 +28482,19 @@ zooplus.*##[class*="GoTopButton"]
 zooplus.*##[class*="LeftNavigation-module_linkDanger"]
 zooplus.*##[class*="LoginOrReorder_loginAndReorder"]
 zooplus.*##[class*="MagazineTeaser_magazineTeaserMainWrapper"]
+zooplus.*##[class*="MiddleBanner-module_container"]
 zooplus.*##[class*="MobileRedirects_redirectLinks"]
 zooplus.*##[class*="Newsletter-module"]
 zooplus.*##[class*="Newsletter-module_"]
+zooplus.*##[class*="ProductListItemVariant-module_stockReminderLink"]
 zooplus.*##[class*="PurchaseDetails-module_paymentShippingAndTrust"]
 zooplus.*##[class*="PurchaseDetails_paymentShippingAndTrust"]
 zooplus.*##[class*="RecommendationSlider_sliderContainer"]
+zooplus.*##[class*="SEOAccordion-module_seoAccordionContainer"]
 zooplus.*##[class*="SEOAccordion_seoAccordionContainer"]
 zooplus.*##[class*="SeoAccordion_seoContainer"]
 zooplus.*##[class*="ShopFooterNewsletter"]
+zooplus.*##[class*="SideBanner-module_sideBannerContainer"]
 zooplus.*##[class*="SideBanner_sideBannerContainer"]
 zooplus.*##[class*="SmartAppBanner"]
 zooplus.*##[class*="SmartAppBanner-module_bannerWrapper"]
@@ -28400,9 +28504,14 @@ zooplus.*##[class*="SpecialTeaser_specialTeaserMainWrapper"]
 zooplus.*##[class*="SupplierFinancedMiddleBanner"]
 zooplus.*##[class*="TopBar-module_topBar"]
 zooplus.*##[class*="TopBar_topBar"]
+zooplus.*##[class*="TwinTeaser_twinTeaserMainWrapper"]
+zooplus.*##[class*="Variant_autoshipmentLogo"]
+zooplus.*##[class*="Variant_autoshipmentPrice"]
 zooplus.*##[class*="Variant_discountContainer"]
+zooplus.*##[class*="Wishlist_addToWishlistContainer"]
 zooplus.*##[class*="ZooplusChoiceSign_zooplusChoiceDescriptionWrapper"]
 zooplus.*##[data-zta="brand-carousel"]
+zooplus.*##[id^="header-category-flyout-animal-special-offer"]
 zooplus.*##a[id="Read more"]:upward(div)
 zooplus.*##div[data-zta="cross-horizontal"]
 zooplus.*##div[data-zta="cross-vertical"]
