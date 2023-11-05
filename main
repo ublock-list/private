@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Sun, 5 Nov 2023 17:11:29 +0000
+! Last modified: Sun, 5 Nov 2023 18:01:22 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -7129,7 +7129,7 @@ duckduckgo.com###m3-0
 duckduckgo.com###m30-0
 duckduckgo.com###sl-0:upward(1)
 duckduckgo.com###wedonttrack
-duckduckgo.com###zero_click_wrapper > div:not(#zci-images):not(#zci-videos):upward(1)
+duckduckgo.com###zero_click_wrapper > div:not(#zci-images):not(#zci-videos):not(#react-root-zci):upward(1)
 duckduckgo.com##.about-profiles
 duckduckgo.com##.feedback-btn
 duckduckgo.com##.feedback-prompt
