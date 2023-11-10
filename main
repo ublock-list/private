@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Sun, 5 Nov 2023 18:01:22 +0000
+! Last modified: Fri, 10 Nov 2023 13:20:11 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -154,6 +154,10 @@ www.4chan.org###site-stats
 
 ! domains\a-ads.com.rules
 ||a-ads.com^
+
+! domains\a2hosting.com.rules
+a2hosting.com##.article-main-right
+a2hosting.com##.chat_sales__box
 
 ! domains\aba.com.rules
 ||aba.com^
@@ -1162,6 +1166,7 @@ amazon.*##div[id^="sims-mobile-consolidated-"]
 amazon.*##li.acs-private-brands-container-background
 amazon.*##li.acs-private-brands-container-background-single-image
 amazon.*##span[data-component-type="s-ads-metrics"]
+aws.amazon.com###aws-page-footer .icon-linkedin:upward(5)
 aws.amazon.com##.m-nav-mobile-sub-row
 console.aws.amazon.com###aperture-csat-container
 console.aws.amazon.com##.awsui-context-flashbar
@@ -1865,13 +1870,17 @@ arifsetyawan.com##[data-testid="authorName"]:upward(9)
 arifsetyawan.com##[data-testid="storyReadTime"]
 arifsetyawan.com##a:has-text(Open in app)
 arifsetyawan.com##a[href*="/membership"]
+arifsetyawan.com##a[href*="?source=post_page--"]
 arifsetyawan.com##a[href^="/@"]:upward(2)
 arifsetyawan.com##a[href^="/@"]:upward(4)
 arifsetyawan.com##a[href^="/tag/"]:upward(4)
 arifsetyawan.com##a[href^="https://medium.com/tag/"]:upward(4)
+arifsetyawan.com##article button[aria-label="Member-only story"]
+arifsetyawan.com##article:xpath(//span[contains(text(), "Published in")]):upward(2)
 arifsetyawan.com##aside
 arifsetyawan.com##button[aria-label="user options menu"]:upward(3)
 arifsetyawan.com##div > span > a[href*="-smart_meter-"]:upward(7)
+arifsetyawan.com##figcaption a:upward(1)
 arifsetyawan.com##footer + *
 arifsetyawan.com##h1 + div a[data-testid="authorName"]:upward(14)
 arifsetyawan.com##h2 > a:has-text(More from):upward(7)
@@ -2978,13 +2987,17 @@ betterprogramming.pub##[data-testid="authorName"]:upward(9)
 betterprogramming.pub##[data-testid="storyReadTime"]
 betterprogramming.pub##a:has-text(Open in app)
 betterprogramming.pub##a[href*="/membership"]
+betterprogramming.pub##a[href*="?source=post_page--"]
 betterprogramming.pub##a[href^="/@"]:upward(2)
 betterprogramming.pub##a[href^="/@"]:upward(4)
 betterprogramming.pub##a[href^="/tag/"]:upward(4)
 betterprogramming.pub##a[href^="https://medium.com/tag/"]:upward(4)
+betterprogramming.pub##article button[aria-label="Member-only story"]
+betterprogramming.pub##article:xpath(//span[contains(text(), "Published in")]):upward(2)
 betterprogramming.pub##aside
 betterprogramming.pub##button[aria-label="user options menu"]:upward(3)
 betterprogramming.pub##div > span > a[href*="-smart_meter-"]:upward(7)
+betterprogramming.pub##figcaption a:upward(1)
 betterprogramming.pub##footer + *
 betterprogramming.pub##h1 + div a[data-testid="authorName"]:upward(14)
 betterprogramming.pub##h2 > a:has-text(More from):upward(7)
@@ -10718,6 +10731,7 @@ hackaday.com##.tags-links
 hackaday.com##.widget-follow-us
 
 ! HACKERNOON
+hackernoon.com###sponsorAdioPlayer:upward(2)
 hackernoon.com##*[class*="AdByTag__Container-"]
 hackernoon.com##*[class*="AuthorBio__Layout-"]
 hackernoon.com##*[class*="CallToAction__Layout-"]
@@ -10725,10 +10739,12 @@ hackernoon.com##*[class*="StoryAudio__AudioContainer"]
 hackernoon.com##*[class*="TopNavAd__Layout-"]
 hackernoon.com##.adLink:upward(1)
 hackernoon.com##.adbytag
+hackernoon.com##.author-info:upward(3)
 hackernoon.com##.bookmark
 hackernoon.com##.bottom-reactions
 hackernoon.com##.by
 hackernoon.com##.emojis-container
+hackernoon.com##.footer
 hackernoon.com##.header-handle
 hackernoon.com##.hide.story-nav
 hackernoon.com##.iubenda-cs-visible
@@ -10742,6 +10758,7 @@ hackernoon.com##.stat
 hackernoon.com##.tags
 hackernoon.com##.top-reactions
 hackernoon.com##:xpath(//section[child::h4[contains(text(), 'Tags')]])
+hackernoon.com##footer ~ *
 hackernoon.com##main > div:xpath(//h2[contains(text(), 'More in ')])
 hackernoon.com##main > div:xpath(//h2[contains(text(), 'More in ')]) ~ *
 
@@ -11638,6 +11655,11 @@ hostingadvice.com##.author-avatar
 hostingadvice.com##.author-info
 hostingadvice.com##.author-meta.row > .avatar
 hostingadvice.com##.description-social-wrapper
+
+! domains\hostingcanada.org.rules
+hostingcanada.org###hc-popup
+hostingcanada.org##.disclosure-component
+hostingcanada.org##.x-sidebar
 
 ! domains\hotdeals.com.rules
 www.hotdeals.com###goTop
@@ -13261,13 +13283,17 @@ itnext.io##[data-testid="authorName"]:upward(9)
 itnext.io##[data-testid="storyReadTime"]
 itnext.io##a:has-text(Open in app)
 itnext.io##a[href*="/membership"]
+itnext.io##a[href*="?source=post_page--"]
 itnext.io##a[href^="/@"]:upward(2)
 itnext.io##a[href^="/@"]:upward(4)
 itnext.io##a[href^="/tag/"]:upward(4)
 itnext.io##a[href^="https://medium.com/tag/"]:upward(4)
+itnext.io##article button[aria-label="Member-only story"]
+itnext.io##article:xpath(//span[contains(text(), "Published in")]):upward(2)
 itnext.io##aside
 itnext.io##button[aria-label="user options menu"]:upward(3)
 itnext.io##div > span > a[href*="-smart_meter-"]:upward(7)
+itnext.io##figcaption a:upward(1)
 itnext.io##footer + *
 itnext.io##h1 + div a[data-testid="authorName"]:upward(14)
 itnext.io##h2 > a:has-text(More from):upward(7)
@@ -14548,13 +14574,17 @@ levelup.gitconnected.com##[data-testid="authorName"]:upward(9)
 levelup.gitconnected.com##[data-testid="storyReadTime"]
 levelup.gitconnected.com##a:has-text(Open in app)
 levelup.gitconnected.com##a[href*="/membership"]
+levelup.gitconnected.com##a[href*="?source=post_page--"]
 levelup.gitconnected.com##a[href^="/@"]:upward(2)
 levelup.gitconnected.com##a[href^="/@"]:upward(4)
 levelup.gitconnected.com##a[href^="/tag/"]:upward(4)
 levelup.gitconnected.com##a[href^="https://medium.com/tag/"]:upward(4)
+levelup.gitconnected.com##article button[aria-label="Member-only story"]
+levelup.gitconnected.com##article:xpath(//span[contains(text(), "Published in")]):upward(2)
 levelup.gitconnected.com##aside
 levelup.gitconnected.com##button[aria-label="user options menu"]:upward(3)
 levelup.gitconnected.com##div > span > a[href*="-smart_meter-"]:upward(7)
+levelup.gitconnected.com##figcaption a:upward(1)
 levelup.gitconnected.com##footer + *
 levelup.gitconnected.com##h1 + div a[data-testid="authorName"]:upward(14)
 levelup.gitconnected.com##h2 > a:has-text(More from):upward(7)
@@ -15839,13 +15869,17 @@ medium.com##[data-testid="authorName"]:upward(9)
 medium.com##[data-testid="storyReadTime"]
 medium.com##a:has-text(Open in app)
 medium.com##a[href*="/membership"]
+medium.com##a[href*="?source=post_page--"]
 medium.com##a[href^="/@"]:upward(2)
 medium.com##a[href^="/@"]:upward(4)
 medium.com##a[href^="/tag/"]:upward(4)
 medium.com##a[href^="https://medium.com/tag/"]:upward(4)
+medium.com##article button[aria-label="Member-only story"]
+medium.com##article:xpath(//span[contains(text(), "Published in")]):upward(2)
 medium.com##aside
 medium.com##button[aria-label="user options menu"]:upward(3)
 medium.com##div > span > a[href*="-smart_meter-"]:upward(7)
+medium.com##figcaption a:upward(1)
 medium.com##footer + *
 medium.com##h2 > a:has-text(More from):upward(7)
 medium.com##h2:has-text(Enjoy the read? Reward the writer.):upward(3)
@@ -15892,13 +15926,17 @@ medium.easyread.co##[data-testid="authorName"]:upward(9)
 medium.easyread.co##[data-testid="storyReadTime"]
 medium.easyread.co##a:has-text(Open in app)
 medium.easyread.co##a[href*="/membership"]
+medium.easyread.co##a[href*="?source=post_page--"]
 medium.easyread.co##a[href^="/@"]:upward(2)
 medium.easyread.co##a[href^="/@"]:upward(4)
 medium.easyread.co##a[href^="/tag/"]:upward(4)
 medium.easyread.co##a[href^="https://medium.com/tag/"]:upward(4)
+medium.easyread.co##article button[aria-label="Member-only story"]
+medium.easyread.co##article:xpath(//span[contains(text(), "Published in")]):upward(2)
 medium.easyread.co##aside
 medium.easyread.co##button[aria-label="user options menu"]:upward(3)
 medium.easyread.co##div > span > a[href*="-smart_meter-"]:upward(7)
+medium.easyread.co##figcaption a:upward(1)
 medium.easyread.co##footer + *
 medium.easyread.co##h1 + div a[data-testid="authorName"]:upward(14)
 medium.easyread.co##h2 > a:has-text(More from):upward(7)
@@ -16004,6 +16042,8 @@ www.mensjournal.com##.content-byline
 www.mensjournal.com##.module-social-sharing
 
 ! MERRIAM WEBSTER DICTIONARY
+merriam-webster.com###related-articles
+merriam-webster.com###save-word-dropdown-menu-nav-item
 www.merriam-webster.com###subscribe-unabridged
 www.merriam-webster.com###unabridged-promo
 www.merriam-webster.com##*[class*="cafemedia-ad"]
@@ -19700,13 +19740,17 @@ proandroiddev.com##[data-testid="authorName"]:upward(9)
 proandroiddev.com##[data-testid="storyReadTime"]
 proandroiddev.com##a:has-text(Open in app)
 proandroiddev.com##a[href*="/membership"]
+proandroiddev.com##a[href*="?source=post_page--"]
 proandroiddev.com##a[href^="/@"]:upward(2)
 proandroiddev.com##a[href^="/@"]:upward(4)
 proandroiddev.com##a[href^="/tag/"]:upward(4)
 proandroiddev.com##a[href^="https://medium.com/tag/"]:upward(4)
+proandroiddev.com##article button[aria-label="Member-only story"]
+proandroiddev.com##article:xpath(//span[contains(text(), "Published in")]):upward(2)
 proandroiddev.com##aside
 proandroiddev.com##button[aria-label="user options menu"]:upward(3)
 proandroiddev.com##div > span > a[href*="-smart_meter-"]:upward(7)
+proandroiddev.com##figcaption a:upward(1)
 proandroiddev.com##footer + *
 proandroiddev.com##h1 + div a[data-testid="authorName"]:upward(14)
 proandroiddev.com##h2 > a:has-text(More from):upward(7)
@@ -20354,6 +20398,9 @@ www.redgifs.com##.trendingCreators
 www.redgifs.com##.trendingNiches
 www.redgifs.com##.trendingTags
 www.redgifs.com##[class*="AdUnit_wrapper"]
+
+! domains\redhat.com.rules
+redhat.com##.subscriber-content-block
 
 ! domains\redis.com.rules
 redis.com###gdpr-modal
@@ -21627,6 +21674,9 @@ shein.co.uk##.top-info
 shein.co.uk##body:style(overflow: auto !important;)
 shein.co.uk##div.product-list__item
 
+! domains\shellenergy.co.uk.rules
+shellenergy.co.uk##.sidebar-main
+
 ! SHIRE PLANTS
 shireplants.co.uk###instocknotify-container
 shireplants.co.uk##.banners
@@ -21823,6 +21873,13 @@ simplybook.me##body:style(overflow: auto !important;)
 simplyhired.co.uk##.JobAlertForm
 simplyhired.co.uk##.SerpJob-simplyApplyLabel
 simplyhired.co.uk##.btn-savejobs
+
+! domains\siteground.co.uk.rules
+siteground.co.uk##.promobars
+
+! domains\siteground.com.rules
+siteground.com##.sg-black-friday-2023--background
+siteground.com##[src^="https://login-banners.siteground.com"]
 
 ! SITEPOINT
 sitepoint.com###Free\ Tech\ Books
@@ -22381,6 +22438,7 @@ stackoverflow.com##.js-carousel-logos
 stackoverflow.com##.js-consent-banner
 stackoverflow.com##.js-create-team-cta
 stackoverflow.com##.js-dismissable-hero
+stackoverflow.com##.js-follow-post
 stackoverflow.com##.js-follow-question
 stackoverflow.com##.js-freemium-cta
 stackoverflow.com##.js-gps-related-tags
@@ -22822,6 +22880,9 @@ www.swooneditions.com##[class*="ProductCarousel-carouselTitle"]:has-text(Recomme
 www.swooneditions.com##[class*="Promo-promo-"]
 www.swooneditions.com##[class*="banner-root"]
 www.swooneditions.com##[class*="cookieConsent-cookieConsentOpen"]
+
+! domains\symbl.cc.rules
+symbl.cc##.page__aside-container
 
 ! SYMFONY
 symfony.com###sln
@@ -24934,6 +24995,21 @@ www.tindie.com###related_products
 www.tindie.com##.copyright
 www.tindie.com##.sharing-links
 
+! domains\tiny.cloud.rules
+tiny.cloud###newsletterSubscriptionEmailAddress:upward(6)
+tiny.cloud###optimize-bottom
+tiny.cloud###optimize-top
+tiny.cloud##.footer-brand
+tiny.cloud##.get-api-key
+tiny.cloud##.get-tinymce
+tiny.cloud##.nav-banner
+tiny.cloud##.notification-orange-bg
+tiny.cloud##.tiny-news-docs
+tiny.cloud##.toc-banner
+tiny.cloud##[data-test-id="button-www.tiny.cloud-auth-signup-test"]
+tiny.cloud##[data-test-id="link-www.linkedin.com-company-jointiny-test"]:upward(2)
+tiny.cloud##div[open]
+
 ! domains\tinypass.com.rules
 ||tinypass.com^
 
@@ -25531,13 +25607,17 @@ towardsdatascience.com##[data-testid="authorName"]:upward(9)
 towardsdatascience.com##[data-testid="storyReadTime"]
 towardsdatascience.com##a:has-text(Open in app)
 towardsdatascience.com##a[href*="/membership"]
+towardsdatascience.com##a[href*="?source=post_page--"]
 towardsdatascience.com##a[href^="/@"]:upward(2)
 towardsdatascience.com##a[href^="/@"]:upward(4)
 towardsdatascience.com##a[href^="/tag/"]:upward(4)
 towardsdatascience.com##a[href^="https://medium.com/tag/"]:upward(4)
+towardsdatascience.com##article button[aria-label="Member-only story"]
+towardsdatascience.com##article:xpath(//span[contains(text(), "Published in")]):upward(2)
 towardsdatascience.com##aside
 towardsdatascience.com##button[aria-label="user options menu"]:upward(3)
 towardsdatascience.com##div > span > a[href*="-smart_meter-"]:upward(7)
+towardsdatascience.com##figcaption a:upward(1)
 towardsdatascience.com##footer + *
 towardsdatascience.com##h1 + div a[data-testid="authorName"]:upward(14)
 towardsdatascience.com##h2 > a:has-text(More from):upward(7)
@@ -26359,6 +26439,9 @@ informatics.unep-wcmc.org##.tmblr-iframe--unified-controls
 
 ! UNICODE TABLE
 unicode-table.com##.main__top-ad
+
+! domains\unicode.org.rules
+home.unicode.org##.hero-content
 
 ! UNIDRAGON
 unidragon.eu##.announcement_mobile
@@ -27490,6 +27573,18 @@ webmd.com##aside
 
 ! domains\webpinp.com.rules
 ||webpinp.com^
+
+! domains\webtips.dev.rules
+webtips.dev##.inline-story
+webtips.dev##.pro
+webtips.dev##[href^="https://tldr.tech/signup"]
+webtips.dev##aside
+webtips.dev##astro-island[component-url^="/Actions."]
+webtips.dev##astro-island[component-url^="/Feedback."]
+webtips.dev##astro-island[component-url^="/Newsletter."]
+webtips.dev##astro-island[component-url^="/Newsletter."] ~ *
+webtips.dev##astro-island[component-url^="/UpgradeBanner."]
+webtips.dev##span[data-href^="/authors/"]
 
 ! WEBTOONS
 m.webtoons.com###_challengeRoundUpList
