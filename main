@@ -7024,7 +7024,6 @@ dobies.co.uk##.viewPopup
 ! DOCKER
 docker.com###consent_blackbar
 docker.com###footer .et-last-child
-docker.com###sidebar:upward(1)
 docker.com###social
 docker.com##.header-meta > .author
 docker.com##.progress-back-container
