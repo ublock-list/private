@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Fri, 10 Nov 2023 13:20:11 +0000
+! Last modified: Tue, 14 Nov 2023 08:30:12 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -36,6 +36,7 @@ www.123bigbags.com##[href="https://www.123bigbags.com/uk/your-own-print"]
 1337x.to##aside
 1337x.to##center
 1337x.to##footer
+1337x.to##h1:has-text(Remove all ads):upward(2)
 
 ! domains\1376341044.rsc.cdn77.org.rules
 ||1376341044.rsc.cdn77.org^
@@ -532,6 +533,7 @@ aliexpress.com##.nfm-sns
 aliexpress.com##.order-recommend
 aliexpress.com##.product-recommend
 aliexpress.com##.safe-info-hook
+aliexpress.com##.search-item-card-wrapper-gallery [class*="multi--ad--"]:upward(.search-item-card-wrapper-gallery)
 aliexpress.com##.search-item-card-wrapper-gallery span[class*="multi--ad"]:upward(.search-item-card-wrapper-gallery)
 aliexpress.com##.search-item-card-wrapper-list span[class*="multi--ad"]:upward(.search-item-card-wrapper-list)
 aliexpress.com##.sf-MultiLanguageSite
@@ -646,6 +648,12 @@ allaboutgardening.com##.site-banner
 allaboutgardening.com##.site-footer__logo
 allaboutgardening.com##.social
 allaboutgardening.com##div.site-footer__column:nth-of-type(1)
+
+! domains\alldocube.com.rules
+www.alldocube.com##.blog-author
+www.alldocube.com##.blog-meta > .blog-author
+www.alldocube.com##.popup-overlay
+www.alldocube.com##.right-bottom-subscribe-btn-wrap
 
 ! ALL IN LONDON
 www.allinlondon.co.uk###cookieconsent
@@ -871,6 +879,7 @@ amazon.*###iconFarmV2InsidePrimary_feature_div
 amazon.*###issuancePriceblockAmabot_feature_div
 amazon.*###machineTranslation_feature_div
 amazon.*###mbb_feature_div
+amazon.*###mir-layout-DELIVERY_BLOCK-slot-EXTENDED_DELIVERY_PROMISE_MESSAGE
 amazon.*###miraiBTFShopByLook_feature_div
 amazon.*###mobile-ads-top_feature_div
 amazon.*###mobileFamilyStripe_feature_div
@@ -939,6 +948,7 @@ amazon.*###sw-threshold-message
 amazon.*###swf-share-icon-container-mweb
 amazon.*###textLinkIngress_feature_div
 amazon.*###tradeInInstantSavings_feature_div
+amazon.*###twisterPlusWWDesktop
 amazon.*###twisterPlusWW_feature_div
 amazon.*###universal-detail-ilm
 amazon.*###universalHQP_feature_div
@@ -1160,6 +1170,7 @@ amazon.*##[data-csa-c-slot-id="desktop-yo-orderdetails-1"]
 amazon.*##[data-csa-c-slot-id="nav-link-amazonprime"]
 amazon.*##[data-properties*='"advertiserId"']
 amazon.*##[id*="sobe-dp-feature-"]
+amazon.*##div.a-color-secondary > div > span:has-text(Subscribe & Save):upward(.a-color-secondary)
 amazon.*##div[cel_widget_id="seo-related-keywords-pages_csm_instrumentation_wrapper"]
 amazon.*##div[id^="octopus-ajax-shell-OctopusJsonRenderWidgetAjaxShell"]
 amazon.*##div[id^="sims-mobile-consolidated-"]
@@ -2120,6 +2131,13 @@ www.atlassian.com##.component--author--small
 www.atlassian.com##.modular-social-bar
 
 ! domains\atomstack.com.rules
+atomstack.com##.boom-launcher-frame
+atomstack.com##.core__blocks .ecom__heading:has-text(Recommended for you):upward(.core__blocks)
+atomstack.com##.ecom-shopify__article--tags-wrapper
+atomstack.com##.ecom-shopify__article-author-information
+atomstack.com##.ecom-shopify__article-prev_next
+atomstack.com##.element__social
+atomstack.com##.swiper-wrapper
 www.atomstack.com##.announcement-bar
 www.atomstack.com##.ecom__heading:has-text(Related Product):upward(9)
 www.atomstack.com##.footer-payment-icons
@@ -2137,6 +2155,9 @@ www.atomstack.net##.nt_labels
 www.atomstack.net##.sticky_atc_shown
 www.atomstack.net##.type_shipping
 www.atomstack.net##.wishlistadd
+
+! domains\attacomsian.com.rules
+attacomsian.com##.sticky-lg-top
 
 ! domains\attraqt.com.rules
 ||attraqt.com^
@@ -2921,6 +2942,10 @@ www.beerhawk.co.uk##.payments
 www.beerhawk.co.uk##.usp-wrapper__fw
 
 ! domains\beersofeurope.co.uk.rules
+beersofeurope.co.uk##.order-confirm-social
+beersofeurope.co.uk##.products-other
+beersofeurope.co.uk##.social-container
+beersofeurope.co.uk##[href="https://www.beersofeurope.co.uk/loyalty-points"]
 www.beersofeurope.co.uk###cookieAcceptBar
 www.beersofeurope.co.uk##.block-social_follow
 www.beersofeurope.co.uk##.newsletter-wrapper
@@ -2949,6 +2974,15 @@ www.berghaus.com##.productRecommendations
 www.berghaus.com##.responsiveUsp
 www.berghaus.com##.sponsoredProducts
 www.berghaus.com##.stripBanner
+
+! domains\bestofbritishbeer.co.uk.rules
+bestofbritishbeer.co.uk###feefo-product-rating-container
+bestofbritishbeer.co.uk##.category-banner
+bestofbritishbeer.co.uk##.footer__bank-cards-wrapper
+bestofbritishbeer.co.uk##.newsletter-block
+bestofbritishbeer.co.uk##.upsell-wrapper
+bestofbritishbeer.co.uk##.usp
+bestofbritishbeer.co.uk##feefowidget-container-floating-service
 
 ! BEST RECIPIES UK
 bestrecipesuk.com###back-to-top
@@ -3187,9 +3221,12 @@ bitfly.io##.text-left
 ! BITIBA
 ! (inheriting rules from: zooplus.com.rules)
 bitiba.co.uk###autoshipment-banner
+bitiba.co.uk###autoshipment-offer-box-wrapper
 bitiba.co.uk###bonus-points-forecast-box-wrapper
 bitiba.co.uk###carbon-neutral-app
 bitiba.co.uk###js-footer-shops
+bitiba.co.uk###push-to-app
+bitiba.co.uk###stamp-card-forecast-box-wrapper
 bitiba.co.uk##*[data-zta="btn-goTop"]
 bitiba.co.uk##*[data-zta="recoSlider"]
 bitiba.co.uk##.banner__box
@@ -3208,6 +3245,7 @@ bitiba.co.uk##.shop-footer__newsletter-banner
 bitiba.co.uk##.shop-footer__payment-shipping-and-trust-logos-container
 bitiba.co.uk##.shop-footer__social-and-apps-container
 bitiba.co.uk##.slider__container
+bitiba.co.uk##.subscription__container
 bitiba.co.uk##.uxt-discount-banner
 bitiba.co.uk##.uxt-middle-banner
 bitiba.co.uk##.uxt-product-group-top-section
@@ -3261,6 +3299,7 @@ bitiba.co.uk##[class*="Wishlist_addToWishlistContainer"]
 bitiba.co.uk##[class*="ZooplusChoiceSign_zooplusChoiceDescriptionWrapper"]
 bitiba.co.uk##[class*="recommendations-slider-module_wrapper"]
 bitiba.co.uk##[data-zta="brand-carousel"]
+bitiba.co.uk##[data-zta="product-list-wrapper"] ~ *
 bitiba.co.uk##[id^="header-category-flyout-animal-special-offer"]
 bitiba.co.uk##a[id="Read more"]:upward(div)
 bitiba.co.uk##div[data-zta="cross-horizontal"]
@@ -3364,6 +3403,15 @@ www.bloomberg.com##.navi-markets-bar
 www.bloomberg.com##.navi-subscribe-link
 www.bloomberg.com##.paywall-inline-tout
 www.bloomberg.com##body:style(overflow: auto !important;)
+
+! domains\bluecinetech.co.uk.rules
+bluecinetech.co.uk###af-was
+bluecinetech.co.uk###right-sidebar
+bluecinetech.co.uk##.author
+bluecinetech.co.uk##.author-box
+bluecinetech.co.uk##.comments-area
+bluecinetech.co.uk##.footer-widgets
+bluecinetech.co.uk##.inside-article > .entry-meta
 
 ! domains\blueparrot.media.rules
 ||blueparrot.media^
@@ -3908,6 +3956,9 @@ brandalley.co.uk##.sales
 brandalley.co.uk##.social-links
 brandalley.co.uk##body:style(overflow: auto !important)
 
+! domains\brasserieblanc.com.rules
+brasserieblanc.com##.social:upward(1)
+
 ! domains\breakoutmanchester.com.rules
 breakoutmanchester.com##.clients-slider
 breakoutmanchester.com##.social
@@ -4347,6 +4398,9 @@ carbuzz.com##.cb-post__footer
 carbuzz.com##.cb-post__gallery-preview
 carbuzz.com##.cb-post__second-container
 carbuzz.com##.swiper-container-thumbs
+
+! domains\care.com.rules
+care.com##[href^="https://www.care.com/en-gb/join-now"]
 
 ! domains\careerkarma.com.rules
 careerkarma.com###fast-track-modal-window2
@@ -4811,6 +4865,23 @@ civilservicejobs.service.gov.uk###csr-cookie-message
 
 ! domains\ckk.ai.rules
 ||ckk.ai^
+
+! domains\claires.com.rules
+www.claires.com##.footer-item:nth-of-type(1)
+www.claires.com##.footer-item:nth-of-type(4)
+www.claires.com##.header-banner-left
+www.claires.com##.header-banner-loyalty
+www.claires.com##.header-banner-loyalty-page
+www.claires.com##.hero
+www.claires.com##.one-wrapper
+www.claires.com##.product-promo
+www.claires.com##.promos-two__products
+www.claires.com##.promotion
+www.claires.com##.quickview
+www.claires.com##.search-promo
+www.claires.com##[id*="-homepage-page"]
+www.claires.com##[id*="nav-2-"][id*="-trending"]
+www.claires.com##center
 
 ! domains\clickfunnels.com.rules
 ||clickfunnels.com^
@@ -6933,6 +7004,14 @@ dmarcly.com##.tags
 ! domains\dmgmediaprivacy.co.uk.rules
 ||dmgmediaprivacy.co.uk^
 
+! domains\dobbies.com.rules
+dobbies.com##.ms-dobbies-footer-newsletter
+dobbies.com##.ms-promo-banner__slot
+dobbies.com##.ms-write-review
+dobbies.com##.msc-add-to-wishlist
+dobbies.com##.msc-wishlist-icon
+dobbies.com##li a[href="https://www.facebook.com/DobbiesGC/"]:upward(ul)
+
 ! domains\dobies.co.uk.rules
 dobies.co.uk###offers_upsells_slider
 dobies.co.uk##.gardenSticky
@@ -6943,37 +7022,14 @@ dobies.co.uk##.social-footer-links
 dobies.co.uk##.viewPopup
 
 ! DOCKER
-! (inheriting rules from: discourse.org.rules)
-docker.com###banner
 docker.com###consent_blackbar
 docker.com###footer .et-last-child
 docker.com###sidebar:upward(1)
 docker.com###social
-docker.com###topic-progress-wrapper
-docker.com##.badge-wrapper
-docker.com##.bookmark
-docker.com##.btn-social
-docker.com##.expanded.post-controls
-docker.com##.flag-topic
-docker.com##.header-buttons
 docker.com##.header-meta > .author
-docker.com##.like
-docker.com##.onscreen-post.small-action
-docker.com##.post-controls
-docker.com##.post-links-container
 docker.com##.progress-back-container
 docker.com##.related-posts
-docker.com##.share
-docker.com##.share-and-invite
-docker.com##.signup-cta
-docker.com##.suggested-topics-wrapper
 docker.com##.tags
-docker.com##.timeline-footer-controls
-docker.com##.toggle-summary.information
-docker.com##.topic-category
-docker.com##.topic-map
-docker.com##.topic-map-expanded
-docker.com##.with-topic-progress
 docker.com##[class*="styles__welcomeBox"]
 
 ! DOCTOR FOX
@@ -7298,6 +7354,7 @@ ebay.*##*[data-pagetitle="Nectar"]
 ebay.*##*[id*="ad_html_"]
 ebay.*##*[id*="recommendation_"]
 ebay.*##.ITEM_CARD_CAROUSEL
+ebay.*##.ITEM_CARD_CAROUSEL_DIC_V2
 ebay.*##.all-listings-panel
 ebay.*##.app-financing-wrapper
 ebay.*##.app-merch-placement
@@ -7343,6 +7400,7 @@ ebay.*##.s-item__sep-on-bottom
 ebay.*##.s-item__title--tag
 ebay.*##.s-item__watchheart
 ebay.*##.s-results-tray
+ebay.*##.saved
 ebay.*##.seo-interlink
 ebay.*##.seo-pl__container
 ebay.*##.share-widget
@@ -7353,6 +7411,8 @@ ebay.*##.srp-related-searches
 ebay.*##.srp-river-answer
 ebay.*##.srp-river-footer
 ebay.*##.srp-save-search__tooltip
+ebay.*##.str-marketing-banner
+ebay.*##.str-survey
 ebay.*##.ux-labels-values--rewards
 ebay.*##.ux-layout-section--financing
 ebay.*##.verticals-tooltip
@@ -7363,8 +7423,10 @@ ebay.*##.vi-legal-text
 ebay.*##.vi-rewards-section
 ebay.*##.vi-share-widget-wrapper
 ebay.*##.vi-slt-instSale
+ebay.*##.vl-ad-row
 ebay.*##.vl-banner
 ebay.*##.vl-events-items
+ebay.*##.vl-loyalty
 ebay.*##.vl-nav-destinations
 ebay.*##.vl-popular-destinations
 ebay.*##.x-shop-with-confidence
@@ -8474,6 +8536,9 @@ find-open.co.uk##.pane-customer-care-customer-care-register
 find-open.co.uk##.social-icons-wrapper
 find-open.co.uk##.view-similar-business-nearby
 
+! domains\finder.com.rules
+finder.com##.standardMasthead__widgetSection
+
 ! domains\findmeagift.co.uk.rules
 www.findmeagift.co.uk###band-masthead
 www.findmeagift.co.uk###band-newsletter
@@ -8756,6 +8821,32 @@ forum.lightburnsoftware.com##.topic-map
 forum.lightburnsoftware.com##.topic-map-expanded
 forum.lightburnsoftware.com##.with-topic-progress
 
+! DOCKER
+! (inheriting rules from: discourse.org.rules)
+forums.docker.com###banner
+forums.docker.com###topic-progress-wrapper
+forums.docker.com##.badge-wrapper
+forums.docker.com##.bookmark
+forums.docker.com##.btn-social
+forums.docker.com##.expanded.post-controls
+forums.docker.com##.flag-topic
+forums.docker.com##.header-buttons
+forums.docker.com##.like
+forums.docker.com##.onscreen-post.small-action
+forums.docker.com##.post-controls
+forums.docker.com##.post-links-container
+forums.docker.com##.progress-back-container
+forums.docker.com##.share
+forums.docker.com##.share-and-invite
+forums.docker.com##.signup-cta
+forums.docker.com##.suggested-topics-wrapper
+forums.docker.com##.timeline-footer-controls
+forums.docker.com##.toggle-summary.information
+forums.docker.com##.topic-category
+forums.docker.com##.topic-map
+forums.docker.com##.topic-map-expanded
+forums.docker.com##.with-topic-progress
+
 ! FOSS HUB
 www.fosshub.com###fh-sd
 www.fosshub.com###fh-side-menu
@@ -8843,6 +8934,8 @@ freep.com##article > aside
 freep.com##main > article ~ *
 
 ! FRESHA
+fresha.com##[aria-labelledby="label-get-app"]
+fresha.com##[data-qa="cookie-accept-btn"]:upward(3)
 support.fresha.com##.article-page__related
 support.fresha.com##.article-votes
 support.fresha.com##.container--contact
@@ -9203,6 +9296,9 @@ www.game.co.uk##.extracopy
 www.game.co.uk##.frequently-bought
 www.game.co.uk##.pageHeaderModule
 www.game.co.uk##.pricesInfo
+
+! domains\game8.co.rules
+game8.co##.l-3colSide
 
 ! domains\gamedesigning.org.rules
 www.gamedesigning.org##.author-box
@@ -10522,6 +10618,9 @@ govisually.com##.elementor-widget-uael-posts
 ! domains\gpmojo.com.rules
 ||gpmojo.com^
 
+! domains\gpsearch.azurewebsites.net.rules
+gpsearch.azurewebsites.net###dWelcome
+
 ! GPU MAG
 www.gpumag.com##.author
 www.gpumag.com##.author-box
@@ -11100,6 +11199,12 @@ heycar.co.uk##[class*="SmartBanner_smartBanner"]
 heye-puzzle.de###BorlabsCookieBox
 heye-puzzle.de###sidebar
 heye-puzzle.de##.brand-box
+
+! domains\hide.co.uk.rules
+hide.co.uk###hide-home-popup
+
+! domains\hightrip.net.rules
+||hightrip.net^
 
 ! domains\hirebase.uk.rules
 www.hirebase.uk###notice-cookie-block
@@ -12417,6 +12522,9 @@ idealhome.co.uk##aside
 ! domains\ier.ai.rules
 ||ier.ai^
 
+! domains\ifixit.co.uk.rules
+ifixit.co.uk##.announcement-bar
+
 ! domains\ifixit.com.rules
 ifixit.com###author-container
 ifixit.com###pageStats
@@ -12696,11 +12804,15 @@ imgur.*##.welcome.Message
 imgur.*##:xpath(//div[child::a[contains(@class, 'Post-item') and descendant::div[contains(@class, 'Post-item-external-ad')]]])
 imgur.*##div.ShareButtons-shareMethod--wrapper
 imgur.*#@#.ShareButtons
+imgur.com##div > .Post-item > .Post-item-container > .AdHomeContainer:upward(3)
 imgur.com#@#.share
 
 ! domains\imgur.io.rules
 imgur.io##.AppBanner-container
 imgur.io##[id*="_noad_"]
+
+! domains\immigrationboards.com.rules
+immigrationboards.com###login_popup
 
 ! domains\immigrationhelp.org.rules
 www.immigrationhelp.org##.popover-c2a
@@ -13499,7 +13611,9 @@ jdsports.co.uk##.wish
 jdsports.co.uk##.wishlistAdd
 
 ! JELLYFIN
+features.jellyfin.org##.c-tag-list
 features.jellyfin.org##.l-powered
+features.jellyfin.org##.subtitle:has-text(Tags)
 features.jellyfin.org##.welcome-message
 forum.jellyfin.org###banner
 forum.jellyfin.org##.suggested-topics-wrapper
@@ -13525,6 +13639,7 @@ www.jessops.com##h2:has-text(Jessops Spotlight):upward(section)
 www.jessops.com##li:has-text(Special Offers on this Product):upward(div)
 
 ! JETBRAINS
+account.jetbrains.com##.sign-in-with-wrapper
 blog.jetbrains.com##.about-author
 blog.jetbrains.com##.author-post
 blog.jetbrains.com##.tag
@@ -13641,6 +13756,17 @@ jsonlint.com##footer
 
 ! domains\jumpwire.ai.rules
 jumpwire.ai##.bottom-2.fixed
+
+! domains\justanswer.co.uk.rules
+www.justanswer.co.uk##.accepted-answer-cta
+www.justanswer.co.uk##.cards-wrapper
+www.justanswer.co.uk##.th-chat-google-reengagement-window
+www.justanswer.co.uk##.th-footer-logos-int
+www.justanswer.co.uk##.th-gqa-expert-card
+www.justanswer.co.uk##.th-gqa-question-box
+www.justanswer.co.uk##.th-inline-question-box
+www.justanswer.co.uk##.th-social-sharing
+www.justanswer.co.uk##.tiles-wrapper
 
 ! JUST ANSWER
 www.justanswer.com##.answer-time
@@ -13825,6 +13951,12 @@ www.kentonline.co.uk##.TrendList
 www.kentonline.co.uk##.authorEmail
 www.kentonline.co.uk##.authorName
 www.kentonline.co.uk##.podcast
+
+! domains\kenwoodworld.com.rules
+www.kenwoodworld.com##.ken-benefit__wrapper
+www.kenwoodworld.com##.ken-payment-links
+www.kenwoodworld.com##.ken-quicklinks__wrapper
+www.kenwoodworld.com##.ken-social-links
 
 ! domains\kerrang.com.rules
 kerrang.com##h2:has-text(Check out more:):upward(2)
@@ -14089,6 +14221,7 @@ knowyourmeme.com###leaderboard
 knowyourmeme.com###news_feeds
 knowyourmeme.com###photos
 knowyourmeme.com###related-entries
+knowyourmeme.com###related_memes
 knowyourmeme.com###section_header_wrap > .c
 knowyourmeme.com###tag-links
 knowyourmeme.com###trending-bar
@@ -14302,6 +14435,7 @@ www.laptopsdirect.co.uk##img[src*="-banner"]
 laravel.com###skip-to-content-link + div.hidden
 laravel.com##a[href="https://laracasts.com"]
 laravel.com##aside nav + div
+laravel.com##div > div > a[href="https://laravel.bigcartel.com"]:upward(2)
 laravel.com##footer
 laravel.com##header > div.hidden
 laravel.com##img[src^="/images/companies/"]:upward(2)
@@ -16042,6 +16176,9 @@ www.mensjournal.com##.content-byline
 www.mensjournal.com##.module-social-sharing
 
 ! MERRIAM WEBSTER DICTIONARY
+merriam-webster.com###mw-global-nav-joinmwu
+merriam-webster.com###mw-global-nav-shop
+merriam-webster.com###mw-global-nav-wod
 merriam-webster.com###related-articles
 merriam-webster.com###save-word-dropdown-menu-nav-item
 www.merriam-webster.com###subscribe-unabridged
@@ -16356,6 +16493,11 @@ mod.uk##.news-article__footer
 mod.uk##.news-article__sidebar
 mod.uk##.share
 royalnavy.mod.uk##.pageopts
+
+! domains\modelshop.co.uk.rules
+modelshop.co.uk##.MainFooter .last
+modelshop.co.uk##.RecentlyViewed
+modelshop.co.uk##.RelatedItems
 
 ! MODERN CSS
 moderncss.dev###site-footer
@@ -17388,6 +17530,11 @@ ncbi.nlm.nih.gov##.social_media
 ncbi.nlm.nih.gov##.switch-version-button
 pubmed.ncbi.nlm.nih.gov##.usa-banner
 
+! domains\nikitahl.com.rules
+nikitahl.com##.footer-icons
+nikitahl.com##.pagination
+nikitahl.com##.tags-container
+
 ! domains\ninja-recipes.uk.rules
 ninja-recipes.uk##.basil-comments-area
 ninja-recipes.uk##.basil-right
@@ -17654,6 +17801,11 @@ www.novatech.co.uk##.payment-options
 www.novatech.co.uk##.recent-posts
 www.novatech.co.uk##.seo-container
 www.novatech.co.uk##.tp-widget
+
+! domains\npmjs.com.rules
+npmjs.com###footer > div:first-child
+npmjs.com###header + div
+npmjs.com##.pv4
 
 ! domains\npr.org.rules
 www.npr.org###end-of-story-recommendations-mount
@@ -18122,7 +18274,9 @@ discourse.osmc.tv##.more-topics__container
 discourse.osmc.tv##.more-topics__lists
 discourse.osmc.tv##.signup-cta
 discourse.osmc.tv##.topic-map
+osmc.tv##.cross-sells
 osmc.tv##.share
+osmc.tv##.show.up
 osmc.tv##.sidebar
 osmc.tv##.up
 
@@ -18847,6 +19001,10 @@ www.petmd.com##[class*="social_media_follow_us"]
 
 ! PETS 4 HOMES
 pets4homes.co.uk##.react-share__ShareButton:upward(2)
+pets4homes.co.uk##[data-component="ArticlesNewsletter"]
+pets4homes.co.uk##[data-component="FooterAppStore"]:upward(div)
+pets4homes.co.uk##[data-component="FooterBrands"]
+pets4homes.co.uk##[data-testid="top-ad"]
 www.pets4homes.co.uk##.rescue-campaign
 
 ! domains\petsathome.com.rules
@@ -18970,6 +19128,14 @@ pi-hole.net##a[href="https://pi-hole.net/donate"]
 pi-hole.net##a[href="https://pi-hole.net/donate/#sponsorship"]
 
 ! PIMORONI
+pimoroni.com###benefits
+pimoroni.com###brand_links
+pimoroni.com###footer
+pimoroni.com###image_banner
+pimoroni.com###max_warning
+pimoroni.com###menu_brand_account
+pimoroni.com###wishlist
+pimoroni.com##a.new > span
 shop.pimoroni.com##.benefits-container
 
 ! PI MY LIFE UP
@@ -19125,6 +19291,7 @@ plex.tv##.header-buttons
 plex.tv##.like
 plex.tv##.live-on-plex
 plex.tv##.mediaverse-blocks
+plex.tv##.more-topics__container
 plex.tv##.onscreen-post.small-action
 plex.tv##.platform-logos
 plex.tv##.plexview-dynamic-cta-content
@@ -19139,6 +19306,7 @@ plex.tv##.suggested-topics-wrapper
 plex.tv##.timeline-footer-controls
 plex.tv##.toggle-summary.information
 plex.tv##.topic-category
+plex.tv##.topic-header-extra
 plex.tv##.topic-map
 plex.tv##.topic-map-expanded
 plex.tv##.watchlist
@@ -19433,6 +19601,7 @@ pornhub.com##.trendingNowWrapper
 pornhub.com##.trendingWrapper
 pornhub.com##.underThumbButtons
 pornhub.com##.underplayerAd
+pornhub.com##.uploadBtnContent
 pornhub.com##.userActions
 pornhub.com##.userButtonsMenu
 pornhub.com##.userContainer
@@ -21491,6 +21660,13 @@ www.seattletimes.com##.article-share
 www.seattletimes.com##.extended-byline
 www.seattletimes.com##.secondary-nav-mobile
 
+! domains\sebhastian.com.rules
+sebhastian.com##.author
+sebhastian.com##.badge
+sebhastian.com##.navbar-brand
+sebhastian.com##.sidebar-area
+sebhastian.com##a[href="/newsletter"]
+
 ! SECRET CINEMA
 tickets.secretcinema.org##.c-cookieBanner
 
@@ -22896,6 +23072,11 @@ symfony.com##.sln-highlight
 symfony.com##.symfony-ecosystem
 symfony.com##.top-horizontal-highlight
 
+! domains\synoforum.com.rules
+synoforum.com##.ab-similarThreads
+synoforum.com##.cxf-sib
+synoforum.com##.p-body-sidebar
+
 ! domains\synthetix.com.rules
 ||synthetix.com^
 
@@ -23871,6 +24052,7 @@ tesco.com##[class*="styles__StyledPromotionsMobile"]
 ||textforex2.info^
 
 ! domains\tfl.gov.uk.rules
+tfl.gov.uk##.fav-menu
 tfl.gov.uk##.google-ads
 
 ! TFT CENTRAL
@@ -24253,6 +24435,12 @@ thehill.com##.load-comments-disqus
 thehill.com##.share-box
 thehill.com##.social-list
 
+! domains\thehonestcarpenter.com.rules
+thehonestcarpenter.com##.et_extra_other_module
+thehonestcarpenter.com##.et_pb_extra_column_sidebar
+thehonestcarpenter.com##.post-nav
+thehonestcarpenter.com##[href="https://amzn.to/31jZvud"]
+
 ! domains\theicongenerator.com.rules
 ||theicongenerator.com^
 
@@ -24328,19 +24516,33 @@ theoodie.com##[class*="tag__"]
 
 ! THE PI HUT
 thepihut.com###shopify-section-text-with-icons
+thepihut.com##.announcement-bar
+thepihut.com##.article-relatives
+thepihut.com##.article-votes
 thepihut.com##.collection-list
 thepihut.com##.featured-collection
 thepihut.com##.featured-collection-custom-section
+thepihut.com##.footer__aside
 thepihut.com##.footer__aside-item--copyright
 thepihut.com##.footer__aside-item--payment
 thepihut.com##.footer__block-item--social
+thepihut.com##.footer__item--social-media
+thepihut.com##.footer__payment-methods
 thepihut.com##.footer__social-media
+thepihut.com##.hero
 thepihut.com##.newsletter-custom-section
+thepihut.com##.predictive-search__popular-products
+thepihut.com##.predictive-search__popular-searches
 thepihut.com##.product-block-list__item--trust
+thepihut.com##.product-cross-sell
+thepihut.com##.product-item__label-list
 thepihut.com##.product-meta__share-buttons
 thepihut.com##.product__compatibility
 thepihut.com##.product__cross-sell
 thepihut.com##.shareSection
+thepihut.com##.shopify-section--newsletter
+thepihut.com##.shopify-section--text-with-icons
+thepihut.com##.social-media
 
 ! THE POINT NEWS
 thepointnews.uk###cookie-law-info-bar
@@ -25646,6 +25848,7 @@ tox.chat##.fa-facebook:upward(2)
 
 ! domains\tp-link.com.rules
 tp-link.com###article-feedback
+tp-link.com###linkedin-follow
 tp-link.com###related-article
 tp-link.com##.article-community-wrapper
 tp-link.com##.article-related-faq
@@ -25833,6 +26036,7 @@ tripadvisor.*##[data-automation="WebPresentation_AttractionProductAboutTheOperat
 tripadvisor.*##[data-automation="WebPresentation_MediumCardsCarouselWeb"]:upward(section)
 tripadvisor.*##[data-automation="WebPresentation_NarrowCardsCarousel"] h2:has-text(Shop Tickets):upward(section)
 tripadvisor.*##[data-automation="WebPresentation_TabbedSectionWeb"]:upward(section)
+tripadvisor.*##[data-test-target="restaurants-list"] > div[class]
 tripadvisor.*##[id*="taplc_hotels_faq_dusty_hotels_resp"]
 tripadvisor.*##a > section span:has-text(SPONSORED BY):upward(a):upward(2)
 tripadvisor.*##a[href="/Trips"]
@@ -26328,6 +26532,14 @@ www.uk-timber.co.uk##.page-product-box:nth-of-type(2)
 www.uk-timber.co.uk##.print
 www.uk-timber.co.uk##.sendtofriend
 
+! domains\uk-yankee.com.rules
+talk.uk-yankee.com###announcement
+talk.uk-yankee.com###box_total_likes
+talk.uk-yankee.com###main_content_section > .topic_table.tborder > .board-bg.info
+talk.uk-yankee.com###overlay
+talk.uk-yankee.com##.header-news
+talk.uk-yankee.com##.social-icons
+
 ! domains\ukgymequipment.com.rules
 www.ukgymequipment.com###salesfire-app
 www.ukgymequipment.com###salesfire-overlay
@@ -26623,6 +26835,7 @@ vectops.com###cookie-law-info-bar
 vectops.com##.breadcrumb
 vectops.com##.meta-info-author
 vectops.com##.p-cat-info
+vectops.com##.sidebar-sticky
 vectops.com##.single-bottom-section
 vectops.com##.single-bottom-share
 vectops.com##.single-box
@@ -28446,6 +28659,11 @@ windowsreport.com##.wr-layout-related-posts-container
 windowsreport.com##.yoast-link-suggestion__value:upward(3)
 windowsreport.com##a[href^="https://windowsreport.com/author/"]
 
+! domains\winscp.net.rules
+winscp.net##.forum-post-content-reply
+winscp.net##.sidebar
+winscp.net##[href="https://www.facebook.com/winscp/"]:upward(div)
+
 ! domains\wired.co.uk.rules
 www.wired.co.uk##.iframe-embed
 
@@ -28740,12 +28958,15 @@ www.xtool.com##.product-page-info__description1
 www.xtool.com##.vidjet-iframe
 www.xtool.com##plugin-redirect-bar
 www.xtool.com##plugin-turntable
+xtool.com###topbar
 xtool.com##.affirm-as-wrapper
+xtool.com##.aph_bar_bar
 xtool.com##.btn--animation-shake:style(animation: none !important;)
 xtool.com##.cbb-frequently-bought-container
 xtool.com##.dropdown__🍀St\.-Patrick\'s-Day-Sale
 xtool.com##.dropdown__💰Start-Side-Hustle
 xtool.com##.footbar-product
+xtool.com##.footbar-product-new
 xtool.com##.footer__copyright
 xtool.com##.footer__payments
 xtool.com##.footer__subscription
@@ -28760,6 +28981,8 @@ xtool.com##.proof-factor-app
 xtool.com##.top-banner
 xtool.com##body:style(overflow: auto !important;)
 xtool.com##img[src*="banner"]
+xtool.com##li [href="/pages/dog-lover-sale"]:upward(li)
+xtool.com##li [href="/pages/small-business"]:upward(li)
 
 ! XVIDEOS
 www.xvideos.com###ad-footer
@@ -29338,9 +29561,12 @@ zoopla.co.uk##aside
 
 ! ZOOPLUS
 zooplus.*###autoshipment-banner
+zooplus.*###autoshipment-offer-box-wrapper
 zooplus.*###bonus-points-forecast-box-wrapper
 zooplus.*###carbon-neutral-app
 zooplus.*###js-footer-shops
+zooplus.*###push-to-app
+zooplus.*###stamp-card-forecast-box-wrapper
 zooplus.*##*[data-zta="btn-goTop"]
 zooplus.*##*[data-zta="recoSlider"]
 zooplus.*##.banner__box
@@ -29359,6 +29585,7 @@ zooplus.*##.shop-footer__newsletter-banner
 zooplus.*##.shop-footer__payment-shipping-and-trust-logos-container
 zooplus.*##.shop-footer__social-and-apps-container
 zooplus.*##.slider__container
+zooplus.*##.subscription__container
 zooplus.*##.uxt-discount-banner
 zooplus.*##.uxt-middle-banner
 zooplus.*##.uxt-product-group-top-section
@@ -29412,6 +29639,7 @@ zooplus.*##[class*="Wishlist_addToWishlistContainer"]
 zooplus.*##[class*="ZooplusChoiceSign_zooplusChoiceDescriptionWrapper"]
 zooplus.*##[class*="recommendations-slider-module_wrapper"]
 zooplus.*##[data-zta="brand-carousel"]
+zooplus.*##[data-zta="product-list-wrapper"] ~ *
 zooplus.*##[id^="header-category-flyout-animal-special-offer"]
 zooplus.*##a[id="Read more"]:upward(div)
 zooplus.*##div[data-zta="cross-horizontal"]
