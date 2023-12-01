@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Fri, 1 Dec 2023 09:31:50 +0000
+! Last modified: Fri, 1 Dec 2023 09:37:24 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -22740,24 +22740,68 @@ stackblitz.com##.team-teaser
 ||stackcommerce.com^
 
 ! STACK EXCHANGE
+! (inheriting rules from: stackoverflow.com.rules)
+stackexchange.com###announcement-banner
 stackexchange.com###feed-link
+stackexchange.com###inline_related_see_more
+stackexchange.com###inline_related_var_a_less
+stackexchange.com###js-ai-search-alpha-popover
+stackexchange.com###nav-collective-discover
+stackexchange.com###nav-labs-discussions
+stackexchange.com###noscript-warning
+stackexchange.com###openid-buttons
 stackexchange.com###question-header .s-btn
+stackexchange.com###saves-launch-popover
+stackexchange.com###tags-browser .fs-caption
 stackexchange.com##.bottom-notice
+stackexchange.com##.everyonelovesstackoverflow
 stackexchange.com##.facebook-login
+stackexchange.com##.fc-light:has-text(Part of):has-text(Collective)
+stackexchange.com##.fc-orange-400:has-text(Trending sort available)
 stackexchange.com##.google-login
+stackexchange.com##.iconBookmark
 stackexchange.com##.jc-space-between
+stackexchange.com##.js-ai-search-alpha-banner
+stackexchange.com##.js-answer-help
+stackexchange.com##.js-carousel-logos
 stackexchange.com##.js-consent-banner
+stackexchange.com##.js-create-team-cta
 stackexchange.com##.js-dismissable-hero
+stackexchange.com##.js-follow-post
 stackexchange.com##.js-follow-question
 stackexchange.com##.js-freemium-cta
+stackexchange.com##.js-gps-related-tags
+stackexchange.com##.js-io-animation
+stackexchange.com##.js-launch-popover-toggle
+stackexchange.com##.js-post-issue
+stackexchange.com##.js-saves-btn
 stackexchange.com##.js-share-link
 stackexchange.com##.js-teams-promo
+stackexchange.com##.nav-links .nav-links > li:has-text(Collectives)
+stackexchange.com##.nav-links .nav-links > li:has-text(Labs)
+stackexchange.com##.new-contributor-indicator
+stackexchange.com##.new-login-form
+stackexchange.com##.new-post-login:upward(#post-form)
+stackexchange.com##.p-home-company
+stackexchange.com##.p-wrapper-home
+stackexchange.com##.post-notice
 stackexchange.com##.post-taglist
 stackexchange.com##.privacy-policy-agreement
+stackexchange.com##.s-btn__facebook
+stackexchange.com##.s-post-summary--meta-tags
 stackexchange.com##.s-sidebarwidget
+stackexchange.com##.s-topbar:style(margin-top: 0 !important;)
 stackexchange.com##.show-votes
+stackexchange.com##.sidebar-related
 stackexchange.com##.site-footer--copyright
 stackexchange.com##.tex2jax_ignore.module
+stackexchange.com##:xpath(//ol[contains(@class, 'nav-links')]/li[child::div[contains(text(), 'Collectives')]])
+stackexchange.com##:xpath(//ol[contains(@class, 'nav-links')]/li[child::div[contains(text(), 'Collectives')]]) ~ *
+stackexchange.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')])
+stackexchange.com##:xpath(//ol[contains(@class, 'nav-links')]/li[contains(text(), 'Find a Job')]) ~ *
+stackexchange.com##[aria-controls="teams-were-moved-popover"]
+stackexchange.com##[href="https://careers.stackoverflow.com/employer/login"]:upward(1)
+stackexchange.com##li.js-collectives-navcta-toggle
 
 ! domains\stackify.com.rules
 stackify.com##.author-meta
