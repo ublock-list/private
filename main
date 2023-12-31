@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Sun, 24 Dec 2023 18:52:45 +0000
+! Last modified: Sun, 31 Dec 2023 18:03:23 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -5238,6 +5238,17 @@ comicbook.com##.channel-nav
 comicbook.com##.js-activateComments
 comicbook.com##.mid-content-comment
 
+! domains\comicbookmovie.com.rules
+comicbookmovie.com###grow-me-in-content-recs-root
+comicbookmovie.com###right
+comicbookmovie.com##.author
+comicbookmovie.com##.comments
+comicbookmovie.com##.desktopHeadlines
+comicbookmovie.com##.disclaimer
+comicbookmovie.com##.type
+comicbookmovie.com##[id*="recommendedArticle"]
+comicbookmovie.com##[id*="relatedArtcle"]
+
 ! domains\commento.io.rules
 ||commento.io^
 
@@ -8461,6 +8472,7 @@ fandom.com##.global-footer__section-ddb-stores
 fandom.com##.global-footer__section-fandom-stores
 fandom.com##.global-footer__section-social-links
 fandom.com##.global-navigation
+fandom.com##.global__register-link
 fandom.com##.notifications-box
 fandom.com##.rcs-container
 fandom.com##.recirculation-prefooter
@@ -13517,7 +13529,9 @@ www.it-jobs.co.uk##.search-filters--related
 
 ! ITCH
 itch.io###user_tools
+itch.io##.active_site_promotion
 itch.io##.anon_intro
+itch.io##.youtube_banner
 itch.io##.youtube_mobile_banner_widget
 
 ! domains\itnext.io.rules
@@ -17366,7 +17380,9 @@ www.netdoctor.co.uk##.transporter
 www.netdoctor.co.uk##.vertical-ad
 
 ! NETFLIX
+netflix.com##.btn-get-started
 netflix.com##.flexibleModule h2:has-text(Related):upward(.flexibleModule)
+netflix.com##.nm-content-header-text
 netflix.com##.page-kind-ARTICLE .boxShot:upward(1)
 netflix.com##.page-kind-ARTICLE > .listItem
 netflix.com##.pageFooter
@@ -17679,6 +17695,16 @@ nextdoor.co.uk##body:style(overflow: auto !important;)
 ! domains\nextgen-technology.net.rules
 ford-eu3.nextgen-technology.net##.survey-popup
 
+! domains\nextofwindows.com.rules
+nextofwindows.com###comments
+nextofwindows.com##.crp_related
+nextofwindows.com##.entry-crumbs
+nextofwindows.com##.footer-logo-wrap
+nextofwindows.com##.td-main-sidebar
+nextofwindows.com##.td-post-author-name
+nextofwindows.com##.td-post-comments
+nextofwindows.com##.td-post-source-tags
+
 ! NGINX
 www.nginx.com###nx_gdpr_modal2
 www.nginx.com##.blog-author-wrap
@@ -17930,9 +17956,6 @@ www.nme.com##.site-footer-mailing-list
 www.nme.com##.site-footer-social
 www.nme.com##.tdb-author-name-wrap
 www.nme.com##.tdb_single_tags
-
-! domains\nocookie.net.rules
-||nocookie.net^
 
 ! NODE JS
 nodejs.org##.contributor-card
@@ -27521,6 +27544,7 @@ marketplace.visualstudio.com###survey-container
 ||visualwebsiteoptimizer.com^
 
 ! domains\vitejs.dev.rules
+vitejs.dev##.container > .aside
 vitejs.dev##.social-links
 
 ! VIVASTREET
@@ -29001,6 +29025,13 @@ www.windowslatest.com##.td-post-source-tags
 www.windowslatest.com##.td-ss-main-sidebar
 www.windowslatest.com##.td_block_related_posts
 
+! domains\windowsloop.com.rules
+windowsloop.com###comments
+windowsloop.com##.ast-breadcrumbs-wrapper
+windowsloop.com##.entry-meta
+windowsloop.com##.jp-relatedposts
+windowsloop.com##.secondary
+
 ! domains\windowsreport.com.rules
 windowsreport.com##.article-details__bottom
 windowsreport.com##.article-details__meta__second-author
@@ -29669,6 +29700,8 @@ youtube.com##.ytp-ce-element
 youtube.com##.ytp-ce-element-show
 youtube.com##.ytp-chrome-top-buttons
 youtube.com##.ytp-impression-link
+youtube.com##.ytp-title-channel-logo
+youtube.com##.ytp-title-expanded-overlay
 youtube.com##.ytp-watch-later-icon
 youtube.com##:xpath(//ytd-badge-supported-renderer[text()="Fundraiser"])
 youtube.com##:xpath(//ytd-compact-movie-renderer[child::span[contains(text(), 'Buy or rent')]])
