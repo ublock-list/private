@@ -118,7 +118,6 @@ www.360ss.com##.icons
 3dsourced.com##.site-footer
 3dsourced.com##.template-c--left-sidebar
 3dsourced.com##.wp-block-affiliate-plugin-lasso
-3dsourced.com##[class*="adthrive"]
 3dsourced.com##a[href^="https://3dsourced.com/author/"]:upward(1)
 3dsourced.com##a[href^="https://amazon."]
 3dsourced.com##a[href^="https://bit.ly/"]
