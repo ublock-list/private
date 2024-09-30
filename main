@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Mon, 30 Sep 2024 15:38:07 +0100
+! Last modified: Mon, 30 Sep 2024 16:17:17 +0100
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -112,7 +112,20 @@ www.360ss.com##.icons
 
 ! domains\3dsourced.com.rules
 3dsourced.com##.adthrive
+3dsourced.com##.novashare-buttons
+3dsourced.com##.novashare-buttons ~ *
+3dsourced.com##.rank-math-breadcrumb
+3dsourced.com##.site-footer
+3dsourced.com##.template-c--left-sidebar
+3dsourced.com##.wp-block-affiliate-plugin-lasso
 3dsourced.com##[class*="adthrive"]
+3dsourced.com##a[href^="https://3dsourced.com/author/"]:upward(1)
+3dsourced.com##a[href^="https://amazon."]
+3dsourced.com##a[href^="https://bit.ly/"]
+3dsourced.com##a[rel*="sponsored"]
+3dsourced.com##img.avatar
+3dsourced.com##p:has-text(you may also enjoy)
+3dsourced.com##p:has-text(you may also enjoy) ~ *
 
 ! domains\3printr.com.rules
 3printr.com##.cp-optin-container
@@ -764,14 +777,17 @@ all3dp.com##.all3dp-affiliated
 all3dp.com##.amazondeal-note
 all3dp.com##.article-header__disclaimer
 all3dp.com##.article-link
-all3dp.com##.aside-layout
+all3dp.com##.aside-layout__aside
 all3dp.com##.author-teaser
+all3dp.com##.ax-navbar-categorie-pro
 all3dp.com##.disqus-comments
 all3dp.com##.navbar-button--boxed
 all3dp.com##.navbar__craftcloud
 all3dp.com##.navbar__get-it-printed
 all3dp.com##.navbar__notification
 all3dp.com##.navbar__pro
+all3dp.com##.newsletter
+all3dp.com##.teaser-header
 
 ! domains\allaboutgardening.com.rules
 allaboutgardening.com##.adthrive-ad
@@ -30241,6 +30257,8 @@ thingiverse.com##[class*="ButtonCounterWrapper"]
 thingiverse.com##[class*="CallsToAction__callsToAction"]
 thingiverse.com##[class*="DetailPageCounterButtons__counterButtons"]
 thingiverse.com##[class*="SearchResults__searchResultsFiverrCard"]
+www.thingiverse.com##[class*="HomePage__homePageDiscoverCTA"]
+www.thingiverse.com##[class*="ItemCardContent__itemCardContentFlagWrapper"]
 
 ! domains\thirtybees.com.rules
 thirtybees.com##.cGuestTeaser
