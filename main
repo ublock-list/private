@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Mon, 30 Sep 2024 16:17:17 +0100
+! Last modified: Mon, 30 Sep 2024 17:16:24 +0100
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -778,15 +778,23 @@ all3dp.com##.article-header__disclaimer
 all3dp.com##.article-link
 all3dp.com##.aside-layout__aside
 all3dp.com##.author-teaser
+all3dp.com##.ax-navbar-categorie-formnext-2024
 all3dp.com##.ax-navbar-categorie-pro
+all3dp.com##.ax-pro-navbar-formnext-2024
+all3dp.com##.ax-pro-navbar-pro-logo
+all3dp.com##.ax-pro-navbar-pro-newsletter
 all3dp.com##.disqus-comments
+all3dp.com##.footer
+all3dp.com##.license
 all3dp.com##.navbar-button--boxed
 all3dp.com##.navbar__craftcloud
 all3dp.com##.navbar__get-it-printed
 all3dp.com##.navbar__notification
 all3dp.com##.navbar__pro
 all3dp.com##.newsletter
+all3dp.com##.push-notification
 all3dp.com##.teaser-header
+all3dp.com##h3:has-text(You May Also Like)
 
 ! domains\allaboutgardening.com.rules
 allaboutgardening.com##.adthrive-ad
@@ -9294,6 +9302,15 @@ electromix.co.uk##.block_newsletter
 electromix.co.uk##.social-sharing
 
 ! domains\elegoo.com.rules
+elegoo.com##.footer
+elegoo.com##.klarna-osm-widget
+elegoo.com##.payment-icons
+elegoo.com##.pp-message-wrapper
+elegoo.com##.product-add-to-cart-sticky
+elegoo.com##.product-recommendations
+elegoo.com##.qbk-product-offer
+elegoo.com##.qbk-today-offers
+elegoo.com##.scrolling-text
 www.elegoo.com###conversions_sp_root
 www.elegoo.com##.announcement-bar
 www.elegoo.com##.toolbar
@@ -30255,6 +30272,8 @@ thingiverse.com##[class*="Avatar__avatarWrapper"]:upward(3)
 thingiverse.com##[class*="ButtonCounterWrapper"]
 thingiverse.com##[class*="CallsToAction__callsToAction"]
 thingiverse.com##[class*="DetailPageCounterButtons__counterButtons"]
+thingiverse.com##[class*="DetailPageSidebar__detailPageSidebarContainer"]
+thingiverse.com##[class*="HomePageBanner__homeBannerSlide"]
 thingiverse.com##[class*="SearchResults__searchResultsFiverrCard"]
 www.thingiverse.com##[class*="HomePage__homePageDiscoverCTA"]
 www.thingiverse.com##[class*="ItemCardContent__itemCardContentFlagWrapper"]
