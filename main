@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Thu, 21 Nov 2024 16:11:02 +0000
+! Last modified: Sat, 23 Nov 2024 17:33:14 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -9095,7 +9095,6 @@ duckduckgo.com##.result__sitelinks__scrolling-container
 duckduckgo.com##.results--sidebar
 duckduckgo.com##.social
 duckduckgo.com##.tag-home
-duckduckgo.com##.tile-wrap
 duckduckgo.com##.user-loc-cta
 duckduckgo.com##.user-loc-tooltip
 duckduckgo.com##.zci--calculator
@@ -9103,13 +9102,14 @@ duckduckgo.com##.zci--dictionary_definition
 duckduckgo.com##[class*="header_logoStacked"]
 duckduckgo.com##[class*="home_belowTheFoldContainer"]
 duckduckgo.com##[class*="home_exploreFeatureScroller"]
+duckduckgo.com##[class*="minimal-homepage_minimalHeroLogo"]
 duckduckgo.com##[class*="mobile-homepage_atbBadge"]
 duckduckgo.com##[class*="searchbox_suggestions"]
 duckduckgo.com##[class*="tagline_tagline"]
+duckduckgo.com##[data-testid="feedback-prompt"]
 duckduckgo.com##[data-testid="privacy-reminder"]:upward(4)
 duckduckgo.com##a[href*="&ia=chat"]
 duckduckgo.com##li > a[href^="https://duckduckgo.com/"][href*="&ia=chat"]:upward(li)
-start.duckduckgo.com##[class*="minimal-homepage_minimalHeroLogo"]
 
 ! domains\dulux.co.uk.rules
 dulux.co.uk##.as_chat_icon
@@ -21009,10 +21009,16 @@ multiup.io##.content-body form ~ *
 
 ! MUMSNET
 mumsnet.com###footer-subscribe-button:upward(2)
+mumsnet.com##.basket-atb-button
 mumsnet.com##.fixed
 mumsnet.com##.h-native-ad-sm
 mumsnet.com##.leading-snug
+mumsnet.com##[data-click-id="content-button"]:has-text(Related)
+mumsnet.com##[href^="/authors/"]:upward(1)
+mumsnet.com##a[target="_blank"]
+mumsnet.com##div[aria-hidden="true"]
 mumsnet.com##div[x-data^="postOptionsMenu"] + div:not([x-data^="postOptionsMenu"])
+mumsnet.com##nav[aria-label="Breadcrumb"]
 mumsnet.com##section.glide
 www.mumsnet.com###ad-leaderboard
 www.mumsnet.com###div-mn-non-standard-mobile
@@ -24291,10 +24297,12 @@ plumbingsuperstore.co.uk##.footer__benefits
 plumbingsuperstore.co.uk##.footer__finance
 plumbingsuperstore.co.uk##.footer__trade-signup
 plumbingsuperstore.co.uk##.good-builds-start
+plumbingsuperstore.co.uk##.guides-articles
 plumbingsuperstore.co.uk##.js-product-yotpo-points-container
 plumbingsuperstore.co.uk##.newsletter
 plumbingsuperstore.co.uk##.submenu__expert-tel
 plumbingsuperstore.co.uk##.trustpilot-container
+plumbingsuperstore.co.uk##h2:has-text(Super knowledge):upward(1)
 plumbingsuperstore.co.uk##ul.usp:upward(1)
 
 ! domains\plumbworld.co.uk.rules
@@ -27171,6 +27179,7 @@ screenrant.com##.w-heading-options
 screenrant.com##main ~ *
 
 ! SCREWFIX
+screwfix.com###fuds-mobile
 screwfix.com###recommendations_container > *
 screwfix.com##.banner
 screwfix.com##.banner-mg-wrap
@@ -27184,6 +27193,7 @@ screwfix.com##.footer__cards
 screwfix.com##.ft-regions__list
 screwfix.com##.ft-some
 screwfix.com##.fuds-container
+screwfix.com##.header-fuds
 screwfix.com##.homepage_assortment
 screwfix.com##.homepage_brands
 screwfix.com##.homepage_carousel
@@ -27197,37 +27207,35 @@ screwfix.com##.product_recall
 screwfix.com##.promo-certona
 screwfix.com##.share-container
 screwfix.com##.skinny-banner
-screwfix.com##.slick-slider
 screwfix.com##.ssb__color-changer
 screwfix.com##.truste_box_overlay
 screwfix.com##.truste_overlay
 screwfix.com##:xpath(//div[child::div[child::div[child::h2[contains(text(), 'More from Screwfix')]]]])
+screwfix.com##[data-qaid*="header-bottom-merchArea"]
+screwfix.com##[data-qaid="RangeBannerItem"]
+screwfix.com##[data-qaid="banners"]
+screwfix.com##[data-qaid="bulk-save-table"]
+screwfix.com##[data-qaid="bulksave-banner"]
 screwfix.com##[data-qaid="cms-text-component"] p:has-text(Shopping With Us):upward([data-qaid="cms-text-component"]):upward(1)
 screwfix.com##[data-qaid="cms-text-component"] p:has-text(Shopping With Us):upward([data-qaid="cms-text-component"]):upward(1) ~ *
 screwfix.com##[data-qaid="cms-text-component"] p:has-text(Top Summer Deals):upward([data-qaid="cms-text-component"]):upward(1)
 screwfix.com##[data-qaid="cms-text-component"] p:has-text(Top Summer Deals):upward([data-qaid="cms-text-component"]):upward(1) ~ *
 screwfix.com##[data-qaid="cms-text-component"]:has-text(Shop By Category):upward(3)
 screwfix.com##[data-qaid="customer_messaging"]
+screwfix.com##[data-qaid="full-width-text-banner"]
 screwfix.com##[data-qaid="green-star-banner"]
+screwfix.com##[data-qaid="image-banner"]
+screwfix.com##[data-qaid="pdp-best-seller-container"]
 screwfix.com##[data-qaid="pdp-save-price"]
+screwfix.com##[data-qaid="pdp-view-all-link"]
 screwfix.com##[data-qaid="product-badge"]
+screwfix.com##[data-qaid="productCard-badge"]
 screwfix.com##[data-qaid="productCard-save-price"]
+screwfix.com##[data-qaid="template-range-banner"]:upward(2)
+screwfix.com##footer
 screwfix.com##h2:has-text(Best sellers...):upward(3)
-www.screwfix.com###fuds-mobile
-www.screwfix.com##.header-fuds
-www.screwfix.com##[data-qaid*="header-bottom-merchArea"]
-www.screwfix.com##[data-qaid="RangeBannerItem"]
-www.screwfix.com##[data-qaid="banners"]
-www.screwfix.com##[data-qaid="bulk-save-table"]
-www.screwfix.com##[data-qaid="full-width-text-banner"]
-www.screwfix.com##[data-qaid="image-banner"]
-www.screwfix.com##[data-qaid="pdp-best-seller-container"]
-www.screwfix.com##[data-qaid="pdp-view-all-link"]
-www.screwfix.com##[data-qaid="productCard-badge"]
-www.screwfix.com##[data-qaid="template-range-banner"]:upward(2)
-www.screwfix.com##footer
-www.screwfix.com##p:has-text(Add to saved list…):upward(1)
-www.screwfix.com##span:has-text(SCREWFIX APP - DOWNLOAD NOW):upward(4)
+screwfix.com##p:has-text(Add to saved list…):upward(1)
+screwfix.com##span:has-text(SCREWFIX APP - DOWNLOAD NOW):upward(4)
 
 ! domains\scroll.com.rules
 ||scroll.com^
@@ -28709,6 +28717,17 @@ www.statista.com##.statisticTestimonial
 www.statista.com##.stickyPriceHeader
 www.statista.com##.structuredData__paywall
 www.statista.com##.toolbar
+
+! domains\statology.org.rules
+statology.org###comments
+statology.org###site-sidebar
+statology.org##.author
+statology.org##.boxzilla
+statology.org##.boxzilla-overlay
+statology.org##.byline
+statology.org##.entry-author
+statology.org##.entry-meta-footer
+statology.org##.post-navigation
 
 ! domains\statsignificant.com.rules
 statsignificant.com##.header-with-anchor-widget
@@ -32054,23 +32073,59 @@ toolsite.co.uk##.ba-widget-namespace
 ! TOOLSTATION
 toolstation.com###newsletter-sign-up
 toolstation.com###social-links:upward(2)
+toolstation.com##.alert-dismissable
 toolstation.com##.assettr
+toolstation.com##.cookies-notice
+toolstation.com##.float-right.sticky
+toolstation.com##.font-gilroy > .content-container:has-text(Finance provided by)
+toolstation.com##.footer-newsletter
+toolstation.com##.footer-social
+toolstation.com##.footer-top-section
+toolstation.com##.home-top-brands
+toolstation.com##.homepage-footer
+toolstation.com##.homepage-product-container
+toolstation.com##.homepage-why-toolstation
 toolstation.com##.logo
 toolstation.com##.menu-trigger-brands
-toolstation.com##.pathways_recommendations__title:upward(2)
+toolstation.com##.mobile-app-banner
+toolstation.com##.offer-value
+toolstation.com##.owl-carousel
+toolstation.com##.pathways_recommendations__title:upward(1)
+toolstation.com##.payment-option
+toolstation.com##.paypal-credit
 toolstation.com##.paypal-message-style
+toolstation.com##.product-also-like
+toolstation.com##.product-badge
 toolstation.com##.products__campaign
+toolstation.com##.related-container
 toolstation.com##.saveForLaterModal
-toolstation.com##.ssr-carousel
+toolstation.com##.saving-badge
+toolstation.com##.scrollToTop
+toolstation.com##.secure-payments
+toolstation.com##.see-also-did-you-mean
+toolstation.com##.sharing-icons
+toolstation.com##.smartbanner
+toolstation.com##.text-legacy-blue-default:has-text(save for later)
+toolstation.com##.top-right
+toolstation.com##.ts-usp-bar
+toolstation.com##.usp-bar
+toolstation.com##.we-accept
 toolstation.com##[aria-label="secondary navigation"] > ul > li > a[href^="/clearance"]:upward(li)
 toolstation.com##[aria-label="secondary navigation"] > ul > li > a[href^="/deals"]:upward(li)
 toolstation.com##[aria-label="secondary navigation"] > ul > li > a[href^="/new"]:upward(li)
+toolstation.com##[data-fetch-key^="ProductSocialProofing"]
+toolstation.com##[data-pp-placement="product"]
 toolstation.com##[data-testid="payment-options"]
 toolstation.com##[data-testid="share-btn"]
 toolstation.com##[data-testid="top-trade-brands-nav-item"]
+toolstation.com##[data-testid="usp-bar"]
+toolstation.com##[href="/club"]
+toolstation.com##[href^="https://apps.apple.com"]:upward(.bg-yellow-default)
 toolstation.com##[id*="zoid-paypal-message-uid"]
+toolstation.com##a[href^="/campaign/"]
 toolstation.com##button:has-text(Add to saved lists)
 toolstation.com##button[aria-label="Scroll to top of page"]
+toolstation.com##div[fragment]
 toolstation.com##h2:has-text(Latest from Toolstation)
 toolstation.com##h2:has-text(Our Top Sellers):upward(5)
 toolstation.com##h2:has-text(Our Top Sellers):upward(5) + div
@@ -32078,37 +32133,6 @@ toolstation.com##h2:has-text(Recommended):upward(5)
 toolstation.com##h2:has-text(Recommended):upward(5) + div
 toolstation.com##h2:has-text(Trusted Brands):upward(5)
 toolstation.com##h3:has-text(Over 25,000 trade quality products):upward(5)
-www.toolstation.com##.alert-dismissable
-www.toolstation.com##.cookies-notice
-www.toolstation.com##.float-right.sticky
-www.toolstation.com##.font-gilroy > .content-container:has-text(Finance provided by)
-www.toolstation.com##.footer-newsletter
-www.toolstation.com##.footer-social
-www.toolstation.com##.footer-top-section
-www.toolstation.com##.home-top-brands
-www.toolstation.com##.homepage-footer
-www.toolstation.com##.homepage-product-container
-www.toolstation.com##.homepage-why-toolstation
-www.toolstation.com##.mobile-app-banner
-www.toolstation.com##.offer-value
-www.toolstation.com##.owl-carousel
-www.toolstation.com##.payment-option
-www.toolstation.com##.paypal-credit
-www.toolstation.com##.product-also-like
-www.toolstation.com##.product-badge
-www.toolstation.com##.related-container
-www.toolstation.com##.saving-badge
-www.toolstation.com##.scrollToTop
-www.toolstation.com##.secure-payments
-www.toolstation.com##.see-also-did-you-mean
-www.toolstation.com##.sharing-icons
-www.toolstation.com##.smartbanner
-www.toolstation.com##.text-legacy-blue-default:has-text(save for later)
-www.toolstation.com##.top-right
-www.toolstation.com##.ts-usp-bar
-www.toolstation.com##.usp-bar
-www.toolstation.com##.we-accept
-www.toolstation.com##[href^="https://apps.apple.com"]:upward(.bg-yellow-default)
 
 ! domains\toomics.com.rules
 toomics.com###recommend_list_wrap
@@ -33139,6 +33163,11 @@ www.uk-timber.co.uk##.notice
 www.uk-timber.co.uk##.page-product-box:nth-of-type(2)
 www.uk-timber.co.uk##.print
 www.uk-timber.co.uk##.sendtofriend
+
+! domains\uk-water-filters.co.uk.rules
+uk-water-filters.co.uk###shopify-section-benefits-bar
+uk-water-filters.co.uk###shopify-section-static-announcement
+uk-water-filters.co.uk##.small-promo
 
 ! domains\uk-yankee.com.rules
 talk.uk-yankee.com###announcement
