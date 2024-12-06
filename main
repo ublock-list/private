@@ -1,7 +1,7 @@
 ! Title: Paul's Cosmetic Site Improvements
 ! Description: Cosmetic "improvements" for many common / popular sites
 ! Expires: 4 days
-! Last modified: Fri, 6 Dec 2024 10:42:58 +0000
+! Last modified: Fri, 6 Dec 2024 10:54:08 +0000
 ! Homepage: https://github.com/ublock-list/private/
 ! License: https://github.com/ublock-list/private/blob/master/LICENSE
 
@@ -19831,6 +19831,8 @@ marksandspencer.com##.one-feature-component
 marksandspencer.com##.order-confirmation-banner
 marksandspencer.com##.order-new-account
 marksandspencer.com##.outfitting-component
+marksandspencer.com##.payment-methods__clearpay
+marksandspencer.com##.payment-methods__paypal
 marksandspencer.com##.priority-badge
 marksandspencer.com##.product-listing
 marksandspencer.com##.product__badge
@@ -19851,11 +19853,14 @@ marksandspencer.com##.urgent-messaging
 marksandspencer.com##.usp-banner
 marksandspencer.com##[class*="back-to-top_backToTop"]
 marksandspencer.com##[class*="badge_badge"]
+marksandspencer.com##[class*="contact-me-container_box"]
 marksandspencer.com##[class*="container_container"] span:has-text(monthly payments):upward([class*="container_container"])
 marksandspencer.com##[class*="content-card_card"]
 marksandspencer.com##[class*="financials_financialsContainer"]
 marksandspencer.com##[class*="foundit-carousel_wrapper"]
+marksandspencer.com##[class*="gnav_featureCardContainer"]
 marksandspencer.com##[class*="hero-banner"]
+marksandspencer.com##[class*="message-banner-"]
 marksandspencer.com##[class*="newsletter-subscription"]
 marksandspencer.com##[class*="pdp-outfits-carousel_pdpOutfitsCarouselWrapper"]
 marksandspencer.com##[class*="popover_wrapper"]
@@ -19867,6 +19872,7 @@ marksandspencer.com##[class*="recommendations-carousel"]
 marksandspencer.com##[class*="shop-by-brand_container"]
 marksandspencer.com##[class*="shop-the-look-carousel_container"]
 marksandspencer.com##[class*="shop-the-look_wrapper"]
+marksandspencer.com##[class*="site-stripe_siteStripeContainer"]
 marksandspencer.com##[class*="site-stripe_sitestripe"]
 marksandspencer.com##[class*="socials_socialsContainer"]
 marksandspencer.com##[class*="socials_socialsWrapper"]
@@ -19874,6 +19880,7 @@ marksandspencer.com##[class*="top-header_siteStripeContainer"]
 marksandspencer.com##[class*="top-header_topHeaderWrapper"]
 marksandspencer.com##[class*="trade-tiles_root"]
 marksandspencer.com##[data-tagg="image-container"] a
+marksandspencer.com##[href="/account/wish-list"]
 marksandspencer.com##button:has-text(My wish list)
 marksandspencer.com##button[aria-label="My wish list"]
 marksandspencer.com##button[aria-label^="Move Item to wish list"]
